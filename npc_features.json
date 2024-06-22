@@ -398,7 +398,7 @@
     "tags": [
       {
         "id": "tg_recharge",
-        "val": "6"
+        "val": 6
       },
       {
         "id": "tg_full_action"
@@ -480,5 +480,233 @@
     ],
     "trigger": "A character affected by PARADOX STATE would take structure damage or stress.",
     "effect": "The triggering character instead regains all HP and clears all Heat, and the Ghost takes the structure damage or stress instead."
+  },
+  {
+    "id": "npcf_monomolecular_throwing_axe_hatchet",
+    "name": "Monomolecular Throwing Axe",
+    "origin": {
+      "type": "Class",
+      "name": "Hatchet",
+      "base": true
+    },
+    "locked": false,
+    "type": "Weapon",
+    "weapon_type": "Main Melee",
+    "tags": [
+      {
+        "id": "tg_thrown",
+        "val": 5
+      }
+    ],
+    "attack_bonus": [
+      1,
+      2,
+      3
+    ],
+    "range": [
+      {
+        "type": "Threat",
+        "val": 1
+      }
+    ],
+    "damage": [
+      {
+        "type": "Kinetic",
+        "damage": [
+          6,
+          8,
+          10
+        ]
+      }
+    ],
+    "effect": ""
+  },
+  {
+    "id": "npcf_cleaving_retrieval_hatchet",
+    "name": "Cleaving Retrieval",
+    "origin": {
+      "type": "Class",
+      "name": "Hatchet",
+      "base": true
+    },
+    "locked": false,
+    "type": "Trait",
+    "tags": [
+      {
+        "type": "tg_round",
+        "val": 1
+      }
+    ],
+    "effect": "When the Hatchet retrieves a THROWN weapon, all adjacent hostile characters must pass an AGILITY save or take {3/4/5} Kinetic damage and become SLOWED until the end of their next turn."
+  },
+  {
+    "id": "npcf_flip_kick_hatchet",
+    "name": "Flip Kick",
+    "origin": {
+      "type": "Class",
+      "name": "Hatchet",
+      "base": true
+    },
+    "locked": false,
+    "type": "Trait",
+    "tags": [
+      {
+        "type": "tg_recharge",
+        "val": 5
+      },
+      {
+        "type": "tg_quick_action"
+      }
+    ],
+    "effect": "One adjacent character must pass a HULL save or be pushed 2 spaces away from the Hatchet and knocked PRONE. Regardless of the result, the Hatchet flies 2 spaces away from the target."
+  },
+  {
+    "id": "npcf_whirlwind_kick_hatchet",
+    "name": "Whirlwind Kick",
+    "origin": {
+      "type": "Class",
+      "name": "Hatchet",
+      "base": false
+    },
+    "locked": false,
+    "type": "System",
+    "tags": [
+      {
+        "id": "tg_recharge",
+        "val": 5
+      },
+      {
+        "id": "tg_quick_action"
+      }
+    ],
+    "effect": "Adjacent hostile characters must pass a HULL save or be pushed 2 spaces away from the Hatchet and be IMPAIRED until the end of their next turn."
+  },
+  {
+    "id": "npcf_plasma_knife_hatchet",
+    "name": "Plasma Knife",
+    "origin": {
+      "type": "Class",
+      "name": "Hatchet",
+      "base": false
+    },
+    "locked": false,
+    "type": "Weapon",
+    "weapon_type": "Auxiliary Melee",
+    "tags": [
+      {
+        "id": "tg_ap"
+      },
+      {
+        "id": "tg_thrown",
+        "val": 5
+      }
+    ],
+    "attack_bonus": [
+      2,
+      4,
+      6
+    ],
+    "range": [
+      {
+        "type": "Threat",
+        "val": 1
+      }
+    ],
+    "damage": [
+      {
+        "type": "Energy",
+        "damage": [
+          3,
+          3,
+          3
+        ]
+      }
+    ],
+    "effect": "When retrieving this weapon, CLEAVING RETRIEVAL’S damage becomes AP."
+  },
+  {
+    "id": "npcf_rocket_bola_hatchet",
+    "name": "Monomolecular Throwing Axe",
+    "origin": {
+      "type": "Class",
+      "name": "Hatchet",
+      "base": false
+    },
+    "locked": false,
+    "type": "Weapon",
+    "weapon_type": "Auxiliary Melee",
+    "tags": [
+      {
+        "id": "tg_thrown",
+        "val": 10
+      }
+    ],
+    "attack_bonus": [
+      1,
+      2,
+      3
+    ],
+    "range": [
+      {
+        "type": "Threat",
+        "val": 1
+      }
+    ],
+    "damage": [
+      {
+        "type": "Kinetic",
+        "damage": [
+          2,
+          2,
+          2
+        ]
+      }
+    ],
+    "effect": "",
+    "on_hit": "The target must pass a HULL save or be IMMOBILIZED until the end of their next turn."
+  },
+  {
+    "id": "npcf_reckless_dive_hatchet",
+    "name": "Reckless Dive",
+    "origin": {
+      "type": "Class",
+      "name": "Hatchet",
+      "base": false
+    },
+    "locked": false,
+    "type": "Reaction",
+    "tags": [
+      {
+        "id": "tg_recharge",
+        "val": 5
+      },
+      {
+        "id": "tg_reaction"
+      }
+    ],
+    "trigger": "A ranged or THROWN melee attack hits the Hatchet.",
+    "effect": "The Hatchet interrupts the attack, moves up to its SPEED directly towards the attacker, and makes an attack against them. If this attack hits, the Hatchet gains RESISTANCE to all damage from the triggering attack."
+  },
+  {
+    "id": "npcf_return_to_sender_hatchet",
+    "name": "Return to Sender",
+    "origin": {
+      "type": "Class",
+      "name": "Hatchet",
+      "base": false
+    },
+    "locked": false,
+    "type": "Reaction",
+    "tags": [
+      {
+        "id": "tg_reaction"
+      },
+      {
+        "id": "tg_round",
+        "val": 1
+      }
+    ],
+    "trigger": "The Hatchet is targeted by a THROWN melee attack or would be affected by a GRENADE.",
+    "effect": "Roll 1d6. On a 4+, the attack or grenade is negated. If an attack was negated, the Hatchet repeats the attack against the attacker. If a grenade was negated, the Hatchet may throw the same grenade, targeting a space occupied by the grenade’s original controller. These effects ignore any range restrictions upon the triggering effect."
   }
 ]
