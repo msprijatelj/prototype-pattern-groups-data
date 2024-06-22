@@ -11,6 +11,9 @@
     "type": "System",
     "tags": [
       {
+        "id": "tg_shield"
+      },
+      {
         "id": "tg_recharge",
         "val": 5
       },
@@ -141,6 +144,9 @@
     "type": "Reaction",
     "tags": [
       {
+        "id": "tg_shield"
+      },
+      {
         "id": "tg_recharge",
         "val": 4
       },
@@ -184,7 +190,14 @@
     "locked": false,
     "type": "Weapon",
     "weapon_type": "Superheavy Cannon",
-    "tags": [],
+    "tags": [
+      {
+        "id": "tg_overshield"
+      },
+      {
+        "id": "tg_shield"
+      }
+    ],
     "attack_bonus": [
       1,
       2,
@@ -225,6 +238,9 @@
     "type": "Reaction",
     "tags": [
       {
+        "id": "tg_shield"
+      },
+      {
         "id": "tg_reaction"
       },
       {
@@ -244,7 +260,7 @@
       "base": false
     },
     "locked": false,
-    "type": "System",
+    "type": "Trait",
     "tags": [],
     "effect": "Allies affected by the MARATHON ARQUEBUS may clear up to one condition."
   },
@@ -282,6 +298,12 @@
     "type": "Tech",
     "tech_type": "Quick",
     "tags": [
+      {
+        "id": "tg_overshield"
+      },
+      {
+        "id": "tg_shield"
+      },
       {
         "id": "tg_recharge",
         "val": 5
@@ -328,6 +350,9 @@
         "id": "tg_drone"
       },
       {
+        "id": "tg_overshield"
+      },
+      {
         "id": "tg_limited",
         "val": 2
       },
@@ -335,7 +360,7 @@
         "id": "tg_quick_action"
       }
     ],
-    "effect": "Amplifier Drone (Size 1/2, HP {5/10/15}, Evasion 10, E-Defense 10, Tags: Drone)<br/><br/>This drone can be deployed to a space within SENSORS and line of sight. While deployed, it projects a Burst 2 electrified area. Allied characters in the area that gain any OVERSHIELD increase the amount gained by +2. Hostile characters that enter the area or end their turn there receive LOCK ON and cease to be INVISIBLE or HIDDEN."
+    "effect": "Amplifier Drone (Size 1/2, HP {5/10/15}, Evasion 10, E-Defense 10, Tags: Drone, Overshield)<br/><br/>This drone can be deployed to a space within SENSORS and line of sight. While deployed, it projects a Burst 2 electrified area. Allied characters in the area that gain any OVERSHIELD increase the amount gained by +2. Hostile characters that enter the area or end their turn there receive LOCK ON and cease to be INVISIBLE or HIDDEN."
   },
   {
     "id": "npcf_phase_shift_ghost",
@@ -804,6 +829,9 @@
         "id": "tg_deployable"
       },
       {
+        "id": "tg_shield"
+      },
+      {
         "id": "tg_limited",
         "val": 1
       },
@@ -811,7 +839,7 @@
         "id": "tg_quick_action"
       }
     ],
-    "effect": "Hero’s Banner (Size 1/2, HP {10/20/30}, Evasion 10, E-Defense 10, Tags: Deployable)<br/><br/>As a quick action, deploy a banner that projects a Burst 3 area in an adjacent space. Allied characters within the area gain RESISTANCE to all damage. If this banner is destroyed, allied characters in the area are SHREDDED until the end of their next turn."
+    "effect": "Hero’s Banner (Size 1/2, HP {10/20/30}, Evasion 10, E-Defense 10, Tags: Deployable, Shield)<br/><br/>As a quick action, deploy a banner that projects a Burst 3 area in an adjacent space. Allied characters within the area gain RESISTANCE to all damage. If this banner is destroyed, allied characters in the area are SHREDDED until the end of their next turn."
   },
   {
     "id": "npcf_sweeping_blows_knight",
@@ -1350,6 +1378,12 @@
     "tech_type": "Quick",
     "tags": [
       {
+        "id": "tg_overshield"
+      },
+      {
+        "id": "tg_shield"
+      },
+      {
         "id": "tg_recharge",
         "val": 6
       },
@@ -1407,6 +1441,12 @@
     "tech_type": "Quick",
     "tags": [
       {
+        "id": "tg_overshield"
+      },
+      {
+        "id": "tg_shield"
+      },
+      {
         "id": "tg_recharge",
         "val": 5
       },
@@ -1428,6 +1468,9 @@
     "type": "Tech",
     "tech_type": "Quick",
     "tags": [
+      {
+        "id": "tg_overshield"
+      },
       {
         "id": "tg_recharge",
         "val": 4
@@ -1453,7 +1496,11 @@
     },
     "locked": false,
     "type": "Trait",
-    "tags": [],
+    "tags": [
+      {
+        "id": "tg_overshield"
+      }
+    ],
     "effect": "When the Zealot would take structure damage or be destroyed, it first grants OVERSHIELD {2/3/4} to each allied character affected by ZEAL and inflicts {2/3/4} Burn on each hostile character affected by ZEAL."
   }
 ]
