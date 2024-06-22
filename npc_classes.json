@@ -1,6 +1,6 @@
 [
   {
-    "id": "npcc_anchor",
+    "id": "ppg_npcc_anchor",
     "name": "Anchor",
     "role": "defender",
     "info": {
@@ -86,21 +86,21 @@
       ]
     },
     "base_features": [
-      "npcf_lodestone_anchor",
-      "npcf_gravity_cannon_anchor",
-      "npcf_siege_armor_anchor"
+      "ppg_npcf_lodestone_anchor",
+      "ppg_npcf_gravity_cannon_anchor",
+      "ppg_npcf_siege_armor_anchor"
     ],
     "optional_features": [
-      "npcf_reality_anchor_anchor",
-      "npcf_omninet_grounding_anchor",
-      "npcf_newtonian_amplifier_anchor",
-      "npcf_magnetic_reversal_anchor",
-      "npcf_null_grav_motivator_anchor"
+      "ppg_npcf_reality_anchor_anchor",
+      "ppg_npcf_omninet_grounding_anchor",
+      "ppg_npcf_newtonian_amplifier_anchor",
+      "ppg_npcf_magnetic_reversal_anchor",
+      "ppg_npcf_null_grav_motivator_anchor"
     ],
     "power": 100
   },
   {
-    "id": "npcc_capacitor",
+    "id": "ppg_npcc_capacitor",
     "name": "Capacitor",
     "role": "support",
     "info": {
@@ -186,20 +186,20 @@
       ]
     },
     "base_features": [
-      "npcf_marathon_arquebus_capacitor",
-      "npcf_arc_feedback_capacitor"
+      "ppg_npcf_marathon_arquebus_capacitor",
+      "ppg_npcf_arc_feedback_capacitor"
     ],
     "optional_features": [
-      "npcf_purifying_lightning_capacitor",
-      "npcf_deflecting_shot_capacitor",
-      "npcf_quickening_bolt_capacitor",
-      "npcf_cyclic_discharge_capacitor",
-      "npcf_amplifier_drone_capacitor"
+      "ppg_npcf_purifying_lightning_capacitor",
+      "ppg_npcf_deflecting_shot_capacitor",
+      "ppg_npcf_quickening_bolt_capacitor",
+      "ppg_npcf_cyclic_discharge_capacitor",
+      "ppg_npcf_amplifier_drone_capacitor"
     ],
     "power": 100
   },
   {
-    "id": "npcc_ghost",
+    "id": "ppg_npcc_ghost",
     "name": "Ghost",
     "role": "support",
     "info": {
@@ -285,21 +285,21 @@
       ]
     },
     "base_features": [
-      "npcf_phase_shift_ghost",
-      "npcf_paradox_state_ghost",
-      "npcf_quantum_bond_ghost"
+      "ppg_npcf_phase_shift_ghost",
+      "ppg_npcf_paradox_state_ghost",
+      "ppg_npcf_quantum_bond_ghost"
     ],
     "optional_features": [
-      "npcf_superimpose_firmament_ghost",
-      "npcf_string_theory_marionette_ghost",
-      "npcf_wavefunction_collapse_ghost",
-      "npcf_spectral_flight_ghost",
-      "npcf_split_timestream_ghost"
+      "ppg_npcf_superimpose_firmament_ghost",
+      "ppg_npcf_string_theory_marionette_ghost",
+      "ppg_npcf_wavefunction_collapse_ghost",
+      "ppg_npcf_spectral_flight_ghost",
+      "ppg_npcf_split_timestream_ghost"
     ],
     "power": 100
   },
   {
-    "id": "npcc_hatchet",
+    "id": "ppg_npcc_hatchet",
     "name": "Hatchet",
     "role": "striker",
     "info": {
@@ -385,21 +385,21 @@
       ]
     },
     "base_features": [
-      "npcf_monomolecular_throwing_axe_hatchet",
-      "npcf_cleaving_retrieval_hatchet",
-      "npcf_flip_kick_hatchet"
+      "ppg_npcf_monomolecular_throwing_axe_hatchet",
+      "ppg_npcf_cleaving_retrieval_hatchet",
+      "ppg_npcf_flip_kick_hatchet"
     ],
     "optional_features": [
-      "npcf_whirlwind_kick_hatchet",
-      "npcf_plasma_knife_hatchet",
-      "npcf_rocket_bola_hatchet",
-      "npcf_reckless_dive_hatchet",
-      "npcf_return_to_sender_hatchet"
+      "ppg_npcf_whirlwind_kick_hatchet",
+      "ppg_npcf_plasma_knife_hatchet",
+      "ppg_npcf_rocket_bola_hatchet",
+      "ppg_npcf_reckless_dive_hatchet",
+      "ppg_npcf_return_to_sender_hatchet"
     ],
     "power": 100
   },
   {
-    "id": "npcc_knight",
+    "id": "ppg_npcc_knight",
     "name": "Knight",
     "role": "defender",
     "info": {
@@ -485,21 +485,21 @@
       ]
     },
     "base_features": [
-      "npcf_champions_greatsword_knight",
-      "npcf_compelled_duel_knight",
-      "npcf_punishing_blow_knight"
+      "ppg_npcf_champions_greatsword_knight",
+      "ppg_npcf_compelled_duel_knight",
+      "ppg_npcf_punishing_blow_knight"
     ],
     "optional_features": [
-      "npcf_heros_banner_knight",
-      "npcf_sweeping_blows_knight",
-      "npcf_templars_shield_knight",
-      "npcf_second_wind_knight",
-      "npcf_mighty_throw_knight"
+      "ppg_npcf_heros_banner_knight",
+      "ppg_npcf_sweeping_blows_knight",
+      "ppg_npcf_templars_shield_knight",
+      "ppg_npcf_second_wind_knight",
+      "ppg_npcf_mighty_throw_knight"
     ],
     "power": 100
   },
   {
-    "id": "npcc_mesmerist",
+    "id": "ppg_npcc_mesmerist",
     "name": "Mesmerist",
     "role": "defender",
     "info": {
@@ -585,22 +585,22 @@
       ]
     },
     "base_features": [
-      "npcf_center_stage_mesmerist",
-      "npcf_memetic_magnetism_mesmerist",
-      "npcf_mirror_image_mesmerist",
-      "npcf_codespike_rapier_mesmerist"
+      "ppg_npcf_center_stage_mesmerist",
+      "ppg_npcf_memetic_magnetism_mesmerist",
+      "ppg_npcf_mirror_image_mesmerist",
+      "ppg_npcf_codespike_rapier_mesmerist"
     ],
     "optional_features": [
-      "npcf_death_by_glamour_mesmerist",
-      "npcf_step_mesmerist",
-      "npcf_ozymandias_protocol_mesmerist",
-      "npcf_metafold_riposte_mesmerist",
-      "npcf_hypnotic_attraction_mesmerist"
+      "ppg_npcf_death_by_glamour_mesmerist",
+      "ppg_npcf_step_mesmerist",
+      "ppg_npcf_ozymandias_protocol_mesmerist",
+      "ppg_npcf_metafold_riposte_mesmerist",
+      "ppg_npcf_hypnotic_attraction_mesmerist"
     ],
     "power": 100
   },
   {
-    "id": "npcc_napalm",
+    "id": "ppg_npcc_napalm",
     "name": "Napalm",
     "role": "artillery",
     "info": {
@@ -686,21 +686,21 @@
       ]
     },
     "base_features": [
-      "npcf_salamander_thermobaric_catapult_napalm",
-      "npcf_adhesive_gel_napalm",
-      "npcf_emergency_vent_napalm"
+      "ppg_npcf_salamander_thermobaric_catapult_napalm",
+      "ppg_npcf_adhesive_gel_napalm",
+      "ppg_npcf_emergency_vent_napalm"
     ],
     "optional_features": [
-      "npcf_superhot_napalm",
-      "npcf_corrosive_gel_napalm",
-      "npcf_firefly_drone_napalm",
-      "npcf_incendiary_grenade_napalm",
-      "npcf_long_burn_catalyst_napalm"
+      "ppg_npcf_superhot_napalm",
+      "ppg_npcf_corrosive_gel_napalm",
+      "ppg_npcf_firefly_drone_napalm",
+      "ppg_npcf_incendiary_grenade_napalm",
+      "ppg_npcf_long_burn_catalyst_napalm"
     ],
     "power": 100
   },
   {
-    "id": "npcc_zealot",
+    "id": "ppg_npcc_zealot",
     "name": "Zealot",
     "role": "support",
     "info": {
@@ -786,16 +786,16 @@
       ]
     },
     "base_features": [
-      "npcf_zeal_zealot",
-      "npcf_emberlight_nexus_zealot",
-      "npcf_fanatical_charge_zealot"
+      "ppg_npcf_zeal_zealot",
+      "ppg_npcf_emberlight_nexus_zealot",
+      "ppg_npcf_fanatical_charge_zealot"
     ],
     "optional_features": [
-      "npcf_blazing_fervor_zealot",
-      "npcf_flagellants_cleansing_zealot",
-      "npcf_rally_the_righteous_zealot",
-      "npcf_brand_the_heretic_zealot",
-      "npcf_martyrdom_zealot"
+      "ppg_npcf_blazing_fervor_zealot",
+      "ppg_npcf_flagellants_cleansing_zealot",
+      "ppg_npcf_rally_the_righteous_zealot",
+      "ppg_npcf_brand_the_heretic_zealot",
+      "ppg_npcf_martyrdom_zealot"
     ],
     "power": 100
   }

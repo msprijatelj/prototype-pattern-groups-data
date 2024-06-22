@@ -1,6 +1,6 @@
 [
   {
-    "id": "npcf_lodestone_anchor",
+    "id": "ppg_npcf_lodestone_anchor",
     "name": "Lodestone",
     "origin": {
       "type": "Class",
@@ -24,7 +24,7 @@
     "effect": "The Anchor becomes SLOWED and creates a Burst 3 area of gravitomagnetic interference until the end of its next turn. While active, hostile characters in the area are SLOWED and cannot teleport into or out of the area.<br/><br/>Allied characters within the area are not valid targets for ranged attacks. Other characters with LODESTONE are unaffected by this system."
   },
   {
-    "id": "npcf_gravity_cannon_anchor",
+    "id": "ppg_npcf_gravity_cannon_anchor",
     "name": "Gravity Cannon",
     "origin": {
       "type": "Class",
@@ -73,7 +73,7 @@
     "on_hit": "The target must pass a HULL save or be pulled 3 spaces directly towards the Anchor (Attract) or pushed 3 spaces directly away from the Anchor (Repulse) until they hit an obstruction. If the target collides with an obstruction, they are knocked PRONE."
   },
   {
-    "id": "npcf_siege_armor_anchor",
+    "id": "ppg_npcf_siege_armor_anchor",
     "name": "Siege Armor",
     "origin": {
       "type": "Class",
@@ -86,7 +86,7 @@
     "effect": "The Anchor has RESISTANCE to all damage from attacks that originate beyond Range 3."
   },
   {
-    "id": "npcf_reality_anchor_anchor",
+    "id": "ppg_npcf_reality_anchor_anchor",
     "name": "Reality Anchor",
     "origin": {
       "type": "Class",
@@ -99,7 +99,7 @@
     "effect": "All characters affected by LODESTONE gain IMMUNITY to INTANGIBLE. In addition, they may target and affect INTANGIBLE characters and objects, and they may be targeted and affected by INTANGIBLE characters."
   },
   {
-    "id": "npcf_omninet_grounding_anchor",
+    "id": "ppg_npcf_omninet_grounding_anchor",
     "name": "Omninet Grounding",
     "origin": {
       "type": "Class",
@@ -112,7 +112,7 @@
     "effect": "Allied characters affected by LODESTONE are not valid targets for tech actions."
   },
   {
-    "id": "npcf_newtonian_amplifier_anchor",
+    "id": "ppg_npcf_newtonian_amplifier_anchor",
     "name": "Newtonian Amplifier",
     "origin": {
       "type": "Class",
@@ -133,7 +133,7 @@
     "effect": "The Anchor creates a Line 8 path of gravitic energy. All characters within the path or above it must pass a HULL save or first be IMMOBILIZED until the end of their next turn and then knocked PRONE."
   },
   {
-    "id": "npcf_magnetic_reversal_anchor",
+    "id": "ppg_npcf_magnetic_reversal_anchor",
     "name": "Magnetic Reversal",
     "origin": {
       "type": "Class",
@@ -158,7 +158,7 @@
     "effect": "The allied character gains RESISTANCE to all damage from the attack, and the attacker must pass a HULL save or be pushed 3 spaces away from their target and knocked PRONE."
   },
   {
-    "id": "npcf_null_grav_motivator_anchor",
+    "id": "ppg_npcf_null_grav_motivator_anchor",
     "name": "Null-Grav Motivator",
     "origin": {
       "type": "Class",
@@ -180,7 +180,7 @@
     "effect": "The Anchor creates three Blast 1 areas in SENSORS extending 6 spaces high. These areas become zero-g areas that last until the Anchor uses this system again. Characters within the areas upon their creation must pass an AGILITY save or be IMPAIRED until the end of their next turn."
   },
   {
-    "id": "npcf_marathon_arquebus_capacitor",
+    "id": "ppg_npcf_marathon_arquebus_capacitor",
     "name": "Marathon Arquebus",
     "origin": {
       "type": "Class",
@@ -227,7 +227,7 @@
     "effect": "Allied characters in the affected area are not attacked, but instead gain OVERSHIELD {2/4/6}.<br/><br/>The Capacitor gains OVERSHIELD equal to the number of characters damaged or granted OVERSHIELD by this weapon."
   },
   {
-    "id": "npcf_arc_feedback_capacitor",
+    "id": "ppg_npcf_arc_feedback_capacitor",
     "name": "Arc Feedback",
     "origin": {
       "type": "Class",
@@ -252,7 +252,7 @@
     "effect": "The hostile character takes {2/4/6} Energy damage and is IMPAIRED until the end of their next turn."
   },
   {
-    "id": "npcf_purifying_lightning_capacitor",
+    "id": "ppg_npcf_purifying_lightning_capacitor",
     "name": "Purifying Lightning",
     "origin": {
       "type": "Class",
@@ -265,7 +265,7 @@
     "effect": "Allies affected by the MARATHON ARQUEBUS may clear up to one condition."
   },
   {
-    "id": "npcf_deflecting_shot_capacitor",
+    "id": "ppg_npcf_deflecting_shot_capacitor",
     "name": "Deflecting Shot",
     "origin": {
       "type": "Class",
@@ -287,7 +287,7 @@
     "effect": "The Capacitor first BARRAGES with the MARATHON ARQUEBUS. The triggering allied character must be included in the attack’s area."
   },
   {
-    "id": "npcf_quickening_bolt_capacitor",
+    "id": "ppg_npcf_quickening_bolt_capacitor",
     "name": "Quickening Bolt",
     "origin": {
       "type": "Class",
@@ -315,7 +315,7 @@
     "effect": "Choose one character within SENSORS. The target gains OVERSHIELD {4/6/8}. Until the target loses all OVERSHIELD, they may BOOST as a free action."
   },
   {
-    "id": "npcf_cyclic_discharge_capacitor",
+    "id": "ppg_npcf_cyclic_discharge_capacitor",
     "name": "Cyclic Discharge",
     "origin": {
       "type": "Class",
@@ -336,7 +336,7 @@
     "effect": "The Capacitor loses all OVERSHIELD. Its next weapon attack deals bonus damage equal to the OVERSHIELD lost."
   },
   {
-    "id": "npcf_amplifier_drone_capacitor",
+    "id": "ppg_npcf_amplifier_drone_capacitor",
     "name": "Amplifier Drone",
     "origin": {
       "type": "Class",
@@ -363,7 +363,7 @@
     "effect": "Amplifier Drone (Size 1/2, HP {5/10/15}, Evasion 10, E-Defense 10, Tags: Drone, Overshield)<br/><br/>This drone can be deployed to a space within SENSORS and line of sight. While deployed, it projects a Burst 2 electrified area. Allied characters in the area that gain any OVERSHIELD increase the amount gained by +2. Hostile characters that enter the area or end their turn there receive LOCK ON and cease to be INVISIBLE or HIDDEN."
   },
   {
-    "id": "npcf_phase_shift_ghost",
+    "id": "ppg_npcf_phase_shift_ghost",
     "name": "Phase Shift",
     "origin": {
       "type": "Class",
@@ -376,7 +376,7 @@
     "effect": "This character is INTANGIBLE on their turn. While INTANGIBLE, they can target and affect tangible characters and objects, but only deal half damage, Heat, Burn or to all targets."
   },
   {
-    "id": "npcf_paradox_state_ghost",
+    "id": "ppg_npcf_paradox_state_ghost",
     "name": "Paradox State",
     "origin": {
       "type": "Class",
@@ -393,7 +393,7 @@
     "effect": "While this effect lasts, the Ghost becomes INTANGIBLE and enters one space occupied by tangible adjacent character. The Ghost moves with the target’s voluntary movement. As a protocol, the target may take 2 Heat to gain the Ghost’s PHASE SHIFT feature until the end of their turn. If either character takes Heat or receives any condition, the other character receives the same amount of Heat and gains that condition for the same duration. This effect lasts until the Ghost no longer shares a space with the target, or until the Ghost is STUNNED, JAMMED, overheated, or destroyed."
   },
   {
-    "id": "npcf_quantum_bond_ghost",
+    "id": "ppg_npcf_quantum_bond_ghost",
     "name": "Quantum Bond",
     "origin": {
       "type": "Class",
@@ -411,7 +411,7 @@
     "effect": "The Ghost targets a character affected by PARADOX STATE. The next time a hostile action is taken against the target, roll 1d6: On a 4+, the target is INTANGIBLE during the action. This effect does not stack with INVISIBLE."
   },
   {
-    "id": "npcf_superimpose_firmament_ghost",
+    "id": "ppg_npcf_superimpose_firmament_ghost",
     "name": "Superimpose Firmament",
     "origin": {
       "type": "Class",
@@ -432,7 +432,7 @@
     "effect": "The Ghost projects a Burst 2 area of Firmament energy. All tangible characters, objects, terrain, and sitrep objectives are INTANGIBLE while within the area (so INTANGIBLE characters can interact with sitrep objectives within and tangible ones cannot). The area lasts until the end of the Ghost’s next turn."
   },
   {
-    "id": "npcf_string_theory_marionette_ghost",
+    "id": "ppg_npcf_string_theory_marionette_ghost",
     "name": "String Theory Marionette",
     "origin": {
       "type": "Class",
@@ -450,7 +450,7 @@
     "effect": "The Ghost targets a character affected by PARADOX STATE. The target may either SKIRMISH or use QUICK TECH as a reaction, dealing half damage, Heat, Burn or to all targets."
   },
   {
-    "id": "npcf_wavefunction_collapse_ghost",
+    "id": "ppg_npcf_wavefunction_collapse_ghost",
     "name": "Wavefunction Collapse",
     "origin": {
       "type": "Class",
@@ -472,7 +472,7 @@
     "effect": "The Ghost may first use QUANTUM BOND."
   },
   {
-    "id": "npcf_spectral_flight_ghost",
+    "id": "ppg_npcf_spectral_flight_ghost",
     "name": "Spectral Flight",
     "origin": {
       "type": "Class",
@@ -485,7 +485,7 @@
     "effect": "Characters affected by PHASE SHIFT may treat all of their movement as flying."
   },
   {
-    "id": "npcf_split_timestream_ghost",
+    "id": "ppg_npcf_split_timestream_ghost",
     "name": "Split Timestream",
     "origin": {
       "type": "Class",
@@ -507,7 +507,7 @@
     "effect": "The triggering character instead regains all HP and clears all Heat, and the Ghost takes the structure damage or stress instead."
   },
   {
-    "id": "npcf_monomolecular_throwing_axe_hatchet",
+    "id": "ppg_npcf_monomolecular_throwing_axe_hatchet",
     "name": "Monomolecular Throwing Axe",
     "origin": {
       "type": "Class",
@@ -547,7 +547,7 @@
     "effect": ""
   },
   {
-    "id": "npcf_cleaving_retrieval_hatchet",
+    "id": "ppg_npcf_cleaving_retrieval_hatchet",
     "name": "Cleaving Retrieval",
     "origin": {
       "type": "Class",
@@ -565,7 +565,7 @@
     "effect": "When the Hatchet retrieves a THROWN weapon, all adjacent hostile characters must pass an AGILITY save or take {3/4/5} Kinetic damage and become SLOWED until the end of their next turn."
   },
   {
-    "id": "npcf_flip_kick_hatchet",
+    "id": "ppg_npcf_flip_kick_hatchet",
     "name": "Flip Kick",
     "origin": {
       "type": "Class",
@@ -586,7 +586,7 @@
     "effect": "One adjacent character must pass a HULL save or be pushed 2 spaces away from the Hatchet and knocked PRONE. Regardless of the result, the Hatchet flies 2 spaces away from the target."
   },
   {
-    "id": "npcf_whirlwind_kick_hatchet",
+    "id": "ppg_npcf_whirlwind_kick_hatchet",
     "name": "Whirlwind Kick",
     "origin": {
       "type": "Class",
@@ -607,7 +607,7 @@
     "effect": "Adjacent hostile characters must pass a HULL save or be pushed 2 spaces away from the Hatchet and be IMPAIRED until the end of their next turn."
   },
   {
-    "id": "npcf_plasma_knife_hatchet",
+    "id": "ppg_npcf_plasma_knife_hatchet",
     "name": "Plasma Knife",
     "origin": {
       "type": "Class",
@@ -650,7 +650,7 @@
     "effect": "When retrieving this weapon, CLEAVING RETRIEVAL’S damage becomes AP."
   },
   {
-    "id": "npcf_rocket_bola_hatchet",
+    "id": "ppg_npcf_rocket_bola_hatchet",
     "name": "Monomolecular Throwing Axe",
     "origin": {
       "type": "Class",
@@ -691,7 +691,7 @@
     "on_hit": "The target must pass a HULL save or be IMMOBILIZED until the end of their next turn."
   },
   {
-    "id": "npcf_reckless_dive_hatchet",
+    "id": "ppg_npcf_reckless_dive_hatchet",
     "name": "Reckless Dive",
     "origin": {
       "type": "Class",
@@ -713,7 +713,7 @@
     "effect": "The Hatchet interrupts the attack, moves up to its SPEED directly towards the attacker, and makes an attack against them. If this attack hits, the Hatchet gains RESISTANCE to all damage from the triggering attack."
   },
   {
-    "id": "npcf_return_to_sender_hatchet",
+    "id": "ppg_npcf_return_to_sender_hatchet",
     "name": "Return to Sender",
     "origin": {
       "type": "Class",
@@ -735,7 +735,7 @@
     "effect": "Roll 1d6. On a 4+, the attack or grenade is negated. If an attack was negated, the Hatchet repeats the attack against the attacker. If a grenade was negated, the Hatchet may throw the same grenade, targeting a space occupied by the grenade’s original controller. These effects ignore any range restrictions upon the triggering effect."
   },
   {
-    "id": "npcf_champions_greatsword_knight",
+    "id": "ppg_npcf_champions_greatsword_knight",
     "name": "Champion’s Greatsword",
     "origin": {
       "type": "Class",
@@ -775,7 +775,7 @@
     "effect": "On Critical Hit: The target gains LOCK ON."
   },
   {
-    "id": "npcf_compelled_duel_knight",
+    "id": "ppg_npcf_compelled_duel_knight",
     "name": "Compelled Duel",
     "origin": {
       "type": "Class",
@@ -793,7 +793,7 @@
     "effect": "A hostile character within SENSORS and line of sight must pass a SYSTEMS save or enter a duel with the Knight. Characters in a duel receive +3 Difficulty on all attacks that don’t include their opponent as a target and cannot voluntarily move away from each other. If a dueling character makes any attack against their opponent, these effects cease for them until the start of their next turn.<br/><br/>The duel lasts until the end of the scene or until one of the opponents is destroyed. Each character cannot enter another duel until the end of this duel."
   },
   {
-    "id": "npcf_punishing_blow_knight",
+    "id": "ppg_npcf_punishing_blow_knight",
     "name": "Punishing Blow",
     "origin": {
       "type": "Class",
@@ -815,7 +815,7 @@
     "effect": "The Knight SKIRMISHES the triggering character, knocking them PRONE on a hit."
   },
   {
-    "id": "npcf_heros_banner_knight",
+    "id": "ppg_npcf_heros_banner_knight",
     "name": "Hero’s Banner",
     "origin": {
       "type": "Class",
@@ -842,7 +842,7 @@
     "effect": "Hero’s Banner (Size 1/2, HP {10/20/30}, Evasion 10, E-Defense 10, Tags: Deployable, Shield)<br/><br/>As a quick action, deploy a banner that projects a Burst 3 area in an adjacent space. Allied characters within the area gain RESISTANCE to all damage. If this banner is destroyed, allied characters in the area are SHREDDED until the end of their next turn."
   },
   {
-    "id": "npcf_sweeping_blows_knight",
+    "id": "ppg_npcf_sweeping_blows_knight",
     "name": "Sweeping Blows",
     "origin": {
       "type": "Class",
@@ -855,7 +855,7 @@
     "effect": "When attacking with the CHAMPION’S GREATSWORD, the Knight may choose to attack in a Cone 3 area."
   },
   {
-    "id": "npcf_templars_shield_knight",
+    "id": "ppg_npcf_templars_shield_knight",
     "name": "Templar’s Shield",
     "origin": {
       "type": "Class",
@@ -879,7 +879,7 @@
     "effect": "The Knight raises a shield, gaining RESISTANCE to all damage from its duel opponent until the end of its next turn."
   },
   {
-    "id": "npcf_second_wind_knight",
+    "id": "ppg_npcf_second_wind_knight",
     "name": "Second Wind",
     "origin": {
       "type": "Class",
@@ -900,7 +900,7 @@
     "effect": "The Knight regains half of its HP and clears one condition. The Knight can take this action even if it would be prevented from taking actions on its turn."
   },
   {
-    "id": "npcf_mighty_throw_knight",
+    "id": "ppg_npcf_mighty_throw_knight",
     "name": "Mighty Throw",
     "origin": {
       "type": "Class",
@@ -918,7 +918,7 @@
     "effect": "The Knight throws an adjacent character. If the target is an ally, they are pushed 5 spaces away from the Knight. If the target is hostile, they must pass a HULL save or be pushed 3 spaces away from the Knight and knocked PRONE."
   },
   {
-    "id": "npcf_center_stage_mesmerist",
+    "id": "ppg_npcf_center_stage_mesmerist",
     "name": "Center Stage",
     "origin": {
       "type": "Class",
@@ -931,7 +931,7 @@
     "effect": "The Mesmerist cannot HIDE nor become HIDDEN."
   },
   {
-    "id": "npcf_memetic_magnetism_mesmerist",
+    "id": "ppg_npcf_memetic_magnetism_mesmerist",
     "name": "Memetic Magnetism",
     "origin": {
       "type": "Class",
@@ -958,7 +958,7 @@
     "effect": "The Mesmerist makes a tech attack against all hostile characters within Burst {2/3/4}. On a hit, until the end of their next turn, the target takes {2/3/4} Heat whenever they perform any hostile action that doesn’t include the Mesmerist as a target."
   },
   {
-    "id": "npcf_mirror_image_mesmerist",
+    "id": "ppg_npcf_mirror_image_mesmerist",
     "name": "Mirror Image",
     "origin": {
       "type": "Class",
@@ -980,7 +980,7 @@
     "effect": "Roll 1d3. The Mesmerist creates that many mirror images that occupy its space and last until it uses this system again. The Mesmerist is INVISIBLE for as long as it has any mirror images. Every attack that misses the Mesmerist destroys 1 mirror image."
   },
   {
-    "id": "npcf_codespike_rapier_mesmerist",
+    "id": "ppg_npcf_codespike_rapier_mesmerist",
     "name": "Codespike Rapier",
     "origin": {
       "type": "Class",
@@ -1023,7 +1023,7 @@
     "effect": "On Critical Hit: The target becomes JAMMED until the end of their next turn.<br/><br/>Successful attacks with this weapon made as a reaction are treated as critical hits."
   },
   {
-    "id": "npcf_death_by_glamour_mesmerist",
+    "id": "ppg_npcf_death_by_glamour_mesmerist",
     "name": "Death by Glamour",
     "origin": {
       "type": "Class",
@@ -1036,7 +1036,7 @@
     "effect": "When destroyed, a mirror image deals {1/2/3} Heat to the attacker."
   },
   {
-    "id": "npcf_step_mesmerist",
+    "id": "ppg_npcf_step_mesmerist",
     "name": "Step",
     "origin": {
       "type": "Class",
@@ -1057,7 +1057,7 @@
     "effect": "The Mesmerist teleports to a free space within line of sight and Range 50."
   },
   {
-    "id": "npcf_ozymandias_protocol_mesmerist",
+    "id": "ppg_npcf_ozymandias_protocol_mesmerist",
     "name": "Ozymandias Protocol",
     "origin": {
       "type": "Class",
@@ -1074,7 +1074,7 @@
     "effect": "Until the end of the Mesmerist’s next turn, the Mesmerist becomes EXPOSED, and any actions taken by hostile characters within THREAT of the Mesmerist’s weapons must include it or another character using OZYMANDIAS PROTOCOL as a target."
   },
   {
-    "id": "npcf_metafold_riposte_mesmerist",
+    "id": "ppg_npcf_metafold_riposte_mesmerist",
     "name": "Metafold Riposte",
     "origin": {
       "type": "Class",
@@ -1096,7 +1096,7 @@
     "effect": "The Mesmerist first swaps places with the allied character, each character teleporting to the other’s position. The Mesmerist may then SKIRMISH against the attacker. Afterwards, the Mesmerist then becomes the target of the attack instead."
   },
   {
-    "id": "npcf_hypnotic_attraction_mesmerist",
+    "id": "ppg_npcf_hypnotic_attraction_mesmerist",
     "name": "Hypnotic Attraction",
     "origin": {
       "type": "Class",
@@ -1123,7 +1123,7 @@
     "effect": "The Mesmerist makes a tech attack against a target within SENSORS. On a success, the target moves its maximum SPEED towards the Mesmerist via the most efficient route possible. This movement is involuntary, but provokes reactions and ENGAGEMENT as normal."
   },
   {
-    "id": "npcf_salamander_thermobaric_catapult_napalm",
+    "id": "ppg_npcf_salamander_thermobaric_catapult_napalm",
     "name": "Salamander Thermobaric Catapult",
     "origin": {
       "type": "Class",
@@ -1181,7 +1181,7 @@
     "effect": "This weapon attacks by drawing its line in any direction from a point within its range."
   },
   {
-    "id": "npcf_adhesive_gel_napalm",
+    "id": "ppg_npcf_adhesive_gel_napalm",
     "name": "Adhesive Gel",
     "origin": {
       "type": "Class",
@@ -1194,7 +1194,7 @@
     "effect": "Characters who take any Burn from the Napalm’s abilities must pass an AGILITY save or be SLOWED until they clear all Burn."
   },
   {
-    "id": "npcf_emergency_vent_napalm",
+    "id": "ppg_npcf_emergency_vent_napalm",
     "name": "Emergency Vent",
     "origin": {
       "type": "Class",
@@ -1207,7 +1207,7 @@
     "effect": "When the Napalm exceeds its HEAT CAP or becomes STUNNED, it becomes INVISIBLE until the start of its next turn."
   },
   {
-    "id": "npcf_superhot_napalm",
+    "id": "ppg_npcf_superhot_napalm",
     "name": "Superhot",
     "origin": {
       "type": "Class",
@@ -1232,7 +1232,7 @@
     "effect": "The Napalm gains RESISTANCE to all damage from the attack. The attacker must pass an ENGINEERING save or take {2/4/6} Burn."
   },
   {
-    "id": "npcf_corrosive_gel_napalm",
+    "id": "ppg_npcf_corrosive_gel_napalm",
     "name": "Corrosive Gel",
     "origin": {
       "type": "Class",
@@ -1245,7 +1245,7 @@
     "effect": "Characters affected by ADHESIVE GEL are also SHREDDED until they clear all Burn."
   },
   {
-    "id": "npcf_firefly_drone_napalm",
+    "id": "ppg_npcf_firefly_drone_napalm",
     "name": "Firefly Drone",
     "origin": {
       "type": "Class",
@@ -1269,7 +1269,7 @@
     "effect": "Firefly Drone (Size 1/2, HP {5/10/15}, Evasion 10, E-Defense 10, Tags: Drone)<br/><br/>This drone can be deployed to a space within SENSORS and line of sight. While deployed, hostile characters in Burst 2 of the drone cannot draw line of sight outside of the area. If the drone takes any Burn, it explodes; all characters in Burst 2 must pass an AGILITY save or take {3/4/5} Burn."
   },
   {
-    "id": "npcf_incendiary_grenade_napalm",
+    "id": "ppg_npcf_incendiary_grenade_napalm",
     "name": "Incendiary Grenade",
     "origin": {
       "type": "Class",
@@ -1293,7 +1293,7 @@
     "effect": "The Napalm expends a charge for the following effect:<br/><br/>INCENDIARY GRENADE (Grenade, Range 5, Blast 1):<br/>The affected area becomes a zone of burning difficult terrain until it’s put out or until the end of the scene. Characters that are within the zone upon this system’s activation, move into the zone for the first time in a round, or end their turn there must pass an ENGINEERING save or take {3/4/5} Burn."
   },
   {
-    "id": "npcf_long_burn_catalyst_napalm",
+    "id": "ppg_npcf_long_burn_catalyst_napalm",
     "name": "Long-Burn Catalyst",
     "origin": {
       "type": "Class",
@@ -1306,7 +1306,7 @@
     "effect": "The area targeted by the SALAMANDER THERMOBARIC CATAPULT becomes a zone of difficult terrain until it’s put out or until the end of the Napalm’s next turn. Characters that move into the zone for the first time in a round or end their turn there must pass an ENGINEERING save or take {6/8/10} Burn."
   },
   {
-    "id": "npcf_zeal_zealot",
+    "id": "ppg_npcf_zeal_zealot",
     "name": "Zeal",
     "origin": {
       "type": "Class",
@@ -1327,7 +1327,7 @@
     "effect": "The Zealot emanates a Burst 3 area of zealous energy. The following effects apply to characters within the area:<ul><li>Attacks made by allied characters against targets within the Zealot’s SENSORS gain AP.</li><li>Hostile characters that have any Burn lose INVISIBLE and HIDDEN and can’t regain either status until they leave the area.</li></ul>This area lasts until the end of the Zealot’s next turn, it uses this protocol again, or the Zealot is STUNNED, JAMMED, overheated, or destroyed."
   },
   {
-    "id": "npcf_emberlight_nexus_zealot",
+    "id": "ppg_npcf_emberlight_nexus_zealot",
     "name": "Emberlight Nexus",
     "origin": {
       "type": "Class",
@@ -1366,7 +1366,7 @@
     "effect": "This weapon ignores INVISIBLE and doesn’t affect allied characters."
   },
   {
-    "id": "npcf_fanatical_charge_zealot",
+    "id": "ppg_npcf_fanatical_charge_zealot",
     "name": "Fanatical Charge",
     "origin": {
       "type": "Class",
@@ -1394,7 +1394,7 @@
     "effect": "The Zealot flies up to its SPEED and gains OVERSHIELD {4/6/8}. Allied characters affected by ZEAL at any point during this movement may BOOST as a reaction. At the end of the Zealot’s movement, all allied characters affected by ZEAL gain OVERSHIELD {2/3/4}."
   },
   {
-    "id": "npcf_blazing_fervor_zealot",
+    "id": "ppg_npcf_blazing_fervor_zealot",
     "name": "Blazing Fervor",
     "origin": {
       "type": "Class",
@@ -1407,7 +1407,7 @@
     "effect": "Allied characters affected by ZEAL deal an additional 1 Burn on successful attacks."
   },
   {
-    "id": "npcf_flagellants_cleansing_zealot",
+    "id": "ppg_npcf_flagellants_cleansing_zealot",
     "name": "Flagellant’s Cleansing",
     "origin": {
       "type": "Class",
@@ -1429,7 +1429,7 @@
     "effect": "The Zealot clears up to one condition on each allied character affected by ZEAL. The Zealot gains each condition cleared until the end of its next turn."
   },
   {
-    "id": "npcf_rally_the_righteous_zealot",
+    "id": "ppg_npcf_rally_the_righteous_zealot",
     "name": "Rally the Righteous",
     "origin": {
       "type": "Class",
@@ -1457,7 +1457,7 @@
     "effect": "The Zealot may pull any number of allied characters within SENSORS up to 5 spaces directly towards it. The Zealot and all allied characters affected by ZEAL may then gain OVERSHIELD {2/3/4}."
   },
   {
-    "id": "npcf_brand_the_heretic_zealot",
+    "id": "ppg_npcf_brand_the_heretic_zealot",
     "name": "Brand the Heretic",
     "origin": {
       "type": "Class",
@@ -1487,7 +1487,7 @@
     "effect": "The Zealot makes a tech attack against a character within SENSORS. On a hit, the target gains LOCK ON. When an allied character consumes this LOCK ON, they gain OVERSHIELD {4/5/6}, and any damage they deal to the target cannot be reduced."
   },
   {
-    "id": "npcf_martyrdom_zealot",
+    "id": "ppg_npcf_martyrdom_zealot",
     "name": "Martyrdom",
     "origin": {
       "type": "Class",
