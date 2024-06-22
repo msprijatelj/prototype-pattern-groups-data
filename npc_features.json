@@ -888,5 +888,210 @@
       }
     ],
     "effect": "The Knight throws an adjacent character. If the target is an ally, they are pushed 5 spaces away from the Knight. If the target is hostile, they must pass a HULL save or be pushed 3 spaces away from the Knight and knocked PRONE."
+  },
+  {
+    "id": "npcf_center_stage_mesmerist",
+    "name": "Center Stage",
+    "origin": {
+      "type": "Class",
+      "name": "Mesmerist",
+      "base": true
+    },
+    "locked": false,
+    "type": "Trait",
+    "tags": [],
+    "effect": "The Mesmerist cannot HIDE nor become HIDDEN."
+  },
+  {
+    "id": "npcf_memetic_magnetism_mesmerist",
+    "name": "Memetic Magnetism",
+    "origin": {
+      "type": "Class",
+      "name": "Mesmerist",
+      "base": true
+    },
+    "locked": false,
+    "type": "Tech",
+    "tech_type": "Quick",
+    "tags": [
+      {
+        "id": "tg_recharge",
+        "val": 5
+      },
+      {
+        "id": "tg_quick_tech"
+      }
+    ],
+    "attack_bonus": [
+      1,
+      2,
+      3
+    ],
+    "effect": "The Mesmerist makes a tech attack against all hostile characters within Burst {2/3/4}. On a hit, until the end of their next turn, the target takes {2/3/4} Heat whenever they perform any hostile action that doesn’t include the Mesmerist as a target."
+  },
+  {
+    "id": "npcf_mirror_image_mesmerist",
+    "name": "Mirror Image",
+    "origin": {
+      "type": "Class",
+      "name": "Mesmerist",
+      "base": true
+    },
+    "locked": false,
+    "type": "Tech",
+    "tech_type": "Quick",
+    "tags": [
+      {
+        "id": "tg_recharge",
+        "val": 5
+      },
+      {
+        "id": "tg_quick_tech"
+      }
+    ],
+    "effect": "Roll 1d3. The Mesmerist creates that many mirror images that occupy its space and last until it uses this system again. The Mesmerist is INVISIBLE for as long as it has any mirror images. Every attack that misses the Mesmerist destroys 1 mirror image."
+  },
+  {
+    "id": "npcf_codespike_rapier_mesmerist",
+    "name": "Codespike Rapier",
+    "origin": {
+      "type": "Class",
+      "name": "Mesmerist",
+      "base": true
+    },
+    "locked": false,
+    "type": "Weapon",
+    "weapon_type": "Main Melee",
+    "tags": [],
+    "attack_bonus": [
+      2,
+      4,
+      6
+    ],
+    "range": [
+      {
+        "type": "Threat",
+        "val": 2
+      }
+    ],
+    "damage": [
+      {
+        "type": "Energy",
+        "damage": [
+          4,
+          6,
+          8
+        ]
+      },
+      {
+        "type": "Heat",
+        "damage": [
+          2,
+          3,
+          4
+        ]
+      }
+    ],
+    "effect": "On Critical Hit: The target becomes JAMMED until the end of their next turn.<br/><br/>Successful attacks with this weapon made as a reaction are treated as critical hits."
+  },
+  {
+    "id": "npcf_death_by_glamour_mesmerist",
+    "name": "Death by Glamour",
+    "origin": {
+      "type": "Class",
+      "name": "Mesmerist",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "tags": [],
+    "effect": "When destroyed, a mirror image deals {1/2/3} Heat to the attacker."
+  },
+  {
+    "id": "npcf_step_mesmerist",
+    "name": "Step",
+    "origin": {
+      "type": "Class",
+      "name": "Mesmerist",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "tags": [
+      {
+        "id": "tg_recharge",
+        "val": 5
+      },
+      {
+        "id": "tg_quick_action"
+      }
+    ],
+    "effect": "The Mesmerist teleports to a free space within line of sight and Range 50."
+  },
+  {
+    "id": "npcf_ozymandias_protocol_mesmerist",
+    "name": "Ozymandias Protocol",
+    "origin": {
+      "type": "Class",
+      "name": "Mesmerist",
+      "base": false
+    },
+    "locked": false,
+    "type": "System",
+    "effect": "Until the end of the Mesmerist’s next turn, the Mesmerist becomes EXPOSED, and any actions taken by hostile characters within THREAT of the Mesmerist’s weapons must include it or another character using OZYMANDIAS PROTOCOL as a target.",
+    "tags": [
+      {
+        "id": "tg_protocol"
+      }
+    ]
+  },
+  {
+    "id": "npcf_metafold_riposte_mesmerist",
+    "name": "Metafold Riposte",
+    "origin": {
+      "type": "Class",
+      "name": "Mesmerist",
+      "base": false
+    },
+    "locked": false,
+    "type": "Reaction",
+    "tags": [
+      {
+        "id": "tg_limited",
+        "val": 1
+      },
+      {
+        "id": "tg_reaction"
+      }
+    ],
+    "trigger": "An allied character within SENSORS is attacked.",
+    "effect": "The Mesmerist first swaps places with the allied character, each character teleporting to the other’s position. The Mesmerist may then SKIRMISH against the attacker. Afterwards, the Mesmerist then becomes the target of the attack instead."
+  },
+  {
+    "id": "npcf_hypnotic_attraction_mesmerist",
+    "name": "Hypnotic Attraction",
+    "origin": {
+      "type": "Class",
+      "name": "Mesmerist",
+      "base": false
+    },
+    "locked": false,
+    "type": "Tech",
+    "tech_type": "Quick",
+    "tags": [
+      {
+        "id": "tg_recharge",
+        "val": 4
+      },
+      {
+        "id": "tg_quick_tech"
+      }
+    ],
+    "attack_bonus": [
+      2,
+      4,
+      6
+    ],
+    "effect": "The Mesmerist makes a tech attack against a target within SENSORS. On a success, the target moves its maximum SPEED towards the Mesmerist via the most efficient route possible. This movement is involuntary, but provokes reactions and ENGAGEMENT as normal."
   }
 ]
