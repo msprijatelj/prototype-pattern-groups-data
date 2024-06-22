@@ -1038,12 +1038,12 @@
     },
     "locked": false,
     "type": "System",
-    "effect": "Until the end of the Mesmerist’s next turn, the Mesmerist becomes EXPOSED, and any actions taken by hostile characters within THREAT of the Mesmerist’s weapons must include it or another character using OZYMANDIAS PROTOCOL as a target.",
     "tags": [
       {
         "id": "tg_protocol"
       }
-    ]
+    ],
+    "effect": "Until the end of the Mesmerist’s next turn, the Mesmerist becomes EXPOSED, and any actions taken by hostile characters within THREAT of the Mesmerist’s weapons must include it or another character using OZYMANDIAS PROTOCOL as a target."
   },
   {
     "id": "npcf_metafold_riposte_mesmerist",
@@ -1276,5 +1276,184 @@
     "type": "Trait",
     "tags": [],
     "effect": "The area targeted by the SALAMANDER THERMOBARIC CATAPULT becomes a zone of difficult terrain until it’s put out or until the end of the Napalm’s next turn. Characters that move into the zone for the first time in a round or end their turn there must pass an ENGINEERING save or take {6/8/10} Burn."
+  },
+  {
+    "id": "npcf_zeal_zealot",
+    "name": "Zeal",
+    "origin": {
+      "type": "Class",
+      "name": "Zealot",
+      "base": true
+    },
+    "locked": false,
+    "type": "Trait",
+    "tags": [
+      {
+        "id": "tg_heat_self",
+        "val": 2
+      },
+      {
+        "id": "tg_protocol"
+      }
+    ],
+    "effect": "The Zealot emanates a Burst 3 area of zealous energy. The following effects apply to characters within the area:<ul><li>Attacks made by allied characters against targets within the Zealot’s SENSORS gain AP.</li><li>Hostile characters that have any Burn lose INVISIBLE and HIDDEN and can’t regain either status until they leave the area.</li></ul>This area lasts until the end of the Zealot’s next turn, it uses this protocol again, or the Zealot is STUNNED, JAMMED, overheated, or destroyed."
+  },
+  {
+    "id": "npcf_emberlight_nexus_zealot",
+    "name": "Emberlight Nexus",
+    "origin": {
+      "type": "Class",
+      "name": "Zealot",
+      "base": true
+    },
+    "locked": false,
+    "type": "Weapon",
+    "weapon_type": "Main Nexus",
+    "tags": [
+      {
+        "id": "tg_smart"
+      }
+    ],
+    "attack_bonus": [
+      1,
+      2,
+      3
+    ],
+    "range": [
+      {
+        "type": "Burst",
+        "val": 3
+      }
+    ],
+    "damage": [
+      {
+        "type": "Burn",
+        "damage": [
+          1,
+          2,
+          3
+        ]
+      }
+    ],
+    "effect": "This weapon ignores INVISIBLE and doesn’t affect allied characters."
+  },
+  {
+    "id": "npcf_fanatical_charge_zealot",
+    "name": "Fanatical Charge",
+    "origin": {
+      "type": "Class",
+      "name": "Zealot",
+      "base": true
+    },
+    "locked": false,
+    "type": "Tech",
+    "tech_type": "Quick",
+    "tags": [
+      {
+        "id": "tg_recharge",
+        "val": 6
+      },
+      {
+        "id": "tg_quick_tech"
+      }
+    ],
+    "effect": "The Zealot flies up to its SPEED and gains OVERSHIELD {4/6/8}. Allied characters affected by ZEAL at any point during this movement may BOOST as a reaction. At the end of the Zealot’s movement, all allied characters affected by ZEAL gain OVERSHIELD {2/3/4}."
+  },
+  {
+    "id": "npcf_blazing_fervor_zealot",
+    "name": "Blazing Fervor",
+    "origin": {
+      "type": "Class",
+      "name": "Zealot",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "tags": [],
+    "effect": "Allied characters affected by ZEAL deal an additional 1 Burn on successful attacks."
+  },
+  {
+    "id": "npcf_flagellants_cleansing_zealot",
+    "name": "Flagellant’s Cleansing",
+    "origin": {
+      "type": "Class",
+      "name": "Zealot",
+      "base": false
+    },
+    "locked": false,
+    "type": "Tech",
+    "tech_type": "Full",
+    "tags": [
+      {
+        "id": "tg_recharge",
+        "val": 6
+      },
+      {
+        "id": "tg_full_tech"
+      }
+    ],
+    "effect": "The Zealot clears up to one condition on each allied character affected by ZEAL. The Zealot gains each condition cleared until the end of its next turn."
+  },
+  {
+    "id": "npcf_rally_the_righteous_zealot",
+    "name": "Rally the Righteous",
+    "origin": {
+      "type": "Class",
+      "name": "Zealot",
+      "base": false
+    },
+    "locked": false,
+    "type": "Tech",
+    "tech_type": "Quick",
+    "tags": [
+      {
+        "id": "tg_recharge",
+        "val": 5
+      },
+      {
+        "id": "tg_quick_tech"
+      }
+    ],
+    "effect": "The Zealot may pull any number of allied characters within SENSORS up to 5 spaces directly towards it. The Zealot and all allied characters affected by ZEAL may then gain OVERSHIELD {2/3/4}."
+  },
+  {
+    "id": "npcf_brand_the_heretic_zealot",
+    "name": "Brand the Heretic",
+    "origin": {
+      "type": "Class",
+      "name": "Zealot",
+      "base": false
+    },
+    "locked": false,
+    "type": "Tech",
+    "tech_type": "Quick",
+    "tags": [
+      {
+        "id": "tg_recharge",
+        "val": 4
+      },
+      {
+        "id": "tg_quick_tech"
+      }
+    ],
+    "attack_bonus": [
+      1,
+      2,
+      3
+    ],
+    "effect": "The Zealot makes a tech attack against a character within SENSORS. On a hit, the target gains LOCK ON. When an allied character consumes this LOCK ON, they gain OVERSHIELD {4/5/6}, and any damage they deal to the target cannot be reduced."
+  },
+  {
+    "id": "npcf_martyrdom_zealot",
+    "name": "Martyrdom",
+    "origin": {
+      "type": "Class",
+      "name": "Zealot",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "tags": [],
+    "effect": "When the Zealot would take structure damage or be destroyed, it first grants OVERSHIELD {2/3/4} to each allied character affected by ZEAL and inflicts {2/3/4} Burn on each hostile character affected by ZEAL."
   }
 ]
