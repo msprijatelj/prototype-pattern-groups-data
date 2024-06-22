@@ -686,7 +686,7 @@
       ]
     },
     "base_features": [
-      "npcf_salamander_catapult_napalm",
+      "npcf_salamander_thermobaric_catapult_napalm",
       "npcf_adhesive_gel_napalm",
       "npcf_emergency_vent_napalm"
     ],
