@@ -1,0 +1,22 @@
+[
+  {
+    "id": "ppg_npct_brigand",
+    "name": "Brigand",
+    "description": "As long as capital remains essential to survival, there will be those who turn to dubious techniques to wrest it from those unprepared to protect it. Some rely upon brute force, while others instead leverage unconventional methods to exploit their marks’ vulnerabilities.<br/><br/>Brigands are a variant of the Pirate template (Lancer, p. 328). It trades raw damage in exchange for additional underhanded tactics and unexpected vectors of attack. Brigands aim to leave opponents vulnerable to follow-up from teammates, though their haphazard and “improvisational” approach to mech-building leaves them vulnerable in turn.",
+    "base_features": [
+      "ppg_npcf_dirty_fighting_brigand",
+      "ppg_npcf_jury_rigged_brigand",
+      "ppg_npcf_brigand_systems_and_traits_brigand"
+    ],
+    "optional_features": [
+      "ppg_npcf_finishing_blow_brigand",
+      "ppg_npcf_jail_break_brigand",
+      "ppg_npcf_commandeer_brigand",
+      "npcf_boarding_leash_pirate",
+      "npcf_coreworm_rockets_pirate",
+      "npcf_prying_claws_pirate",
+      "npcf_slaver_signal_pirate"
+    ],
+    "power": 20
+  }
+]

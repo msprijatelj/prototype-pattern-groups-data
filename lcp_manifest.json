@@ -10,6 +10,10 @@
     {
       "name": "Lancer KTB Data",
       "version": "1.2.3"
+    },
+    {
+      "name": "Lancer CORE NPCs",
+      "version": "1.0.5"
     }
   ]
 }
