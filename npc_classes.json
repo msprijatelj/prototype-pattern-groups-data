@@ -1,0 +1,802 @@
+[
+  {
+    "id": "npcc_anchor",
+    "name": "Anchor",
+    "role": "defender",
+    "info": {
+      "flavor": "Fielding highly experimental gravitomagnetic LODESTONE technology, Anchor-class mechs bend the trajectories of conventional arms away from allies and towards themselves. Their tremendous bulk and sweeping gravitic weaponry warp the battlefield around their dominating presence.",
+      "tactics": "The Anchor positions itself in a location where LODESTONE interferes with enemy artillery. Its GRAVITY CANNON disrupts advancing enemies. The Anchor may be durable, but it’s slow, easy to hit, and is susceptible to KNOCKBACK and similar forced movement."
+    },
+    "stats": {
+      "armor": [
+        1,
+        1,
+        1
+      ],
+      "hp": [
+        20,
+        25,
+        30
+      ],
+      "evade": [
+        6,
+        6,
+        6
+      ],
+      "edef": [
+        8,
+        8,
+        8
+      ],
+      "heatcap": [
+        8,
+        8,
+        8
+      ],
+      "speed": [
+        3,
+        3,
+        3
+      ],
+      "sensor": [
+        8,
+        8,
+        8
+      ],
+      "save": [
+        12,
+        14,
+        16
+      ],
+      "hull": [
+        2,
+        4,
+        6
+      ],
+      "agility": [
+        -2,
+        -2,
+        -2
+      ],
+      "systems": [
+        0,
+        0,
+        0
+      ],
+      "engineering": [
+        1,
+        2,
+        3
+      ],
+      "size": [
+        [
+          3
+        ],
+        [
+          3
+        ],
+        [
+          3
+        ]
+      ],
+      "activations": [
+        1,
+        1,
+        1
+      ]
+    },
+    "base_features": [
+      "npcf_lodestone_anchor",
+      "npcf_gravity_cannon_anchor",
+      "npcf_siege_armor_anchor"
+    ],
+    "optional_features": [
+      "npcf_reality_anchor_anchor",
+      "npcf_omninet_grounding_anchor",
+      "npcf_newtonian_amplifier_anchor",
+      "npcf_magnetic_reversal_anchor",
+      "npcf_null_grav_motivator_anchor"
+    ],
+    "power": 100
+  },
+  {
+    "id": "npcc_capacitor",
+    "name": "Capacitor",
+    "role": "support",
+    "info": {
+      "flavor": "The fruits of SSC’s “Emperor” project eventually yielded the Capacitor-class mech, a mass-production model refining the Marathon Arc into a more cheaply-produced cannon. Capacitors freely convert excess shielding into lethal electricity and back again. The chassis is not without its oddities; Capacitor squadmates frequently report moments of team synchronicity long after hostilities conclude.",
+      "tactics": "The Capacitor dispenses OVERSHIELD from the back lines, staying in cover while it fires its oversized MARATHON ARQUEBUS. Complementing this, it uses ARC FEEDBACK to deter hostile additional attacks. Despite the OVERSHIELD it can gain, the Capacitor is a fragile mech that relies upon distance to stay alive."
+    },
+    "stats": {
+      "armor": [
+        0,
+        0,
+        0
+      ],
+      "hp": [
+        8,
+        8,
+        8
+      ],
+      "evade": [
+        10,
+        12,
+        14
+      ],
+      "edef": [
+        6,
+        6,
+        6
+      ],
+      "heatcap": [
+        6,
+        6,
+        6
+      ],
+      "speed": [
+        6,
+        6,
+        6
+      ],
+      "sensor": [
+        15,
+        15,
+        15
+      ],
+      "save": [
+        10,
+        12,
+        14
+      ],
+      "hull": [
+        0,
+        0,
+        0
+      ],
+      "agility": [
+        1,
+        2,
+        3
+      ],
+      "systems": [
+        -2,
+        -2,
+        -2
+      ],
+      "engineering": [
+        2,
+        4,
+        6
+      ],
+      "size": [
+        [
+          1
+        ],
+        [
+          1
+        ],
+        [
+          1
+        ]
+      ],
+      "activations": [
+        1,
+        1,
+        1
+      ]
+    },
+    "base_features": [
+      "npcf_marathon_arquebus_capacitor",
+      "npcf_arc_feedback_capacitor"
+    ],
+    "optional_features": [
+      "npcf_purifying_lightning_capacitor",
+      "npcf_deflecting_shot_capacitor",
+      "npcf_quickening_bolt_capacitor",
+      "npcf_cyclic_discharge_capacitor",
+      "npcf_amplifier_drone_capacitor"
+    ],
+    "power": 100
+  },
+  {
+    "id": "npcc_ghost",
+    "name": "Ghost",
+    "role": "support",
+    "info": {
+      "flavor": "Ghost pattern groups represent an emergent mech classification using Aunic technology stolen during Boundary Garden skirmishes. The PG possesses very few offensive capabilities, but carries potent equipment to shunt it and a paired mech partially into the Firmament.",
+      "tactics": "Ghosts latch onto an ally to grant them INTANGIBLE. PHASE SHIFT allows allies to act and traverse the battlefield without fear of reprisal. This comes at a cost: ENTANGLE FIRMAMENT is susceptible to conditions and forced movement, and the Ghost is frail without it."
+    },
+    "stats": {
+      "armor": [
+        0,
+        0,
+        0
+      ],
+      "hp": [
+        4,
+        6,
+        8
+      ],
+      "evade": [
+        8,
+        8,
+        8
+      ],
+      "edef": [
+        8,
+        8,
+        8
+      ],
+      "heatcap": [
+        4,
+        6,
+        8
+      ],
+      "speed": [
+        6,
+        6,
+        6
+      ],
+      "sensor": [
+        10,
+        10,
+        10
+      ],
+      "save": [
+        10,
+        12,
+        14
+      ],
+      "hull": [
+        -2,
+        -2,
+        -2
+      ],
+      "agility": [
+        2,
+        4,
+        6
+      ],
+      "systems": [
+        1,
+        2,
+        3
+      ],
+      "engineering": [
+        0,
+        0,
+        0
+      ],
+      "size": [
+        [
+          1
+        ],
+        [
+          1
+        ],
+        [
+          1
+        ]
+      ],
+      "activations": [
+        1,
+        1,
+        1
+      ]
+    },
+    "base_features": [
+      "npcf_phase_shift_ghost",
+      "npcf_paradox_state_ghost",
+      "npcf_quantum_bond_ghost"
+    ],
+    "optional_features": [
+      "npcf_superimpose_firmament_ghost",
+      "npcf_string_theory_marionette_ghost",
+      "npcf_wavefunction_collapse_ghost",
+      "npcf_spectral_flight_ghost",
+      "npcf_split_timestream_ghost"
+    ],
+    "power": 100
+  },
+  {
+    "id": "npcc_hatchet",
+    "name": "Hatchet",
+    "role": "striker",
+    "info": {
+      "flavor": "Nimble, clever, and borderline reckless, Hatchet mechs sport a variety of thrown weaponry and athletic enhancements. Detractors often claim that the Hatchet’s hit-and-run tactics are needlessly risky compared to conventional ranged weaponry. However, they often change their tune when a tree-sized, razor-sharp axe embeds itself inches from their cockpit.",
+      "tactics": "Hatchet mechs are consummate skirmishers, leveraging a variety of THROWN weapons to trigger CLEAVING RETRIEVAL to hobble their opponents before using a FLIP KICK to reset their position and start their pressure anew. However, they are hobbled by their HEAT CAP and conditions like SLOWED and IMMOBILIZE."
+    },
+    "stats": {
+      "armor": [
+        1,
+        1,
+        1
+      ],
+      "hp": [
+        12,
+        16,
+        20
+      ],
+      "evade": [
+        8,
+        9,
+        10
+      ],
+      "edef": [
+        8,
+        8,
+        8
+      ],
+      "heatcap": [
+        6,
+        6,
+        6
+      ],
+      "speed": [
+        5,
+        5,
+        5
+      ],
+      "sensor": [
+        5,
+        5,
+        5
+      ],
+      "save": [
+        12,
+        14,
+        16
+      ],
+      "hull": [
+        1,
+        2,
+        3
+      ],
+      "agility": [
+        2,
+        4,
+        6
+      ],
+      "systems": [
+        0,
+        0,
+        0
+      ],
+      "engineering": [
+        -2,
+        -2,
+        -2
+      ],
+      "size": [
+        [
+          1
+        ],
+        [
+          1
+        ],
+        [
+          1
+        ]
+      ],
+      "activations": [
+        1,
+        1,
+        1
+      ]
+    },
+    "base_features": [
+      "npcf_monomolecular_throwing_axe_hatchet",
+      "npcf_cleaving_retrieval_hatchet",
+      "npcf_flip_kick_hatchet"
+    ],
+    "optional_features": [
+      "npcf_whirlwind_kick_hatchet",
+      "npcf_plasma_knife_hatchet",
+      "npcf_rocket_bola_hatchet",
+      "npcf_reckless_dive_hatchet",
+      "npcf_return_to_sender_hatchet"
+    ],
+    "power": 100
+  },
+  {
+    "id": "npcc_knight",
+    "name": "Knight",
+    "role": "defender",
+    "info": {
+      "flavor": "Knight pilots live for the thrill of battle. They engage high value targets in a compulsory duel, locking themselves in a fight to the death. Their mighty blows leave their opponents open to supporting fire from the Knight’s compatriots.",
+      "tactics": "The Knight challenges an opponent to a COMPELLED DUEL. This isn’t a pure one-on-one fight, however; the Knight’s target becomes more vulnerable to enemy attacks through CHAMPION’S GREATSWORD and PUNISHING BLOW. It repositions opponents with KNOCKBACK and RAM. While durable, the Knight is easy to hit with both weapons and tech attacks."
+    },
+    "stats": {
+      "armor": [
+        2,
+        2,
+        2
+      ],
+      "hp": [
+        15,
+        20,
+        25
+      ],
+      "evade": [
+        6,
+        6,
+        6
+      ],
+      "edef": [
+        7,
+        7,
+        7
+      ],
+      "heatcap": [
+        8,
+        8,
+        8
+      ],
+      "speed": [
+        4,
+        4,
+        4
+      ],
+      "sensor": [
+        10,
+        10,
+        10
+      ],
+      "save": [
+        12,
+        15,
+        18
+      ],
+      "hull": [
+        2,
+        4,
+        6
+      ],
+      "agility": [
+        -2,
+        -2,
+        -2
+      ],
+      "systems": [
+        0,
+        0,
+        0
+      ],
+      "engineering": [
+        1,
+        2,
+        3
+      ],
+      "size": [
+        [
+          2
+        ],
+        [
+          2
+        ],
+        [
+          2
+        ]
+      ],
+      "activations": [
+        1,
+        1,
+        1
+      ]
+    },
+    "base_features": [
+      "npcf_champions_greatsword_knight",
+      "npcf_compelled_duel_knight",
+      "npcf_punishing_blow_knight"
+    ],
+    "optional_features": [
+      "npcf_heros_banner_knight",
+      "npcf_sweeping_blows_knight",
+      "npcf_templars_shield_knight",
+      "npcf_second_wind_knight",
+      "npcf_mighty_throw_knight"
+    ],
+    "power": 100
+  },
+  {
+    "id": "npcc_mesmerist",
+    "name": "Mesmerist",
+    "role": "defender",
+    "info": {
+      "flavor": "The Mesmerist pattern group inverts the Gorgon PG’s BASILISK to become a target from which opponents cannot look away. Entrancing targeting systems and sapient minds alike, a Mesmerist chassis enshrouds itself with digital glamours to protect itself from more vulgar mechs. Those who attempt to flee the show risk jabs from a paracode-laced rapier.",
+      "tactics": "Mesmerists yank their foes attention away from their allies with MEMETIC MAGNETISM, relying upon illusory MIRROR IMAGES to avoid harm. They punish retreat via OVERWATCH with their CODESPIKE RAPIER. Despite their evasiveness, Mesmerists are delicate in comparison to other defenders should a blow land upon them."
+    },
+    "stats": {
+      "armor": [
+        0,
+        0,
+        0
+      ],
+      "hp": [
+        10,
+        10,
+        10
+      ],
+      "evade": [
+        10,
+        12,
+        14
+      ],
+      "edef": [
+        12,
+        14,
+        16
+      ],
+      "heatcap": [
+        8,
+        8,
+        8
+      ],
+      "speed": [
+        5,
+        5,
+        5
+      ],
+      "sensor": [
+        8,
+        8,
+        8
+      ],
+      "save": [
+        10,
+        12,
+        14
+      ],
+      "hull": [
+        -2,
+        -2,
+        -2
+      ],
+      "agility": [
+        1,
+        2,
+        3
+      ],
+      "systems": [
+        2,
+        4,
+        6
+      ],
+      "engineering": [
+        0,
+        0,
+        0
+      ],
+      "size": [
+        [
+          1
+        ],
+        [
+          1
+        ],
+        [
+          1
+        ]
+      ],
+      "activations": [
+        1,
+        1,
+        1
+      ]
+    },
+    "base_features": [
+      "npcf_center_stage_mesmerist",
+      "npcf_memetic_magnetism_mesmerist",
+      "npcf_mirror_image_mesmerist",
+      "npcf_codespike_rapier_mesmerist"
+    ],
+    "optional_features": [
+      "npcf_death_by_glamour_mesmerist",
+      "npcf_step_mesmerist",
+      "npcf_ozymandias_protocol_mesmerist",
+      "npcf_metafold_riposte_mesmerist",
+      "npcf_hypnotic_attraction_mesmerist"
+    ],
+    "power": 100
+  },
+  {
+    "id": "npcc_napalm",
+    "name": "Napalm",
+    "role": "artillery",
+    "info": {
+      "flavor": "The next, horrifying step of the HA Genghis’s lineage. Napalm-pattern chassis paint the battlefield with their namesake combustible, coating unfortunate targets in a burning, viscid concoction. Numerous reports of authoritarian groups fielding this pattern group have found their way to the desks of Union’s DoJ/HR, much to the chagrin of Harrison Armory.",
+      "tactics": "The Napalm lives to set the world on fire. Its SALAMANDER NAPALM CATAPULT covers the battlefield with flammable ADHESIVE GEL to apply movement pressure with SLOWED and HP pressure with Burn. Despite its large HEAT CAP, the Napalm is still susceptible to control effects due to its low E-DEFENSE."
+    },
+    "stats": {
+      "armor": [
+        2,
+        2,
+        2
+      ],
+      "hp": [
+        10,
+        12,
+        14
+      ],
+      "evade": [
+        8,
+        9,
+        10
+      ],
+      "edef": [
+        6,
+        6,
+        6
+      ],
+      "heatcap": [
+        12,
+        12,
+        12
+      ],
+      "speed": [
+        3,
+        3,
+        3
+      ],
+      "sensor": [
+        15,
+        15,
+        15
+      ],
+      "save": [
+        11,
+        13,
+        15
+      ],
+      "hull": [
+        1,
+        2,
+        3
+      ],
+      "agility": [
+        0,
+        0,
+        0
+      ],
+      "systems": [
+        -2,
+        -2,
+        -2
+      ],
+      "engineering": [
+        2,
+        4,
+        6
+      ],
+      "size": [
+        [
+          2
+        ],
+        [
+          2
+        ],
+        [
+          2
+        ]
+      ],
+      "activations": [
+        1,
+        1,
+        1
+      ]
+    },
+    "base_features": [
+      "npcf_salamander_catapult_napalm",
+      "npcf_adhesive_gel_napalm",
+      "npcf_emergency_vent_napalm"
+    ],
+    "optional_features": [
+      "npcf_superhot_napalm",
+      "npcf_corrosive_gel_napalm",
+      "npcf_firefly_drone_napalm",
+      "npcf_incendiary_grenade_napalm",
+      "npcf_long_burn_catalyst_napalm"
+    ],
+    "power": 100
+  },
+  {
+    "id": "npcc_zealot",
+    "name": "Zealot",
+    "role": "support",
+    "info": {
+      "flavor": "Zealot-class mechs exemplify “leading by example” through a frightening disregard for their own self-preservation. Through esoteric liturgicode, they twist and mold allies to lethal efficiency. Pilots often report “blackouts” following the throes of Zealot-inspired passion.",
+      "tactics": "Zealots serve as frontline supports who empower allies with their passionate aura of ZEAL. It empowers its allies to storm enemy fortifications, expose hostiles’ vulnerabilities, and endure incoming punishment. However, the Zealot itself is frail, its range is short, and the JAMMED condition disables most of its kit."
+    },
+    "stats": {
+      "armor": [
+        0,
+        0,
+        0
+      ],
+      "hp": [
+        8,
+        8,
+        8
+      ],
+      "evade": [
+        10,
+        11,
+        12
+      ],
+      "edef": [
+        10,
+        12,
+        14
+      ],
+      "heatcap": [
+        10,
+        10,
+        10
+      ],
+      "speed": [
+        5,
+        5,
+        5
+      ],
+      "sensor": [
+        5,
+        5,
+        5
+      ],
+      "save": [
+        10,
+        12,
+        14
+      ],
+      "hull": [
+        -2,
+        -2,
+        -2
+      ],
+      "agility": [
+        0,
+        0,
+        0
+      ],
+      "systems": [
+        2,
+        4,
+        6
+      ],
+      "engineering": [
+        1,
+        2,
+        3
+      ],
+      "size": [
+        [
+          0.5
+        ],
+        [
+          0.5
+        ],
+        [
+          0.5
+        ]
+      ],
+      "activations": [
+        1,
+        1,
+        1
+      ]
+    },
+    "base_features": [
+      "npcf_zeal_zealot",
+      "npcf_emberlight_nexus_zealot",
+      "npcf_fanatical_charge_zealot"
+    ],
+    "optional_features": [
+      "npcf_blazing_fervor_zealot",
+      "npcf_flagellants_cleansing_zealot",
+      "npcf_rally_the_righteous_zealot",
+      "npcf_brand_the_heretic_zealot",
+      "npcf_martyrdom_zealot"
+    ],
+    "power": 100
+  }
+]
