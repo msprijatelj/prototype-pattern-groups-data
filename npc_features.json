@@ -15,7 +15,7 @@
         "val": 5
       },
       {
-        "id": "tg_quick_tech"
+        "id": "tg_quick_action"
       }
     ],
     "effect": "The Anchor becomes SLOWED and creates a Burst 3 area of gravitomagnetic interference until the end of its next turn. While active, hostile characters in the area are SLOWED and cannot teleport into or out of the area.<br/><br/>Allied characters within the area are not valid targets for ranged attacks. Other characters with LODESTONE are unaffected by this system."
@@ -533,7 +533,7 @@
     "type": "Trait",
     "tags": [
       {
-        "type": "tg_round",
+        "id": "tg_round",
         "val": 1
       }
     ],
@@ -551,11 +551,11 @@
     "type": "Trait",
     "tags": [
       {
-        "type": "tg_recharge",
+        "id": "tg_recharge",
         "val": 5
       },
       {
-        "type": "tg_quick_action"
+        "id": "tg_quick_action"
       }
     ],
     "effect": "One adjacent character must pass a HULL save or be pushed 2 spaces away from the Hatchet and knocked PRONE. Regardless of the result, the Hatchet flies 2 spaces away from the target."
@@ -708,5 +708,185 @@
     ],
     "trigger": "The Hatchet is targeted by a THROWN melee attack or would be affected by a GRENADE.",
     "effect": "Roll 1d6. On a 4+, the attack or grenade is negated. If an attack was negated, the Hatchet repeats the attack against the attacker. If a grenade was negated, the Hatchet may throw the same grenade, targeting a space occupied by the grenade’s original controller. These effects ignore any range restrictions upon the triggering effect."
+  },
+  {
+    "id": "npcf_champions_greatsword_knight",
+    "name": "Champion’s Greatsword",
+    "origin": {
+      "type": "Class",
+      "name": "Knight",
+      "base": true
+    },
+    "locked": false,
+    "type": "Weapon",
+    "weapon_type": "Heavy Melee",
+    "tags": [
+      {
+        "id": "tg_knockback",
+        "val": 2
+      }
+    ],
+    "attack_bonus": [
+      2,
+      4,
+      6
+    ],
+    "range": [
+      {
+        "type": "Threat",
+        "val": 2
+      }
+    ],
+    "damage": [
+      {
+        "type": "Kinetic",
+        "damage": [
+          4,
+          6,
+          8
+        ]
+      }
+    ],
+    "effect": "On Critical Hit: The target gains LOCK ON."
+  },
+  {
+    "id": "npcf_compelled_duel_knight",
+    "name": "Compelled Duel",
+    "origin": {
+      "type": "Class",
+      "name": "Knight",
+      "base": true
+    },
+    "locked": false,
+    "type": "Tech",
+    "tech_type": "Quick",
+    "tags": [
+      {
+        "id": "tg_quick_tech"
+      }
+    ],
+    "effect": "A hostile character within SENSORS and line of sight must pass a SYSTEMS save or enter a duel with the Knight. Characters in a duel receive +3 Difficulty on all attacks that don’t include their opponent as a target and cannot voluntarily move away from each other. If a dueling character makes any attack against their opponent, these effects cease for them until the start of their next turn.<br/><br/>The duel lasts until the end of the scene or until one of the opponents is destroyed. Each character cannot enter another duel until the end of this duel."
+  },
+  {
+    "id": "npcf_punishing_blow_knight",
+    "name": "Punishing Blow",
+    "origin": {
+      "type": "Class",
+      "name": "Knight",
+      "base": true
+    },
+    "locked": false,
+    "type": "Reaction",
+    "tags": [
+      {
+        "id": "tg_reaction"
+      },
+      {
+        "id": "tg_round",
+        "val": 1
+      }
+    ],
+    "trigger": "The Knight’s duel opponent takes a hostile action that doesn’t include the Knight as a target.",
+    "effect": "The Knight SKIRMISHES the triggering character, knocking them PRONE on a hit."
+  },
+  {
+    "id": "npcf_heros_banner_knight",
+    "name": "Hero’s Banner",
+    "origin": {
+      "type": "Class",
+      "name": "Knight",
+      "base": false
+    },
+    "locked": false,
+    "type": "System",
+    "tags": [
+      {
+        "id": "tg_deployable"
+      },
+      {
+        "id": "tg_limited",
+        "val": 1
+      },
+      {
+        "id": "tg_quick_action"
+      }
+    ],
+    "effect": "Hero’s Banner (Size 1/2, HP {10/20/30}, Evasion 10, E-Defense 10, Tags: Deployable)<br/><br/>As a quick action, deploy a banner that projects a Burst 3 area in an adjacent space. Allied characters within the area gain RESISTANCE to all damage. If this banner is destroyed, allied characters in the area are SHREDDED until the end of their next turn."
+  },
+  {
+    "id": "npcf_sweeping_blows_knight",
+    "name": "Sweeping Blows",
+    "origin": {
+      "type": "Class",
+      "name": "Knight",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "tags": [],
+    "effect": "When attacking with the CHAMPION’S GREATSWORD, the Knight may choose to attack in a Cone 3 area."
+  },
+  {
+    "id": "npcf_templars_shield_knight",
+    "name": "Templar’s Shield",
+    "origin": {
+      "type": "Class",
+      "name": "Knight",
+      "base": false
+    },
+    "locked": false,
+    "type": "System",
+    "tags": [
+      {
+        "id": "tg_shield"
+      },
+      {
+        "id": "tg_recharge",
+        "val": 4
+      },
+      {
+        "id": "tg_quick_action"
+      }
+    ],
+    "effect": "The Knight raises a shield, gaining RESISTANCE to all damage from its duel opponent until the end of its next turn."
+  },
+  {
+    "id": "npcf_second_wind_knight",
+    "name": "Second Wind",
+    "origin": {
+      "type": "Class",
+      "name": "Knight",
+      "base": false
+    },
+    "locked": false,
+    "type": "System",
+    "tags": [
+      {
+        "id": "tg_limited",
+        "val": 1
+      },
+      {
+        "id": "tg_quick_action"
+      }
+    ],
+    "effect": "The Knight regains half of its HP and clears one condition. The Knight can take this action even if it would be prevented from taking actions on its turn."
+  },
+  {
+    "id": "npcf_mighty_throw_knight",
+    "name": "Mighty Throw",
+    "origin": {
+      "type": "Class",
+      "name": "Knight",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "tags": [
+      {
+        "id": "tg_recharge",
+        "val": 5
+      }
+    ],
+    "effect": "The Knight throws an adjacent character. If the target is an ally, they are pushed 5 spaces away from the Knight. If the target is hostile, they must pass a HULL save or be pushed 3 spaces away from the Knight and knocked PRONE."
   }
 ]
