@@ -80,7 +80,7 @@
     "locked": false,
     "type": "Trait",
     "tags": [],
-    "effect": "The Anchor becomes SLOWED and creates a Burst 3 area of gravitomagnetic interference until the end of its next turn. While active, hostile characters in the area are SLOWED and cannot teleport into or out of the area. Allied characters within the area are not valid targets for ranged attacks. Other characters with LODESTONE are unaffected by this system."
+    "effect": "The Anchor has RESISTANCE to all damage from attacks that originate beyond Range 3."
   },
   {
     "id": "npcf_reality_anchor_anchor",
@@ -139,7 +139,6 @@
     },
     "locked": false,
     "type": "Reaction",
-    "trigger": "An allied character in the Anchor’s SENSORS takes damage from a ranged attack.",
     "tags": [
       {
         "id": "tg_recharge",
@@ -149,6 +148,7 @@
         "id": "tg_reaction"
       }
     ],
+    "trigger": "An allied character in the Anchor’s SENSORS takes damage from a ranged attack.",
     "effect": "The allied character gains RESISTANCE to all damage from the attack, and the attacker must pass a HULL save or be pushed 3 spaces away from their target and knocked PRONE."
   },
   {
@@ -223,7 +223,6 @@
     },
     "locked": false,
     "type": "Reaction",
-    "trigger": "A hostile character causes an allied character in SENSORS to lose all OVERSHIELD.",
     "tags": [
       {
         "id": "tg_reaction"
@@ -233,6 +232,7 @@
         "val": 1
       }
     ],
+    "trigger": "A hostile character causes an allied character in SENSORS to lose all OVERSHIELD.",
     "effect": "The hostile character takes {2/4/6} Energy damage and is IMPAIRED until the end of their next turn."
   },
   {
@@ -258,7 +258,6 @@
     },
     "locked": false,
     "type": "Reaction",
-    "trigger": "An allied character in SENSORS is hit by an attack.",
     "tags": [
       {
         "id": "tg_recharge",
@@ -268,6 +267,7 @@
         "id": "tg_reaction"
       }
     ],
+    "trigger": "An allied character in SENSORS is hit by an attack.",
     "effect": "The Capacitor first BARRAGES with the MARATHON ARQUEBUS. The triggering allied character must be included in the attack’s area."
   },
   {
@@ -337,4 +337,148 @@
     ],
     "effect": "Amplifier Drone (Size 1/2, HP {5/10/15}, Evasion 10, E-Defense 10, Tags: Drone)<br/><br/>This drone can be deployed to a space within SENSORS and line of sight. While deployed, it projects a Burst 2 electrified area. Allied characters in the area that gain any OVERSHIELD increase the amount gained by +2. Hostile characters that enter the area or end their turn there receive LOCK ON and cease to be INVISIBLE or HIDDEN."
   },
+  {
+    "id": "npcf_phase_shift_ghost",
+    "name": "Phase Shift",
+    "origin": {
+      "type": "Class",
+      "name": "Ghost",
+      "base": true
+    },
+    "locked": false,
+    "type": "Trait",
+    "tags": [],
+    "effect": "This character is INTANGIBLE on their turn. While INTANGIBLE, they can target and affect tangible characters and objects, but only deal half damage, Heat, Burn or to all targets."
+  },
+  {
+    "id": "npcf_paradox_state_ghost",
+    "name": "Paradox State",
+    "origin": {
+      "type": "Class",
+      "name": "Ghost",
+      "base": true
+    },
+    "locked": false,
+    "type": "System",
+    "tags": [
+      {
+        "id": "tg_full_action"
+      }
+    ],
+    "effect": "While this effect lasts, the Ghost becomes INTANGIBLE and enters one space occupied by tangible adjacent character. The Ghost moves with the target’s voluntary movement. As a protocol, the target may take 2 Heat to gain the Ghost’s PHASE SHIFT feature until the end of their turn. If either character takes Heat or receives any condition, the other character receives the same amount of Heat and gains that condition for the same duration. This effect lasts until the Ghost no longer shares a space with the target, or until the Ghost is STUNNED, JAMMED, overheated, or destroyed."
+  },
+  {
+    "id": "npcf_quantum_bond_ghost",
+    "name": "Quantum Bond",
+    "origin": {
+      "type": "Class",
+      "name": "Ghost",
+      "base": true
+    },
+    "locked": false,
+    "type": "Tech",
+    "tech_type": "Quick",
+    "tags": [
+      {
+        "id": "tg_quick_tech"
+      }
+    ],
+    "effect": "The Ghost targets a character affected by PARADOX STATE. The next time a hostile action is taken against the target, roll 1d6: On a 4+, the target is INTANGIBLE during the action. This effect does not stack with INVISIBLE."
+  },
+  {
+    "id": "npcf_superimpose_firmament_ghost",
+    "name": "Superimpose Firmament",
+    "origin": {
+      "type": "Class",
+      "name": "Ghost",
+      "base": false
+    },
+    "locked": false,
+    "type": "System",
+    "tags": [
+      {
+        "id": "tg_recharge",
+        "val": "6"
+      },
+      {
+        "id": "tg_full_action"
+      }
+    ],
+    "effect": "The Ghost projects a Burst 2 area of Firmament energy. All tangible characters, objects, terrain, and sitrep objectives are INTANGIBLE while within the area (so INTANGIBLE characters can interact with sitrep objectives within and tangible ones cannot). The area lasts until the end of the Ghost’s next turn."
+  },
+  {
+    "id": "npcf_string_theory_marionette_ghost",
+    "name": "String Theory Marionette",
+    "origin": {
+      "type": "Class",
+      "name": "Ghost",
+      "base": false
+    },
+    "locked": false,
+    "type": "Tech",
+    "tech_type": "Quick",
+    "tags": [
+      {
+        "id": "tg_quick_tech"
+      }
+    ],
+    "effect": "The Ghost targets a character affected by PARADOX STATE. The target may either SKIRMISH or use QUICK TECH as a reaction, dealing half damage, Heat, Burn or to all targets."
+  },
+  {
+    "id": "npcf_wavefunction_collapse_ghost",
+    "name": "Wavefunction Collapse",
+    "origin": {
+      "type": "Class",
+      "name": "Ghost",
+      "base": false
+    },
+    "locked": false,
+    "type": "Reaction",
+    "tags": [
+      {
+        "id": "tg_reaction"
+      },
+      {
+        "id": "tg_round",
+        "val": 1
+      }
+    ],
+    "trigger": "A hostile action is taken against a character affected by PARADOX STATE.",
+    "effect": "The Ghost may first use QUANTUM BOND."
+  },
+  {
+    "id": "npcf_spectral_flight_ghost",
+    "name": "Spectral Flight",
+    "origin": {
+      "type": "Class",
+      "name": "Ghost",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "tags": [],
+    "effect": "Characters affected by PHASE SHIFT may treat all of their movement as flying."
+  },
+  {
+    "id": "npcf_split_timestream_ghost",
+    "name": "Split Timestream",
+    "origin": {
+      "type": "Class",
+      "name": "Ghost",
+      "base": false
+    },
+    "locked": false,
+    "type": "Reaction",
+    "tags": [
+      {
+        "id": "tg_reaction"
+      },
+      {
+        "id": "tg_round",
+        "val": 1
+      }
+    ],
+    "trigger": "A character affected by PARADOX STATE would take structure damage or stress.",
+    "effect": "The triggering character instead regains all HP and clears all Heat, and the Ghost takes the structure damage or stress instead."
+  }
 ]
