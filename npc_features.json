@@ -13,9 +13,12 @@
       {
         "id": "tg_recharge",
         "val": 5
+      },
+      {
+        "id": "tg_quick_tech"
       }
     ],
-    "effect": "The Anchor becomes SLOWED and creates a Burst 3 area of gravitomagnetic interference until the end of its next turn. While active, hostile characters in the area are SLOWED and cannot teleport into or out of the area. Allied characters within the area are not valid targets for ranged attacks. Other characters with LODESTONE are unaffected by this system."
+    "effect": "The Anchor becomes SLOWED and creates a Burst 3 area of gravitomagnetic interference until the end of its next turn. While active, hostile characters in the area are SLOWED and cannot teleport into or out of the area.<br/><br/>Allied characters within the area are not valid targets for ranged attacks. Other characters with LODESTONE are unaffected by this system."
   },
   {
     "id": "npcf_gravity_cannon_anchor",
@@ -63,7 +66,7 @@
         ]
       }
     ],
-    "effect": "Choose to either Attract or Repulse.",
+    "effect": "On Attack: Choose to either Attract or Repulse.",
     "on_hit": "The target must pass a HULL save or be pulled 3 spaces directly towards the Anchor (Attract) or pushed 3 spaces directly away from the Anchor (Repulse) until they hit an obstruction. If the target collides with an obstruction, they are knocked PRONE."
   },
   {
@@ -119,6 +122,9 @@
       {
         "id": "tg_recharge",
         "val": 6
+      },
+      {
+        "id": "tg_full_action"
       }
     ],
     "effect": "The Anchor creates a Line 8 path of gravitic energy. All characters within the path or above it must pass a HULL save or first be IMMOBILIZED until the end of their next turn and then knocked PRONE."
@@ -138,9 +144,12 @@
       {
         "id": "tg_recharge",
         "val": 4
+      },
+      {
+        "id": "tg_reaction"
       }
     ],
-    "effect": "Effect: The allied character gains RESISTANCE to all damage from the attack, and the attacker must pass a HULL save or be pushed 3 spaces away from their target and knocked PRONE."
+    "effect": "The allied character gains RESISTANCE to all damage from the attack, and the attacker must pass a HULL save or be pushed 3 spaces away from their target and knocked PRONE."
   },
   {
     "id": "npcf_null_grav_motivator_anchor",
@@ -155,13 +164,177 @@
     "tech_type": "Quick",
     "tags": [
       {
-        "id": "tg_quick_tech"
-      },
-      {
         "id": "tg_recharge",
         "val": 5
+      },
+      {
+        "id": "tg_quick_tech"
       }
     ],
     "effect": "The Anchor creates three Blast 1 areas in SENSORS extending 6 spaces high. These areas become zero-g areas that last until the Anchor uses this system again. Characters within the areas upon their creation must pass an AGILITY save or be IMPAIRED until the end of their next turn."
-  }
+  },
+  {
+    "id": "npcf_marathon_arquebus_capacitor",
+    "name": "Marathon Arquebus",
+    "origin": {
+      "type": "Class",
+      "name": "Capacitor",
+      "base": true
+    },
+    "locked": false,
+    "type": "Weapon",
+    "weapon_type": "Superheavy Cannon",
+    "tags": [],
+    "attack_bonus": [
+      1,
+      2,
+      3
+    ],
+    "accuracy": [
+      1,
+      1,
+      1
+    ],
+    "range": [
+      {
+        "type": "Line",
+        "val": 15
+      }
+    ],
+    "damage": [
+      {
+        "type": "Energy",
+        "damage": [
+          4,
+          6,
+          8
+        ]
+      }
+    ],
+    "effect": "Allied characters in the affected area are not attacked, but instead gain OVERSHIELD {2/4/6}.<br/><br/>The Capacitor gains OVERSHIELD equal to the number of characters damaged or granted OVERSHIELD by this weapon."
+  },
+  {
+    "id": "npcf_arc_feedback_capacitor",
+    "name": "Arc Feedback",
+    "origin": {
+      "type": "Class",
+      "name": "Capacitor",
+      "base": true
+    },
+    "locked": false,
+    "type": "Reaction",
+    "trigger": "A hostile character causes an allied character in SENSORS to lose all OVERSHIELD.",
+    "tags": [
+      {
+        "id": "tg_reaction"
+      },
+      {
+        "id": "tg_round",
+        "val": 1
+      }
+    ],
+    "effect": "The hostile character takes {2/4/6} Energy damage and is IMPAIRED until the end of their next turn."
+  },
+  {
+    "id": "npcf_purifying_lightning_capacitor",
+    "name": "Purifying Lightning",
+    "origin": {
+      "type": "Class",
+      "name": "Capacitor",
+      "base": false
+    },
+    "locked": false,
+    "type": "System",
+    "tags": [],
+    "effect": "Allies affected by the MARATHON ARQUEBUS may clear up to one condition."
+  },
+  {
+    "id": "npcf_deflecting_shot_capacitor",
+    "name": "Deflecting Shot",
+    "origin": {
+      "type": "Class",
+      "name": "Capacitor",
+      "base": false
+    },
+    "locked": false,
+    "type": "Reaction",
+    "trigger": "An allied character in SENSORS is hit by an attack.",
+    "tags": [
+      {
+        "id": "tg_recharge",
+        "val": 5
+      },
+      {
+        "id": "tg_reaction"
+      }
+    ],
+    "effect": "The Capacitor first BARRAGES with the MARATHON ARQUEBUS. The triggering allied character must be included in the attack’s area."
+  },
+  {
+    "id": "npcf_quickening_bolt_capacitor",
+    "name": "Quickening Bolt",
+    "origin": {
+      "type": "Class",
+      "name": "Capacitor",
+      "base": false
+    },
+    "locked": false,
+    "type": "Tech",
+    "tech_type": "Quick",
+    "tags": [
+      {
+        "id": "tg_recharge",
+        "val": 5
+      },
+      {
+        "id": "tg_quick_tech"
+      }
+    ],
+    "effect": "Choose one character within SENSORS. The target gains OVERSHIELD {4/6/8}. Until the target loses all OVERSHIELD, they may BOOST as a free action."
+  },
+  {
+    "id": "npcf_cyclic_discharge_capacitor",
+    "name": "Cyclic Discharge",
+    "origin": {
+      "type": "Class",
+      "name": "Capacitor",
+      "base": false
+    },
+    "locked": false,
+    "type": "System",
+    "tags": [
+      {
+        "id": "tg_recharge",
+        "val": 4
+      },
+      {
+        "id": "tg_quick_action"
+      }
+    ],
+    "effect": "The Capacitor loses all OVERSHIELD. Its next weapon attack deals bonus damage equal to the OVERSHIELD lost."
+  },
+  {
+    "id": "npcf_amplifier_drone_capacitor",
+    "name": "Amplifier Drone",
+    "origin": {
+      "type": "Class",
+      "name": "Capacitor",
+      "base": false
+    },
+    "locked": false,
+    "type": "System",
+    "tags": [
+      {
+        "id": "tg_drone"
+      },
+      {
+        "id": "tg_limited",
+        "val": 2
+      },
+      {
+        "id": "tg_quick_action"
+      }
+    ],
+    "effect": "Amplifier Drone (Size 1/2, HP {5/10/15}, Evasion 10, E-Defense 10, Tags: Drone)<br/><br/>This drone can be deployed to a space within SENSORS and line of sight. While deployed, it projects a Burst 2 electrified area. Allied characters in the area that gain any OVERSHIELD increase the amount gained by +2. Hostile characters that enter the area or end their turn there receive LOCK ON and cease to be INVISIBLE or HIDDEN."
+  },
 ]
