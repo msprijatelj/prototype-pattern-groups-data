@@ -1290,7 +1290,7 @@
         "id": "tg_quick_action"
       }
     ],
-    "effect": "The Napalm expends a charge for the following effect:<br/><br/>INCENDIARY GRENADE (Grenade, Range 5, Blast 1):<br/>The affected area becomes a zone of burning difficult terrain until it’s put out or until the end of the scene. Characters that are within the zone upon this system’s activation, move into the zone for the first time in a round, or end their turn there must pass an ENGINEERING save or take {3/4/5} Burn."
+    "effect": "The Napalm expends a charge for the following effect:<br/><br/>INCENDIARY GRENADE (Grenade, Range 5, Blast 1):<br/>The affected area is set on fire and becomes difficult terrain until extinguished or until the end of the scene. Characters that are within the area upon this system’s activation, move into the area for the first time in a round, or end their turn there must pass an ENGINEERING save or take 3/4/5 Burn."
   },
   {
     "id": "ppg_npcf_long_burn_catalyst_napalm",
@@ -1303,7 +1303,7 @@
     "locked": false,
     "type": "Trait",
     "tags": [],
-    "effect": "The area targeted by the SALAMANDER THERMOBARIC CATAPULT becomes a zone of difficult terrain until it’s put out or until the end of the Napalm’s next turn. Characters that move into the zone for the first time in a round or end their turn there must pass an ENGINEERING save or take {6/8/10} Burn."
+    "effect": "The area targeted by the SALAMANDER THERMOBARIC CATAPULT is set on fire and becomes of difficult terrain until extinguished or until the end of the Napalm’s next turn. Characters that move into the zone for the first time in a round or end their turn there must pass an ENGINEERING save or take 6/8/10 Burn."
   },
   {
     "id": "ppg_npcf_zeal_zealot",
