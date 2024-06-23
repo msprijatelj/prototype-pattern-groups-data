@@ -1598,5 +1598,34 @@
       }
     ],
     "effect": "The Brigand targets one hostile DEPLOYABLE or DRONE. Until the end of the scene, the Brigand is treated as the controller of the target DEPLOYABLE or DRONE. The original controller can wrest control back with a successful SYSTEMS check as a quick action while the affected DEPLOYABLE or DRONE is within their SENSORS and line of sight."
+  },
+  {
+    "id": "ppg_npcf_reactor_restrictions_tempered",
+    "name": "Reactor Restrictions",
+    "origin": {
+      "type": "Template",
+      "name": "Tempered",
+      "base": true
+    },
+    "locked": false,
+    "type": "Trait",
+    "tags": [],
+    "effect": "This template may only be taken by an NPC with more than 1 STRESS."
+  },
+  {
+    "id": "ppg_npcf_tempered_reactor_tempered",
+    "name": "Tempered Reactor",
+    "origin": {
+      "type": "Template",
+      "name": "Tempered",
+      "base": true
+    },
+    "locked": false,
+    "type": "Trait",
+    "tags": [],
+    "effect": "This NPC receives +2 HEAT CAP.",
+    "bonus": {
+      "heatcap": 2
+    }
   }
 ]
