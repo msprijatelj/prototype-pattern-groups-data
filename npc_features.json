@@ -790,7 +790,7 @@
         "id": "tg_quick_tech"
       }
     ],
-    "effect": "A hostile character within SENSORS and line of sight must pass a SYSTEMS save or enter a duel with the Knight. Characters in a duel receive +3 Difficulty on all attacks that don’t include their opponent as a target and cannot voluntarily move away from each other. If a dueling character makes any attack against their opponent, these effects cease for them until the start of their next turn.<br/><br/>The duel lasts until the end of the scene or until one of the opponents is destroyed. Each character cannot enter another duel until the end of this duel."
+    "effect": "A hostile character within SENSORS and line of sight must pass a SYSTEMS save or enter a duel with the Knight. Characters in a duel receive +3 Difficulty on all attacks that don’t include their opponent as a target and cannot voluntarily move away from each other. If a dueling character makes any attack against their opponent, these effects cease for the attacker until the start of their next turn.<br/><br/>The duel lasts until the end of the scene or until one of the opponents is destroyed. Each character cannot enter another duel until the end of this duel."
   },
   {
     "id": "ppg_npcf_punishing_blow_knight",
@@ -1324,7 +1324,7 @@
         "id": "tg_protocol"
       }
     ],
-    "effect": "The Zealot emanates a Burst 3 area of zealous energy. The following effects apply to characters within the area:<ul><li>Attacks made by allied characters against targets within the Zealot’s SENSORS gain AP.</li><li>Hostile characters that have any Burn lose INVISIBLE and HIDDEN and can’t regain either status until they leave the area.</li></ul>This area lasts until the end of the Zealot’s next turn, it uses this protocol again, or the Zealot is STUNNED, JAMMED, overheated, or destroyed."
+    "effect": "The Zealot emanates a Burst 3 area of zealous energy. The following effects apply to characters within the area:<ul><li>Attacks made by allied characters against targets within the Zealot’s SENSORS gain AP.</li><li>Hostile characters that have any Burn lose INVISIBLE and HIDDEN and can’t regain either status until they leave the area.</li></ul>This area lasts until the start of the Zealot’s first turn each round or until the Zealot is STUNNED, JAMMED, overheated, or destroyed."
   },
   {
     "id": "ppg_npcf_emberlight_nexus_zealot",

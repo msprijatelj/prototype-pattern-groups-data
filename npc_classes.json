@@ -204,7 +204,7 @@
     "role": "support",
     "info": {
       "flavor": "Ghost pattern groups represent an emergent mech classification using Aunic technology stolen during Boundary Garden skirmishes. The PG possesses very few offensive capabilities, but carries potent equipment to shunt it and a paired mech partially into the Firmament.",
-      "tactics": "Ghosts latch onto an ally to grant them INTANGIBLE. PHASE SHIFT allows allies to act and traverse the battlefield without fear of reprisal. This comes at a cost: ENTANGLE FIRMAMENT is susceptible to conditions and forced movement, and the Ghost is frail without it."
+      "tactics": "Ghosts latch onto an ally to grant them INTANGIBLE. PHASE SHIFT allows allies to act and traverse the battlefield without fear of reprisal. This comes at a cost: PARADOX STATE is susceptible to conditions and forced movement, and the Ghost is frail without it."
     },
     "stats": {
       "armor": [
@@ -605,7 +605,7 @@
     "role": "artillery",
     "info": {
       "flavor": "The next, horrifying step of the HA Genghis’s lineage. Napalm-pattern chassis paint the battlefield with their namesake combustible, coating unfortunate targets in a burning, viscid concoction. Numerous reports of authoritarian groups fielding this pattern group have found their way to the desks of Union’s DoJ/HR, much to the chagrin of Harrison Armory.",
-      "tactics": "The Napalm lives to set the world on fire. Its SALAMANDER NAPALM CATAPULT covers the battlefield with flammable ADHESIVE GEL to apply movement pressure with SLOWED and HP pressure with Burn. Despite its large HEAT CAP, the Napalm is still susceptible to control effects due to its low E-DEFENSE."
+      "tactics": "The Napalm lives to set the world on fire. Its SALAMANDER THERMOBARIC CATAPULT covers the battlefield with flammable ADHESIVE GEL to apply movement pressure with SLOWED and HP pressure with Burn. Despite its large HEAT CAP, the Napalm is still susceptible to control effects due to its low E-DEFENSE."
     },
     "stats": {
       "armor": [
