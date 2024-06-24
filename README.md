@@ -6,6 +6,6 @@ This repository contains the JSON data for Lancer third-party supplement [Protot
 
 ![Powered by Lancer logo](https://massifpress.com/_next/image?url=%2Fimages%2Flegal%2Fpowered_by_Lancer-02.svg&w=640&q=75 "Powered by Lancer")
 
-**Prototype Pattern Groups** is not an official *Lancer* product; it is a third party work, and is not affiliated with Massif Press. **Prototype Pattern Group** is published via the *Lancer* Third Party License.
+**Prototype Pattern Groups** is not an official *Lancer* product; it is a third party work, and is not affiliated with Massif Press. **Prototype Pattern Groups** is published via the *Lancer* Third Party License.
 
 *Lancer* is copyright Massif Press.
