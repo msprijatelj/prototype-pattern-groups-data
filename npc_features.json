@@ -63,14 +63,14 @@
       {
         "type": "Energy",
         "damage": [
-          2,
           3,
-          4
+          4,
+          5
         ]
       }
     ],
     "effect": "On Attack: Choose to either Attract or Repulse.",
-    "on_hit": "The target must pass a HULL save or be pulled 3 spaces directly towards the Anchor (Attract) or pushed 3 spaces directly away from the Anchor (Repulse) until they hit an obstruction. If the target collides with an obstruction, they are knocked PRONE."
+    "on_hit": "The target is pulled 3 spaces directly towards the Anchor (Attract) or pushed 3 spaces directly away from the Anchor (Repulse) until they hit an obstruction. If the target collides with an obstruction, they must pass a HULL save or be knocked PRONE."
   },
   {
     "id": "ppg_npcf_siege_armor_anchor",
@@ -756,6 +756,11 @@
       4,
       6
     ],
+    "accuracy": [
+      1,
+      1,
+      1
+    ],
     "range": [
       {
         "type": "Threat",
@@ -766,13 +771,13 @@
       {
         "type": "Kinetic",
         "damage": [
-          4,
-          6,
-          8
+          5,
+          7,
+          9
         ]
       }
     ],
-    "effect": "On Critical Hit: The target gains LOCK ON."
+    "effect": "On Critical Hit: The target gains LOCK ON, and they are SHREDDED until the end of their next turn."
   },
   {
     "id": "ppg_npcf_compelled_duel_knight",
@@ -793,26 +798,28 @@
     "effect": "A hostile character within SENSORS and line of sight must pass a SYSTEMS save or enter a duel with the Knight. Characters in a duel receive +3 Difficulty on all attacks that don’t include their opponent as a target and cannot voluntarily move away from each other. If a dueling character makes any attack against their opponent, these effects cease for the attacker until the start of their next turn.<br/><br/>The duel lasts until the end of the scene or until one of the opponents is destroyed. Each character cannot enter another duel until the end of this duel."
   },
   {
-    "id": "ppg_npcf_punishing_blow_knight",
-    "name": "Punishing Blow",
+    "id": "ppg_npcf_templars_shield_knight",
+    "name": "Templar’s Shield",
     "origin": {
       "type": "Class",
       "name": "Knight",
       "base": true
     },
     "locked": false,
-    "type": "Reaction",
+    "type": "System",
     "tags": [
       {
-        "id": "tg_reaction"
+        "id": "tg_shield"
       },
       {
-        "id": "tg_round",
-        "val": 1
+        "id": "tg_recharge",
+        "val": 4
+      },
+      {
+        "id": "tg_quick_action"
       }
     ],
-    "trigger": "The Knight’s duel opponent takes a hostile action that doesn’t include the Knight as a target.",
-    "effect": "The Knight SKIRMISHES the triggering character, knocking them PRONE on a hit."
+    "effect": "The Knight raises a shield, gaining RESISTANCE to all damage from its duel opponent until the end of its next turn."
   },
   {
     "id": "ppg_npcf_heros_banner_knight",
@@ -855,28 +862,26 @@
     "effect": "When attacking with the CHAMPION’S GREATSWORD, the Knight may choose to attack in a Cone 3 area."
   },
   {
-    "id": "ppg_npcf_templars_shield_knight",
-    "name": "Templar’s Shield",
+    "id": "ppg_npcf_punishing_blow_knight",
+    "name": "Punishing Blow",
     "origin": {
       "type": "Class",
       "name": "Knight",
       "base": false
     },
     "locked": false,
-    "type": "System",
+    "type": "Reaction",
     "tags": [
       {
-        "id": "tg_shield"
+        "id": "tg_reaction"
       },
       {
-        "id": "tg_recharge",
-        "val": 4
-      },
-      {
-        "id": "tg_quick_action"
+        "id": "tg_round",
+        "val": 1
       }
     ],
-    "effect": "The Knight raises a shield, gaining RESISTANCE to all damage from its duel opponent until the end of its next turn."
+    "trigger": "The Knight’s duel opponent takes a hostile action that doesn’t include the Knight as a target.",
+    "effect": "The Knight SKIRMISHES the triggering character, knocking them PRONE on a hit."
   },
   {
     "id": "ppg_npcf_second_wind_knight",

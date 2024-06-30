@@ -404,7 +404,7 @@
     "role": "defender",
     "info": {
       "flavor": "Knight pilots live for the thrill of battle. They engage high value targets in a compulsory duel, locking themselves in a fight to the death. Their mighty blows leave their opponents open to supporting fire from the Knight’s compatriots.",
-      "tactics": "The Knight challenges an opponent to a COMPELLED DUEL. This isn’t a pure one-on-one fight, however; the Knight’s target becomes more vulnerable to enemy attacks through CHAMPION’S GREATSWORD and PUNISHING BLOW. It repositions opponents with KNOCKBACK and RAM. While durable, the Knight is easy to hit with both weapons and tech attacks."
+      "tactics": "The Knight challenges an opponent to a COMPELLED DUEL. However, this is from a fair fight, as CHAMPION’S GREATSWORD leaves the Knight’s opponent vulnerable to outside interference and TEMPLAR’S SHIELD impedes their attacks. KNOCKBACK and RAM allow the Knight to reposition during a duel. While durable, the Knight is easy to hit with both weapons and tech attacks."
     },
     "stats": {
       "armor": [
