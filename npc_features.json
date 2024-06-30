@@ -390,7 +390,7 @@
         "id": "tg_full_action"
       }
     ],
-    "effect": "While this effect lasts, the Ghost becomes INTANGIBLE and enters one space occupied by tangible adjacent character. The Ghost moves with the target’s voluntary movement. As a protocol, the target may take 2 Heat to gain the Ghost’s PHASE SHIFT feature until the end of their turn. If either character takes Heat or receives any condition, the other character receives the same amount of Heat and gains that condition for the same duration. This effect lasts until the Ghost no longer shares a space with the target, or until the Ghost is STUNNED, JAMMED, overheated, or destroyed."
+    "effect": "While this effect lasts, the Ghost becomes INTANGIBLE and enters one space occupied by a tangible adjacent character. The Ghost moves with the target’s voluntary movement. As a protocol, the target may take 2 Heat to gain the Ghost’s PHASE SHIFT feature until the end of their turn. If either character takes Heat or receives any condition, the other character receives the same amount of Heat and gains that condition for the same duration. This effect lasts until the Ghost no longer shares a space with the target, or until the Ghost is STUNNED, JAMMED, overheated, or destroyed."
   },
   {
     "id": "ppg_npcf_quantum_bond_ghost",
