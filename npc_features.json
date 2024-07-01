@@ -1271,7 +1271,7 @@
         "id": "tg_quick_action"
       }
     ],
-    "effect": "Firefly Drone (Size 1/2, HP {5/10/15}, Evasion 10, E-Defense 10, Tags: Drone)<br/><br/>This drone can be deployed to a space within SENSORS and line of sight. While deployed, hostile characters in Burst 2 of the drone cannot draw line of sight outside of the area. If the drone takes any Burn, it explodes; all characters in Burst 2 must pass an AGILITY save or take {3/4/5} Burn."
+    "effect": "Firefly Drone (Size 1/2, HP {5/10/15}, Evasion 10, E-Defense 10, Tags: Drone)<br/><br/>This drone can be deployed to a space within SENSORS and line of sight. While deployed, hostile characters in Burst 2 of the drone cannot draw line of sight outside of the area. If the drone takes any Burn, it explodes; all characters in Burst 2 must pass an AGILITY save or take {2/4/6} Burn."
   },
   {
     "id": "ppg_npcf_incendiary_grenade_napalm",
@@ -1295,7 +1295,7 @@
         "id": "tg_quick_action"
       }
     ],
-    "effect": "The Napalm expends a charge for the following effect:<br/><br/>INCENDIARY GRENADE (Grenade, Range 5, Blast 1):<br/>The affected area is set on fire and becomes difficult terrain until extinguished or until the end of the scene. Characters that are within the area upon this system’s activation, move into the area for the first time in a round, or end their turn there must pass an ENGINEERING save or take {3/4/5} Burn."
+    "effect": "The Napalm expends a charge for the following effect:<br/><br/>INCENDIARY GRENADE (Grenade, Range 5, Blast 1):<br/>The affected area is set on fire and becomes difficult terrain until extinguished or until the end of the scene. Characters that start their turn within the area or move into it for the first time in a round must pass an ENGINEERING save or take {2/4/6} Burn."
   },
   {
     "id": "ppg_npcf_long_burn_catalyst_napalm",
@@ -1306,9 +1306,17 @@
       "base": false
     },
     "locked": false,
-    "type": "Trait",
-    "tags": [],
-    "effect": "The area targeted by the SALAMANDER THERMOBARIC CATAPULT is set on fire and becomes of difficult terrain until extinguished or until the end of the Napalm’s next turn. Characters that move into the zone for the first time in a round or end their turn there must pass an ENGINEERING save or take {6/8/10} Burn."
+    "type": "System",
+    "tags": [
+      {
+        "id": "tg_recharge",
+        "val": 6
+      },
+      {
+        "id": "tg_free_action"
+      }
+    ],
+    "effect": "The area targeted by the SALAMANDER THERMOBARIC CATAPULT is set on fire and becomes difficult terrain until extinguished or until the end of the scene. Characters that start their turn within the area or move into it for the first time in a round must pass an ENGINEERING save or take {1/2/3} Heat and {2/3/4} Burn."
   },
   {
     "id": "ppg_npcf_zeal_zealot",
