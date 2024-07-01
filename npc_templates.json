@@ -24,7 +24,6 @@
     "name": "Tempered",
     "description": "The Tempered template is intended for use with the RECHARGE HEAT optional rule. If NPCs with more than one STRESS are left too vulnerable to HEAT effects due to this rule, this template will lightly bump their HEAT CAPS to make the additional HEAT manageable.",
     "base_features": [
-      "ppg_npcf_reactor_restrictions_tempered",
       "ppg_npcf_tempered_reactor_tempered"
     ],
     "optional_features": [],
