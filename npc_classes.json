@@ -487,12 +487,12 @@
     "base_features": [
       "ppg_npcf_champions_greatsword_knight",
       "ppg_npcf_compelled_duel_knight",
-      "ppg_npcf_punishing_blow_knight"
+      "ppg_npcf_templars_shield_knight"
     ],
     "optional_features": [
       "ppg_npcf_heros_banner_knight",
       "ppg_npcf_sweeping_blows_knight",
-      "ppg_npcf_templars_shield_knight",
+      "ppg_npcf_punishing_blow_knight",
       "ppg_npcf_second_wind_knight",
       "ppg_npcf_mighty_throw_knight"
     ],
