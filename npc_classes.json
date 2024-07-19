@@ -9,9 +9,9 @@
     },
     "stats": {
       "armor": [
-        1,
-        1,
-        1
+        2,
+        2,
+        2
       ],
       "hp": [
         20,
@@ -105,7 +105,7 @@
     "role": "support",
     "info": {
       "flavor": "The fruits of SSC’s “Emperor” project eventually yielded the Capacitor-class mech, a mass-production model refining the Marathon Arc into a more cheaply-produced cannon. Capacitors freely convert excess shielding into lethal electricity and back again. The chassis is not without its oddities; Capacitor squadmates frequently report moments of team synchronicity long after hostilities conclude.",
-      "tactics": "The Capacitor dispenses OVERSHIELD from the back lines, staying in cover while it fires its oversized MARATHON ARQUEBUS. Complementing this, it uses ARC FEEDBACK to deter hostile additional attacks. Despite the OVERSHIELD it can gain, the Capacitor is a fragile mech that relies upon distance to stay alive."
+      "tactics": "The Capacitor dispenses OVERSHIELD from the back lines, staying in cover while it fires its oversized MARATHON ARQUEBUS. Complementing this, it uses ARC FEEDBACK to deter hostile attacks. Despite the OVERSHIELD it can gain, the Capacitor is a fragile mech that relies upon distance to stay alive."
     },
     "stats": {
       "armor": [
@@ -404,7 +404,7 @@
     "role": "defender",
     "info": {
       "flavor": "Knight pilots live for the thrill of battle. They engage high value targets in a compulsory duel, locking themselves in a fight to the death. Their mighty blows leave their opponents open to supporting fire from the Knight’s compatriots.",
-      "tactics": "The Knight challenges an opponent to a COMPELLED DUEL. However, this is from a fair fight, as CHAMPION’S GREATSWORD leaves the Knight’s opponent vulnerable to outside interference and TEMPLAR’S SHIELD impedes their attacks. KNOCKBACK and RAM allow the Knight to reposition during a duel. While durable, the Knight is easy to hit with both weapons and tech attacks."
+      "tactics": "The Knight challenges an opponent to a COMPELLED DUEL. However, this is from a fair fight, as CHAMPION’S GREATSWORD leaves the Knight’s opponent vulnerable to outside interference and TEMPLAR’S SHIELD impedes their attacks. While durable, the Knight is easy to hit with both weapons and tech attacks."
     },
     "stats": {
       "armor": [
@@ -513,9 +513,9 @@
         0
       ],
       "hp": [
-        10,
-        10,
-        10
+        14,
+        17,
+        20
       ],
       "evade": [
         10,
@@ -644,9 +644,9 @@
         15
       ],
       "save": [
-        11,
         13,
-        15
+        15,
+        17
       ],
       "hull": [
         1,

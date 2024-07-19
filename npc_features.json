@@ -192,6 +192,9 @@
     "weapon_type": "Superheavy Cannon",
     "tags": [
       {
+        "id": "tg_arcing"
+      },
+      {
         "id": "tg_overshield"
       },
       {
@@ -218,13 +221,13 @@
       {
         "type": "Energy",
         "damage": [
-          4,
-          6,
-          8
+          5,
+          7,
+          9
         ]
       }
     ],
-    "effect": "Allied characters in the affected area are not attacked, but instead gain OVERSHIELD {2/4/6}.<br/><br/>The Capacitor gains OVERSHIELD equal to the number of characters damaged or granted OVERSHIELD by this weapon."
+    "effect": "Allied characters in the affected area are not attacked, but instead gain OVERSHIELD {3/6/9}.<br/><br/>The Capacitor gains OVERSHIELD equal to the total number of allied characters affected plus hostile characters hit by this weapon."
   },
   {
     "id": "ppg_npcf_arc_feedback_capacitor",
@@ -249,7 +252,7 @@
       }
     ],
     "trigger": "A hostile character causes an allied character in SENSORS to lose all OVERSHIELD.",
-    "effect": "The hostile character takes {2/4/6} Energy damage and is IMPAIRED until the end of their next turn."
+    "effect": "The hostile character is SHREDDED and IMPAIRED until the end of their next turn. In addition, they take {2/4/6} Energy damage."
   },
   {
     "id": "ppg_npcf_purifying_lightning_capacitor",
@@ -284,7 +287,7 @@
       }
     ],
     "trigger": "An allied character in SENSORS is hit by an attack.",
-    "effect": "The Capacitor first BARRAGES with the MARATHON ARQUEBUS. The triggering allied character must be included in the attack’s area."
+    "effect": "The Capacitor first BARRAGES with the MARATHON ARQUEBUS, dealing half damage, heat, or burn to all targets. The triggering allied character must be included in the attack’s area."
   },
   {
     "id": "ppg_npcf_quickening_bolt_capacitor",
@@ -777,7 +780,8 @@
         ]
       }
     ],
-    "effect": "On Critical Hit: The target gains LOCK ON, and they are SHREDDED until the end of their next turn."
+    "effect": "",
+    "on_hit": "The target gains LOCK ON. If they are affected by COMPELLED DUEL, they are also SHREDDED until the end of their next turn."
   },
   {
     "id": "ppg_npcf_compelled_duel_knight",
@@ -795,7 +799,7 @@
         "id": "tg_quick_tech"
       }
     ],
-    "effect": "A hostile character within SENSORS and line of sight must pass a SYSTEMS save or enter a duel with the Knight. Characters in a duel receive +3 Difficulty on all attacks that don’t include their opponent as a target and cannot voluntarily move away from each other. If a dueling character makes any attack against their opponent, these effects cease for the attacker until the start of their next turn.<br/><br/>The duel lasts until the end of the scene or until one of the opponents is destroyed. Each character cannot enter another duel until the end of this duel."
+    "effect": "A hostile character within SENSORS and line of sight enters a duel with the Knight. While in the duel, the target must make a SYSTEMS save at the start of each of their turns. On a failure, until the start of the target's next turn, they receive +3 Difficulty on all attacks that don't include the Knight as a target, and they cannot voluntarily move away from the Knight.<br/><br/>The duel lasts until the end of the scene or until one of the opponents is destroyed. Each character cannot enter another duel until the end of this duel."
   },
   {
     "id": "ppg_npcf_templars_shield_knight",
@@ -949,7 +953,7 @@
     "tags": [
       {
         "id": "tg_recharge",
-        "val": 5
+        "val": 4
       },
       {
         "id": "tg_quick_tech"
@@ -982,7 +986,7 @@
         "id": "tg_quick_tech"
       }
     ],
-    "effect": "Roll 1d3. The Mesmerist creates that many mirror images that occupy its space and last until it uses this system again. The Mesmerist is INVISIBLE for as long as it has any mirror images. Every attack that misses the Mesmerist destroys 1 mirror image."
+    "effect": "Roll 1d3+1. The Mesmerist creates that many mirror images occupying its space until it uses this system again. The Mesmerist is INVISIBLE for as long as it has any mirror images. Every attack that misses the Mesmerist destroys 1 mirror image."
   },
   {
     "id": "ppg_npcf_codespike_rapier_mesmerist",
@@ -1151,9 +1155,14 @@
       }
     ],
     "attack_bonus": [
-      1,
       2,
-      3
+      4,
+      6
+    ],
+    "accuracy": [
+      -1,
+      -1,
+      -1
     ],
     "range": [
       {
@@ -1177,9 +1186,9 @@
       {
         "type": "Burn",
         "damage": [
-          4,
-          6,
-          8
+          5,
+          7,
+          9
         ]
       }
     ],
@@ -1316,7 +1325,7 @@
         "id": "tg_free_action"
       }
     ],
-    "effect": "The area targeted by the SALAMANDER THERMOBARIC CATAPULT is set on fire and becomes difficult terrain until extinguished or until the end of the scene. Characters that start their turn within the area or move into it for the first time in a round must pass an ENGINEERING save or take {1/2/3} Heat and {2/3/4} Burn."
+    "effect": "The area targeted by the SALAMANDER THERMOBARIC CATAPULT and all adjacent spaces are set on fire and become difficult terrain until extinguished or until the end of the scene. Characters that start their turn within the area or move into it for the first time in a round must pass an ENGINEERING save or take {1/2/3} Heat and {2/3/4} Burn."
   },
   {
     "id": "ppg_npcf_zeal_zealot",
