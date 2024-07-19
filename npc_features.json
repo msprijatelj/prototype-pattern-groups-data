@@ -565,7 +565,7 @@
         "val": 1
       }
     ],
-    "effect": "When the Hatchet retrieves a THROWN weapon, all adjacent hostile characters must pass an AGILITY save or take {3/4/5} Kinetic damage and become SLOWED until the end of their next turn."
+    "effect": "When the Hatchet retrieves a THROWN weapon, all hostile characters adjacent to them must pass an AGILITY save or take {3/4/5} Kinetic damage and become SLOWED until the end of their next turn."
   },
   {
     "id": "ppg_npcf_flip_kick_hatchet",
