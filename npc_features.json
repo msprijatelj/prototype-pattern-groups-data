@@ -816,8 +816,8 @@
         "id": "tg_shield"
       },
       {
-        "id": "tg_recharge",
-        "val": 4
+        "id": "tg_heat_self",
+        "val": 3
       },
       {
         "id": "tg_quick_action"
