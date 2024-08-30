@@ -379,8 +379,8 @@
     "effect": "This character is INTANGIBLE on their turn. While INTANGIBLE, they can target and affect tangible characters and objects, but only deal half damage, Heat, Burn or to all targets."
   },
   {
-    "id": "ppg_npcf_paradox_state_ghost",
-    "name": "Paradox State",
+    "id": "ppg_npcf_quantum_bond_ghost",
+    "name": "Quantum Bond",
     "origin": {
       "type": "Class",
       "name": "Ghost",
@@ -393,11 +393,11 @@
         "id": "tg_full_action"
       }
     ],
-    "effect": "While this effect lasts, the Ghost becomes INTANGIBLE and enters one space occupied by a tangible adjacent character. The Ghost moves with the target’s voluntary movement. As a protocol, the target may take 2 Heat to gain the Ghost’s PHASE SHIFT feature until the end of their turn. If either character takes Heat or receives any condition, the other character receives the same amount of Heat and gains that condition for the same duration. This effect lasts until the Ghost no longer shares a space with the target, or until the Ghost is STUNNED, JAMMED, overheated, or destroyed."
+    "effect": "The Ghost bonds with one tangible adjacent allied character, becoming INTANGIBLE and sharing <b>one</b> of the target’s spaces. While bonded, the target may take 2 Heat as a protocol to gain the Ghost’s PHASE SHIFT feature until the end of the turn. However, if either bonded character takes Heat or a condition, the other character takes the same amount of Heat and receives that condition for the same duration.<br/><br/>While bonded, the Ghost can only move with the target’s <b>voluntary movement</b>. The bond ends if the Ghost uses this system again, no longer shares a space with the target, or is STUNNED, JAMMED, overheated, or destroyed."
   },
   {
-    "id": "ppg_npcf_quantum_bond_ghost",
-    "name": "Quantum Bond",
+    "id": "ppg_npcf_paradox_state_ghost",
+    "name": "Paradox State",
     "origin": {
       "type": "Class",
       "name": "Ghost",
@@ -411,7 +411,7 @@
         "id": "tg_quick_tech"
       }
     ],
-    "effect": "The Ghost targets a character affected by PARADOX STATE. The next time a hostile action is taken against the target, roll 1d6: On a 4+, the target is INTANGIBLE during the action. This effect does not stack with INVISIBLE."
+    "effect": "The next time a hostile action is taken against a character bonded with the Ghost, roll 1d6: On a 4+, the target is INTANGIBLE during the action. This effect does not stack with INVISIBLE."
   },
   {
     "id": "ppg_npcf_superimpose_firmament_ghost",
@@ -450,7 +450,7 @@
         "id": "tg_quick_tech"
       }
     ],
-    "effect": "The Ghost targets a character affected by PARADOX STATE. The target may either SKIRMISH or use QUICK TECH as a reaction, dealing half damage, Heat, Burn or to all targets."
+    "effect": "A character bonded with the Ghost may SKIRMISH or use the QUICK TECH action as a reaction, dealing half damage, Heat, or Burn to all targets."
   },
   {
     "id": "ppg_npcf_wavefunction_collapse_ghost",
@@ -471,8 +471,8 @@
         "val": 1
       }
     ],
-    "trigger": "A hostile action is taken against a character affected by PARADOX STATE.",
-    "effect": "The Ghost may first use QUANTUM BOND."
+    "trigger": "A hostile action is taken against a character bonded with the Ghost.",
+    "effect": "The Ghost may first use PARADOX STATE."
   },
   {
     "id": "ppg_npcf_spectral_flight_ghost",
@@ -506,7 +506,7 @@
         "val": 1
       }
     ],
-    "trigger": "A character affected by PARADOX STATE would take structure damage or stress.",
+    "trigger": "A character bonded with the Ghost would take structure damage or stress.",
     "effect": "The triggering character instead regains all HP and clears all Heat, and the Ghost takes the structure damage or stress instead."
   },
   {
@@ -654,7 +654,7 @@
   },
   {
     "id": "ppg_npcf_rocket_bola_hatchet",
-    "name": "Monomolecular Throwing Axe",
+    "name": "Rocket Bola",
     "origin": {
       "type": "Class",
       "name": "Hatchet",
@@ -884,7 +884,7 @@
         "val": 1
       }
     ],
-    "trigger": "The Knight’s duel opponent takes a hostile action that doesn’t include the Knight as a target.",
+    "trigger": "The Knight’s duel opponent uses a hostile action that does not include the Knight as a target.",
     "effect": "The Knight SKIRMISHES the triggering character, knocking them PRONE on a hit."
   },
   {
@@ -922,9 +922,12 @@
       {
         "id": "tg_recharge",
         "val": 5
+      },
+      {
+        "id": "tg_quick_action"
       }
     ],
-    "effect": "The Knight throws an adjacent character. If the target is an ally, they are pushed 5 spaces away from the Knight. If the target is hostile, they must pass a HULL save or be pushed 3 spaces away from the Knight and knocked PRONE."
+    "effect": "The Knight throws an adjacent character, pushing them away from the Knight and ignoring terrain and obstructions. Allied characters are thrown up to 5 spaces. Hostile characters must pass a HULL save or be thrown up to 3 spaces and knocked PRONE."
   },
   {
     "id": "ppg_npcf_center_stage_mesmerist",
@@ -1023,9 +1026,9 @@
       {
         "type": "Heat",
         "damage": [
+          1,
           2,
-          3,
-          4
+          3
         ]
       }
     ],
@@ -1042,7 +1045,7 @@
     "locked": false,
     "type": "Trait",
     "tags": [],
-    "effect": "When destroyed, a mirror image deals {1/2/3} Heat to the attacker."
+    "effect": "Whenever an attack destroys a mirror image, the attacker takes {1/2/3} Heat."
   },
   {
     "id": "ppg_npcf_step_mesmerist",
@@ -1619,7 +1622,7 @@
         "id": "tg_quick_tech"
       }
     ],
-    "effect": "The Brigand targets one hostile DEPLOYABLE or DRONE. Until the end of the scene, the Brigand is treated as the controller of the target DEPLOYABLE or DRONE. The original controller can wrest control back with a successful SYSTEMS check as a quick action while the affected DEPLOYABLE or DRONE is within their SENSORS and line of sight."
+    "effect": "The Brigand targets one hostile DEPLOYABLE or DRONE. Until the end of the scene, the Brigand is treated as the controller of the target DEPLOYABLE or DRONE. DRONES cannot be recalled while affected by this system.<br/><br/>The original controller can wrest control back with a successful SYSTEMS check as a quick action while the affected DEPLOYABLE or DRONE is within their SENSORS and line of sight."
   },
   {
     "id": "ppg_npcf_tempered_reactor_tempered",
