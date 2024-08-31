@@ -1509,7 +1509,7 @@
       2,
       3
     ],
-    "effect": "The Zealot makes a tech attack against a character within SENSORS. On a hit, the target gains LOCK ON. When an allied character consumes this LOCK ON, they gain OVERSHIELD {4/5/6}, and any damage they deal to the target cannot be reduced."
+    "effect": "The Zealot makes a tech attack against a character within SENSORS. On a hit, the target gains LOCK ON. When an allied character consumes this LOCK ON, they gain OVERSHIELD {4/5/6}, and any damage they deal to the target for the rest of the turn cannot be reduced in any way."
   },
   {
     "id": "ppg_npcf_martyrdom_zealot",
