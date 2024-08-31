@@ -1416,7 +1416,7 @@
         "id": "tg_quick_tech"
       }
     ],
-    "effect": "The Zealot flies up to its SPEED and gains OVERSHIELD {4/6/8}. Allied characters affected by ZEAL at any point during this movement may BOOST as a reaction. At the end of the Zealot’s movement, all allied characters affected by ZEAL gain OVERSHIELD {2/3/4}."
+    "effect": "The Zealot flies up to its SPEED and gains OVERSHIELD {4/6/8}. Allied characters affected by ZEAL at any point during this movement may BOOST up to their SPEED +2 as a reaction. At the end of the Zealot’s movement, all allied characters affected by ZEAL gain OVERSHIELD {2/3/4}."
   },
   {
     "id": "ppg_npcf_blazing_fervor_zealot",
