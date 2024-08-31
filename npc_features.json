@@ -1170,11 +1170,11 @@
     "range": [
       {
         "type": "Range",
-        "val": 10
+        "val": 15
       },
       {
         "type": "Line",
-        "val": 10
+        "val": 5
       }
     ],
     "damage": [
