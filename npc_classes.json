@@ -204,7 +204,7 @@
     "role": "support",
     "info": {
       "flavor": "Ghost pattern groups represent an emergent mech classification using Aunic technology stolen during Boundary Garden skirmishes. The PG possesses very few offensive capabilities, but carries potent equipment to shunt it and a paired mech partially into the Firmament.",
-      "tactics": "Ghosts latch onto an ally to grant them INTANGIBLE. PHASE SHIFT allows allies to act and traverse the battlefield without fear of reprisal. This comes at a cost: PARADOX STATE is susceptible to conditions and forced movement, and the Ghost is frail without it."
+      "tactics": "Ghosts bond with an ally to grant them INTANGIBLE. PHASE SHIFT allows allies to act and traverse the battlefield without fear of reprisal. This comes at a cost: QUANTUM BOND is susceptible to conditions and forced movement, and the Ghost is frail without it."
     },
     "stats": {
       "armor": [
@@ -286,8 +286,8 @@
     },
     "base_features": [
       "ppg_npcf_phase_shift_ghost",
-      "ppg_npcf_paradox_state_ghost",
-      "ppg_npcf_quantum_bond_ghost"
+      "ppg_npcf_quantum_bond_ghost",
+      "ppg_npcf_paradox_state_ghost"
     ],
     "optional_features": [
       "ppg_npcf_superimpose_firmament_ghost",
@@ -705,7 +705,7 @@
     "role": "support",
     "info": {
       "flavor": "Zealot-class mechs exemplify “leading by example” through a frightening disregard for their own self-preservation. Through esoteric liturgicode, they twist and mold allies to lethal efficiency. Pilots often report “blackouts” following the throes of Zealot-inspired ecstasy.",
-      "tactics": "Ghosts bonds with an ally to grant them INTANGIBLE. PHASE SHIFT allows allies to act and traverse the battlefield without fear of reprisal. This comes at a cost: QUANTUM BOND is susceptible to conditions and forced movement, and the Ghost is frail without it."
+      "tactics": "Zealots lead from the front, their ZEAL empowering allies to storm enemy fortifications, expose hostiles’ vulnerabilities, and endure incoming punishment. However, the Zealot itself is frail, its range is short, and the JAMMED condition disables most of its kit."
     },
     "stats": {
       "armor": [
