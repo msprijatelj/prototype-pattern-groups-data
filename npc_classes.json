@@ -104,8 +104,8 @@
     "name": "Capacitor",
     "role": "support",
     "info": {
-      "flavor": "The fruits of SSC’s “Emperor” project eventually yielded the Capacitor-class mech, a mass-production model refining the Marathon Arc into a more cheaply-produced cannon. Capacitors freely convert excess shielding into lethal electricity and back again. The chassis is not without its oddities; Capacitor squadmates frequently report moments of team synchronicity long after hostilities conclude.",
-      "tactics": "The Capacitor dispenses OVERSHIELD from the back lines, staying in cover while it fires its oversized MARATHON ARQUEBUS. Complementing this, it uses ARC FEEDBACK to deter hostile attacks. Despite the OVERSHIELD it can gain, the Capacitor is a fragile mech that relies upon distance to stay alive."
+      "flavor": "The fruits of SSC’s “Emperor” project eventually yielded the Capacitor-class mech, a mass-production model refining the Marathon Arc into a more cheaply-produced cannon. Capacitors freely convert between excess shielding and lethal electricity. Oddly, Capacitor squadmates frequently report moments of team synchronicity long after hostilities conclude.",
+      "tactics": "The Capacitor dispenses OVERSHIELD from the back lines, staying in cover while it fires its oversized MARATHON ARQUEBUS. Complementing this, it uses ARC FEEDBACK to deter hostile attacks. Despite the OVERSHIELD it can gain from RECIPROCITY, the fragile Capacitor relies upon distance to stay alive."
     },
     "stats": {
       "armor": [
@@ -187,12 +187,13 @@
     },
     "base_features": [
       "ppg_npcf_marathon_arquebus_capacitor",
-      "ppg_npcf_arc_feedback_capacitor"
+      "ppg_npcf_arc_feedback_capacitor",
+      "ppg_npcf_reciprocity_capacitor"
     ],
     "optional_features": [
+      "ppg_npcf_quickening_bolt_capacitor",
       "ppg_npcf_purifying_lightning_capacitor",
       "ppg_npcf_deflecting_shot_capacitor",
-      "ppg_npcf_quickening_bolt_capacitor",
       "ppg_npcf_cyclic_discharge_capacitor",
       "ppg_npcf_amplifier_drone_capacitor"
     ],
@@ -287,7 +288,8 @@
     "base_features": [
       "ppg_npcf_phase_shift_ghost",
       "ppg_npcf_quantum_bond_ghost",
-      "ppg_npcf_paradox_state_ghost"
+      "ppg_npcf_paradox_state_ghost",
+      "ppg_npcf_entangling_curse_ghost"
     ],
     "optional_features": [
       "ppg_npcf_superimpose_firmament_ghost",
@@ -313,14 +315,14 @@
         1
       ],
       "hp": [
-        15,
         18,
-        21
+        21,
+        24
       ],
       "evade": [
-        8,
         10,
-        12
+        12,
+        14
       ],
       "edef": [
         8,
@@ -504,7 +506,7 @@
     "role": "defender",
     "info": {
       "flavor": "The Mesmerist pattern group inverts the Gorgon PG’s BASILISK to become a target from which opponents cannot look away. Entrancing targeting systems and sapient minds alike, a Mesmerist chassis enshrouds itself with digital glamours to protect itself from more vulgar mechs. Those who attempt to flee the show risk jabs from a paracode-laced rapier.",
-      "tactics": "Mesmerists yank their foes attention away from their allies with MEMETIC MAGNETISM, relying upon illusory MIRROR IMAGES to avoid harm. They punish retreat via OVERWATCH with their CODESPIKE RAPIER. Despite their evasiveness, Mesmerists are delicate in comparison to other defenders should a blow land upon them."
+      "tactics": "Mesmerists wrest their foes’ attention away from their allies with MEMETIC MAGNETISM, relying upon illusory MIRROR IMAGES to avoid harm. They punish retreat via OVERWATCH with their CODESPIKE RAPIER. Despite their evasiveness, Mesmerists are delicate in comparison to other defenders should a blow land upon them."
     },
     "stats": {
       "armor": [
@@ -513,9 +515,9 @@
         0
       ],
       "hp": [
-        14,
-        17,
-        20
+        15,
+        18,
+        21
       ],
       "evade": [
         10,
@@ -614,9 +616,9 @@
         2
       ],
       "hp": [
-        12,
-        15,
-        18
+        13,
+        17,
+        21
       ],
       "evade": [
         8,
@@ -714,14 +716,14 @@
         0
       ],
       "hp": [
-        10,
-        13,
-        16
+        12,
+        15,
+        18
       ],
       "evade": [
         10,
-        11,
-        12
+        12,
+        14
       ],
       "edef": [
         10,

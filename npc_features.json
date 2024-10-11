@@ -189,7 +189,7 @@
     },
     "locked": false,
     "type": "Weapon",
-    "weapon_type": "Superheavy Cannon",
+    "weapon_type": "Heavy Cannon",
     "tags": [
       {
         "id": "tg_arcing"
@@ -221,13 +221,13 @@
       {
         "type": "Energy",
         "damage": [
-          5,
-          7,
-          9
+          4,
+          6,
+          8
         ]
       }
     ],
-    "effect": "Allied characters in the affected area are not attacked, but instead gain OVERSHIELD {3/6/9}.<br/><br/>The Capacitor gains OVERSHIELD equal to the total number of allied characters affected plus hostile characters hit by this weapon."
+    "effect": "Allied characters in the affected area are not attacked, but instead gain OVERSHIELD {3/5/7}."
   },
   {
     "id": "ppg_npcf_arc_feedback_capacitor",
@@ -238,21 +238,69 @@
       "base": true
     },
     "locked": false,
-    "type": "Reaction",
+    "type": "Tech",
+    "tech_type": "Quick",
     "tags": [
+      {
+        "id": "tg_overshield"
+      },
       {
         "id": "tg_shield"
       },
       {
-        "id": "tg_reaction"
+        "id": "tg_recharge",
+        "val": 4
       },
       {
-        "id": "tg_round",
-        "val": 1
+        "id": "tg_quick_tech"
       }
     ],
-    "trigger": "A hostile character causes an allied character in SENSORS to lose all OVERSHIELD.",
-    "effect": "The hostile character is SHREDDED and IMPAIRED until the end of their next turn. In addition, they take {2/4/6} Energy damage."
+    "effect": "An allied character within SENSORS gains OVERSHIELD {4/6/8}. A hostile character that causes the target to lose this OVERSHIELD must pass an ENGINEERING save or become SHREDDED until the end of their next turn and take {2/4/6} Energy damage."
+  },
+  {
+    "id": "ppg_npcf_reciprocity_capacitor",
+    "name": "Reciprocity",
+    "origin": {
+      "type": "Class",
+      "name": "Capacitor",
+      "base": true
+    },
+    "locked": false,
+    "type": "Trait",
+    "tags": [
+      {
+        "id": "tg_overshield"
+      }
+    ],
+    "effect": "Whenever the Capacitor grants OVERSHIELD to another character, it gains the same amount of OVERSHIELD."
+  },
+  {
+    "id": "ppg_npcf_quickening_bolt_capacitor",
+    "name": "Quickening Bolt",
+    "origin": {
+      "type": "Class",
+      "name": "Capacitor",
+      "base": false
+    },
+    "locked": false,
+    "type": "Tech",
+    "tech_type": "Quick",
+    "tags": [
+      {
+        "id": "tg_overshield"
+      },
+      {
+        "id": "tg_shield"
+      },
+      {
+        "id": "tg_recharge",
+        "val": 5
+      },
+      {
+        "id": "tg_quick_tech"
+      }
+    ],
+    "effect": "Choose one character within SENSORS. The target gains OVERSHIELD {4/6/8}. Until the target loses all OVERSHIELD, they may BOOST as a free action."
   },
   {
     "id": "ppg_npcf_purifying_lightning_capacitor",
@@ -286,36 +334,8 @@
         "id": "tg_reaction"
       }
     ],
-    "trigger": "An allied character in SENSORS is hit by an attack.",
-    "effect": "The Capacitor first BARRAGES with the MARATHON ARQUEBUS, dealing half damage, heat, or burn to all targets. The triggering allied character must be included in the attack’s area."
-  },
-  {
-    "id": "ppg_npcf_quickening_bolt_capacitor",
-    "name": "Quickening Bolt",
-    "origin": {
-      "type": "Class",
-      "name": "Capacitor",
-      "base": false
-    },
-    "locked": false,
-    "type": "Tech",
-    "tech_type": "Quick",
-    "tags": [
-      {
-        "id": "tg_overshield"
-      },
-      {
-        "id": "tg_shield"
-      },
-      {
-        "id": "tg_recharge",
-        "val": 5
-      },
-      {
-        "id": "tg_quick_tech"
-      }
-    ],
-    "effect": "Choose one character within SENSORS. The target gains OVERSHIELD {4/6/8}. Until the target loses all OVERSHIELD, they may BOOST as a free action."
+    "trigger": "An allied character that can be targeted by the MARATHON ARQUEBUS is hit by an attack.",
+    "effect": "The Capacitor first SKIRMISHES with the MARATHON ARQUEBUS, dealing half damage, heat, or burn to all targets. The triggering allied character must be included in the attack’s area."
   },
   {
     "id": "ppg_npcf_cyclic_discharge_capacitor",
@@ -330,13 +350,13 @@
     "tags": [
       {
         "id": "tg_recharge",
-        "val": 4
+        "val": 5
       },
       {
         "id": "tg_quick_action"
       }
     ],
-    "effect": "The Capacitor loses all OVERSHIELD. Its next weapon attack deals bonus damage equal to the OVERSHIELD lost."
+    "effect": "The Capacitor loses all OVERSHIELD and cannot gain more until the start of its next turn. Its next weapon attack deals bonus damage equal to the OVERSHIELD lost, and all targets hit by the attack are IMPAIRED until the end of their next turn."
   },
   {
     "id": "ppg_npcf_amplifier_drone_capacitor",
@@ -412,6 +432,19 @@
       }
     ],
     "effect": "The next time a hostile action is taken against a character bonded with the Ghost, roll 1d6: On a 4+, the target is INTANGIBLE during the action. This effect does not stack with INVISIBLE."
+  },
+  {
+    "id": "ppg_npcf_entangling_curse_ghost",
+    "name": "Entangling Curse",
+    "origin": {
+      "type": "Class",
+      "name": "Ghost",
+      "base": true
+    },
+    "locked": false,
+    "type": "Trait",
+    "tags": [],
+    "effect": "When using the LOCK ON quick tech action, the Ghost may target two characters instead of one."
   },
   {
     "id": "ppg_npcf_superimpose_firmament_ghost",
@@ -967,7 +1000,7 @@
       2,
       3
     ],
-    "effect": "The Mesmerist makes a tech attack against all hostile characters within Burst {2/3/4}. On a hit, until the end of their next turn, the target takes {2/3/4} Heat whenever they perform any hostile action that doesn’t include the Mesmerist as a target."
+    "effect": "The Mesmerist makes a tech attack against all hostile characters within Burst {2/3/4}. On a hit, until the start of the target's next turn, they take {2/3/4} Heat whenever they perform any hostile action that doesn’t include the Mesmerist as a target."
   },
   {
     "id": "ppg_npcf_mirror_image_mesmerist",
@@ -1032,7 +1065,7 @@
         ]
       }
     ],
-    "effect": "On Critical Hit: The target becomes JAMMED until the end of their next turn.<br/><br/>Successful attacks with this weapon made as a reaction are treated as critical hits."
+    "on_hit": "If this attack was made as a reaction, the target becomes JAMMED until the end of their next turn."
   },
   {
     "id": "ppg_npcf_death_by_glamour_mesmerist",
@@ -1622,7 +1655,7 @@
         "id": "tg_quick_tech"
       }
     ],
-    "effect": "The Brigand targets one hostile DEPLOYABLE or DRONE. Until the end of the scene, the Brigand is treated as the controller of the target DEPLOYABLE or DRONE. DRONES cannot be recalled while affected by this system.<br/><br/>The original controller can wrest control back with a successful SYSTEMS check as a quick action while the affected DEPLOYABLE or DRONE is within their SENSORS and line of sight."
+    "effect": "The Brigand targets one hostile DEPLOYABLE or DRONE. Until the end of the scene, the Brigand is treated as the controller of the target DEPLOYABLE or DRONE. DRONES cannot be recalled while affected by this system.<br/><br/>The original controller can regain control and end this effect with a successful SYSTEMS check as a quick action while the affected DEPLOYABLE or DRONE is within their SENSORS and line of sight."
   },
   {
     "id": "ppg_npcf_tempered_reactor_tempered",
