@@ -693,7 +693,7 @@
       "ppg_npcf_emergency_vent_napalm"
     ],
     "optional_features": [
-      "ppg_npcf_superhot_napalm",
+      "ppg_npcf_smolder_charges_napalm",
       "ppg_npcf_corrosive_gel_napalm",
       "ppg_npcf_firefly_drone_napalm",
       "ppg_npcf_incendiary_grenade_napalm",

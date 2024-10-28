@@ -14,14 +14,14 @@
         "id": "tg_shield"
       },
       {
-        "id": "tg_recharge",
-        "val": 5
+        "id": "tg_heat_self",
+        "val": 3
       },
       {
         "id": "tg_quick_action"
       }
     ],
-    "effect": "The Anchor becomes SLOWED and creates a Burst 3 area of gravitomagnetic interference until the end of its next turn. While active, hostile characters in the area are SLOWED and cannot teleport into or out of the area.<br/><br/>Allied characters within the area are not valid targets for ranged attacks. Other characters with LODESTONE are unaffected by this system."
+    "effect": "The Anchor becomes SLOWED and creates a Burst 3 area of gravitomagnetic interference until the end of its next turn or until it uses this system again. While active, hostile characters in the area are SLOWED and cannot teleport into or out of the area.<br/><br/>Allied characters within the area are not valid targets for ranged attacks. Other characters with LODESTONE are unaffected by this system."
   },
   {
     "id": "ppg_npcf_gravity_cannon_anchor",
@@ -1257,29 +1257,25 @@
     "effect": "When the Napalm exceeds its HEAT CAP or becomes STUNNED, it becomes INVISIBLE until the start of its next turn."
   },
   {
-    "id": "ppg_npcf_superhot_napalm",
-    "name": "Superhot",
+    "id": "ppg_npcf_smolder_charges_napalm",
+    "name": "Smolder Charges",
     "origin": {
       "type": "Class",
       "name": "Napalm",
       "base": false
     },
     "locked": false,
-    "type": "Reaction",
+    "type": "System",
     "tags": [
       {
-        "id": "tg_shield"
+        "id": "tg_recharge",
+        "val": 4
       },
       {
-        "id": "tg_reaction"
-      },
-      {
-        "id": "tg_round",
-        "val": 1
+        "id": "tg_free_action"
       }
     ],
-    "trigger": "The Napalm takes damage from a melee attack.",
-    "effect": "The Napalm gains RESISTANCE to all damage from the attack. The attacker must pass an ENGINEERING save or take {2/4/6} Burn."
+    "effect": "The area targeted by the SALAMANDER THERMOBARIC CATAPULT becomes a smokescreen 4 spaces high that provides soft cover against attacks made within or through it. Characters that benefit from this cover are treated as INVISIBLE. This effect lasts until the Napalm uses this system again."
   },
   {
     "id": "ppg_npcf_corrosive_gel_napalm",
@@ -1340,7 +1336,7 @@
         "id": "tg_quick_action"
       }
     ],
-    "effect": "The Napalm expends a charge for the following effect:<br/><br/>INCENDIARY GRENADE (Grenade, Range 5, Blast 1):<br/>The affected area is set on fire and becomes difficult terrain until extinguished or until the end of the scene. Characters that start their turn within the area or move into it for the first time in a round must pass an ENGINEERING save or take {2/4/6} Burn."
+    "effect": "Expend a charge for the following effect:<br/><br/>INCENDIARY GRENADE (Grenade, Range 5, Blast 1):<br/>The affected area is set on fire and becomes difficult terrain until extinguished or until the end of the scene. Characters that start their turn within the area or move into it for the first time in a round must pass an ENGINEERING save or take {2/4/6} Burn."
   },
   {
     "id": "ppg_npcf_long_burn_catalyst_napalm",
@@ -1361,7 +1357,7 @@
         "id": "tg_free_action"
       }
     ],
-    "effect": "The area targeted by the SALAMANDER THERMOBARIC CATAPULT and all adjacent spaces are set on fire and become difficult terrain until extinguished or until the end of the scene. Characters that start their turn within the area or move into it for the first time in a round must pass an ENGINEERING save or take {1/2/3} Heat and {2/3/4} Burn."
+    "effect": "The area targeted by the SALAMANDER THERMOBARIC CATAPULT and all adjacent spaces are set on fire and become difficult terrain until extinguished, until the end of the scene, or until this system is used again. Characters that start their turn within the area or move into it for the first time in a round must pass an ENGINEERING save or take {1/2/3} Heat and {2/3/4} Burn."
   },
   {
     "id": "ppg_npcf_zeal_zealot",
