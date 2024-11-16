@@ -702,6 +702,106 @@
     "power": 100
   },
   {
+    "id": "ppg_npcc_occultist",
+    "name": "Occultist",
+    "role": "controller",
+    "info": {
+      "flavor": "Utilizing quick-printing drones and an outlawed branch of liturgicode, Occultist pattern groups guide an unwitting “flock” of drones that they sacrifice to fortify their allies or hobble their opponents. Especially ruthless pilots may even turn this power upon low-performance allies.",
+      "tactics": "Occultists lead a group of FLOCK DRONES to control a wide area, using DIVINER’S DARTS against foes or empty spaces to guide their “followers.” The drones provide a mild benefit, but once they reach the end of their usefulness, the Occultist activates REAP THE CHAFF to cash out their true value."
+    },
+    "stats": {
+      "armor": [
+        0,
+        0,
+        0
+      ],
+      "hp": [
+        20,
+        24,
+        28
+      ],
+      "evade": [
+        8,
+        10,
+        12
+      ],
+      "edef": [
+        10,
+        12,
+        14
+      ],
+      "heatcap": [
+        6,
+        6,
+        6
+      ],
+      "speed": [
+        4,
+        4,
+        4
+      ],
+      "sensor": [
+        8,
+        8,
+        8
+      ],
+      "save": [
+        12,
+        14,
+        16
+      ],
+      "hull": [
+        -2,
+        -2,
+        -2
+      ],
+      "agility": [
+        0,
+        0,
+        0
+      ],
+      "systems": [
+        1,
+        2,
+        3
+      ],
+      "engineering": [
+        2,
+        4,
+        6
+      ],
+      "size": [
+        [
+          1
+        ],
+        [
+          1
+        ],
+        [
+          1
+        ]
+      ],
+      "activations": [
+        1,
+        1,
+        1
+      ]
+    },
+    "base_features": [
+      "ppg_npcf_flock_drones",
+      "ppg_npcf_diviners_darts",
+      "ppg_npcf_reap_the_chaff"
+    ],
+    "optional_features": [
+      "ppg_npcf_jealous_flock",
+      "ppg_npcf_lead_astray",
+      "ppg_npcf_scapegoat",
+      "ppg_npcf_harvest_pyres",
+      "ppg_npcf_call_from_below"
+    ],
+    "power": 100
+  },
+  {
     "id": "ppg_npcc_zealot",
     "name": "Zealot",
     "role": "support",
