@@ -21,7 +21,7 @@
         "id": "tg_quick_action"
       }
     ],
-    "effect": "The Anchor becomes SLOWED and creates a Burst 3 area of gravitomagnetic interference until the end of its next turn or until it uses this system again. While active, hostile characters in the area are SLOWED and cannot teleport into or out of the area.<br/><br/>Allied characters within the area are not valid targets for ranged attacks. Other characters with LODESTONE are unaffected by this system."
+    "effect": "The Anchor becomes SLOWED and creates a Burst 3 area of gravitomagnetic interference. While active, hostile characters in the area are SLOWED and cannot teleport into or out of the area. In addition, allied characters within the area are not valid targets for ranged attacks. Other characters with LODESTONE are unaffected by this system.<br/><br/>These effects last the end of the Anchor’s next turn, until it uses this system again, or until it’s STUNNED, overheated, or destroyed."
   },
   {
     "id": "ppg_npcf_gravity_cannon_anchor",
@@ -598,7 +598,7 @@
         "val": 1
       }
     ],
-    "effect": "When the Hatchet retrieves a THROWN weapon, all hostile characters adjacent to them must pass an AGILITY save or take {3/4/5} Kinetic damage and become SLOWED until the end of their next turn."
+    "effect": "When the Hatchet retrieves a THROWN weapon not used to attack this turn, all hostile characters adjacent to the Hatchet must pass an AGILITY save or take {4/5/6} Kinetic damage and become SLOWED until the end of their next turn."
   },
   {
     "id": "ppg_npcf_flip_kick_hatchet",
@@ -619,7 +619,7 @@
         "id": "tg_quick_action"
       }
     ],
-    "effect": "One adjacent character must pass a HULL save or be pushed 2 spaces away from the Hatchet and knocked PRONE. Regardless of the result, the Hatchet flies 2 spaces away from the target."
+    "effect": "One adjacent character must pass a HULL save or be pushed 2 spaces away from the Hatchet and knocked PRONE. Regardless of the result, the target cannot take reactions until the end of this turn, and the Hatchet flies 2 spaces away from the target."
   },
   {
     "id": "ppg_npcf_whirlwind_kick_hatchet",
@@ -1561,7 +1561,7 @@
         "id": "tg_protocol"
       }
     ],
-    "effect": "The Zealot emanates a Burst 3 area of zealous energy. The following effects apply to characters within the area:<ul><li>Attacks made by allied characters against targets within the Zealot’s SENSORS gain AP.</li><li>Hostile characters that have any Burn lose INVISIBLE and HIDDEN and can’t regain either status until they leave the area.</li></ul>This area lasts until the start of the Zealot’s first turn each round or until the Zealot is STUNNED, JAMMED, overheated, or destroyed."
+    "effect": "The Zealot emanates a Burst 3 area of fervent energy. While within the area, characters gain the following:<ul><li>Allied characters gain IMMUNITY to hostile involuntary movement, and their attacks gain AP against targets within the Zealot’s SENSORS.</li><li>Hostile characters that have any Burn lose INVISIBLE and HIDDEN and can’t regain either status until they leave the area.</li></ul>This area lasts until the start of the Zealot’s first turn each round or until the Zealot is STUNNED, JAMMED, overheated, or destroyed."
   },
   {
     "id": "ppg_npcf_emberlight_nexus_zealot",

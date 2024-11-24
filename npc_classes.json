@@ -306,7 +306,7 @@
     "role": "striker",
     "info": {
       "flavor": "Nimble, clever, and borderline reckless, Hatchet mechs sport a variety of thrown weaponry and athletic enhancements. Detractors often claim that the Hatchet’s hit-and-run tactics are needlessly risky compared to conventional ranged weaponry. However, they often change their tune when a tree-sized, razor-sharp axe embeds itself inches from their cockpit.",
-      "tactics": "Hatchet mechs are consummate skirmishers, leveraging a variety of THROWN weapons to trigger CLEAVING RETRIEVAL to hobble their opponents before using a FLIP KICK to reset their position and start their pressure anew. However, they are hobbled by their HEAT CAP and conditions like SLOWED and IMMOBILIZE."
+      "tactics": "Hatchet mechs are consummate skirmishers, leveraging a variety of THROWN weapons to prepare a hobbling CLEAVING RETRIEVAL. Once they retrieve their weapon, they use FLIP KICK to reset their position and restart pressure. However, they are hobbled by their HEAT CAP and conditions like SLOWED and IMMOBILIZE."
     },
     "stats": {
       "armor": [
@@ -325,9 +325,9 @@
         14
       ],
       "edef": [
-        8,
-        8,
-        8
+        7,
+        7,
+        7
       ],
       "heatcap": [
         6,
