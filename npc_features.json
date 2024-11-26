@@ -1138,7 +1138,7 @@
       }
     ],
     "trigger": "An allied character within SENSORS is attacked.",
-    "effect": "The Mesmerist first swaps places with the allied character, each character teleporting to the other’s position. The Mesmerist may then SKIRMISH against the attacker. Afterwards, the Mesmerist then becomes the target of the attack instead."
+    "effect": "The Mesmerist first swaps places with the allied character, each character teleporting to the other’s position. The Mesmerist may then SKIRMISH against the attacker. Afterwards, the Mesmerist then becomes the target of the attack, instead."
   },
   {
     "id": "ppg_npcf_hypnotic_attraction_mesmerist",
