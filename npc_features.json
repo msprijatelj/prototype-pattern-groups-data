@@ -1168,6 +1168,213 @@
     "effect": "The Mesmerist makes a tech attack against a target within SENSORS. On a success, the target moves its maximum SPEED towards the Mesmerist via the most efficient route possible. This movement is involuntary, but provokes reactions and ENGAGEMENT as normal."
   },
   {
+    "id": "ppg_npcf_reflection",
+    "name": "Reflection",
+    "origin": {
+      "type": "Class",
+      "name": "Mirror",
+      "base": true
+    },
+    "locked": false,
+    "type": "Tech",
+    "tech_type": "Quick",
+    "tags": [
+      {
+        "id": "tg_quick_tech"
+      }
+    ],
+    "effect": "The Mirror places a reflection within SENSORS. The Mirror is treated as occupying the same space as the reflection for all purposes, including RANGE, THREAT, SENSORS, adjacency, engagement, line of sight, contesting objectives, and being affected by abilities. The Mirror has RESISTANCE to all damage, Heat, and Burn inflicted through its reflection.<br/><br/>The Mirror may only place 1 reflection at a time. Placing a new reflection replaces an old one. Otherwise, they last until the end of the scene."
+  },
+  {
+    "id": "ppg_npcf_reflecting_shot",
+    "name": "Reflecting Shot",
+    "origin": {
+      "type": "Class",
+      "name": "Mirror",
+      "base": true
+    },
+    "locked": false,
+    "type": "Weapon",
+    "weapon_type": "Heavy Rifle",
+    "tags": [
+      {
+        "id": "tg_ordnance"
+      }
+    ],
+    "attack_bonus": [
+      2,
+      4,
+      6
+    ],
+    "range": [
+      {
+        "type": "Line",
+        "val": 20
+      }
+    ],
+    "damage": [
+      {
+        "type": "Energy",
+        "damage": [
+          5,
+          7,
+          9
+        ]
+      }
+    ],
+    "effect": "If this weapon’s line would target a reflection, it instead stops before it. The attack gains AP, and the remaining length of the line then continues in any direction from the reflection, calculating cover and line of sight from the reflection."
+  },
+  {
+    "id": "ppg_npcf_crush_targeting",
+    "name": "Crush Targeting",
+    "origin": {
+      "type": "Class",
+      "name": "Mirror",
+      "base": true
+    },
+    "locked": false,
+    "type": "Tech",
+    "tech_type": "Quick",
+    "tags": [
+      {
+        "id": "tg_recharge",
+        "val": 4
+      },
+      {
+        "id": "tg_quick_tech"
+      }
+    ],
+    "effect": "A character within SENSORS and line of sight gains +3 Difficulty to attack any character other than the Mirror until the start of the Mirror’s next turn."
+  },
+  {
+    "id": "ppg_npcf_double_vision",
+    "name": "Double Vision",
+    "origin": {
+      "type": "Class",
+      "name": "Mirror",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "tags": [],
+    "effect": "The Mirror may have 2 reflections at a time."
+  },
+  {
+    "id": "ppg_npcf_refracting_barrier",
+    "name": "Refracting Barrier",
+    "origin": {
+      "type": "Class",
+      "name": "Mirror",
+      "base": false
+    },
+    "locked": false,
+    "type": "System",
+    "tags": [
+      {
+        "id": "tg_deployable"
+      },
+      {
+        "id": "tg_shield"
+      },
+      {
+        "id": "tg_limited",
+        "val": 1
+      },
+      {
+        "id": "tg_quick_action"
+      }
+    ],
+    "effect": "As a quick action, deploy two sections of hard cover (Line 3, Size 2, {5/10/15} HP), within Range 3. Weapon attacks made against targets benefiting from this cover first deal {2/3/4} AP damage of one type dealt by the weapon to the attacker."
+  },
+  {
+    "id": "ppg_npcf_direshard_shotgun",
+    "name": "Direshard",
+    "origin": {
+      "type": "Class",
+      "name": "Mirror",
+      "base": false
+    },
+    "locked": false,
+    "type": "Weapon",
+    "weapon_type": "Main CQB",
+    "tags": [],
+    "attack_bonus": [
+      1,
+      2,
+      3
+    ],
+    "range": [
+      {
+        "type": "Range",
+        "val": 5
+      },
+      {
+        "type": "Threat",
+        "val": 3
+      }
+    ],
+    "damage": [
+      {
+        "type": "Kinetic",
+        "damage": [
+          4,
+          6,
+          8
+        ]
+      }
+    ],
+    "effect": "The Mirror may OVERWATCH with this weapon when hostile characters enter or leave spaces within its THREAT, regardless where their movement began."
+  },
+  {
+    "id": "ppg_npcf_narcissus_override",
+    "name": "NARCISSUS OVERRIDE",
+    "origin": {
+      "type": "Class",
+      "name": "Mirror",
+      "base": false
+    },
+    "locked": false,
+    "type": "Tech",
+    "tech_type": "Full",
+    "tags": [
+      {
+        "id": "tg_recharge",
+        "val": 4
+      },
+      {
+        "id": "tg_full_tech"
+      }
+    ],
+    "attack_bonus": [
+      2,
+      4,
+      6
+    ],
+    "effect": "The Mirror makes a tech attack against a target within SENSORS. On a success, the target can only draw line of sight to the Mirror until they end their turn adjacent to it."
+  },
+  {
+    "id": "ppg_npcf_shattered_glass",
+    "name": "Shattered Glass",
+    "origin": {
+      "type": "Class",
+      "name": "Mirror",
+      "base": false
+    },
+    "locked": false,
+    "type": "Reaction",
+    "tags": [
+      {
+        "id": "tg_limited",
+        "val": 1
+      },
+      {
+        "id": "tg_reaction"
+      }
+    ],
+    "trigger": "The Mirror or an allied character in Range 5 is attacked while a reflection exists.",
+    "effect": "The triggering character first swaps places with a reflection, each teleporting to the other’s space, and the reflection becomes the new target for the attack. Afterwards, the reflection is destroyed, and the attacker must pass an AGILITY save or take {4/5/6} Kinetic damage and become IMPAIRED until the end of their next turn."
+  },
+  {
     "id": "ppg_npcf_salamander_thermobaric_catapult_napalm",
     "name": "Salamander Thermobaric Catapult",
     "origin": {
@@ -1441,7 +1648,7 @@
         "id": "tg_quick_tech"
       }
     ],
-    "effect": "Destroy a controlled DRONE or allied GRUNT in SENSORS and choose one of the following options:<ul><li>Allied characters within Burst 1 of the target gain 2/4/6 OVERSHIELD and clear one condition.</li><li>Hostile characters within Burst 1 of the target must pass an AGILITY save or become IMPAIRED until the end of their next turn and gain LOCK-ON.</li></ul>"
+    "effect": "Destroy a controlled DRONE or allied GRUNT in SENSORS and choose one of the following options:<ul><li>Allied characters within Burst 1 of the target gain {2/4/6} OVERSHIELD and clear one condition.</li><li>Hostile characters within Burst 1 of the target must pass an AGILITY save or become IMPAIRED until the end of their next turn and gain LOCK-ON.</li></ul>"
   },
   {
     "id": "ppg_npcf_jealous_flock",

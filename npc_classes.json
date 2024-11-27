@@ -602,6 +602,106 @@
     "power": 100
   },
   {
+    "id": "ppg_npcc_mirror",
+    "name": "Mirror",
+    "role": "artillery",
+    "info": {
+      "flavor": "Through advanced OMNIGLASS technology, Mirror-pattern mechs exploit a holographic double to rapidly establish a defensive line. The double acts as a temporary platform to deploy a variety of light- and steelglass-based weaponry alongside an aggressive e-war suite.",
+      "tactics": "Mirrors deploy a durable REFLECTION to a position where it can hold ground, flank foes, and draw hostile attention. REFLECTING SHOT attacks with a unique area of effect, while CRUSH TARGETING frustrates enemy aggression. This extreme versatility comes at the cost of weak hacking defenses and dismal heat capacity."
+    },
+    "stats": {
+      "armor": [
+        1,
+        1,
+        1
+      ],
+      "hp": [
+        15,
+        18,
+        21
+      ],
+      "evade": [
+        10,
+        12,
+        14
+      ],
+      "edef": [
+        7,
+        8,
+        9
+      ],
+      "heatcap": [
+        6,
+        6,
+        6
+      ],
+      "speed": [
+        4,
+        4,
+        4
+      ],
+      "sensor": [
+        15,
+        15,
+        15
+      ],
+      "save": [
+        10,
+        12,
+        14
+      ],
+      "hull": [
+        0,
+        0,
+        0
+      ],
+      "agility": [
+        1,
+        2,
+        3
+      ],
+      "systems": [
+        2,
+        4,
+        6
+      ],
+      "engineering": [
+        -2,
+        -2,
+        -2
+      ],
+      "size": [
+        [
+          1
+        ],
+        [
+          1
+        ],
+        [
+          1
+        ]
+      ],
+      "activations": [
+        1,
+        1,
+        1
+      ]
+    },
+    "base_features": [
+      "ppg_npcf_reflection",
+      "ppg_npcf_reflecting_shot",
+      "ppg_npcf_crush_targeting"
+    ],
+    "optional_features": [
+      "ppg_npcf_double_vision",
+      "ppg_npcf_refracting_barrier",
+      "ppg_npcf_direshard_shotgun",
+      "ppg_npcf_narcissus_override",
+      "ppg_npcf_shattered_glass"
+    ],
+    "power": 100
+  },
+  {
     "id": "ppg_npcc_napalm",
     "name": "Napalm",
     "role": "artillery",
