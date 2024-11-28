@@ -356,7 +356,7 @@
         "id": "tg_quick_action"
       }
     ],
-    "effect": "The Capacitor loses all OVERSHIELD and cannot gain more until the start of its next turn. Its next weapon attack deals bonus damage equal to the OVERSHIELD lost, and all targets hit by the attack are IMPAIRED until the end of their next turn."
+    "effect": "The Capacitor loses all OVERSHIELD and cannot gain more until the start of its next turn. Its next weapon attack deals Energy bonus damage equal to the OVERSHIELD lost, and all targets hit by the attack are IMPAIRED until the end of their next turn."
   },
   {
     "id": "ppg_npcf_amplifier_drone_capacitor",
