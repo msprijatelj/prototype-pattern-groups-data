@@ -602,12 +602,12 @@
     "power": 100
   },
   {
-    "id": "ppg_npcc_mirror",
+    "id": "ppg_npcc_prism",
     "name": "Mirror",
     "role": "artillery",
     "info": {
-      "flavor": "Through advanced OMNIGLASS technology, Mirror-pattern mechs exploit a holographic double to rapidly establish a defensive line. The double acts as a temporary platform to deploy a variety of light- and steelglass-based weaponry alongside an aggressive e-war suite.",
-      "tactics": "Mirrors deploy a durable REFLECTION to a position where it can hold ground, flank foes, and draw hostile attention. REFLECTING SHOT attacks with a unique area of effect, while CRUSH TARGETING frustrates enemy aggression. This extreme versatility comes at the cost of weak hacking defenses and dismal heat capacity."
+      "flavor": "Through advanced OMNIGLASS technology, Prism-pattern mechs exploit a holographic double to rapidly establish a defensive line. The double acts as a temporary platform to deploy a variety of light- and steelglass-based weaponry alongside an aggressive e-war suite.",
+      "tactics": "Prisms deploy a durable PRISMATIC PROJECTION where it can hold ground, flank foes, and draw hostile attention. CONSTELLATION BEAM attacks in a unique pattern, while CRUSH TARGETING frustrates enemy aggression. This extreme versatility comes at the cost of weak hacking defenses and dismal heat capacity."
     },
     "stats": {
       "armor": [
@@ -688,14 +688,14 @@
       ]
     },
     "base_features": [
-      "ppg_npcf_reflection",
-      "ppg_npcf_reflecting_shot",
+      "ppg_npcf_prismatic_projection",
+      "ppg_npcf_constellation_beam",
       "ppg_npcf_crush_targeting"
     ],
     "optional_features": [
       "ppg_npcf_double_vision",
-      "ppg_npcf_refracting_barrier",
-      "ppg_npcf_direshard_shotgun",
+      "ppg_npcf_refraction_barrier",
+      "ppg_npcf_shardsplitter_shotgun",
       "ppg_npcf_narcissus_override",
       "ppg_npcf_shattered_glass"
     ],

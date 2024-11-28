@@ -715,7 +715,7 @@
     ],
     "damage": [
       {
-        "type": "Kinetic",
+        "type": "Explosive",
         "damage": [
           2,
           3,
@@ -832,7 +832,7 @@
         "id": "tg_quick_tech"
       }
     ],
-    "effect": "A hostile character within SENSORS and line of sight enters a duel with the Knight. While in the duel, the target must make a SYSTEMS save at the start of each of their turns. On a failure, until the start of the target's next turn, they receive +3 Difficulty on all attacks that don't include the Knight as a target, and they cannot voluntarily move away from the Knight.<br/><br/>The duel lasts until the end of the scene or until one of the opponents is destroyed. Each character cannot enter another duel until the end of this duel."
+    "effect": "A hostile character within SENSORS and line of sight enters a duel with the Knight. While in the duel, the target must make a SYSTEMS save at the start of each of their turns. On a failure, until the start of the target’s next turn, they receive +3 Difficulty on all attacks that don’t include the Knight as a target, and they cannot voluntarily move away from the Knight.<br/><br/>The duel lasts until the end of the scene or until one of the opponents is destroyed. Each character cannot enter another duel until the end of this duel."
   },
   {
     "id": "ppg_npcf_templars_shield_knight",
@@ -1000,7 +1000,7 @@
       2,
       3
     ],
-    "effect": "The Mesmerist makes a tech attack against all hostile characters within Burst {2/3/4}. On a hit, until the start of the target's next turn, they take {2/3/4} Heat whenever they perform any hostile action that doesn’t include the Mesmerist as a target."
+    "effect": "The Mesmerist makes a tech attack against all hostile characters within Burst {2/3/4}. On a hit, until the start of the target’s next turn, they take {2/3/4} Heat whenever they perform any hostile action that doesn’t include the Mesmerist as a target."
   },
   {
     "id": "ppg_npcf_mirror_image_mesmerist",
@@ -1168,11 +1168,11 @@
     "effect": "The Mesmerist makes a tech attack against a target within SENSORS. On a success, the target moves its maximum SPEED towards the Mesmerist via the most efficient route possible. This movement is involuntary, but provokes reactions and ENGAGEMENT as normal."
   },
   {
-    "id": "ppg_npcf_reflection",
-    "name": "Reflection",
+    "id": "ppg_npcf_prismatic_projection",
+    "name": "Prismatic Projection",
     "origin": {
       "type": "Class",
-      "name": "Mirror",
+      "name": "Prism",
       "base": true
     },
     "locked": false,
@@ -1183,14 +1183,14 @@
         "id": "tg_quick_tech"
       }
     ],
-    "effect": "The Mirror places a reflection within SENSORS. The Mirror is treated as occupying the same space as the reflection for all purposes, including RANGE, THREAT, SENSORS, adjacency, engagement, line of sight, contesting objectives, and being affected by abilities. The Mirror has RESISTANCE to all damage, Heat, and Burn inflicted through its reflection.<br/><br/>The Mirror may only place 1 reflection at a time. Placing a new reflection replaces an old one. Otherwise, they last until the end of the scene."
+    "effect": "The Prism places a projection within SENSORS. The Prism is treated as occupying the same space as the projection for all purposes, including RANGE, THREAT, SENSORS, adjacency, engagement, line of sight, contesting objectives, and being affected by abilities. The Mirror has RESISTANCE to all damage, Heat, and Burn inflicted through its projection.<br/><br/>The Prism may only place 1 projection at a time. Placing a new projection replaces an old one. Otherwise, they last until the end of the scene."
   },
   {
-    "id": "ppg_npcf_reflecting_shot",
-    "name": "Reflecting Shot",
+    "id": "ppg_npcf_constellation_beam",
+    "name": "Constellation Beam",
     "origin": {
       "type": "Class",
-      "name": "Mirror",
+      "name": "Prism",
       "base": true
     },
     "locked": false,
@@ -1222,14 +1222,14 @@
         ]
       }
     ],
-    "effect": "If this weapon’s line would target a reflection, it instead stops before it. The attack gains AP, and the remaining length of the line then continues in any direction from the reflection, calculating cover and line of sight from the reflection."
+    "effect": "If this weapon’s line would target a projection, it instead stops before it. The attack gains AP, and the remaining length of the line then continues in any direction from the projection, calculating cover and line of sight from the projection."
   },
   {
     "id": "ppg_npcf_crush_targeting",
     "name": "Crush Targeting",
     "origin": {
       "type": "Class",
-      "name": "Mirror",
+      "name": "Prism",
       "base": true
     },
     "locked": false,
@@ -1244,27 +1244,27 @@
         "id": "tg_quick_tech"
       }
     ],
-    "effect": "A character within SENSORS and line of sight gains +3 Difficulty to attack any character other than the Mirror until the start of the Mirror’s next turn."
+    "effect": "A character within SENSORS and line of sight gains +3 Difficulty to attack any character other than the Prism until the start of the Prism’s next turn."
   },
   {
     "id": "ppg_npcf_double_vision",
     "name": "Double Vision",
     "origin": {
       "type": "Class",
-      "name": "Mirror",
+      "name": "Prism",
       "base": false
     },
     "locked": false,
     "type": "Trait",
     "tags": [],
-    "effect": "The Mirror may have 2 reflections at a time."
+    "effect": "The Prism may have 2 projections at a time."
   },
   {
-    "id": "ppg_npcf_refracting_barrier",
-    "name": "Refracting Barrier",
+    "id": "ppg_npcf_refraction_barrier",
+    "name": "Refraction Barrier",
     "origin": {
       "type": "Class",
-      "name": "Mirror",
+      "name": "Prism",
       "base": false
     },
     "locked": false,
@@ -1287,11 +1287,11 @@
     "effect": "As a quick action, deploy two sections of hard cover (Line 3, Size 2, {5/10/15} HP), within Range 3. Weapon attacks made against targets benefiting from this cover first deal {2/3/4} AP damage of one type dealt by the weapon to the attacker."
   },
   {
-    "id": "ppg_npcf_direshard_shotgun",
-    "name": "Direshard",
+    "id": "ppg_npcf_shardsplitter_shotgun",
+    "name": "Shardsplitter Shotgun",
     "origin": {
       "type": "Class",
-      "name": "Mirror",
+      "name": "Prism",
       "base": false
     },
     "locked": false,
@@ -1315,7 +1315,7 @@
     ],
     "damage": [
       {
-        "type": "Kinetic",
+        "type": "Explosive",
         "damage": [
           4,
           6,
@@ -1323,14 +1323,14 @@
         ]
       }
     ],
-    "effect": "The Mirror may OVERWATCH with this weapon when hostile characters enter or leave spaces within its THREAT, regardless where their movement began."
+    "effect": "The Prism may OVERWATCH with this weapon when hostile characters enter or leave spaces within its THREAT, regardless where their movement began."
   },
   {
     "id": "ppg_npcf_narcissus_override",
-    "name": "NARCISSUS OVERRIDE",
+    "name": "NARCISSUS Override",
     "origin": {
       "type": "Class",
-      "name": "Mirror",
+      "name": "Prism",
       "base": false
     },
     "locked": false,
@@ -1350,14 +1350,14 @@
       4,
       6
     ],
-    "effect": "The Mirror makes a tech attack against a target within SENSORS. On a success, the target can only draw line of sight to the Mirror until they end their turn adjacent to it."
+    "effect": "The Prism makes a tech attack against a target within SENSORS. On a success, the target can only draw line of sight to the Prism until they end their turn adjacent to it."
   },
   {
     "id": "ppg_npcf_shattered_glass",
     "name": "Shattered Glass",
     "origin": {
       "type": "Class",
-      "name": "Mirror",
+      "name": "Prism",
       "base": false
     },
     "locked": false,
@@ -1371,8 +1371,8 @@
         "id": "tg_reaction"
       }
     ],
-    "trigger": "The Mirror or an allied character in Range 5 is attacked while a reflection exists.",
-    "effect": "The triggering character first swaps places with a reflection, each teleporting to the other’s space, and the reflection becomes the new target for the attack. Afterwards, the reflection is destroyed, and the attacker must pass an AGILITY save or take {4/5/6} Kinetic damage and become IMPAIRED until the end of their next turn."
+    "trigger": "The Prism or an allied character in Range 5 is attacked while a projection exists.",
+    "effect": "The triggering character first swaps places with a projection, each teleporting to the other’s space, and the projection becomes the new target for the attack. Afterwards, the projection is destroyed, and the attacker must pass an AGILITY save or take {4/5/6} Kinetic damage and become IMPAIRED until the end of their next turn."
   },
   {
     "id": "ppg_npcf_salamander_thermobaric_catapult_napalm",
