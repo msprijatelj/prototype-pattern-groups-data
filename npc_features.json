@@ -1102,21 +1102,26 @@
     "effect": "The Mesmerist teleports to a free space within line of sight and Range 50."
   },
   {
-    "id": "ppg_npcf_ozymandias_protocol_mesmerist",
-    "name": "Ozymandias Protocol",
+    "id": "ppg_npcf_narcissus_override",
+    "name": "NARCISSUS Override",
     "origin": {
       "type": "Class",
       "name": "Mesmerist",
       "base": false
     },
     "locked": false,
-    "type": "System",
+    "type": "Tech",
+    "tech_type": "Full",
     "tags": [
       {
-        "id": "tg_protocol"
+        "id": "tg_recharge",
+        "val": 5
+      },
+      {
+        "id": "tg_full_tech"
       }
     ],
-    "effect": "Until the end of the Mesmerist’s next turn, the Mesmerist becomes EXPOSED, and any actions taken by hostile characters within THREAT of the Mesmerist’s weapons must include it or another character using OZYMANDIAS PROTOCOL as a target."
+    "effect": "One character within SENSORS may only draw line of sight to the Mesmerist and must make a SYSTEMS save. On a failure, this effect lasts until the target ends their turn adjacent to the Mesmerist. On a success, it lasts until the end of their next turn."
   },
   {
     "id": "ppg_npcf_metafold_riposte_mesmerist",
@@ -1324,33 +1329,6 @@
       }
     ],
     "effect": "The Prism may OVERWATCH with this weapon when hostile characters enter or leave spaces within its THREAT, regardless where their movement began."
-  },
-  {
-    "id": "ppg_npcf_narcissus_override",
-    "name": "NARCISSUS Override",
-    "origin": {
-      "type": "Class",
-      "name": "Prism",
-      "base": false
-    },
-    "locked": false,
-    "type": "Tech",
-    "tech_type": "Full",
-    "tags": [
-      {
-        "id": "tg_recharge",
-        "val": 4
-      },
-      {
-        "id": "tg_full_tech"
-      }
-    ],
-    "attack_bonus": [
-      2,
-      4,
-      6
-    ],
-    "effect": "The Prism makes a tech attack against a target within SENSORS. On a success, the target can only draw line of sight to the Prism until they end their turn adjacent to it."
   },
   {
     "id": "ppg_npcf_shattered_glass",
