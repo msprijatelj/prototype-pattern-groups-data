@@ -1188,7 +1188,7 @@
         "id": "tg_quick_tech"
       }
     ],
-    "effect": "The Prism places a projection within SENSORS. The Prism is treated as occupying the same space as the projection for all purposes, including RANGE, THREAT, SENSORS, adjacency, engagement, line of sight, contesting objectives, and being affected by abilities. The Mirror has RESISTANCE to all damage, Heat, and Burn inflicted through its projection.<br/><br/>The Prism may only place 1 projection at a time. Placing a new projection replaces an old one. Otherwise, they last until the end of the scene."
+    "effect": "The Prism places a projection within SENSORS. The Prism is treated as occupying the same space as the projection for all purposes, including RANGE, THREAT, SENSORS, adjacency, engagement, line of sight, contesting objectives, and being affected by abilities. The Prism has RESISTANCE to all damage, Heat, and Burn inflicted through its projection. The projection itself cannot be targeted.<br/><br/>The Prism may only place 1 projection at a time. Placing a new projection replaces an old one. Otherwise, they last until the end of the scene."
   },
   {
     "id": "ppg_npcf_constellation_beam",
