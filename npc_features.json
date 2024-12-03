@@ -1626,7 +1626,7 @@
         "id": "tg_quick_tech"
       }
     ],
-    "effect": "Destroy a controlled DRONE or allied GRUNT in SENSORS and choose one of the following options:<ul><li>Allied characters within Burst 1 of the target gain {2/4/6} OVERSHIELD and clear one condition.</li><li>Hostile characters within Burst 1 of the target must pass an AGILITY save or become IMPAIRED until the end of their next turn and gain LOCK-ON.</li></ul>"
+    "effect": "Destroy a controlled DRONE or allied GRUNT in SENSORS and choose one of the following options:<ul><li>Allied characters within Burst 1 of the target gain OVERSHIELD {2/4/6} and clear one condition.</li><li>Hostile characters within Burst 1 of the target must pass an AGILITY save or become IMPAIRED until the end of their next turn and gain LOCK-ON.</li></ul>"
   },
   {
     "id": "ppg_npcf_jealous_flock",
