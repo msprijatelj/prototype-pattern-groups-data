@@ -1687,8 +1687,8 @@
         "val": 1
       }
     ],
-    "trigger": "An ally within the Occultist’s SENSORS and Range 3 of an allied GRUNT or a controlled DRONE or allied GRUNT is hit by an attack or fails a save against an effect.",
-    "effect": "The GRUNT or controlled DRONE becomes the target of the attack or effect, instead."
+    "trigger": "An ally within the Occultist’s SENSORS and Range 3 of a controlled DRONE or allied GRUNT is hit by an attack or fails a save against an effect.",
+    "effect": "The controlled DRONE or allied GRUNT becomes the target of the attack or effect, instead."
   },
   {
     "id": "ppg_npcf_harvest_pyres",
