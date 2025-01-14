@@ -883,7 +883,7 @@
         "id": "tg_quick_action"
       }
     ],
-    "effect": "Hero’s Banner (Size 1/2, HP {10/20/30}, Evasion 10, E-Defense 10, Tags: Deployable, Shield)<br/><br/>As a quick action, deploy a banner that projects a Burst 3 area in an adjacent space. Allied characters within the area gain RESISTANCE to all damage. If this banner is destroyed, allied characters in the area are SHREDDED until the end of their next turn."
+    "effect": "Hero’s Banner (Size 1/2, HP {10/20/30}, Evasion 10, E-Defense 10, Tags: Deployable, Shield)<br/><br/>The Knight deploys a banner that projects a Burst 3 area in an adjacent space. Allied characters within the area gain RESISTANCE to all damage. If this banner is destroyed, allied characters in the area are SHREDDED until the end of their next turn."
   },
   {
     "id": "ppg_npcf_sweeping_blows_knight",
@@ -1521,7 +1521,7 @@
         "id": "tg_quick_action"
       }
     ],
-    "effect": "Expend a charge for the following effect:<br/><br/>INCENDIARY GRENADE (Grenade, Range 5, Blast 1):<br/>The affected area is set on fire and becomes difficult terrain until extinguished or until the end of the scene. Characters that start their turn within the area or move into it for the first time in a round must pass an ENGINEERING save or take {2/4/6} Burn."
+    "effect": "A Blast 1 area in Range 5 is set on fire and becomes difficult terrain until extinguished or until the end of the scene. Characters that start their turn within the area or move into it for the first time in a round must pass an ENGINEERING save or take {2/4/6} Burn."
   },
   {
     "id": "ppg_npcf_long_burn_catalyst_napalm",
