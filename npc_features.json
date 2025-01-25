@@ -532,11 +532,11 @@
     "type": "Reaction",
     "tags": [
       {
-        "id": "tg_limited",
-        "val": 1
+        "id": "tg_reaction"
       },
       {
-        "id": "tg_reaction"
+        "id": "tg_scene",
+        "val": 1
       }
     ],
     "trigger": "A character bonded with the Ghost would take structure damage or stress.",
@@ -1135,11 +1135,11 @@
     "type": "Reaction",
     "tags": [
       {
-        "id": "tg_limited",
-        "val": 1
+        "id": "tg_reaction"
       },
       {
-        "id": "tg_reaction"
+        "id": "tg_scene",
+        "val": 1
       }
     ],
     "trigger": "An allied character within SENSORS is attacked.",
@@ -1171,186 +1171,6 @@
       6
     ],
     "effect": "The Mesmerist makes a tech attack against a target within SENSORS. On a success, the target moves its maximum SPEED towards the Mesmerist via the most efficient route possible. This movement is involuntary, but provokes reactions and ENGAGEMENT as normal."
-  },
-  {
-    "id": "ppg_npcf_prismatic_projection",
-    "name": "Prismatic Projection",
-    "origin": {
-      "type": "Class",
-      "name": "Prism",
-      "base": true
-    },
-    "locked": false,
-    "type": "Tech",
-    "tech_type": "Quick",
-    "tags": [
-      {
-        "id": "tg_quick_tech"
-      }
-    ],
-    "effect": "The Prism places a projection within SENSORS. The Prism is treated as occupying the same space as the projection for all purposes, including RANGE, THREAT, SENSORS, adjacency, engagement, line of sight, contesting objectives, and being affected by abilities. The Prism has RESISTANCE to all damage, Heat, and Burn inflicted through its projection. The projection itself cannot be targeted.<br/><br/>The Prism may only place 1 projection at a time. Placing a new projection replaces an old one. Otherwise, they last until the end of the scene."
-  },
-  {
-    "id": "ppg_npcf_constellation_beam",
-    "name": "Constellation Beam",
-    "origin": {
-      "type": "Class",
-      "name": "Prism",
-      "base": true
-    },
-    "locked": false,
-    "type": "Weapon",
-    "weapon_type": "Heavy Rifle",
-    "tags": [
-      {
-        "id": "tg_ordnance"
-      }
-    ],
-    "attack_bonus": [
-      2,
-      4,
-      6
-    ],
-    "range": [
-      {
-        "type": "Line",
-        "val": 20
-      }
-    ],
-    "damage": [
-      {
-        "type": "Energy",
-        "damage": [
-          5,
-          7,
-          9
-        ]
-      }
-    ],
-    "effect": "If this weapon’s line would target a projection, it instead stops before it. The attack gains AP, and the remaining length of the line then continues in any direction from the projection, calculating cover and line of sight from the projection."
-  },
-  {
-    "id": "ppg_npcf_crush_targeting",
-    "name": "Crush Targeting",
-    "origin": {
-      "type": "Class",
-      "name": "Prism",
-      "base": true
-    },
-    "locked": false,
-    "type": "Tech",
-    "tech_type": "Quick",
-    "tags": [
-      {
-        "id": "tg_recharge",
-        "val": 4
-      },
-      {
-        "id": "tg_quick_tech"
-      }
-    ],
-    "effect": "A character within SENSORS and line of sight gains +3 Difficulty to attack any character other than the Prism until the start of the Prism’s next turn."
-  },
-  {
-    "id": "ppg_npcf_double_vision",
-    "name": "Double Vision",
-    "origin": {
-      "type": "Class",
-      "name": "Prism",
-      "base": false
-    },
-    "locked": false,
-    "type": "Trait",
-    "tags": [],
-    "effect": "The Prism may have 2 projections at a time."
-  },
-  {
-    "id": "ppg_npcf_refraction_barrier",
-    "name": "Refraction Barrier",
-    "origin": {
-      "type": "Class",
-      "name": "Prism",
-      "base": false
-    },
-    "locked": false,
-    "type": "System",
-    "tags": [
-      {
-        "id": "tg_deployable"
-      },
-      {
-        "id": "tg_shield"
-      },
-      {
-        "id": "tg_limited",
-        "val": 1
-      },
-      {
-        "id": "tg_quick_action"
-      }
-    ],
-    "effect": "As a quick action, deploy two sections of hard cover (Line 3, Size 2, {5/10/15} HP), within Range 3. Weapon attacks made against targets benefiting from this cover first deal {2/3/4} AP damage of one type dealt by the weapon to the attacker."
-  },
-  {
-    "id": "ppg_npcf_shardsplitter_shotgun",
-    "name": "Shardsplitter Shotgun",
-    "origin": {
-      "type": "Class",
-      "name": "Prism",
-      "base": false
-    },
-    "locked": false,
-    "type": "Weapon",
-    "weapon_type": "Main CQB",
-    "tags": [],
-    "attack_bonus": [
-      1,
-      2,
-      3
-    ],
-    "range": [
-      {
-        "type": "Range",
-        "val": 5
-      },
-      {
-        "type": "Threat",
-        "val": 3
-      }
-    ],
-    "damage": [
-      {
-        "type": "Explosive",
-        "damage": [
-          4,
-          6,
-          8
-        ]
-      }
-    ],
-    "effect": "The Prism may OVERWATCH with this weapon when hostile characters enter or leave spaces within its THREAT, regardless where their movement began."
-  },
-  {
-    "id": "ppg_npcf_shattered_glass",
-    "name": "Shattered Glass",
-    "origin": {
-      "type": "Class",
-      "name": "Prism",
-      "base": false
-    },
-    "locked": false,
-    "type": "Reaction",
-    "tags": [
-      {
-        "id": "tg_limited",
-        "val": 1
-      },
-      {
-        "id": "tg_reaction"
-      }
-    ],
-    "trigger": "The Prism or an allied character in Range 5 is attacked while a projection exists.",
-    "effect": "The triggering character first swaps places with a projection, each teleporting to the other’s space, and the projection becomes the new target for the attack. Afterwards, the projection is destroyed, and the attacker must pass an AGILITY save or take {4/5/6} Kinetic damage and become IMPAIRED until the end of their next turn."
   },
   {
     "id": "ppg_npcf_salamander_thermobaric_catapult_napalm",
@@ -1726,6 +1546,182 @@
       }
     ],
     "effect": "MOLOCH Drone (Size 3, HP {20/25/30}, Evasion 6, E-Defense 10, Tags: Drone)<br/><br/>As a full action, destroy a controlled DRONE or allied GRUNT in SENSORS and deploy this drone in one of that character’s spaces. Hostile characters that start their turn within Range 3 of this drone must pass a HULL save or be pulled adjacent to the drone and become grappled by it."
+  },
+  {
+    "id": "ppg_npcf_prismatic_projection",
+    "name": "Prismatic Projection",
+    "origin": {
+      "type": "Class",
+      "name": "Prism",
+      "base": true
+    },
+    "locked": false,
+    "type": "Tech",
+    "tech_type": "Quick",
+    "tags": [
+      {
+        "id": "tg_heat_self",
+        "val": 2
+      },
+      {
+        "id": "tg_quick_tech"
+      }
+    ],
+    "effect": "Place an untargetable projection in a free space within SENSORS. The Prism is treated as occupying a projection’s space for RANGE, THREAT, SENSORS, line of sight, adjacency, engagement, contesting objectives, being affected by abilities, or any other purpose. The Prism has RESISTANCE to all damage, Heat, and Burn inflicted through a projection.<br/><br/>If the Prism would have more than 1 projection, it must destroy any beyond that limit. Projections last until the end of the scene, or until the Prism is STUNNED, JAMMED, overheated, or destroyed."
+  },
+  {
+    "id": "ppg_npcf_diffraction_beam",
+    "name": "Diffraction Beam",
+    "origin": {
+      "type": "Class",
+      "name": "Prism",
+      "base": true
+    },
+    "locked": false,
+    "type": "Weapon",
+    "weapon_type": "Heavy Rifle",
+    "tags": [],
+    "attack_bonus": [
+      2,
+      4,
+      6
+    ],
+    "range": [
+      {
+        "type": "Range",
+        "val": 10
+      },
+      {
+        "type": "Burst",
+        "val": 2
+      }
+    ],
+    "damage": [
+      {
+        "type": "Energy",
+        "damage": [
+          5,
+          7,
+          9
+        ]
+      }
+    ],
+    "on_hit": "The target can only draw line of sight to the Prism until the end of their next turn.",
+    "effect": "This weapon only targets hostile characters. Attacks made through a projection gain AP."
+  },
+  {
+    "id": "ppg_npcf_refracting_armor",
+    "name": "Refracting Armor",
+    "origin": {
+      "type": "Class",
+      "name": "Prism",
+      "base": true
+    },
+    "locked": false,
+    "type": "Trait",
+    "tags": [],
+    "effect": "Attacks targeting characters, objects, or spaces within Burst 3 of the Prism lose the benefit of SEEKING."
+  },
+  {
+    "id": "ppg_npcf_double_vision",
+    "name": "Double Vision",
+    "origin": {
+      "type": "Class",
+      "name": "Prism",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "tags": [],
+    "effect": "The Prism may have 2 projections at a time."
+  },
+  {
+    "id": "ppg_npcf_omniglass_barrier",
+    "name": "OMNIGLASS Barrier",
+    "origin": {
+      "type": "Class",
+      "name": "Prism",
+      "base": false
+    },
+    "locked": false,
+    "type": "System",
+    "tags": [
+      {
+        "id": "tg_deployable"
+      },
+      {
+        "id": "tg_shield"
+      },
+      {
+        "id": "tg_limited",
+        "val": 1
+      },
+      {
+        "id": "tg_quick_action"
+      }
+    ],
+    "effect": "As a quick action, deploy two sections of hard cover (Line 3, Size 2, {10/15/20} HP), within Range 3. Tech attacks and SEEKING do not ignore this cover."
+  },
+  {
+    "id": "ppg_npcf_shardsplitter_shotgun",
+    "name": "Shardsplitter Shotgun",
+    "origin": {
+      "type": "Class",
+      "name": "Prism",
+      "base": false
+    },
+    "locked": false,
+    "type": "Weapon",
+    "weapon_type": "Main CQB",
+    "tags": [],
+    "attack_bonus": [
+      1,
+      2,
+      3
+    ],
+    "range": [
+      {
+        "type": "Range",
+        "val": 5
+      },
+      {
+        "type": "Threat",
+        "val": 3
+      }
+    ],
+    "damage": [
+      {
+        "type": "Explosive",
+        "damage": [
+          4,
+          6,
+          8
+        ]
+      }
+    ],
+    "effect": "The Prism may OVERWATCH with this weapon when hostile characters enter or leave spaces within its THREAT, regardless where their movement began."
+  },
+  {
+    "id": "ppg_npcf_shattered_glass",
+    "name": "Shattered Glass",
+    "origin": {
+      "type": "Class",
+      "name": "Prism",
+      "base": false
+    },
+    "locked": false,
+    "type": "Reaction",
+    "tags": [
+      {
+        "id": "tg_reaction"
+      },
+      {
+        "id": "tg_scene",
+        "val": 1
+      }
+    ],
+    "trigger": "The Prism or an allied character in Range 5 is attacked while a projection exists.",
+    "effect": "The Prism first destroys a projection and teleports the triggering character to a space it occupied. Regardless of RANGE or line of sight, the Prism becomes the new target of the attack, gaining RESISTANCE as if it was targeted through a projection. After the attack, the attacker must pass an AGILITY save or take {4/5/6} Kinetic damage and become IMPAIRED until the end of their next turn."
   },
   {
     "id": "ppg_npcf_zeal_zealot",

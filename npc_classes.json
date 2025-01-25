@@ -595,109 +595,9 @@
     "optional_features": [
       "ppg_npcf_death_by_glamour_mesmerist",
       "ppg_npcf_step_mesmerist",
-      "ppg_npcf_ozymandias_protocol_mesmerist",
+      "ppg_npcf_narcissus_override",
       "ppg_npcf_metafold_riposte_mesmerist",
       "ppg_npcf_hypnotic_attraction_mesmerist"
-    ],
-    "power": 100
-  },
-  {
-    "id": "ppg_npcc_prism",
-    "name": "Prism",
-    "role": "artillery",
-    "info": {
-      "flavor": "Through advanced OMNIGLASS technology, Prism-pattern mechs exploit a holographic double to rapidly establish a defensive line. The double acts as a temporary platform to deploy a variety of light- and steelglass-based weaponry alongside an aggressive e-war suite.",
-      "tactics": "Prisms deploy a durable PRISMATIC PROJECTION where it can hold ground, flank foes, and draw hostile attention. CONSTELLATION BEAM attacks in a unique pattern, while CRUSH TARGETING frustrates enemy aggression. This extreme versatility comes at the cost of weak hacking defenses and dismal heat capacity."
-    },
-    "stats": {
-      "armor": [
-        1,
-        1,
-        1
-      ],
-      "hp": [
-        14,
-        17,
-        20
-      ],
-      "evade": [
-        10,
-        12,
-        14
-      ],
-      "edef": [
-        7,
-        8,
-        9
-      ],
-      "heatcap": [
-        6,
-        6,
-        6
-      ],
-      "speed": [
-        4,
-        4,
-        4
-      ],
-      "sensor": [
-        15,
-        15,
-        15
-      ],
-      "save": [
-        10,
-        12,
-        14
-      ],
-      "hull": [
-        0,
-        0,
-        0
-      ],
-      "agility": [
-        1,
-        2,
-        3
-      ],
-      "systems": [
-        2,
-        4,
-        6
-      ],
-      "engineering": [
-        -2,
-        -2,
-        -2
-      ],
-      "size": [
-        [
-          1
-        ],
-        [
-          1
-        ],
-        [
-          1
-        ]
-      ],
-      "activations": [
-        1,
-        1,
-        1
-      ]
-    },
-    "base_features": [
-      "ppg_npcf_prismatic_projection",
-      "ppg_npcf_constellation_beam",
-      "ppg_npcf_crush_targeting"
-    ],
-    "optional_features": [
-      "ppg_npcf_double_vision",
-      "ppg_npcf_refraction_barrier",
-      "ppg_npcf_shardsplitter_shotgun",
-      "ppg_npcf_narcissus_override",
-      "ppg_npcf_shattered_glass"
     ],
     "power": 100
   },
@@ -898,6 +798,106 @@
       "ppg_npcf_scapegoat",
       "ppg_npcf_harvest_pyres",
       "ppg_npcf_call_from_below"
+    ],
+    "power": 100
+  },
+  {
+    "id": "ppg_npcc_prism",
+    "name": "Prism",
+    "role": "artillery",
+    "info": {
+      "flavor": "Through advanced OMNIGLASS technology, Prism-pattern mechs exploit a holographic double to rapidly establish a defensive line. The double acts as a temporary platform to deploy a variety of optical- and steelglass-based weaponry alongside an aggressive e-war suite.",
+      "tactics": "Prisms deploy a durable PRISMATIC PROJECTION to hold ground, flank, and draw attention. DIFFRACTION BEAM attacks in a unique pattern, and REFRACTING ARMOR frustrates opposing artillery. The Prism’s weak hacking defenses and dismal heat capacity offset its flexibility."
+    },
+    "stats": {
+      "armor": [
+        1,
+        1,
+        1
+      ],
+      "hp": [
+        14,
+        17,
+        20
+      ],
+      "evade": [
+        10,
+        12,
+        14
+      ],
+      "edef": [
+        7,
+        8,
+        9
+      ],
+      "heatcap": [
+        6,
+        6,
+        6
+      ],
+      "speed": [
+        4,
+        4,
+        4
+      ],
+      "sensor": [
+        15,
+        15,
+        15
+      ],
+      "save": [
+        10,
+        12,
+        14
+      ],
+      "hull": [
+        0,
+        0,
+        0
+      ],
+      "agility": [
+        1,
+        2,
+        3
+      ],
+      "systems": [
+        2,
+        4,
+        6
+      ],
+      "engineering": [
+        -2,
+        -2,
+        -2
+      ],
+      "size": [
+        [
+          1
+        ],
+        [
+          1
+        ],
+        [
+          1
+        ]
+      ],
+      "activations": [
+        1,
+        1,
+        1
+      ]
+    },
+    "base_features": [
+      "ppg_npcf_prismatic_projection",
+      "ppg_npcf_diffraction_beam",
+      "ppg_npcf_refracting_armor"
+    ],
+    "optional_features": [
+      "ppg_npcf_double_vision",
+      "ppg_npcf_omniglass_barrier",
+      "ppg_npcf_shardsplitter_shotgun",
+      "ppg_npcf_narcissus_override",
+      "ppg_npcf_shattered_glass"
     ],
     "power": 100
   },

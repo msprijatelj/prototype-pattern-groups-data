@@ -1,0 +1,7 @@
+[
+  {
+    "id": "tg_scene",
+    "name": "{VAL}/Scene",
+    "description": "This system, trait or reaction can be used {VAL} number of times per scene."
+  }
+]
