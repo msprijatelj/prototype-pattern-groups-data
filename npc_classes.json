@@ -902,6 +902,107 @@
     "power": 100
   },
   {
+    "id": "ppg_npcc_vulture",
+    "name": "Vulture",
+    "role": "support",
+    "info": {
+      "flavor": "One pilot’s wreck is another pilot’s windfall, a fact that Vulture pilots know all too well. Vultures propel themselves across the battlefield in clumsy leaps, autonomous manipulators extracting choice salvage and jury-rigging a variety of useful equipment.",
+      "tactics": "Vultures position themselves near allied strikers, enhancing attacks with MAGNET BOMB and granting staying power with “MAGPIE” SUBROUTINES. They take cover next to wreckages before dismantling them for useful materials and fleeing back to safer ground. Vultures struggle against melee and hacker opponents."
+    },
+    "stats": {
+      "armor": [
+        2,
+        2,
+        2
+      ],
+      "hp": [
+        14,
+        17,
+        20
+      ],
+      "evade": [
+        8,
+        10,
+        12
+      ],
+      "edef": [
+        6,
+        7,
+        8
+      ],
+      "heatcap": [
+        8,
+        8,
+        8
+      ],
+      "speed": [
+        4,
+        4,
+        4
+      ],
+      "sensor": [
+        8,
+        8,
+        8
+      ],
+      "save": [
+        10,
+        12,
+        14
+      ],
+      "hull": [
+        1,
+        2,
+        3
+      ],
+      "agility": [
+        -2,
+        -2,
+        -2
+      ],
+      "systems": [
+        0,
+        0,
+        0
+      ],
+      "engineering": [
+        2,
+        4,
+        6
+      ],
+      "size": [
+        [
+          1
+        ],
+        [
+          1
+        ],
+        [
+          1
+        ]
+      ],
+      "activations": [
+        1,
+        1,
+        1
+      ]
+    },
+    "base_features": [
+      "ppg_npcf_condor_jet_propulsion_wings",
+      "ppg_npcf_magpie_subroutines",
+      "ppg_npcf_magnet_bomb",
+      "ppg_npcf_dandelion_flak_cannon"
+    ],
+    "optional_features": [
+      "ppg_npcf_trash_to_treasure",
+      "ppg_npcf_jumpstart",
+      "ppg_npcf_opportunistic_salvage",
+      "ppg_npcf_pinion_mine",
+      "ppg_npcf_carcass_bunker"
+    ],
+    "power": 100
+  },
+  {
     "id": "ppg_npcc_zealot",
     "name": "Zealot",
     "role": "support",
