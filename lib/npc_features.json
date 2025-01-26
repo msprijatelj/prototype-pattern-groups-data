@@ -1365,7 +1365,7 @@
     "effect": "The area targeted by the SALAMANDER THERMOBARIC CATAPULT and all adjacent spaces are set on fire and become difficult terrain until extinguished, until the end of the scene, or until this system is used again. Characters that start their turn within the area or move into it for the first time in a round must pass an ENGINEERING save or take {1/2/3} Heat and {2/3/4} Burn."
   },
   {
-    "id": "ppg_npcf_flock_drones",
+    "id": "ppg_npcf_flock_drones_occultist",
     "name": "FLOCK Drones",
     "origin": {
       "type": "Class",
@@ -1385,7 +1385,7 @@
     "effect": "FLOCK Drone (Size 1/2, HP 5, Evasion 10, E-Defense 10, Tags: Drone)<br/><br/>This drone can be deployed to an adjacent space, and the Occultist enters the scene with 2 of these drones adjacent to it. Each drone creates a Burst 1 area: Within the area, allied characters gain soft cover, and hostile characters can’t take reactions. Only 5 drones may be deployed at a time."
   },
   {
-    "id": "ppg_npcf_diviners_darts",
+    "id": "ppg_npcf_diviners_darts_occultist",
     "name": "Diviner’s Darts",
     "origin": {
       "type": "Class",
@@ -1425,7 +1425,7 @@
     "effect": "This weapon can attack 1-2 targets at a time.<br/><br/>On Attack: A DRONE controlled by the attacker and within SENSORS may move adjacent to the target."
   },
   {
-    "id": "ppg_npcf_reap_the_chaff",
+    "id": "ppg_npcf_reap_the_chaff_occultist",
     "name": "Reap the Chaff",
     "origin": {
       "type": "Class",
@@ -1449,7 +1449,7 @@
     "effect": "Destroy a controlled DRONE or allied GRUNT in SENSORS and choose one of the following options:<ul><li>Allied characters within Burst 1 of the target gain OVERSHIELD {2/4/6} and clear one condition.</li><li>Hostile characters within Burst 1 of the target must pass an AGILITY save or become IMPAIRED until the end of their next turn and gain LOCK-ON.</li></ul>"
   },
   {
-    "id": "ppg_npcf_jealous_flock",
+    "id": "ppg_npcf_jealous_flock_occultist",
     "name": "Jealous Flock",
     "origin": {
       "type": "Class",
@@ -1462,7 +1462,7 @@
     "effect": "While within the area created by a FLOCK DRONE, allied characters gain RESISTANCE to all damage, Heat, and Burn, and hostile characters are SHREDDED."
   },
   {
-    "id": "ppg_npcf_lead_astray",
+    "id": "ppg_npcf_lead_astray_occultist",
     "name": "Lead Astray",
     "origin": {
       "type": "Class",
@@ -1489,7 +1489,7 @@
     "effect": "Make a tech attack against a DRONE within SENSORS. On a hit, the Occultist controls the target DRONE until the end of its next turn."
   },
   {
-    "id": "ppg_npcf_scapegoat",
+    "id": "ppg_npcf_scapegoat_occultist",
     "name": "Scapegoat",
     "origin": {
       "type": "Class",
@@ -1511,7 +1511,7 @@
     "effect": "The controlled DRONE or allied GRUNT becomes the target of the attack or effect, instead."
   },
   {
-    "id": "ppg_npcf_harvest_pyres",
+    "id": "ppg_npcf_harvest_pyres_occultist",
     "name": "Harvest Pyres",
     "origin": {
       "type": "Class",
@@ -1524,7 +1524,7 @@
     "effect": "When a controlled DRONE or allied GRUNT in SENSORS is destroyed, hostile characters within Burst 1 of the destroyed character must pass an ENGINEERING save or take {1/2/3} Heat and {2/4/6} Burn."
   },
   {
-    "id": "ppg_npcf_call_from_below",
+    "id": "ppg_npcf_call_from_below_occultist",
     "name": "Call From Below",
     "origin": {
       "type": "Class",
@@ -1548,7 +1548,7 @@
     "effect": "MOLOCH Drone (Size 3, HP {20/25/30}, Evasion 6, E-Defense 10, Tags: Drone)<br/><br/>As a full action, destroy a controlled DRONE or allied GRUNT in SENSORS and deploy this drone in one of that character’s spaces. Hostile characters that start their turn within Range 3 of this drone must pass a HULL save or be pulled adjacent to the drone and become grappled by it."
   },
   {
-    "id": "ppg_npcf_prismatic_projection",
+    "id": "ppg_npcf_prismatic_projection_prism",
     "name": "Prismatic Projection",
     "origin": {
       "type": "Class",
@@ -1570,7 +1570,7 @@
     "effect": "Place an untargetable projection in a free space within SENSORS. The Prism is treated as occupying a projection’s space for RANGE, THREAT, SENSORS, line of sight, adjacency, engagement, contesting objectives, being affected by abilities, or any other purpose. The Prism has RESISTANCE to all damage, Heat, and Burn inflicted through a projection.<br/><br/>If the Prism would have more than 1 projection, it must destroy any beyond that limit. Projections last until the end of the scene, or until the Prism is STUNNED, JAMMED, overheated, or destroyed."
   },
   {
-    "id": "ppg_npcf_diffraction_beam",
+    "id": "ppg_npcf_diffraction_beam_prism",
     "name": "Diffraction Beam",
     "origin": {
       "type": "Class",
@@ -1610,7 +1610,7 @@
     "effect": "This weapon only targets hostile characters. Attacks made through a projection gain AP."
   },
   {
-    "id": "ppg_npcf_refracting_armor",
+    "id": "ppg_npcf_refracting_armor_prism",
     "name": "Refracting Armor",
     "origin": {
       "type": "Class",
@@ -1623,7 +1623,7 @@
     "effect": "Attacks targeting characters, objects, or spaces within Burst 3 of the Prism lose the benefit of SEEKING."
   },
   {
-    "id": "ppg_npcf_double_vision",
+    "id": "ppg_npcf_double_vision_prism",
     "name": "Double Vision",
     "origin": {
       "type": "Class",
@@ -1636,7 +1636,7 @@
     "effect": "The Prism may have 2 projections at a time."
   },
   {
-    "id": "ppg_npcf_omniglass_barrier",
+    "id": "ppg_npcf_omniglass_barrier_prism",
     "name": "OMNIGLASS Barrier",
     "origin": {
       "type": "Class",
@@ -1663,7 +1663,7 @@
     "effect": "As a quick action, deploy two sections of hard cover (Line 3, Size 2, {10/15/20} HP), within Range 3. Tech attacks and SEEKING do not ignore this cover."
   },
   {
-    "id": "ppg_npcf_shardsplitter_shotgun",
+    "id": "ppg_npcf_shardsplitter_shotgun_prism",
     "name": "Shardsplitter Shotgun",
     "origin": {
       "type": "Class",
@@ -1702,7 +1702,7 @@
     "effect": "The Prism may OVERWATCH with this weapon when hostile characters enter or leave spaces within its THREAT, regardless where their movement began."
   },
   {
-    "id": "ppg_npcf_shattered_glass",
+    "id": "ppg_npcf_shattered_glass_prism",
     "name": "Shattered Glass",
     "origin": {
       "type": "Class",
@@ -1722,6 +1722,207 @@
     ],
     "trigger": "The Prism or an allied character in Range 5 is attacked while a projection exists.",
     "effect": "The Prism first destroys a projection and teleports the triggering character to a space it occupied. Regardless of RANGE or line of sight, the Prism becomes the new target of the attack, gaining RESISTANCE as if it was targeted through a projection. After the attack, the attacker must pass an AGILITY save or take {4/5/6} Kinetic damage and become IMPAIRED until the end of their next turn."
+  },
+  
+  {
+    "id": "ppg_npcf_condor_jet_propulsion_wings_vulture",
+    "name": "“Condor” Jet Propulsion Wings",
+    "origin": {
+      "type": "Class",
+      "name": "Vulture",
+      "base": true
+    },
+    "locked": false,
+    "type": "System",
+    "tags": [],
+    "effect": "The Vulture can fly whenever it moves or BOOSTS. It must land at the end of its turn or begin falling."
+  },
+  
+  {
+    "id": "ppg_npcf_magpie_subroutines_vulture",
+    "name": "“Magpie” Subroutines",
+    "origin": {
+      "type": "Class",
+      "name": "Vulture",
+      "base": true
+    },
+    "locked": false,
+    "type": "Trait",
+    "tags": [
+      {
+        "id": "tg_heat_self",
+        "val": 2
+      },
+      {
+        "id": "tg_protocol"
+      }
+    ],
+    "effect": "Destroy an adjacent wreckage. The Vulture or a character in Range 5 gains one of the following effects:<ul><li>RECHARGE one weapon or system.</li><li>All LIMITED weapons and systems regain 1 use.</li><li>Gain OVERSHIELD {4/6/8} and clear 1 condition.</li></ul>"
+  },
+  {
+    "id": "ppg_npcf_magnet_bomb_vulture",
+    "name": "Magnet Bomb",
+    "origin": {
+      "type": "Class",
+      "name": "Vulture",
+      "base": true
+    },
+    "locked": false,
+    "type": "System",
+    "tags": [
+      {
+        "id": "tg_grenade"
+      },
+      {
+        "id": "tg_limited",
+        "val": 2
+      },
+      {
+        "id": "tg_quick_action"
+      }
+    ],
+    "effect": "Characters in a Blast 1 area in Range 5 gain LOCK ON. In addition, they must pass an AGILITY save or be unable to benefit from cover until the end of their next turn and take {4/6/8} Explosive damage, half on success."
+  },
+  {
+    "id": "ppg_npcf_dandelion_flak_cannon_vulture",
+    "name": "“Dandelion” Flak Cannon",
+    "origin": {
+      "type": "Class",
+      "name": "Vulture",
+      "base": true
+    },
+    "locked": false,
+    "type": "Weapon",
+    "weapon_type": "Main Cannon",
+    "tags": [
+      {
+        "id": "tg_limited",
+        "val": 2
+      }
+    ],
+    "attack_bonus": [
+      1,
+      2,
+      3
+    ],
+    "accuracy": [
+      0,
+      0,
+      0
+    ],
+    "range": [
+      {
+        "type": "Cone",
+        "val": 5
+      }
+    ],
+    "damage": [
+      {
+        "type": "Kinetic",
+        "damage": [
+          4,
+          6,
+          8
+        ]
+      }
+    ],
+    "effect": "On Attack: The area affected by this weapon provides soft cover until the end of the Vulture’s next turn. Characters at least partly within this cover cannot draw line of sight outside of its area."
+  },
+  {
+    "id": "ppg_npcf_trash_to_treasure_vulture",
+    "name": "Trash to Treasure",
+    "origin": {
+      "type": "Class",
+      "name": "Vulture",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "tags": [],
+    "effect": "“MAGPIE” SUBROUTINES gains an additional option: <ul><li>Gain a weapon or system owned by the wreckage’s original character. It gains LIMITED 1, replacing any other value of LIMITED.</li></ul>"
+  },
+  {
+    "id": "ppg_npcf_jumpstart_vulture",
+    "name": "Jumpstart",
+    "origin": {
+      "type": "Class",
+      "name": "Vulture",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "tags": [],
+    "effect": "The target of “MAGPIE” SUBROUTINES may immediately recharge {1/2/3} weapons or systems."
+  },
+  {
+    "id": "ppg_npcf_opportunistic_salvage_vulture",
+    "name": "Opportunistic Salvage",
+    "origin": {
+      "type": "Class",
+      "name": "Vulture",
+      "base": false
+    },
+    "locked": false,
+    "type": "Reaction",
+    "tags": [
+      {
+        "id": "tg_reaction"
+      },
+      {
+        "id": "tg_round",
+        "val": 1
+      }
+    ],
+    "trigger": "A DRONE or DEPLOYABLE is destroyed within Range 5.",
+    "effect": "Immediately use “MAGPIE” SUBROUTINES, without needing to destroy a wreckage."
+  },
+  {
+    "id": "ppg_npcf_pinion_mine_vulture",
+    "name": "Pinion Mine",
+    "origin": {
+      "type": "Class",
+      "name": "Vulture",
+      "base": false
+    },
+    "locked": false,
+    "type": "System",
+    "tags": [
+      {
+        "id": "tg_mine"
+      },
+      {
+        "id": "tg_limited",
+        "val": 2
+      },
+      {
+        "id": "tg_quick_action"
+      }
+    ],
+    "effect": "Plant a mine inside an adjacent wreckage. Once armed, the mine detonates if the wreckage is destroyed, exploding in a Cone 5 area originating from the mine in a direction chosen by the Vulture. Characters in the area must pass an AGILITY save or become SLOWED and IMPAIRED until the end of their next turn and take {4/6/8} Kinetic damage, half on success."
+  },
+  {
+    "id": "ppg_npcf_carcass_bunker_vulture",
+    "name": "“Carcass” Bunker",
+    "origin": {
+      "type": "Class",
+      "name": "Vulture",
+      "base": false
+    },
+    "locked": false,
+    "type": "System",
+    "tags": [
+      {
+        "id": "tg_deployable"
+      },
+      {
+        "id": "tg_limited",
+        "val": 1
+      },
+      {
+        "id": "tg_quick_action"
+      }
+    ],
+    "effect": "“Carcass” Bunker (Size 4, HP {15/20/25}, Evasion 5, E-Defense 5, Tags: Deployable)<br/><br/>Destroy an adjacent wreckage and deploy a bunker in Burst 2 area centered upon it. All characters completely within the affected area gain hard cover against all attacks made from outside the bunker."
   },
   {
     "id": "ppg_npcf_zeal_zealot",
