@@ -901,6 +901,99 @@
     ],
     "power": 100
   },
+  
+  {
+    "id": "ppg_npcc_torrent",
+    "name": "Torrent",
+    "role": "controller",
+    "info": {
+      "flavor": "",
+      "tactics": ""
+    },
+    "stats": {
+      "armor": [
+        0,
+        0,
+        0
+      ],
+      "hp": [
+        20,
+        24,
+        28
+      ],
+      "evade": [
+        10,
+        12,
+        14
+      ],
+      "edef": [
+        6,
+        7,
+        8
+      ],
+      "heatcap": [
+        8,
+        8,
+        8
+      ],
+      "speed": [
+        5,
+        5,
+        5
+      ],
+      "sensor": [
+        5,
+        5,
+        5
+      ],
+      "save": [
+        12,
+        14,
+        16
+      ],
+      "hull": [
+        2,
+        4,
+        6
+      ],
+      "agility": [
+        1,
+        2,
+        3
+      ],
+      "systems": [
+        0,
+        0,
+        0
+      ],
+      "engineering": [
+        -2,
+        -2,
+        -2
+      ],
+      "size": [
+        [
+          2
+        ],
+        [
+          2
+        ],
+        [
+          2
+        ]
+      ],
+      "activations": [
+        1,
+        1,
+        1
+      ]
+    },
+    "base_features": [
+    ],
+    "optional_features": [
+    ],
+    "power": 100
+  },
   {
     "id": "ppg_npcc_vulture",
     "name": "Vulture",
