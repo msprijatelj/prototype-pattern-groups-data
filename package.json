@@ -1,5 +1,5 @@
 {
-  "name": "@valkyrion/prototype-pattern-groups",
+  "name": "@valkyrion/prototype-pattern-groups-data",
   "version": "1.0.0",
   "description": "COMP/CON data for Prototype Pattern Groups, a third-party experimental NPC mechs for the Lancer RPG.",
   "main": "index.js",
