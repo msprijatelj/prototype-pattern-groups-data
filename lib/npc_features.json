@@ -1721,7 +1721,7 @@
       }
     ],
     "trigger": "The Prism or an allied character in Range 5 is attacked while a projection exists.",
-    "effect": "The Prism first destroys a projection and teleports the triggering character to a space it occupied. Regardless of RANGE or line of sight, the Prism becomes the new target of the attack, gaining RESISTANCE as if it was targeted through a projection. After the attack, the attacker must pass an AGILITY save or take {4/5/6} Kinetic damage and become IMPAIRED until the end of their next turn."
+    "effect": "The Prism first destroys a projection and teleports the triggering character to a space it occupied. Regardless of RANGE or line of sight, the Prism becomes the new target of the attack, gaining RESISTANCE as if it was targeted through a projection. After the attack, the attacker must pass an AGILITY save or be IMPAIRED until the end of their next turn and take {4/5/6} Kinetic damage, half on success."
   },
   
   {
