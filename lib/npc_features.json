@@ -2194,7 +2194,7 @@
         "id": "tg_full_tech"
       }
     ],
-    "effect": "The Brigand targets one hostile mech with the AI tag within SENSORS. That mech must succeed on a SYSTEMS save or have all their installed AIS enter cascade. AIs immune to cascade are unaffected."
+    "effect": "The Brigand targets one hostile mech with the AI tag within SENSORS. That mech must succeed on a SYSTEMS save or have all their installed AIs enter cascade. AIs immune to cascade are unaffected."
   },
   {
     "id": "ppg_npcf_commandeer_brigand",
