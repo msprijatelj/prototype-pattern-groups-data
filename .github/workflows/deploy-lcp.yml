@@ -8,6 +8,21 @@ on:
     types: [created]
 
 jobs:
+  publish-release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 18
+      - run: npm ci
+      - run: npm run build
+      - run: echo VERSION=$(jq -j '.version' ./package.json) >> $GITHUB_ENV
+      - name: Upload LCP
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh release upload --clobber ${{ env.VERSION }} dist/${{ github.event.repository.name }}-${{ env.VERSION }}.lcp
+  
   call-butler-publish:
     uses: massif-press/.github/.github/workflows/butler-publish.yml@master
     secrets:
