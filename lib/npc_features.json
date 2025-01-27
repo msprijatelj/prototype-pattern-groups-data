@@ -61,7 +61,7 @@
     ],
     "damage": [
       {
-        "type": "Energy",
+        "type": "Explosive",
         "damage": [
           3,
           4,
