@@ -1723,7 +1723,226 @@
     "trigger": "The Prism or an allied character in Range 5 is attacked while a projection exists.",
     "effect": "The Prism first destroys a projection and teleports the triggering character to a space it occupied. Regardless of RANGE or line of sight, the Prism becomes the new target of the attack, gaining RESISTANCE as if it was targeted through a projection. After the attack, the attacker must pass an AGILITY save or be IMPAIRED until the end of their next turn and take {4/5/6} Kinetic damage, half on success."
   },
-  
+  {
+    "id": "ppg_npcf_amorphous_torrent",
+    "name": "Amorphous",
+    "origin": {
+      "type": "Class",
+      "name": "Torrent",
+      "base": true
+    },
+    "locked": false,
+    "type": "Trait",
+    "tags": [],
+    "effect": "The Torrent always has soft cover, and it ignores difficult terrain and engagement. Other characters can move through and end their turns in the Torrent’s spaces, and long as it occupies at least 1 free space, it can end its turn overlapping obstructions, cover, or other characters."
+  },
+  {
+    "id": "ppg_npcf_undertow_torrent",
+    "name": "Undertow",
+    "origin": {
+      "type": "Class",
+      "name": "Torrent",
+      "base": true
+    },
+    "locked": false,
+    "type": "Trait",
+    "tags": [],
+    "effect": "Involuntary movement caused by the Torrent ignores difficult terrain. Hostile characters that collide with an obstruction due to this movement must pass a HULL save or be knocked PRONE."
+  },
+  {
+    "id": "ppg_npcf_wavebreaker_torrent",
+    "name": "Wavebreaker",
+    "origin": {
+      "type": "Class",
+      "name": "Torrent",
+      "base": true
+    },
+    "locked": false,
+    "type": "Weapon",
+    "weapon_type": "Main Melee",
+    "tags": [
+      {
+        "id": "tg_knockback",
+        "val": 3
+      }
+    ],
+    "attack_bonus": [
+      1,
+      2,
+      3
+    ],
+    "accuracy": [
+      0,
+      0,
+      0
+    ],
+    "range": [
+      {
+        "type": "Burst",
+        "val": 1
+      },
+      {
+        "type": "Cone",
+        "val": 3
+      }
+    ],
+    "damage": [
+      {
+        "type": "Explosive",
+        "damage": [
+          4,
+          6,
+          8
+        ]
+      }
+    ],
+    "effect": "This weapon must always inflict KNOCKBACK. After the attack resolves, the Torrent pushes itself to one of the spaces in the attack’s area."
+  },
+  {
+    "id": "ppg_npcf_storm_surge_torrent",
+    "name": "Storm Surge",
+    "origin": {
+      "type": "Class",
+      "name": "Torrent",
+      "base": true
+    },
+    "locked": false,
+    "type": "System",
+    "tags": [
+      {
+        "id": "tg_recharge",
+        "val": 6
+      },
+      {
+        "id": "tg_quick_action"
+      }
+    ],
+    "effect": "The Torrent moves 10 spaces in a straight line, ignoring engagement and obstructing characters. Hostile characters that the Torrent passes through at least once must make HULL save or be pushed to a space adjacent to the Torrent at the end of its movement."
+  },
+  {
+    "id": "ppg_npcf_scalding_greywash_torrent",
+    "name": "Scalding Greywash",
+    "origin": {
+      "type": "Class",
+      "name": "Torrent",
+      "base": false
+    },
+    "locked": false,
+    "type": "System",
+    "tags": [
+      {
+        "id": "tg_recharge",
+        "val": 5
+      },
+      {
+        "id": "tg_quick_action"
+      }
+    ],
+    "effect": "The Torrent lashes out with scalding greywash. Hostile characters in a Cone 3 area must pass an AGILITY save or take {3/4/5} Burn and become IMPAIRED until the end of their next turn."
+  },
+  {
+    "id": "ppg_npcf_wash_away_torrent",
+    "name": "Wash Away",
+    "origin": {
+      "type": "Class",
+      "name": "Torrent",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "tags": [],
+    "effect": "When the Torrent inflicts involuntary movement upon PRONE hostile characters, they are pushed an additional 2 spaces in any direction."
+  },
+  {
+    "id": "ppg_npcf_roil_torrent",
+    "name": "Roil",
+    "origin": {
+      "type": "Class",
+      "name": "Torrent",
+      "base": false
+    },
+    "locked": false,
+    "type": "System",
+    "tags": [
+      {
+        "id": "tg_recharge",
+        "val": 5
+      },
+      {
+        "id": "tg_quick_action"
+      }
+    ],
+    "effect": "The Torrent erupts in a Burst 2 area of roiling nanites. Hostile characters in the area must pass a HULL save or be knocked PRONE and pushed 2 spaces away from the Torrent. The affected area becomes difficult terrain for the rest of the scene."
+  },
+  {
+    "id": "ppg_npcf_crashing_tsunami_torrent",
+    "name": "Crashing Tsunami",
+    "origin": {
+      "type": "Class",
+      "name": "Torrent",
+      "base": false
+    },
+    "locked": false,
+    "type": "Weapon",
+    "weapon_type": "Heavy Melee",
+    "tags": [
+      {
+        "id": "tg_knockback",
+        "val": 5
+      },
+      {
+        "id": "tg_loading"
+      }
+    ],
+    "attack_bonus": [
+      1,
+      2,
+      3
+    ],
+    "accuracy": [
+      0,
+      0,
+      0
+    ],
+    "range": [
+      {
+        "type": "Cone",
+        "val": 5
+      }
+    ],
+    "damage": [
+      {
+        "type": "Explosive",
+        "damage": [
+          6,
+          8,
+          10
+        ]
+      }
+    ],
+    "effect": "This weapon must always inflict KNOCKBACK. After the attack resolves, the Torrent pushes itself to one of the spaces in the attack’s area.<br/><br/>When the Torrent knocks a character PRONE, it may reload this weapon."
+  },
+  {
+    "id": "ppg_npcf_drown_in_nanites_torrent",
+    "name": "Drown in Nanites",
+    "origin": {
+      "type": "Class",
+      "name": "Torrent",
+      "base": false
+    },
+    "locked": false,
+    "type": "System",
+    "tags": [
+      {
+        "id": "tg_recharge",
+        "val": 6
+      },
+      {
+        "id": "tg_full_action"
+      }
+    ],
+    "effect": "One adjacent character must pass an ENGINEERING save or be JAMMED and SLOWED until they break adjacency. On a success, they are instead SLOWED until the end of their next turn."
+  },
   {
     "id": "ppg_npcf_condor_jet_propulsion_wings_vulture",
     "name": "“Condor” Jet Propulsion Wings",
@@ -1737,7 +1956,6 @@
     "tags": [],
     "effect": "The Vulture can fly whenever it moves or BOOSTS. It must land at the end of its turn or begin falling."
   },
-  
   {
     "id": "ppg_npcf_magpie_subroutines_vulture",
     "name": "“Magpie” Subroutines",

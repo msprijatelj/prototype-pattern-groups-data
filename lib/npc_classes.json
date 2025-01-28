@@ -922,9 +922,9 @@
         28
       ],
       "evade": [
+        8,
         10,
-        12,
-        14
+        12
       ],
       "edef": [
         6,
@@ -989,8 +989,17 @@
       ]
     },
     "base_features": [
+      "ppg_npcf_amorphous_torrent",
+      "ppg_npcf_undertow_torrent",
+      "ppg_npcf_wavebreaker_torrent",
+      "ppg_npcf_storm_surge_torrent"
     ],
     "optional_features": [
+      "ppg_npcf_scalding_greywash_torrent",
+      "ppg_npcf_wash_away_torrent",
+      "ppg_npcf_roil_torrent",
+      "ppg_npcf_crashing_tsunami_torrent",
+      "ppg_npcf_drown_in_nanites_torrent"
     ],
     "power": 100
   },
