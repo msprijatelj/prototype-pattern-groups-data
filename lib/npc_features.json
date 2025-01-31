@@ -1081,8 +1081,8 @@
     "effect": "Whenever an attack destroys a mirror image, the attacker takes {1/2/3} Heat."
   },
   {
-    "id": "ppg_npcf_step_mesmerist",
-    "name": "Step",
+    "id": "ppg_npcf_mountebanks_jaunt_mesmerist",
+    "name": "Mountebank’s Jaunt",
     "origin": {
       "type": "Class",
       "name": "Mesmerist",
@@ -1090,16 +1090,8 @@
     },
     "locked": false,
     "type": "Trait",
-    "tags": [
-      {
-        "id": "tg_recharge",
-        "val": 5
-      },
-      {
-        "id": "tg_quick_action"
-      }
-    ],
-    "effect": "The Mesmerist teleports to a free space within line of sight and Range 50."
+    "tags": [],
+    "effect": "When the Mesmerist uses MIRROR IMAGE, it may teleport to a free space within SENSORS."
   },
   {
     "id": "ppg_npcf_narcissus_override",
@@ -1249,8 +1241,8 @@
     "effect": "Characters who take any Burn from the Napalm’s abilities must pass an AGILITY save or be SLOWED until they clear all Burn."
   },
   {
-    "id": "ppg_npcf_emergency_vent_napalm",
-    "name": "Emergency Vent",
+    "id": "ppg_npcf_heat_haze_napalm",
+    "name": "Heat Haze",
     "origin": {
       "type": "Class",
       "name": "Napalm",
@@ -1259,7 +1251,7 @@
     "locked": false,
     "type": "Trait",
     "tags": [],
-    "effect": "When the Napalm exceeds its HEAT CAP or becomes STUNNED, it becomes INVISIBLE until the start of its next turn."
+    "effect": "While in the DANGER ZONE, the Napalm benefits from soft cover."
   },
   {
     "id": "ppg_npcf_smolder_charges_napalm",
@@ -1700,6 +1692,28 @@
       }
     ],
     "effect": "The Prism may OVERWATCH with this weapon when hostile characters enter or leave spaces within its THREAT, regardless where their movement began."
+  },
+  {
+    "id": "ppg_npcf_scintillating_gleam_prism",
+    "name": "Scintillating Gleam",
+    "origin": {
+      "type": "Class",
+      "name": "Prism",
+      "base": false
+    },
+    "locked": false,
+    "type": "Tech",
+    "tech_type": "Quick",
+    "tags": [
+      {
+        "id": "tg_recharge",
+        "val": 5
+      },
+      {
+        "id": "tg_quick_tech"
+      }
+    ],
+    "effect": "The Prism creates a Burst 3 area of glittering light until the end of its next turn. Hostile characters cannot draw line of sight to any character, object, or space in the area besides the Prism."
   },
   {
     "id": "ppg_npcf_shattered_glass_prism",

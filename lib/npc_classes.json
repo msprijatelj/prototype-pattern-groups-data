@@ -594,7 +594,7 @@
     ],
     "optional_features": [
       "ppg_npcf_death_by_glamour_mesmerist",
-      "ppg_npcf_step_mesmerist",
+      "ppg_npcf_mountebanks_jaunt_mesmerist",
       "ppg_npcf_narcissus_override",
       "ppg_npcf_metafold_riposte_mesmerist",
       "ppg_npcf_hypnotic_attraction_mesmerist"
@@ -690,7 +690,7 @@
     "base_features": [
       "ppg_npcf_salamander_thermobaric_catapult_napalm",
       "ppg_npcf_adhesive_gel_napalm",
-      "ppg_npcf_emergency_vent_napalm"
+      "ppg_npcf_heat_haze_napalm"
     ],
     "optional_features": [
       "ppg_npcf_smolder_charges_napalm",
@@ -896,7 +896,7 @@
       "ppg_npcf_double_vision_prism",
       "ppg_npcf_omniglass_barrier_prism",
       "ppg_npcf_shardsplitter_shotgun_prism",
-      "ppg_npcf_narcissus_override_prism",
+      "ppg_npcf_scintillating_gleam_prism",
       "ppg_npcf_shattered_glass_prism"
     ],
     "power": 100
