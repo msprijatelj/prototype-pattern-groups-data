@@ -1018,9 +1018,9 @@
         2
       ],
       "hp": [
-        14,
-        17,
-        20
+        12,
+        15,
+        18
       ],
       "evade": [
         8,
@@ -1090,16 +1090,15 @@
       ]
     },
     "base_features": [
-      "ppg_npcf_condor_jet_propulsion_wings_vulture",
       "ppg_npcf_magpie_subroutines_vulture",
-      "ppg_npcf_magnet_bomb_vulture",
+      "ppg_npcf_condor_jet_propulsion_wings_vulture",
       "ppg_npcf_dandelion_flak_cannon_vulture"
     ],
     "optional_features": [
       "ppg_npcf_trash_to_treasure_vulture",
       "ppg_npcf_jumpstart_vulture",
       "ppg_npcf_opportunistic_salvage_vulture",
-      "ppg_npcf_pinion_mine_vulture",
+      "ppg_npcf_magnet_bomb_vulture",
       "ppg_npcf_carcass_bunker_vulture"
     ],
     "power": 100

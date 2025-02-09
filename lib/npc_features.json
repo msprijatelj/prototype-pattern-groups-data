@@ -1958,19 +1958,6 @@
     "effect": "One adjacent character must pass an ENGINEERING save or be JAMMED and SLOWED until they break adjacency. On a success, they are instead SLOWED until the end of their next turn."
   },
   {
-    "id": "ppg_npcf_condor_jet_propulsion_wings_vulture",
-    "name": "“Condor” Jet Propulsion Wings",
-    "origin": {
-      "type": "Class",
-      "name": "Vulture",
-      "base": true
-    },
-    "locked": false,
-    "type": "System",
-    "tags": [],
-    "effect": "The Vulture can fly whenever it moves or BOOSTS. It must land at the end of its turn or begin falling."
-  },
-  {
     "id": "ppg_npcf_magpie_subroutines_vulture",
     "name": "“Magpie” Subroutines",
     "origin": {
@@ -1986,14 +1973,14 @@
         "val": 2
       },
       {
-        "id": "tg_protocol"
+        "id": "tg_quick_action"
       }
     ],
-    "effect": "Destroy an adjacent wreckage. The Vulture or a character in Range 5 gains one of the following effects:<ul><li>RECHARGE one weapon or system.</li><li>All LIMITED weapons and systems regain 1 use.</li><li>Gain OVERSHIELD {4/6/8} and clear 1 condition.</li></ul>"
+    "effect": "Destroy an adjacent wreckage or one weapon or system equipped by the Vulture or a willing allied character. The Vulture or a character in Range 5 then gains one of the following benefits:<ul><li>RECHARGE one weapon or system.</li><li>Repair one destroyed weapon or system.</li><li>All LIMITED weapons and systems regain 1 use.</li><li>Gain OVERSHIELD {4/6/8} and clear 1 condition.</li></ul>"
   },
   {
-    "id": "ppg_npcf_magnet_bomb_vulture",
-    "name": "Magnet Bomb",
+    "id": "ppg_npcf_condor_jet_propulsion_wings_vulture",
+    "name": "“Condor” Jet Propulsion Wings",
     "origin": {
       "type": "Class",
       "name": "Vulture",
@@ -2001,19 +1988,8 @@
     },
     "locked": false,
     "type": "System",
-    "tags": [
-      {
-        "id": "tg_grenade"
-      },
-      {
-        "id": "tg_limited",
-        "val": 2
-      },
-      {
-        "id": "tg_quick_action"
-      }
-    ],
-    "effect": "Characters in a Blast 1 area in Range 5 gain LOCK ON. In addition, they must pass an AGILITY save or be unable to benefit from cover until the end of their next turn and take {4/6/8} Explosive damage, half on success."
+    "tags": [],
+    "effect": "The Vulture can fly whenever it moves or BOOSTS. It must land at the end of its turn or begin falling."
   },
   {
     "id": "ppg_npcf_dandelion_flak_cannon_vulture",
@@ -2106,11 +2082,11 @@
       }
     ],
     "trigger": "A DRONE or DEPLOYABLE is destroyed within Range 5.",
-    "effect": "Immediately use “MAGPIE” SUBROUTINES, without needing to destroy a wreckage."
+    "effect": "Immediately use “MAGPIE” SUBROUTINES, without needing to destroy a wreckage, weapon, or system."
   },
   {
-    "id": "ppg_npcf_pinion_mine_vulture",
-    "name": "Pinion Mine",
+    "id": "ppg_npcf_magnet_bomb_vulture",
+    "name": "Magnet Bomb",
     "origin": {
       "type": "Class",
       "name": "Vulture",
@@ -2120,7 +2096,7 @@
     "type": "System",
     "tags": [
       {
-        "id": "tg_mine"
+        "id": "tg_grenade"
       },
       {
         "id": "tg_limited",
@@ -2130,7 +2106,7 @@
         "id": "tg_quick_action"
       }
     ],
-    "effect": "Plant a mine inside an adjacent wreckage. Once armed, the mine detonates if the wreckage is destroyed, exploding in a Cone 5 area originating from the mine in a direction chosen by the Vulture. Characters in the area must pass an AGILITY save or become SLOWED and IMPAIRED until the end of their next turn and take {4/6/8} Kinetic damage, half on success."
+    "effect": "Characters in a Blast 1 area in Range 5 gain LOCK ON and must make an AGILITY save. On a failure, all weapon attacks made against them gain SEEKING until the end of their next turn, and they take {4/6/8} Explosive damage, half on success."
   },
   {
     "id": "ppg_npcf_carcass_bunker_vulture",
