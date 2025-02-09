@@ -1272,7 +1272,7 @@
         "id": "tg_free_action"
       }
     ],
-    "effect": "The area targeted by the SALAMANDER THERMOBARIC CATAPULT becomes a smokescreen 4 spaces high that provides soft cover against attacks made within or through it. Characters that benefit from this cover are treated as INVISIBLE. This effect lasts until the Napalm uses this system again."
+    "effect": "The area targeted by the SALAMANDER THERMOBARIC CATAPULT becomes a smokescreen 4 spaces high that provides soft cover against attacks made within or through it. Attacks affected by this cover treat their target as INVISIBLE. The area lasts until the start of the Napalm’s next turn."
   },
   {
     "id": "ppg_npcf_corrosive_gel_napalm",
@@ -1354,7 +1354,7 @@
         "id": "tg_free_action"
       }
     ],
-    "effect": "The area targeted by the SALAMANDER THERMOBARIC CATAPULT and all adjacent spaces are set on fire and become difficult terrain until extinguished, until the end of the scene, or until this system is used again. Characters that start their turn within the area or move into it for the first time in a round must pass an ENGINEERING save or take {1/2/3} Heat and {2/3/4} Burn."
+    "effect": "The area targeted by the SALAMANDER THERMOBARIC CATAPULT is set on fire and becomes difficult terrain until extinguished, until the end of the scene, or until this system is used again. Characters that start their turn within the area or move into it for the first time in a round must pass an ENGINEERING save or take {1/2/3} Heat and {2/3/4} Burn."
   },
   {
     "id": "ppg_npcf_flock_drones_occultist",
