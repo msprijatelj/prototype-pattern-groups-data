@@ -2047,7 +2047,7 @@
     "locked": false,
     "type": "Trait",
     "tags": [],
-    "effect": "“MAGPIE” SUBROUTINES gains an additional option: <ul><li>Gain a weapon or system owned by the wreckage’s original character. It gains LIMITED 1, replacing any other value of LIMITED.</li></ul>"
+    "effect": "“MAGPIE” SUBROUTINES gains an additional option when it destroys a wreckage: <ul><li>Gain a weapon or system owned by the wreckage’s original character. It gains LIMITED 1, replacing any other value of LIMITED.</li></ul>"
   },
   {
     "id": "ppg_npcf_jumpstart_vulture",
