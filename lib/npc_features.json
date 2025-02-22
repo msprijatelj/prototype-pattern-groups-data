@@ -1374,7 +1374,7 @@
         "id": "tg_quick_action"
       }
     ],
-    "effect": "FLOCK Drone (Size 1/2, HP 5, Evasion 10, E-Defense 10, Tags: Drone)<br/><br/>This drone can be deployed to an adjacent space, and the Occultist enters the scene with 2 of these drones adjacent to it. Each drone creates a Burst 1 area: Within the area, allied characters gain soft cover, and hostile characters can’t take reactions. Only 5 drones may be deployed at a time."
+    "effect": "FLOCK Drone (Size 1/2, HP 5, Evasion 10, E-Defense 10, Tags: Drone)<br/><br/>This drone can be deployed to an adjacent space, and the Occultist enters the scene with 2 of these drones adjacent to it. While adjacent to a drone, allied characters gain soft cover and hostile characters take 1 Heat each time they take an action. Only 5 drones may be deployed at a time."
   },
   {
     "id": "ppg_npcf_diviners_darts_occultist",
@@ -1426,7 +1426,7 @@
     },
     "locked": false,
     "type": "Tech",
-    "tech_type": "Quick",
+    "tech_type": "Full",
     "tags": [
       {
         "id": "tg_overshield"
@@ -1435,10 +1435,10 @@
         "id": "tg_shield"
       },
       {
-        "id": "tg_quick_tech"
+        "id": "tg_full_tech"
       }
     ],
-    "effect": "Destroy a controlled DRONE or allied GRUNT in SENSORS and choose one of the following options:<ul><li>Allied characters within Burst 1 of the target gain OVERSHIELD {2/4/6} and clear one condition.</li><li>Hostile characters within Burst 1 of the target must pass an AGILITY save or become IMPAIRED until the end of their next turn and gain LOCK-ON.</li></ul>"
+    "effect": "Target a controlled DRONE or allied GRUNT in SENSORS. Destroy them and apply these effects:<ul><li>Allied characters adjacent to the target gain OVERSHIELD {4/6/8} and clear one condition.</li><li>Hostile characters adjacent to the target gain LOCK-ON and must pass an AGILITY save or become JAMMED until the end of their next turn.</li></ul>"
   },
   {
     "id": "ppg_npcf_jealous_flock_occultist",
