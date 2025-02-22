@@ -1541,7 +1541,7 @@
   },
   {
     "id": "ppg_npcf_prismatic_projection_prism",
-    "name": "Prismatic Projection",
+    "name": "Prismatic Projector",
     "origin": {
       "type": "Class",
       "name": "Prism",
@@ -1559,7 +1559,7 @@
         "id": "tg_quick_tech"
       }
     ],
-    "effect": "Place an untargetable projection in a free space within SENSORS. The Prism is treated as occupying a projection’s space for RANGE, THREAT, SENSORS, line of sight, adjacency, engagement, contesting objectives, being affected by abilities, or any other purpose. The Prism has RESISTANCE to all damage, Heat, and Burn inflicted through a projection.<br/><br/>If the Prism would have more than 1 projection, it must destroy any beyond that limit. Projections last until the end of the scene, or until the Prism is STUNNED, JAMMED, overheated, or destroyed."
+    "effect": "Place an untargetable holographic projector in a free space within SENSORS. The Prism is treated as occupying a projector’s space for all purposes, including RANGE, THREAT, SENSORS, line of sight, adjacency, engagement, contesting objectives, being affected by abilities. The Prism gains RESISTANCE to all damage, Heat, and Burn inflicted through a projector.<br/><br/>If the Prism would have more than 1 projector, it must destroy any beyond that limit. Projectors last until the end of the scene, or until the Prism is STUNNED, JAMMED, overheated, or destroyed."
   },
   {
     "id": "ppg_npcf_diffraction_beam_prism",
@@ -1599,7 +1599,7 @@
       }
     ],
     "on_hit": "The target can only draw line of sight to the Prism until the end of their next turn.",
-    "effect": "This weapon only targets hostile characters. Attacks made through a projection gain AP."
+    "effect": "This weapon only targets hostile characters. Attacks made through a projector gain AP."
   },
   {
     "id": "ppg_npcf_refracting_armor_prism",
@@ -1625,7 +1625,7 @@
     "locked": false,
     "type": "Trait",
     "tags": [],
-    "effect": "The Prism may have 2 projections at a time."
+    "effect": "The Prism may have 2 projectors at a time."
   },
   {
     "id": "ppg_npcf_omniglass_barrier_prism",
@@ -1734,8 +1734,8 @@
         "val": 1
       }
     ],
-    "trigger": "The Prism or an allied character in Range 5 is attacked while a projection exists.",
-    "effect": "The Prism first destroys a projection and teleports the triggering character to a space it occupied. Regardless of RANGE or line of sight, the Prism becomes the new target of the attack, gaining RESISTANCE as if it was targeted through a projection. After the attack, the attacker must pass an AGILITY save or be IMPAIRED until the end of their next turn and take {4/5/6} Kinetic damage, half on success."
+    "trigger": "The Prism or an allied character in Range 5 is attacked while a projector exists.",
+    "effect": "The Prism first destroys a projector and teleports the triggering character to a space it occupied. Regardless of RANGE or line of sight, the Prism becomes the new target of the attack, gaining RESISTANCE as if it was targeted through a projector. After the attack, the attacker must pass an AGILITY save or be IMPAIRED until the end of their next turn and take {4/5/6} Kinetic damage, half on success."
   },
   {
     "id": "ppg_npcf_amorphous_torrent",
