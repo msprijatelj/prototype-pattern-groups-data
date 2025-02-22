@@ -1976,7 +1976,7 @@
         "id": "tg_quick_action"
       }
     ],
-    "effect": "Destroy an adjacent wreckage or one weapon or system equipped by the Vulture or a willing allied character. The Vulture or a character in Range 5 then gains one of the following benefits:<ul><li>RECHARGE one weapon or system.</li><li>Repair one destroyed weapon or system.</li><li>All LIMITED weapons and systems regain 1 use.</li><li>Gain OVERSHIELD {4/6/8} and clear 1 condition.</li></ul>"
+    "effect": "Destroy one of the following:<ul><li>An adjacent wreckage.</li><li>A weapon or system equipped by the Vulture.</li><li>A weapon or system equipped by a willing adjacent character.</li></ul>The Vulture or a character in Range 5 then gains one of the following benefits:<ul><li>RECHARGE one weapon or system.</li><li>Repair one destroyed weapon or system.</li><li>All LIMITED weapons and systems regain 1 use.</li><li>Gain OVERSHIELD {4/6/8} and clear 1 condition.</li></ul>"
   },
   {
     "id": "ppg_npcf_condor_jet_propulsion_wings_vulture",
