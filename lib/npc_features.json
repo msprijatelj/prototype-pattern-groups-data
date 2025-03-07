@@ -574,13 +574,13 @@
       {
         "type": "Kinetic",
         "damage": [
-          6,
-          8,
-          10
+          3,
+          4,
+          5
         ]
       }
     ],
-    "effect": ""
+    "effect": "If the attacker is not ENGAGED, this weapon deals double damage (excluding bonus damage)."
   },
   {
     "id": "ppg_npcf_cleaving_retrieval_hatchet",
