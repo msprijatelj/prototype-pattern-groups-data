@@ -1,0 +1,59 @@
+[
+  {
+    "id": "ppg_act_overcharge",
+    "name": "Overcharge (PPG)",
+    "activation": "Free",
+    "terse": "Overcharging lets you reroll any attack, check, or save once.",
+    "detail": "When you OVERCHARGE, you briefly push your mech beyond factory specifications for a tactical advantage. Moments of intense action won’t tax your mech’s systems too much, but sustained action beyond prescribed limits takes a toll.<br>After you make an attack roll, skill check, or save and know the result you can OVERCHARGE your mech, allowing you to reroll the attack roll, skill check, or save once and use the new result. This free action can be taken even when it is not your turn.<br>The first time you OVERCHARGE, take 1 heat.<br>The second time you OVERCHARGE, take 1d3 heat.<br>The third time, take 1d6 heat, and each time thereafter take 1d6+4 heat.<br>You take this heat after the action resolves. A rest reduces this counter by one step; spending 1 repair during a rest completely resets this counter. In addition, a FULL REPAIR resets this counter.",
+    "mech": true,
+    "pilot": false,
+    "synergy_locations": [
+      "overcharge"
+    ],
+    "confirm": [
+      "REACTOR LIMITER DISABLED. CORE TEMPERATURES RISING."
+    ]
+  },
+  {
+    "id": "ppg_act_search",
+    "name": "Search (PPG)",
+    "activation": "Quick",
+    "terse": "Look for a hidden target.",
+    "detail": "When you SEARCH, you attempt to identify hidden characters. To SEARCH in a mech, make a SYSTEMS contested by the AGILITY checks of all HIDDEN characters within SENSORS.<br>To SEARCH as a pilot on foot, make a contested skill check, adding bonuses from triggers as normal. This can be used to reveal characters within RANGE 5.<br>Any HIDDEN character who loses the contested check immediately loses HIDDEN and can be located again by any character.",
+    "mech": true,
+    "pilot": true,
+    "synergy_locations": [
+      "search"
+    ]
+  },
+  {
+    "id": "ppg_act_brace",
+    "name": "Brace (PPG)",
+    "activation": "Reaction",
+    "terse": "Brace your mech for impact, reducing damage at the cost of your next turn’s actions.",
+    "detail": "When you BRACE, you ready your mech against incoming fire.<br>Brace<br>Reaction, 1/scene<br>Trigger: You take damage, burn, or heat from a source other than yourself.<br>Effect: You gain RESISTANCE to all damage, burn, and heat from the triggering source.",
+    "mech": true,
+    "pilot": false,
+    "synergy_locations": [
+      "brace"
+    ]
+  },
+  {
+    "id": "ppg_act_aid",
+    "name": "Aid (PPG)",
+    "activation": "Quick",
+    "terse": "Aid a mech so it can Stabilize more easily.",
+    "detail": "When you AID, you assist a mech so it can STABILIZE more easily. Choose an adjacent character. On their next turn, they may STABILIZE as a quick action. They can choose to take this action even if they normally would not be able to take actions (for example, by being affected by the STUNNED condition).",
+    "mech": true,
+    "pilot": false
+  },
+  {
+    "id": "ppg_act_handle",
+    "name": "Handle",
+    "activation": "Quick",
+    "terse": "Lift or drag an object.",
+    "detail": "As a quick action, a character may start to handle an adjacent object or willing character by lifting or dragging them. A character may choose to stop handling an object as a free action.<br/><br/>Mechs can drag characters or objects up to twice their SIZE but are SLOWED while doing so. They can also lift characters or objects of equal or lesser SIZE overhead but are IMMOBILIZED while doing so. While dragging or lifting, characters can’t take reactions. The same rules apply to pilots and other characters on foot, but they can’t drag or lift anything above SIZE 1/2.<br/><br/>If a character starts to handle an object handled by a hostile character, the object does not move until it is only handled by characters allied with each other. If a character handling an object is involuntarily moved such that they are no longer adjacent to the object, they cease to handle the object.",
+    "mech": true,
+    "pilot": true
+  }
+]

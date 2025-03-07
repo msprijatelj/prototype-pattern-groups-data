@@ -2,7 +2,7 @@
 
 const data = {
   lcp_manifest: require('./lib/lcp_manifest.json'),
-  // actions: require('./lib/actions.json'),
+  actions: require('./lib/actions.json'),
   // backgrounds: require('./lib/backgrounds.json'),
   // core_bonuses: require('./lib/core_bonuses.json'),
   // environments: require('./lib/environments.json'),

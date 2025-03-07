@@ -289,7 +289,7 @@
       "ppg_npcf_phase_shift_ghost",
       "ppg_npcf_quantum_bond_ghost",
       "ppg_npcf_paradox_state_ghost",
-      "ppg_npcf_entangling_curse_ghost"
+      "ppg_npcf_ghastly_vigor_ghost"
     ],
     "optional_features": [
       "ppg_npcf_superimpose_firmament_ghost",
@@ -306,7 +306,7 @@
     "role": "striker",
     "info": {
       "flavor": "Nimble, clever, and borderline reckless, Hatchet mechs sport a variety of thrown weaponry and athletic enhancements. Detractors often claim that the Hatchet’s hit-and-run tactics are needlessly risky compared to conventional ranged weaponry. However, they often change their tune when a tree-sized, razor-sharp axe embeds itself inches from their cockpit.",
-      "tactics": "Hatchet mechs are consummate skirmishers, leveraging a variety of THROWN weapons to prepare a hobbling CLEAVING RETRIEVAL. Once they retrieve their weapon, they use FLIP KICK to reset their position and restart pressure. However, they are hobbled by their HEAT CAP and conditions like SLOWED and IMMOBILIZE."
+      "tactics": "Hatchet mechs are skirmishers, preparing a hobbling CLEAVING RETRIEVAL with a variety of THROWN weapons. Once they retrieve their weapon, they use FLIP KICK to reset their position and restart pressure. SLOWED and IMMOBILIZED hold their mobility in check."
     },
     "stats": {
       "armor": [
@@ -816,9 +816,9 @@
         1
       ],
       "hp": [
-        14,
-        17,
-        20
+        15,
+        18,
+        21
       ],
       "evade": [
         10,

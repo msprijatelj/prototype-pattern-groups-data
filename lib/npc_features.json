@@ -396,7 +396,7 @@
     "locked": false,
     "type": "Trait",
     "tags": [],
-    "effect": "This character is INTANGIBLE on their turn. While INTANGIBLE, they can target and affect tangible characters and objects, but only deal half damage, Heat, Burn or to all targets."
+    "effect": "This character is INTANGIBLE before its first turn and during its turns. While INTANGIBLE, they can target and affect tangible characters and objects, but only deal half damage, Heat, Burn or to all targets."
   },
   {
     "id": "ppg_npcf_quantum_bond_ghost",
@@ -410,7 +410,7 @@
     "type": "System",
     "tags": [
       {
-        "id": "tg_full_action"
+        "id": "tg_quick_action"
       }
     ],
     "effect": "The Ghost bonds with one tangible adjacent allied character, becoming INTANGIBLE and sharing <b>one</b> of the target’s spaces. The bonded target may take 1 Heat as a protocol to gain the Ghost’s PHASE SHIFT feature until the end of the turn. However, if either bonded character takes Heat or a condition, the other character takes the same amount of Heat and receives that condition for the same duration.<br/><br/>While bonded, the Ghost can only move with the bonded target’s <b>voluntary movement</b>. The bond ends if the Ghost uses this system again, no longer shares a space with the bonded target, or is STUNNED, JAMMED, overheated, or destroyed."
@@ -434,8 +434,8 @@
     "effect": "The next time a hostile action is taken against a character bonded with the Ghost, roll 1d6: On a 4+, the target is INTANGIBLE during the action. This effect does not stack with INVISIBLE."
   },
   {
-    "id": "ppg_npcf_entangling_curse_ghost",
-    "name": "Entangling Curse",
+    "id": "ppg_npcf_ghastly_vigor_ghost",
+    "name": "Ghastly Vigor",
     "origin": {
       "type": "Class",
       "name": "Ghost",
@@ -444,7 +444,7 @@
     "locked": false,
     "type": "Trait",
     "tags": [],
-    "effect": "When using the LOCK ON quick tech action, the Ghost may target two characters instead of one."
+    "effect": "Gain BOLSTER (Lancer, p. 69) as an option for QUICK TECH. Tech attacks receive +1 Difficulty against targets BOLSTERED by this character."
   },
   {
     "id": "ppg_npcf_superimpose_firmament_ghost",
@@ -1574,9 +1574,14 @@
     "weapon_type": "Heavy Rifle",
     "tags": [],
     "attack_bonus": [
+      1,
       2,
-      4,
-      6
+      3
+    ],
+    "accuracy": [
+      1,
+      1,
+      1
     ],
     "range": [
       {
@@ -1810,7 +1815,7 @@
         ]
       }
     ],
-    "effect": "This weapon must always inflict KNOCKBACK. After the attack resolves, the Torrent pushes itself to one of the spaces in the attack’s area."
+    "effect": "This weapon must inflict KNOCKBACK. The Torrent pushes itself to a space within the affected area."
   },
   {
     "id": "ppg_npcf_storm_surge_torrent",
@@ -1825,7 +1830,7 @@
     "tags": [
       {
         "id": "tg_recharge",
-        "val": 6
+        "val": 5
       },
       {
         "id": "tg_quick_action"
@@ -1852,7 +1857,7 @@
         "id": "tg_quick_action"
       }
     ],
-    "effect": "The Torrent lashes out with scalding greywash. Hostile characters in a Cone 3 area must pass an AGILITY save or take {3/4/5} Burn and become IMPAIRED until the end of their next turn."
+    "effect": "Hostile characters in a Cone 3 area must pass an AGILITY save or take {3/4/5} Burn and become IMPAIRED until the end of their next turn."
   },
   {
     "id": "ppg_npcf_wash_away_torrent",
@@ -1865,7 +1870,7 @@
     "locked": false,
     "type": "Trait",
     "tags": [],
-    "effect": "When the Torrent inflicts involuntary movement upon PRONE hostile characters, they are pushed an additional 2 spaces in any direction."
+    "effect": "Against PRONE characters, the Torrent may inflict KNOCKBACK in any direction."
   },
   {
     "id": "ppg_npcf_roil_torrent",
@@ -1886,7 +1891,7 @@
         "id": "tg_quick_action"
       }
     ],
-    "effect": "The Torrent erupts in a Burst 2 area of roiling nanites. Hostile characters in the area must pass a HULL save or be knocked PRONE and pushed 2 spaces away from the Torrent. The affected area becomes difficult terrain for the rest of the scene."
+    "effect": "Hostile characters in a Burst 2 area must pass a HULL save or be knocked PRONE and pushed 2 spaces away from the Torrent. The affected area then becomes difficult terrain for the rest of the scene."
   },
   {
     "id": "ppg_npcf_crashing_tsunami_torrent",
@@ -1934,7 +1939,7 @@
         ]
       }
     ],
-    "effect": "This weapon must always inflict KNOCKBACK. After the attack resolves, the Torrent pushes itself to one of the spaces in the attack’s area.<br/><br/>When the Torrent knocks a character PRONE, it may reload this weapon."
+    "effect": "This weapon must inflict KNOCKBACK. The Torrent pushes itself to a space within the affected area. If the Torrent inflicts PRONE, reload this weapon."
   },
   {
     "id": "ppg_npcf_drown_in_nanites_torrent",
@@ -1945,17 +1950,13 @@
       "base": false
     },
     "locked": false,
-    "type": "System",
+    "type": "Trait",
     "tags": [
-      {
-        "id": "tg_recharge",
-        "val": 6
-      },
       {
         "id": "tg_full_action"
       }
     ],
-    "effect": "One adjacent character must pass an ENGINEERING save or be JAMMED and SLOWED until they break adjacency. On a success, they are instead SLOWED until the end of their next turn."
+    "effect": "An adjacent character must make an AGILITY save; larger targets always succeed. On a success, they are SLOWED and IMPAIRED until the end of their next turn. On a failure, the target occupies the Torrent’s space and is engulfed and until they pass a HULL save as a full action, they stop occupying the Torrent’s space, the Torrent is JAMMED, STUNNED, overheated, or destroyed, or the Torrent uses this action again. While engulfed, the target is JAMMED and IMMOBILIZED and moves with the Torrent."
   },
   {
     "id": "ppg_npcf_magpie_subroutines_vulture",
