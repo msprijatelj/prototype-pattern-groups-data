@@ -444,7 +444,7 @@
     "locked": false,
     "type": "Trait",
     "tags": [],
-    "effect": "Gain BOLSTER (Lancer, p. 69) as an option for QUICK TECH. Tech attacks receive +1 Difficulty against targets BOLSTERED by this character."
+    "effect": "Gain BOLSTER (Lancer, p. 69) as an option for QUICK TECH. Tech attacks against targets BOLSTERED by this character receive +1 Difficulty."
   },
   {
     "id": "ppg_npcf_superimpose_firmament_ghost",
