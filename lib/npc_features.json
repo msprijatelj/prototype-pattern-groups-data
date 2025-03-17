@@ -1000,7 +1000,7 @@
       2,
       3
     ],
-    "effect": "The Mesmerist makes a tech attack against all hostile characters within Burst {2/3/4}. On a hit, until the start of the target’s next turn, they take {2/3/4} Heat whenever they perform any hostile action that doesn’t include the Mesmerist as a target."
+    "effect": "The Mesmerist makes a tech attack against all hostile characters within Burst {2/3/4}. On a hit, until the end of the target’s next turn, they take {2/3/4} Heat after performing a hostile action that doesn’t include the Mesmerist as a target."
   },
   {
     "id": "ppg_npcf_mirror_image_mesmerist",
