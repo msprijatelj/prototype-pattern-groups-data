@@ -580,7 +580,7 @@
         ]
       }
     ],
-    "effect": "If the attacker is not ENGAGED, this weapon deals double damage (excluding bonus damage)."
+    "effect": "If the attacker is not ENGAGED, this weapon deals double damage (excluding bonus damage), and the target is SLOWED until the end of their next turn."
   },
   {
     "id": "ppg_npcf_cleaving_retrieval_hatchet",
@@ -594,11 +594,10 @@
     "type": "Trait",
     "tags": [
       {
-        "id": "tg_round",
-        "val": 1
+        "id": "tg_quick_action"
       }
     ],
-    "effect": "When the Hatchet retrieves a THROWN weapon not used to attack this turn, all hostile characters adjacent to the Hatchet must pass an AGILITY save or become SLOWED until the end of their next turn and take {4/5/6} Kinetic damage, half on success."
+    "effect": "Retrieve a THROWN weapon not used to attack this turn, regardless of RANGE. If the weapon was adjacent to the Hatchet, it may immediately force one adjacent character to pass an AGILITY save or be pushed 2 spaces away from the Hatchet and take 4 Kinetic damage, half on success."
   },
   {
     "id": "ppg_npcf_flip_kick_hatchet",
@@ -612,14 +611,11 @@
     "type": "Trait",
     "tags": [
       {
-        "id": "tg_recharge",
-        "val": 5
-      },
-      {
-        "id": "tg_quick_action"
+        "id": "tg_round",
+        "val": 1
       }
     ],
-    "effect": "One adjacent character must pass a HULL save or be pushed 2 spaces away from the Hatchet and knocked PRONE. Regardless of the result, the target cannot take reactions until the end of this turn, and the Hatchet flies 2 spaces away from the target."
+    "effect": "When the Hatchet retrieves a THROWN weapon, it may fly up to 3 spaces in any direction, ignoring engagement and reactions."
   },
   {
     "id": "ppg_npcf_whirlwind_kick_hatchet",
@@ -683,7 +679,7 @@
         ]
       }
     ],
-    "effect": "When retrieving this weapon, CLEAVING RETRIEVAL’S damage becomes AP."
+    "effect": "When retrieving this weapon, CLEAVING RETRIEVAL’S damage becomes AP Energy damage."
   },
   {
     "id": "ppg_npcf_rocket_bola_hatchet",
