@@ -10,8 +10,11 @@
     ],
     "optional_features": [
       "ppg_npcf_finishing_blow_brigand",
+      "ppg_npcf_vandalize_brigand",
+      "ppg_npcf_enforce_limiters_brigand",
       "ppg_npcf_jail_break_brigand",
       "ppg_npcf_commandeer_brigand",
+      "ppg_npcf_lockout_brigand",
       "npcf_boarding_leash_pirate",
       "npcf_coreworm_rockets_pirate",
       "npcf_prying_claws_pirate",

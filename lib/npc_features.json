@@ -2372,12 +2372,47 @@
     "origin": {
       "type": "Template",
       "name": "Brigand",
-      "base": true
+      "base": false
     },
     "locked": false,
     "type": "Trait",
     "tags": [],
     "effect": "The Brigand deals +3 bonus damage against PRONE targets."
+  },
+  {
+    "id": "ppg_npcf_vandalize_brigand",
+    "name": "Vandalize",
+    "origin": {
+      "type": "Template",
+      "name": "Brigand",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "tags": [],
+    "effect": "If the Brigand inflicts structure damage, it may choose for its target to suffer System Trauma instead of the result of its structure damage check. If so, the Brigand chooses if a system or weapon mount is destroyed, as well as which one."
+  },
+  {
+    "id": "ppg_npcf_enforce_limiters_brigand",
+    "name": "Commandeer",
+    "origin": {
+      "type": "Template",
+      "name": "Brigand",
+      "base": false
+    },
+    "locked": false,
+    "type": "Tech",
+    "tech_type": "Quick",
+    "tags": [
+      {
+        "id": "tg_recharge",
+        "val": 5
+      },
+      {
+        "id": "tg_quick_tech"
+      }
+    ],
+    "effect": "The Brigand enforces reactor limiters on one hostile mech in SENSORS that can OVERCHARGE. The target must pass an ENGINEERING save or become OVERHEATED (CONDITIONS & STATUSES, APPENDIX A) until they remove the limiters with a successful ENGINEERING check as a full action."
   },
   {
     "id": "ppg_npcf_jail_break_brigand",
@@ -2415,13 +2450,35 @@
     "tags": [
       {
         "id": "tg_recharge",
-        "val": 5
+        "val": 4
       },
       {
         "id": "tg_quick_tech"
       }
     ],
     "effect": "The Brigand targets one hostile DEPLOYABLE or DRONE. Until the end of the scene, the Brigand is treated as the controller of the target DEPLOYABLE or DRONE. DRONES cannot be recalled while affected by this system.<br/><br/>The original controller can regain control and end this effect with a successful SYSTEMS check as a quick action while the affected DEPLOYABLE or DRONE is within their SENSORS and line of sight."
+  },
+  {
+    "id": "ppg_npcf_lockout_brigand",
+    "name": "Lockout",
+    "origin": {
+      "type": "Template",
+      "name": "Brigand",
+      "base": false
+    },
+    "locked": false,
+    "type": "Tech",
+    "tech_type": "Quick",
+    "tags": [
+      {
+        "id": "tg_recharge",
+        "val": 6
+      },
+      {
+        "id": "tg_full_tech"
+      }
+    ],
+    "effect": "The Brigand forces a hostile mech within SENSORS to make a SYSTEMS or ENGINEERING save (target’s choice). On a failure, the Brigand disables up to {1/2/3} of the target’s systems until the end of the scene. Disabled equipment cannot be ACTIVATED, its passive effects are suppressed, and ongoing effects caused by that equipment immediately end.<br/><br/>The target may end this effect with a successful SYSTEMS or ENGINEERING check as a full action."
   },
   {
     "id": "ppg_npcf_youre_too_slow_brisk",
