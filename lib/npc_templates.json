@@ -20,6 +20,16 @@
     "power": 20
   },
   {
+    "id": "ppg_npct_brisk",
+    "name": "Brisk",
+    "description": "Some Lancer NPC classes possess abysmal SPEED. As a result, they may struggle to get to a fight without assistance, especially if deployed as REINFORCEMENTS. The Brisk template is intended to alleviate this issue.",
+    "base_features": [
+      "ppg_npcf_youre_too_slow_brisk"
+    ],
+    "optional_features": [],
+    "power": 0
+  },
+  {
     "id": "ppg_npct_tempered",
     "name": "Tempered",
     "description": "The Tempered template is intended for use with the RECHARGE HEAT optional rule. If NPCs with more than one STRESS are left too vulnerable to HEAT effects due to this rule, this template will lightly bump their HEAT CAPS to make the additional HEAT manageable.",

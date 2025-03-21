@@ -2424,6 +2424,22 @@
     "effect": "The Brigand targets one hostile DEPLOYABLE or DRONE. Until the end of the scene, the Brigand is treated as the controller of the target DEPLOYABLE or DRONE. DRONES cannot be recalled while affected by this system.<br/><br/>The original controller can regain control and end this effect with a successful SYSTEMS check as a quick action while the affected DEPLOYABLE or DRONE is within their SENSORS and line of sight."
   },
   {
+    "id": "ppg_npcf_youre_too_slow_brisk",
+    "name": "You’re Too Slow",
+    "origin": {
+      "type": "Template",
+      "name": "Brisk",
+      "base": true
+    },
+    "locked": false,
+    "type": "Trait",
+    "tags": [],
+    "effect": "This template may only be taken by an NPC with less than 3 SPEED.<br/><br/>This NPC’s SPEED becomes 3.",
+    "override": {
+      "speed": 3
+    }
+  },
+  {
     "id": "ppg_npcf_tempered_reactor_tempered",
     "name": "Tempered Reactor",
     "origin": {
