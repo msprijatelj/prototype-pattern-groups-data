@@ -763,8 +763,8 @@
         "val": 1
       }
     ],
-    "trigger": "The Hatchet is targeted by a THROWN melee attack or would be affected by a GRENADE.",
-    "effect": "Roll 1d6. On a 4+, the attack or grenade is negated. If an attack was negated, the Hatchet repeats the attack against the attacker. If a grenade was negated, the Hatchet may throw the same grenade, targeting a space occupied by the grenade’s original controller. These effects ignore any range restrictions upon the triggering effect."
+    "trigger": "Trigger: A character targets the Hatchet with an action with the THROWN, ARCING, SEEKING, or GRENADE tag.",
+    "effect": "Roll 1d6. On a 4+, the action is negated. The Hatchet copies the negated action, targeting the triggering character. If the action would have affected an area, the area of the copied action must include the triggering character. The copied action ignores any range restrictions upon the original action."
   },
   {
     "id": "ppg_npcf_champions_greatsword_knight",
