@@ -1057,11 +1057,11 @@
         "damage": [
           1,
           2,
-          3
+          2
         ]
       }
     ],
-    "on_hit": "If this attack was made as a reaction, the target becomes JAMMED until the end of their next turn."
+    "on_hit": "If the attack was made with OVERWATCH, the target becomes JAMMED until the end of their next turn."
   },
   {
     "id": "ppg_npcf_death_by_glamour_mesmerist",
@@ -1131,7 +1131,7 @@
       }
     ],
     "trigger": "An allied character within SENSORS is attacked.",
-    "effect": "The Mesmerist first swaps places with the allied character, each character teleporting to the other’s position. The Mesmerist may then SKIRMISH against the attacker. Afterwards, the Mesmerist then becomes the target of the attack, instead."
+    "effect": "The Mesmerist first swaps places with the allied character, each character teleporting to the other’s position. The Mesmerist may then use its OVERWATCH against the attacker. Afterwards, the Mesmerist becomes the target of the attack, instead."
   },
   {
     "id": "ppg_npcf_hypnotic_attraction_mesmerist",
@@ -1555,7 +1555,7 @@
         "id": "tg_quick_tech"
       }
     ],
-    "effect": "Place an untargetable holographic projector in a free space within SENSORS. The Prism is treated as occupying a projector’s space for all purposes, including RANGE, THREAT, SENSORS, line of sight, adjacency, engagement, contesting objectives, being affected by abilities. The Prism gains RESISTANCE to all damage, Heat, and Burn inflicted through a projector.<br/><br/>If the Prism would have more than 1 projector, it must destroy any beyond that limit. Projectors last until the end of the scene, or until the Prism is STUNNED, JAMMED, overheated, or destroyed."
+    "effect": "Place an untargetable holographic projector in a free space within SENSORS. The Prism is treated as occupying a projector’s space for all purposes, including RANGE, THREAT, SENSORS, line of sight, adjacency, engagement, contesting objectives, and being affected by abilities. The Prism gains RESISTANCE to all damage, Heat, and Burn inflicted through a projector.<br/><br/>If the Prism would have more than 1 projector, it must destroy any beyond that limit. Projectors last until the end of the scene, or until the Prism is STUNNED, JAMMED, overheated, or destroyed."
   },
   {
     "id": "ppg_npcf_diffraction_beam_prism",
@@ -1832,7 +1832,7 @@
         "id": "tg_quick_action"
       }
     ],
-    "effect": "The Torrent moves 10 spaces in a straight line, ignoring engagement and obstructing characters. Hostile characters that the Torrent passes through at least once must make HULL save or be pushed to a space adjacent to the Torrent at the end of its movement."
+    "effect": "The Torrent pushes itself 10 spaces in a straight line, ignoring obstructions. Hostile characters that the Torrent passes through must make a HULL save or be pushed to a space adjacent to the Torrent at the end of its movement."
   },
   {
     "id": "ppg_npcf_scalding_greywash_torrent",
