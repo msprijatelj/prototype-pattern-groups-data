@@ -1422,8 +1422,11 @@
     },
     "locked": false,
     "type": "Tech",
-    "tech_type": "Full",
+    "tech_type": "Quick",
     "tags": [
+      {
+        "id": "tg_ordnance"
+      },
       {
         "id": "tg_overshield"
       },
@@ -1431,7 +1434,7 @@
         "id": "tg_shield"
       },
       {
-        "id": "tg_full_tech"
+        "id": "tg_quick_tech"
       }
     ],
     "effect": "Target a controlled DRONE or allied GRUNT in SENSORS. Destroy them and apply these effects:<ul><li>Allied characters adjacent to the target gain OVERSHIELD {4/6/8} and clear one condition.</li><li>Hostile characters adjacent to the target gain LOCK-ON and must pass an AGILITY save or become JAMMED until the end of their next turn.</li></ul>"
