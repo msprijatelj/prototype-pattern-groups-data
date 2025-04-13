@@ -70,7 +70,7 @@
       }
     ],
     "effect": "On Attack: Choose to either Attract or Repulse.",
-    "on_hit": "The target is pulled 3 spaces directly towards the Anchor (Attract) or pushed 3 spaces directly away from the Anchor (Repulse) until they hit an obstruction. If the target collides with an obstruction, they must pass a HULL save or be knocked PRONE."
+    "on_hit": "The target is pulled 3 spaces directly towards the Anchor (Attract) or pushed 3 spaces directly away from the Anchor (Repulse) until they hit an obstruction. If the target collides with an obstruction or mech, they stop moving and must pass a HULL save or be knocked PRONE."
   },
   {
     "id": "ppg_npcf_siege_armor_anchor",
@@ -96,7 +96,7 @@
     "locked": false,
     "type": "Trait",
     "tags": [],
-    "effect": "All characters affected by LODESTONE gain IMMUNITY to INTANGIBLE. In addition, they may target and affect INTANGIBLE characters and objects, and they may be targeted and affected by INTANGIBLE characters."
+    "effect": "All characters affected by LODESTONE gain IMMUNITY to INTANGIBLE. In addition, they may target and affect INTANGIBLE characters and objects, and they may be targeted and affected by INTANGIBLE characters. Lastly, allied characters in line of sight may teleport to spaces in the area of LODESTONE, and their teleportation cannot be redirected."
   },
   {
     "id": "ppg_npcf_omninet_grounding_anchor",
@@ -1762,7 +1762,7 @@
     "locked": false,
     "type": "Trait",
     "tags": [],
-    "effect": "Involuntary movement caused by the Torrent ignores difficult terrain. Hostile characters that collide with an obstruction due to this movement must pass a HULL save or be knocked PRONE."
+    "effect": "Involuntary movement caused by the Torrent ignores difficult terrain. Hostile characters that collide with an obstruction or mech due to this movement immediately stop moving and must pass a HULL save or be knocked PRONE."
   },
   {
     "id": "ppg_npcf_wavebreaker_torrent",
