@@ -2331,6 +2331,78 @@
     "effect": "When the Zealot would take structure damage or be destroyed, it first grants OVERSHIELD {2/3/4} to each allied character affected by ZEAL and inflicts {2/3/4} Burn on each hostile character affected by ZEAL."
   },
   {
+    "id": "ppg_npcf_err_data_not_found_anomaly",
+    "name": ">//[ERR: DATA NOT FOUND]",
+    "origin": {
+      "type": "Template",
+      "name": "Anomaly",
+      "base": true
+    },
+    "locked": false,
+    "type": "Trait",
+    "tags": [],
+    "effect": "The Anomaly’s class and templates are not revealed to players until they SCAN it."
+  },
+  {
+    "id": "ppg_npcf_anomaly_systems_and_traits_anomaly",
+    "name": "Anomaly Systems and Traits",
+    "origin": {
+      "type": "Template",
+      "name": "Anomaly",
+      "base": true
+    },
+    "locked": false,
+    "type": "Trait",
+    "tags": [],
+    "effect": "When choosing optional systems, the Anomaly can also choose from the Anomaly Systems and Traits and Exotic Systems and Traits (Lancer, p. 327)."
+  },
+  {
+    "id": "ppg_npcf_extrude_knife_anomaly",
+    "name": "¡@;!EXTR?UDE KNIFE",
+    "origin": {
+      "type": "Template",
+      "name": "Anomaly",
+      "base": false
+    },
+    "locked": false,
+    "type": "Weapon",
+    "weapon_type": "Auxiliary ???",
+    "tags": [
+      {
+        "id": "tg_ap"
+      },
+      {
+        "id": "tg_seeking"
+      },
+      {
+        "id": "tg_thrown",
+        "val": "∞"
+      }
+    ],
+    "attack_bonus": [
+      99,
+      99,
+      99
+    ],
+    "range": [
+      {
+        "type": "Threat",
+        "val": 1
+      }
+    ],
+    "damage": [
+      {
+        "type": "Variable",
+        "damage": [
+          1,
+          2,
+          3
+        ]
+      }
+    ],
+    "effect": "KNIFE: <b><i>KNIFE</i></b>"
+  },
+  {
     "id": "ppg_npcf_dirty_fighting_brigand",
     "name": "Dirty Fighting",
     "origin": {
