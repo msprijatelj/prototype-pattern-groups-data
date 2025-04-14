@@ -2400,7 +2400,121 @@
         ]
       }
     ],
-    "effect": "KNIFE: <b><i>KNIFE</i></b>"
+    "effect": "<p><i>THERE ARE ALWAYS MORE <b><span class='horus--subtle'>[KNIVES]</span></b></i></p>"
+  },
+  {
+    "id": "ppg_npcf_hunger_anomaly",
+    "name": "[HUNGER]",
+    "origin": {
+      "type": "Template",
+      "name": "Anomaly",
+      "base": false
+    },
+    "locked": false,
+    "type": "Weapon",
+    "weapon_type": "Superheavy Melee",
+    "tags": [],
+    "attack_bonus": [
+      2,
+      4,
+      6
+    ],
+    "range": [
+      {
+        "type": "Threat",
+        "val": 2
+      }
+    ],
+    "damage": [
+      {
+        "type": "Kinetic",
+        "damage": [
+          14,
+          18,
+          22
+        ]
+      }
+    ],
+    "on_hit": "The target may choose to spend 1 REPAIR to take half damage from this attack."
+  },
+  {
+    "id": "ppg_npcf_feedback_lash_anomaly",
+    "name": "Feedback Lash",
+    "origin": {
+      "type": "Template",
+      "name": "Anomaly",
+      "base": false
+    },
+    "locked": false,
+    "type": "Weapon",
+    "weapon_type": "Main Melee",
+    "tags": [
+      {
+        "id": "tg_ap"
+      }
+    ],
+    "attack_bonus": [
+      1,
+      2,
+      3
+    ],
+    "accuracy": [
+      1,
+      1,
+      1
+    ],
+    "range": [
+      {
+        "type": "Threat",
+        "val": 3
+      }
+    ],
+    "damage": [
+      {
+        "type": "Energy",
+        "damage": [
+          3,
+          4,
+          5
+        ]
+      }
+    ],
+    "on_hit": "After dealing damage, if the target has any OVERSHIELD, this weapon deals Energy AP equal to half the target’s OVERSHIELD them and their allied characters within Range 3."
+  },
+  {
+    "id": "ppg_npcf_memento_culpa_anomaly",
+    "name": "Memento Culpa",
+    "origin": {
+      "type": "Template",
+      "name": "Anomaly",
+      "base": false
+    },
+    "locked": false,
+    "type": "Weapon",
+    "weapon_type": "Main Memetic",
+    "tags": [],
+    "attack_bonus": [
+      1,
+      2,
+      3
+    ],
+    "range": [
+      {
+        "type": "Cone",
+        "val": 5
+      }
+    ],
+    "damage": [
+      {
+        "type": "Heat",
+        "damage": [
+          1,
+          2,
+          3
+        ]
+      }
+    ],
+    "on_hit": "<p>The target cannot voluntarily move closer to the Anomaly until the end of their next turn.</p><p>How could you leave them behind? They were your friends. <span class='horus--subtle'><i>Run away, just like you did that day.</i></span></p>"
   },
   {
     "id": "ppg_npcf_dirty_fighting_brigand",
