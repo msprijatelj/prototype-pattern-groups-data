@@ -14,6 +14,7 @@
       "ppg_npcf_enforce_limiters_brigand",
       "ppg_npcf_jail_break_brigand",
       "ppg_npcf_commandeer_brigand",
+      "ppg_npcf_rescind_brigand",
       "ppg_npcf_lockout_brigand",
       "npcf_boarding_leash_pirate",
       "npcf_coreworm_rockets_pirate",

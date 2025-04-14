@@ -2397,7 +2397,7 @@
   },
   {
     "id": "ppg_npcf_enforce_limiters_brigand",
-    "name": "Commandeer",
+    "name": "Enforce Limiters",
     "origin": {
       "type": "Template",
       "name": "Brigand",
@@ -2460,6 +2460,28 @@
       }
     ],
     "effect": "The Brigand targets one hostile DEPLOYABLE or DRONE. Until the end of the scene, the Brigand is treated as the controller of the target DEPLOYABLE or DRONE. DRONES cannot be recalled while affected by this system.<br/><br/>The original controller can regain control and end this effect with a successful SYSTEMS check as a quick action while the affected DEPLOYABLE or DRONE is within their SENSORS and line of sight."
+  },
+  {
+    "id": "ppg_npcf_rescind_brigand",
+    "name": "Rescind",
+    "origin": {
+      "type": "Template",
+      "name": "Brigand",
+      "base": false
+    },
+    "locked": false,
+    "type": "Tech",
+    "tech_type": "Full",
+    "tags": [
+      {
+        "id": "tg_limited",
+        "val": 1
+      },
+      {
+        "id": "tg_full_tech"
+      }
+    ],
+    "effect": "The Brigand rescinds 1 license rank of a hostile character in SENSORS. While the target carries equipment tied to that license rank, they count as piloting an unlicensed mech (Lancer, p.74). An affected mech can jettison any piece of equipment as a quick action, rendering it unusable until it is retrieved and reattached during a rest.<br/><br/>Otherwise, this effect lasts until the target finishes a rest or succeeds on a SYSTEMS check as a full action to re-validate their licenses."
   },
   {
     "id": "ppg_npcf_lockout_brigand",
