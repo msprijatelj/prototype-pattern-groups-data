@@ -2810,6 +2810,195 @@
     "effect": "The Anomaly deals half damage, heat, and burn on all abilities and attacks that affect a single target, but all of the target’s allied characters within Range 3 take the same damage."
   },
   {
+    "id": "ppg_npcf_animate_ammunition_anomaly",
+    "name": "Animate Ammunition",
+    "origin": {
+      "type": "Class",
+      "name": "Anomaly",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "tags": [
+      {
+        "id": "tg_recharge",
+        "val": 6
+      },
+      {
+        "id": "tg_quick_action"
+      }
+    ],
+    "effect": "The Anomaly creates a warped area within its SENSORS. Weapon attacks made within the area gain the SMART tag if they lacked the tag or lose the SMART tag if they already had it. All tech attacks made in the area target EVASION instead of E-DEFENSE. This effect lasts until the end of the Anomaly’s next turn."
+  },
+  {
+    "id": "ppg_npcf_forced_obsolescence_anomaly",
+    "name": "Forced Obsolescence",
+    "origin": {
+      "type": "Class",
+      "name": "Anomaly",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "tags": [
+      {
+        "id": "tg_recharge",
+        "val": 5
+      },
+      {
+        "id": "tg_quick_action"
+      }
+    ],
+    "effect": "The Anomaly forces a character in SENSORS to make an Engineering save. On a failure, the Anomaly chooses one of the target’s weapons. That weapon loses all tags and modifications, then gains the INACCURATE and ORDNANCE tags. This effect lasts until the target finishes a rest."
+  },
+  {
+    "id": "ppg_npcf_memory_leak_anomaly",
+    "name": "Memory Leak",
+    "origin": {
+      "type": "Class",
+      "name": "Anomaly",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "tags": [
+      {
+        "id": "tg_recharge",
+        "val": 6
+      },
+      {
+        "id": "tg_full_action"
+      }
+    ],
+    "effect": "The target must choose {1/2/3} of their pilot talents. All ranks of the chosen talents cannot be used until the pilot completes a rest. Any ongoing effects caused by the chosen talent immediately end."
+  },
+  {
+    "id": "ppg_npcf_mind_freak_anomaly",
+    "name": "Mind Freak",
+    "origin": {
+      "type": "Class",
+      "name": "Anomaly",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "tags": [
+      {
+        "id": "tg_recharge",
+        "val": 5
+      },
+      {
+        "id": "tg_quick_action"
+      }
+    ],
+    "effect": "The Anomaly selects two players. Those players exchange control of all of their characters and equipment, and they cannot communicate how to play those characters. This effect lasts until the two characters share a meaningful bond in any scene, as determined by the other players and the GM."
+  },
+  {
+    "id": "ppg_npcf_realm_warp_anomaly",
+    "name": "Realm Warp",
+    "origin": {
+      "type": "Class",
+      "name": "Anomaly",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "tags": [
+      {
+        "id": "tg_quick_action"
+      }
+    ],
+    "effect": "The Anomaly creates two Blast 1 areas in Range 20, then chooses one of the following:<ul><li>Swap the positions of all objects and terrain within the areas, teleporting them to the other’s spaces.</li><li>Create dangerous terrain of a random damage type in the areas. These areas last indefinitely or until this option is chosen again.</li><li>Create impenetrable fog in the areas. Characters at least partially within one of the areas cannot draw line of sight outside of that area, and char-acters outside the areas cannot draw line of sight inside. These areas last indefinitely or until this option is chosen again.</li></ul>"
+  },
+  {
+    "id": "ppg_npcf_retroactive_vendetta_anomaly",
+    "name": "Retroactive Vendetta",
+    "origin": {
+      "type": "Class",
+      "name": "Anomaly",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "tags": [
+      {
+        "id": "tg_limited",
+        "val": 1
+      },
+      {
+        "id": "tg_full_action"
+      }
+    ],
+    "effect": "Choose 1 hostile character and 1 allied character. The Anomaly rewrites history such that the ally becomes the sworn nemesis of the hostile character. The ally gains the ELITE template if it previously lacked it and gains +1 Accuracy on all attacks, checks, and saves against their nemesis."
+  },
+  {
+    "id": "ppg_npcf_revisionist_history_anomaly",
+    "name": "Revisionist History",
+    "origin": {
+      "type": "Class",
+      "name": "Anomaly",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "tags": [
+      {
+        "id": "tg_limited",
+        "val": 1
+      },
+      {
+        "id": "tg_full_action"
+      }
+    ],
+    "effect": "One character with a BACKGROUND within SENSORS become IMPAIRED and SLOWED and must make a GRIT check as their past is rewritten. On a success, the effect lasts until the end of their next turn. On a failure, the effect lasts until the end of the scene, and they must change their BACKGROUND to a different, random BACKGROUND.<br/><br/>While the target’s BACKGROUND has changed, skill checks they attempt that would have benefited from their previous BACKGROUND gain +1 Difficulty. This effect ends after the target performs a downtime action related to their former BACKGROUND. Alternatively, the target may accept their new BACKGROUND as their “true past,” keeping it but otherwise ending this effect."
+  },
+  {
+    "id": "ppg_npcf_singularity_generator_anomaly",
+    "name": "Singularity Generator",
+    "origin": {
+      "type": "Class",
+      "name": "Anomaly",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "tags": [
+      {
+        "id": "tg_deployable"
+      },
+      {
+        "id": "tg_full_action"
+      },
+      {
+        "id": "tg_scene",
+        "val": 1
+      }
+    ],
+    "effect": "The Anomaly creates a SIZE 1 indestructible miniature black hole in an adjacent space. At the end of each round, the black hole moves 4 spaces in a straight line, and all characters on the battlefield are pulled a number of spaces towards the black hole equal to 4 minus the character’s SIZE. The black hole inflicts 100 Kinetic AP to objects or terrain it collides with. Characters that collide with the black hole must pass a HULL save or lose 1 STRUCTURE, or be reduced to 1 HP on a success.<br/><br/>The Anomaly is IMMUNE to the black hole’s effects. The black hole lasts until the end of the scene or until another black hole is deployed."
+  },
+  {
+    "id": "ppg_npcf_time_stop_anomaly",
+    "name": "Time Stop",
+    "origin": {
+      "type": "Class",
+      "name": "Anomaly",
+      "base": false
+    },
+    "locked": false,
+    "type": "Reaction",
+    "tags": [
+      {
+        "id": "tg_reaction"
+      },
+      {
+        "id": "tg_scene",
+        "val": 1
+      }
+    ],
+    "trigger": "Any character ends their turn.",
+    "effect": "The Anomaly stops time, immediately taking an additional turn that doesn’t count against its turns per round. During this turn, other characters cannot act, the Anomaly is IMMUNE to all external effects, and all characters are IMMUNE to the Anomaly’s actions and abilities."
+  },
+  {
     "id": "ppg_npcf_dirty_fighting_brigand",
     "name": "Dirty Fighting",
     "origin": {
