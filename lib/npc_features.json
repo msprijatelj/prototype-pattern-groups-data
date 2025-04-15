@@ -3110,7 +3110,7 @@
         "id": "tg_quick_action"
       }
     ],
-    "effect": "Banishing Seal (Size 1/2, HP 15/20/25, Evasion 5, E-Defense 8, Tags: Deployable)<br/><br/>The Knight deploys a banishing seal to a free space in Range 3. The seal creates a Burst 4 area that must completely contain both the Knight and its duel opponent. The Knight and its duel opponent cannot leave the area and are INTANGIBLE while inside it.<br/><br/>The area lasts until the seal is destroyed, or until the Knight is overheated or destroyed. The Knight takes 1 Heat when it ends its turn in the area."
+    "effect": "Gaol Seal (Size 1/2, HP 15/20/25, Evasion 5, E-Defense 8, Tags: Deployable)<br/><br/>The Knight deploys a gaol seal to a free space in Range 3. The seal creates a Burst 4 area that must completely contain both the Knight and its duel opponent. The Knight and its duel opponent cannot leave the area and are INTANGIBLE while inside it.<br/><br/>The area lasts until the seal is destroyed, or until the Knight is overheated or destroyed. The Knight takes 1 Heat when it ends its turn in the area."
   },
   {
     "id": "ppg_npcf_hall_of_mirrors_veteran",
