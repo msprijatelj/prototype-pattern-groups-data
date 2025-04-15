@@ -2636,6 +2636,180 @@
     "effect": "The Anomaly makes a tech attack against a character that can OVERCHARGE in SENSORS. On a hit, the Anomaly chooses an allied character within SENSORS. As a free action, the ally can force the target to OVERCHARGE, but gain no extra action. Instead, the ally may take any quick action as a free action. This effect then ends on both characters."
   },
   {
+    "id": "ppg_npcf_astral_ejection_anomaly",
+    "name": "Astral Ejection",
+    "origin": {
+      "type": "Template",
+      "name": "Anomaly",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "tags": [
+      {
+        "id": "tg_recharge",
+        "val": 6
+      }
+    ],
+    "effect": "When the Anomaly inflicts involuntary movement upon a mech, it may force the mech’s pilot to make a GRIT save. On a failure, the pilot immediately DISMOUNTS their mech, becomes INTANGIBLE, and becomes the target of the involuntary movement instead. The pilot remains INTANGIBLE until they end their turn in the same space as their mech, which causes them to immediately MOUNT it."
+  },
+  {
+    "id": "ppg_npcf_counterfactualize_by_anomaly",
+    "name": "Counterfactualize",
+    "origin": {
+      "type": "Template",
+      "name": "Anomaly",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "tags": [],
+    "effect": "On a critical hit, the target must make a save using a pilot trigger of their choice. On a failure, they suffer the following effects:<ul><li>Move all ranks from that trigger to a different trigger (chosen at random). This effect lasts until the character uses the chosen trigger as part of any DOWNTIME ACTION.</li><li>The pilot takes AP damage equal to the ranks in that trigger.</li><li>If piloting a mech, the mech takes heat equal to the ranks in that trigger.</li></ul>Each character can be affected by this 1/scene."
+  },
+  {
+    "id": "ppg_npcf_doppelganger_anomaly",
+    "name": "Doppelgänger",
+    "origin": {
+      "type": "Template",
+      "name": "Anomaly",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "tags": [],
+    "effect": "The Anomaly appears to have the same class, template, SIZE, and appearance as another allied mech until a character SCANS it. This otherwise does not affect its actual statistics or abilities."
+  },
+  {
+    "id": "ppg_npcf_dust_and_echoes_anomaly",
+    "name": "Dust and Echoes",
+    "origin": {
+      "type": "Template",
+      "name": "Anomaly",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "tags": [],
+    "effect": "When the Anomaly is destroyed, it creates an INTANGIBLE soul 1d6+3 spaces away in a random direction. This soul has 1 HP, EVASION 8, E-DEFENSE 8, and SPEED 3. At the end of the round, it moves up to its SPEED towards the nearest wreckage. If it ends its movement within a wreckage, the wreckage reanimates as the mech it was before it was destroyed with 1 STRUCTURE, 1 STRESS, and full HP, except it has the ANOMALY template and this trait."
+  },
+  {
+    "id": "ppg_npcf_elevator_clip_anomaly",
+    "name": "Elevator Clip",
+    "origin": {
+      "type": "Template",
+      "name": "Anomaly",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "tags": [],
+    "effect": "The Anomaly cannot leave the ground. It instantly climbs to the top of objects or terrain without expending movement, and immediately descends to the ground without taking damage when falling."
+  },
+  {
+    "id": "ppg_npcf_entropic_corrosion_anomaly",
+    "name": "Entropic Corrosion",
+    "origin": {
+      "type": "Template",
+      "name": "Anomaly",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "tags": [],
+    "effect": "On a critical hit, the Anomaly may force the target to pass an ENGINEERING save or lose 2d3 ARMOR, half on success. This can cause the target to have negative ARMOR. Therefore, incoming damage increases by the negative ARMOR value instead. The AP tag does not affect targets with negative ARMOR. The target can end this effect by STABILIZING and choosing to restore HP."
+  },
+  {
+    "id": "ppg_npcf_heliocide_anomaly",
+    "name": "Heliocide",
+    "origin": {
+      "type": "Template",
+      "name": "Anomaly",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "tags": [],
+    "effect": "When the Anomaly is destroyed, its wreckage becomes an invulnerable star of the same SIZE. At the end of next round, the star explodes a Burst 20 area. All characters in the area not in hard cover or behind a character the same SIZE or larger as themselves must pass an AGILITY save or take 20/30/40 Energy AP, half on success. Each character can only be affected by this trait 1/round."
+  },
+  {
+    "id": "ppg_npcf_local_climate_anomaly",
+    "name": "Local Climate",
+    "origin": {
+      "type": "Template",
+      "name": "Anomaly",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "tags": [],
+    "effect": "The Anomaly is surrounded by a Burst 3 area under the effect of one environmental hazard (Lancer, pp. 278–279), to which the Anomaly is IMMUNE."
+  },
+  {
+    "id": "ppg_npcf_mass_inversion_anomaly",
+    "name": "Mass Inversion",
+    "origin": {
+      "type": "Template",
+      "name": "Anomaly",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "tags": [],
+    "effect": "The Anomaly is SIZE 1/2. While it is on the battlefield, smaller characters are treated as larger characters and vice versa (e.g., SIZE 1/2 is treated as larger than SIZE 1, and SIZE 3 is treated as smaller than SIZE 2)."
+  },
+  {
+    "id": "ppg_npcf_metafold_hangar_anomaly",
+    "name": "Metafold Hangar",
+    "origin": {
+      "type": "Template",
+      "name": "Anomaly",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "tags": [],
+    "effect": "Spaces adjacent to the Anomaly may be treated as an INGRESS ZONE for deploying REINFORCEMENTS."
+  },
+  {
+    "id": "ppg_npcf_remote_control_anomaly",
+    "name": "Remote Control",
+    "origin": {
+      "type": "Template",
+      "name": "Anomaly",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "tags": [],
+    "effect": "At the end of any round while the Anomaly is destroyed, it may choose to re-emerge from an allied mech, transfiguring them into itself and killing any pilot inside. The allied mech becomes a copy of the Anomaly with full HP, no HEAT, 1 STRUCTURE, 1 STRESS, and the same expended abilities (such as those with RECHARGE, LIMITED, or 1/SCENE tags)."
+  },
+  {
+    "id": "ppg_npcf_spatial_rend_anomaly",
+    "name": "Spatial Rend",
+    "origin": {
+      "type": "Template",
+      "name": "Anomaly",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "tags": [],
+    "effect": "While the Anomaly is on the battlefield, when a hostile character teleports, that character takes 1/2/3 Energy AP and 1 Heat.<br/><br/>When the Anomaly inflicts involuntary movement, it may treat that movement as teleportation."
+  },
+  {
+    "id": "ppg_npcf_sympathetic_resonance_anomaly",
+    "name": "Sympathetic Resonance",
+    "origin": {
+      "type": "Template",
+      "name": "Anomaly",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "tags": [],
+    "effect": "The Anomaly deals half damage, heat, and burn on all abilities and attacks that affect a single target, but all of the target’s allied characters within Range 3 take the same damage."
+  },
+  {
     "id": "ppg_npcf_dirty_fighting_brigand",
     "name": "Dirty Fighting",
     "origin": {
