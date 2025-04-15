@@ -2354,7 +2354,7 @@
     "locked": false,
     "type": "Trait",
     "tags": [],
-    "effect": "When choosing optional systems, the Anomaly can also choose from the Anomaly Systems and Traits and Exotic Systems and Traits (Lancer, p. 327)."
+    "effect": "The Anomaly chooses one optional feature from the Anomaly Systems and Traits or Exotic Systems and Traits (Lancer, p. 327)."
   },
   {
     "id": "ppg_npcf_extrude_knife_anomaly",
@@ -2380,9 +2380,9 @@
       }
     ],
     "attack_bonus": [
-      99,
-      99,
-      99
+      9999,
+      9999,
+      9999
     ],
     "range": [
       {
