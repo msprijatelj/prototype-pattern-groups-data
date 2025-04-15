@@ -2517,6 +2517,125 @@
     "on_hit": "<p>The target cannot voluntarily move closer to the Anomaly until the end of their next turn.</p><p>How could you leave them behind? They were your friends. <span class='horus--subtle'><i>Run away, just like you did that day.</i></span></p>"
   },
   {
+    "id": "ppg_npcf_awakening_anomaly",
+    "name": "Awakening",
+    "origin": {
+      "type": "Template",
+      "name": "Anomaly",
+      "base": false
+    },
+    "locked": false,
+    "type": "Tech",
+    "tech_type": "Full",
+    "tags": [
+      {
+        "id": "tg_limited",
+        "val": 1
+      },
+      {
+        "id": "tg_full_tech"
+      }
+    ],
+    "effect": "The Anomaly implants nascent NHPs within a mech in SENSORS, granting it the AI tag {1/2/3} times. These AIs do not count against the maximum number of AIs the mech may have installed. Until the NHPs are removed, the target rolls for cascade with +1 Difficulty. The implanted NHPs can be safely removed during a FULL REPAIR."
+  },
+  {
+    "id": "ppg_npcf_blinkspace_expulsion_anomaly",
+    "name": "Blinkspace Expulsion",
+    "origin": {
+      "type": "Template",
+      "name": "Anomaly",
+      "base": false
+    },
+    "locked": false,
+    "type": "Tech",
+    "tech_type": "Full",
+    "tags": [
+      {
+        "id": "tg_recharge",
+        "val": 6
+      },
+      {
+        "id": "tg_full_tech"
+      }
+    ],
+    "effect": "One character in SENSORS must pass an ENGINEERING save or become INTANGIBLE until the end of their next turn. On a success, they are instead SLOWED and SHREDDED until the end of their next turn."
+  },
+  {
+    "id": "ppg_npcf_bottom_of_the_well_anomaly",
+    "name": "Bottom of the Well",
+    "origin": {
+      "type": "Template",
+      "name": "Anomaly",
+      "base": false
+    },
+    "locked": false,
+    "type": "Tech",
+    "tech_type": "Full",
+    "tags": [
+      {
+        "id": "tg_recharge",
+        "val": 6
+      },
+      {
+        "id": "tg_full_tech"
+      }
+    ],
+    "effect": "One character in SENSORS must make a SYSTEMS save. On a success, they gain LOCK ON and the Anomaly chooses whether they are IMMOBILIZED, IMPAIRED, JAMMED, SHREDDED, or SLOWED. On a failure, they suffer the same effect, except the Anomaly may choose {3/4/5} options."
+  },
+  {
+    "id": "ppg_npcf_process_drinker_anomaly",
+    "name": "Process Drinker",
+    "origin": {
+      "type": "Template",
+      "name": "Anomaly",
+      "base": false
+    },
+    "locked": false,
+    "type": "Tech",
+    "tech_type": "Quick",
+    "tags": [
+      {
+        "id": "tg_recharge",
+        "val": 6
+      },
+      {
+        "id": "tg_quick_tech"
+      }
+    ],
+    "attack_bonus": [
+      1,
+      2,
+      3
+    ],
+    "effect": "The Anomaly makes a tech attack against a character with SYSTEM POINTS (SP) within SENSORS. On a hit, the target loses 1d3 SP. If this would leave the target over their SP capacity, they must mark equipment with SP costs as disabled until their new SP can accommodate the combined SP of their remaining equipment. Disabled equipment cannot be ACTIVATED, its passive effects are suppressed, and ongoing effects caused by that equipment immediately end.<br/><br/>The target regains lost SP after completing a rest."
+  },
+  {
+    "id": "ppg_npcf_stolen_cycles_anomaly",
+    "name": "Stolen Cycles",
+    "origin": {
+      "type": "Template",
+      "name": "Anomaly",
+      "base": false
+    },
+    "locked": false,
+    "type": "Tech",
+    "tech_type": "Quick",
+    "tags": [
+      {
+        "id": "tg_loading"
+      },
+      {
+        "id": "tg_quick_tech"
+      }
+    ],
+    "attack_bonus": [
+      2,
+      4,
+      6
+    ],
+    "effect": "The Anomaly makes a tech attack against a character that can OVERCHARGE in SENSORS. On a hit, the Anomaly chooses an allied character within SENSORS. As a free action, the ally can force the target to OVERCHARGE, but gain no extra action. Instead, the ally may take any quick action as a free action. This effect then ends on both characters."
+  },
+  {
     "id": "ppg_npcf_dirty_fighting_brigand",
     "name": "Dirty Fighting",
     "origin": {
