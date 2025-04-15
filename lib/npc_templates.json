@@ -39,7 +39,14 @@
       "ppg_npcf_revisionist_history_anomaly",
       "ppg_npcf_singularity_generator_anomaly",
       "ppg_npcf_soul_split_anomaly",
-      "ppg_npcf_time_stop_anomaly"
+      "ppg_npcf_time_stop_anomaly",
+      "npcf_living_chassis_exotic",
+      "npcf_blinkspace_carver_exotic",
+      "npcf_realspace_extrusion_exotic",
+      "npcf_living_weaponry_exotic",
+      "npcf_paracausal_weapon_exotic",
+      "npcf_chronotorus_exotic",
+      "npcf_regenerator_exotic"
     ],
     "power": 20
   },
@@ -85,6 +92,27 @@
       "ppg_npcf_tempered_reactor_tempered"
     ],
     "optional_features": [],
+    "power": 0
+  },
+  {
+    "id": "ppg_npct_veteran",
+    "name": "Veteran [PPG]",
+    "description": "NPCs from Prototype Pattern Groups with the VETERAN template (Lancer, p. 332) may take an optional feature specific to their class.",
+    "base_features": [],
+    "optional_features": [
+      "ppg_npcf_slingshot_veteran",
+      "ppg_npcf_thunderfall_veteran",
+      "ppg_npcf_maxwells_daemon_veteran",
+      "ppg_npcf_pull_the_snare_veteran",
+      "ppg_npcf_evergaol_veteran",
+      "ppg_npcf_hall_of_mirrors_veteran",
+      "ppg_npcf_reactor_accelerant_veteran",
+      "ppg_npcf_doubling_season_veteran",
+      "ppg_npcf_mobile_projectors_veteran",
+      "ppg_npcf_primordial_sea_veteran",
+      "ppg_npcf_grapplescrapper_veteran",
+      "ppg_npcf_fervent_retribution_veteran"
+    ],
     "power": 0
   }
 ]

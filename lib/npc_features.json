@@ -2813,7 +2813,7 @@
     "id": "ppg_npcf_animate_ammunition_anomaly",
     "name": "Animate Ammunition",
     "origin": {
-      "type": "Class",
+      "type": "Template",
       "name": "Anomaly",
       "base": false
     },
@@ -2834,7 +2834,7 @@
     "id": "ppg_npcf_forced_obsolescence_anomaly",
     "name": "Forced Obsolescence",
     "origin": {
-      "type": "Class",
+      "type": "Template",
       "name": "Anomaly",
       "base": false
     },
@@ -2855,7 +2855,7 @@
     "id": "ppg_npcf_memory_leak_anomaly",
     "name": "Memory Leak",
     "origin": {
-      "type": "Class",
+      "type": "Template",
       "name": "Anomaly",
       "base": false
     },
@@ -2876,7 +2876,7 @@
     "id": "ppg_npcf_mind_freak_anomaly",
     "name": "Mind Freak",
     "origin": {
-      "type": "Class",
+      "type": "Template",
       "name": "Anomaly",
       "base": false
     },
@@ -2897,7 +2897,7 @@
     "id": "ppg_npcf_realm_warp_anomaly",
     "name": "Realm Warp",
     "origin": {
-      "type": "Class",
+      "type": "Template",
       "name": "Anomaly",
       "base": false
     },
@@ -2914,7 +2914,7 @@
     "id": "ppg_npcf_retroactive_vendetta_anomaly",
     "name": "Retroactive Vendetta",
     "origin": {
-      "type": "Class",
+      "type": "Template",
       "name": "Anomaly",
       "base": false
     },
@@ -2935,7 +2935,7 @@
     "id": "ppg_npcf_revisionist_history_anomaly",
     "name": "Revisionist History",
     "origin": {
-      "type": "Class",
+      "type": "Template",
       "name": "Anomaly",
       "base": false
     },
@@ -2956,7 +2956,7 @@
     "id": "ppg_npcf_singularity_generator_anomaly",
     "name": "Singularity Generator",
     "origin": {
-      "type": "Class",
+      "type": "Template",
       "name": "Anomaly",
       "base": false
     },
@@ -2980,7 +2980,7 @@
     "id": "ppg_npcf_time_stop_anomaly",
     "name": "Time Stop",
     "origin": {
-      "type": "Class",
+      "type": "Template",
       "name": "Anomaly",
       "base": false
     },
@@ -2995,8 +2995,197 @@
         "val": 1
       }
     ],
-    "trigger": "Any character ends their turn.",
+    "trigger": "A character ends their turn.",
     "effect": "The Anomaly stops time, immediately taking an additional turn that doesn’t count against its turns per round. During this turn, other characters cannot act, the Anomaly is IMMUNE to all external effects, and all characters are IMMUNE to the Anomaly’s actions and abilities."
+  },
+  {
+    "id": "ppg_npcf_slingshot_veteran",
+    "name": "Slingshot (Anchor)",
+    "origin": {
+      "type": "Template",
+      "name": "Veteran [PPG]",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "tags": [],
+    "effect": "While LODESTONE is active, allied characters may target the Anchor with ranged weapons as if attacking it (excluding Blast, Burst, Cone, or Line weapons). The Anchor automatically redirects the attack against a new target of the attacker’s choice within Range 10, resolving the attack as if it originated from the Anchor."
+  },
+  {
+    "id": "ppg_npcf_thunderfall_veteran",
+    "name": "Thunderfall (Capacitor)",
+    "origin": {
+      "type": "Template",
+      "name": "Veteran [PPG]",
+      "base": false
+    },
+    "locked": false,
+    "type": "System",
+    "tags": [
+      {
+        "id": "tg_recharge",
+        "val": 6
+      },
+      {
+        "id": "tg_free_action"
+      }
+    ],
+    "effect": "The area targeted by the MARATHON ARQUEBUS and all adjacent spaces are marked for thunderfall; at the end of the next round, the marked area detonates. Hostile characters in the detonation gain LOCK ON and must pass an AGILITY save or take {8/12/16} Energy, half on success. Allied characters in the detonation gain OVERSHIELD {4/6/8}."
+  },
+  {
+    "id": "ppg_npcf_maxwells_daemon_veteran",
+    "name": "Maxwell’s Daemon",
+    "origin": {
+      "type": "Template",
+      "name": "Veteran [PPG]",
+      "base": false
+    },
+    "locked": false,
+    "type": "Reaction",
+    "tags": [
+      {
+        "id": "tg_reaction"
+      },
+      {
+        "id": "tg_round",
+        "val": 1
+      }
+    ],
+    "trigger": "The Ghost or a character bonded with it would gain Heat.",
+    "effect": "Reduce the Heat gained to 0."
+  },
+  {
+    "id": "ppg_npcf_pull_the_snare_veteran",
+    "name": "Pull the Snare (Hatchet)",
+    "origin": {
+      "type": "Template",
+      "name": "Veteran [PPG]",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "tags": [],
+    "effect": "When using CLEAVING RETRIEVAL, all characters in a Line between the Hatchet and its retrieved weapon must make an AGILITY save or be knocked PRONE."
+  },
+  {
+    "id": "ppg_npcf_evergaol_veteran",
+    "name": "Evergaol (Knight)",
+    "origin": {
+      "type": "Template",
+      "name": "Veteran [PPG]",
+      "base": false
+    },
+    "locked": false,
+    "type": "System",
+    "tags": [
+      {
+        "id": "tg_deployable"
+      },
+      {
+        "id": "tg_limited",
+        "val": 1
+      },
+      {
+        "id": "tg_quick_action"
+      }
+    ],
+    "effect": "Banishing Seal (Size 1/2, HP 15/20/25, Evasion 5, E-Defense 8, Tags: Deployable)<br/><br/>The Knight deploys a banishing seal to a free space in Range 3. The seal creates a Burst 4 area that must completely contain both the Knight and its duel opponent. The Knight and its duel opponent cannot leave the area and are INTANGIBLE while inside it.<br/><br/>The area lasts until the seal is destroyed, or until the Knight is overheated or destroyed. The Knight takes 1 Heat when it ends its turn in the area."
+  },
+  {
+    "id": "ppg_npcf_hall_of_mirrors_veteran",
+    "name": "Hall of Mirrors (Mesmerist)",
+    "origin": {
+      "type": "Template",
+      "name": "Veteran [PPG]",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "tags": [
+      {
+        "id": "tg_round",
+        "val": 1
+      }
+    ],
+    "effect": "After hitting with a tech attack, the Mesmerist may create 1 mirror image."
+  },
+  {
+    "id": "ppg_npcf_reactor_accelerant_veteran",
+    "name": "Reactor Accelerant (Napalm)",
+    "origin": {
+      "type": "Template",
+      "name": "Veteran [PPG]",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "tags": [],
+    "effect": "Targets affected by ADHESIVE GEL take 1 Heat each time they fail an Engineering check to clear Burn."
+  },
+  {
+    "id": "ppg_npcf_doubling_season_veteran",
+    "name": "Doubling Season (Occultist)",
+    "origin": {
+      "type": "Template",
+      "name": "Veteran [PPG]",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "tags": [],
+    "effect": "FLOCK DRONES may deploy two drones at a time. REAP THE CHAFF may destroy two targets at a time."
+  },
+  {
+    "id": "ppg_npcf_mobile_projectors_veteran",
+    "name": "Mobile Projectors (Prism)",
+    "origin": {
+      "type": "Template",
+      "name": "Veteran [PPG]",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "tags": [],
+    "effect": "The Prism may spend any amount of its voluntary movement to move a projector the same number of spaces. This movement triggers engagement and reactions as if the Prism were moving."
+  },
+  {
+    "id": "ppg_npcf_primordial_sea_veteran",
+    "name": "Primordial Sea (Torrent)",
+    "origin": {
+      "type": "Template",
+      "name": "Veteran [PPG]",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "tags": [],
+    "effect": "The Torrent becomes SIZE 3, and its weapons gain KNOCKBACK 1."
+  },
+  {
+    "id": "ppg_npcf_grapplescrapper_veteran",
+    "name": "Grapplescrapper (Vulture)",
+    "origin": {
+      "type": "Template",
+      "name": "Veteran [PPG]",
+      "base": false
+    },
+    "locked": false,
+    "type": "System",
+    "tags": [],
+    "effect": "The Vulture may use “MAGPIE” SUBROUTINES upon wreckages, weapons, and systems in Range 5."
+  },
+  {
+    "id": "ppg_npcf_fervent_retribution_veteran",
+    "name": "Fervent Retribution (Zealot)",
+    "origin": {
+      "type": "Template",
+      "name": "Veteran [PPG]",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "tags": [],
+    "effect": "A hostile character that damages an ally affected by ZEAL takes {1/2/3} Burn."
   },
   {
     "id": "ppg_npcf_dirty_fighting_brigand",
