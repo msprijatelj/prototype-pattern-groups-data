@@ -2977,6 +2977,27 @@
     "effect": "The Anomaly creates a SIZE 1 indestructible miniature black hole in an adjacent space. At the end of each round, the black hole moves 4 spaces in a straight line, and all characters on the battlefield are pulled a number of spaces towards the black hole equal to 4 minus the character’s SIZE. The black hole inflicts 100 Kinetic AP to objects or terrain it collides with. Characters that collide with the black hole must pass a HULL save or lose 1 STRUCTURE, or be reduced to 1 HP on a success.<br/><br/>The Anomaly is IMMUNE to the black hole’s effects. The black hole lasts until the end of the scene or until another black hole is deployed."
   },
   {
+    "id": "ppg_npcf_soul_split_anomaly",
+    "name": "Soul Split",
+    "origin": {
+      "type": "Template",
+      "name": "Anomaly",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "tags": [
+      {
+        "id": "tg_recharge",
+        "val": 5
+      },
+      {
+        "id": "tg_quick_action"
+      }
+    ],
+    "effect": "The Anomaly chooses an allied mech without the GRUNT template in Range 10. The target gains the GRUNT template, setting each of its HP, STRUCTURE, and STRESS to 1. The Anomaly then creates {1/2/3} copies of the character in free spaces within Range 3 of the target (or as close as possible). The copies may act this round."
+  },
+  {
     "id": "ppg_npcf_time_stop_anomaly",
     "name": "Time Stop",
     "origin": {
