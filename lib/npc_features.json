@@ -597,7 +597,7 @@
         "id": "tg_quick_action"
       }
     ],
-    "effect": "Retrieve a THROWN weapon not used to attack this turn, regardless of RANGE. If the weapon was adjacent to the Hatchet, it may immediately force one adjacent character to pass an AGILITY save or be pushed 2 spaces away from the Hatchet and take 4 Kinetic damage, half on success."
+    "effect": "Retrieve a THROWN weapon not used to attack this turn, regardless of RANGE. If the weapon was adjacent to the Hatchet, it may immediately force one adjacent character to pass an AGILITY save or be pushed 2 spaces away from the Hatchet and take 4 Kinetic damage. On a success, the target takes half damage and isn’t pushed."
   },
   {
     "id": "ppg_npcf_flip_kick_hatchet",
@@ -996,7 +996,7 @@
       2,
       3
     ],
-    "effect": "The Mesmerist makes a tech attack against all hostile characters within Burst {2/3/4}. On a hit, until the end of the target’s next turn, they take {2/3/4} Heat after performing a hostile action that doesn’t include the Mesmerist as a target."
+    "effect": "The Mesmerist makes a tech attack against each hostile character within Burst {2/3/4}. On a hit, until the end of the target’s next turn, they take {2/3/4} Heat after performing a hostile action that doesn’t include the Mesmerist as a target."
   },
   {
     "id": "ppg_npcf_mirror_image_mesmerist",
@@ -1007,18 +1007,9 @@
       "base": true
     },
     "locked": false,
-    "type": "Tech",
-    "tech_type": "Quick",
-    "tags": [
-      {
-        "id": "tg_recharge",
-        "val": 5
-      },
-      {
-        "id": "tg_quick_tech"
-      }
-    ],
-    "effect": "Roll 1d3+1. The Mesmerist creates that many mirror images occupying its space until it uses this system again. The Mesmerist is INVISIBLE for as long as it has any mirror images. Every attack that misses the Mesmerist destroys 1 mirror image."
+    "type": "Trait",
+    "tags": [],
+    "effect": "When the Mesmerist hits with a tech attack, it creates a mirror image that occupies its space (to a maximum of {3/4/5}). The Mesmerist is INVISIBLE while it has any mirror images. Each attack that misses the Mesmerist destroys 1 mirror image."
   },
   {
     "id": "ppg_npcf_codespike_rapier_mesmerist",
@@ -1087,7 +1078,7 @@
     "locked": false,
     "type": "Trait",
     "tags": [],
-    "effect": "When the Mesmerist uses MIRROR IMAGE, it may teleport to a free space within SENSORS."
+    "effect": "When the Mesmerist hits with a tech attack, it may escape all grapples and teleport to a free space adjacent to its target."
   },
   {
     "id": "ppg_npcf_narcissus_override",
@@ -1109,7 +1100,12 @@
         "id": "tg_full_tech"
       }
     ],
-    "effect": "One character within SENSORS may only draw line of sight to the Mesmerist and must make a SYSTEMS save. On a failure, this effect lasts until the target ends their turn adjacent to the Mesmerist. On a success, it lasts until the end of their next turn."
+    "attack_bonus": [
+      1,
+      2,
+      3
+    ],
+    "effect": "The Mesmerist makes a tech attack against a character within SENSORS. On a hit, the target may only draw line of sight to the Mesmerist until they end their turn adjacent to the Mesmerist. On a miss, the effect instead lasts until the end of the target’s next turn."
   },
   {
     "id": "ppg_npcf_metafold_riposte_mesmerist",
@@ -1130,8 +1126,8 @@
         "val": 1
       }
     ],
-    "trigger": "An allied character within SENSORS is attacked.",
-    "effect": "The Mesmerist first swaps places with the allied character, each character teleporting to the other’s position. The Mesmerist may then use its OVERWATCH against the attacker. Afterwards, the Mesmerist becomes the target of the attack, instead."
+    "trigger": "An ally within SENSORS is attacked.",
+    "effect": "The Mesmerist first swaps places with the ally, each character teleporting to the other’s position. The Mesmerist may then use OVERWATCH against the attacker. Afterwards, the Mesmerist becomes the target of the attack, instead."
   },
   {
     "id": "ppg_npcf_hypnotic_attraction_mesmerist",
@@ -3128,7 +3124,7 @@
         "val": 1
       }
     ],
-    "effect": "After hitting with a tech attack, the Mesmerist may create 1 mirror image."
+    "effect": "While the Mesmerist has any mirror images, allied characters in Burst 2 are INVISIBLE. Each attack that misses an affected ally destroys 1 mirror image."
   },
   {
     "id": "ppg_npcf_reactor_accelerant_veteran",
