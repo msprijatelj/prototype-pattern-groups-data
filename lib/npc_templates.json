@@ -61,8 +61,10 @@
     ],
     "optional_features": [
       "ppg_npcf_finishing_blow_brigand",
+      "ppg_npcf_surgekiller_brigand",
       "ppg_npcf_vandalize_brigand",
       "ppg_npcf_enforce_limiters_brigand",
+      "ppg_npcf_grav_amp_brigand",
       "ppg_npcf_jail_break_brigand",
       "ppg_npcf_commandeer_brigand",
       "ppg_npcf_rescind_brigand",

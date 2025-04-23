@@ -2592,7 +2592,7 @@
     "tags": [
       {
         "id": "tg_recharge",
-        "val": 6
+        "val": 5
       },
       {
         "id": "tg_quick_tech"
@@ -3257,6 +3257,19 @@
     "effect": "The Brigand deals +3 bonus damage against PRONE targets."
   },
   {
+    "id": "ppg_npcf_surgekiller_brigand",
+    "name": "Surgekiller",
+    "origin": {
+      "type": "Template",
+      "name": "Brigand",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "tags": [],
+    "effect": "The Brigand’s critical hits deal 2 Heat against targets with at least 1 CP."
+  },
+  {
     "id": "ppg_npcf_vandalize_brigand",
     "name": "Vandalize",
     "origin": {
@@ -3290,6 +3303,33 @@
       }
     ],
     "effect": "The Brigand enforces reactor limiters on one hostile mech in SENSORS that can OVERCHARGE. The target must pass an ENGINEERING save or become OVERHEATED (CONDITIONS & STATUSES, APPENDIX A) until they remove the limiters with a successful ENGINEERING check as a full action."
+  },
+  {
+    "id": "ppg_npcf_grav_amp_brigand",
+    "name": "Grav Amp",
+    "origin": {
+      "type": "Template",
+      "name": "Brigand",
+      "base": false
+    },
+    "locked": false,
+    "type": "Tech",
+    "tech_type": "Quick",
+    "tags": [
+      {
+        "id": "tg_recharge",
+        "val": 5
+      },
+      {
+        "id": "tg_quick_tech"
+      }
+    ],
+    "attack_bonus": [
+      1,
+      2,
+      3
+    ],
+    "effect": "The Brigand makes a tech attack against a character in SENSORS. On a hit, the target is knocked PRONE and takes Kinetic AP damage equal to their remaining REPAIRS."
   },
   {
     "id": "ppg_npcf_jail_break_brigand",
