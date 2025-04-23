@@ -2469,13 +2469,13 @@
       {
         "type": "Energy",
         "damage": [
-          3,
-          4,
-          5
+          2,
+          2,
+          2
         ]
       }
     ],
-    "on_hit": "After dealing damage, if the target has any OVERSHIELD, this weapon deals Energy AP equal to half the target’s OVERSHIELD them and their allied characters within Range 3."
+    "on_hit": "After dealing damage, if the target has any OVERSHIELD, this weapon deals Energy AP equal to half the target’s OVERSHIELD to them and their allies within Range 3."
   },
   {
     "id": "ppg_npcf_memento_culpa_anomaly",
@@ -2521,18 +2521,17 @@
       "base": false
     },
     "locked": false,
-    "type": "Tech",
-    "tech_type": "Full",
+    "type": "Trait",
     "tags": [
       {
-        "id": "tg_limited",
-        "val": 1
+        "id": "tg_full_tech"
       },
       {
-        "id": "tg_full_tech"
+        "id": "tg_scene",
+        "val": 1
       }
     ],
-    "effect": "The Anomaly implants nascent NHPs within a mech in SENSORS, granting it the AI tag {1/2/3} times. These AIs do not count against the maximum number of AIs the mech may have installed. Until the NHPs are removed, the target rolls for cascade with +1 Difficulty. The implanted NHPs can be safely removed during a FULL REPAIR."
+    "effect": "The Anomaly targets a mech in SENSORS. Up to {1/2/3} random systems without the AI tag installed on the target become NHP systems, gaining the AI tag and the ability to cascade. These may exceed the maximum number of AIs that can be installed on the mech, but while the mech exceeds its maximum AIs, it has +1 Difficulty on cascade rolls (to a minimum result of 1). These NHPs may be safely removed during a FULL REPAIR."
   },
   {
     "id": "ppg_npcf_blinkspace_expulsion_anomaly",
@@ -2576,7 +2575,7 @@
         "id": "tg_full_tech"
       }
     ],
-    "effect": "One character in SENSORS must make a SYSTEMS save. On a success, they gain LOCK ON and the Anomaly chooses whether they are IMMOBILIZED, IMPAIRED, JAMMED, SHREDDED, or SLOWED. On a failure, they suffer the same effect, except the Anomaly may choose {3/4/5} options."
+    "effect": "One character in SENSORS must make a SYSTEMS save. On a success, they gain LOCK ON and the Anomaly chooses whether they are IMMOBILIZED, IMPAIRED, JAMMED, SHREDDED, or SLOWED until the end of the scene. On a failure, they suffer the same effect, except the Anomaly may choose {3/4/5} options."
   },
   {
     "id": "ppg_npcf_process_drinker_anomaly",
@@ -2673,7 +2672,7 @@
     "locked": false,
     "type": "Trait",
     "tags": [],
-    "effect": "The Anomaly appears to have the same class, template, SIZE, and appearance as another allied mech until a character SCANS it. This otherwise does not affect its actual statistics or abilities."
+    "effect": "This replaces >//[ERR: DATA NOT FOUND]. The Anomaly appears to have the same class, template, SIZE, and appearance as another allied mech until a character SCANS it. This otherwise does not affect its actual statistics or abilities."
   },
   {
     "id": "ppg_npcf_dust_and_echoes_anomaly",
@@ -2686,7 +2685,7 @@
     "locked": false,
     "type": "Trait",
     "tags": [],
-    "effect": "When the Anomaly is destroyed, it creates an INTANGIBLE soul 1d6+3 spaces away in a random direction. This soul has 1 HP, EVASION 8, E-DEFENSE 8, and SPEED 3. At the end of the round, it moves up to its SPEED towards the nearest wreckage. If it ends its movement within a wreckage, the wreckage reanimates as the mech it was before it was destroyed with 1 STRUCTURE, 1 STRESS, and full HP, except it has the ANOMALY template and this trait."
+    "effect": "When the Anomaly is destroyed, it creates an INTANGIBLE soul 1d6+3 spaces away in a random direction. This soul has 3/4/5 HP, EVASION 8, E-DEFENSE 8, and SPEED 3. At the end of each round, it loses 1 HP and moves up to its SPEED towards the nearest wreckage. If it ends its movement within a wreckage, the wreckage absorbs the soul and reanimates as the mech it was before it was destroyed with 1 STRUCTURE, 1 STRESS, and full HP, except it has the ANOMALY template and this trait."
   },
   {
     "id": "ppg_npcf_elevator_clip_anomaly",
@@ -2768,7 +2767,7 @@
   },
   {
     "id": "ppg_npcf_remote_control_anomaly",
-    "name": "Remote Control",
+    "name": "Harbinger",
     "origin": {
       "type": "Template",
       "name": "Anomaly",
@@ -2824,7 +2823,7 @@
         "id": "tg_quick_action"
       }
     ],
-    "effect": "The Anomaly creates a warped area within its SENSORS. Weapon attacks made within the area gain the SMART tag if they lacked the tag or lose the SMART tag if they already had it. All tech attacks made in the area target EVASION instead of E-DEFENSE. This effect lasts until the end of the Anomaly’s next turn."
+    "effect": "Weapon attacks made within the Anomaly's SENSORS gain the SMART tag if they lacked the tag or lose the SMART tag if they already had it. All tech attacks made in the area target EVASION instead of E-DEFENSE. This effect lasts until the end of the Anomaly’s next turn."
   },
   {
     "id": "ppg_npcf_forced_obsolescence_anomaly",
@@ -2835,17 +2834,18 @@
       "base": false
     },
     "locked": false,
-    "type": "Trait",
+    "type": "Tech",
+    "tech_type": "Quick",
     "tags": [
       {
         "id": "tg_recharge",
         "val": 5
       },
       {
-        "id": "tg_quick_action"
+        "id": "tg_quick_tech"
       }
     ],
-    "effect": "The Anomaly forces a character in SENSORS to make an Engineering save. On a failure, the Anomaly chooses one of the target’s weapons. That weapon loses all tags and modifications, then gains the INACCURATE and ORDNANCE tags. This effect lasts until the target finishes a rest."
+    "effect": "The Anomaly forces a character in SENSORS to make an ENGINEERING save. On a failure, the Anomaly chooses one of the target’s weapons. That weapon loses all tags and modifications, then gains the INACCURATE and ORDNANCE tags. This feature can only affect a character 1/scene, and its effect lasts until the target finishes a rest."
   },
   {
     "id": "ppg_npcf_memory_leak_anomaly",
@@ -2866,7 +2866,7 @@
         "id": "tg_full_action"
       }
     ],
-    "effect": "The target must choose {1/2/3} of their pilot talents. All ranks of the chosen talents cannot be used until the pilot completes a rest. Any ongoing effects caused by the chosen talent immediately end."
+    "effect": "A character in SENSORS must choose {1/2/3} of their pilot talents. All ranks of the chosen talents cannot be used until the pilot completes a rest. Any ongoing effects caused by the chosen talent immediately end. A character can only be affected by this trait 1/scene."
   },
   {
     "id": "ppg_npcf_mind_freak_anomaly",
@@ -2880,11 +2880,11 @@
     "type": "Trait",
     "tags": [
       {
-        "id": "tg_recharge",
-        "val": 5
+        "id": "tg_full_action"
       },
       {
-        "id": "tg_quick_action"
+        "id": "tg_scene",
+        "val": 1
       }
     ],
     "effect": "The Anomaly selects two players. Those players exchange control of all of their characters and equipment, and they cannot communicate how to play those characters. This effect lasts until the two characters share a meaningful bond in any scene, as determined by the other players and the GM."
@@ -2904,7 +2904,7 @@
         "id": "tg_quick_action"
       }
     ],
-    "effect": "The Anomaly creates two Blast 1 areas in Range 20, then chooses one of the following:<ul><li>Swap the positions of all objects and terrain within the areas, teleporting them to the other’s spaces.</li><li>Create dangerous terrain of a random damage type in the areas. These areas last indefinitely or until this option is chosen again.</li><li>Create impenetrable fog in the areas. Characters at least partially within one of the areas cannot draw line of sight outside of that area, and char-acters outside the areas cannot draw line of sight inside. These areas last indefinitely or until this option is chosen again.</li></ul>"
+    "effect": "The Anomaly creates two Blast 1 areas in Range 20, then chooses one of the following:<ul><li>Swap the positions of all objects and terrain within the areas, teleporting them to the other’s spaces or, if those spaces are occupied, as close as possible.</li><li>Create dangerous terrain of a random damage type in the areas. These areas last indefinitely or until this option is chosen again.</li><li>Create impenetrable fog in the areas. Characters at least partially within one of the areas cannot draw line of sight outside of that area, and char-acters outside the areas cannot draw line of sight inside. These areas last indefinitely or until this option is chosen again.</li></ul>"
   },
   {
     "id": "ppg_npcf_retroactive_vendetta_anomaly",
@@ -2939,14 +2939,14 @@
     "type": "Trait",
     "tags": [
       {
-        "id": "tg_limited",
-        "val": 1
+        "id": "tg_full_action"
       },
       {
-        "id": "tg_full_action"
+        "id": "tg_scene",
+        "val": 1
       }
     ],
-    "effect": "One character with a BACKGROUND within SENSORS become IMPAIRED and SLOWED and must make a GRIT check as their past is rewritten. On a success, the effect lasts until the end of their next turn. On a failure, the effect lasts until the end of the scene, and they must change their BACKGROUND to a different, random BACKGROUND.<br/><br/>While the target’s BACKGROUND has changed, skill checks they attempt that would have benefited from their previous BACKGROUND gain +1 Difficulty. This effect ends after the target performs a downtime action related to their former BACKGROUND. Alternatively, the target may accept their new BACKGROUND as their “true past,” keeping it but otherwise ending this effect."
+    "effect": "One character with a BACKGROUND within SENSORS become IMPAIRED and SLOWED and must make a GRIT check as their past is rewritten. On a success, the effect lasts until the end of their next turn. On a failure, the effect lasts until the end of the scene, and they must change their BACKGROUND to a different, random BACKGROUND. A character can be affected by this trait only 1/mission.<br/><br/>While the target’s BACKGROUND has changed, skill checks they attempt that would have benefited from their previous BACKGROUND gain +1 Difficulty. This effect ends after the target performs a downtime action related to their former BACKGROUND. Alternatively, the target may accept their new BACKGROUND as their “true past,” keeping it but otherwise ending this effect."
   },
   {
     "id": "ppg_npcf_singularity_generator_anomaly",
@@ -2970,7 +2970,7 @@
         "val": 1
       }
     ],
-    "effect": "The Anomaly creates a SIZE 1 indestructible miniature black hole in an adjacent space. At the end of each round, the black hole moves 4 spaces in a straight line, and all characters on the battlefield are pulled a number of spaces towards the black hole equal to 4 minus the character’s SIZE. The black hole inflicts 100 Kinetic AP to objects or terrain it collides with. Characters that collide with the black hole must pass a HULL save or lose 1 STRUCTURE, or be reduced to 1 HP on a success.<br/><br/>The Anomaly is IMMUNE to the black hole’s effects. The black hole lasts until the end of the scene or until another black hole is deployed."
+    "effect": "The Anomaly creates a SIZE 1 indestructible miniature black hole in an adjacent space and chooses a direction. At the end of each round, the black hole moves 4 spaces in a straight line in that direction, and all characters on the battlefield are pulled a number of spaces towards the black hole equal to 4 minus the character’s SIZE. The black hole inflicts 100 Kinetic AP to objects or terrain it collides with. Characters that collide with the black hole must pass a HULL save or lose 1 STRUCTURE, or be reduced to 1 HP on a success.<br/><br/>The Anomaly is IMMUNE to the black hole’s effects. The black hole lasts until the end of the scene or until another black hole is deployed."
   },
   {
     "id": "ppg_npcf_soul_split_anomaly",
