@@ -487,8 +487,8 @@
       ]
     },
     "base_features": [
-      "ppg_npcf_champions_greatsword_knight",
       "ppg_npcf_compelled_duel_knight",
+      "ppg_npcf_champions_greatsword_knight",
       "ppg_npcf_templars_shield_knight"
     ],
     "optional_features": [
@@ -588,8 +588,8 @@
     },
     "base_features": [
       "ppg_npcf_center_stage_mesmerist",
-      "ppg_npcf_memetic_magnetism_mesmerist",
       "ppg_npcf_mirror_image_mesmerist",
+      "ppg_npcf_memetic_magnetism_mesmerist",
       "ppg_npcf_codespike_rapier_mesmerist"
     ],
     "optional_features": [

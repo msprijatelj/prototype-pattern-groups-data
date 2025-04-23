@@ -767,6 +767,24 @@
     "effect": "Roll 1d6. On a 4+, the action is negated. The Hatchet copies the negated action, targeting the triggering character. If the action would have affected an area, the area of the copied action must include the triggering character. The copied action ignores any range restrictions upon the original action."
   },
   {
+    "id": "ppg_npcf_compelled_duel_knight",
+    "name": "Compelled Duel",
+    "origin": {
+      "type": "Class",
+      "name": "Knight",
+      "base": true
+    },
+    "locked": false,
+    "type": "Tech",
+    "tech_type": "Quick",
+    "tags": [
+      {
+        "id": "tg_quick_tech"
+      }
+    ],
+    "effect": "A hostile character within SENSORS and line of sight enters a duel with the Knight. While in the duel, the target must make a SYSTEMS save at the start of each of their turns. On a failure, until the start of the target’s next turn, they receive +3 Difficulty on all attacks that don’t include the Knight as a target, and they cannot voluntarily move away from the Knight.<br/><br/>The duel lasts until the end of the scene or until one of the opponents is destroyed. Each character cannot enter another duel until the end of this duel."
+  },
+  {
     "id": "ppg_npcf_champions_greatsword_knight",
     "name": "Champion’s Greatsword",
     "origin": {
@@ -811,24 +829,6 @@
     ],
     "effect": "",
     "on_hit": "The target gains LOCK ON. If they are affected by COMPELLED DUEL, they are also SHREDDED until the end of their next turn."
-  },
-  {
-    "id": "ppg_npcf_compelled_duel_knight",
-    "name": "Compelled Duel",
-    "origin": {
-      "type": "Class",
-      "name": "Knight",
-      "base": true
-    },
-    "locked": false,
-    "type": "Tech",
-    "tech_type": "Quick",
-    "tags": [
-      {
-        "id": "tg_quick_tech"
-      }
-    ],
-    "effect": "A hostile character within SENSORS and line of sight enters a duel with the Knight. While in the duel, the target must make a SYSTEMS save at the start of each of their turns. On a failure, until the start of the target’s next turn, they receive +3 Difficulty on all attacks that don’t include the Knight as a target, and they cannot voluntarily move away from the Knight.<br/><br/>The duel lasts until the end of the scene or until one of the opponents is destroyed. Each character cannot enter another duel until the end of this duel."
   },
   {
     "id": "ppg_npcf_templars_shield_knight",
@@ -972,6 +972,19 @@
     "effect": "The Mesmerist cannot HIDE nor become HIDDEN."
   },
   {
+    "id": "ppg_npcf_mirror_image_mesmerist",
+    "name": "Mirror Image",
+    "origin": {
+      "type": "Class",
+      "name": "Mesmerist",
+      "base": true
+    },
+    "locked": false,
+    "type": "Trait",
+    "tags": [],
+    "effect": "When the Mesmerist hits with a tech attack, it creates a mirror image that occupies its space (to a maximum of {3/4/5}). The Mesmerist is INVISIBLE while it has any mirror images. Each attack that misses the Mesmerist destroys 1 mirror image."
+  },
+  {
     "id": "ppg_npcf_memetic_magnetism_mesmerist",
     "name": "Memetic Magnetism",
     "origin": {
@@ -997,19 +1010,6 @@
       3
     ],
     "effect": "The Mesmerist makes a tech attack against each hostile character within Burst {2/3/4}. On a hit, until the end of the target’s next turn, they take {2/3/4} Heat after performing a hostile action that doesn’t include the Mesmerist as a target."
-  },
-  {
-    "id": "ppg_npcf_mirror_image_mesmerist",
-    "name": "Mirror Image",
-    "origin": {
-      "type": "Class",
-      "name": "Mesmerist",
-      "base": true
-    },
-    "locked": false,
-    "type": "Trait",
-    "tags": [],
-    "effect": "When the Mesmerist hits with a tech attack, it creates a mirror image that occupies its space (to a maximum of {3/4/5}). The Mesmerist is INVISIBLE while it has any mirror images. Each attack that misses the Mesmerist destroys 1 mirror image."
   },
   {
     "id": "ppg_npcf_codespike_rapier_mesmerist",
