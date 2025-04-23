@@ -2513,27 +2513,6 @@
     "on_hit": "<p>The target cannot voluntarily move closer to the Anomaly until the end of their next turn.</p><p>How could you leave them behind? They were your friends. <span class='horus--subtle'><i>Run away, just like you did that day.</i></span></p>"
   },
   {
-    "id": "ppg_npcf_awakening_anomaly",
-    "name": "Awakening",
-    "origin": {
-      "type": "Template",
-      "name": "Anomaly",
-      "base": false
-    },
-    "locked": false,
-    "type": "Trait",
-    "tags": [
-      {
-        "id": "tg_full_tech"
-      },
-      {
-        "id": "tg_scene",
-        "val": 1
-      }
-    ],
-    "effect": "The Anomaly targets a mech in SENSORS. Up to {1/2/3} random systems without the AI tag installed on the target become NHP systems, gaining the AI tag and the ability to cascade. These may exceed the maximum number of AIs that can be installed on the mech, but while the mech exceeds its maximum AIs, it has +1 Difficulty on cascade rolls (to a minimum result of 1). These NHPs may be safely removed during a FULL REPAIR."
-  },
-  {
     "id": "ppg_npcf_blinkspace_expulsion_anomaly",
     "name": "Blinkspace Expulsion",
     "origin": {
@@ -2576,6 +2555,28 @@
       }
     ],
     "effect": "One character in SENSORS must make a SYSTEMS save. On a success, they gain LOCK ON and the Anomaly chooses whether they are IMMOBILIZED, IMPAIRED, JAMMED, SHREDDED, or SLOWED until the end of the scene. On a failure, they suffer the same effect, except the Anomaly may choose {3/4/5} options."
+  },
+  {
+    "id": "ppg_npcf_forced_obsolescence_anomaly",
+    "name": "Forced Obsolescence",
+    "origin": {
+      "type": "Template",
+      "name": "Anomaly",
+      "base": false
+    },
+    "locked": false,
+    "type": "Tech",
+    "tech_type": "Quick",
+    "tags": [
+      {
+        "id": "tg_recharge",
+        "val": 5
+      },
+      {
+        "id": "tg_quick_tech"
+      }
+    ],
+    "effect": "The Anomaly forces a character in SENSORS to make an ENGINEERING save. On a failure, the Anomaly chooses one of the target’s weapons. That weapon loses all tags and modifications, then gains the INACCURATE and ORDNANCE tags. This feature can only affect a character 1/scene, and its effect lasts until the target finishes a rest."
   },
   {
     "id": "ppg_npcf_process_drinker_anomaly",
@@ -2714,6 +2715,19 @@
     "effect": "On a critical hit, the Anomaly may force the target to pass an ENGINEERING save or lose 2d3 ARMOR, half on success. This can cause the target to have negative ARMOR. Therefore, incoming damage increases by the negative ARMOR value instead. The AP tag does not affect targets with negative ARMOR. The target can end this effect by STABILIZING and choosing to restore HP."
   },
   {
+    "id": "ppg_npcf_harbinger_anomaly",
+    "name": "Harbinger",
+    "origin": {
+      "type": "Template",
+      "name": "Anomaly",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "tags": [],
+    "effect": "At the end of any round while the Anomaly is destroyed, it may choose to re-emerge from an allied mech, transfiguring them into itself and killing any pilot inside. The allied mech becomes a copy of the Anomaly with full HP, no HEAT, 1 STRUCTURE, 1 STRESS, and the same expended abilities (such as those with RECHARGE, LIMITED, or 1/SCENE tags)."
+  },
+  {
     "id": "ppg_npcf_heliocide_anomaly",
     "name": "Heliocide",
     "origin": {
@@ -2766,19 +2780,6 @@
     "effect": "Spaces adjacent to the Anomaly may be treated as an INGRESS ZONE for deploying REINFORCEMENTS."
   },
   {
-    "id": "ppg_npcf_remote_control_anomaly",
-    "name": "Harbinger",
-    "origin": {
-      "type": "Template",
-      "name": "Anomaly",
-      "base": false
-    },
-    "locked": false,
-    "type": "Trait",
-    "tags": [],
-    "effect": "At the end of any round while the Anomaly is destroyed, it may choose to re-emerge from an allied mech, transfiguring them into itself and killing any pilot inside. The allied mech becomes a copy of the Anomaly with full HP, no HEAT, 1 STRUCTURE, 1 STRESS, and the same expended abilities (such as those with RECHARGE, LIMITED, or 1/SCENE tags)."
-  },
-  {
     "id": "ppg_npcf_spatial_rend_anomaly",
     "name": "Spatial Rend",
     "origin": {
@@ -2826,26 +2827,25 @@
     "effect": "Weapon attacks made within the Anomaly's SENSORS gain the SMART tag if they lacked the tag or lose the SMART tag if they already had it. All tech attacks made in the area target EVASION instead of E-DEFENSE. This effect lasts until the end of the Anomaly’s next turn."
   },
   {
-    "id": "ppg_npcf_forced_obsolescence_anomaly",
-    "name": "Forced Obsolescence",
+    "id": "ppg_npcf_awakening_anomaly",
+    "name": "Awakening",
     "origin": {
       "type": "Template",
       "name": "Anomaly",
       "base": false
     },
     "locked": false,
-    "type": "Tech",
-    "tech_type": "Quick",
+    "type": "Trait",
     "tags": [
       {
-        "id": "tg_recharge",
-        "val": 5
+        "id": "tg_full_tech"
       },
       {
-        "id": "tg_quick_tech"
+        "id": "tg_scene",
+        "val": 1
       }
     ],
-    "effect": "The Anomaly forces a character in SENSORS to make an ENGINEERING save. On a failure, the Anomaly chooses one of the target’s weapons. That weapon loses all tags and modifications, then gains the INACCURATE and ORDNANCE tags. This feature can only affect a character 1/scene, and its effect lasts until the target finishes a rest."
+    "effect": "The Anomaly targets a mech in SENSORS. Up to {1/2/3} random systems without the AI tag installed on the target become NHP systems, gaining the AI tag and the ability to cascade. These may exceed the maximum number of AIs that can be installed on the mech, but while the mech exceeds its maximum AIs, it has +1 Difficulty on cascade rolls (to a minimum result of 1). These NHPs may be safely removed during a FULL REPAIR."
   },
   {
     "id": "ppg_npcf_memory_leak_anomaly",
