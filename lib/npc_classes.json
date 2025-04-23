@@ -907,8 +907,8 @@
     "name": "Torrent",
     "role": "controller",
     "info": {
-      "flavor": "",
-      "tactics": ""
+      "flavor": "Union agents identify Torrent pattern groups by a roiling swarm of nanites coalescing around a central control unit. These nanites propel the Torrent across the battlefield, solidifying into concussive waves that batter and toss opponents in its wake.",
+      "tactics": "Torrent mechs are bruisers that specialize in taking control of objectives. They STORM SURGE towards a target location and push away opposing forces with WAVEBREAKER, enhanced by UNDERTOW. In spite of their KNOCKBACK effects, Torrents struggle at holding objectives and prove easy to overheat."
     },
     "stats": {
       "armor": [
