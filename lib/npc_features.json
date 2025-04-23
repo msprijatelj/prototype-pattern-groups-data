@@ -21,7 +21,7 @@
         "id": "tg_quick_action"
       }
     ],
-    "effect": "The Anchor becomes SLOWED and creates a Burst 3 area of gravitomagnetic interference. While active, hostile characters in the area are SLOWED and cannot teleport into or out of the area. In addition, allied characters within the area are not valid targets for ranged attacks. Other characters with LODESTONE are unaffected by this system.<br/><br/>These effects last the end of the Anchor’s next turn, until it uses this system again, or until it’s STUNNED, overheated, or destroyed."
+    "effect": "The Anchor becomes SLOWED and creates a Burst 3 area of gravitomagnetic interference. While active, hostile characters in the area are SLOWED and cannot teleport into or out of the area. Lastly, allies in the area are not valid targets for ranged attacks made from outside the area. Other characters with LODESTONE are unaffected by this system.<br/><br/>These effects last the end of the Anchor’s next turn, until it uses this system again, or until it’s STUNNED, overheated, or destroyed."
   },
   {
     "id": "ppg_npcf_gravity_cannon_anchor",
@@ -96,7 +96,7 @@
     "locked": false,
     "type": "Trait",
     "tags": [],
-    "effect": "All characters affected by LODESTONE gain IMMUNITY to INTANGIBLE. In addition, they may target and affect INTANGIBLE characters and objects, and they may be targeted and affected by INTANGIBLE characters. Lastly, allied characters in line of sight may teleport to spaces in the area of LODESTONE, and their teleportation cannot be redirected."
+    "effect": "All characters affected by LODESTONE gain IMMUNITY to INTANGIBLE. In addition, they may target and affect INTANGIBLE characters and objects, and they may be targeted and affected by INTANGIBLE characters. Lastly, allies in line of sight treat spaces in LODESTONE’s area as valid destinations for teleportation, which cannot be redirected."
   },
   {
     "id": "ppg_npcf_omninet_grounding_anchor",
@@ -109,7 +109,7 @@
     "locked": false,
     "type": "Trait",
     "tags": [],
-    "effect": "Allied characters affected by LODESTONE are not valid targets for tech actions."
+    "effect": "Allies affected by LODESTONE are not valid targets for tech actions made from outside its area."
   },
   {
     "id": "ppg_npcf_newtonian_amplifier_anchor",
