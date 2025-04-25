@@ -272,7 +272,7 @@
         "id": "tg_overshield"
       }
     ],
-    "effect": "Whenever the Capacitor grants OVERSHIELD to another character, it gains the same amount of OVERSHIELD."
+    "effect": "The Capacitor deploys with OVERSHIELD {2/4/6}. Whenever it grants OVERSHIELD to another character, it gains the same amount of OVERSHIELD. Whenever the Capacitor grants OVERSHIELD to another character, it gains the same amount of OVERSHIELD."
   },
   {
     "id": "ppg_npcf_quickening_bolt_capacitor",
@@ -764,7 +764,7 @@
       }
     ],
     "trigger": "Trigger: A character targets the Hatchet with an action with the THROWN, ARCING, SEEKING, or GRENADE tag.",
-    "effect": "Roll 1d6. On a 4+, the action is negated. The Hatchet copies the negated action, targeting the triggering character. If the action would have affected an area, the area of the copied action must include the triggering character. The copied action ignores any range restrictions upon the original action."
+    "effect": "Roll 1d6. On a 4+, the action is negated. The Hatchet then copies the negated action, targeting the triggering character and with an attack bonus of {+2/+4/+6} and its own SAVE TARGET.<br/><br/>If the action would have affected an area, the area of the copied action must include the triggering character. The copied action ignores any range restrictions upon the original action."
   },
   {
     "id": "ppg_npcf_compelled_duel_knight",
@@ -3017,10 +3017,10 @@
   },
   {
     "id": "ppg_npcf_slingshot_veteran",
-    "name": "Slingshot (Anchor)",
+    "name": "Slingshot (Veteran)",
     "origin": {
-      "type": "Template",
-      "name": "Veteran [PPG]",
+      "type": "Class",
+      "name": "Anchor",
       "base": false
     },
     "locked": false,
@@ -3030,10 +3030,10 @@
   },
   {
     "id": "ppg_npcf_thunderfall_veteran",
-    "name": "Thunderfall (Capacitor)",
+    "name": "Thunderfall (Veteran)",
     "origin": {
-      "type": "Template",
-      "name": "Veteran [PPG]",
+      "type": "Class",
+      "name": "Capacitor",
       "base": false
     },
     "locked": false,
@@ -3051,10 +3051,10 @@
   },
   {
     "id": "ppg_npcf_maxwells_daemon_veteran",
-    "name": "Maxwell’s Daemon",
+    "name": "Maxwell’s Daemon (Veteran)",
     "origin": {
-      "type": "Template",
-      "name": "Veteran [PPG]",
+      "type": "Class",
+      "name": "Ghost",
       "base": false
     },
     "locked": false,
@@ -3073,10 +3073,10 @@
   },
   {
     "id": "ppg_npcf_pull_the_snare_veteran",
-    "name": "Pull the Snare (Hatchet)",
+    "name": "Pull the Snare (Veteran)",
     "origin": {
-      "type": "Template",
-      "name": "Veteran [PPG]",
+      "type": "Class",
+      "name": "Hatchet",
       "base": false
     },
     "locked": false,
@@ -3086,10 +3086,10 @@
   },
   {
     "id": "ppg_npcf_evergaol_veteran",
-    "name": "Evergaol (Knight)",
+    "name": "Evergaol (Veteran)",
     "origin": {
-      "type": "Template",
-      "name": "Veteran [PPG]",
+      "type": "Class",
+      "name": "Knight",
       "base": false
     },
     "locked": false,
@@ -3110,28 +3110,23 @@
   },
   {
     "id": "ppg_npcf_hall_of_mirrors_veteran",
-    "name": "Hall of Mirrors (Mesmerist)",
+    "name": "Hall of Mirrors (Veteran)",
     "origin": {
-      "type": "Template",
-      "name": "Veteran [PPG]",
+      "type": "Class",
+      "name": "Mesmerist",
       "base": false
     },
     "locked": false,
     "type": "Trait",
-    "tags": [
-      {
-        "id": "tg_round",
-        "val": 1
-      }
-    ],
+    "tags": [],
     "effect": "While the Mesmerist has any mirror images, allied characters in Burst 2 are INVISIBLE. Each attack that misses an affected ally destroys 1 mirror image."
   },
   {
     "id": "ppg_npcf_reactor_accelerant_veteran",
-    "name": "Reactor Accelerant (Napalm)",
+    "name": "Reactor Accelerant (Veteran)",
     "origin": {
-      "type": "Template",
-      "name": "Veteran [PPG]",
+      "type": "Class",
+      "name": "Napalm",
       "base": false
     },
     "locked": false,
@@ -3141,10 +3136,10 @@
   },
   {
     "id": "ppg_npcf_doubling_season_veteran",
-    "name": "Doubling Season (Occultist)",
+    "name": "Doubling Season (Veteran)",
     "origin": {
-      "type": "Template",
-      "name": "Veteran [PPG]",
+      "type": "Class",
+      "name": "Occultist",
       "base": false
     },
     "locked": false,
@@ -3154,10 +3149,10 @@
   },
   {
     "id": "ppg_npcf_mobile_projectors_veteran",
-    "name": "Mobile Projectors (Prism)",
+    "name": "Mobile Projectors (Veteran)",
     "origin": {
-      "type": "Template",
-      "name": "Veteran [PPG]",
+      "type": "Class",
+      "name": "Prism",
       "base": false
     },
     "locked": false,
@@ -3167,10 +3162,10 @@
   },
   {
     "id": "ppg_npcf_primordial_sea_veteran",
-    "name": "Primordial Sea (Torrent)",
+    "name": "Primordial Sea (Veteran)",
     "origin": {
-      "type": "Template",
-      "name": "Veteran [PPG]",
+      "type": "Class",
+      "name": "Torrent",
       "base": false
     },
     "locked": false,
@@ -3180,10 +3175,10 @@
   },
   {
     "id": "ppg_npcf_grapplescrapper_veteran",
-    "name": "Grapplescrapper (Vulture)",
+    "name": "Grapplescrapper (Veteran)",
     "origin": {
-      "type": "Template",
-      "name": "Veteran [PPG]",
+      "type": "Class",
+      "name": "Vulture",
       "base": false
     },
     "locked": false,
@@ -3193,10 +3188,10 @@
   },
   {
     "id": "ppg_npcf_fervent_retribution_veteran",
-    "name": "Fervent Retribution (Zealot)",
+    "name": "Fervent Retribution (Veteran)",
     "origin": {
-      "type": "Template",
-      "name": "Veteran [PPG]",
+      "type": "Class",
+      "name": "Zealot",
       "base": false
     },
     "locked": false,

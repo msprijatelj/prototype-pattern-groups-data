@@ -95,7 +95,8 @@
       "ppg_npcf_omninet_grounding_anchor",
       "ppg_npcf_newtonian_amplifier_anchor",
       "ppg_npcf_magnetic_reversal_anchor",
-      "ppg_npcf_null_grav_motivator_anchor"
+      "ppg_npcf_null_grav_motivator_anchor",
+      "ppg_npcf_slingshot_veteran"
     ],
     "power": 100
   },
@@ -195,7 +196,8 @@
       "ppg_npcf_purifying_lightning_capacitor",
       "ppg_npcf_deflecting_shot_capacitor",
       "ppg_npcf_cyclic_discharge_capacitor",
-      "ppg_npcf_amplifier_drone_capacitor"
+      "ppg_npcf_amplifier_drone_capacitor",
+      "ppg_npcf_thunderfall_veteran"
     ],
     "power": 100
   },
@@ -296,7 +298,8 @@
       "ppg_npcf_string_theory_marionette_ghost",
       "ppg_npcf_wavefunction_collapse_ghost",
       "ppg_npcf_spectral_flight_ghost",
-      "ppg_npcf_split_timestream_ghost"
+      "ppg_npcf_split_timestream_ghost",
+      "ppg_npcf_maxwells_daemon_veteran"
     ],
     "power": 100
   },
@@ -396,7 +399,8 @@
       "ppg_npcf_plasma_knife_hatchet",
       "ppg_npcf_rocket_bola_hatchet",
       "ppg_npcf_reckless_dive_hatchet",
-      "ppg_npcf_return_to_sender_hatchet"
+      "ppg_npcf_return_to_sender_hatchet",
+      "ppg_npcf_pull_the_snare_veteran"
     ],
     "power": 100
   },
@@ -496,7 +500,8 @@
       "ppg_npcf_sweeping_blows_knight",
       "ppg_npcf_punishing_blow_knight",
       "ppg_npcf_second_wind_knight",
-      "ppg_npcf_mighty_throw_knight"
+      "ppg_npcf_mighty_throw_knight",
+      "ppg_npcf_evergaol_veteran"
     ],
     "power": 100
   },
@@ -597,7 +602,8 @@
       "ppg_npcf_mountebanks_jaunt_mesmerist",
       "ppg_npcf_narcissus_override",
       "ppg_npcf_metafold_riposte_mesmerist",
-      "ppg_npcf_hypnotic_attraction_mesmerist"
+      "ppg_npcf_hypnotic_attraction_mesmerist",
+      "ppg_npcf_hall_of_mirrors_veteran"
     ],
     "power": 100
   },
@@ -697,7 +703,8 @@
       "ppg_npcf_corrosive_gel_napalm",
       "ppg_npcf_firefly_drone_napalm",
       "ppg_npcf_incendiary_grenade_napalm",
-      "ppg_npcf_long_burn_catalyst_napalm"
+      "ppg_npcf_long_burn_catalyst_napalm",
+      "ppg_npcf_reactor_accelerant_veteran"
     ],
     "power": 100
   },
@@ -797,7 +804,8 @@
       "ppg_npcf_lead_astray_occultist",
       "ppg_npcf_scapegoat_occultist",
       "ppg_npcf_harvest_pyres_occultist",
-      "ppg_npcf_call_from_below_occultist"
+      "ppg_npcf_call_from_below_occultist",
+      "ppg_npcf_doubling_season_veteran"
     ],
     "power": 100
   },
@@ -897,7 +905,8 @@
       "ppg_npcf_omniglass_barrier_prism",
       "ppg_npcf_shardsplitter_shotgun_prism",
       "ppg_npcf_scintillating_gleam_prism",
-      "ppg_npcf_shattered_glass_prism"
+      "ppg_npcf_shattered_glass_prism",
+      "ppg_npcf_mobile_projectors_veteran"
     ],
     "power": 100
   },
@@ -999,7 +1008,8 @@
       "ppg_npcf_wash_away_torrent",
       "ppg_npcf_roil_torrent",
       "ppg_npcf_crashing_tsunami_torrent",
-      "ppg_npcf_drown_in_nanites_torrent"
+      "ppg_npcf_drown_in_nanites_torrent",
+      "ppg_npcf_primordial_sea_veteran"
     ],
     "power": 100
   },
@@ -1099,7 +1109,8 @@
       "ppg_npcf_jumpstart_vulture",
       "ppg_npcf_opportunistic_salvage_vulture",
       "ppg_npcf_magnet_bomb_vulture",
-      "ppg_npcf_carcass_bunker_vulture"
+      "ppg_npcf_carcass_bunker_vulture",
+      "ppg_npcf_grapplescrapper_veteran"
     ],
     "power": 100
   },
@@ -1199,7 +1210,8 @@
       "ppg_npcf_flagellants_cleansing_zealot",
       "ppg_npcf_rally_the_righteous_zealot",
       "ppg_npcf_brand_the_heretic_zealot",
-      "ppg_npcf_martyrdom_zealot"
+      "ppg_npcf_martyrdom_zealot",
+      "ppg_npcf_fervent_retribution_veteran"
     ],
     "power": 100
   }
