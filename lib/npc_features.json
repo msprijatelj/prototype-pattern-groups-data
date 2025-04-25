@@ -2554,7 +2554,7 @@
         "id": "tg_full_tech"
       }
     ],
-    "effect": "One character in SENSORS must make a SYSTEMS save. On a success, they gain LOCK ON and the Anomaly chooses whether they are IMMOBILIZED, IMPAIRED, JAMMED, SHREDDED, or SLOWED until the end of the scene. On a failure, they suffer the same effect, except the Anomaly may choose {3/4/5} options."
+    "effect": "One character in SENSORS gains LOCK ON and must make a SYSTEMS save. On a success, the Anomaly chooses whether they are IMMOBILIZED, IMPAIRED, JAMMED, SHREDDED, or SLOWED until the end of the scene. On a failure, Anomaly may instead choose {3/4/5} options."
   },
   {
     "id": "ppg_npcf_forced_obsolescence_anomaly",
@@ -2603,7 +2603,7 @@
       2,
       3
     ],
-    "effect": "The Anomaly makes a tech attack against a character with SYSTEM POINTS (SP) within SENSORS. On a hit, the target loses 1d3 SP. If this would leave the target over their SP capacity, they must mark equipment with SP costs as disabled until their new SP can accommodate the combined SP of their remaining equipment. Disabled equipment cannot be ACTIVATED, its passive effects are suppressed, and ongoing effects caused by that equipment immediately end.<br/><br/>The target regains lost SP after completing a rest."
+    "effect": "The Anomaly makes a tech attack against a character with SYSTEM POINTS (SP) within SENSORS. On a hit, the target loses 1d3 SP. If this would leave the target over their SP capacity, they must mark equipment with SP costs as disabled until their new SP can accommodate the combined SP of their remaining equipment. Disabled equipment cannot be ACTIVATED, its passive effects are suppressed, and ongoing effects caused by that equipment immediately end. The target regains lost SP after completing a rest."
   },
   {
     "id": "ppg_npcf_stolen_cycles_anomaly",
@@ -2629,7 +2629,29 @@
       4,
       6
     ],
-    "effect": "The Anomaly makes a tech attack against a character that can OVERCHARGE in SENSORS. On a hit, the Anomaly chooses an allied character within SENSORS. As a free action, the ally can force the target to OVERCHARGE, but gain no extra action. Instead, the ally may take any quick action as a free action. This effect then ends on both characters."
+    "effect": "The Anomaly makes a tech attack against a character that can OVERCHARGE in SENSORS. On a hit, the Anomaly chooses an ally within SENSORS. As a free action, the ally can force the target to OVERCHARGE, but gain no extra action. Instead, the ally may take any quick action as a free action. This effect then ends on both characters."
+  },
+  {
+    "id": "ppg_npcf_time_stop_anomaly",
+    "name": "Time Stop",
+    "origin": {
+      "type": "Template",
+      "name": "Anomaly",
+      "base": false
+    },
+    "locked": false,
+    "type": "Reaction",
+    "tags": [
+      {
+        "id": "tg_reaction"
+      },
+      {
+        "id": "tg_scene",
+        "val": 1
+      }
+    ],
+    "trigger": "A character ends their turn.",
+    "effect": "The Anomaly stops time, immediately taking an additional turn that doesn’t count against its turns per round. During this turn, other characters cannot act, the Anomaly is IMMUNE to all external effects, and all characters are IMMUNE to the Anomaly’s actions and abilities."
   },
   {
     "id": "ppg_npcf_astral_ejection_anomaly",
@@ -2949,6 +2971,27 @@
     "effect": "One character with a BACKGROUND within SENSORS become IMPAIRED and SLOWED and must make a GRIT check as their past is rewritten. On a success, the effect lasts until the end of their next turn. On a failure, the effect lasts until the end of the scene, and they must change their BACKGROUND to a different, random BACKGROUND. A character can be affected by this trait only 1/mission.<br/><br/>While the target’s BACKGROUND has changed, skill checks they attempt that would have benefited from their previous BACKGROUND gain +1 Difficulty. This effect ends after the target performs a downtime action related to their former BACKGROUND. Alternatively, the target may accept their new BACKGROUND as their “true past,” keeping it but otherwise ending this effect."
   },
   {
+    "id": "ppg_npcf_self_mechanization_anomaly",
+    "name": "Self-Mechanization",
+    "origin": {
+      "type": "Template",
+      "name": "Anomaly",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "tags": [
+      {
+        "id": "tg_recharge",
+        "val": 6
+      },
+      {
+        "id": "tg_full_action"
+      }
+    ],
+    "effect": "The Anomaly chooses one piloted mech within SENSORS. The pilot must make a contested GRIT check against the better of the mech’s SYSTEMS or ENGINEERING. On a failure, the pilot and all other occupants meld with the mech, unable to leave it by any means. If the mech is destroyed, all melded occupants become DOWN AND OUT; if its wreckage is destroyed, all occupants die. Success or fail, the pilot and mech become IMPAIRED until they succeed on a GRIT check at the end of their turn. Extricating the mech’s occupants requires a DOWNTIME ACTION."
+  },
+  {
     "id": "ppg_npcf_singularity_generator_anomaly",
     "name": "Singularity Generator",
     "origin": {
@@ -2992,28 +3035,6 @@
       }
     ],
     "effect": "The Anomaly chooses an allied mech without the GRUNT template in Range 10. The target gains the GRUNT template, setting each of its HP, STRUCTURE, and STRESS to 1. The Anomaly then creates {1/2/3} copies of the character in free spaces within Range 3 of the target (or as close as possible). The copies may act this round."
-  },
-  {
-    "id": "ppg_npcf_time_stop_anomaly",
-    "name": "Time Stop",
-    "origin": {
-      "type": "Template",
-      "name": "Anomaly",
-      "base": false
-    },
-    "locked": false,
-    "type": "Reaction",
-    "tags": [
-      {
-        "id": "tg_reaction"
-      },
-      {
-        "id": "tg_scene",
-        "val": 1
-      }
-    ],
-    "trigger": "A character ends their turn.",
-    "effect": "The Anomaly stops time, immediately taking an additional turn that doesn’t count against its turns per round. During this turn, other characters cannot act, the Anomaly is IMMUNE to all external effects, and all characters are IMMUNE to the Anomaly’s actions and abilities."
   },
   {
     "id": "ppg_npcf_slingshot_veteran",
