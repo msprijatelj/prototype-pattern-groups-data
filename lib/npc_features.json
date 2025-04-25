@@ -2682,7 +2682,7 @@
     "locked": false,
     "type": "Trait",
     "tags": [],
-    "effect": "On a critical hit, the target must make a save using a pilot trigger of their choice. On a failure, they suffer the following effects:<ul><li>Move all ranks from that trigger to a different trigger (chosen at random). This effect lasts until the character uses the chosen trigger as part of any DOWNTIME ACTION.</li><li>The pilot takes AP damage equal to the ranks in that trigger.</li><li>If piloting a mech, the mech takes heat equal to the ranks in that trigger.</li></ul>Each character can be affected by this 1/scene."
+    "effect": "On a critical hit, the target must make a save using a pilot trigger of their choice. On a failure, they suffer the following effects:<ul><li>Move all ranks from that trigger to a different trigger (chosen at random). This effect lasts until the character uses the chosen trigger as part of any DOWNTIME ACTION.</li><li>The pilot takes AP damage equal to the ranks in that trigger.</li><li>If piloting a mech, the mech takes Heat equal to the ranks in that trigger.</li></ul>Each character can be affected by this 1/scene."
   },
   {
     "id": "ppg_npcf_doppelganger_anomaly",
@@ -3037,6 +3037,253 @@
     "effect": "The Anomaly chooses an allied mech without the GRUNT template in Range 10. The target gains the GRUNT template, setting each of its HP, STRUCTURE, and STRESS to 1. The Anomaly then creates {1/2/3} copies of the character in free spaces within Range 3 of the target (or as close as possible). The copies may act this round."
   },
   {
+    "id": "ppg_npcf_dirty_fighting_brigand",
+    "name": "Dirty Fighting",
+    "origin": {
+      "type": "Template",
+      "name": "Brigand",
+      "base": true
+    },
+    "locked": false,
+    "type": "Trait",
+    "tags": [],
+    "effect": "On a critical hit, the Brigand’s target must pass a HULL save or be knocked PRONE."
+  },
+  {
+    "id": "ppg_npcf_jury_rigged_brigand",
+    "name": "Jury-Rigged",
+    "origin": {
+      "type": "Template",
+      "name": "Brigand",
+      "base": true
+    },
+    "locked": false,
+    "type": "Trait",
+    "tags": [],
+    "effect": "The Brigand receives +1 Difficulty on HULL checks and saves."
+  },
+  {
+    "id": "ppg_npcf_brigand_systems_and_traits_brigand",
+    "name": "Brigand Systems and Traits",
+    "origin": {
+      "type": "Template",
+      "name": "Brigand",
+      "base": true
+    },
+    "locked": false,
+    "type": "Trait",
+    "tags": [],
+    "effect": "When choosing optional systems, the Brigand can also choose from the Brigand Systems and Traits and Pirate Systems and Traits (Lancer, p. 328)."
+  },
+  {
+    "id": "ppg_npcf_finishing_blow_brigand",
+    "name": "Finishing Blow",
+    "origin": {
+      "type": "Template",
+      "name": "Brigand",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "tags": [],
+    "effect": "The Brigand deals +3 bonus damage against PRONE targets."
+  },
+  {
+    "id": "ppg_npcf_surgekiller_brigand",
+    "name": "Surgekiller",
+    "origin": {
+      "type": "Template",
+      "name": "Brigand",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "tags": [],
+    "effect": "The Brigand’s critical hits deal 2 Heat against targets with at least 1 CP."
+  },
+  {
+    "id": "ppg_npcf_vandalize_brigand",
+    "name": "Vandalize",
+    "origin": {
+      "type": "Template",
+      "name": "Brigand",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "tags": [],
+    "effect": "If the Brigand inflicts structure damage, it may choose for its target to suffer System Trauma instead of the result of its structure damage check. If so, the Brigand chooses if a system or weapon mount is destroyed, as well as which one."
+  },
+  {
+    "id": "ppg_npcf_commandeer_brigand",
+    "name": "Commandeer",
+    "origin": {
+      "type": "Template",
+      "name": "Brigand",
+      "base": false
+    },
+    "locked": false,
+    "type": "Tech",
+    "tech_type": "Quick",
+    "tags": [
+      {
+        "id": "tg_recharge",
+        "val": 4
+      },
+      {
+        "id": "tg_quick_tech"
+      }
+    ],
+    "effect": "The Brigand targets one hostile DEPLOYABLE or DRONE. Until the end of the scene, the Brigand is treated as the controller of the target DEPLOYABLE or DRONE. DRONES cannot be recalled while affected by this system.<br/><br/>The original controller can regain control and end this effect with a successful SYSTEMS check as a quick action while the affected DEPLOYABLE or DRONE is within their SENSORS and line of sight."
+  },
+  {
+    "id": "ppg_npcf_enforce_limiters_brigand",
+    "name": "Enforce Limiters",
+    "origin": {
+      "type": "Template",
+      "name": "Brigand",
+      "base": false
+    },
+    "locked": false,
+    "type": "Tech",
+    "tech_type": "Quick",
+    "tags": [
+      {
+        "id": "tg_recharge",
+        "val": 5
+      },
+      {
+        "id": "tg_quick_tech"
+      }
+    ],
+    "effect": "The Brigand enforces reactor limiters on one hostile mech in SENSORS that can OVERCHARGE. The target must pass an ENGINEERING save or become OVERHEATED (CONDITIONS & STATUSES, APPENDIX A) until they remove the limiters with a successful ENGINEERING check as a full action."
+  },
+  {
+    "id": "ppg_npcf_grav_amp_brigand",
+    "name": "Grav Amp",
+    "origin": {
+      "type": "Template",
+      "name": "Brigand",
+      "base": false
+    },
+    "locked": false,
+    "type": "Tech",
+    "tech_type": "Quick",
+    "tags": [
+      {
+        "id": "tg_recharge",
+        "val": 5
+      },
+      {
+        "id": "tg_quick_tech"
+      }
+    ],
+    "attack_bonus": [
+      1,
+      2,
+      3
+    ],
+    "effect": "The Brigand makes a tech attack against a character in SENSORS. On a hit, the target is knocked PRONE and takes Kinetic AP damage equal to their remaining REPAIRS."
+  },
+  {
+    "id": "ppg_npcf_jail_break_brigand",
+    "name": "JAIL//BREAK",
+    "origin": {
+      "type": "Template",
+      "name": "Brigand",
+      "base": false
+    },
+    "locked": false,
+    "type": "Tech",
+    "tech_type": "Full",
+    "tags": [
+      {
+        "id": "tg_limited",
+        "val": 1
+      },
+      {
+        "id": "tg_full_tech"
+      }
+    ],
+    "effect": "The Brigand targets one hostile mech with the AI tag within SENSORS. That mech must succeed on a SYSTEMS save or have all their installed AIs enter cascade. AIs immune to cascade are unaffected."
+  },
+  {
+    "id": "ppg_npcf_lockout_brigand",
+    "name": "Lockout",
+    "origin": {
+      "type": "Template",
+      "name": "Brigand",
+      "base": false
+    },
+    "locked": false,
+    "type": "Tech",
+    "tech_type": "Quick",
+    "tags": [
+      {
+        "id": "tg_recharge",
+        "val": 6
+      },
+      {
+        "id": "tg_full_tech"
+      }
+    ],
+    "effect": "The Brigand forces a hostile mech within SENSORS to make a SYSTEMS or ENGINEERING save (target’s choice). On a failure, the Brigand disables up to {1/2/3} of the target’s systems until the end of the scene. Disabled equipment cannot be ACTIVATED, its passive effects are suppressed, and ongoing effects caused by that equipment immediately end.<br/><br/>The target may end this effect with a successful SYSTEMS or ENGINEERING check as a full action."
+  },
+  {
+    "id": "ppg_npcf_rescind_brigand",
+    "name": "Rescind",
+    "origin": {
+      "type": "Template",
+      "name": "Brigand",
+      "base": false
+    },
+    "locked": false,
+    "type": "Tech",
+    "tech_type": "Full",
+    "tags": [
+      {
+        "id": "tg_limited",
+        "val": 1
+      },
+      {
+        "id": "tg_full_tech"
+      }
+    ],
+    "effect": "The Brigand rescinds 1 license rank of a hostile character in SENSORS. While the target carries equipment tied to that license rank, they count as piloting an unlicensed mech (Lancer, p.74). An affected mech can jettison any piece of equipment as a quick action, rendering it unusable until it is retrieved and reattached during a rest.<br/><br/>Otherwise, this effect lasts until the target finishes a rest or succeeds on a SYSTEMS check as a full action to re-validate their licenses."
+  },
+  {
+    "id": "ppg_npcf_youre_too_slow_brisk",
+    "name": "You’re Too Slow",
+    "origin": {
+      "type": "Template",
+      "name": "Brisk",
+      "base": true
+    },
+    "locked": false,
+    "type": "Trait",
+    "tags": [],
+    "effect": "This template may only be taken by an NPC with less than 3 SPEED.<br/><br/>This NPC’s SPEED becomes 3.",
+    "override": {
+      "speed": 3
+    }
+  },
+  {
+    "id": "ppg_npcf_tempered_reactor_tempered",
+    "name": "Tempered Reactor",
+    "origin": {
+      "type": "Template",
+      "name": "Tempered",
+      "base": true
+    },
+    "locked": false,
+    "type": "Trait",
+    "tags": [],
+    "effect": "This template may only be taken by an NPC with more than 1 STRESS.<br/><br/>This NPC receives +2 HEAT CAP.",
+    "bonus": {
+      "heatcap": 2
+    }
+  },
+  {
     "id": "ppg_npcf_slingshot_veteran",
     "name": "Slingshot (Veteran)",
     "origin": {
@@ -3219,252 +3466,5 @@
     "type": "Trait",
     "tags": [],
     "effect": "A hostile character that damages an ally affected by ZEAL takes {1/2/3} Burn."
-  },
-  {
-    "id": "ppg_npcf_dirty_fighting_brigand",
-    "name": "Dirty Fighting",
-    "origin": {
-      "type": "Template",
-      "name": "Brigand",
-      "base": true
-    },
-    "locked": false,
-    "type": "Trait",
-    "tags": [],
-    "effect": "On a critical hit, the Brigand’s target must pass a HULL save or be knocked PRONE."
-  },
-  {
-    "id": "ppg_npcf_jury_rigged_brigand",
-    "name": "Jury-Rigged",
-    "origin": {
-      "type": "Template",
-      "name": "Brigand",
-      "base": true
-    },
-    "locked": false,
-    "type": "Trait",
-    "tags": [],
-    "effect": "The Brigand receives +1 Difficulty on HULL checks and saves."
-  },
-  {
-    "id": "ppg_npcf_brigand_systems_and_traits_brigand",
-    "name": "Brigand Systems and Traits",
-    "origin": {
-      "type": "Template",
-      "name": "Brigand",
-      "base": true
-    },
-    "locked": false,
-    "type": "Trait",
-    "tags": [],
-    "effect": "When choosing optional systems, the Brigand can also choose from the Brigand Systems and Traits and Pirate Systems and Traits (Lancer, p. 328)."
-  },
-  {
-    "id": "ppg_npcf_finishing_blow_brigand",
-    "name": "Finishing Blow",
-    "origin": {
-      "type": "Template",
-      "name": "Brigand",
-      "base": false
-    },
-    "locked": false,
-    "type": "Trait",
-    "tags": [],
-    "effect": "The Brigand deals +3 bonus damage against PRONE targets."
-  },
-  {
-    "id": "ppg_npcf_surgekiller_brigand",
-    "name": "Surgekiller",
-    "origin": {
-      "type": "Template",
-      "name": "Brigand",
-      "base": false
-    },
-    "locked": false,
-    "type": "Trait",
-    "tags": [],
-    "effect": "The Brigand’s critical hits deal 2 Heat against targets with at least 1 CP."
-  },
-  {
-    "id": "ppg_npcf_vandalize_brigand",
-    "name": "Vandalize",
-    "origin": {
-      "type": "Template",
-      "name": "Brigand",
-      "base": false
-    },
-    "locked": false,
-    "type": "Trait",
-    "tags": [],
-    "effect": "If the Brigand inflicts structure damage, it may choose for its target to suffer System Trauma instead of the result of its structure damage check. If so, the Brigand chooses if a system or weapon mount is destroyed, as well as which one."
-  },
-  {
-    "id": "ppg_npcf_enforce_limiters_brigand",
-    "name": "Enforce Limiters",
-    "origin": {
-      "type": "Template",
-      "name": "Brigand",
-      "base": false
-    },
-    "locked": false,
-    "type": "Tech",
-    "tech_type": "Quick",
-    "tags": [
-      {
-        "id": "tg_recharge",
-        "val": 5
-      },
-      {
-        "id": "tg_quick_tech"
-      }
-    ],
-    "effect": "The Brigand enforces reactor limiters on one hostile mech in SENSORS that can OVERCHARGE. The target must pass an ENGINEERING save or become OVERHEATED (CONDITIONS & STATUSES, APPENDIX A) until they remove the limiters with a successful ENGINEERING check as a full action."
-  },
-  {
-    "id": "ppg_npcf_grav_amp_brigand",
-    "name": "Grav Amp",
-    "origin": {
-      "type": "Template",
-      "name": "Brigand",
-      "base": false
-    },
-    "locked": false,
-    "type": "Tech",
-    "tech_type": "Quick",
-    "tags": [
-      {
-        "id": "tg_recharge",
-        "val": 5
-      },
-      {
-        "id": "tg_quick_tech"
-      }
-    ],
-    "attack_bonus": [
-      1,
-      2,
-      3
-    ],
-    "effect": "The Brigand makes a tech attack against a character in SENSORS. On a hit, the target is knocked PRONE and takes Kinetic AP damage equal to their remaining REPAIRS."
-  },
-  {
-    "id": "ppg_npcf_jail_break_brigand",
-    "name": "JAIL//BREAK",
-    "origin": {
-      "type": "Template",
-      "name": "Brigand",
-      "base": false
-    },
-    "locked": false,
-    "type": "Tech",
-    "tech_type": "Full",
-    "tags": [
-      {
-        "id": "tg_limited",
-        "val": 1
-      },
-      {
-        "id": "tg_full_tech"
-      }
-    ],
-    "effect": "The Brigand targets one hostile mech with the AI tag within SENSORS. That mech must succeed on a SYSTEMS save or have all their installed AIs enter cascade. AIs immune to cascade are unaffected."
-  },
-  {
-    "id": "ppg_npcf_commandeer_brigand",
-    "name": "Commandeer",
-    "origin": {
-      "type": "Template",
-      "name": "Brigand",
-      "base": false
-    },
-    "locked": false,
-    "type": "Tech",
-    "tech_type": "Quick",
-    "tags": [
-      {
-        "id": "tg_recharge",
-        "val": 4
-      },
-      {
-        "id": "tg_quick_tech"
-      }
-    ],
-    "effect": "The Brigand targets one hostile DEPLOYABLE or DRONE. Until the end of the scene, the Brigand is treated as the controller of the target DEPLOYABLE or DRONE. DRONES cannot be recalled while affected by this system.<br/><br/>The original controller can regain control and end this effect with a successful SYSTEMS check as a quick action while the affected DEPLOYABLE or DRONE is within their SENSORS and line of sight."
-  },
-  {
-    "id": "ppg_npcf_rescind_brigand",
-    "name": "Rescind",
-    "origin": {
-      "type": "Template",
-      "name": "Brigand",
-      "base": false
-    },
-    "locked": false,
-    "type": "Tech",
-    "tech_type": "Full",
-    "tags": [
-      {
-        "id": "tg_limited",
-        "val": 1
-      },
-      {
-        "id": "tg_full_tech"
-      }
-    ],
-    "effect": "The Brigand rescinds 1 license rank of a hostile character in SENSORS. While the target carries equipment tied to that license rank, they count as piloting an unlicensed mech (Lancer, p.74). An affected mech can jettison any piece of equipment as a quick action, rendering it unusable until it is retrieved and reattached during a rest.<br/><br/>Otherwise, this effect lasts until the target finishes a rest or succeeds on a SYSTEMS check as a full action to re-validate their licenses."
-  },
-  {
-    "id": "ppg_npcf_lockout_brigand",
-    "name": "Lockout",
-    "origin": {
-      "type": "Template",
-      "name": "Brigand",
-      "base": false
-    },
-    "locked": false,
-    "type": "Tech",
-    "tech_type": "Quick",
-    "tags": [
-      {
-        "id": "tg_recharge",
-        "val": 6
-      },
-      {
-        "id": "tg_full_tech"
-      }
-    ],
-    "effect": "The Brigand forces a hostile mech within SENSORS to make a SYSTEMS or ENGINEERING save (target’s choice). On a failure, the Brigand disables up to {1/2/3} of the target’s systems until the end of the scene. Disabled equipment cannot be ACTIVATED, its passive effects are suppressed, and ongoing effects caused by that equipment immediately end.<br/><br/>The target may end this effect with a successful SYSTEMS or ENGINEERING check as a full action."
-  },
-  {
-    "id": "ppg_npcf_youre_too_slow_brisk",
-    "name": "You’re Too Slow",
-    "origin": {
-      "type": "Template",
-      "name": "Brisk",
-      "base": true
-    },
-    "locked": false,
-    "type": "Trait",
-    "tags": [],
-    "effect": "This template may only be taken by an NPC with less than 3 SPEED.<br/><br/>This NPC’s SPEED becomes 3.",
-    "override": {
-      "speed": 3
-    }
-  },
-  {
-    "id": "ppg_npcf_tempered_reactor_tempered",
-    "name": "Tempered Reactor",
-    "origin": {
-      "type": "Template",
-      "name": "Tempered",
-      "base": true
-    },
-    "locked": false,
-    "type": "Trait",
-    "tags": [],
-    "effect": "This template may only be taken by an NPC with more than 1 STRESS.<br/><br/>This NPC receives +2 HEAT CAP.",
-    "bonus": {
-      "heatcap": 2
-    }
   }
 ]
