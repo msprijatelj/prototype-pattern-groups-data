@@ -3262,7 +3262,7 @@
     "locked": false,
     "type": "Trait",
     "tags": [],
-    "effect": "This template may only be taken by an NPC with less than 3 SPEED.<br/><br/>This NPC’s SPEED becomes 3.",
+    "effect": "This template may only be taken by an NPC with less than 3 SPEED. This NPC’s SPEED becomes 3.",
     "override": {
       "speed": 3
     }
@@ -3278,7 +3278,7 @@
     "locked": false,
     "type": "Trait",
     "tags": [],
-    "effect": "This template may only be taken by an NPC with more than 1 STRESS.<br/><br/>This NPC receives +2 HEAT CAP.",
+    "effect": "This template may only be taken by an NPC with more than 1 STRESS. Gain +2 HEAT CAP.",
     "bonus": {
       "heatcap": 2
     }
