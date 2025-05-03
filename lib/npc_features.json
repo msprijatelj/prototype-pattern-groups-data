@@ -1615,8 +1615,8 @@
     "effect": "Attacks targeting characters, objects, or spaces within Burst 3 of the Prism lose the benefit of SEEKING."
   },
   {
-    "id": "ppg_npcf_double_vision_prism",
-    "name": "Double Vision",
+    "id": "ppg_npcf_mobile_projectors_prism",
+    "name": "Mobile Projectors",
     "origin": {
       "type": "Class",
       "name": "Prism",
@@ -1625,7 +1625,7 @@
     "locked": false,
     "type": "Trait",
     "tags": [],
-    "effect": "The Prism may have 2 projectors at a time."
+    "effect": "The Prism may spend any amount of its voluntary movement to move a projector the same number of spaces. This movement triggers engagement and reactions as if the Prism were moving."
   },
   {
     "id": "ppg_npcf_omniglass_barrier_prism",
@@ -1735,7 +1735,7 @@
       }
     ],
     "trigger": "The Prism or an allied character in Range 5 is attacked while a projector exists.",
-    "effect": "The Prism first destroys a projector and teleports the triggering character to a space it occupied. Regardless of RANGE or line of sight, the Prism becomes the new target of the attack, gaining RESISTANCE as if it was targeted through a projector. After the attack, the attacker must pass an AGILITY save or be IMPAIRED until the end of their next turn and take {4/5/6} Kinetic damage, half on success."
+    "effect": "The Prism first destroys a projector and teleports the triggering character to a space it occupied. Regardless of RANGE or line of sight, the Prism becomes the new target of the attack as if it were targeted through a projector. Afterwards, the attacker is IMPAIRED until the end of their next turn."
   },
   {
     "id": "ppg_npcf_amorphous_torrent",
@@ -3284,7 +3284,7 @@
     }
   },
   {
-    "id": "ppg_npcf_tectonic_wave_ultra",
+    "id": "ppg_npcf_tectonic_wave_anchor",
     "name": "Tectonic Wave (Ultra)",
     "origin": {
       "type": "Class",
@@ -3297,7 +3297,7 @@
     "effect": "The GRAVITY CANNON may attack in a Cone 7 or Line 10 area. Upon attacking with the GRAVITY CANNON, the Anchor may create up to 3 pieces of SIZE 1 terrain or 1 piece of SIZE 2 terrain in the attack’s area."
   },
   {
-    "id": "ppg_npcf_thunderfall_ultra",
+    "id": "ppg_npcf_thunderfall_capacitor",
     "name": "Thunderfall (Ultra)",
     "origin": {
       "type": "Class",
@@ -3318,7 +3318,7 @@
     "effect": "The area targeted by the MARATHON ARQUEBUS and all adjacent spaces are marked for thunderfall; at the end of the next round, the marked area detonates. Hostile characters in the detonation gain LOCK ON and must pass an AGILITY save or take {8/12/16} Energy, half on success. Allied characters in the detonation gain OVERSHIELD {4/6/8}."
   },
   {
-    "id": "ppg_npcf_coherent_entanglement_ultra",
+    "id": "ppg_npcf_coherent_entanglement_ghost",
     "name": "Coherent Entanglement (Ultra)",
     "origin": {
       "type": "Class",
@@ -3331,7 +3331,7 @@
     "effect": "PARADOX STATE instead lasts until the start of the Ghost’s next turn and affects every hostile action is taken against a character bonded with the Ghost."
   },
   {
-    "id": "ppg_npcf_hurricane_of_steel_ultra",
+    "id": "ppg_npcf_hurricane_of_steel_hatchet",
     "name": "Hurricane of Steel (Ultra)",
     "origin": {
       "type": "Class",
@@ -3352,7 +3352,7 @@
     "effect": "The Hatchet may make one THROWN weapon attack against each hostile character in RANGE of its THROWN weapons, without needing to retrieve each weapon. Each attack creates a copy of the weapon that lands adjacent to the target’s space.<br/><br/>Until the end of the Hatchet’s next turn, it may take a second full action to teleport adjacent to one of its THROWN weapons, then retrieve all its THROWN weapons. All hostile characters adjacent to a retrieved weapon must make an AGILITY save or be pushed 2 spaces in any direction and take 6/8/10 Kinetic. On a success, the target takes half damage and isn’t pushed."
   },
   {
-    "id": "ppg_npcf_evergaol_ultra",
+    "id": "ppg_npcf_evergaol_knight",
     "name": "Evergaol (Ultra)",
     "origin": {
       "type": "Class",
@@ -3376,7 +3376,7 @@
     "effect": "Gaol Seal (Size 1/2, HP 15/20/25, Evasion 5, E-Defense 8, Tags: Deployable)<br/><br/>The Knight deploys a gaol seal to a free space in Range 3. The seal creates a Burst 4 area that must completely contain both the Knight and its duel opponent. The Knight and its duel opponent cannot leave the area and are INTANGIBLE while inside it.<br/><br/>The area lasts until the seal is destroyed, or until the Knight is overheated or destroyed. The Knight takes 1 Heat when it ends its turn in the area."
   },
   {
-    "id": "ppg_npcf_dimensional_raid_ultra",
+    "id": "ppg_npcf_dimensional_raid_mesmerist",
     "name": "Dimensional Raid (Ultra)",
     "origin": {
       "type": "Class",
@@ -3389,7 +3389,7 @@
     "effect": "If a character takes Heat from MEMETIC MAGNETISM, the Mesmerist may teleport to a space adjacent to them and attack them with OVERWATCH."
   },
   {
-    "id": "ppg_npcf_skyburner_ultra",
+    "id": "ppg_npcf_skyburner_napalm",
     "name": "Skyburner (Ultra)",
     "origin": {
       "type": "Class",
@@ -3402,7 +3402,7 @@
     "effect": "When attacking with the SALAMANDER THERMOBARIC CATAPULT, the Napalm may instead draw two Line 5 areas anywhere in its RANGE."
   },
   {
-    "id": "ppg_npcf_greater_good_ultra",
+    "id": "ppg_npcf_greater_good_occultist",
     "name": "Greater Good (Ultra)",
     "origin": {
       "type": "Class",
@@ -3423,7 +3423,7 @@
     "effect": "The Occultist destroys one non-GRUNT ally in SENSORS with only 1 STRUCTURE, and a different ally in SENSORS regains all HP, clears all Heat and conditions, and gains the ELITE template."
   },
   {
-    "id": "ppg_npcf_flashbang_projector_ultra",
+    "id": "ppg_npcf_flashbang_projector_prism",
     "name": "Flashbang Projector (Ultra)",
     "origin": {
       "type": "Class",
@@ -3444,7 +3444,7 @@
     "effect": "When the Prism destroys a projector, it may first attack with the DIFFRACTION BEAM in Burst 2."
   },
   {
-    "id": "ppg_npcf_split_the_sea_ultra",
+    "id": "ppg_npcf_split_the_sea_torrent",
     "name": "Split the Sea (Ultra)",
     "origin": {
       "type": "Class",
@@ -3462,7 +3462,7 @@
     "effect": "This trait replaces SHOCK AND AWE. After the Torrent takes STRUCTURE damage, it reduces any excess damage to HP to 0, and it may create a copy of itself that may act this round. Each copy takes its own turn, but the original and all copies share the same pool of STRUCTURE, STRESS, HP, HEAT, and expendable abilities (such as those with RECHARGE, LIMITED, 1/ROUND, or 1/SCENE tags)."
   },
   {
-    "id": "ppg_npcf_rapid_refabrication_ultra",
+    "id": "ppg_npcf_rapid_refabrication_vulture",
     "name": "Rapid Refabrication (Ultra)",
     "origin": {
       "type": "Class",
@@ -3475,7 +3475,7 @@
     "effect": "The Vulture may use “MAGPIE” SUBROUTINES as a full action and choose a second option to destroy. If it does, it may choose a second benefit, targeting the same character or a different one."
   },
   {
-    "id": "ppg_npcf_undying_faith_ultra",
+    "id": "ppg_npcf_undying_faith_zealot",
     "name": "Undying Faith (Ultra)",
     "origin": {
       "type": "Class",
@@ -3488,7 +3488,7 @@
     "effect": "Allies affected by ZEAL that would be destroyed are instead reduced to 1 STRUCTURE and 1 HP."
   },
   {
-    "id": "ppg_npcf_slingshot_veteran",
+    "id": "ppg_npcf_slingshot_anchor",
     "name": "Slingshot (Veteran)",
     "origin": {
       "type": "Class",
@@ -3501,7 +3501,7 @@
     "effect": "While LODESTONE is active, allied characters may target the Anchor with ranged weapons as if attacking it (excluding Blast, Burst, Cone, or Line weapons). The Anchor automatically redirects the attack against a new target of the attacker’s choice within Range 10, resolving the attack as if it originated from the Anchor."
   },
   {
-    "id": "ppg_npcf_high_voltage_veteran",
+    "id": "ppg_npcf_high_voltage_capacitor",
     "name": "High Voltage (Veteran)",
     "origin": {
       "type": "Class",
@@ -3518,7 +3518,7 @@
     "effect": "The Capacitor may use ARC FEEDBACK as a full action. If it does, the OVERSHIELD granted and damage dealt both double."
   },
   {
-    "id": "ppg_npcf_maxwells_daemon_veteran",
+    "id": "ppg_npcf_maxwells_daemon_ghost",
     "name": "Maxwell’s Daemon (Veteran)",
     "origin": {
       "type": "Class",
@@ -3540,7 +3540,7 @@
     "effect": "Reduce the Heat gained to 0."
   },
   {
-    "id": "ppg_npcf_pull_the_snare_veteran",
+    "id": "ppg_npcf_pull_the_snare_hatchet",
     "name": "Pull the Snare (Veteran)",
     "origin": {
       "type": "Class",
@@ -3553,7 +3553,7 @@
     "effect": "When using CLEAVING RETRIEVAL, all characters in a Line between the Hatchet and its retrieved weapon must make an AGILITY save or be knocked PRONE."
   },
   {
-    "id": "ppg_npcf_valor_veteran",
+    "id": "ppg_npcf_valor_knight",
     "name": "Valor (Veteran)",
     "origin": {
       "type": "Class",
@@ -3566,7 +3566,7 @@
     "effect": "When the Knight uses COMPELLED DUEL, it may choose an additional target to duel. It may use COMPELLED DUEL again so long as it has no more than two duel opponents."
   },
   {
-    "id": "ppg_npcf_hall_of_mirrors_veteran",
+    "id": "ppg_npcf_hall_of_mirrors_mesmerist",
     "name": "Hall of Mirrors (Veteran)",
     "origin": {
       "type": "Class",
@@ -3579,7 +3579,7 @@
     "effect": "While the Mesmerist has any mirror images, allied characters in Burst 2 are INVISIBLE. Each attack that misses an affected ally destroys 1 mirror image."
   },
   {
-    "id": "ppg_npcf_reactor_accelerant_veteran",
+    "id": "ppg_npcf_reactor_accelerant_napalm",
     "name": "Reactor Accelerant (Veteran)",
     "origin": {
       "type": "Class",
@@ -3592,7 +3592,7 @@
     "effect": "Targets affected by ADHESIVE GEL take 1 Heat each time they fail an Engineering check to clear Burn."
   },
   {
-    "id": "ppg_npcf_doubling_season_veteran",
+    "id": "ppg_npcf_doubling_season_occultist",
     "name": "Doubling Season (Veteran)",
     "origin": {
       "type": "Class",
@@ -3605,8 +3605,8 @@
     "effect": "FLOCK DRONES may deploy two drones at a time. REAP THE CHAFF may destroy two targets at a time."
   },
   {
-    "id": "ppg_npcf_mobile_projectors_veteran",
-    "name": "Mobile Projectors (Veteran)",
+    "id": "ppg_npcf_double_vision_prism",
+    "name": "Double Vision (Veteran)",
     "origin": {
       "type": "Class",
       "name": "Prism",
@@ -3615,10 +3615,10 @@
     "locked": false,
     "type": "Trait",
     "tags": [],
-    "effect": "The Prism may spend any amount of its voluntary movement to move a projector the same number of spaces. This movement triggers engagement and reactions as if the Prism were moving."
+    "effect": "The Prism may have 2 projectors at a time and place 2 projectors for each use of PRISMATIC PROJECTION."
   },
   {
-    "id": "ppg_npcf_primordial_sea_veteran",
+    "id": "ppg_npcf_primordial_sea_torrent",
     "name": "Primordial Sea (Veteran)",
     "origin": {
       "type": "Class",
@@ -3631,7 +3631,7 @@
     "effect": "The Torrent becomes SIZE 3, and its weapons gain KNOCKBACK 1."
   },
   {
-    "id": "ppg_npcf_grapplescrapper_veteran",
+    "id": "ppg_npcf_grapplescrapper_vulture",
     "name": "Grapplescrapper (Veteran)",
     "origin": {
       "type": "Class",
@@ -3644,7 +3644,7 @@
     "effect": "The Vulture may use “MAGPIE” SUBROUTINES upon wreckages, weapons, and systems in Range 5."
   },
   {
-    "id": "ppg_npcf_fervent_retribution_veteran",
+    "id": "ppg_npcf_fervent_retribution_zealot",
     "name": "Fervent Retribution (Veteran)",
     "origin": {
       "type": "Class",
