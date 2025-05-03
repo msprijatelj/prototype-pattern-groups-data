@@ -2126,7 +2126,7 @@
         "id": "tg_quick_action"
       }
     ],
-    "effect": "“Carcass” Bunker (Size 4, HP {15/20/25}, Evasion 5, E-Defense 5, Tags: Deployable)<br/><br/>Destroy an adjacent wreckage and deploy a bunker in Burst 2 area centered upon it. All characters completely within the affected area gain hard cover against all attacks made from outside the bunker."
+    "effect": "“Carcass” Bunker (Size 4, HP {15/20/25}, Evasion 5, E-Defense 5, Tags: Deployable)<br/><br/>Destroy an adjacent wreckage to deploy this bunker in a Burst 2 area centered upon it. Characters completely within the affected area gain hard cover against all attacks made from outside the bunker."
   },
   {
     "id": "ppg_npcf_zeal_zealot",
