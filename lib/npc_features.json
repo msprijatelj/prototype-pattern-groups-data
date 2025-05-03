@@ -15,7 +15,7 @@
       },
       {
         "id": "tg_heat_self",
-        "val": 3
+        "val": 2
       },
       {
         "id": "tg_quick_action"
@@ -846,7 +846,7 @@
       },
       {
         "id": "tg_heat_self",
-        "val": 3
+        "val": 2
       },
       {
         "id": "tg_quick_action"
@@ -3399,7 +3399,7 @@
     "locked": false,
     "type": "Trait",
     "tags": [],
-    "effect": "When attacking with the SALAMANDER THERMOBARIC CATAPULT, the Napalm may instead draw two Line 5 areas anywhere in its RANGE."
+    "effect": "When attacking with the SALAMANDER THERMOBARIC CATAPULT, the Napalm may instead draw two Line 5 areas anywhere in its RANGE. Targets within both areas are only attacked once."
   },
   {
     "id": "ppg_npcf_greater_good_occultist",
