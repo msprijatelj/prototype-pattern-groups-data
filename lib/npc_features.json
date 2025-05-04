@@ -2554,7 +2554,7 @@
         "id": "tg_full_tech"
       }
     ],
-    "effect": "One character in SENSORS gains LOCK ON and must make a SYSTEMS save. On a success, the Anomaly chooses whether they are IMMOBILIZED, IMPAIRED, JAMMED, SHREDDED, or SLOWED until the end of the scene. On a failure, Anomaly may instead choose {3/4/5} options."
+    "effect": "One character in SENSORS gains LOCK ON and must make a SYSTEMS save. On a success, the Anomaly chooses whether they are IMMOBILIZED, IMPAIRED, SHREDDED, or SLOWED until the end of the scene. On a failure, the Anomaly may instead choose {2/3/4} options, and the target is also JAMMED until the end of the scene."
   },
   {
     "id": "ppg_npcf_forced_obsolescence_anomaly",
