@@ -2140,6 +2140,9 @@
     "type": "Trait",
     "tags": [
       {
+        "id": "tg_overshield"
+      },
+      {
         "id": "tg_heat_self",
         "val": 2
       },
@@ -2147,7 +2150,7 @@
         "id": "tg_protocol"
       }
     ],
-    "effect": "The Zealot emanates a Burst 3 area of fervent energy. While within the area, characters gain the following:<ul><li>Allied characters gain IMMUNITY to hostile involuntary movement, and their attacks gain AP against targets within the Zealot’s SENSORS.</li><li>Hostile characters that have any Burn lose INVISIBLE and HIDDEN and can’t regain either status until they leave the area.</li></ul>This area lasts until the start of the Zealot’s first turn each round or until the Zealot is STUNNED, JAMMED, overheated, or destroyed."
+    "effect": "The Zealot emanates an area of fervent energy, affecting characters in SENSORS and line of sight:<ul><li>Hostile characters with any Burn lose INVISIBLE and HIDDEN and can’t regain either in the area.</li><li>Allies ignore engagement and reactions, and their weapon attacks gain KNOCKBACK 1 and AP against targets in the area.</li><li>Upon activation, the Zealot gains OVERSHIELD equal to the number of allies in the area.</li></ul>This area lasts until the start of the Zealot’s first turn each round or until the Zealot is STUNNED, JAMMED, overheated, or destroyed."
   },
   {
     "id": "ppg_npcf_emberlight_nexus_zealot",
@@ -2166,14 +2169,14 @@
       }
     ],
     "attack_bonus": [
-      1,
       2,
-      3
+      4,
+      6
     ],
     "range": [
       {
-        "type": "Burst",
-        "val": 3
+        "type": "Cone",
+        "val": 5
       }
     ],
     "damage": [
@@ -2214,7 +2217,7 @@
         "id": "tg_quick_tech"
       }
     ],
-    "effect": "The Zealot flies up to its SPEED and gains OVERSHIELD {4/6/8}. Allied characters affected by ZEAL at any point during this movement may BOOST up to their SPEED +2 as a reaction. At the end of the Zealot’s movement, all allied characters affected by ZEAL gain OVERSHIELD {2/3/4}."
+    "effect": "The Zealot flies up to its SPEED. Allies affected by ZEAL at any point during this movement may BOOST up to their SPEED +2 as a reaction. At the end of the Zealot’s movement, all allies affected by ZEAL gain OVERSHIELD {2/3/4}."
   },
   {
     "id": "ppg_npcf_blazing_fervor_zealot",
@@ -2227,7 +2230,7 @@
     "locked": false,
     "type": "Trait",
     "tags": [],
-    "effect": "Allied characters affected by ZEAL deal an additional 1 Burn on successful attacks."
+    "effect": "Allies affected by ZEAL deal an additional 1 Burn on successful attacks."
   },
   {
     "id": "ppg_npcf_flagellants_cleansing_zealot",
@@ -2249,7 +2252,7 @@
         "id": "tg_full_tech"
       }
     ],
-    "effect": "The Zealot clears up to one condition on each allied character affected by ZEAL. The Zealot gains each condition cleared until the end of its next turn."
+    "effect": "The Zealot clears up to one condition on each ally affected by ZEAL. The Zealot gains each condition cleared until the end of its next turn."
   },
   {
     "id": "ppg_npcf_rally_the_righteous_zealot",
@@ -2277,7 +2280,7 @@
         "id": "tg_quick_tech"
       }
     ],
-    "effect": "The Zealot may pull any number of allied characters within SENSORS up to 5 spaces directly towards it. The Zealot and all allied characters affected by ZEAL may then gain OVERSHIELD {2/3/4}."
+    "effect": "Allies affected by ZEAL clear SLOWED and stand up from PRONE, then move up to 2 spaces in a direction of their choice. They then gain OVERSHIELD {2/3/4}."
   },
   {
     "id": "ppg_npcf_brand_the_heretic_zealot",
@@ -2307,7 +2310,7 @@
       2,
       3
     ],
-    "effect": "The Zealot makes a tech attack against a character within SENSORS. On a hit, the target gains LOCK ON. When an allied character consumes this LOCK ON, they gain OVERSHIELD {4/5/6}, and any damage they deal to the target for the rest of the turn cannot be reduced in any way."
+    "effect": "The Zealot makes a tech attack against a character within SENSORS. On a hit, the target gains LOCK ON. When an ally consumes this LOCK ON, they gain OVERSHIELD {4/5/6}, and any damage they deal to the target for the rest of the turn cannot be reduced in any way."
   },
   {
     "id": "ppg_npcf_martyrdom_zealot",
@@ -2324,7 +2327,7 @@
         "id": "tg_overshield"
       }
     ],
-    "effect": "When the Zealot would take structure damage or be destroyed, it first grants OVERSHIELD {2/3/4} to each allied character affected by ZEAL and inflicts {2/3/4} Burn on each hostile character affected by ZEAL."
+    "effect": "When the Zealot would take structure damage or be destroyed, it first grants OVERSHIELD {2/3/4} to each ally affected by ZEAL and inflicts {2/3/4} Burn on each hostile character within the area of ZEAL."
   },
   {
     "id": "ppg_npcf_err_data_not_found_anomaly",
