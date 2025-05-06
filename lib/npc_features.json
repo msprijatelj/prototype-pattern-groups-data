@@ -694,6 +694,9 @@
     "weapon_type": "Auxiliary Melee",
     "tags": [
       {
+        "id": "tg_smart"
+      },
+      {
         "id": "tg_thrown",
         "val": 10
       }
@@ -1022,7 +1025,11 @@
     "locked": false,
     "type": "Weapon",
     "weapon_type": "Main Melee",
-    "tags": [],
+    "tags": [
+      {
+        "id": "tg_smart"
+      }
+    ],
     "attack_bonus": [
       2,
       4,
@@ -1665,7 +1672,11 @@
     "locked": false,
     "type": "Weapon",
     "weapon_type": "Main CQB",
-    "tags": [],
+    "tags": [
+      {
+        "id": "tg_smart"
+      }
+    ],
     "attack_bonus": [
       1,
       2,
@@ -1778,6 +1789,9 @@
       {
         "id": "tg_knockback",
         "val": 3
+      },
+      {
+        "id": "tg_smart"
       }
     ],
     "attack_bonus": [
@@ -1989,7 +2003,7 @@
   },
   {
     "id": "ppg_npcf_dandelion_flak_cannon_vulture",
-    "name": "“Dandelion” Flak Cannon",
+    "name": "“Dandelion” Shrapnel Cannon",
     "origin": {
       "type": "Class",
       "name": "Vulture",
@@ -2491,7 +2505,11 @@
     "locked": false,
     "type": "Weapon",
     "weapon_type": "Main Memetic",
-    "tags": [],
+    "tags": [
+      {
+        "id": "tg_smart"
+      }
+    ],
     "attack_bonus": [
       1,
       2,
