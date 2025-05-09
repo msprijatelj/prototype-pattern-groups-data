@@ -3081,7 +3081,7 @@
     "locked": false,
     "type": "Trait",
     "tags": [],
-    "effect": "The Brigand receives +1 Difficulty on HULL checks and saves."
+    "effect": "The Brigand gains +1 Difficulty on all checks and saves for one mech skill (chosen at creation): HULL, AGILITY, SYSTEMS, or ENGINEERING."
   },
   {
     "id": "ppg_npcf_brigand_systems_and_traits_brigand",
