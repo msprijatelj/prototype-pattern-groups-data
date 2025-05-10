@@ -3155,7 +3155,7 @@
         "id": "tg_quick_tech"
       }
     ],
-    "effect": "The Brigand targets one hostile DEPLOYABLE or DRONE. Until the end of the scene, the Brigand is treated as the controller of the target DEPLOYABLE or DRONE. DRONES cannot be recalled while affected by this system.<br/><br/>The original controller can regain control and end this effect with a successful SYSTEMS check as a quick action while the affected DEPLOYABLE or DRONE is within their SENSORS and line of sight."
+    "effect": "The Brigand targets one hostile DEPLOYABLE or DRONE. Until the end of the scene, the Brigand is treated as the controller of the target DEPLOYABLE or DRONE. Attacks, checks, and saves made or forced by the DRONE use the original controller’s statistics. DRONES cannot be recalled while affected by this system.<br/><br/>The original controller can regain control and end this effect with a successful SYSTEMS check as a quick action while the affected DEPLOYABLE or DRONE is within their SENSORS and line of sight."
   },
   {
     "id": "ppg_npcf_enforce_limiters_brigand",
