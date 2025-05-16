@@ -1224,7 +1224,7 @@
         ]
       }
     ],
-    "effect": "This weapon attacks by drawing its line in any direction from a point within its range."
+    "effect": "This weapon attacks by drawing its line in any direction from a point within its range. It calculates cover and line of sight from the chosen point."
   },
   {
     "id": "ppg_npcf_adhesive_gel_napalm",
@@ -1353,7 +1353,7 @@
         "id": "tg_free_action"
       }
     ],
-    "effect": "The area targeted by the SALAMANDER THERMOBARIC CATAPULT is set on fire and becomes difficult terrain until extinguished, until the end of the scene, or until this system is used again. Characters that start their turn within the area or move into it for the first time in a round must pass an ENGINEERING save or take {1/2/3} Heat and {2/3/4} Burn."
+    "effect": "The area targeted by the SALAMANDER THERMOBARIC CATAPULT is set on fire and becomes difficult terrain until extinguished, until the end of the scene, or until this system is used again. Characters that start their turn within the area or move into it for the first time in a round must pass an ENGINEERING save or take 2 Heat and {2/3/4} Burn."
   },
   {
     "id": "ppg_npcf_flock_drones_occultist",
@@ -2650,7 +2650,7 @@
       4,
       6
     ],
-    "effect": "The Anomaly makes a tech attack against a character that can OVERCHARGE in SENSORS. On a hit, the Anomaly chooses an ally within SENSORS. As a free action, the ally can force the target to OVERCHARGE, but gain no extra action. Instead, the ally may take any quick action as a free action. This effect then ends on both characters."
+    "effect": "The Anomaly makes a tech attack against a character that can OVERCHARGE in SENSORS. On a hit, the Anomaly chooses an ally within SENSORS. 1/scene, the ally may OVERCHARGE using the target’s OVERCHARGE counter. This increases the target’s counter, but the ally takes the Heat. This may affect a character only once per FULL REPAIR."
   },
   {
     "id": "ppg_npcf_time_stop_anomaly",
