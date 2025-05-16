@@ -413,7 +413,7 @@
         "id": "tg_quick_action"
       }
     ],
-    "effect": "The Ghost bonds with one tangible adjacent allied character, becoming INTANGIBLE and sharing <b>one</b> of the target’s spaces. The bonded target may take 1 Heat as a protocol to gain the Ghost’s PHASE SHIFT feature until the end of the turn. However, if either bonded character takes Heat or a condition, the other character takes the same amount of Heat and receives that condition for the same duration.<br/><br/>While bonded, the Ghost can only move with the bonded target’s <b>voluntary movement</b>. The bond ends if the Ghost uses this system again, no longer shares a space with the bonded target, or is STUNNED, JAMMED, overheated, or destroyed."
+    "effect": "The Ghost bonds with one tangible adjacent allied character, becoming INTANGIBLE and sharing <b>one</b> of the target’s spaces. The bonded target may take 1 Heat as a protocol to gain the Ghost’s PHASE SHIFT feature until the end of the turn. However, if either bonded character takes Heat or a condition, the other character takes the same amount of Heat and receives that condition for the same duration.<br/><br/>While bonded, the Ghost moves with the bonded target’s <b>voluntary movement</b>. The bond ends if the Ghost uses this system again, no longer shares a space with the bonded target, or is STUNNED, JAMMED, overheated, or destroyed."
   },
   {
     "id": "ppg_npcf_paradox_state_ghost",
@@ -427,6 +427,10 @@
     "type": "Tech",
     "tech_type": "Quick",
     "tags": [
+      {
+        "id": "tg_heat_self",
+        "val": 1
+      },
       {
         "id": "tg_quick_tech"
       }
@@ -3155,7 +3159,7 @@
         "id": "tg_quick_tech"
       }
     ],
-    "effect": "The Brigand targets one hostile DEPLOYABLE or DRONE. Until the end of the scene, the Brigand is treated as the controller of the target DEPLOYABLE or DRONE. DRONES cannot be recalled while affected by this system.<br/><br/>The original controller can regain control and end this effect with a successful SYSTEMS check as a quick action while the affected DEPLOYABLE or DRONE is within their SENSORS and line of sight."
+    "effect": "The Brigand targets one hostile DEPLOYABLE or DRONE. Until the end of the scene, the Brigand is treated as the controller of the target DEPLOYABLE or DRONE. Attacks, checks, and saves made or forced by the DRONE use the original controller’s statistics. DRONES cannot be recalled while affected by this system.<br/><br/>The original controller can regain control and end this effect with a successful SYSTEMS check as a quick action while the affected DEPLOYABLE or DRONE is within their SENSORS and line of sight."
   },
   {
     "id": "ppg_npcf_enforce_limiters_brigand",
