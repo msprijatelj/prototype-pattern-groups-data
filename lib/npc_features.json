@@ -727,7 +727,7 @@
       }
     ],
     "effect": "",
-    "on_hit": "The target must pass a HULL save or be IMMOBILIZED until the end of their next turn."
+    "on_hit": "If the attacker is not ENGAGED, the target must pass a HULL save or be IMMOBILIZED until the end of their next turn."
   },
   {
     "id": "ppg_npcf_reckless_dive_hatchet",
