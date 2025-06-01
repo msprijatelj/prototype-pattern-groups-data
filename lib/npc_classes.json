@@ -4,8 +4,8 @@
     "name": "Anchor",
     "role": "defender",
     "info": {
-      "flavor": "Fielding highly experimental gravitomagnetic LODESTONE technology, Anchor-class mechs bend the trajectories of conventional arms away from allies and towards themselves. Their tremendous bulk and sweeping gravitic weaponry warp the battlefield around their dominating presence.",
-      "tactics": "The Anchor positions itself in a location where LODESTONE interferes with enemy artillery. Its GRAVITY CANNON disrupts advancing enemies. The Anchor may be durable, but it’s slow, easy to hit, and is susceptible to KNOCKBACK and similar forced movement."
+      "flavor": "<p>Fielding highly experimental gravitomagnetic LODESTONE technology, Anchor-class mechs bend the trajectories of conventional arms away from allies and towards themselves. Their tremendous bulk and sweeping gravitic weaponry warp the battlefield around their dominating presence.</p>",
+      "tactics": "<p>The Anchor positions itself in a location where <b><span style='font-variant: small-caps;'>Lodestone</span></b> interferes with enemy artillery. Its <b><span style='font-variant: small-caps;'>Gravity Cannon</span></b> disrupts advancing enemies. The Anchor may be durable, but it’s slow, easy to hit, and is susceptible to <b><span style='font-variant: small-caps;'>Knockback</span></b> and similar forced movement.</p>"
     },
     "stats": {
       "armor": [
@@ -106,8 +106,8 @@
     "name": "Capacitor",
     "role": "support",
     "info": {
-      "flavor": "The fruits of SSC’s “Emperor” project eventually yielded the Capacitor-class mech, a mass-production model refining the Marathon Arc into a more cheaply-produced cannon. Capacitors freely convert between excess shielding and lethal electricity. Oddly, Capacitor squadmates frequently report moments of team synchronicity long after hostilities conclude.",
-      "tactics": "The Capacitor dispenses OVERSHIELD from the back lines, staying in cover while it fires its oversized MARATHON ARQUEBUS. Complementing this, it uses ARC FEEDBACK to deter hostile attacks. Despite the OVERSHIELD it can gain from RECIPROCITY, the fragile Capacitor relies upon distance to stay alive."
+      "flavor": "<p>The fruits of SSC’s “Emperor” project eventually yielded the Capacitor-class mech, a mass-production model refining the Marathon Arc into a more cheaply-produced cannon. Capacitors freely convert between excess shielding and lethal electricity. Oddly, Capacitor squadmates frequently report moments of team synchronicity long after hostilities conclude.</p>",
+      "tactics": "<p>The Capacitor dispenses <b><span style='font-variant: small-caps;'>Overshield</span></b> from the back lines, staying in cover while it fires its oversized <b><span style='font-variant: small-caps;'>Marathon Arquebus</span></b>. Complementing this, it uses <b><span style='font-variant: small-caps;'>Arc Feedback</span></b> to deter hostile attacks. Despite the <b><span style='font-variant: small-caps;'>Overshield</span></b> it can gain from <b><span style='font-variant: small-caps;'>Reciprocity</span></b>, the fragile Capacitor relies upon distance to stay alive.</p>"
     },
     "stats": {
       "armor": [
@@ -208,8 +208,8 @@
     "name": "Ghost",
     "role": "support",
     "info": {
-      "flavor": "Ghost pattern groups represent an emergent mech classification using Aunic technology stolen during Boundary Garden skirmishes. The PG possesses very few offensive capabilities, but carries potent equipment to shunt it and a paired mech partially into the Firmament.",
-      "tactics": "Ghosts bond with an ally to grant them INTANGIBLE. PHASE SHIFT allows allies to act and traverse the battlefield without fear of reprisal. This comes at a cost: QUANTUM BOND is susceptible to conditions and forced movement, and the Ghost is frail without it."
+      "flavor": "<p>Ghost pattern groups represent an emergent mech classification using Aunic technology stolen during Boundary Garden skirmishes. The PG possesses very few offensive capabilities, but carries potent equipment to shunt it and a paired mech partially into the Firmament.</p>",
+      "tactics": "<p>Ghosts bond with an ally to grant them <b><span style='font-variant: small-caps;'>Intangible</span></b>. <b><span style='font-variant: small-caps;'>Phase Shift</span></b> allows allies to act and traverse the battlefield without fear of reprisal. This comes at a cost: <b><span style='font-variant: small-caps;'>Quantum Bond</span></b> is susceptible to conditions and forced movement, and the Ghost is frail without it.</p>"
     },
     "stats": {
       "armor": [
@@ -311,8 +311,8 @@
     "name": "Hatchet",
     "role": "striker",
     "info": {
-      "flavor": "Nimble, clever, and borderline reckless, Hatchet mechs sport a variety of thrown weaponry and athletic enhancements. Detractors often claim that the Hatchet’s hit-and-run tactics are needlessly risky compared to conventional ranged weaponry. However, they often change their tune when a tree-sized, razor-sharp axe embeds itself inches from their cockpit.",
-      "tactics": "Hatchet mechs are skirmishers, preparing a stinging CLEAVING RETRIEVAL with a variety of hobbling THROWN weapons. Once they retrieve their weapon, they use FLIP KICK to reset their position and restart pressure. SLOWED and IMMOBILIZED hold their mobility in check."
+      "flavor": "<p>Nimble, clever, and borderline reckless, Hatchet mechs sport a variety of thrown weaponry and athletic enhancements. Detractors often claim that the Hatchet’s hit-and-run tactics are needlessly risky compared to conventional ranged weaponry. However, they often change their tune when a tree-sized, razor-sharp axe embeds itself inches from their cockpit.</p>",
+      "tactics": "<p>Hatchet mechs are skirmishers, preparing a stinging <b><span style='font-variant: small-caps;'>Cleaving Retrieval</span></b> with a variety of hobbling <b><span style='font-variant: small-caps;'>Thrown</span></b> weapons. Once they retrieve their weapon, they use <b><span style='font-variant: small-caps;'>Flip Kick</span></b> to reset their position and restart pressure. <b><span style='font-variant: small-caps;'>Slowed</span></b> and <b><span style='font-variant: small-caps;'>Immobilized</span></b> hold their mobility in check.</p>"
     },
     "stats": {
       "armor": [
@@ -413,8 +413,8 @@
     "name": "Knight",
     "role": "defender",
     "info": {
-      "flavor": "Knight pilots live for the thrill of battle. They engage high value targets in a compulsory duel, locking themselves in a fight to the death. Their mighty blows leave their opponents open to supporting fire from the Knight’s compatriots.",
-      "tactics": "The Knight challenges an opponent to a COMPELLED DUEL. However, this proves to be far from a fair fight, as CHAMPION’S GREATSWORD leaves the Knight’s opponent vulnerable to outside interference and TEMPLAR’S SHIELD impedes their attacks. While durable, the Knight is easy to hit with both weapons and tech attacks."
+      "flavor": "<p>Knight pilots live for the thrill of battle. They engage high value targets in a compulsory duel, locking themselves in a fight to the death. Their mighty blows leave their opponents open to supporting fire from the Knight’s compatriots.</p>",
+      "tactics": "<p>The Knight challenges an opponent to a <b><span style='font-variant: small-caps;'>Compelled Duel</span></b>. However, this proves to be far from a fair fight, as <b><span style='font-variant: small-caps;'>Champion’s Greatsword</span></b> leaves the Knight’s opponent vulnerable to outside interference and <b><span style='font-variant: small-caps;'>Templar’s Shield</span></b> impedes their attacks. While durable, the Knight is easy to hit with both weapons and tech attacks.</p>"
     },
     "stats": {
       "armor": [
@@ -515,8 +515,8 @@
     "name": "Mesmerist",
     "role": "defender",
     "info": {
-      "flavor": "The Mesmerist pattern group inverts the Gorgon PG’s BASILISK to become a target from which opponents cannot look away. Entrancing targeting systems and sapient minds alike, a Mesmerist chassis enshrouds itself with digital glamours to protect itself from more vulgar mechs. Those who attempt to flee the show risk jabs from a paracode-laced rapier.",
-      "tactics": "Mesmerists wrest their foes’ attention away from their allies with MEMETIC MAGNETISM, relying upon illusory MIRROR IMAGES to avoid harm. They punish retreat via OVERWATCH with their CODESPIKE RAPIER. Despite their evasiveness, Mesmerists are delicate in comparison to other defenders should a blow land upon them."
+      "flavor": "<p>The Mesmerist pattern group inverts the Gorgon PG’s BASILISK to become a target from which opponents cannot look away. Entrancing targeting systems and sapient minds alike, a Mesmerist chassis enshrouds itself with digital glamours to protect itself from more vulgar mechs. Those who attempt to flee the show risk jabs from a paracode-laced rapier.</p>",
+      "tactics": "<p>Mesmerists wrest their foes’ attention away from their allies with <b><span style='font-variant: small-caps;'>Memetic Magnetism</span></b>, relying upon illusory <b><span style='font-variant: small-caps;'>Mirror Images</span></b> to avoid harm. They punish retreat via <b><span style='font-variant: small-caps;'>Overwatch</span></b> with their <b><span style='font-variant: small-caps;'>Codespike Rapier</span></b>. Despite their evasiveness, Mesmerists are delicate in comparison to other defenders should a blow land upon them.</p>"
     },
     "stats": {
       "armor": [
@@ -618,8 +618,8 @@
     "name": "Napalm",
     "role": "artillery",
     "info": {
-      "flavor": "The next, horrifying step of the HA Genghis’s lineage. Napalm-pattern chassis paint the battlefield with their namesake combustible, coating unfortunate targets in a burning, viscid concoction. Numerous reports of authoritarian groups fielding this pattern group have found their way to the desks of Union’s DoJ/HR, much to the chagrin of Harrison Armory.",
-      "tactics": "The Napalm lives to set the world on fire. Its SALAMANDER THERMOBARIC CATAPULT covers the battlefield with flammable ADHESIVE GEL to apply movement pressure with SLOWED and HP pressure with Burn. Despite its large HEAT CAP, the Napalm is still susceptible to control effects due to its low E-DEFENSE."
+      "flavor": "<p>The next, horrifying step of the HA Genghis’s lineage. Napalm-pattern chassis paint the battlefield with their namesake combustible, coating unfortunate targets in a burning, viscid concoction. Numerous reports of authoritarian groups fielding this pattern group have found their way to the desks of Union’s DoJ/HR, much to the chagrin of Harrison Armory.</p>",
+      "tactics": "<p>The Napalm lives to set the world on fire. Its <b><span style='font-variant: small-caps;'>Salamander Thermobaric Catapult</span></b> covers the battlefield with flammable <b><span style='font-variant: small-caps;'>Adhesive Gel</span></b> to apply movement pressure with <b><span style='font-variant: small-caps;'>Slowed</span></b> and <b>HP</b> pressure with <b>Burn</b>. Despite its large <b><span style='font-variant: small-caps;'>Heat Cap</span></b>, the Napalm is still susceptible to control effects due to its low <b><span style='font-variant: small-caps;'>E-Defense</span></b>.</p>"
     },
     "stats": {
       "armor": [
@@ -720,8 +720,8 @@
     "name": "Occultist",
     "role": "controller",
     "info": {
-      "flavor": "Utilizing quick-printing drones and an outlawed branch of liturgicode, Occultist pattern groups guide an unwitting “flock” of drones that they sacrifice to fortify their allies or hobble their opponents. Especially ruthless pilots may even turn this power upon low-performance allies.",
-      "tactics": "Occultists lead a group of FLOCK DRONES to control a wide area, using DIVINER’S DARTS against foes or empty spaces to guide their “followers.” The drones provide a mild benefit, but once they reach the end of their usefulness, the Occultist activates REAP THE CHAFF to cash out their true value."
+      "flavor": "<p>Utilizing quick-printing drones and an outlawed branch of liturgicode, Occultist pattern groups guide an unwitting “flock” of drones that they sacrifice to fortify their allies or hobble their opponents. Especially ruthless pilots may even turn this power upon low-performance allies.</p>",
+      "tactics": "<p>Occultists lead a group of <b><span style='font-variant: small-caps;'>FLOCK Drones</span></b> to control a wide area, using <b><span style='font-variant: small-caps;'>Diviner’s Darts</span></b> against foes or empty spaces to guide their “followers.” The drones provide a mild benefit, but once they reach the end of their usefulness, the Occultist activates <b><span style='font-variant: small-caps;'>Reap the Chaff</span></b> to cash out their true value.</p>"
     },
     "stats": {
       "armor": [
@@ -822,8 +822,8 @@
     "name": "Prism",
     "role": "artillery",
     "info": {
-      "flavor": "Through advanced OMNIGLASS technology, Prism-pattern mechs exploit a holographic double to rapidly establish a defensive line. The double acts as a temporary platform to deploy a variety of optical- and steelglass-based weaponry alongside an aggressive e-war suite.",
-      "tactics": "Prisms deploy a durable hologram through a PRISMATIC PROJECTOR to hold ground, flank, and draw attention. DIFFRACTION BEAM attacks in a unique pattern, and REFRACTING ARMOR frustrates opposing artillery. The Prism’s weak hacking defenses and subpar heat capacity offset its flexibility."
+      "flavor": "<p>Through advanced OMNIGLASS technology, Prism-pattern mechs exploit a holographic double to rapidly establish a defensive line. The double acts as a temporary platform to deploy a variety of optical- and steelglass-based weaponry alongside an aggressive e-war suite.</p>",
+      "tactics": "<p>Prisms deploy a durable hologram through a <b><span style='font-variant: small-caps;'>Prismatic Projector</span></b> to hold ground, flank, and draw attention. <b><span style='font-variant: small-caps;'>Diffraction Beam</span></b> attacks in a unique pattern, and <b><span style='font-variant: small-caps;'>Refracting Armor</span></b> frustrates opposing artillery. The Prism’s weak hacking defenses and subpar heat capacity offset its flexibility.</p>"
     },
     "stats": {
       "armor": [
@@ -925,8 +925,8 @@
     "name": "Torrent",
     "role": "controller",
     "info": {
-      "flavor": "Union agents identify Torrent pattern groups by a roiling swarm of nanites coalescing around a central control unit. These nanites propel the Torrent across the battlefield, solidifying into concussive waves that batter and toss opponents in its wake.",
-      "tactics": "Torrent mechs are bruisers that specialize in taking control of objectives. They STORM SURGE towards a target location and push away opposing forces with WAVEBREAKER, enhanced by UNDERTOW. In spite of their KNOCKBACK effects, Torrents struggle at holding objectives and prove easy to overheat."
+      "flavor": "<p>Union agents identify Torrent pattern groups by a roiling swarm of nanites coalescing around a central control unit. These nanites propel the Torrent across the battlefield, solidifying into concussive waves that batter and toss opponents in its wake.</p>",
+      "tactics": "<p>Torrent mechs are bruisers that specialize in taking control of objectives. They <b><span style='font-variant: small-caps;'>Storm Surge</span></b> towards a target location and push away opposing forces with <b><span style='font-variant: small-caps;'>Wavebreaker</span></b>, enhanced by <b><span style='font-variant: small-caps;'>Undertow</span></b>. In spite of their <b><span style='font-variant: small-caps;'>Knockback</span></b> effects, Torrents struggle at holding objectives and prove easy to overheat.</p>"
     },
     "stats": {
       "armor": [
@@ -1028,8 +1028,8 @@
     "name": "Vulture",
     "role": "support",
     "info": {
-      "flavor": "One pilot’s wreck is another pilot’s windfall, a fact that Vulture pilots know all too well. Vultures propel themselves across the battlefield in clumsy leaps, autonomous manipulators extracting choice salvage and jury-rigging a variety of useful equipment.",
-      "tactics": "Vultures position themselves near allied strikers, granting staying power with “MAGPIE” SUBROUTINES and obstructing vision with “DANDELION” PHOSPHORUS CANNON. They take cover next to wreckages before dismantling them for useful materials and fleeing back to safer ground. Though hardy for support mechs, Vultures struggle against melee and hacker opponents."
+      "flavor": "<p>One pilot’s wreck is another pilot’s windfall, a fact that Vulture pilots know all too well. Vultures propel themselves across the battlefield in clumsy leaps, autonomous manipulators extracting choice salvage and jury-rigging a variety of useful equipment.</p>",
+      "tactics": "<p>Vultures position themselves near allied strikers, granting staying power with <b><span style='font-variant: small-caps;'>“Magpie” Subroutines</span></b> and obstructing vision with <b><span style='font-variant: small-caps;'>“Dandelion” Phosphorus Cannon</span></b>. They take cover next to <b>wreckages</b> before dismantling them for useful materials and fleeing back to safer ground. Though hardy for support mechs, Vultures struggle against melee and hacker opponents.</p>"
     },
     "stats": {
       "armor": [
@@ -1130,8 +1130,8 @@
     "name": "Zealot",
     "role": "support",
     "info": {
-      "flavor": "Zealot-class mechs exemplify “leading by example” through a frightening disregard for their own self-preservation. Through esoteric liturgicode, they twist and mold allies to lethal efficiency. Pilots often report “blackouts” following the throes of Zealot-inspired ecstasy.",
-      "tactics": "Zealots lead from the front, their ZEAL empowering allies to storm enemy fortifications, expose hostiles’ vulnerabilities, and endure incoming punishment. However, the Zealot itself is frail, its range is short, and the JAMMED condition disables most of its kit."
+      "flavor": "<p>Zealot-class mechs exemplify “leading by example” through a frightening disregard for their own self-preservation. Through esoteric liturgicode, they twist and mold allies to lethal efficiency. Pilots often report “blackouts” following the throes of Zealot-inspired ecstasy.</p>",
+      "tactics": "<p>Zealots lead from the front, their <b><span style='font-variant: small-caps;'>Zeal</span></b> empowering allies to storm enemy fortifications, expose hostiles’ vulnerabilities, and endure incoming punishment. However, the Zealot itself is frail, its range is short, and the <b><span style='font-variant: small-caps;'>Jammed</span></b> condition disables most of its kit.</p>"
     },
     "stats": {
       "armor": [
