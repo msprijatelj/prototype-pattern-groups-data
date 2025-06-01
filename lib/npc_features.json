@@ -1377,7 +1377,7 @@
         "id": "tg_quick_action"
       }
     ],
-    "effect": "FLOCK Drone (Size 1/2, HP 5, Evasion 10, E-Defense 10, Tags: Drone)<br/><br/>This drone can be deployed to an adjacent space, and the Occultist enters the scene with 2 of these drones adjacent to it. While adjacent to a drone, allied characters gain soft cover and hostile characters take 1 Heat each time they take an action. Only 5 drones may be deployed at a time."
+    "effect": "FLOCK Drone (Size 1/2, HP 1, Evasion 10, E-Defense 10, Tags: Drone)<br/><br/>Upon activating this system or entering the scene, the Occultist deploys 2 of these drones adjacent to it. While adjacent to at least one drone, allied characters gain soft cover and hostile characters take 1 Heat each time they take an action. Only 5 drones may be deployed at a time."
   },
   {
     "id": "ppg_npcf_diviners_darts_occultist",
@@ -1444,7 +1444,7 @@
         "id": "tg_quick_tech"
       }
     ],
-    "effect": "Target a controlled DRONE or allied GRUNT in SENSORS. Destroy them and apply these effects:<ul><li>Allied characters adjacent to the target gain OVERSHIELD {4/6/8} and clear one condition.</li><li>Hostile characters adjacent to the target gain LOCK-ON and must pass an AGILITY save or become JAMMED until the end of their next turn.</li></ul>"
+    "effect": "Target a controlled DRONE or allied GRUNT in SENSORS. Destroy them and apply these effects:<ul><li>Allied characters adjacent to the target gain OVERSHIELD {3/5/7} and clear one condition.</li><li>Hostile characters adjacent to the target gain LOCK-ON and must pass an AGILITY save or become JAMMED until the end of their next turn.</li></ul>"
   },
   {
     "id": "ppg_npcf_jealous_flock_occultist",
@@ -3627,7 +3627,7 @@
     "locked": false,
     "type": "Trait",
     "tags": [],
-    "effect": "FLOCK DRONES may deploy two drones at a time. REAP THE CHAFF may destroy two targets at a time."
+    "effect": "REAP THE CHAFF may destroy two targets at a time. If it does, the Occultist may deploy 1 FLOCK DRONE adjacent to itself as a free action."
   },
   {
     "id": "ppg_npcf_double_vision_prism",
