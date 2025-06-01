@@ -413,7 +413,7 @@
         "id": "tg_quick_action"
       }
     ],
-    "effect": "<p>The Ghost <b>bonds</b> with one tangible adjacent allied character, becoming <b><span style='font-variant: small-caps;'>Intangible</span></b> and sharing <b>one</b> of the target’s spaces. The bonded target may take <b>1 Heat</b> as a <b>protocol</b> to gain the Ghost’s <b><span style="font-variant: small-caps;">Phase Shift</span></b> feature until the end of the turn. However, if either bonded character takes <b>Heat</b> or a <b>condition</b>, the other character takes the same amount of <b>Heat</b> and receives that condition for the same duration.</p><p>While <b>bonded</b>, the Ghost moves with the bonded target’s <b>voluntary movement</b>. The bond ends if the Ghost uses this system again, no longer shares a space with the bonded target, or is <b><span style='font-variant: small-caps;'>Stunned</span></b>, <b><span style='font-variant: small-caps;'>Jammed</span></b>, overheated, or destroyed.</p>"
+    "effect": "<p>The Ghost <b>bonds</b> with one tangible adjacent allied character, becoming <b><span style='font-variant: small-caps;'>Intangible</span></b> and sharing <b>one</b> of the target’s spaces. The bonded target may take <b>1 Heat</b> as a <b>protocol</b> to gain the Ghost’s <b><span style='font-variant: small-caps;'>Phase Shift</span></b> feature until the end of the turn. However, if either bonded character takes <b>Heat</b> or a <b>condition</b>, the other character takes the same amount of <b>Heat</b> and receives that condition for the same duration.</p><p>While <b>bonded</b>, the Ghost moves with the bonded target’s <b>voluntary movement</b>. The bond ends if the Ghost uses this system again, no longer shares a space with the bonded target, or is <b><span style='font-variant: small-caps;'>Stunned</span></b>, <b><span style='font-variant: small-caps;'>Jammed</span></b>, overheated, or destroyed.</p>"
   },
   {
     "id": "ppg_npcf_paradox_state_ghost",
@@ -448,7 +448,7 @@
     "locked": false,
     "type": "Trait",
     "tags": [],
-    "effect": "<p>Gain <b><span style="font-variant: small-caps;">Bolster</span></b> (<i>Lancer</i>, p. 69) as an option for <b><span style='font-variant: small-caps;'>Quick Tech</span></b>. Tech attacks against targets <b><span style="font-variant: small-caps;">Bolstered</span></b> by this character receive <b>+1 Difficulty</b>.</p>"
+    "effect": "<p>Gain <b><span style='font-variant: small-caps;'>Bolster</span></b> (<i>Lancer</i>, p. 69) as an option for <b><span style='font-variant: small-caps;'>Quick Tech</span></b>. Tech attacks against targets <b><span style='font-variant: small-caps;'>Bolstered</span></b> by this character receive <b>+1 Difficulty</b>.</p>"
   },
   {
     "id": "ppg_npcf_superimpose_firmament_ghost",
@@ -509,7 +509,7 @@
       }
     ],
     "trigger": "<p>A hostile action is taken against a character <b>bonded</b> with the Ghost.</p>",
-    "effect": "<p>The Ghost may first use <b><span style="font-variant: small-caps;">Paradox State</span></b>.</p>"
+    "effect": "<p>The Ghost may first use <b><span style='font-variant: small-caps;'>Paradox State</span></b>.</p>"
   },
   {
     "id": "ppg_npcf_spectral_flight_ghost",
@@ -522,7 +522,7 @@
     "locked": false,
     "type": "Trait",
     "tags": [],
-    "effect": "<p>Characters affected by <b><span style="font-variant: small-caps;">Phase Shift</span></b> may treat all of their movement as <b>flying</b>.</p>"
+    "effect": "<p>Characters affected by <b><span style='font-variant: small-caps;'>Phase Shift</span></b> may treat all of their movement as <b>flying</b>.</p>"
   },
   {
     "id": "ppg_npcf_split_timestream_ghost",
@@ -584,7 +584,7 @@
         ]
       }
     ],
-    "effect": "<p>If the attacker is not <b><span style="font-variant: small-caps;">Engaged</span></b>, this weapon deals double damage (excluding bonus damage), and the target is <b><span style='font-variant: small-caps;'>Slowed</span></b> until the end of their next turn.</p>"
+    "effect": "<p>If the attacker is not <b><span style='font-variant: small-caps;'>Engaged</span></b>, this weapon deals double damage (excluding bonus damage), and the target is <b><span style='font-variant: small-caps;'>Slowed</span></b> until the end of their next turn.</p>"
   },
   {
     "id": "ppg_npcf_cleaving_retrieval_hatchet",
@@ -683,7 +683,7 @@
         ]
       }
     ],
-    "effect": "<p>When retrieving this weapon, <b><span style="font-variant: small-caps;">Cleaving Retrieval</span></b>’s damage becomes <b>AP Energy damage</b>.</p>"
+    "effect": "<p>When retrieving this weapon, <b><span style='font-variant: small-caps;'>Cleaving Retrieval</span></b>’s damage becomes <b>AP Energy damage</b>.</p>"
   },
   {
     "id": "ppg_npcf_rocket_bola_hatchet",
@@ -727,7 +727,7 @@
       }
     ],
     "effect": "",
-    "on_hit": "<p>If the attacker is not <b><span style="font-variant: small-caps;">Engaged</span></b>, the target must pass a <b><span style='font-variant: small-caps;'>Hull</span></b> save or be <b><span style='font-variant: small-caps;'>Immobilized</span></b> until the end of their next turn.</p>"
+    "on_hit": "<p>If the attacker is not <b><span style='font-variant: small-caps;'>Engaged</span></b>, the target must pass a <b><span style='font-variant: small-caps;'>Hull</span></b> save or be <b><span style='font-variant: small-caps;'>Immobilized</span></b> until the end of their next turn.</p>"
   },
   {
     "id": "ppg_npcf_reckless_dive_hatchet",
@@ -1228,7 +1228,7 @@
         ]
       }
     ],
-    "effect": "<p>This weapon attacks by drawing its <b><span style="font-variant: small-caps;">Line</span></b> in any direction from a point within its <b><span style="font-variant: small-caps;">Range</span></b>. It calculates cover and line of sight from the chosen point.</p>"
+    "effect": "<p>This weapon attacks by drawing its <b><span style='font-variant: small-caps;'>Line</span></b> in any direction from a point within its <b><span style='font-variant: small-caps;'>Range</span></b>. It calculates cover and line of sight from the chosen point.</p>"
   },
   {
     "id": "ppg_npcf_adhesive_gel_napalm",
@@ -1565,7 +1565,7 @@
         "id": "tg_quick_tech"
       }
     ],
-    "effect": "<p>Place an untargetable holographic <b>projector</b> in a free space within <b><span style='font-variant: small-caps;'>Sensors</span></b>. The Prism is treated as occupying a projector’s space for all purposes, including <b><span style='font-variant: small-caps;'>Range</span></b>, <b><span style="font-variant: small-caps;">Threat</span></b>, <b><span style='font-variant: small-caps;'>Sensors</span></b>, line of sight, adjacency, engagement, contesting objectives, and being affected by abilities. The Prism gains <b><span style='font-variant: small-caps;'>Resistance</span> to all damage, Heat, and Burn</b> inflicted through a projector.</p><p>If the Prism would have more than <b>1 projector</b>, it must destroy any beyond that limit. Projectors last until the end of the scene, or until the Prism is <b><span style='font-variant: small-caps;'>Stunned</span></b>, <b><span style='font-variant: small-caps;'>Jammed</span></b>, overheated, or destroyed.</p>"
+    "effect": "<p>Place an untargetable holographic <b>projector</b> in a free space within <b><span style='font-variant: small-caps;'>Sensors</span></b>. The Prism is treated as occupying a projector’s space for all purposes, including <b><span style='font-variant: small-caps;'>Range</span></b>, <b><span style='font-variant: small-caps;'>Threat</span></b>, <b><span style='font-variant: small-caps;'>Sensors</span></b>, line of sight, adjacency, engagement, contesting objectives, and being affected by abilities. The Prism gains <b><span style='font-variant: small-caps;'>Resistance</span> to all damage, Heat, and Burn</b> inflicted through a projector.</p><p>If the Prism would have more than <b>1 projector</b>, it must destroy any beyond that limit. Projectors last until the end of the scene, or until the Prism is <b><span style='font-variant: small-caps;'>Stunned</span></b>, <b><span style='font-variant: small-caps;'>Jammed</span></b>, overheated, or destroyed.</p>"
   },
   {
     "id": "ppg_npcf_diffraction_beam_prism",
@@ -1706,7 +1706,7 @@
         ]
       }
     ],
-    "effect": "<p>The Prism may <b><span style='font-variant: small-caps;'>Overwatch</span></b> with this weapon when hostile characters enter or leave spaces within its <b><span style="font-variant: small-caps;">Threat</span></b>, regardless where their movement began.</p>"
+    "effect": "<p>The Prism may <b><span style='font-variant: small-caps;'>Overwatch</span></b> with this weapon when hostile characters enter or leave spaces within its <b><span style='font-variant: small-caps;'>Threat</span></b>, regardless where their movement began.</p>"
   },
   {
     "id": "ppg_npcf_scintillating_gleam_prism",
@@ -1763,7 +1763,7 @@
     "locked": false,
     "type": "Trait",
     "tags": [],
-    "effect": "<p>The Torrent always has soft cover, and it ignores difficult terrain and engagement. Other characters can move through and end their turns in the Torrent’s spaces, and long as it occupies at least 1 free space, it can end its turn overlapping obstructions, cover, or other characters.</p>"
+    "effect": "<p>The Torrent always has <b>soft cover</b>, and it ignores <b>difficult terrain</b> and engagement. Other characters can move through and end their turns in the Torrent’s spaces, and long as it occupies at least <b>1 free space</b>, it can end its turn overlapping obstructions, cover, or other characters.</p>"
   },
   {
     "id": "ppg_npcf_undertow_torrent",
@@ -1776,7 +1776,7 @@
     "locked": false,
     "type": "Trait",
     "tags": [],
-    "effect": "<p>Involuntary movement caused by the Torrent ignores difficult terrain. Hostile characters that collide with an obstruction or mech due to this movement immediately stop moving and must pass a <b><span style='font-variant: small-caps;'>Hull</span></b> save or be knocked <b><span style='font-variant: small-caps;'>Prone</span></b>.</p>"
+    "effect": "<p><b>Involuntary movement</b> caused by the Torrent ignores <b>difficult terrain</b>. Hostile characters that collide with an obstruction or mech due to this movement immediately stop moving and must pass a <b><span style='font-variant: small-caps;'>Hull</span></b> save or be knocked <b><span style='font-variant: small-caps;'>Prone</span></b>.</p>"
   },
   {
     "id": "ppg_npcf_wavebreaker_torrent",
@@ -1828,7 +1828,7 @@
         ]
       }
     ],
-    "effect": "<p>This weapon must inflict <b><span style='font-variant: small-caps;'>Knockback</span></b>. The Torrent pushes itself to a space within the affected area.</p>"
+    "effect": "<p>This weapon must inflict <b><span style='font-variant: small-caps;'>Knockback</span></b>. The Torrent <b>pushes</b> itself to a space within the affected area.</p>"
   },
   {
     "id": "ppg_npcf_storm_surge_torrent",
@@ -1849,7 +1849,7 @@
         "id": "tg_quick_action"
       }
     ],
-    "effect": "<p>The Torrent pushes itself 10 spaces in a straight line, ignoring obstructions. Hostile characters that the Torrent passes through must make a <b><span style='font-variant: small-caps;'>Hull</span></b> save or be pushed to a space adjacent to the Torrent at the end of its movement.</p>"
+    "effect": "<p>The Torrent <b>pushes</b> itself <b>10 spaces</b> in a straight line, ignoring obstructions. Hostile characters that the Torrent passes through must make a <b><span style='font-variant: small-caps;'>Hull</span></b> save or be <b>pushed</b> to a space adjacent to the Torrent at the end of its movement.</p>"
   },
   {
     "id": "ppg_npcf_scalding_greywash_torrent",
@@ -1870,7 +1870,7 @@
         "id": "tg_quick_action"
       }
     ],
-    "effect": "<p>Hostile characters in a Cone 3 area must pass an <b><span style='font-variant: small-caps;'>Agility</span></b> save or take {3/4/5} <b>Burn</b> and become <b><span style='font-variant: small-caps;'>Impaired</span></b> until the end of their next turn.</p>"
+    "effect": "<p>Hostile characters in a <b>Cone 3</b> area must pass an <b><span style='font-variant: small-caps;'>Agility</span></b> save or take {3/4/5} <b>Burn</b> and become <b><span style='font-variant: small-caps;'>Impaired</span></b> until the end of their next turn.</p>"
   },
   {
     "id": "ppg_npcf_wash_away_torrent",
@@ -1904,7 +1904,7 @@
         "id": "tg_quick_action"
       }
     ],
-    "effect": "<p>Hostile characters in a Burst 2 area must pass a <b><span style='font-variant: small-caps;'>Hull</span></b> save or be knocked <b><span style='font-variant: small-caps;'>Prone</span></b> and pushed 2 spaces away from the Torrent. The affected area then becomes difficult terrain for the rest of the scene.</p>"
+    "effect": "<p>Hostile characters in a <b>Burst 2</b> area must pass a <b><span style='font-variant: small-caps;'>Hull</span></b> save or be knocked <b><span style='font-variant: small-caps;'>Prone</span></b> and pushed <b>2 spaces</b> away from the Torrent. The affected area then becomes <b>difficult terrain</b> for the rest of the scene.</p>"
   },
   {
     "id": "ppg_npcf_crashing_tsunami_torrent",
@@ -1952,7 +1952,7 @@
         ]
       }
     ],
-    "effect": "<p>This weapon must inflict <b><span style='font-variant: small-caps;'>Knockback</span></b>. The Torrent pushes itself to a space within the affected area. If the Torrent inflicts <b><span style='font-variant: small-caps;'>Prone</span></b>, reload this weapon.</p>"
+    "effect": "<p>This weapon must inflict <b><span style='font-variant: small-caps;'>Knockback</span></b>. The Torrent <b>pushes</b> itself to a space within the affected area. If the Torrent inflicts <b><span style='font-variant: small-caps;'>Prone</span></b>, reload this weapon.</p>"
   },
   {
     "id": "ppg_npcf_drown_in_nanites_torrent",
@@ -1969,7 +1969,7 @@
         "id": "tg_full_action"
       }
     ],
-    "effect": "<p>An adjacent character must make an <b><span style='font-variant: small-caps;'>Agility</span></b> save; larger targets always succeed. On a success, they are <b><span style='font-variant: small-caps;'>Slowed</span></b> and <b><span style='font-variant: small-caps;'>Impaired</span></b> until the end of their next turn. On a failure, the target occupies the Torrent’s space and is engulfed and until they pass a <b><span style='font-variant: small-caps;'>Hull</span></b> save as a full action, they stop occupying the Torrent’s space, the Torrent is <b><span style='font-variant: small-caps;'>Jammed</span></b>, <b><span style='font-variant: small-caps;'>Stunned</span></b>, overheated, or destroyed, or the Torrent uses this action again. While engulfed, the target is <b><span style='font-variant: small-caps;'>Jammed</span></b> and <b><span style='font-variant: small-caps;'>Immobilized</span></b> and moves with the Torrent.</p>"
+    "effect": "<p>An adjacent character must make an <b><span style='font-variant: small-caps;'>Agility</span></b> save; larger targets always succeed. On a success, they are <b><span style='font-variant: small-caps;'>Slowed</span></b> and <b><span style='font-variant: small-caps;'>Impaired</span></b> until the end of their next turn. On a failure, the target occupies the Torrent’s space and is <b>engulfed</b> and until they pass a <b><span style='font-variant: small-caps;'>Hull</span></b> save as a <b>full action</b>, they stop occupying the Torrent’s space, the Torrent is <b><span style='font-variant: small-caps;'>Jammed</span></b>, <b><span style='font-variant: small-caps;'>Stunned</span></b>, overheated, or destroyed, or the Torrent uses this action again. While <b>engulfed</b>, the target is <b><span style='font-variant: small-caps;'>Jammed</span></b> and <b><span style='font-variant: small-caps;'>Immobilized</span></b> and moves with the Torrent.</p>"
   },
   {
     "id": "ppg_npcf_magpie_subroutines_vulture",
@@ -1990,7 +1990,7 @@
         "id": "tg_quick_action"
       }
     ],
-    "effect": "<p>Destroy one of the following:<ul><li>An adjacent wreckage.</li><li>A weapon or system equipped by the Vulture.</li><li>A weapon or system equipped by a willing adjacent character.</li></ul>The Vulture or a character in Range 5 then gains one of the following benefits:<ul><li><b><span style='font-variant: small-caps;'>Recharge</span></b> one weapon or system.</li><li>Repair one destroyed weapon or system.</li><li>All <b><span style='font-variant: small-caps;'>Limited</span></b> weapons and systems regain 1 use.</li><li>Gain <b><span style='font-variant: small-caps;'>Overshield</span></b> {4/6/8} and clear 1 condition.</li></ul></p>"
+    "effect": "<p><b>Destroy</b> one of the following:</p><p><ul><li>An adjacent <b>wreckage</b>.</li><li>A weapon or system equipped by the Vulture.</li><li>A weapon or system equipped by a willing adjacent character.</li></ul></p><p>The Vulture or a character in <b>Range 5</b> then gains one of the following benefits:</p><p><ul><li><b><span style='font-variant: small-caps;'>Recharge</span></b> one weapon or system.</li><li>Repair one destroyed weapon or system.</li><li>All <b><span style='font-variant: small-caps;'>Limited</span></b> weapons and systems regain <b>1 use</b>.</li><li>Gain <b><span style='font-variant: small-caps;'>Overshield</span></b> {4/6/8} and clear <b>1 condition</b>.</li></ul></p>"
   },
   {
     "id": "ppg_npcf_condor_jet_propulsion_wings_vulture",
@@ -2003,7 +2003,7 @@
     "locked": false,
     "type": "System",
     "tags": [],
-    "effect": "<p>The Vulture can fly whenever it moves or BOOSTS. It must land at the end of its turn or begin falling.</p>"
+    "effect": "<p>The Vulture can <b>fly</b> whenever it moves or <b><span style='font-variant: small-caps;'>Boosts</span></b>. It must land at the end of its turn or begin falling.</p>"
   },
   {
     "id": "ppg_npcf_dandelion_flak_cannon_vulture",
@@ -2048,7 +2048,7 @@
         ]
       }
     ],
-    "effect": "<p>On Attack: The area affected by this weapon provides soft cover until the end of the Vulture’s next turn. Characters at least partly within this cover cannot draw line of sight outside of its area.</p>"
+    "effect": "<p><b>On Attack:</b> The area affected by this weapon provides <b>soft cover</b> until the end of the Vulture’s next turn. Characters at least partly within this cover cannot draw line of sight outside of its area.</p>"
   },
   {
     "id": "ppg_npcf_trash_to_treasure_vulture",
@@ -2061,7 +2061,7 @@
     "locked": false,
     "type": "Trait",
     "tags": [],
-    "effect": "<p>“MAGPIE” SUBROUTINES gains an additional option when it destroys a wreckage: <ul><li>Gain a weapon or system owned by the wreckage’s original character. It gains <b><span style='font-variant: small-caps;'>Limited 1</span></b>, replacing any other value of <b><span style='font-variant: small-caps;'>Limited</span></b>.</li></ul></p>"
+    "effect": "<p><b><span style='font-variant: small-caps;'>“Magpie” Subroutines</span></b> gains an additional option when it destroys a <b>wreckage</b>: <ul><li>Gain a weapon or system owned by the <b>wreckage</b>’s original character. It gains <b><span style='font-variant: small-caps;'>Limited 1</span></b>, replacing any other value of <b><span style='font-variant: small-caps;'>Limited</span></b>.</li></ul></p>"
   },
   {
     "id": "ppg_npcf_jumpstart_vulture",
@@ -2074,7 +2074,7 @@
     "locked": false,
     "type": "Trait",
     "tags": [],
-    "effect": "<p>The target of “MAGPIE” SUBROUTINES may immediately recharge {1/2/3} weapons or systems.</p>"
+    "effect": "<p>The target of <b><span style='font-variant: small-caps;'>“Magpie” Subroutines</span></b> may immediately recharge {1/2/3} weapons or systems.</p>"
   },
   {
     "id": "ppg_npcf_opportunistic_salvage_vulture",
@@ -2095,8 +2095,8 @@
         "val": 1
       }
     ],
-    "trigger": "<p>A <b><span style='font-variant: small-caps;'>Drone</span></b> or <b><span style='font-variant: small-caps;'>Deployable</span></b> is destroyed within Range 5.</p>",
-    "effect": "<p>Immediately use “MAGPIE” SUBROUTINES, without needing to destroy a wreckage, weapon, or system.</p>"
+    "trigger": "<p>A <b><span style='font-variant: small-caps;'>Drone</span></b> or <b><span style='font-variant: small-caps;'>Deployable</span></b> is destroyed within <b>Range 5</b>.</p>",
+    "effect": "<p>Immediately use <b><span style='font-variant: small-caps;'>“Magpie” Subroutines</span></b>, without needing to destroy a <b>wreckage</b>, weapon, or system.</p>"
   },
   {
     "id": "ppg_npcf_magnet_bomb_vulture",
@@ -2120,7 +2120,7 @@
         "id": "tg_quick_action"
       }
     ],
-    "effect": "<p>Characters in a Blast 1 area in Range 5 gain <b><span style='font-variant: small-caps;'>Lock On</span></b> and must make an <b><span style='font-variant: small-caps;'>Agility</span></b> save. On a failure, all weapon attacks made against them gain <b><span style='font-variant: small-caps;'>Seeking</span></b> until the end of their next turn, and they take {4/6/8} Explosive damage, half on success.</p>"
+    "effect": "<p>Characters in a <b>Blast 1</b> area in <b>Range 5</b> gain <b><span style='font-variant: small-caps;'>Lock On</span></b> and must make an <b><span style='font-variant: small-caps;'>Agility</span></b> save. On a failure, all weapon attacks made against them gain <b><span style='font-variant: small-caps;'>Seeking</span></b> until the end of their next turn, and they take {4/6/8} <b>Explosive damage</b>, half on success.</p>"
   },
   {
     "id": "ppg_npcf_carcass_bunker_vulture",
@@ -2144,7 +2144,7 @@
         "id": "tg_quick_action"
       }
     ],
-    "effect": "<p>“Carcass” Bunker (Size 4, HP {15/20/25}, Evasion 5, E-Defense 5, Tags: Deployable)</p><p>Destroy an adjacent wreckage to deploy this bunker in a Burst 2 area centered upon it. Characters completely within the affected area gain hard cover against all attacks made from outside the bunker.</p>"
+    "effect": "<p><b>“Carcass” Bunker (Size </b>4<b>, HP </b>{15/20/25}<b>, Evasion </b>5<b>, E-Defense </b>5<b>, Tags: </b><i>Deployable</i><b>)</b></p><p>Destroy an adjacent <b>wreckage</b> to deploy this bunker in a <b>Burst 2</b> area centered upon it. Characters completely within the affected area gain <b>hard cover</b> against all attacks made from outside the bunker.</p>"
   },
   {
     "id": "ppg_npcf_zeal_zealot",
@@ -2168,7 +2168,7 @@
         "id": "tg_protocol"
       }
     ],
-    "effect": "<p>The Zealot emanates an area of fervent energy, affecting characters in <b><span style='font-variant: small-caps;'>Sensors</span></b> and line of sight:<ul><li>Hostile characters with any <b>Burn</b> lose <b><span style='font-variant: small-caps;'>Invisible</span></b> and <b><span style='font-variant: small-caps;'>Hidden</span></b> and can’t regain either in the area.</li><li>Allies ignore engagement and reactions, and their weapon attacks gain <b><span style='font-variant: small-caps;'>Knockback 1</span></b> and AP against targets in the area.</li><li>Upon activation, the Zealot gains <b><span style='font-variant: small-caps;'>Overshield</span></b> equal to the number of allies in the area.</li></ul>This area lasts until the start of the Zealot’s first turn each round or until the Zealot is <b><span style='font-variant: small-caps;'>Stunned</span></b>, <b><span style='font-variant: small-caps;'>Jammed</span></b>, overheated, or destroyed.</p>"
+    "effect": "<p>The Zealot emanates an area of fervent energy, affecting characters in <b><span style='font-variant: small-caps;'>Sensors</span></b> and line of sight:<ul><li>Hostile characters with any <b>Burn</b> lose <b><span style='font-variant: small-caps;'>Invisible</span></b> and <b><span style='font-variant: small-caps;'>Hidden</span></b> and can’t regain either in the area.</li><li>Allies ignore engagement and reactions, and their weapon attacks gain <b><span style='font-variant: small-caps;'>Knockback 1</span></b> and <b>AP</b> against targets in the area.</li><li>Upon activation, the Zealot gains <b><span style='font-variant: small-caps;'>Overshield</span></b> equal to the number of allies in the area.</li></ul>This area lasts until the start of the Zealot’s first turn each round or until the Zealot is <b><span style='font-variant: small-caps;'>Stunned</span></b>, <b><span style='font-variant: small-caps;'>Jammed</span></b>, overheated, or destroyed.</p>"
   },
   {
     "id": "ppg_npcf_emberlight_nexus_zealot",
@@ -2235,7 +2235,7 @@
         "id": "tg_quick_tech"
       }
     ],
-    "effect": "<p>The Zealot flies up to its <b><span style='font-variant: small-caps;'>Speed</span></b>. Allies affected by <b><span style='font-variant: small-caps;'>Zeal</span></b> at any point during this movement may <b><span style='font-variant: small-caps;'>Boost</span></b> up to their <b><span style='font-variant: small-caps;'>Speed</span></b> +2 as a reaction. At the end of the Zealot’s movement, all allies affected by <b><span style='font-variant: small-caps;'>Zeal</span></b> gain <b><span style='font-variant: small-caps;'>Overshield</span></b> {2/3/4}.</p>"
+    "effect": "<p>The Zealot <b>flies</b> up to its <b><span style='font-variant: small-caps;'>Speed</span></b>. Allies affected by <b><span style='font-variant: small-caps;'>Zeal</span></b> at any point during this movement may <b><span style='font-variant: small-caps;'>Boost</span></b> up to their <b><span style='font-variant: small-caps;'>Speed</span> +2</b> as a <b>reaction</b>. At the end of the Zealot’s movement, all allies affected by <b><span style='font-variant: small-caps;'>Zeal</span></b> gain <b><span style='font-variant: small-caps;'>Overshield</span></b> {2/3/4}.</p>"
   },
   {
     "id": "ppg_npcf_blazing_fervor_zealot",
@@ -2270,7 +2270,7 @@
         "id": "tg_full_tech"
       }
     ],
-    "effect": "<p>The Zealot clears up to one condition on each ally affected by <b><span style='font-variant: small-caps;'>Zeal</span></b>. The Zealot gains each condition cleared until the end of its next turn.</p>"
+    "effect": "<p>The Zealot clears up to <b>one condition</b> on each ally affected by <b><span style='font-variant: small-caps;'>Zeal</span></b>. The Zealot gains each condition cleared until the end of its next turn.</p>"
   },
   {
     "id": "ppg_npcf_rally_the_righteous_zealot",
@@ -2298,7 +2298,7 @@
         "id": "tg_quick_tech"
       }
     ],
-    "effect": "<p>Allies affected by <b><span style='font-variant: small-caps;'>Zeal</span></b> clear <b><span style='font-variant: small-caps;'>Slowed</span></b> and stand up from <b><span style='font-variant: small-caps;'>Prone</span></b>, then move up to 2 spaces in a direction of their choice. They then gain <b><span style='font-variant: small-caps;'>Overshield</span></b> {2/3/4}.</p>"
+    "effect": "<p>Allies affected by <b><span style='font-variant: small-caps;'>Zeal</span></b> clear <b><span style='font-variant: small-caps;'>Slowed</span></b> and stand up from <b><span style='font-variant: small-caps;'>Prone</span></b>, then move up to <b>2 spaces</b> in a direction of their choice. They then gain <b><span style='font-variant: small-caps;'>Overshield</span></b> {2/3/4}.</p>"
   },
   {
     "id": "ppg_npcf_brand_the_heretic_zealot",
@@ -2328,7 +2328,7 @@
       2,
       3
     ],
-    "effect": "<p>The Zealot makes a tech attack against a character within <b><span style='font-variant: small-caps;'>Sensors</span></b>. On a hit, the target gains <b><span style='font-variant: small-caps;'>Lock On</span></b>. When an ally consumes this <b><span style='font-variant: small-caps;'>Lock On</span></b>, they gain <b><span style='font-variant: small-caps;'>Overshield</span></b> {4/6/8}, and any damage they deal to the target for the rest of the turn cannot be reduced in any way.</p>"
+    "effect": "<p>The Zealot makes a <b>tech attack</b> against a character within <b><span style='font-variant: small-caps;'>Sensors</span></b>. On a hit, the target gains <b><span style='font-variant: small-caps;'>Lock On</span></b>. When an ally consumes this <b><span style='font-variant: small-caps;'>Lock On</span></b>, they gain <b><span style='font-variant: small-caps;'>Overshield</span></b> {4/6/8}, and any damage they deal to the target for the rest of the turn cannot be reduced in any way.</p>"
   },
   {
     "id": "ppg_npcf_martyrdom_zealot",
@@ -2345,7 +2345,7 @@
         "id": "tg_overshield"
       }
     ],
-    "effect": "<p>When the Zealot would take structure damage or be destroyed, it first grants <b><span style='font-variant: small-caps;'>Overshield</span></b> {2/3/4} to each ally affected by <b><span style='font-variant: small-caps;'>Zeal</span></b> and inflicts {2/3/4} <b>Burn</b> on each hostile character within the area of <b><span style='font-variant: small-caps;'>Zeal</span></b>.</p>"
+    "effect": "<p>When the Zealot would take <b>structure damage</b> or be destroyed, it first grants <b><span style='font-variant: small-caps;'>Overshield</span></b> {2/3/4} to each ally affected by <b><span style='font-variant: small-caps;'>Zeal</span></b> and inflicts {2/3/4} <b>Burn</b> on each hostile character within the area of <b><span style='font-variant: small-caps;'>Zeal</span></b>.</p>"
   },
   {
     "id": "ppg_npcf_err_data_not_found_anomaly",
@@ -2358,7 +2358,7 @@
     "locked": false,
     "type": "Trait",
     "tags": [],
-    "effect": "<p>The Anomaly’s class and templates are not revealed to players until they SCAN it.</p>"
+    "effect": "<p>The Anomaly’s <b>class</b> and <b>templates</b> are not revealed to players until they <b><span style='font-variant: small-caps;'>Scan</span></b> it.</p>"
   },
   {
     "id": "ppg_npcf_anomaly_systems_and_traits_anomaly",
@@ -2371,7 +2371,7 @@
     "locked": false,
     "type": "Trait",
     "tags": [],
-    "effect": "<p>The Anomaly chooses one optional feature from the Anomaly Systems and Traits or Exotic Systems and Traits (<i>Lancer</i>, p. 327).</p>"
+    "effect": "<p>The Anomaly chooses one optional feature from the <b>Anomaly Systems and Traits</b> or <b>Exotic Systems and Traits</b> (<i>Lancer</i>, p. 327).</p>"
   },
   {
     "id": "ppg_npcf_extrude_knife_anomaly",
@@ -2452,7 +2452,7 @@
         ]
       }
     ],
-    "on_hit": "<p>The target may choose to spend <b><span style='font-variant: small-caps;'>1 Repair</span></b> to take half damage from this attack.</p>"
+    "on_hit": "<p>The target may choose to spend <b><span style='font-variant: small-caps;'>1 Repair</span></b> to take <b>half damage</b> from this attack.</p>"
   },
   {
     "id": "ppg_npcf_feedback_lash_anomaly",
@@ -2496,7 +2496,7 @@
         ]
       }
     ],
-    "on_hit": "<p>After dealing damage, if the target has any <b><span style='font-variant: small-caps;'>Overshield</span></b>, this weapon deals Energy AP equal to half the target’s <b><span style='font-variant: small-caps;'>Overshield</span></b> to them and their allies within Range 3.</p>"
+    "on_hit": "<p>After dealing damage, if the target has any <b><span style='font-variant: small-caps;'>Overshield</span></b>, this weapon deals <b>Energy AP damage</b> equal to half the target’s <b><span style='font-variant: small-caps;'>Overshield</span></b> to them and their allies within <b>Range 3</b>.</p>"
   },
   {
     "id": "ppg_npcf_memento_culpa_anomaly",
@@ -2601,7 +2601,7 @@
         "id": "tg_quick_tech"
       }
     ],
-    "effect": "<p>The Anomaly forces a character in <b><span style='font-variant: small-caps;'>Sensors</span></b> to make an <b><span style='font-variant: small-caps;'>Engineering</span></b> save. On a failure, the Anomaly chooses one of the target’s weapons. That weapon loses all tags and modifications, then gains the <b><span style='font-variant: small-caps;'>Inaccurate</span></b> and <b><span style='font-variant: small-caps;'>Ordnance</span></b> tags. This feature can only affect a character 1/scene, and its effect lasts until the target finishes a rest.</p>"
+    "effect": "<p>The Anomaly forces a character in <b><span style='font-variant: small-caps;'>Sensors</span></b> to make an <b><span style='font-variant: small-caps;'>Engineering</span></b> save. On a failure, the Anomaly chooses one of the target’s weapons. That weapon loses all tags and modifications, then gains the <b><span style='font-variant: small-caps;'>Inaccurate</span></b> and <b><span style='font-variant: small-caps;'>Ordnance</span></b> tags. This feature can only affect a character <b>1/scene</b>, and its effect lasts until the target finishes a <b>rest</b>.</p>"
   },
   {
     "id": "ppg_npcf_process_drinker_anomaly",
@@ -2628,7 +2628,7 @@
       2,
       3
     ],
-    "effect": "<p>The Anomaly makes a tech attack against a character with SYSTEM POINTS (SP) within <b><span style='font-variant: small-caps;'>Sensors</span></b>. On a hit, the target loses 1d3 SP. If this would leave the target over their SP capacity, they must mark equipment with SP costs as disabled until their new SP can accommodate the combined SP of their remaining equipment. Disabled equipment cannot be <b><span style='font-variant: small-caps;'>Activated</span></b>, its passive effects are suppressed, and ongoing effects caused by that equipment immediately end. The target regains lost SP after completing a rest.</p>"
+    "effect": "<p>The Anomaly makes a <b>tech attack</b> against a character with <b><span style='font-variant: small-caps;'>System Points</span></b> (<b>SP</b>) within <b><span style='font-variant: small-caps;'>Sensors</span></b>. On a hit, the target loses <b>1d3 SP</b>. If this would leave the target over their <b>SP</b> capacity, they must mark equipment with <b>SP</b> costs as disabled until their new <b>SP</b> can accommodate the combined <b>SP</b> of their remaining equipment. Disabled equipment cannot be <b><span style='font-variant: small-caps;'>Activated</span></b>, its passive effects are suppressed, and ongoing effects caused by that equipment immediately end. The target regains lost <b>SP</b> after completing a <b>rest</b>.</p>"
   },
   {
     "id": "ppg_npcf_stolen_cycles_anomaly",
@@ -2654,7 +2654,7 @@
       4,
       6
     ],
-    "effect": "<p>The Anomaly makes a tech attack against a character that can <b><span style='font-variant: small-caps;'>Overcharge</span></b> in <b><span style='font-variant: small-caps;'>Sensors</span></b>. On a hit, the Anomaly chooses an ally within <b><span style='font-variant: small-caps;'>Sensors</span></b>. 1/scene, the ally may <b><span style='font-variant: small-caps;'>Overcharge</span></b> using the target’s <b><span style='font-variant: small-caps;'>Overcharge</span></b> counter. This increases the target’s counter, but the ally takes the Heat. This may affect a character only once per <b><span style='font-variant: small-caps;'>Full Repair</span></b>.</p>"
+    "effect": "<p>The Anomaly makes a <b>tech attack</b> against a character that can <b><span style='font-variant: small-caps;'>Overcharge</span></b> in <b><span style='font-variant: small-caps;'>Sensors</span></b>. On a hit, the Anomaly chooses an ally within <b><span style='font-variant: small-caps;'>Sensors</span></b>. 1/scene, the ally may <b><span style='font-variant: small-caps;'>Overcharge</span></b> using the target’s <b><span style='font-variant: small-caps;'>Overcharge</span></b> counter. This increases the target’s counter, but the ally takes the <b>Heat</b>. This may affect a character only once per <b><span style='font-variant: small-caps;'>Full Repair</span></b>.</p>"
   },
   {
     "id": "ppg_npcf_time_stop_anomaly",
@@ -2694,7 +2694,7 @@
         "val": 6
       }
     ],
-    "effect": "<p>When the Anomaly inflicts involuntary movement upon a mech, it may force the mech’s pilot to make a GRIT save. On a failure, the pilot immediately DISMOUNTS their mech, becomes <b><span style='font-variant: small-caps;'>Intangible</span></b>, and becomes the target of the involuntary movement instead. The pilot remains <b><span style='font-variant: small-caps;'>Intangible</span></b> until they end their turn in the same space as their mech, which causes them to immediately MOUNT it.</p>"
+    "effect": "<p>When the Anomaly inflicts <b>involuntary movement</b> upon a mech, it may force the mech’s pilot to make a <b><span style='font-variant: small-caps;'>Grit</span></b> save. On a failure, the pilot immediately <b><span style='font-variant: small-caps;'>Dismounts</span></b> their mech, becomes <b><span style='font-variant: small-caps;'>Intangible</span></b>, and becomes the target of the <b>involuntary movement</b> instead. The pilot remains <b><span style='font-variant: small-caps;'>Intangible</span></b> until they end their turn in the same space as their mech, which causes them to immediately <b><span style='font-variant: small-caps;'>Mount</span></b> it.</p>"
   },
   {
     "id": "ppg_npcf_counterfactualize_by_anomaly",
@@ -2707,7 +2707,7 @@
     "locked": false,
     "type": "Trait",
     "tags": [],
-    "effect": "<p>On a critical hit, the target must make a save using a pilot trigger of their choice. On a failure, they suffer the following effects:<ul><li>Move all ranks from that trigger to a different trigger (chosen at random). This effect lasts until the character uses the chosen trigger as part of any DOWNTIME ACTION.</li><li>The pilot takes AP damage equal to the ranks in that trigger.</li><li>If piloting a mech, the mech takes Heat equal to the ranks in that trigger.</li></ul>Each character can be affected by this 1/scene.</p>"
+    "effect": "<p>On a <b>critical hit</b>, the target must make a save using a <b>pilot trigger</b> of their choice. On a failure, they suffer the following effects:<ul><li>Move all ranks from that trigger to a different trigger (chosen at random). This effect lasts until the character uses the chosen trigger as part of any <b>downtime action</b>.</li><li>The pilot takes <b>AP</b> damage equal to the ranks in that trigger.</li><li>If piloting a mech, the mech takes <b>Heat</b> equal to the ranks in that trigger.</li></ul>Each character can be affected by this <b>1/scene</b>.</p>"
   },
   {
     "id": "ppg_npcf_doppelganger_anomaly",
@@ -2720,7 +2720,7 @@
     "locked": false,
     "type": "Trait",
     "tags": [],
-    "effect": "<p>This replaces >//[ERR: DATA NOT FOUND]. The Anomaly appears to have the same class, template, <b><span style='font-variant: small-caps;'>Size</span></b>, and appearance as another allied mech until a character SCANS it. This otherwise does not affect its actual statistics or abilities.</p>"
+    "effect": "<p>This replaces <b>>//[ERR: DATA NOT FOUND]</b>. The Anomaly appears to have the same class, template, <b><span style='font-variant: small-caps;'>Size</span></b>, and appearance as another allied mech until a character <b><span style='font-variant: small-caps;'>Scans</span></b> it. This otherwise does not affect its actual statistics or abilities.</p>"
   },
   {
     "id": "ppg_npcf_dust_and_echoes_anomaly",
@@ -2733,7 +2733,7 @@
     "locked": false,
     "type": "Trait",
     "tags": [],
-    "effect": "<p>When the Anomaly is destroyed, it creates an <b><span style='font-variant: small-caps;'>Intangible</span></b> soul 1d6+3 spaces away in a random direction. This soul has 3/4/5 HP, <b><span style='font-variant: small-caps;'>Evasion 8</span></b>, <b><span style='font-variant: small-caps;'>E-Defense 8</span></b>, and <b><span style='font-variant: small-caps;'>Speed</span></b> 3. At the end of each round, it loses 1 HP and moves up to its <b><span style='font-variant: small-caps;'>Speed</span></b> towards the nearest wreckage. If it ends its movement within a wreckage, the wreckage absorbs the soul and reanimates as the mech it was before it was destroyed with <b><span style='font-variant: small-caps;'>1 Structure</span></b>, <b><span style='font-variant: small-caps;'>1 Stress</span></b>, and full HP, except it has the ANOMALY template and this trait.</p>"
+    "effect": "<p>When the Anomaly is destroyed, it creates an <b><span style='font-variant: small-caps;'>Intangible</span></b> soul <b>1d6+3</b> spaces away in a random direction. This soul has 3/4/5 <b>HP</b>, <b><span style='font-variant: small-caps;'>Evasion 8</span></b>, <b><span style='font-variant: small-caps;'>E-Defense 8</span></b>, and <b><span style='font-variant: small-caps;'>Speed 3</span></b>. At the end of each round, it loses <b>1 HP</b> and moves up to its <b><span style='font-variant: small-caps;'>Speed</span></b> towards the nearest <b>wreckage</b>. If it ends its movement within a <b>wreckage</b>, the <b>wreckage</b> absorbs the soul and reanimates as the mech it was before it was destroyed with <b><span style='font-variant: small-caps;'>1 Structure</span></b>, <b><span style='font-variant: small-caps;'>1 Stress</span></b>, and full <b>HP</b>, except it has the <b><span style='font-variant: small-caps;'>Anomaly</span></b> template and this trait.</p>"
   },
   {
     "id": "ppg_npcf_elevator_clip_anomaly",
@@ -2746,7 +2746,7 @@
     "locked": false,
     "type": "Trait",
     "tags": [],
-    "effect": "<p>The Anomaly cannot leave the ground. It instantly climbs to the top of objects or terrain without expending movement, and immediately descends to the ground without taking damage when falling.</p>"
+    "effect": "<p>The Anomaly cannot leave the ground. It instantly <b>climbs</b> to the top of objects or terrain without expending movement, and immediately descends to the ground without taking damage when <b>falling</b>.</p>"
   },
   {
     "id": "ppg_npcf_entropic_corrosion_anomaly",
@@ -2759,7 +2759,7 @@
     "locked": false,
     "type": "Trait",
     "tags": [],
-    "effect": "<p>On a critical hit, the Anomaly may force the target to pass an <b><span style='font-variant: small-caps;'>Engineering</span></b> save or lose <b>2d3</b> <b><span style='font-variant: small-caps;'>Armor</span></b>, half on success. This can cause the target to have negative <b><span style='font-variant: small-caps;'>Armor</span></b>. Therefore, incoming damage increases by the negative <b><span style='font-variant: small-caps;'>Armor</span></b> value instead. The AP tag does not affect targets with negative <b><span style='font-variant: small-caps;'>Armor</span></b>. The target can end this effect by STABILIZING and choosing to restore HP.</p>"
+    "effect": "<p>On a <b>critical hit</b>, the Anomaly may force the target to pass an <b><span style='font-variant: small-caps;'>Engineering</span></b> save or lose <b>2d3 <span style='font-variant: small-caps;'>Armor</span></b>, half on success. This can cause the target to have negative <b><span style='font-variant: small-caps;'>Armor</span></b>. Therefore, incoming damage increases by the negative <b><span style='font-variant: small-caps;'>Armor</span></b> value instead. The <b>AP</b> tag does not affect targets with negative <b><span style='font-variant: small-caps;'>Armor</span></b>. The target can end this effect by <b><span style='font-variant: small-caps;'>Stabilizing</span></b> and choosing to restore <b>HP</b>.</p>"
   },
   {
     "id": "ppg_npcf_harbinger_anomaly",
@@ -2772,7 +2772,7 @@
     "locked": false,
     "type": "Trait",
     "tags": [],
-    "effect": "<p>At the end of any round while the Anomaly is destroyed, it may choose to re-emerge from an allied mech, transfiguring them into itself and killing any pilot inside. The allied mech becomes a copy of the Anomaly with full HP, no <b><span style='font-variant: small-caps;'>Heat</span></b>, <b><span style='font-variant: small-caps;'>1 Structure</span></b>, <b><span style='font-variant: small-caps;'>1 Stress</span></b>, and the same expended abilities (such as those with <b><span style='font-variant: small-caps;'>Recharge</span></b>, <b><span style='font-variant: small-caps;'>Limited</span></b>, or 1/SCENE tags).</p>"
+    "effect": "<p>At the end of any round while the Anomaly is destroyed, it may choose to re-emerge from an allied mech, transfiguring them into itself and killing any pilot inside. The allied mech becomes a copy of the Anomaly with full <b>HP</b>, no <b><span style='font-variant: small-caps;'>Heat</span></b>, <b><span style='font-variant: small-caps;'>1 Structure</span></b>, <b><span style='font-variant: small-caps;'>1 Stress</span></b>, and the same expended abilities (such as those with <b><span style='font-variant: small-caps;'>Recharge</span></b>, <b><span style='font-variant: small-caps;'>Limited</span></b>, or <b><span style='font-variant: small-caps;'>1/scene</span></b> tags).</p>"
   },
   {
     "id": "ppg_npcf_heliocide_anomaly",
@@ -2785,7 +2785,7 @@
     "locked": false,
     "type": "Trait",
     "tags": [],
-    "effect": "<p>When the Anomaly is destroyed, its wreckage becomes an invulnerable star of the same <b><span style='font-variant: small-caps;'>Size</span></b>. At the end of next round, the star explodes a Burst 20 area. All characters in the area not in hard cover or behind a character the same <b><span style='font-variant: small-caps;'>Size</span></b> or larger as themselves must pass an <b><span style='font-variant: small-caps;'>Agility</span></b> save or take 20/30/40 Energy AP, half on success. Each character can only be affected by this trait 1/round.</p>"
+    "effect": "<p>When the Anomaly is destroyed, its <b>wreckage</b> becomes an invulnerable star of the same <b><span style='font-variant: small-caps;'>Size</span></b>. At the end of next round, the star explodes a <b>Burst 20</b> area. All characters in the area not in <b>hard cover</b> or behind a character the same <b><span style='font-variant: small-caps;'>Size</span></b> or larger as themselves must pass an <b><span style='font-variant: small-caps;'>Agility</span></b> save or take {20/30/40} <b>Energy AP</b>, half on success. Each character can only be affected by this trait <b>1/round</b>.</p>"
   },
   {
     "id": "ppg_npcf_local_climate_anomaly",
@@ -2798,7 +2798,7 @@
     "locked": false,
     "type": "Trait",
     "tags": [],
-    "effect": "<p>The Anomaly is surrounded by a Burst 3 area under the effect of one environmental hazard (<i>Lancer</i>, pp. 278–279), to which the Anomaly is <b><span style='font-variant: small-caps;'>Immune</span></b>.</p>"
+    "effect": "<p>The Anomaly is surrounded by a <b>Burst 3</b> area under the effect of one <b>environmental hazard</b> (<i>Lancer</i>, pp. 278–279), to which the Anomaly is <b><span style='font-variant: small-caps;'>Immune</span></b>.</p>"
   },
   {
     "id": "ppg_npcf_mass_inversion_anomaly",
@@ -2824,7 +2824,7 @@
     "locked": false,
     "type": "Trait",
     "tags": [],
-    "effect": "<p>Spaces adjacent to the Anomaly may be treated as an INGRESS ZONE for deploying REINFORCEMENTS.</p>"
+    "effect": "<p>Spaces adjacent to the Anomaly may be treated as an <b><span style='font-variant: small-caps;'>Ingress Zone</span></b> for deploying <b><span style='font-variant: small-caps;'>Reinforcements</span></b>.</p>"
   },
   {
     "id": "ppg_npcf_spatial_rend_anomaly",
@@ -2837,7 +2837,7 @@
     "locked": false,
     "type": "Trait",
     "tags": [],
-    "effect": "<p>While the Anomaly is on the battlefield, when a hostile character teleports, that character takes 1/2/3 Energy AP and 1 Heat.</p><p>When the Anomaly inflicts involuntary movement, it may treat that movement as teleportation.</p>"
+    "effect": "<p>While the Anomaly is on the battlefield, when a hostile character <b>teleports</b>, that character takes {1/2/3} <b>Energy AP damage</b> and <b>1 Heat</b>.</p><p>When the Anomaly inflicts <b>involuntary movement</b>, it may treat that movement as <b>teleportation</b>.</p>"
   },
   {
     "id": "ppg_npcf_sympathetic_resonance_anomaly",
@@ -2850,7 +2850,7 @@
     "locked": false,
     "type": "Trait",
     "tags": [],
-    "effect": "<p>The Anomaly deals half damage, heat, and burn on all abilities and attacks that affect a single target, but all of the target’s allied characters within Range 3 take the same damage.</p>"
+    "effect": "<p>The Anomaly deals <b>half damage, Heat, and Burn</b> on all abilities and attacks that affect a single target, but all of the target’s allied characters within <b>Range 3</b> take the same damage, <b>Heat</b>, and <b>Burn</b>.</p>"
   },
   {
     "id": "ppg_npcf_animate_ammunition_anomaly",
@@ -2871,7 +2871,7 @@
         "id": "tg_quick_action"
       }
     ],
-    "effect": "<p>Weapon attacks made within the Anomaly’s <b><span style='font-variant: small-caps;'>Sensors</span></b> gain the <b><span style='font-variant: small-caps;'>Smart</span></b> tag if they lacked the tag or lose the <b><span style='font-variant: small-caps;'>Smart</span></b> tag if they already had it. All tech attacks made in the area target <b><span style='font-variant: small-caps;'>Evasion</span></b> instead of <b><span style='font-variant: small-caps;'>E-Defense</span></b>. This effect lasts until the end of the Anomaly’s next turn.</p>"
+    "effect": "<p>Weapon attacks made within the Anomaly’s <b><span style='font-variant: small-caps;'>Sensors</span></b> gain the <b><span style='font-variant: small-caps;'>Smart</span></b> tag if they lacked the tag or lose the <b><span style='font-variant: small-caps;'>Smart</span></b> tag if they already had it. All <b>tech attacks</b> made in the area target <b><span style='font-variant: small-caps;'>Evasion</span></b> instead of <b><span style='font-variant: small-caps;'>E-Defense</span></b>. This effect lasts until the end of the Anomaly’s next turn.</p>"
   },
   {
     "id": "ppg_npcf_awakening_anomaly",
@@ -2892,7 +2892,7 @@
         "val": 1
       }
     ],
-    "effect": "<p>The Anomaly targets a mech in <b><span style='font-variant: small-caps;'>Sensors</span></b>. Up to {1/2/3} random systems without the AI tag installed on the target become NHP systems, gaining the AI tag and the ability to cascade. These may exceed the maximum number of AIs that can be installed on the mech, but while the mech exceeds its maximum AIs, it has +1 Difficulty on cascade rolls (to a minimum result of 1). These NHPs may be safely removed during a <b><span style='font-variant: small-caps;'>Full Repair</span></b>.</p>"
+    "effect": "<p>The Anomaly targets a mech in <b><span style='font-variant: small-caps;'>Sensors</span></b>. Up to {1/2/3} random systems without the <b>AI</b> tag installed on the target become NHP systems, gaining the <b>AI</b> tag and the ability to <b>cascade</b>. These may exceed the maximum number of AIs that can be installed on the mech, but while the mech exceeds its maximum AIs, it has <b>+1 Difficulty</b> on cascade rolls (to a minimum result of <b>1</b>). These NHPs may be safely removed during a <b><span style='font-variant: small-caps;'>Full Repair</span></b>.</p>"
   },
   {
     "id": "ppg_npcf_memory_leak_anomaly",
@@ -2913,7 +2913,7 @@
         "id": "tg_full_action"
       }
     ],
-    "effect": "<p>A character in <b><span style='font-variant: small-caps;'>Sensors</span></b> must choose {1/2/3} of their pilot talents. All ranks of the chosen talents cannot be used until the pilot completes a rest. Any ongoing effects caused by the chosen talent immediately end. A character can only be affected by this trait 1/scene.</p>"
+    "effect": "<p>A character in <b><span style='font-variant: small-caps;'>Sensors</span></b> must choose {1/2/3} of their <b>pilot talents</b>. All ranks of the chosen talents cannot be used until the pilot completes a <b>rest</b>. Any ongoing effects caused by the chosen talent immediately end. A character can only be affected by this trait <b>1/scene</b>.</p>"
   },
   {
     "id": "ppg_npcf_mind_freak_anomaly",
@@ -2934,7 +2934,7 @@
         "val": 1
       }
     ],
-    "effect": "<p>The Anomaly selects two players. Those players exchange control of all of their characters and equipment, and they cannot communicate how to play those characters. This effect lasts until the two characters share a meaningful bond in any scene, as determined by the other players and the GM.</p>"
+    "effect": "<p>The Anomaly selects <b>two players</b>. Those players exchange control of all of their characters and equipment, and they cannot communicate how to play those characters. This effect lasts until the two characters share a meaningful bond in any scene, as determined by the other players and the GM.</p>"
   },
   {
     "id": "ppg_npcf_realm_warp_anomaly",
@@ -2951,7 +2951,7 @@
         "id": "tg_quick_action"
       }
     ],
-    "effect": "<p>The Anomaly creates two Blast 1 areas in Range 20, then chooses one of the following:<ul><li>Swap the positions of all objects and terrain within the areas, teleporting them to the other’s spaces or, if those spaces are occupied, as close as possible.</li><li>Create dangerous terrain of a random damage type in the areas. These areas last indefinitely or until this option is chosen again.</li><li>Create impenetrable fog in the areas. Characters at least partially within one of the areas cannot draw line of sight outside of that area, and char-acters outside the areas cannot draw line of sight inside. These areas last indefinitely or until this option is chosen again.</li></ul></p>"
+    "effect": "<p>The Anomaly creates two <b>Blast 1</b> areas in <b>Range 20</b>, then chooses one of the following:<ul><li>Swap the positions of all objects and terrain within the areas, <b>teleporting</b> them to the other’s spaces or, if those spaces are occupied, as close as possible.</li><li>Create <b>dangerous terrain</b> of a random damage type in the areas. These areas last indefinitely or until this option is chosen again.</li><li>Create impenetrable fog in the areas. Characters at least partially within one of the areas cannot draw line of sight outside of that area, and char-acters outside the areas cannot draw line of sight inside. These areas last indefinitely or until this option is chosen again.</li></ul></p>"
   },
   {
     "id": "ppg_npcf_retroactive_vendetta_anomaly",
@@ -2972,7 +2972,7 @@
         "id": "tg_full_action"
       }
     ],
-    "effect": "<p>Choose 1 hostile character and 1 allied character. The Anomaly rewrites history such that the ally becomes the sworn nemesis of the hostile character. The ally gains the <b><span style='font-variant: small-caps;'>Elite</span></b> template if it previously lacked it and gains +1 Accuracy on all attacks, checks, and saves against their nemesis.</p>"
+    "effect": "<p>Choose <b>1 hostile character</b> and <b>1 allied character</b>. The Anomaly rewrites history such that the ally becomes the sworn nemesis of the hostile character. The ally gains the <b><span style='font-variant: small-caps;'>Elite</span></b> template if it previously lacked it and gains <b>+1 Accuracy</b> on all attacks, checks, and saves against their nemesis.</p>"
   },
   {
     "id": "ppg_npcf_revisionist_history_anomaly",
@@ -2993,7 +2993,7 @@
         "val": 1
       }
     ],
-    "effect": "<p>One character with a <b><span style='font-variant: small-caps;'>Background</span></b> within <b><span style='font-variant: small-caps;'>Sensors</span></b> become <b><span style='font-variant: small-caps;'>Impaired</span></b> and <b><span style='font-variant: small-caps;'>Slowed</span></b> and must make a GRIT check as their past is rewritten. On a success, the effect lasts until the end of their next turn. On a failure, the effect lasts until the end of the scene, and they must change their <b><span style='font-variant: small-caps;'>Background</span></b> to a different, random <b><span style='font-variant: small-caps;'>Background</span></b>. A character can be affected by this trait only 1/mission.</p><p>While the target’s <b><span style='font-variant: small-caps;'>Background</span></b> has changed, skill checks they attempt that would have benefited from their previous <b><span style='font-variant: small-caps;'>Background</span></b> gain +1 Difficulty. This effect ends after the target performs a downtime action related to their former <b><span style='font-variant: small-caps;'>Background</span></b>. Alternatively, the target may accept their new <b><span style='font-variant: small-caps;'>Background</span></b> as their “true past,” keeping it but otherwise ending this effect.</p>"
+    "effect": "<p>One character with a <b><span style='font-variant: small-caps;'>Background</span></b> within <b><span style='font-variant: small-caps;'>Sensors</span></b> become <b><span style='font-variant: small-caps;'>Impaired</span></b> and <b><span style='font-variant: small-caps;'>Slowed</span></b> and must make a <b><span style='font-variant: small-caps;'>Grit</span></b> check as their past is rewritten. On a success, the effect lasts until the end of their next turn. On a failure, the effect lasts until the end of the scene, and they must change their <b><span style='font-variant: small-caps;'>Background</span></b> to a different, random <b><span style='font-variant: small-caps;'>Background</span></b>. A character can be affected by this trait only <b>1/mission</b>.</p><p>While the target’s <b><span style='font-variant: small-caps;'>Background</span></b> has changed, skill checks they attempt that would have benefited from their previous <b><span style='font-variant: small-caps;'>Background</span></b> gain <b>+1 Difficulty</b>. This effect ends after the target performs a <b>downtime action</b> related to their former <b><span style='font-variant: small-caps;'>Background</span></b>. Alternatively, the target may accept their new <b><span style='font-variant: small-caps;'>Background</span></b> as their “true past,” keeping it but otherwise ending this effect.</p>"
   },
   {
     "id": "ppg_npcf_self_mechanization_anomaly",
@@ -3014,7 +3014,7 @@
         "id": "tg_full_action"
       }
     ],
-    "effect": "<p>The Anomaly chooses one piloted mech within <b><span style='font-variant: small-caps;'>Sensors</span></b>. The pilot must make a contested GRIT check against the better of the mech’s <b><span style='font-variant: small-caps;'>Systems</span></b> or <b><span style='font-variant: small-caps;'>Engineering</span></b>. On a failure, the pilot and all other occupants meld with the mech, unable to leave it by any means. If the mech is destroyed, all melded occupants become DOWN AND OUT; if its wreckage is destroyed, all occupants die. Success or fail, the pilot and mech become <b><span style='font-variant: small-caps;'>Impaired</span></b> until they succeed on a GRIT check at the end of their turn. Extricating the mech’s occupants requires a DOWNTIME ACTION.</p>"
+    "effect": "<p>The Anomaly chooses one piloted mech within <b><span style='font-variant: small-caps;'>Sensors</span></b>. The pilot must make a contested <b><span style='font-variant: small-caps;'>Grit</span></b> check against the better of the mech’s <b><span style='font-variant: small-caps;'>Systems</span></b> or <b><span style='font-variant: small-caps;'>Engineering</span></b>. On a failure, the pilot and all other occupants meld with the mech, unable to leave it by any means. If the mech is destroyed, all melded occupants become <b><span style='font-variant: small-caps;'>Down and Out</span></b>; if its <b>wreckage</b> is destroyed, all occupants die. Success or fail, the pilot and mech become <b><span style='font-variant: small-caps;'>Impaired</span></b> until they succeed on a <b><span style='font-variant: small-caps;'>Grit</span></b> check at the end of their turn. Extricating the mech’s occupants requires a <b>downtime action</b>.</p>"
   },
   {
     "id": "ppg_npcf_singularity_generator_anomaly",
@@ -3038,7 +3038,7 @@
         "val": 1
       }
     ],
-    "effect": "<p>The Anomaly creates a <b><span style='font-variant: small-caps;'>Size 1</span></b> indestructible miniature black hole in an adjacent space and chooses a direction. At the end of each round, the black hole moves 4 spaces in a straight line in that direction, and all characters on the battlefield are pulled a number of spaces towards the black hole equal to 4 minus the character’s <b><span style='font-variant: small-caps;'>Size</span></b>. The black hole inflicts 100 Kinetic AP to objects or terrain it collides with. Characters that collide with the black hole must pass a <b><span style='font-variant: small-caps;'>Hull</span></b> save or lose <b><span style='font-variant: small-caps;'>1 Structure</span></b>, or be reduced to 1 HP on a success.</p><p>The Anomaly is <b><span style='font-variant: small-caps;'>Immune</span></b> to the black hole’s effects. The black hole lasts until the end of the scene or until another black hole is deployed.</p>"
+    "effect": "<p>The Anomaly creates a <b><span style='font-variant: small-caps;'>Size 1</span></b> indestructible miniature black hole in an adjacent space and chooses a direction. At the end of each round, the black hole moves <b>4 spaces</b> in a straight line in that direction, and all characters on the battlefield are pulled a number of spaces towards the black hole equal to <b>4</b> minus the character’s <b><span style='font-variant: small-caps;'>Size</span></b>. The black hole inflicts <b>100 Kinetic AP damage</b> to objects or terrain it collides with. Characters that collide with the black hole must pass a <b><span style='font-variant: small-caps;'>Hull</span></b> save or lose <b><span style='font-variant: small-caps;'>1 Structure</span></b>, or be reduced to <b>1 HP</b> on a success.</p><p>The Anomaly is <b><span style='font-variant: small-caps;'>Immune</span></b> to the black hole’s effects. The black hole lasts until the end of the scene or until another black hole is deployed.</p>"
   },
   {
     "id": "ppg_npcf_soul_split_anomaly",
@@ -3059,7 +3059,7 @@
         "id": "tg_quick_action"
       }
     ],
-    "effect": "<p>The Anomaly chooses an allied mech without the <b><span style='font-variant: small-caps;'>Grunt</span></b> template in Range 10. The target gains the <b><span style='font-variant: small-caps;'>Grunt</span></b> template, setting each of its HP, <b><span style='font-variant: small-caps;'>Structure</span></b>, and <b><span style='font-variant: small-caps;'>Stress</span></b> to 1. The Anomaly then creates {1/2/3} copies of the character in free spaces within Range 3 of the target (or as close as possible). The copies may act this round.</p>"
+    "effect": "<p>The Anomaly chooses an allied mech without the <b><span style='font-variant: small-caps;'>Grunt</span></b> template in <b>Range 10</b>. The target gains the <b><span style='font-variant: small-caps;'>Grunt</span></b> template, setting each of its <b>HP</b>, <b><span style='font-variant: small-caps;'>Structure</span></b>, and <b><span style='font-variant: small-caps;'>Stress</span></b> to <b>1</b>. The Anomaly then creates {1/2/3} copies of the character in free spaces within <b>Range 3</b> of the target (or as close as possible). The copies may act this round.</p>"
   },
   {
     "id": "ppg_npcf_dirty_fighting_brigand",
@@ -3208,7 +3208,7 @@
       2,
       3
     ],
-    "effect": "<p>The Brigand makes a tech attack against a character in <b><span style='font-variant: small-caps;'>Sensors</span></b>. On a hit, the target is knocked <b><span style='font-variant: small-caps;'>Prone</span></b> and takes Kinetic AP damage equal to their remaining <b><span style='font-variant: small-caps;'>Repairs</span></b>.</p>"
+    "effect": "<p>The Brigand makes a tech attack against a character in <b><span style='font-variant: small-caps;'>Sensors</span></b>. On a hit, the target is knocked <b><span style='font-variant: small-caps;'>Prone</span></b> and takes <b>Kinetic AP damage</b> equal to their remaining <b><span style='font-variant: small-caps;'>Repairs</span></b>.</p>"
   },
   {
     "id": "ppg_npcf_jail_break_brigand",
@@ -3619,7 +3619,7 @@
     "locked": false,
     "type": "Trait",
     "tags": [],
-    "effect": "<p>Targets affected by <b><span style='font-variant: small-caps;'>Adhesive Gel</span></b> take <b>1 Heat</b> each time they fail an <b><span style="font-variant: small-caps;">Engineering</span></b> check to clear <b>Burn</b>.</p>"
+    "effect": "<p>Targets affected by <b><span style='font-variant: small-caps;'>Adhesive Gel</span></b> take <b>1 Heat</b> each time they fail an <b><span style='font-variant: small-caps;'>Engineering</span></b> check to clear <b>Burn</b>.</p>"
   },
   {
     "id": "ppg_npcf_doubling_season_occultist",
