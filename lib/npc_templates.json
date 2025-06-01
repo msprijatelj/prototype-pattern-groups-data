@@ -2,7 +2,7 @@
   {
     "id": "ppg_npct_anomaly",
     "name": "Anomaly",
-    "description": "The galaxy is littered with beings that do not conform to humanity’s interpretation of reality. While not all merit the categorization of MONIST, these anomalies challenge what we understand about the very nature of the universe.<br/><br/>Encountering one of these entities is often a life-changing experience in the worst of ways. God help you if you do.<br/><br/>Anomalies interact with the battlefield and their opponents in uncanny ways. Their influence upon reality lingers upon their targets, rewriting their victims’ very natures. Use this template to grant an NPC unconventional controller-like abilities and unsettling effects that require player adaptation to overcome.",
+    "description": "<i><p>The galaxy is littered with beings that do not conform to humanity’s interpretation of reality. While not all merit the categorization of MONIST, these anomalies challenge what we understand about the very nature of the universe.</p><p>Encountering one of these entities is often a life-changing experience in the worst of ways. God help you if you do.</p></i><p><b>Anomalies</b> interact with the battlefield and their opponents in uncanny ways. Their influence upon reality lingers upon their targets, rewriting their victims’ very natures. Use this template to grant an NPC unconventional controller-like abilities and unsettling effects that require player adaptation to overcome.</p>",
     "base_features": [
       "ppg_npcf_err_data_not_found_anomaly",
       "ppg_npcf_anomaly_systems_and_traits_anomaly"
@@ -54,7 +54,7 @@
   {
     "id": "ppg_npct_brigand",
     "name": "Brigand",
-    "description": "As long as capital remains essential to survival, there will be those who turn to dubious techniques to wrest it from those unprepared to protect it. Some rely upon brute force, while others instead leverage unconventional methods to exploit their marks’ vulnerabilities.<br/><br/>Brigands are a variant of the Pirate template (Lancer, p. 328). It trades raw damage in exchange for additional underhanded tactics and unexpected vectors of attack. Brigands aim to leave opponents vulnerable to follow-up from teammates, though their “improvisational” approach to mech-building leaves them vulnerable in turn.",
+    "description": "<i><p>As long as capital remains essential to survival, there will be those who turn to dubious techniques to wrest it from those unprepared to protect it. Some rely upon brute force, while others instead leverage unconventional methods to exploit their marks’ vulnerabilities.</p></i><p><b>Brigands</b> are a variant of the <b>Pirate</b> template (Lancer, p. 328). It trades raw damage in exchange for additional underhanded tactics and unexpected vectors of attack. <b>Brigands</b> aim to leave opponents vulnerable to follow-up from teammates, though their “improvisational” approach to mech-building leaves them vulnerable in turn.</p>",
     "base_features": [
       "ppg_npcf_dirty_fighting_brigand",
       "ppg_npcf_jury_rigged_brigand",
@@ -80,7 +80,7 @@
   {
     "id": "ppg_npct_brisk",
     "name": "Brisk",
-    "description": "Some Lancer NPC classes possess abysmal SPEED. As a result, they may struggle to get to a fight without assistance, especially if deployed as REINFORCEMENTS. The Brisk template is intended to alleviate this issue.",
+    "description": "<p>Some Lancer NPC classes possess abysmal <b><span style='font-variant: small-caps;'>Speed</span></b>. As a result, they may struggle to get to a fight without assistance, especially if deployed as <b><span style='font-variant: small-caps;'>Reinforcements</span></b>. The <b>Brisk</b> template is intended to alleviate this issue.</p>",
     "base_features": [
       "ppg_npcf_youre_too_slow_brisk"
     ],
@@ -90,18 +90,10 @@
   {
     "id": "ppg_npct_tempered",
     "name": "Tempered",
-    "description": "The Tempered template is intended for use with the RECHARGE HEAT optional rule. If NPCs with more than one STRESS are left too vulnerable to HEAT effects due to this rule, this template will lightly bump their HEAT CAPS to make the additional HEAT manageable.",
+    "description": "<p>The <b>Tempered</b> template is intended for use with the <b><span style='font-variant: small-caps;'>Recharge Heat</span></b> optional rule. If NPCs with more than one <b><span style='font-variant: small-caps;'>Stress</span></b> are left too vulnerable to <b><span style='font-variant: small-caps;'>Heat</span></b> effects due to this rule, this template will lightly bump their <b><span style='font-variant: small-caps;'>Heat Caps</span></b> to make the additional <b><span style='font-variant: small-caps;'>Heat</span></b> manageable.</p>",
     "base_features": [
       "ppg_npcf_tempered_reactor_tempered"
     ],
-    "optional_features": [],
-    "power": 0
-  },
-  {
-    "id": "ppg_npct_veteran",
-    "name": "Veteran [PPG]",
-    "description": "<b>[DEPRECATED - Look for each class's Veteran Features under their respective optional features.]</b> NPCs from Prototype Pattern Groups with the VETERAN template (Lancer, p. 332) may take an optional feature specific to their class.",
-    "base_features": [],
     "optional_features": [],
     "power": 0
   }
