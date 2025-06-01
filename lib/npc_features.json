@@ -227,7 +227,7 @@
         ]
       }
     ],
-    "effect": "Allied characters in the affected area are not attacked, but instead gain OVERSHIELD {3/5/7}."
+    "effect": "Allied characters in the affected area are not attacked, but instead gain OVERSHIELD {2/3/4}."
   },
   {
     "id": "ppg_npcf_arc_feedback_capacitor",
@@ -300,7 +300,7 @@
         "id": "tg_quick_tech"
       }
     ],
-    "effect": "Choose one character within SENSORS. The target gains OVERSHIELD {4/6/8}. Until the target loses all OVERSHIELD, they may BOOST as a free action."
+    "effect": "Choose one character within SENSORS. The target gains OVERSHIELD {4/6/8}. Until the target loses all OVERSHIELD, they may BOOST 1/round as a free action."
   },
   {
     "id": "ppg_npcf_purifying_lightning_capacitor",
@@ -383,7 +383,7 @@
         "id": "tg_quick_action"
       }
     ],
-    "effect": "Amplifier Drone (Size 1/2, HP {5/10/15}, Evasion 10, E-Defense 10, Tags: Drone, Overshield)<br/><br/>This drone can be deployed to a space within SENSORS and line of sight. While deployed, it projects a Burst 2 electrified area. Allied characters in the area that gain any OVERSHIELD increase the amount gained by +2. Hostile characters that enter the area or end their turn there receive LOCK ON and cease to be INVISIBLE or HIDDEN."
+    "effect": "Amplifier Drone (Size 1/2, HP {5/8/10}, Evasion 10, E-Defense 10, Tags: Drone, Overshield)<br/><br/>This drone can be deployed to a space within SENSORS and line of sight. While deployed, it projects a Burst 2 electrified area. Allied characters in the area that gain any OVERSHIELD increase the amount gained by +2. Hostile characters that enter the area or end their turn there receive LOCK ON and cease to be INVISIBLE or HIDDEN."
   },
   {
     "id": "ppg_npcf_phase_shift_ghost",
@@ -727,7 +727,7 @@
       }
     ],
     "effect": "",
-    "on_hit": "The target must pass a HULL save or be IMMOBILIZED until the end of their next turn."
+    "on_hit": "If the attacker is not ENGAGED, the target must pass a HULL save or be IMMOBILIZED until the end of their next turn."
   },
   {
     "id": "ppg_npcf_reckless_dive_hatchet",
@@ -886,7 +886,7 @@
         "id": "tg_quick_action"
       }
     ],
-    "effect": "Hero’s Banner (Size 1/2, HP {10/20/30}, Evasion 10, E-Defense 10, Tags: Deployable, Shield)<br/><br/>The Knight deploys a banner that projects a Burst 3 area in an adjacent space. Allied characters within the area gain RESISTANCE to all damage. If this banner is destroyed, allied characters in the area are SHREDDED until the end of their next turn."
+    "effect": "Hero’s Banner (Size 1/2, HP {15/20/25}, Evasion 10, E-Defense 10, Tags: Deployable, Shield)<br/><br/>The Knight deploys a banner that projects a Burst 3 area in an adjacent space. Allied characters within the area gain RESISTANCE to all damage. If this banner is destroyed, allied characters in the area are SHREDDED until the end of their next turn."
   },
   {
     "id": "ppg_npcf_sweeping_blows_knight",
@@ -1228,7 +1228,7 @@
         ]
       }
     ],
-    "effect": "This weapon attacks by drawing its line in any direction from a point within its range."
+    "effect": "This weapon attacks by drawing its line in any direction from a point within its range. It calculates cover and line of sight from the chosen point."
   },
   {
     "id": "ppg_npcf_adhesive_gel_napalm",
@@ -1312,7 +1312,7 @@
         "id": "tg_quick_action"
       }
     ],
-    "effect": "Firefly Drone (Size 1/2, HP {5/10/15}, Evasion 10, E-Defense 10, Tags: Drone)<br/><br/>This drone can be deployed to a space within SENSORS and line of sight. While deployed, hostile characters in Burst 2 of the drone cannot draw line of sight outside of the area. If the drone takes any Burn, it explodes; all characters in Burst 2 must pass an AGILITY save or take {2/4/6} Burn."
+    "effect": "Firefly Drone (Size 1/2, HP {5/8/10}, Evasion 10, E-Defense 10, Tags: Drone)<br/><br/>This drone can be deployed to a space within SENSORS and line of sight. While deployed, hostile characters in Burst 2 of the drone cannot draw line of sight outside of the area. If the drone takes any Burn, it explodes and is destroyed; all characters in Burst 2 must pass an AGILITY save or take {2/4/6} Burn."
   },
   {
     "id": "ppg_npcf_incendiary_grenade_napalm",
@@ -1357,7 +1357,7 @@
         "id": "tg_free_action"
       }
     ],
-    "effect": "The area targeted by the SALAMANDER THERMOBARIC CATAPULT is set on fire and becomes difficult terrain until extinguished, until the end of the scene, or until this system is used again. Characters that start their turn within the area or move into it for the first time in a round must pass an ENGINEERING save or take {1/2/3} Heat and {2/3/4} Burn."
+    "effect": "The area targeted by the SALAMANDER THERMOBARIC CATAPULT is set on fire and becomes difficult terrain until extinguished, until the end of the scene, or until this system is used again. Characters that start their turn within the area or move into it for the first time in a round must pass an ENGINEERING save or take 2 Heat and {2/3/4} Burn."
   },
   {
     "id": "ppg_npcf_flock_drones_occultist",
@@ -2007,7 +2007,7 @@
   },
   {
     "id": "ppg_npcf_dandelion_flak_cannon_vulture",
-    "name": "“Dandelion” Shrapnel Cannon",
+    "name": "“Dandelion” Phosphorus Cannon",
     "origin": {
       "type": "Class",
       "name": "Vulture",
@@ -2328,7 +2328,7 @@
       2,
       3
     ],
-    "effect": "The Zealot makes a tech attack against a character within SENSORS. On a hit, the target gains LOCK ON. When an ally consumes this LOCK ON, they gain OVERSHIELD {4/5/6}, and any damage they deal to the target for the rest of the turn cannot be reduced in any way."
+    "effect": "The Zealot makes a tech attack against a character within SENSORS. On a hit, the target gains LOCK ON. When an ally consumes this LOCK ON, they gain OVERSHIELD {4/6/8}, and any damage they deal to the target for the rest of the turn cannot be reduced in any way."
   },
   {
     "id": "ppg_npcf_martyrdom_zealot",
@@ -2654,7 +2654,7 @@
       4,
       6
     ],
-    "effect": "The Anomaly makes a tech attack against a character that can OVERCHARGE in SENSORS. On a hit, the Anomaly chooses an ally within SENSORS. As a free action, the ally can force the target to OVERCHARGE, but gain no extra action. Instead, the ally may take any quick action as a free action. This effect then ends on both characters."
+    "effect": "The Anomaly makes a tech attack against a character that can OVERCHARGE in SENSORS. On a hit, the Anomaly chooses an ally within SENSORS. 1/scene, the ally may OVERCHARGE using the target’s OVERCHARGE counter. This increases the target’s counter, but the ally takes the Heat. This may affect a character only once per FULL REPAIR."
   },
   {
     "id": "ppg_npcf_time_stop_anomaly",
@@ -2871,7 +2871,7 @@
         "id": "tg_quick_action"
       }
     ],
-    "effect": "Weapon attacks made within the Anomaly's SENSORS gain the SMART tag if they lacked the tag or lose the SMART tag if they already had it. All tech attacks made in the area target EVASION instead of E-DEFENSE. This effect lasts until the end of the Anomaly’s next turn."
+    "effect": "Weapon attacks made within the Anomaly’s SENSORS gain the SMART tag if they lacked the tag or lose the SMART tag if they already had it. All tech attacks made in the area target EVASION instead of E-DEFENSE. This effect lasts until the end of the Anomaly’s next turn."
   },
   {
     "id": "ppg_npcf_awakening_anomaly",
@@ -3398,7 +3398,7 @@
         "id": "tg_quick_action"
       }
     ],
-    "effect": "Gaol Seal (Size 1/2, HP 15/20/25, Evasion 5, E-Defense 8, Tags: Deployable)<br/><br/>The Knight deploys a gaol seal to a free space in Range 3. The seal creates a Burst 4 area that must completely contain both the Knight and its duel opponent. The Knight and its duel opponent cannot leave the area and are INTANGIBLE while inside it.<br/><br/>The area lasts until the seal is destroyed, or until the Knight is overheated or destroyed. The Knight takes 1 Heat when it ends its turn in the area."
+    "effect": "Gaol Seal (Size 1/2, HP {15/20/25}, Evasion 5, E-Defense 8, Tags: Deployable)<br/><br/>The Knight deploys a gaol seal to a free space in Range 3. The seal creates a Burst 4 area that must completely contain both the Knight and its duel opponent. The Knight and its duel opponent cannot leave the area and are INTANGIBLE while inside it.<br/><br/>The area lasts until the seal is destroyed, the duel ends, or until the Knight is overheated. The Knight takes 1 Heat when it ends its turn in the area."
   },
   {
     "id": "ppg_npcf_dimensional_raid_mesmerist",
