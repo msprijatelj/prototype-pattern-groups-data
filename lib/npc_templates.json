@@ -54,7 +54,7 @@
   {
     "id": "ppg_npct_brigand",
     "name": "Brigand",
-    "description": "<i><p>As long as capital remains essential to survival, there will be those who turn to dubious techniques to wrest it from those unprepared to protect it. Some rely upon brute force, while others instead leverage unconventional methods to exploit their marks’ vulnerabilities.</p></i><p><b>Brigands</b> are a variant of the <b>Pirate</b> template (Lancer, p. 328). It trades raw damage in exchange for additional underhanded tactics and unexpected vectors of attack. <b>Brigands</b> aim to leave opponents vulnerable to follow-up from teammates, though their “improvisational” approach to mech-building leaves them vulnerable in turn.</p>",
+    "description": "<i><p>As long as capital remains essential to survival, there will be those who turn to dubious techniques to wrest it from those unprepared to protect it. Some rely upon brute force, while others instead leverage unconventional methods to exploit their marks’ vulnerabilities.</p></i><p><b>Brigands</b> are a variant of the <b>Pirate</b> template (<i>Lancer</i>, p. 328). It trades raw damage in exchange for additional underhanded tactics and unexpected vectors of attack. <b>Brigands</b> aim to leave opponents vulnerable to follow-up from teammates, though their “improvisational” approach to mech-building leaves them vulnerable in turn.</p>",
     "base_features": [
       "ppg_npcf_dirty_fighting_brigand",
       "ppg_npcf_jury_rigged_brigand",

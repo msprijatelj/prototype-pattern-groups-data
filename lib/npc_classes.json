@@ -820,7 +820,7 @@
   {
     "id": "ppg_npcc_prism",
     "name": "Prism",
-    "role": "artillery",
+    "role": "defender",
     "info": {
       "flavor": "<p>Through advanced OMNIGLASS technology, Prism-pattern mechs exploit a holographic double to rapidly establish a defensive line. The double acts as a temporary platform to deploy a variety of optical- and steelglass-based weaponry alongside an aggressive e-war suite.</p>",
       "tactics": "<p>Prisms deploy a durable hologram through a <b><span style='font-variant: small-caps;'>Prismatic Projector</span></b> to hold ground, flank, and draw attention. <b><span style='font-variant: small-caps;'>Diffraction Beam</span></b> attacks in a unique pattern, and <b><span style='font-variant: small-caps;'>Refracting Armor</span></b> frustrates opposing artillery. The Prism’s weak hacking defenses and subpar heat capacity offset its flexibility.</p>"

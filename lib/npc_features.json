@@ -683,7 +683,7 @@
         ]
       }
     ],
-    "effect": "<p>When retrieving this weapon, <b><span style='font-variant: small-caps;'>Cleaving Retrieval</span></b>’s damage becomes <b>AP Energy damage</b>.</p>"
+    "effect": "<p>When retrieving this weapon, <b><span style='font-variant: small-caps;'>Cleaving Retrieval</span></b>’s damage becomes <b>Energy AP damage</b>.</p>"
   },
   {
     "id": "ppg_npcf_rocket_bola_hatchet",
@@ -1444,7 +1444,7 @@
         "id": "tg_quick_tech"
       }
     ],
-    "effect": "<p>Target a controlled <b><span style='font-variant: small-caps;'>Drone</span></b> or allied <b><span style='font-variant: small-caps;'>Grunt</span></b> in <b><span style='font-variant: small-caps;'>Sensors</span></b>. <b>Destroy</b> them and apply these effects:<ul><li>Allied characters adjacent to the target gain <b><span style='font-variant: small-caps;'>Overshield</span></b> {3/5/7} and clear <b>one condition</b>.</li><li>Hostile characters adjacent to the target gain <b><span style='font-variant: small-caps;'>Lock On</span></b> and must pass an <b><span style='font-variant: small-caps;'>Agility</span></b> save or become <b><span style='font-variant: small-caps;'>Jammed</span></b> until the end of their next turn.</li></ul></p>"
+    "effect": "<p>Target a controlled <b><span style='font-variant: small-caps;'>Drone</span></b> or allied <b><span style='font-variant: small-caps;'>Grunt</span></b> in <b><span style='font-variant: small-caps;'>Sensors</span></b>. <b>Destroy</b> them and apply these effects:</p><p><ul><li>Allied characters adjacent to the target gain <b><span style='font-variant: small-caps;'>Overshield</span></b> {3/5/7} and clear <b>one condition</b>.</li><li>Hostile characters adjacent to the target gain <b><span style='font-variant: small-caps;'>Lock On</span></b> and must pass an <b><span style='font-variant: small-caps;'>Agility</span></b> save or become <b><span style='font-variant: small-caps;'>Jammed</span></b> until the end of their next turn.</li></ul></p>"
   },
   {
     "id": "ppg_npcf_jealous_flock_occultist",
@@ -2061,7 +2061,7 @@
     "locked": false,
     "type": "Trait",
     "tags": [],
-    "effect": "<p><b><span style='font-variant: small-caps;'>“Magpie” Subroutines</span></b> gains an additional option when it destroys a <b>wreckage</b>: <ul><li>Gain a weapon or system owned by the <b>wreckage</b>’s original character. It gains <b><span style='font-variant: small-caps;'>Limited 1</span></b>, replacing any other value of <b><span style='font-variant: small-caps;'>Limited</span></b>.</li></ul></p>"
+    "effect": "<p><b><span style='font-variant: small-caps;'>“Magpie” Subroutines</span></b> gains an additional option when it destroys a <b>wreckage</b>:</p><p><ul><li>Gain a weapon or system owned by the <b>wreckage</b>’s original character. It gains <b><span style='font-variant: small-caps;'>Limited 1</span></b>, replacing any other value of <b><span style='font-variant: small-caps;'>Limited</span></b>.</li></ul></p>"
   },
   {
     "id": "ppg_npcf_jumpstart_vulture",
@@ -2168,7 +2168,7 @@
         "id": "tg_protocol"
       }
     ],
-    "effect": "<p>The Zealot emanates an area of fervent energy, affecting characters in <b><span style='font-variant: small-caps;'>Sensors</span></b> and line of sight:<ul><li>Hostile characters with any <b>Burn</b> lose <b><span style='font-variant: small-caps;'>Invisible</span></b> and <b><span style='font-variant: small-caps;'>Hidden</span></b> and can’t regain either in the area.</li><li>Allies ignore engagement and reactions, and their weapon attacks gain <b><span style='font-variant: small-caps;'>Knockback 1</span></b> and <b>AP</b> against targets in the area.</li><li>Upon activation, the Zealot gains <b><span style='font-variant: small-caps;'>Overshield</span></b> equal to the number of allies in the area.</li></ul>This area lasts until the start of the Zealot’s first turn each round or until the Zealot is <b><span style='font-variant: small-caps;'>Stunned</span></b>, <b><span style='font-variant: small-caps;'>Jammed</span></b>, overheated, or destroyed.</p>"
+    "effect": "<p>The Zealot emanates an area of fervent energy, affecting characters in <b><span style='font-variant: small-caps;'>Sensors</span></b> and line of sight:</p><p><ul><li>Hostile characters with any <b>Burn</b> lose <b><span style='font-variant: small-caps;'>Invisible</span></b> and <b><span style='font-variant: small-caps;'>Hidden</span></b> and can’t regain either in the area.</li><li>Allies ignore engagement and reactions, and their weapon attacks gain <b><span style='font-variant: small-caps;'>Knockback 1</span></b> and <b>AP</b> against targets in the area.</li><li>Upon activation, the Zealot gains <b><span style='font-variant: small-caps;'>Overshield</span></b> equal to the number of allies in the area.</li></ul></p><p>This area lasts until the start of the Zealot’s first turn each round or until the Zealot is <b><span style='font-variant: small-caps;'>Stunned</span></b>, <b><span style='font-variant: small-caps;'>Jammed</span></b>, overheated, or destroyed.</p>"
   },
   {
     "id": "ppg_npcf_emberlight_nexus_zealot",
@@ -2707,7 +2707,7 @@
     "locked": false,
     "type": "Trait",
     "tags": [],
-    "effect": "<p>On a <b>critical hit</b>, the target must make a save using a <b>pilot trigger</b> of their choice. On a failure, they suffer the following effects:<ul><li>Move all ranks from that trigger to a different trigger (chosen at random). This effect lasts until the character uses the chosen trigger as part of any <b>downtime action</b>.</li><li>The pilot takes <b>AP</b> damage equal to the ranks in that trigger.</li><li>If piloting a mech, the mech takes <b>Heat</b> equal to the ranks in that trigger.</li></ul>Each character can be affected by this <b>1/scene</b>.</p>"
+    "effect": "<p>On a <b>critical hit</b>, the target must make a save using a <b>pilot trigger</b> of their choice. On a failure, they suffer the following effects:</p><p><ul><li>Move all ranks from that trigger to a different trigger (chosen at random). This effect lasts until the character uses the chosen trigger as part of any <b>downtime action</b>.</li><li>The pilot takes <b>AP</b> damage equal to the ranks in that trigger.</li><li>If piloting a mech, the mech takes <b>Heat</b> equal to the ranks in that trigger.</li></ul></p><p>Each character can be affected by this <b>1/scene</b>.</p>"
   },
   {
     "id": "ppg_npcf_doppelganger_anomaly",
@@ -2733,7 +2733,7 @@
     "locked": false,
     "type": "Trait",
     "tags": [],
-    "effect": "<p>When the Anomaly is destroyed, it creates an <b><span style='font-variant: small-caps;'>Intangible</span></b> soul <b>1d6+3</b> spaces away in a random direction. This soul has 3/4/5 <b>HP</b>, <b><span style='font-variant: small-caps;'>Evasion 8</span></b>, <b><span style='font-variant: small-caps;'>E-Defense 8</span></b>, and <b><span style='font-variant: small-caps;'>Speed 3</span></b>. At the end of each round, it loses <b>1 HP</b> and moves up to its <b><span style='font-variant: small-caps;'>Speed</span></b> towards the nearest <b>wreckage</b>. If it ends its movement within a <b>wreckage</b>, the <b>wreckage</b> absorbs the soul and reanimates as the mech it was before it was destroyed with <b><span style='font-variant: small-caps;'>1 Structure</span></b>, <b><span style='font-variant: small-caps;'>1 Stress</span></b>, and full <b>HP</b>, except it has the <b><span style='font-variant: small-caps;'>Anomaly</span></b> template and this trait.</p>"
+    "effect": "<p>When the Anomaly is destroyed, it creates an <b><span style='font-variant: small-caps;'>Intangible</span></b> soul <b>1d6+3</b> spaces away in a random direction. This soul has {3/4/5} <b>HP</b>, <b><span style='font-variant: small-caps;'>Evasion 8</span></b>, <b><span style='font-variant: small-caps;'>E-Defense 8</span></b>, and <b><span style='font-variant: small-caps;'>Speed 3</span></b>. At the end of each round, it loses <b>1 HP</b> and moves up to its <b><span style='font-variant: small-caps;'>Speed</span></b> towards the nearest <b>wreckage</b>. If it ends its movement within a <b>wreckage</b>, the <b>wreckage</b> absorbs the soul and reanimates as the mech it was before it was destroyed with <b><span style='font-variant: small-caps;'>1 Structure</span></b>, <b><span style='font-variant: small-caps;'>1 Stress</span></b>, and full <b>HP</b>, except it has the <b><span style='font-variant: small-caps;'>Anomaly</span></b> template and this trait.</p>"
   },
   {
     "id": "ppg_npcf_elevator_clip_anomaly",
@@ -2785,7 +2785,7 @@
     "locked": false,
     "type": "Trait",
     "tags": [],
-    "effect": "<p>When the Anomaly is destroyed, its <b>wreckage</b> becomes an invulnerable star of the same <b><span style='font-variant: small-caps;'>Size</span></b>. At the end of next round, the star explodes a <b>Burst 20</b> area. All characters in the area not in <b>hard cover</b> or behind a character the same <b><span style='font-variant: small-caps;'>Size</span></b> or larger as themselves must pass an <b><span style='font-variant: small-caps;'>Agility</span></b> save or take {20/30/40} <b>Energy AP</b>, half on success. Each character can only be affected by this trait <b>1/round</b>.</p>"
+    "effect": "<p>When the Anomaly is destroyed, its <b>wreckage</b> becomes an invulnerable star of the same <b><span style='font-variant: small-caps;'>Size</span></b>. At the end of next round, the star explodes a <b>Burst 20</b> area. All characters in the area not in <b>hard cover</b> or behind a character the same <b><span style='font-variant: small-caps;'>Size</span></b> or larger as themselves must pass an <b><span style='font-variant: small-caps;'>Agility</span></b> save or take {20/30/40} <b>Energy AP damage</b>, half on success. Each character can only be affected by this trait <b>1/round</b>.</p>"
   },
   {
     "id": "ppg_npcf_local_climate_anomaly",
@@ -2951,7 +2951,7 @@
         "id": "tg_quick_action"
       }
     ],
-    "effect": "<p>The Anomaly creates two <b>Blast 1</b> areas in <b>Range 20</b>, then chooses one of the following:<ul><li>Swap the positions of all objects and terrain within the areas, <b>teleporting</b> them to the other’s spaces or, if those spaces are occupied, as close as possible.</li><li>Create <b>dangerous terrain</b> of a random damage type in the areas. These areas last indefinitely or until this option is chosen again.</li><li>Create impenetrable fog in the areas. Characters at least partially within one of the areas cannot draw line of sight outside of that area, and char-acters outside the areas cannot draw line of sight inside. These areas last indefinitely or until this option is chosen again.</li></ul></p>"
+    "effect": "<p>The Anomaly creates two <b>Blast 1</b> areas in <b>Range 20</b>, then chooses one of the following:</p><p><ul><li>Swap the positions of all objects and terrain within the areas, <b>teleporting</b> them to the other’s spaces or, if those spaces are occupied, as close as possible.</li><li>Create <b>dangerous terrain</b> of a random damage type in the areas. These areas last indefinitely or until this option is chosen again.</li><li>Create impenetrable fog in the areas. Characters at least partially within one of the areas cannot draw line of sight outside of that area, and characters outside the areas cannot draw line of sight inside. These areas last indefinitely or until this option is chosen again.</li></ul></p>"
   },
   {
     "id": "ppg_npcf_retroactive_vendetta_anomaly",
@@ -3072,7 +3072,7 @@
     "locked": false,
     "type": "Trait",
     "tags": [],
-    "effect": "<p>On a critical hit, the Brigand’s target must pass a <b><span style='font-variant: small-caps;'>Hull</span></b> save or be knocked <b><span style='font-variant: small-caps;'>Prone</span></b>.</p>"
+    "effect": "<p>On a <b>critical hit</b>, the Brigand’s target must pass a <b><span style='font-variant: small-caps;'>Hull</span></b> save or be knocked <b><span style='font-variant: small-caps;'>Prone</span></b>.</p>"
   },
   {
     "id": "ppg_npcf_jury_rigged_brigand",
@@ -3085,7 +3085,7 @@
     "locked": false,
     "type": "Trait",
     "tags": [],
-    "effect": "<p>The Brigand gains +1 Difficulty on all checks and saves for one mech skill (chosen at creation): <b><span style='font-variant: small-caps;'>Hull</span></b>, <b><span style='font-variant: small-caps;'>Agility</span></b>, <b><span style='font-variant: small-caps;'>Systems</span></b>, or <b><span style='font-variant: small-caps;'>Engineering</span></b>.</p>"
+    "effect": "<p>The Brigand gains <b>+1 Difficulty</b> on all checks and saves for one <b>mech skill</b> (chosen at creation): <b><span style='font-variant: small-caps;'>Hull</span></b>, <b><span style='font-variant: small-caps;'>Agility</span></b>, <b><span style='font-variant: small-caps;'>Systems</span></b>, or <b><span style='font-variant: small-caps;'>Engineering</span></b>.</p>"
   },
   {
     "id": "ppg_npcf_brigand_systems_and_traits_brigand",
@@ -3098,7 +3098,7 @@
     "locked": false,
     "type": "Trait",
     "tags": [],
-    "effect": "<p>When choosing optional systems, the Brigand can also choose from the Brigand Systems and Traits and Pirate Systems and Traits (<i>Lancer</i>, p. 328).</p>"
+    "effect": "<p>When choosing optional systems, the Brigand can also choose from the <b>Brigand Systems and Traits</b> and <b>Pirate Systems and Traits</b> (<i>Lancer</i>, p. 328).</p>"
   },
   {
     "id": "ppg_npcf_finishing_blow_brigand",
@@ -3111,7 +3111,7 @@
     "locked": false,
     "type": "Trait",
     "tags": [],
-    "effect": "<p>The Brigand deals +3 bonus damage against <b><span style='font-variant: small-caps;'>Prone</span></b> targets.</p>"
+    "effect": "<p>The Brigand deals <b>+3 bonus damage</b> against <b><span style='font-variant: small-caps;'>Prone</span></b> targets.</p>"
   },
   {
     "id": "ppg_npcf_surgekiller_brigand",
@@ -3124,7 +3124,7 @@
     "locked": false,
     "type": "Trait",
     "tags": [],
-    "effect": "<p>The Brigand’s critical hits deal 2 Heat against targets with at least 1 CP.</p>"
+    "effect": "<p>The Brigand’s <b>critical hits</b> deal <b>2 Heat</b> against targets with at least <b>1 CP</b>.</p>"
   },
   {
     "id": "ppg_npcf_vandalize_brigand",
@@ -3137,7 +3137,7 @@
     "locked": false,
     "type": "Trait",
     "tags": [],
-    "effect": "<p>If the Brigand inflicts structure damage, it may choose for its target to suffer System Trauma instead of the result of its structure damage check. If so, the Brigand chooses if a system or weapon mount is destroyed, as well as which one.</p>"
+    "effect": "<p>If the Brigand inflicts <b>structure damage</b>, it may choose for its target to suffer <b>System Trauma</b> instead of the result of its <b>structure damage check</b>. If so, the Brigand chooses if a system or weapon mount is destroyed, as well as which one.</p>"
   },
   {
     "id": "ppg_npcf_commandeer_brigand",
@@ -3159,7 +3159,7 @@
         "id": "tg_quick_tech"
       }
     ],
-    "effect": "<p>The Brigand targets one hostile <b><span style='font-variant: small-caps;'>Deployable</span></b> or <b><span style='font-variant: small-caps;'>Drone</span></b>. Until the end of the scene, the Brigand is treated as the controller of the target <b><span style='font-variant: small-caps;'>Deployable</span></b> or <b><span style='font-variant: small-caps;'>Drone</span></b>. Attacks, checks, and saves made or forced by the <b><span style='font-variant: small-caps;'>Drone</span></b> use the original controller’s statistics. DRONES cannot be recalled while affected by this system.</p><p>The original controller can regain control and end this effect with a successful <b><span style='font-variant: small-caps;'>Systems</span></b> check as a quick action while the affected <b><span style='font-variant: small-caps;'>Deployable</span></b> or <b><span style='font-variant: small-caps;'>Drone</span></b> is within their <b><span style='font-variant: small-caps;'>Sensors</span></b> and line of sight.</p>"
+    "effect": "<p>The Brigand targets one hostile <b><span style='font-variant: small-caps;'>Deployable</span></b> or <b><span style='font-variant: small-caps;'>Drone</span></b>. Until the end of the scene, the Brigand is treated as the controller of the target <b><span style='font-variant: small-caps;'>Deployable</span></b> or <b><span style='font-variant: small-caps;'>Drone</span></b>. Attacks, checks, and saves made or forced by the <b><span style='font-variant: small-caps;'>Drone</span></b> use the original controller’s statistics. DRONES cannot be recalled while affected by this system.</p><p>The original controller can regain control and end this effect with a successful <b><span style='font-variant: small-caps;'>Systems</span></b> check as a <b>quick action</b> while the affected <b><span style='font-variant: small-caps;'>Deployable</span></b> or <b><span style='font-variant: small-caps;'>Drone</span></b> is within their <b><span style='font-variant: small-caps;'>Sensors</span></b> and line of sight.</p>"
   },
   {
     "id": "ppg_npcf_enforce_limiters_brigand",
@@ -3181,7 +3181,7 @@
         "id": "tg_quick_tech"
       }
     ],
-    "effect": "<p>The Brigand enforces reactor limiters on one hostile mech in <b><span style='font-variant: small-caps;'>Sensors</span></b> that can <b><span style='font-variant: small-caps;'>Overcharge</span></b>. The target must pass an <b><span style='font-variant: small-caps;'>Engineering</span></b> save or become <b><span style='font-variant: small-caps;'>Overheated</span></b> (CONDITIONS & STATUSES, APPENDIX A) until they remove the limiters with a successful <b><span style='font-variant: small-caps;'>Engineering</span></b> check as a full action.</p>"
+    "effect": "<p>The Brigand enforces reactor limiters on one hostile mech in <b><span style='font-variant: small-caps;'>Sensors</span></b> that can <b><span style='font-variant: small-caps;'>Overcharge</span></b>. The target must pass an <b><span style='font-variant: small-caps;'>Engineering</span></b> save or become <b><span style='font-variant: small-caps;'>Overheated</span></b> (<b><span style='font-variant: small-caps;'>Conditions & Statuses, Appendix A</span></b>) until they remove the limiters with a successful <b><span style='font-variant: small-caps;'>Engineering</span></b> check as a <b>full action</b>.</p>"
   },
   {
     "id": "ppg_npcf_grav_amp_brigand",
@@ -3208,7 +3208,7 @@
       2,
       3
     ],
-    "effect": "<p>The Brigand makes a tech attack against a character in <b><span style='font-variant: small-caps;'>Sensors</span></b>. On a hit, the target is knocked <b><span style='font-variant: small-caps;'>Prone</span></b> and takes <b>Kinetic AP damage</b> equal to their remaining <b><span style='font-variant: small-caps;'>Repairs</span></b>.</p>"
+    "effect": "<p>The Brigand makes a <b>tech attack</b> against a character in <b><span style='font-variant: small-caps;'>Sensors</span></b>. On a hit, the target is knocked <b><span style='font-variant: small-caps;'>Prone</span></b> and takes <b>Kinetic AP damage</b> equal to their remaining <b><span style='font-variant: small-caps;'>Repairs</span></b>.</p>"
   },
   {
     "id": "ppg_npcf_jail_break_brigand",
@@ -3230,7 +3230,7 @@
         "id": "tg_full_tech"
       }
     ],
-    "effect": "<p>The Brigand targets one hostile mech with the AI tag within <b><span style='font-variant: small-caps;'>Sensors</span></b>. That mech must succeed on a <b><span style='font-variant: small-caps;'>Systems</span></b> save or have all their installed AIs enter cascade. AIs immune to cascade are unaffected.</p>"
+    "effect": "<p>The Brigand targets one hostile mech with the <b>AI</b> tag within <b><span style='font-variant: small-caps;'>Sensors</span></b>. That mech must succeed on a <b><span style='font-variant: small-caps;'>Systems</span></b> save or have all their installed <b>AIs</b> enter <b>cascade</b>. <b>AIs</b> immune to <b>cascade</b> are unaffected.</p>"
   },
   {
     "id": "ppg_npcf_lockout_brigand",
@@ -3252,7 +3252,7 @@
         "id": "tg_full_tech"
       }
     ],
-    "effect": "<p>The Brigand forces a hostile mech within <b><span style='font-variant: small-caps;'>Sensors</span></b> to make a <b><span style='font-variant: small-caps;'>Systems</span></b> or <b><span style='font-variant: small-caps;'>Engineering</span></b> save (target’s choice). On a failure, the Brigand disables up to {1/2/3} of the target’s systems until the end of the scene. Disabled equipment cannot be <b><span style='font-variant: small-caps;'>Activated</span></b>, its passive effects are suppressed, and ongoing effects caused by that equipment immediately end.</p><p>The target may end this effect with a successful <b><span style='font-variant: small-caps;'>Systems</span></b> or <b><span style='font-variant: small-caps;'>Engineering</span></b> check as a full action.</p>"
+    "effect": "<p>The Brigand forces a hostile mech within <b><span style='font-variant: small-caps;'>Sensors</span></b> to make a <b><span style='font-variant: small-caps;'>Systems</span></b> or <b><span style='font-variant: small-caps;'>Engineering</span></b> save (target’s choice). On a failure, the Brigand disables up to {1/2/3} of the target’s systems until the end of the scene. Disabled equipment cannot be <b><span style='font-variant: small-caps;'>Activated</span></b>, its passive effects are suppressed, and ongoing effects caused by that equipment immediately end.</p><p>The target may end this effect with a successful <b><span style='font-variant: small-caps;'>Systems</span></b> or <b><span style='font-variant: small-caps;'>Engineering</span></b> check as a <b>full action</b>.</p>"
   },
   {
     "id": "ppg_npcf_rescind_brigand",
@@ -3274,7 +3274,7 @@
         "id": "tg_full_tech"
       }
     ],
-    "effect": "<p>The Brigand rescinds 1 license rank of a hostile character in <b><span style='font-variant: small-caps;'>Sensors</span></b>. While the target carries equipment tied to that license rank, they count as piloting an unlicensed mech (<i>Lancer</i>, p.74). An affected mech can jettison any piece of equipment as a quick action, rendering it unusable until it is retrieved and reattached during a rest.</p><p>Otherwise, this effect lasts until the target finishes a rest or succeeds on a <b><span style='font-variant: small-caps;'>Systems</span></b> check as a full action to re-validate their licenses.</p>"
+    "effect": "<p>The Brigand rescinds <b>1 license rank</b> of a hostile character in <b><span style='font-variant: small-caps;'>Sensors</span></b>. While the target carries equipment tied to that license rank, they count as piloting an <b>unlicensed mech</b> (<i>Lancer</i>, p.74). An affected mech can jettison any piece of equipment as a <b>quick action</b>, rendering it unusable until it is retrieved and reattached during a <b>rest</b>.</p><p>Otherwise, this effect lasts until the target finishes a <b>rest</b> or succeeds on a <b><span style='font-variant: small-caps;'>Systems</span></b> check as a <b>full action</b> to re-validate their licenses.</p>"
   },
   {
     "id": "ppg_npcf_youre_too_slow_brisk",
@@ -3287,7 +3287,7 @@
     "locked": false,
     "type": "Trait",
     "tags": [],
-    "effect": "<p>This template may only be taken by an NPC with less than 3 <b><span style='font-variant: small-caps;'>Speed</span></b>. This NPC’s <b><span style='font-variant: small-caps;'>Speed</span></b> becomes 3.",
+    "effect": "<p>This template may only be taken by an NPC with <b>less than 3 <span style='font-variant: small-caps;'>Speed</span></b>. This NPC’s <b><span style='font-variant: small-caps;'>Speed</span></b> becomes <b>3</b>.",
     "override": {
       "speed": 3
     }
@@ -3303,7 +3303,7 @@
     "locked": false,
     "type": "Trait",
     "tags": [],
-    "effect": "<p>This template may only be taken by an NPC with more than <b><span style='font-variant: small-caps;'>1 Stress</span></b>. Gain <b><span style='font-variant: small-caps;'>+2 Heat Cap</span></b>.",
+    "effect": "<p>This template may only be taken by an NPC with <b>more than <span style='font-variant: small-caps;'>1 Stress</span></b>. Gain <b><span style='font-variant: small-caps;'>+2 Heat Cap</span></b>.",
     "bonus": {
       "heatcap": 2
     }
@@ -3319,7 +3319,7 @@
     "locked": false,
     "type": "Trait",
     "tags": [],
-    "effect": "<p>The GRAVITY CANNON may attack in a Cone 7 or Line 10 area. Upon attacking with the GRAVITY CANNON, the Anchor may create up to 3 pieces of <b><span style='font-variant: small-caps;'>Size 1</span></b> terrain or 1 piece of <b><span style='font-variant: small-caps;'>Size 2</span></b> terrain in the attack’s area.</p>"
+    "effect": "<p>The <b><span style='font-variant: small-caps;'>Gravity Cannon</span></b> may attack in a <b>Cone 7</b> or <b>Line 10</b> area. Upon attacking with the <b><span style='font-variant: small-caps;'>Gravity Cannon</span></b>, the Anchor may create up to <b>3 pieces</b> of <b><span style='font-variant: small-caps;'>Size 1</span></b> terrain or <b>1 piece</b> of <b><span style='font-variant: small-caps;'>Size 2</span></b> terrain in the attack’s area.</p>"
   },
   {
     "id": "ppg_npcf_thunderfall_capacitor",
@@ -3340,7 +3340,7 @@
         "id": "tg_free_action"
       }
     ],
-    "effect": "<p>The area targeted by the <b><span style='font-variant: small-caps;'>Marathon Arquebus</span></b> and all adjacent spaces are marked for thunderfall; at the end of the next round, the marked area detonates. Hostile characters in the detonation gain <b><span style='font-variant: small-caps;'>Lock On</span></b> and must pass an <b><span style='font-variant: small-caps;'>Agility</span></b> save or take {8/12/16} Energy, half on success. Allied characters in the detonation gain <b><span style='font-variant: small-caps;'>Overshield</span></b> {4/6/8}.</p>"
+    "effect": "<p>The area targeted by the <b><span style='font-variant: small-caps;'>Marathon Arquebus</span></b> and all adjacent spaces are marked for thunderfall; at the end of the next round, the marked area detonates. Hostile characters in the detonation gain <b><span style='font-variant: small-caps;'>Lock On</span></b> and must pass an <b><span style='font-variant: small-caps;'>Agility</span></b> save or take {8/12/16} Energy damage, half on success. Allied characters in the detonation gain <b><span style='font-variant: small-caps;'>Overshield</span></b> {4/6/8}.</p>"
   },
   {
     "id": "ppg_npcf_coherent_entanglement_ghost",
@@ -3353,7 +3353,7 @@
     "locked": false,
     "type": "Trait",
     "tags": [],
-    "effect": "<p>PARADOX STATE instead lasts until the start of the Ghost’s next turn and affects every hostile action is taken against a character bonded with the Ghost.</p>"
+    "effect": "<p><b><span style='font-variant: small-caps;'>Paradox State</span></b> instead lasts until the start of the Ghost’s next turn and affects every hostile action is taken against a character <b>bonded</b> with the Ghost.</p>"
   },
   {
     "id": "ppg_npcf_hurricane_of_steel_hatchet",
@@ -3374,7 +3374,7 @@
         "id": "tg_full_action"
       }
     ],
-    "effect": "<p>The Hatchet may make one <b><span style='font-variant: small-caps;'>Thrown</span></b> weapon attack against each hostile character in <b><span style='font-variant: small-caps;'>Range</span></b> of its <b><span style='font-variant: small-caps;'>Thrown</span></b> weapons, without needing to retrieve each weapon. Each attack creates a copy of the weapon that lands adjacent to the target’s space.</p><p>Until the end of the Hatchet’s next turn, it may take a second full action to teleport adjacent to one of its <b><span style='font-variant: small-caps;'>Thrown</span></b> weapons, then retrieve all its <b><span style='font-variant: small-caps;'>Thrown</span></b> weapons. All hostile characters adjacent to a retrieved weapon must make an <b><span style='font-variant: small-caps;'>Agility</span></b> save or be pushed 2 spaces in any direction and take 6/8/10 Kinetic. On a success, the target takes half damage and isn’t pushed.</p>"
+    "effect": "<p>The Hatchet may make one <b><span style='font-variant: small-caps;'>Thrown</span></b> weapon attack against each hostile character in <b><span style='font-variant: small-caps;'>Range</span></b> of its <b><span style='font-variant: small-caps;'>Thrown</span></b> weapons, without needing to retrieve each weapon. Each attack creates a copy of the weapon that lands adjacent to the target’s space.</p><p>Until the end of the Hatchet’s next turn, it may take a second <b>full action</b> to <b>teleport</b> adjacent to one of its <b><span style='font-variant: small-caps;'>Thrown</span></b> weapons, then retrieve all its <b><span style='font-variant: small-caps;'>Thrown</span></b> weapons. All hostile characters adjacent to a retrieved weapon must make an <b><span style='font-variant: small-caps;'>Agility</span></b> save or be pushed <b>2 spaces</b> in any direction and take {6/8/10} Kinetic damage. On a success, the target takes half damage and isn’t pushed.</p>"
   },
   {
     "id": "ppg_npcf_evergaol_knight",
@@ -3398,7 +3398,7 @@
         "id": "tg_quick_action"
       }
     ],
-    "effect": "<p>Gaol Seal (Size 1/2, HP {15/20/25}, Evasion 5, E-Defense 8, Tags: Deployable)</p><p>The Knight deploys a gaol seal to a free space in Range 3. The seal creates a Burst 4 area that must completely contain both the Knight and its duel opponent. The Knight and its duel opponent cannot leave the area and are <b><span style='font-variant: small-caps;'>Intangible</span></b> while inside it.</p><p>The area lasts until the seal is destroyed, the duel ends, or until the Knight is overheated. The Knight takes 1 Heat when it ends its turn in the area.</p>"
+    "effect": "<p><b>Gaol Seal (Size </b>1/2<b>, HP </b>{15/20/25}<b>, Evasion </b>5<b>, E-Defense </b>8<b>, Tags: </b><i>Deployable</i><b>)</b></p><p>The Knight deploys a gaol seal to a free space in <b>Range 3</b>. The seal creates a <b>Burst 4</b> area that must completely contain both the Knight and its <b>duel</b> opponent. The Knight and its duel opponent cannot leave the area and are <b><span style='font-variant: small-caps;'>Intangible</span></b> while inside it.</p><p>The area lasts until the seal is destroyed, the duel ends, or until the Knight is overheated. The Knight takes <b>1 Heat</b> when it ends its turn in the area.</p>"
   },
   {
     "id": "ppg_npcf_dimensional_raid_mesmerist",
@@ -3411,7 +3411,7 @@
     "locked": false,
     "type": "Trait",
     "tags": [],
-    "effect": "<p>If a character takes Heat from MEMETIC MAGNETISM, the Mesmerist may teleport to a space adjacent to them and attack them with <b><span style='font-variant: small-caps;'>Overwatch</span></b>.</p>"
+    "effect": "<p>If a character takes <b>Heat</b> from <b><span style='font-variant: small-caps;'>Memetic Magnetism</span></b>, the Mesmerist may <b>teleport</b> to a space adjacent to them and attack them with <b><span style='font-variant: small-caps;'>Overwatch</span></b>.</p>"
   },
   {
     "id": "ppg_npcf_skyburner_napalm",
@@ -3424,7 +3424,7 @@
     "locked": false,
     "type": "Trait",
     "tags": [],
-    "effect": "<p>When attacking with the <b><span style='font-variant: small-caps;'>Salamander Thermobaric Catapult</span></b>, the Napalm may instead draw two Line 5 areas anywhere in its <b><span style='font-variant: small-caps;'>Range</span></b>. Targets within both areas are only attacked once.</p>"
+    "effect": "<p>When attacking with the <b><span style='font-variant: small-caps;'>Salamander Thermobaric Catapult</span></b>, the Napalm may instead draw two <b>Line 5</b> areas anywhere in its <b><span style='font-variant: small-caps;'>Range</span></b>. Targets within both areas are only attacked once.</p>"
   },
   {
     "id": "ppg_npcf_greater_good_occultist",
@@ -3445,7 +3445,7 @@
         "val": 1
       }
     ],
-    "effect": "<p>The Occultist destroys one non-<b><span style='font-variant: small-caps;'>Grunt</span></b> ally in <b><span style='font-variant: small-caps;'>Sensors</span></b> with only <b><span style='font-variant: small-caps;'>1 Structure</span></b>, and a different ally in <b><span style='font-variant: small-caps;'>Sensors</span></b> regains all HP, clears all Heat and conditions, and gains the <b><span style='font-variant: small-caps;'>Elite</span></b> template.</p>"
+    "effect": "<p>The Occultist destroys one non-<b><span style='font-variant: small-caps;'>Grunt</span></b> ally in <b><span style='font-variant: small-caps;'>Sensors</span></b> with only <b><span style='font-variant: small-caps;'>1 Structure</span></b>, and a different ally in <b><span style='font-variant: small-caps;'>Sensors</span></b> regains all <b>HP</b>, clears all <b>Heat</b> and <b>conditions</b>, and gains the <b><span style='font-variant: small-caps;'>Elite</span></b> template.</p>"
   },
   {
     "id": "ppg_npcf_flashbang_projector_prism",
@@ -3502,7 +3502,7 @@
     "locked": false,
     "type": "Trait",
     "tags": [],
-    "effect": "<p>The Vulture may use <b><span style='font-variant: small-caps;'>“Magpie” Subroutines</span></b> as a full action and choose a second option to destroy. If it does, it may choose a second benefit, targeting the same character or a different one.</p>"
+    "effect": "<p>The Vulture may use <b><span style='font-variant: small-caps;'>“Magpie” Subroutines</span></b> as a <b>full action</b> and choose a second option to <b>destroy</b>. If it does, it may choose a second benefit, targeting the same character or a different one.</p>"
   },
   {
     "id": "ppg_npcf_undying_faith_zealot",
@@ -3515,7 +3515,7 @@
     "locked": false,
     "type": "Trait",
     "tags": [],
-    "effect": "<p>Allies affected by <b><span style='font-variant: small-caps;'>Zeal</span></b> that would be destroyed are instead reduced to <b><span style='font-variant: small-caps;'>1 Structure</span></b> and 1 HP.</p>"
+    "effect": "<p>Allies affected by <b><span style='font-variant: small-caps;'>Zeal</span></b> that would be destroyed are instead reduced to <b><span style='font-variant: small-caps;'>1 Structure</span></b> and <b>1 HP</b>.</p>"
   },
   {
     "id": "ppg_npcf_slingshot_anchor",
@@ -3593,7 +3593,7 @@
     "locked": false,
     "type": "Trait",
     "tags": [],
-    "effect": "<p>When the Knight uses <b><span style='font-variant: small-caps;'>Compelled Duel</span></b>, it may choose an additional target to duel. It may use <b><span style='font-variant: small-caps;'>Compelled Duel</span></b> again so long as it has no more than two duel opponents.</p>"
+    "effect": "<p>When the Knight uses <b><span style='font-variant: small-caps;'>Compelled Duel</span></b>, it may choose an additional target to <b>duel</b>. It may use <b><span style='font-variant: small-caps;'>Compelled Duel</span></b> again so long as it has no more than two <b>duel</b> opponents.</p>"
   },
   {
     "id": "ppg_npcf_hall_of_mirrors_mesmerist",
@@ -3606,7 +3606,7 @@
     "locked": false,
     "type": "Trait",
     "tags": [],
-    "effect": "<p>While the Mesmerist has any mirror images, allied characters in Burst 2 are <b><span style='font-variant: small-caps;'>Invisible</span></b>. Each attack that misses an affected ally destroys 1 mirror image.</p>"
+    "effect": "<p>While the Mesmerist has any <b>mirror images</b>, allied characters in <b>Burst 2</b> are <b><span style='font-variant: small-caps;'>Invisible</span></b>. Each attack that misses an affected ally destroys <b>1 mirror image</b>.</p>"
   },
   {
     "id": "ppg_npcf_reactor_accelerant_napalm",
@@ -3632,7 +3632,7 @@
     "locked": false,
     "type": "Trait",
     "tags": [],
-    "effect": "<p><b><span style='font-variant: small-caps;'>Reap the Chaff</span></b> may destroy two targets at a time. If it does, the Occultist may deploy 1 FLOCK <b><span style='font-variant: small-caps;'>Drone</span></b> adjacent to itself as a free action.</p>"
+    "effect": "<p><b><span style='font-variant: small-caps;'>Reap the Chaff</span></b> may destroy two targets at a time. If it does, the Occultist may deploy <b><span style='font-variant: small-caps;'>1 FLOCK Drone</span></b> adjacent to itself as a <b>free action</b>.</p>"
   },
   {
     "id": "ppg_npcf_double_vision_prism",
@@ -3645,7 +3645,7 @@
     "locked": false,
     "type": "Trait",
     "tags": [],
-    "effect": "<p>The Prism may have 2 projectors at a time and place 2 projectors for each use of PRISMATIC PROJECTION.</p>"
+    "effect": "<p>The Prism may have <b>2 projectors</b> at a time and place <b>2 projectors</b> for each use of <b><span style='font-variant: small-caps;'>Prismatic Projection</span></b>.</p>"
   },
   {
     "id": "ppg_npcf_primordial_sea_torrent",
@@ -3671,7 +3671,7 @@
     "locked": false,
     "type": "System",
     "tags": [],
-    "effect": "<p>The Vulture may use “MAGPIE” SUBROUTINES upon wreckages, weapons, and systems in Range 5.</p>"
+    "effect": "<p>The Vulture may use <b><span style='font-variant: small-caps;'>“Magpie” Subroutines</span></b> upon wreckages, weapons, and systems in <b>Range 5</b>.</p>"
   },
   {
     "id": "ppg_npcf_fervent_retribution_zealot",
