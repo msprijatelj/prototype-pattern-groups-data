@@ -2235,7 +2235,7 @@
         "id": "tg_quick_tech"
       }
     ],
-    "effect": "<p>The Zealot <b>flies</b> up to its <b><span style='font-variant: small-caps;'>Speed</span></b>. Allies affected by <b><span style='font-variant: small-caps;'>Zeal</span></b> at any point during this movement may <b><span style='font-variant: small-caps;'>Boost</span></b> up to their <b><span style='font-variant: small-caps;'>Speed</span> +2</b> as a <b>reaction</b>. At the end of the Zealot’s movement, all allies affected by <b><span style='font-variant: small-caps;'>Zeal</span></b> gain <b><span style='font-variant: small-caps;'>Overshield</span></b> {2/3/4}.</p>"
+    "effect": "<p>The Zealot <b>flies</b> up to its <b><span style='font-variant: small-caps;'>Speed</span></b>. Allies within <b><span style='font-variant: small-caps;'>Zeal</span></b>’s area at any point during this movement may move up to their <b><span style='font-variant: small-caps;'>Speed</span> +2</b> as a <b>reaction</b>, ignoring engagement and reactions. Allies that end this movement in <b><span style='font-variant: small-caps;'>Zeal</span></b>’s area gain <b><span style='font-variant: small-caps;'>Overshield</span></b> {2/3/4}.</p>"
   },
   {
     "id": "ppg_npcf_blazing_fervor_zealot",
@@ -2248,7 +2248,7 @@
     "locked": false,
     "type": "Trait",
     "tags": [],
-    "effect": "<p>Allies affected by <b><span style='font-variant: small-caps;'>Zeal</span></b> deal an additional <b>1 Burn</b> on successful attacks.</p>"
+    "effect": "<p>Allies affected by <b><span style='font-variant: small-caps;'>Zeal</span></b> deal an additional <b>1 Burn</b> on successful weapon attacks.</p>"
   },
   {
     "id": "ppg_npcf_flagellants_cleansing_zealot",
@@ -2785,7 +2785,7 @@
     "locked": false,
     "type": "Trait",
     "tags": [],
-    "effect": "<p>When the Anomaly is destroyed, its <b>wreckage</b> becomes an invulnerable star of the same <b><span style='font-variant: small-caps;'>Size</span></b>. At the end of next round, the star explodes a <b>Burst 20</b> area. All characters in the area not in <b>hard cover</b> or behind a character the same <b><span style='font-variant: small-caps;'>Size</span></b> or larger as themselves must pass an <b><span style='font-variant: small-caps;'>Agility</span></b> save or take {20/30/40} <b>Energy AP damage</b>, half on success. Each character can only be affected by this trait <b>1/round</b>.</p>"
+    "effect": "<p>When the Anomaly is destroyed, it becomes an invulnerable star of the same <b><span style='font-variant: small-caps;'>Size</span></b>, obliterating its <b>wreckage</b> (if any). At the end of next round, the star explodes a <b>Burst 20</b> area. All characters in the area not in <b>hard cover</b> or behind a character the same <b><span style='font-variant: small-caps;'>Size</span></b> or larger as themselves must pass an <b><span style='font-variant: small-caps;'>Agility</span></b> save or take {20/30/40} <b>Energy AP damage</b>, half on success. Each character can only be affected by this trait <b>1/round</b>.</p>"
   },
   {
     "id": "ppg_npcf_local_climate_anomaly",
