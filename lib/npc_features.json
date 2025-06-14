@@ -272,7 +272,7 @@
         "id": "tg_overshield"
       }
     ],
-    "effect": "<p>The Capacitor deploys with <b><span style='font-variant: small-caps;'>Overshield</span></b> {2/4/6}. Whenever it grants <b><span style='font-variant: small-caps;'>Overshield</span></b> to another character, it gains the same amount of <b><span style='font-variant: small-caps;'>Overshield</span></b>. Whenever the Capacitor grants <b><span style='font-variant: small-caps;'>Overshield</span></b> to another character, it gains the same amount of <b><span style='font-variant: small-caps;'>Overshield</span></b>.</p>"
+    "effect": "<p>The Capacitor deploys with <b><span style='font-variant: small-caps;'>Overshield</span></b> {2/4/6}. Whenever it grants <b><span style='font-variant: small-caps;'>Overshield</span></b> to another character, it gains the same amount of <b><span style='font-variant: small-caps;'>Overshield</span></b>.</p>"
   },
   {
     "id": "ppg_npcf_quickening_bolt_capacitor",
