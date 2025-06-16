@@ -21,7 +21,7 @@
         "id": "tg_quick_action"
       }
     ],
-    "effect": "<p>The Anchor becomes <b><span style='font-variant: small-caps;'>Slowed</span></b> and creates a <b>Burst 3</b> area of gravitomagnetic interference. While active, hostile characters in the area are <b><span style='font-variant: small-caps;'>Slowed</span></b> and cannot <b>teleport</b> into or out of the area. Lastly, allies in the area are not valid targets for <b>ranged attacks</b> made from outside the area. Other characters with <b><span style='font-variant: small-caps;'>Lodestone</span></b> are unaffected by this system.</p><p>These effects last the end of the Anchor’s next turn, until it uses this system again, or until it’s <b><span style='font-variant: small-caps;'>Stunned</span></b>, overheated, or destroyed.</p>"
+    "effect": "<p>The Anchor creates a <b>Burst 3</b> area of gravitomagnetic interference. While active, the Anchor and hostile characters in the area are <b><span style='font-variant: small-caps;'>Slowed</span></b> and cannot <b>teleport</b> into or out of the area. Allies in the area are not valid targets for <b>ranged attacks</b> made from outside the area. Other characters with <b><span style='font-variant: small-caps;'>Lodestone</span></b> are unaffected by this system.</p><p>These effects last the end of the Anchor’s next turn, until it uses this system again, or until it’s <b><span style='font-variant: small-caps;'>Stunned</span></b>, overheated, or destroyed.</p>"
   },
   {
     "id": "ppg_npcf_gravity_cannon_anchor",
