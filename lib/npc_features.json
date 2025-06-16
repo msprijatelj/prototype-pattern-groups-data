@@ -1417,7 +1417,7 @@
         ]
       }
     ],
-    "effect": "<p>This weapon can attack <b>1-2</b> targets at a time.</p><p><b>On Attack:</b> The Occultist may move a controlled <b><span style='font-variant: small-caps;'>Drone</span></b> within <b><span style='font-variant: small-caps;'>Sensors</span></b> adjacent to each target.</p>"
+    "effect": "<p>This weapon can attack <b>1–2</b> targets at a time.</p><p><b>On Attack:</b> The Occultist may move a controlled <b><span style='font-variant: small-caps;'>Drone</span></b> within <b><span style='font-variant: small-caps;'>Sensors</span></b> adjacent to each target.</p>"
   },
   {
     "id": "ppg_npcf_reap_the_chaff_occultist",
@@ -3549,7 +3549,7 @@
   },
   {
     "id": "ppg_npcf_maxwells_daemon_ghost",
-    "name": "Maxwell’s Daemon (Veteran)",
+    "name": "Maxwell’s Demon (Veteran)",
     "origin": {
       "type": "Class",
       "name": "Ghost",
@@ -3649,7 +3649,7 @@
   },
   {
     "id": "ppg_npcf_primordial_sea_torrent",
-    "name": "Primordial Sea (Veteran)",
+    "name": "Primordial (Veteran)",
     "origin": {
       "type": "Class",
       "name": "Torrent",
