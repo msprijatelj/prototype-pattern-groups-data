@@ -3674,8 +3674,8 @@
     "effect": "<p>The Vulture may use <b><span style='font-variant: small-caps;'>“Magpie” Subroutines</span></b> upon wreckages, weapons, and systems in <b>Range 5</b>.</p>"
   },
   {
-    "id": "ppg_npcf_fervent_retribution_zealot",
-    "name": "Fervent Retribution (Veteran)",
+    "id": "ppg_npcf_fire_and_brimstone_zealot",
+    "name": "Fire and Brimstone (Veteran)",
     "origin": {
       "type": "Class",
       "name": "Zealot",
@@ -3684,6 +3684,6 @@
     "locked": false,
     "type": "Trait",
     "tags": [],
-    "effect": "<p>A hostile character that damages an ally affected by <b><span style='font-variant: small-caps;'>Zeal</span></b> takes {1/2/3} <b>Burn</b>."
+    "effect": "<p>Hostile characters in <b><span style='font-variant: small-caps;'>Zeal</span></b>’s area take <b>2 Burn</b> each time they fail an <b><span style='font-variant: small-caps;'>Engineering</span></b> check to clear <b>Burn</b>."
   }
 ]
