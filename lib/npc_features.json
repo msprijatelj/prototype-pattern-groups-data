@@ -1187,7 +1187,7 @@
       },
       {
         "id": "tg_heat_self",
-        "val": 4
+        "val": 3
       }
     ],
     "attack_bonus": [
@@ -1312,7 +1312,7 @@
         "id": "tg_quick_action"
       }
     ],
-    "effect": "<p><b>Firefly Drone (Size </b>1/2<b>, HP </b>{5/8/10}<b>, Evasion </b>10<b>, E-Defense </b>10<b>, Tags: </b><i>Drone</i><b>)</b></p><p>This drone can be deployed to a space within <b><span style='font-variant: small-caps;'>Sensors</span></b> and line of sight. While deployed, hostile characters in <b>Burst 2</b> of the drone cannot draw line of sight outside of the area. If the drone takes any <b>Burn</b>, it explodes and is destroyed; all characters in <b>Burst 2</b> must pass an <b><span style='font-variant: small-caps;'>Agility</span></b> save or take {2/4/6} <b>Burn</b>.</p>"
+    "effect": "<p><b>Firefly Drone (Size </b>1/2<b>, HP </b>{5/8/10}<b>, Evasion </b>10<b>, E-Defense </b>10<b>, Tags: </b><i>Drone</i><b>)</b></p><p>This drone can be deployed to a space within <b><span style='font-variant: small-caps;'>Sensors</span></b> and line of sight. While deployed, hostile characters in <b>Burst 2</b> of the drone cannot draw line of sight outside of the area. If the drone is targeted by an effect that deals any <b>Burn</b>, it explodes and is destroyed; all characters in <b>Burst 2</b> must pass an <b><span style='font-variant: small-caps;'>Agility</span></b> save or take {2/3/4} <b>Heat</b> and {5/7/9} <b>Burn</b>.</p>"
   },
   {
     "id": "ppg_npcf_incendiary_grenade_napalm",
@@ -1330,13 +1330,13 @@
       },
       {
         "id": "tg_limited",
-        "val": 2
+        "val": 1
       },
       {
-        "id": "tg_quick_action"
+        "id": "tg_full_action"
       }
     ],
-    "effect": "<p>A <b>Blast 1</b> area in <b>Range 5</b> is set <b>on fire</b> and becomes <b>difficult terrain</b> until extinguished or until the end of the scene. Characters that start their turn within the area or move into it for the first time in a round must pass an <b><span style='font-variant: small-caps;'>Engineering</span></b> save or take {2/4/6} <b>Burn</b>.</p>"
+    "effect": "<p>Two <b>Blast 1</b> areas in <b>Range 10</b> are set <b>on fire</b> and become <b>difficult terrain</b> until extinguished or until the end of the scene. Characters that start their turn within either area or move into one for the first time in a round must pass an <b><span style='font-variant: small-caps;'>Engineering</span></b> save or take <b>2 Heat</b> and {2/4/6} <b>Burn</b>.</p>"
   },
   {
     "id": "ppg_npcf_long_burn_catalyst_napalm",
@@ -1347,17 +1347,9 @@
       "base": false
     },
     "locked": false,
-    "type": "System",
-    "tags": [
-      {
-        "id": "tg_recharge",
-        "val": 6
-      },
-      {
-        "id": "tg_free_action"
-      }
-    ],
-    "effect": "<p>The area targeted by the <b><span style='font-variant: small-caps;'>Salamander Thermobaric Catapult</span></b> is set <b>on fire</b> and becomes <b>difficult terrain</b> until extinguished, until the end of the scene, or until this system is used again. Characters that start their turn within the area or move into it for the first time in a round must pass an <b><span style='font-variant: small-caps;'>Engineering</span></b> save or take <b>2 Heat</b> and {2/3/4} <b>Burn</b>.</p>"
+    "type": "Trait",
+    "tags": [],
+    "effect": "<p>While the Napalm is in the <b><span style='font-variant: small-caps;'>Danger Zone</span></b>, characters hit by the <b><span style='font-variant: small-caps;'>Salamander Thermobaric Catapult</span></b> gain <b>+1 Difficulty</b> on <b><span style='font-variant: small-caps;'>Engineering</span></b> checks and saves and cannot clear <b><span style='font-variant: small-caps;'>Heat</span></b> except by overheating. These effects last until the end of the target’s next turn.</p>"
   },
   {
     "id": "ppg_npcf_flock_drones_occultist",
@@ -2993,7 +2985,7 @@
         "val": 1
       }
     ],
-    "effect": "<p>One character with a <b><span style='font-variant: small-caps;'>Background</span></b> within <b><span style='font-variant: small-caps;'>Sensors</span></b> become <b><span style='font-variant: small-caps;'>Impaired</span></b> and <b><span style='font-variant: small-caps;'>Slowed</span></b> and must make a <b><span style='font-variant: small-caps;'>Grit</span></b> check as their past is rewritten. On a success, the effect lasts until the end of their next turn. On a failure, the effect lasts until the end of the scene, and they must change their <b><span style='font-variant: small-caps;'>Background</span></b> to a different, random <b><span style='font-variant: small-caps;'>Background</span></b>. A character can be affected by this trait only <b>1/mission</b>.</p><p>While the target’s <b><span style='font-variant: small-caps;'>Background</span></b> has changed, skill checks they attempt that would have benefited from their previous <b><span style='font-variant: small-caps;'>Background</span></b> gain <b>+1 Difficulty</b>. This effect ends after the target performs a <b>downtime action</b> related to their former <b><span style='font-variant: small-caps;'>Background</span></b>. Alternatively, the target may accept their new <b><span style='font-variant: small-caps;'>Background</span></b> as their “true past,” keeping it but otherwise ending this effect.</p>"
+    "effect": "<p>One character with a <b><span style='font-variant: small-caps;'>Background</span></b> within <b><span style='font-variant: small-caps;'>Sensors</span></b> becomes <b><span style='font-variant: small-caps;'>Impaired</span></b> and <b><span style='font-variant: small-caps;'>Slowed</span></b> and must make a <b><span style='font-variant: small-caps;'>Grit</span></b> check as their past is rewritten. On a success, the effect lasts until the end of their next turn. On a failure, the effect lasts until the end of the scene, and they must change their <b><span style='font-variant: small-caps;'>Background</span></b> to a different, random <b><span style='font-variant: small-caps;'>Background</span></b>. A character can be affected by this trait only <b>1/mission</b>.</p><p>While the target’s <b><span style='font-variant: small-caps;'>Background</span></b> has changed, skill checks they attempt that would have benefited from their previous <b><span style='font-variant: small-caps;'>Background</span></b> gain <b>+1 Difficulty</b>. This effect ends after the target performs a <b>downtime action</b> related to their former <b><span style='font-variant: small-caps;'>Background</span></b>. Alternatively, the target may accept their new <b><span style='font-variant: small-caps;'>Background</span></b> as their “true past,” keeping it but otherwise ending this effect.</p>"
   },
   {
     "id": "ppg_npcf_self_mechanization_anomaly",
@@ -3059,7 +3051,7 @@
         "id": "tg_quick_action"
       }
     ],
-    "effect": "<p>The Anomaly chooses an allied mech without the <b><span style='font-variant: small-caps;'>Grunt</span></b> template in <b>Range 10</b>. The target gains the <b><span style='font-variant: small-caps;'>Grunt</span></b> template, setting each of its <b>HP</b>, <b><span style='font-variant: small-caps;'>Structure</span></b>, and <b><span style='font-variant: small-caps;'>Stress</span></b> to <b>1</b>. The Anomaly then creates {1/2/3} copies of the character in free spaces within <b>Range 3</b> of the target (or as close as possible). The copies may act this round.</p>"
+    "effect": "<p>The Anomaly chooses an allied mech without the <b><span style='font-variant: small-caps;'>Grunt</span></b> template in <b>Range 10</b>. The target gains the <b><span style='font-variant: small-caps;'>Grunt</span></b> template, keeping existing templates but setting each of its <b>HP</b>, <b><span style='font-variant: small-caps;'>Structure</span></b>, <b><span style='font-variant: small-caps;'>Stress</span></b>, and turns each round to <b>1</b>. The Anomaly then creates {1/2/3} copies of the character in free spaces within <b>Range 3</b> of the target (or as close as possible). The copies may act this round.</p>"
   },
   {
     "id": "ppg_npcf_dirty_fighting_brigand",
@@ -3424,7 +3416,7 @@
     "locked": false,
     "type": "Trait",
     "tags": [],
-    "effect": "<p>When attacking with the <b><span style='font-variant: small-caps;'>Salamander Thermobaric Catapult</span></b>, the Napalm may instead draw two <b>Line 5</b> areas anywhere in its <b><span style='font-variant: small-caps;'>Range</span></b>. Targets within both areas are only attacked once.</p>"
+    "effect": "<p>When attacking with the <b><span style='font-variant: small-caps;'>Salamander Thermobaric Catapult</span></b>, the Napalm may instead draw two <b>Line 5</b> areas anywhere in its <b><span style='font-variant: small-caps;'>Range</span></b>. The attack targets all characters in the areas and up to <b>10 spaces</b> above them. Targets within both areas are only attacked once.</p>"
   },
   {
     "id": "ppg_npcf_greater_good_occultist",
