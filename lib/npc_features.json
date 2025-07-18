@@ -774,6 +774,241 @@
     "effect": "<p>Roll <b>1d6</b>. On a <b>4+</b>, the action is negated. The Hatchet then copies the negated action, targeting the triggering character and with an attack bonus of {+2/+4/+6} and its own <b><span style='font-variant: small-caps;'>Save Target</span></b>.</p><p>If the action would have affected an area, the area of the copied action must include the triggering character. The copied action ignores any range restrictions upon the original action.</p>"
   },
   {
+    "id": "ppg_npcf_hf_kinetic_saber_kensei",
+    "name": "Kinetic Saber",
+    "origin": {
+      "type": "Class",
+      "name": "Kensei",
+      "base": true
+    },
+    "locked": false,
+    "type": "Weapon",
+    "weapon_type": "Heavy Melee",
+    "tags": [],
+    "attack_bonus": [
+      2,
+      4,
+      6
+    ],
+    "accuracy": [
+      0,
+      0,
+      0
+    ],
+    "range": [
+      {
+        "type": "Threat",
+        "val": 2
+      }
+    ],
+    "damage": [
+      {
+        "type": "Kinetic",
+        "damage": [
+          5,
+          7,
+          9
+        ]
+      }
+    ],
+    "effect": "<p>If the Kensei attacks with this weapon while it is <b>sheathed</b>, if it had been sheathed since the start of the Kensei’s turn, it uses the <b><span style='font-variant: small-caps;'>Charged</span></b> profile. Otherwise, this weapon uses the <b><span style='font-variant: small-caps;'>Normal</span></b> profile.</p><p>Regardless, after attacking with this weapon, it becomes <b>unsheathed</b>.</p>"
+  },
+  {
+    "id": "ppg_npcf_hf_kinetic_saber_charged_kensei",
+    "name": "Kinetic Saber (Charged)",
+    "origin": {
+      "type": "Class",
+      "name": "Kensei",
+      "base": true
+    },
+    "locked": false,
+    "type": "Weapon",
+    "weapon_type": "Heavy Melee",
+    "tags": [],
+    "attack_bonus": [
+      2,
+      4,
+      6
+    ],
+    "accuracy": [
+      1,
+      1,
+      1
+    ],
+    "range": [
+      {
+        "type": "Threat",
+        "val": 2
+      }
+    ],
+    "damage": [
+      {
+        "type": "Kinetic",
+        "damage": [
+          10,
+          14,
+          18
+        ]
+      }
+    ],
+    "effect": "<p>If the Kensei attacks with this weapon while it is <b>sheathed</b>, if it had been sheathed since the start of the Kensei’s turn, it uses the <b><span style='font-variant: small-caps;'>Charged</span></b> profile. Otherwise, this weapon uses the <b><span style='font-variant: small-caps;'>Normal</span></b> profile.</p><p>Regardless, after attacking with this weapon, it becomes <b>unsheathed</b>.</p>"
+  },
+  {
+    "id": "ppg_npcf_gunmetal_sheath_kensei",
+    "name": "Gunmetal Sheathe",
+    "origin": {
+      "type": "Class",
+      "name": "Kensei",
+      "base": true
+    },
+    "locked": false,
+    "type": "System",
+    "tags": [
+      {
+        "id": "tg_heat_self",
+        "val": 2
+      },
+      {
+        "id": "tg_quick_action"
+      }
+    ],
+    "effect": "<p>The Kensei <b>sheathes</b> its <b><span style='font-variant: small-caps;'>HF Kinetic Saber</span></b>, assuming a defensive stance. While its weapon remains <b>sheathed</b>, the Kensei’s voluntary movement counts as moving in <b>difficult terrain</b>, and it reduces any push, pull, or knockback from hostile sources by <b>1 space</b>. The Kensei may <b>unsheathe</b> its weapon as a <b>protocol</b>.</p>"
+  },
+  {
+    "id": "ppg_npcf_deft_parry_kensei",
+    "name": "Deft Parry",
+    "origin": {
+      "type": "Class",
+      "name": "Kensei",
+      "base": true
+    },
+    "locked": false,
+    "type": "Reaction",
+    "tags": [
+      {
+        "id": "tg_overshield"
+      },
+      {
+        "id": "tg_reaction"
+      },
+      {
+        "id": "tg_round",
+        "val": 1
+      }
+    ],
+    "trigger": "<p>A hostile character hits and deals damage to the Kensei while its weapon is <b>sheathed</b>.</p>",
+    "effect": "<p>The Kensei first <b>unsheathes</b> its weapon and gains <b><span style='font-variant: small-caps;'>Overshield</span></b> {5/7/9}.</p>"
+  },
+  {
+    "id": "ppg_npcf_40mm_hand_cannon_kensei",
+    "name": "40mm Hand Cannon",
+    "origin": {
+      "type": "Class",
+      "name": "Kensei",
+      "base": false
+    },
+    "locked": false,
+    "type": "Weapon",
+    "weapon_type": "Auxiliary CQB",
+    "tags": [
+      {
+        "id": "tg_loading"
+      }
+    ],
+    "attack_bonus": [
+      1,
+      2,
+      3
+    ],
+    "range": [
+      {
+        "type": "Range",
+        "val": 5
+      },
+      {
+        "type": "Threat",
+        "val": 3
+      }
+    ],
+    "damage": [
+      {
+        "type": "Explosive",
+        "damage": [
+          4,
+          6,
+          8
+        ]
+      }
+    ],
+    "effect": "<p>Activating <b><span style='font-variant: small-caps;'>Gunmetal Sheathe</span></b> reloads this weapon.</p>"
+  },
+  {
+    "id": "ppg_npcf_windstorm_kensei",
+    "name": "Windstorm",
+    "origin": {
+      "type": "Class",
+      "name": "Kensei",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "tags": [],
+    "effect": "<p>After attacking with the <b><span style='font-variant: small-caps;'>HF Kinetic Saber</span></b> using the <b><span style='font-variant: small-caps;'>Charged</span></b> profile, draw a <b>Line 5</b> area from the Kensei that includes the target. All characters in the area take <b>4 Kinetic AP damage</b> and are knocked back <b>2 spaces</b>.</p>"
+  },
+  {
+    "id": "ppg_npcf_posture_break_kensei",
+    "name": "Posture Break",
+    "origin": {
+      "type": "Class",
+      "name": "Kensei",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "tags": [],
+    "effect": "<p>Targets hit with the <b><span style='font-variant: small-caps;'>HF Kinetic Saber</span></b> using the <b><span style='font-variant: small-caps;'>Charged</span></b> profile must make a <b><span style='font-variant: small-caps;'>Hull</span></b> save or become <b><span style='font-variant: small-caps;'>Dazed</span></b> (<b><span style='font-variant: small-caps;'>Conditions & Statuses, Appendix A</span></b>) until the end of their next turn.</p>"
+  },
+  {
+    "id": "ppg_npcf_disarming_retaliation_kensei",
+    "name": "Disarming Retaliation",
+    "origin": {
+      "type": "Class",
+      "name": "Kensei",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "tags": [],
+    "effect": "<p>As part of <b><span style='font-variant: small-caps;'>Deft Parry</span></b>, after the triggering attack resolves, the Kensei may move its <b><span style='font-variant: small-caps;'>Speed</span></b> towards the attacker and <b><span style='font-variant: small-caps;'>Skirmish</span></b> against them with its <b><span style='font-variant: small-caps;'>HF Kinetic Saber</span></b>. On a hit, the attack deals no damage; instead, the Kensei <b>disarms</b> one of the target’s equipped weapons, flinging it to a space in <b>Range 5</b>. The target cannot use the weapon until they retrieve it (as if the weapon had the <b><span style='font-variant: small-caps;'>Thrown</span></b> tag).</p>"
+  },
+  {
+    "id": "ppg_npcf_daunting_grudge_kensei",
+    "name": "Daunting Grudge",
+    "origin": {
+      "type": "Class",
+      "name": "Kensei",
+      "base": false
+    },
+    "locked": false,
+    "type": "Tech",
+    "tech_type": "Quick",
+    "tags": [
+      {
+        "id": "tg_recharge",
+        "val": 4
+      },
+      {
+        "id": "tg_quick_tech"
+      }
+    ],
+    "attack_bonus": [
+      2,
+      4,
+      6
+    ],
+    "effect": "<p>The Kensei makes a <b>tech attack</b> against a character within <b><span style='font-variant: small-caps;'>Sensors</span></b>. On a hit, the target is <b><span style='font-variant: small-caps;'>Impaired</span></b> and cannot voluntarily move closer to the Kensei until the end of their next turn.</p>"
+  },
+  {
     "id": "ppg_npcf_compelled_duel_knight",
     "name": "Compelled Duel",
     "origin": {
@@ -1305,8 +1540,8 @@
         "id": "tg_drone"
       },
       {
-        "id": "tg_limited",
-        "val": 2
+        "id": "tg_recharge",
+        "val": 5
       },
       {
         "id": "tg_quick_action"

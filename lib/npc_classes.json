@@ -409,6 +409,107 @@
     "power": 100
   },
   {
+    "id": "ppg_npcc_kensei",
+    "name": "Kensei",
+    "role": "striker",
+    "info": {
+      "flavor": "<p>Knight pilots live for the thrill of battle. They engage high value targets in a compulsory duel, locking themselves in a fight to the death. Their mighty blows leave their opponents open to supporting fire from the Knight’s compatriots.</p>",
+      "tactics": "<p>The Kensei aggressively projects threat over objectives with its <b><span style='font-variant: small-caps;'>HF Kinetic Saber</span></b>. <b><span style='font-variant: small-caps;'>Gunmetal Sheathe</span></b> serves a versatile role by preparing a defensive <b><span style='font-variant: small-caps;'>Deft Parry</span></b> or a punishing <b><span style='font-variant: small-caps;'>Charged</span></b> saber attack. Despite this flexibility, Kensei mechs boast below-average <b><span style='font-variant: small-caps;'>E-Defense</span></b>, leaving its strategies vulnerable to disruption.</p>"
+    },
+    "stats": {
+      "armor": [
+        1,
+        1,
+        1
+      ],
+      "hp": [
+        20,
+        23,
+        26
+      ],
+      "evade": [
+        8,
+        10,
+        12
+      ],
+      "edef": [
+        7,
+        7,
+        7
+      ],
+      "heatcap": [
+        8,
+        8,
+        8
+      ],
+      "speed": [
+        5,
+        5,
+        5
+      ],
+      "sensor": [
+        10,
+        10,
+        10
+      ],
+      "save": [
+        10,
+        12,
+        14
+      ],
+      "hull": [
+        2,
+        4,
+        6
+      ],
+      "agility": [
+        1,
+        2,
+        3
+      ],
+      "systems": [
+        -2,
+        -2,
+        -2
+      ],
+      "engineering": [
+        0,
+        0,
+        0
+      ],
+      "size": [
+        [
+          1
+        ],
+        [
+          1
+        ],
+        [
+          1
+        ]
+      ],
+      "activations": [
+        1,
+        1,
+        1
+      ]
+    },
+    "base_features": [
+      "ppg_npcf_hf_kinetic_saber_kensei",
+      "ppg_npcf_hf_kinetic_saber_charged_kensei",
+      "ppg_npcf_gunmetal_sheath_kensei",
+      "ppg_npcf_deft_parry_kensei"
+    ],
+    "optional_features": [
+      "ppg_npcf_40mm_hand_cannon_kensei",
+      "ppg_npcf_windstorm_kensei",
+      "ppg_npcf_posture_break_kensei",
+      "ppg_npcf_disarming_retaliation_kensei",
+      "ppg_npcf_daunting_grudge_kensei"
+    ],
+    "power": 100
+  },
+  {
     "id": "ppg_npcc_knight",
     "name": "Knight",
     "role": "defender",
