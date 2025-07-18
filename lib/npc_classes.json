@@ -413,7 +413,7 @@
     "name": "Kensei",
     "role": "striker",
     "info": {
-      "flavor": "<p>Knight pilots live for the thrill of battle. They engage high value targets in a compulsory duel, locking themselves in a fight to the death. Their mighty blows leave their opponents open to supporting fire from the Knight’s compatriots.</p>",
+      "flavor": "<p>Some believe that a mech is simply a tool: An implement holding no implication over the nature of the pilot. To this, Kensei mechs are the strongest counterargument; only pilots with poise, discipline, and tremendous patience can hope to perfect its fluid, precise deathblows.</p>",
       "tactics": "<p>The Kensei aggressively projects threat over objectives with its <b><span style='font-variant: small-caps;'>HF Kinetic Saber</span></b>. <b><span style='font-variant: small-caps;'>Gunmetal Sheathe</span></b> serves a versatile role by preparing a defensive <b><span style='font-variant: small-caps;'>Deft Parry</span></b> or a punishing <b><span style='font-variant: small-caps;'>Charged</span></b> saber attack. Despite this flexibility, Kensei mechs boast below-average <b><span style='font-variant: small-caps;'>E-Defense</span></b>, leaving its strategies vulnerable to disruption.</p>"
     },
     "stats": {
