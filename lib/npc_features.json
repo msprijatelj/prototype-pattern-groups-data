@@ -774,8 +774,8 @@
     "effect": "<p>Roll <b>1d6</b>. On a <b>4+</b>, the action is negated. The Hatchet then copies the negated action, targeting the triggering character and with an attack bonus of {+2/+4/+6} and its own <b><span style='font-variant: small-caps;'>Save Target</span></b>.</p><p>If the action would have affected an area, the area of the copied action must include the triggering character. The copied action ignores any range restrictions upon the original action.</p>"
   },
   {
-    "id": "ppg_npcf_hf_kinetic_saber_kensei",
-    "name": "Kinetic Saber",
+    "id": "ppg_npcf_resonance_saber_kensei",
+    "name": "Resonance Saber",
     "origin": {
       "type": "Class",
       "name": "Kensei",
@@ -798,7 +798,7 @@
     "range": [
       {
         "type": "Threat",
-        "val": 2
+        "val": 3
       }
     ],
     "damage": [
@@ -811,11 +811,11 @@
         ]
       }
     ],
-    "effect": "<p>If the Kensei attacks with this weapon while it is <b>sheathed</b>, if it had been sheathed since the start of the Kensei’s turn, it uses the <b><span style='font-variant: small-caps;'>Charged</span></b> profile. Otherwise, this weapon uses the <b><span style='font-variant: small-caps;'>Normal</span></b> profile.</p><p>Regardless, after attacking with this weapon, it becomes <b>unsheathed</b>.</p>"
+    "effect": "<p>During the Kensei’s turn, it may attack using the <b><span style='font-variant: small-caps;'>Machspeed</span></b> profile if this weapon has been <b>sheathed</b> since the start of the Kensei’s turn.</p><p>This weapon becomes <b>unsheathed</b> after attacking.</p>"
   },
   {
-    "id": "ppg_npcf_hf_kinetic_saber_charged_kensei",
-    "name": "Kinetic Saber (Charged)",
+    "id": "ppg_npcf_resonance_saber_machspeed_kensei",
+    "name": "Resonance Saber (Machspeed)",
     "origin": {
       "type": "Class",
       "name": "Kensei",
@@ -838,7 +838,7 @@
     "range": [
       {
         "type": "Threat",
-        "val": 2
+        "val": 3
       }
     ],
     "damage": [
@@ -851,11 +851,11 @@
         ]
       }
     ],
-    "effect": "<p>If the Kensei attacks with this weapon while it is <b>sheathed</b>, if it had been sheathed since the start of the Kensei’s turn, it uses the <b><span style='font-variant: small-caps;'>Charged</span></b> profile. Otherwise, this weapon uses the <b><span style='font-variant: small-caps;'>Normal</span></b> profile.</p><p>Regardless, after attacking with this weapon, it becomes <b>unsheathed</b>.</p>"
+    "effect": "<p>During the Kensei’s turn, it may attack using the <b><span style='font-variant: small-caps;'>Machspeed</span></b> profile if this weapon has been <b>sheathed</b> since the start of the Kensei’s turn.</p><p>This weapon becomes <b>unsheathed</b> after attacking.</p>"
   },
   {
-    "id": "ppg_npcf_gunmetal_sheath_kensei",
-    "name": "Gunmetal Sheathe",
+    "id": "ppg_npcf_mass_driver_sheath_kensei",
+    "name": "Mass Driver Sheathe",
     "origin": {
       "type": "Class",
       "name": "Kensei",
@@ -872,7 +872,7 @@
         "id": "tg_quick_action"
       }
     ],
-    "effect": "<p>The Kensei <b>sheathes</b> its <b><span style='font-variant: small-caps;'>HF Kinetic Saber</span></b>, assuming a defensive stance. While its weapon remains <b>sheathed</b>, the Kensei’s voluntary movement counts as moving in <b>difficult terrain</b>, and it reduces any push, pull, or knockback from hostile sources by <b>1 space</b>. The Kensei may <b>unsheathe</b> its weapon as a <b>protocol</b>.</p>"
+    "effect": "<p>The Kensei <b>sheathes</b> its <b><span style='font-variant: small-caps;'>Resonance Saber</span></b>, assuming a defensive stance. While its weapon remains <b>sheathed</b>, the Kensei’s voluntary movement counts as moving in <b>difficult terrain</b>, and it reduces any push, pull, or knockback from hostile sources by <b>1 space</b>. The Kensei may <b>unsheathe</b> its weapon as a <b>protocol</b>.</p>"
   },
   {
     "id": "ppg_npcf_deft_parry_kensei",
@@ -940,11 +940,11 @@
         ]
       }
     ],
-    "effect": "<p>Activating <b><span style='font-variant: small-caps;'>Gunmetal Sheathe</span></b> reloads this weapon.</p>"
+    "effect": "<p>Activating <b><span style='font-variant: small-caps;'>Mass Driver Sheathe</span></b> reloads this weapon.</p>"
   },
   {
-    "id": "ppg_npcf_windstorm_kensei",
-    "name": "Windstorm",
+    "id": "ppg_npcf_gaussian_blur_kensei",
+    "name": "Gaussian Blur",
     "origin": {
       "type": "Class",
       "name": "Kensei",
@@ -952,8 +952,13 @@
     },
     "locked": false,
     "type": "Trait",
-    "tags": [],
-    "effect": "<p>After attacking with the <b><span style='font-variant: small-caps;'>HF Kinetic Saber</span></b> using the <b><span style='font-variant: small-caps;'>Charged</span></b> profile, draw a <b>Line 5</b> area from the Kensei that includes the target. All characters in the area take <b>4 Kinetic AP damage</b> and are knocked back <b>2 spaces</b>.</p>"
+    "tags": [
+      {
+        "id": "tg_recharge",
+        "val": 5
+      }
+    ],
+    "effect": "<p>When activating <b><span style='font-variant: small-caps;'>Mass Driver Sheathe</span></b>, the Kensei may first move its <b><span style='font-variant: small-caps;'>Speed</span></b> in a straight line, ignoring obstructing characters, engagement, and reactions. It deals {3/4/5} <b>Kinetic AP damage</b> to characters it passes through.</p>"
   },
   {
     "id": "ppg_npcf_posture_break_kensei",
@@ -966,7 +971,7 @@
     "locked": false,
     "type": "Trait",
     "tags": [],
-    "effect": "<p>Targets hit with the <b><span style='font-variant: small-caps;'>HF Kinetic Saber</span></b> using the <b><span style='font-variant: small-caps;'>Charged</span></b> profile must make a <b><span style='font-variant: small-caps;'>Hull</span></b> save or become <b><span style='font-variant: small-caps;'>Dazed</span></b> (<b><span style='font-variant: small-caps;'>Conditions & Statuses, Appendix A</span></b>) until the end of their next turn.</p>"
+    "effect": "<p>Targets hit with the <b><span style='font-variant: small-caps;'>Resonance Saber</span></b> using the <b><span style='font-variant: small-caps;'>Machspeed</span></b> profile must make a <b><span style='font-variant: small-caps;'>Hull</span></b> save or become <b><span style='font-variant: small-caps;'>Dazed</span></b> (<b><span style='font-variant: small-caps;'>Conditions & Statuses, Appendix A</span></b>) until the end of their next turn.</p>"
   },
   {
     "id": "ppg_npcf_disarming_retaliation_kensei",
@@ -979,7 +984,7 @@
     "locked": false,
     "type": "Trait",
     "tags": [],
-    "effect": "<p>As part of <b><span style='font-variant: small-caps;'>Deft Parry</span></b>, after the triggering attack resolves, the Kensei may move its <b><span style='font-variant: small-caps;'>Speed</span></b> towards the attacker and <b><span style='font-variant: small-caps;'>Skirmish</span></b> against them with its <b><span style='font-variant: small-caps;'>HF Kinetic Saber</span></b>. On a hit, the attack deals no damage; instead, the Kensei <b>disarms</b> one of the target’s equipped weapons, flinging it to a space in <b>Range 5</b>. The target cannot use the weapon until they retrieve it (as if the weapon had the <b><span style='font-variant: small-caps;'>Thrown</span></b> tag).</p>"
+    "effect": "<p>As part of <b><span style='font-variant: small-caps;'>Deft Parry</span></b>, after the triggering attack resolves, the Kensei may move its <b><span style='font-variant: small-caps;'>Speed</span></b> towards the attacker and <b><span style='font-variant: small-caps;'>Skirmish</span></b> against them with its <b><span style='font-variant: small-caps;'>Resonance Saber</span></b>. On a hit, the attack deals no damage; instead, the Kensei <b>disarms</b> one of the target’s equipped weapons, flinging it to a space in <b>Range 5</b>. The target cannot use the weapon until they retrieve it (as if the weapon had the <b><span style='font-variant: small-caps;'>Thrown</span></b> tag).</p>"
   },
   {
     "id": "ppg_npcf_daunting_grudge_kensei",
@@ -3606,6 +3611,24 @@
       }
     ],
     "effect": "<p>The Hatchet may make one <b><span style='font-variant: small-caps;'>Thrown</span></b> weapon attack against each hostile character in <b><span style='font-variant: small-caps;'>Range</span></b> of its <b><span style='font-variant: small-caps;'>Thrown</span></b> weapons, without needing to retrieve each weapon. Each attack creates a copy of the weapon that lands adjacent to the target’s space.</p><p>Until the end of the Hatchet’s next turn, it may take a second <b>full action</b> to <b>teleport</b> adjacent to one of its <b><span style='font-variant: small-caps;'>Thrown</span></b> weapons, then retrieve all its <b><span style='font-variant: small-caps;'>Thrown</span></b> weapons. All hostile characters adjacent to a retrieved weapon must make an <b><span style='font-variant: small-caps;'>Agility</span></b> save or be pushed <b>2 spaces</b> in any direction and take {6/8/10} Kinetic damage. On a success, the target takes half damage and isn’t pushed.</p>"
+  },
+  {
+    "id": "ppg_npcf_mortal_draw_kensei",
+    "name": "Mortal Draw (Ultra)",
+    "origin": {
+      "type": "Class",
+      "name": "Kensei",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "tags": [
+      {
+        "id": "tg_recharge",
+        "val": 6
+      }
+    ],
+    "effect": "<p>If the Kensei takes the final NPC turn of the round, for that turn the <b><span style='font-variant: small-caps;'>Machspeed</span></b> profile of its <b><span style='font-variant: small-caps;'>Resonance Saber</span></b> may attack characters in <b>Burst 3</b>. All characters hit by the attack are <b><span style='font-variant: small-caps;'>Shredded</span></b> until the end of the scene.</p>"
   },
   {
     "id": "ppg_npcf_evergaol_knight",
