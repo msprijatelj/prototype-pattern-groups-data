@@ -824,7 +824,11 @@
     "locked": false,
     "type": "Weapon",
     "weapon_type": "Heavy Melee",
-    "tags": [],
+    "tags": [
+      {
+        "id": "tg_ap"
+      }
+    ],
     "attack_bonus": [
       2,
       4,
@@ -852,6 +856,55 @@
       }
     ],
     "effect": "<p>During the Kensei’s turn, it may attack using the <b><span style='font-variant: small-caps;'>Machspeed</span></b> profile if this weapon has been <b>sheathed</b> since the start of the Kensei’s turn.</p><p>This weapon becomes <b>unsheathed</b> after attacking.</p>"
+  },
+  {
+    "id": "ppg_npcf_pommel_launcher_kensei",
+    "name": "Pommel Launcher (Veteran)",
+    "origin": {
+      "type": "Class",
+      "name": "Kensei",
+      "base": true
+    },
+    "locked": false,
+    "type": "Weapon",
+    "weapon_type": "Heavy Melee",
+    "tags": [
+      {
+        "id": "tg_knockback",
+        "val": "{3/5/7}"
+      },
+      {
+        "id": "tg_thrown",
+        "val": 5
+      }
+    ],
+    "attack_bonus": [
+      2,
+      4,
+      6
+    ],
+    "accuracy": [
+      0,
+      0,
+      0
+    ],
+    "range": [
+      {
+        "type": "Threat",
+        "val": 1
+      }
+    ],
+    "damage": [
+      {
+        "type": "Kinetic",
+        "damage": [
+          5,
+          7,
+          9
+        ]
+      }
+    ],
+    "effect": "<p>Add this profile to the <b><span style='font-variant: small-caps;'>Resonance Saber</span></b>. This profile can only be used while the weapon is <b>sheathed</b>. After throwing this weapon, <b><span style='font-variant: small-caps;'>Mass Driver Sheathe</span></b> cannot be used until it is retrieved.</p><p>This weapon becomes <b>unsheathed</b> after attacking.</p>"
   },
   {
     "id": "ppg_npcf_mass_driver_sheath_kensei",

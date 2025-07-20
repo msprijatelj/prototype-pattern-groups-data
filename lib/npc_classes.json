@@ -496,7 +496,7 @@
     },
     "base_features": [
       "ppg_npcf_resonance_saber_kensei",
-      "ppg_npcf_resonance_saber_charged_kensei",
+      "ppg_npcf_resonance_saber_machspeed_kensei",
       "ppg_npcf_mass_driver_sheath_kensei",
       "ppg_npcf_deft_parry_kensei"
     ],
@@ -506,7 +506,8 @@
       "ppg_npcf_posture_break_kensei",
       "ppg_npcf_disarming_retaliation_kensei",
       "ppg_npcf_daunting_grudge_kensei",
-      "ppg_npcf_mortal_draw_kensei"
+      "ppg_npcf_mortal_draw_kensei",
+      "ppg_npcf_pommel_launcher_kensei"
     ],
     "power": 100
   },
