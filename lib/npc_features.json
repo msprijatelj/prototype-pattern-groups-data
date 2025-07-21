@@ -2048,7 +2048,7 @@
     "locked": false,
     "type": "Trait",
     "tags": [],
-    "effect": "<p>The Torrent always has <b>soft cover</b>, and it ignores <b>difficult terrain</b> and engagement. Other characters can move through and end their turns in the Torrent’s spaces, and long as it occupies at least <b>1 free space</b>, it can end its turn overlapping obstructions, cover, or other characters.</p>"
+    "effect": "<p>The Torrent always has <b>soft cover</b>, and it ignores <b>difficult terrain</b> and engagement. Other characters can move through and end their turns in the Torrent’s spaces, and as long as it occupies at least <b>1 free space</b>, it can end its turn overlapping obstructions, cover, or other characters.</p>"
   },
   {
     "id": "ppg_npcf_undertow_torrent",
@@ -2134,7 +2134,7 @@
         "id": "tg_quick_action"
       }
     ],
-    "effect": "<p>The Torrent <b>pushes</b> itself <b>10 spaces</b> in a straight line, ignoring obstructions. Hostile characters that the Torrent passes through must make a <b><span style='font-variant: small-caps;'>Hull</span></b> save or be <b>pushed</b> to a space adjacent to the Torrent at the end of its movement.</p>"
+    "effect": "<p>The Torrent <b>pushes</b> itself <b>5 spaces</b> in a straight line, ignoring obstructions. Hostile characters that the Torrent passes through must make a <b><span style='font-variant: small-caps;'>Hull</span></b> save or be <b>pushed</b> to a space adjacent to the Torrent at the end of its movement.</p>"
   },
   {
     "id": "ppg_npcf_scalding_greywash_torrent",
@@ -2457,7 +2457,7 @@
         "id": "tg_protocol"
       }
     ],
-    "effect": "<p>The Zealot emanates an area of fervent energy, affecting characters in <b><span style='font-variant: small-caps;'>Sensors</span></b> and line of sight:</p><p><ul><li>Hostile characters with any <b>Burn</b> lose <b><span style='font-variant: small-caps;'>Invisible</span></b> and <b><span style='font-variant: small-caps;'>Hidden</span></b> and can’t regain either in the area.</li><li>Allies ignore engagement and reactions, and their weapon attacks gain <b><span style='font-variant: small-caps;'>Knockback 1</span></b> and <b>AP</b> against targets in the area.</li><li>Upon activation, the Zealot gains <b><span style='font-variant: small-caps;'>Overshield</span></b> equal to the number of allies in the area.</li></ul></p><p>This area lasts until the start of the Zealot’s first turn each round or until the Zealot is <b><span style='font-variant: small-caps;'>Stunned</span></b>, <b><span style='font-variant: small-caps;'>Jammed</span></b>, overheated, or destroyed.</p>"
+    "effect": "<p>The Zealot emanates an area of fervent energy, gaining <b><span style='font-variant: small-caps;'>Overshield</span></b> equal to the number of allies within its <b><span style='font-variant: small-caps;'>Sensors</span></b>.</p><p>In addition, allied weapon attacks made within the Zealot’s <b><span style='font-variant: small-caps;'>Sensors</span></b> gain <b><span style='font-variant: small-caps;'>Knockback 1</span></b> and <b><span style='font-variant: small-caps;'>AP</span></b> against targets within the same area. This effect lasts until the start of the Zealot’s first turn each round or until the Zealot is <b><span style='font-variant: small-caps;'>Stunned</span></b>, <b><span style='font-variant: small-caps;'>Jammed</span></b>, overheated, or destroyed.</p>"
   },
   {
     "id": "ppg_npcf_emberlight_nexus_zealot",
@@ -2496,7 +2496,7 @@
         ]
       }
     ],
-    "effect": "<p>This weapon ignores <b><span style='font-variant: small-caps;'>Invisible</span></b> and doesn’t affect allied characters.</p>"
+    "effect": "<p>This weapon ignores <b><span style='font-variant: small-caps;'>Invisible</span></b> and doesn’t affect allies. Characters that take <b>Burn</b> from this weapon lose <b><span style='font-variant: small-caps;'>Invisible</span></b> and <b><span style='font-variant: small-caps;'>Hidden</span></b> and can’t regain either until they clear all <b>Burn</b>.</p>"
   },
   {
     "id": "ppg_npcf_fanatical_charge_zealot",
@@ -2518,13 +2518,13 @@
       },
       {
         "id": "tg_recharge",
-        "val": 6
+        "val": 5
       },
       {
         "id": "tg_quick_tech"
       }
     ],
-    "effect": "<p>The Zealot <b>flies</b> up to its <b><span style='font-variant: small-caps;'>Speed</span></b>. Allies within <b><span style='font-variant: small-caps;'>Zeal</span></b>’s area at any point during this movement may move up to their <b><span style='font-variant: small-caps;'>Speed</span> +2</b> as a <b>reaction</b>, ignoring engagement and reactions. Allies that end this movement in <b><span style='font-variant: small-caps;'>Zeal</span></b>’s area gain <b><span style='font-variant: small-caps;'>Overshield</span></b> {2/3/4}.</p>"
+    "effect": "<p>The Zealot and allies within <b><span style='font-variant: small-caps;'>Zeal</span></b>’s area may move up to their <b><span style='font-variant: small-caps;'>Speed +2</span></b>, ignoring <b>difficult terrain</b>, engagement, and reactions. Allies that end this movement in <b><span style='font-variant: small-caps;'>Zeal</span></b>’s area gain <b><span style='font-variant: small-caps;'>Overshield</span></b> {2/3/4}.</p>"
   },
   {
     "id": "ppg_npcf_blazing_fervor_zealot",
@@ -2587,7 +2587,7 @@
         "id": "tg_quick_tech"
       }
     ],
-    "effect": "<p>Allies affected by <b><span style='font-variant: small-caps;'>Zeal</span></b> clear <b><span style='font-variant: small-caps;'>Slowed</span></b> and stand up from <b><span style='font-variant: small-caps;'>Prone</span></b>, then move up to <b>2 spaces</b> in a direction of their choice. They then gain <b><span style='font-variant: small-caps;'>Overshield</span></b> {2/3/4}.</p>"
+    "effect": "<p>Allies affected by <b><span style='font-variant: small-caps;'>Zeal</span></b> clear <b><span style='font-variant: small-caps;'>Slowed</span></b> and stand up from <b><span style='font-variant: small-caps;'>Prone</span></b>, then move up to <b>2 spaces</b> in a direction of their choice while ignoring <b>difficult terrain</b>, engagement, and reactions. They then gain <b><span style='font-variant: small-caps;'>Overshield</span></b> {2/3/4}.</p>"
   },
   {
     "id": "ppg_npcf_brand_the_heretic_zealot",
