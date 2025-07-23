@@ -774,8 +774,8 @@
     "effect": "<p>Roll <b>1d6</b>. On a <b>4+</b>, the action is negated. The Hatchet then copies the negated action, targeting the triggering character and with an attack bonus of {+2/+4/+6} and its own <b><span style='font-variant: small-caps;'>Save Target</span></b>.</p><p>If the action would have affected an area, the area of the copied action must include the triggering character. The copied action ignores any range restrictions upon the original action.</p>"
   },
   {
-    "id": "ppg_npcf_resonance_saber_kensei",
-    "name": "Resonance Saber",
+    "id": "ppg_npcf_minuano_kinetic_saber_kensei",
+    "name": "“Minuano” Kinetic Saber",
     "origin": {
       "type": "Class",
       "name": "Kensei",
@@ -811,11 +811,11 @@
         ]
       }
     ],
-    "effect": "<p>During the Kensei’s turn, it may attack using the <b><span style='font-variant: small-caps;'>Machspeed</span></b> profile if this weapon has been <b>sheathed</b> since the start of the Kensei’s turn.</p><p>This weapon becomes <b>unsheathed</b> after attacking.</p>"
+    "effect": "<p>During the Kensei’s turn, it may attack using the <b><span style='font-variant: small-caps;'>Charged</span></b> profile if this weapon has been <b>sheathed</b> since the start of the Kensei’s turn.</p><p>This weapon becomes <b>unsheathed</b> after attacking.</p>"
   },
   {
-    "id": "ppg_npcf_resonance_saber_machspeed_kensei",
-    "name": "Resonance Saber (Machspeed)",
+    "id": "ppg_npcf_minuano_kinetic_saber_charged_kensei",
+    "name": "“Minuano” Kinetic Saber (Charged)",
     "origin": {
       "type": "Class",
       "name": "Kensei",
@@ -855,56 +855,7 @@
         ]
       }
     ],
-    "effect": "<p>During the Kensei’s turn, it may attack using the <b><span style='font-variant: small-caps;'>Machspeed</span></b> profile if this weapon has been <b>sheathed</b> since the start of the Kensei’s turn.</p><p>This weapon becomes <b>unsheathed</b> after attacking.</p>"
-  },
-  {
-    "id": "ppg_npcf_pommel_launcher_kensei",
-    "name": "Pommel Launcher (Veteran)",
-    "origin": {
-      "type": "Class",
-      "name": "Kensei",
-      "base": true
-    },
-    "locked": false,
-    "type": "Weapon",
-    "weapon_type": "Heavy Melee",
-    "tags": [
-      {
-        "id": "tg_knockback",
-        "val": "{3/5/7}"
-      },
-      {
-        "id": "tg_thrown",
-        "val": 5
-      }
-    ],
-    "attack_bonus": [
-      2,
-      4,
-      6
-    ],
-    "accuracy": [
-      0,
-      0,
-      0
-    ],
-    "range": [
-      {
-        "type": "Threat",
-        "val": 1
-      }
-    ],
-    "damage": [
-      {
-        "type": "Kinetic",
-        "damage": [
-          5,
-          7,
-          9
-        ]
-      }
-    ],
-    "effect": "<p>Add this profile to the <b><span style='font-variant: small-caps;'>Resonance Saber</span></b>. This profile can only be used while the weapon is <b>sheathed</b>. After throwing this weapon, <b><span style='font-variant: small-caps;'>Mass Driver Sheathe</span></b> cannot be used until it is retrieved.</p><p>This weapon becomes <b>unsheathed</b> after attacking.</p>"
+    "effect": "<p>During the Kensei’s turn, it may attack using the <b><span style='font-variant: small-caps;'>Charged</span></b> profile if this weapon has been <b>sheathed</b> since the start of the Kensei’s turn.</p><p>This weapon becomes <b>unsheathed</b> after attacking.</p>"
   },
   {
     "id": "ppg_npcf_mass_driver_sheath_kensei",
@@ -925,11 +876,11 @@
         "id": "tg_quick_action"
       }
     ],
-    "effect": "<p>The Kensei <b>sheathes</b> its <b><span style='font-variant: small-caps;'>Resonance Saber</span></b>, assuming a defensive stance. While its weapon remains <b>sheathed</b>, the Kensei’s voluntary movement counts as moving in <b>difficult terrain</b>, and it reduces any push, pull, or knockback from hostile sources by <b>1 space</b>. The Kensei may <b>unsheathe</b> its weapon as a <b>protocol</b>.</p>"
+    "effect": "<p>The Kensei <b>sheathes</b> its <b><span style='font-variant: small-caps;'>“Minuano” Kinetic Saber</span></b>, assuming a defensive stance. While its weapon remains <b>sheathed</b>, the Kensei’s voluntary movement counts as moving in <b>difficult terrain</b>, and it reduces any push, pull, or knockback from hostile sources by <b>1 space</b>. The Kensei may <b>unsheathe</b> its weapon as a <b>protocol</b>.</p>"
   },
   {
-    "id": "ppg_npcf_deft_parry_kensei",
-    "name": "Deft Parry",
+    "id": "ppg_npcf_mach_parry_kensei",
+    "name": "Mach Parry",
     "origin": {
       "type": "Class",
       "name": "Kensei",
@@ -1024,7 +975,7 @@
     "locked": false,
     "type": "Trait",
     "tags": [],
-    "effect": "<p>Targets hit with the <b><span style='font-variant: small-caps;'>Resonance Saber</span></b> using the <b><span style='font-variant: small-caps;'>Machspeed</span></b> profile must make a <b><span style='font-variant: small-caps;'>Hull</span></b> save or become <b><span style='font-variant: small-caps;'>Dazed</span></b> (<b><span style='font-variant: small-caps;'>Conditions & Statuses, Appendix A</span></b>) until the end of their next turn.</p>"
+    "effect": "<p>Targets hit with the <b><span style='font-variant: small-caps;'>“Minuano” Kinetic Saber</span></b> using the <b><span style='font-variant: small-caps;'>Charged</span></b> profile must make a <b><span style='font-variant: small-caps;'>Hull</span></b> save or become <b><span style='font-variant: small-caps;'>Dazed</span></b> (<b><span style='font-variant: small-caps;'>Conditions & Statuses, Appendix A</span></b>) until the end of their next turn.</p>"
   },
   {
     "id": "ppg_npcf_disarming_retaliation_kensei",
@@ -1037,7 +988,7 @@
     "locked": false,
     "type": "Trait",
     "tags": [],
-    "effect": "<p>As part of <b><span style='font-variant: small-caps;'>Deft Parry</span></b>, after the triggering attack resolves, the Kensei may move its <b><span style='font-variant: small-caps;'>Speed</span></b> towards the attacker and <b><span style='font-variant: small-caps;'>Skirmish</span></b> against them with its <b><span style='font-variant: small-caps;'>Resonance Saber</span></b>. On a hit, the attack deals no damage; instead, the Kensei <b>disarms</b> one of the target’s equipped weapons, flinging it to a space in <b>Range 5</b>. The target cannot use the weapon until they retrieve it (as if the weapon had the <b><span style='font-variant: small-caps;'>Thrown</span></b> tag).</p>"
+    "effect": "<p>As part of <b><span style='font-variant: small-caps;'>Mach Parry</span></b>, after the triggering attack resolves, the Kensei may move its <b><span style='font-variant: small-caps;'>Speed</span></b> towards the attacker and <b><span style='font-variant: small-caps;'>Skirmish</span></b> against them with its <b><span style='font-variant: small-caps;'>“Minuano” Kinetic Saber</span></b>. On a hit, the attack deals no damage; instead, the Kensei <b>disarms</b> one of the target’s equipped weapons, flinging it to a space in <b>Range 5</b>. The target cannot use the weapon until they retrieve it (as if the weapon had the <b><span style='font-variant: small-caps;'>Thrown</span></b> tag).</p>"
   },
   {
     "id": "ppg_npcf_daunting_grudge_kensei",
@@ -3681,7 +3632,7 @@
         "val": 6
       }
     ],
-    "effect": "<p>If the Kensei takes the final NPC turn of the round, for that turn the <b><span style='font-variant: small-caps;'>Machspeed</span></b> profile of its <b><span style='font-variant: small-caps;'>Resonance Saber</span></b> may attack characters in <b>Burst 3</b>. All characters hit by the attack are <b><span style='font-variant: small-caps;'>Shredded</span></b> until the end of the scene.</p>"
+    "effect": "<p>If the Kensei takes the final NPC turn of the round, for that turn the <b><span style='font-variant: small-caps;'>Charged</span></b> profile of its <b><span style='font-variant: small-caps;'>“Minuano” Kinetic Saber</span></b> may attack characters in <b>Burst 3</b>. All characters hit by the attack are <b><span style='font-variant: small-caps;'>Shredded</span></b> until the end of the scene.</p>"
   },
   {
     "id": "ppg_npcf_evergaol_knight",
@@ -3888,6 +3839,55 @@
     "type": "Trait",
     "tags": [],
     "effect": "<p>When using <b><span style='font-variant: small-caps;'>Cleaving Retrieval</span></b>, all characters in a <b>Line</b> between the Hatchet and its retrieved weapon must make an <b><span style='font-variant: small-caps;'>Agility</span></b> save or be knocked <b><span style='font-variant: small-caps;'>Prone</span></b>.</p>"
+  },
+  {
+    "id": "ppg_npcf_pommel_launcher_kensei",
+    "name": "Pommel Launcher (Veteran)",
+    "origin": {
+      "type": "Class",
+      "name": "Kensei",
+      "base": false
+    },
+    "locked": false,
+    "type": "Weapon",
+    "weapon_type": "Heavy Melee",
+    "tags": [
+      {
+        "id": "tg_knockback",
+        "val": "{3/5/7}"
+      },
+      {
+        "id": "tg_thrown",
+        "val": 5
+      }
+    ],
+    "attack_bonus": [
+      2,
+      4,
+      6
+    ],
+    "accuracy": [
+      0,
+      0,
+      0
+    ],
+    "range": [
+      {
+        "type": "Threat",
+        "val": 1
+      }
+    ],
+    "damage": [
+      {
+        "type": "Kinetic",
+        "damage": [
+          5,
+          7,
+          9
+        ]
+      }
+    ],
+    "effect": "<p>Add this profile to the <b><span style='font-variant: small-caps;'>“Minuano” Kinetic Saber</span></b>. This profile can only be used while the weapon is <b>sheathed</b>. After throwing this weapon, <b><span style='font-variant: small-caps;'>Mass Driver Sheathe</span></b> cannot be used until it is retrieved.</p><p>This weapon becomes <b>unsheathed</b> after attacking.</p>"
   },
   {
     "id": "ppg_npcf_valor_knight",

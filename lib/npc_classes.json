@@ -414,7 +414,7 @@
     "role": "striker",
     "info": {
       "flavor": "<p>Some believe that a mech is simply a tool: An implement holding no implication over the nature of the pilot. To this, Kensei mechs are the strongest counterargument; only pilots with poise, discipline, and tremendous patience can hope to perfect its fluid, precise deathblows.</p>",
-      "tactics": "<p>The Kensei aggressively projects threat over objectives with its <b><span style='font-variant: small-caps;'>Resonance Saber</span></b>. <b><span style='font-variant: small-caps;'>Mass Driver Sheathe</span></b> serves a versatile role by preparing a defensive <b><span style='font-variant: small-caps;'>Deft Parry</span></b> or a punishing <b><span style='font-variant: small-caps;'>Machspeed</span></b> saber attack. Despite this flexibility, Kensei mechs boast below-average <b><span style='font-variant: small-caps;'>E-Defense</span></b>, leaving them vulnerable to disruption.</p>"
+      "tactics": "<p>The Kensei aggressively projects threat over objectives with its <b><span style='font-variant: small-caps;'>“Minuano” Kinetic Saber</span></b>. <b><span style='font-variant: small-caps;'>Mass Driver Sheathe</span></b> serves a versatile role by preparing a defensive <b><span style='font-variant: small-caps;'>Mach Parry</span></b> or a punishing <b><span style='font-variant: small-caps;'>Charged</span></b> saber attack. Despite this flexibility, Kensei mechs boast below-average <b><span style='font-variant: small-caps;'>E-Defense</span></b>, leaving their strategies vulnerable to disruption.</p>"
     },
     "stats": {
       "armor": [
@@ -495,10 +495,10 @@
       ]
     },
     "base_features": [
-      "ppg_npcf_resonance_saber_kensei",
-      "ppg_npcf_resonance_saber_machspeed_kensei",
+      "ppg_npcf_minuano_kinetic_saber_kensei",
+      "ppg_npcf_minuano_kinetic_saber_charged_kensei",
       "ppg_npcf_mass_driver_sheath_kensei",
-      "ppg_npcf_deft_parry_kensei"
+      "ppg_npcf_mach_parry_kensei"
     ],
     "optional_features": [
       "ppg_npcf_40mm_hand_cannon_kensei",
