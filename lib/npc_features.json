@@ -2411,7 +2411,7 @@
         "id": "tg_protocol"
       }
     ],
-    "effect": "<p>The Zealot emanates an area of fervent energy within its <b><span style="font-variant: small-caps;">Sensors</span></b>, gaining <b><span style="font-variant: small-caps;">Overshield</span></b> equal to the number of its allies in the area.</p><p>In addition, allied weapon attacks made within the area gain <b><span style="font-variant: small-caps;">Knockback 1</span></b> and <b>AP</b> against targets within the same area. This effect lasts until the start of the Zealot’s first turn each round or until the Zealot is <b><span style="font-variant: small-caps;">Stunned</span></b>, <b><span style="font-variant: small-caps;">Jammed</span></b>, overheated, or destroyed.</p>"
+    "effect": "<p>The Zealot emanates an area of fervent energy within its <b><span style='font-variant: small-caps;'>Sensors</span></b>, gaining <b><span style='font-variant: small-caps;'>Overshield</span></b> equal to the number of its allies in the area.</p><p>In addition, allied weapon attacks made within the area gain <b><span style='font-variant: small-caps;'>Knockback 1</span></b> and <b>AP</b> against targets within the same area. This effect lasts until the start of the Zealot’s first turn each round or until the Zealot is <b><span style='font-variant: small-caps;'>Stunned</span></b>, <b><span style='font-variant: small-caps;'>Jammed</span></b>, overheated, or destroyed.</p>"
   },
   {
     "id": "ppg_npcf_emberlight_nexus_zealot",
