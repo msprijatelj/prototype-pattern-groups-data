@@ -2208,7 +2208,7 @@
         "id": "tg_full_action"
       }
     ],
-    "effect": "<p>An adjacent character must make an <b><span style='font-variant: small-caps;'>Agility</span></b> save; larger targets always succeed. On a success, they are <b><span style='font-variant: small-caps;'>Slowed</span></b> and <b><span style='font-variant: small-caps;'>Impaired</span></b> until the end of their next turn. On a failure, the target occupies the Torrent’s space and is <b>engulfed</b> and until they pass a <b><span style='font-variant: small-caps;'>Hull</span></b> save as a <b>full action</b>, they stop occupying the Torrent’s space, the Torrent is <b><span style='font-variant: small-caps;'>Jammed</span></b>, <b><span style='font-variant: small-caps;'>Stunned</span></b>, overheated, or destroyed, or the Torrent uses this action again. While <b>engulfed</b>, the target is <b><span style='font-variant: small-caps;'>Jammed</span></b> and <b><span style='font-variant: small-caps;'>Immobilized</span></b> and moves with the Torrent.</p>"
+    "effect": "<p>An adjacent character must make an <b><span style='font-variant: small-caps;'>Agility</span></b> save; larger targets always succeed. On a success, the target is <b><span style='font-variant: small-caps;'>Slowed</span></b> and <b><span style='font-variant: small-caps;'>Impaired</span></b> until the end of their next turn. On a failure, the Torrent <b>pushes</b> itself to occupy the target’s space, and the target is <b>engulfed</b> until they pass a <b><span style='font-variant: small-caps;'>Hull</span></b> save as a <b>full action</b>, they stop occupying the Torrent’s space, the Torrent is <b><span style='font-variant: small-caps;'>Jammed</span></b>, <b><span style='font-variant: small-caps;'>Stunned</span></b>, overheated, or destroyed, or the Torrent uses this action again. While <b>engulfed</b>, the target is <b><span style='font-variant: small-caps;'>Jammed</span></b> and <b><span style='font-variant: small-caps;'>Immobilized</span></b> and moves with the Torrent.</p>"
   },
   {
     "id": "ppg_npcf_magpie_subroutines_vulture",
@@ -2229,7 +2229,7 @@
         "id": "tg_quick_action"
       }
     ],
-    "effect": "<p><b>Destroy</b> one of the following:</p><p><ul><li>An adjacent <b>wreckage</b>.</li><li>A weapon or system equipped by the Vulture.</li><li>A weapon or system equipped by a willing adjacent character.</li></ul></p><p>The Vulture or a character in <b>Range 3</b> then gains one of the following benefits:</p><p><ul><li><b><span style='font-variant: small-caps;'>Recharge</span></b> one weapon or system.</li><li>Repair one destroyed weapon or system.</li><li>All <b><span style='font-variant: small-caps;'>Limited</span></b> weapons and systems regain <b>1 use</b>.</li><li>Gain <b><span style='font-variant: small-caps;'>Overshield</span></b> {3/5/7} and clear <b>1 condition</b>.</li></ul></p>"
+    "effect": "<p><b>Destroy</b> one of the following:</p><p><ul><li>An adjacent <b>wreckage</b>.</li><li>A weapon or system equipped by the Vulture.</li><li>A weapon or system equipped by a willing adjacent character.</li></ul></p><p>The Vulture or a character in <b>Range 3</b> then gains one of the following benefits:</p><p><ul><li><b><span style='font-variant: small-caps;'>Recharge</span></b> one weapon or system.</li><li>Repair one destroyed weapon or system.</li><li>Reload one <b><span style='font-variant: small-caps;'>Loading</span></b> weapon.</li><li>All <b><span style='font-variant: small-caps;'>Limited</span></b> weapons and systems regain <b>1 use</b>.</li><li>Gain <b><span style='font-variant: small-caps;'>Overshield</span></b> {3/5/7} and clear <b>1 condition</b>.</li></ul></p>"
   },
   {
     "id": "ppg_npcf_condor_jet_propulsion_wings_vulture",
@@ -2257,8 +2257,7 @@
     "weapon_type": "Main Cannon",
     "tags": [
       {
-        "id": "tg_limited",
-        "val": 2
+        "id": "tg_loading"
       }
     ],
     "attack_bonus": [
