@@ -3514,7 +3514,7 @@
         "id": "tg_full_tech"
       }
     ],
-    "effect": "<p>The Brigand rescinds <b>1 license rank</b> of a hostile character in <b><span style='font-variant: small-caps;'>Sensors</span></b>. While the target carries equipment tied to that license rank, they count as piloting an <b>unlicensed mech</b> (<i>Lancer</i>, p.74). An affected mech can jettison any piece of equipment as a <b>quick action</b>, rendering it unusable until it is retrieved and reattached during a <b>rest</b>.</p><p>Otherwise, this effect lasts until the target finishes a <b>rest</b> or succeeds on a <b><span style='font-variant: small-caps;'>Systems</span></b> check as a <b>full action</b> to re-validate their licenses.</p>"
+    "effect": "<p>The Brigand rescinds <b>1 license rank</b> of a hostile mech in <b><span style='font-variant: small-caps;'>Sensors</span></b>. While the target carries equipment tied to that license rank (not including the mech's <b><span style='font-variant: small-caps;'>Frame</span></b>), they count as piloting an <b>unlicensed mech</b> (<i>Lancer</i>, p.74). An affected mech can jettison any piece of equipment as a <b>quick action</b>, rendering it unusable until it is retrieved and reattached during a <b>rest</b>.</p><p>Otherwise, this effect lasts until the target finishes a <b>rest</b> or succeeds on a <b><span style='font-variant: small-caps;'>Systems</span></b> check as a <b>full action</b> to re-validate their licenses.</p>"
   },
   {
     "id": "ppg_npcf_youre_too_slow_brisk",
