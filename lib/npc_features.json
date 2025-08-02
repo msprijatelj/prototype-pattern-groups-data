@@ -1804,7 +1804,7 @@
         "id": "tg_quick_tech"
       }
     ],
-    "effect": "<p>Place an untargetable holographic <b>projector</b> in a free space within <b><span style='font-variant: small-caps;'>Sensors</span></b>. The Prism is treated as occupying a projector’s space for all purposes, including <b><span style='font-variant: small-caps;'>Range</span></b>, <b><span style='font-variant: small-caps;'>Threat</span></b>, <b><span style='font-variant: small-caps;'>Sensors</span></b>, line of sight, adjacency, engagement, contesting objectives, and being affected by abilities. The Prism gains <b><span style='font-variant: small-caps;'>Resistance</span> to all damage, Heat, and Burn</b> inflicted through a projector.</p><p>If the Prism would have more than <b>1 projector</b>, it must destroy any beyond that limit. Projectors last until the end of the scene, or until the Prism is <b><span style='font-variant: small-caps;'>Stunned</span></b>, <b><span style='font-variant: small-caps;'>Jammed</span></b>, overheated, or destroyed.</p>"
+    "effect": "<p>Place an untargetable holographic <b>projector</b> in a free space within <b><span style='font-variant: small-caps;'>Sensors</span></b>. The Prism is treated as occupying a projector’s space for all purposes. The Prism gains <b><span style='font-variant: small-caps;'>Resistance</span> to all damage, Heat, and Burn</b> inflicted through a projector.</p><p>If the Prism would have more than <b>1 projector</b>, it must destroy any beyond that limit. Projectors last until the end of the scene, or until the Prism is <b><span style='font-variant: small-caps;'>Stunned</span></b>, <b><span style='font-variant: small-caps;'>Jammed</span></b>, overheated, or destroyed.</p>"
   },
   {
     "id": "ppg_npcf_diffraction_beam_prism",
@@ -1848,7 +1848,7 @@
         ]
       }
     ],
-    "on_hit": "<p>The target can only draw line of sight to the Prism’s spaces until the end of their next turn.</p>",
+    "on_hit": "<p>If the Prism consumed <b><span style='font-variant: small-caps;'>Lock On</span></b> against the target, they can only draw line of sight to the Prism’s spaces until the end of their next turn.</p>",
     "effect": "<p>This weapon only targets hostile characters. Attacks made through a <b>projector</b> gain <b>AP</b>.</p>"
   },
   {
@@ -1862,7 +1862,7 @@
     "locked": false,
     "type": "Trait",
     "tags": [],
-    "effect": "<p>Attacks targeting characters, objects, or spaces within <b>Burst 3</b> of the Prism lose the benefit of <b><span style='font-variant: small-caps;'>Seeking</span></b>.</p>"
+    "effect": "<p>Attacks targeting characters, objects, or spaces within <b>Burst 3</b> of the Prism lose the benefit of <b><span style='font-variant: small-caps;'>Seeking</span></b>. Hostile characters that end their turn in the same area gain <b><span style='font-variant: small-caps;'>Lock On</span></b>.</p>"
   },
   {
     "id": "ppg_npcf_mobile_projectors_prism",
@@ -1988,7 +1988,7 @@
         "val": 1
       }
     ],
-    "trigger": "<p>The Prism or an allied character in <b>Range 5</b> is attacked while a <b>projector</b> exists.</p>",
+    "trigger": "<p>The Prism or an allied character in <b>Range 3</b> is attacked while a <b>projector</b> exists.</p>",
     "effect": "<p>The Prism first destroys a <b>projector</b> and <b>teleports</b> the triggering character to a space it occupied. Regardless of <b><span style='font-variant: small-caps;'>Range</span></b> or line of sight, the Prism becomes the new target of the attack as if it were targeted through a projector. Afterwards, the attacker is <b><span style='font-variant: small-caps;'>Impaired</span></b> until the end of their next turn.</p>"
   },
   {
