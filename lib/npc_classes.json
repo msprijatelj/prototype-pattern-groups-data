@@ -502,7 +502,7 @@
     ],
     "optional_features": [
       "ppg_npcf_40mm_hand_cannon_kensei",
-      "ppg_npcf_windstorm_kensei",
+      "ppg_npcf_gaussian_blur_kensei",
       "ppg_npcf_posture_break_kensei",
       "ppg_npcf_disarming_retaliation_kensei",
       "ppg_npcf_daunting_grudge_kensei",
