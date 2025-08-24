@@ -3640,7 +3640,7 @@
         "val": 6
       }
     ],
-    "effect": "<p>If the Kensei takes the final NPC turn of the round, for that turn the <b><span style='font-variant: small-caps;'>Charged</span></b> profile of its <b><span style='font-variant: small-caps;'>“Minuano” Kinetic Saber</span></b> may attack characters in <b>Burst 3</b>. All characters hit by the attack are <b><span style='font-variant: small-caps;'>Shredded</span></b> until the end of the scene.</p>"
+    "effect": "<p>If the Kensei takes the final NPC turn of the round, for that turn the <b><span style='font-variant: small-caps;'>Charged</span></b> profile of its <b><span style='font-variant: small-caps;'>“Minuano” Kinetic Saber</span></b> may attack characters in <b>Burst 2</b>. All characters hit by the attack are <b><span style='font-variant: small-caps;'>Shredded</span></b> until the end of the scene.</p>"
   },
   {
     "id": "ppg_npcf_evergaol_knight",
