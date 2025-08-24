@@ -177,7 +177,7 @@
         "id": "tg_quick_tech"
       }
     ],
-    "effect": "<p>The Anchor creates three <b>Blast 1</b> areas in <b><span style='font-variant: small-caps;'>Sensors</span></b> extending <b>6 spaces high</b>. These areas become <b>zero-g</b> areas that last until the Anchor uses this system again. Characters within the areas upon their creation must pass an <b><span style='font-variant: small-caps;'>Agility</span></b> save or be <b><span style='font-variant: small-caps;'>Impaired</span></b> until the end of their next turn.</p>"
+    "effect": "<p>The Anchor creates a <b>Blast 3</b> area in <b><span style='font-variant: small-caps;'>Sensors</span></b> extending <b>6 spaces high</b>. This area becomes a <b>zero-g</b> area that lasts until the Anchor uses this system again. Characters within the area upon its creation must pass an <b><span style='font-variant: small-caps;'>Agility</span></b> save or be <b><span style='font-variant: small-caps;'>Impaired</span></b> until the end of their next turn.</p>"
   },
   {
     "id": "ppg_npcf_marathon_arquebus_capacitor",
@@ -272,7 +272,7 @@
         "id": "tg_overshield"
       }
     ],
-    "effect": "<p>The Capacitor deploys with <b><span style='font-variant: small-caps;'>Overshield</span></b> {2/4/6}. Whenever it grants <b><span style='font-variant: small-caps;'>Overshield</span></b> to another character, it gains the same amount of <b><span style='font-variant: small-caps;'>Overshield</span></b>.</p>"
+    "effect": "<p>The Capacitor deploys with <b><span style='font-variant: small-caps;'>Overshield</span></b> {2/3/4}. Whenever it grants <b><span style='font-variant: small-caps;'>Overshield</span></b> to another character, it gains the same amount of <b><span style='font-variant: small-caps;'>Overshield</span></b>.</p>"
   },
   {
     "id": "ppg_npcf_quickening_bolt_capacitor",
@@ -798,7 +798,7 @@
     "range": [
       {
         "type": "Threat",
-        "val": 3
+        "val": 2
       }
     ],
     "damage": [
@@ -826,6 +826,9 @@
     "weapon_type": "Heavy Melee",
     "tags": [
       {
+        "id": "tg_accurate"
+      },
+      {
         "id": "tg_ap"
       }
     ],
@@ -835,14 +838,14 @@
       6
     ],
     "accuracy": [
-      1,
-      1,
-      1
+      0,
+      0,
+      0
     ],
     "range": [
       {
         "type": "Threat",
-        "val": 3
+        "val": 2
       }
     ],
     "damage": [
@@ -876,7 +879,7 @@
         "id": "tg_quick_action"
       }
     ],
-    "effect": "<p>The Kensei <b>sheathes</b> its <b><span style='font-variant: small-caps;'>“Minuano” Kinetic Saber</span></b>, assuming a defensive stance. While its weapon remains <b>sheathed</b>, the Kensei’s voluntary movement counts as moving in <b>difficult terrain</b>, and it reduces any push, pull, or knockback from hostile sources by <b>1 space</b>. The Kensei may <b>unsheathe</b> its weapon as a <b>protocol</b>.</p>"
+    "effect": "<p>The Kensei <b>sheathes</b> its <b><span style='font-variant: small-caps;'>“Minuano” Kinetic Saber</span></b>, assuming a defensive stance. While its weapon remains <b>sheathed</b>, the Kensei is <b><span style='font-variant: small-caps;'>Slowed</span></b>, its voluntary movement counts as moving in <b>difficult terrain</b>, and it reduces push, pull, or knockback from hostile sources by <b>half</b>. The Kensei may <b>unsheathe</b> its weapon as a <b>protocol</b>.</p>"
   },
   {
     "id": "ppg_npcf_mach_parry_kensei",
@@ -901,7 +904,7 @@
       }
     ],
     "trigger": "<p>A hostile character hits and deals damage to the Kensei while its weapon is <b>sheathed</b>.</p>",
-    "effect": "<p>The Kensei first <b>unsheathes</b> its weapon and gains <b><span style='font-variant: small-caps;'>Overshield</span></b> {5/7/9}.</p>"
+    "effect": "<p>The Kensei first <b>unsheathes</b> its weapon and gains <b><span style='font-variant: small-caps;'>Overshield</span></b> {3/5/7}.</p>"
   },
   {
     "id": "ppg_npcf_40mm_hand_cannon_kensei",
@@ -1260,7 +1263,7 @@
       2,
       3
     ],
-    "effect": "<p>The Mesmerist makes a <b>tech attack</b> against each hostile character within <b>Burst </b>{2/3/4}. On a hit, until the end of the target’s next turn, they take {2/3/4} Heat after performing a hostile action that doesn’t include the Mesmerist as a target.</p>"
+    "effect": "<p>The Mesmerist makes a <b>tech attack</b> against each hostile character within <b>Burst 2</b>. On a hit, until the end of the target’s next turn, they take {2/3/4} <b>Heat</b> after performing a hostile action that doesn’t include the Mesmerist as a target.</p>"
   },
   {
     "id": "ppg_npcf_codespike_rapier_mesmerist",
@@ -1302,8 +1305,8 @@
         "type": "Heat",
         "damage": [
           1,
-          2,
-          2
+          1,
+          1
         ]
       }
     ],
@@ -1320,7 +1323,7 @@
     "locked": false,
     "type": "Trait",
     "tags": [],
-    "effect": "<p>Whenever an attack destroys a <b>mirror image</b>, the attacker takes {1/2/3} <b>Heat</b>.</p>"
+    "effect": "<p>Whenever an attack destroys a <b>mirror image</b>, the attacker takes <b>1 Heat</b>.</p>"
   },
   {
     "id": "ppg_npcf_mountebanks_jaunt_mesmerist",
@@ -1331,8 +1334,13 @@
       "base": false
     },
     "locked": false,
-    "type": "Trait",
-    "tags": [],
+    "type": "System",
+    "tags": [
+      {
+        "id": "tg_recharge",
+        "val": 5
+      }
+    ],
     "effect": "<p>When the Mesmerist hits with a <b>tech attack</b>, it may escape all grapples and <b>teleport</b> to a free space adjacent to its target.</p>"
   },
   {
@@ -1458,9 +1466,9 @@
       {
         "type": "Heat",
         "damage": [
-          2,
           3,
-          4
+          3,
+          3
         ]
       },
       {
@@ -1556,7 +1564,7 @@
         "id": "tg_quick_action"
       }
     ],
-    "effect": "<p><b>Firefly Drone (Size </b>1/2<b>, HP </b>{5/8/10}<b>, Evasion </b>10<b>, E-Defense </b>10<b>, Tags: </b><i>Drone</i><b>)</b></p><p>This drone can be deployed to a space within <b><span style='font-variant: small-caps;'>Sensors</span></b> and line of sight. While deployed, hostile characters in <b>Burst 2</b> of the drone cannot draw line of sight outside of the area. If the drone is targeted by an effect that deals any <b>Burn</b>, it explodes and is destroyed; all characters in <b>Burst 2</b> must pass an <b><span style='font-variant: small-caps;'>Agility</span></b> save or take {2/3/4} <b>Heat</b> and {5/7/9} <b>Burn</b>.</p>"
+    "effect": "<p><b>Firefly Drone (Size </b>1/2<b>, HP </b>{5/8/10}<b>, Evasion </b>10<b>, E-Defense </b>10<b>, Tags: </b><i>Drone</i><b>)</b></p><p>This drone can be deployed to a space within <b><span style='font-variant: small-caps;'>Sensors</span></b> and line of sight. While deployed, hostile characters in <b>Burst 2</b> of the drone cannot draw line of sight outside of the area. If the drone is targeted by an effect that deals any <b>Burn</b>, it explodes and is destroyed; all characters in <b>Burst 2</b> must pass an <b><span style='font-variant: small-caps;'>Agility</span></b> save or take <b>3 Heat</b> and {5/7/9} <b>Burn</b>.</p>"
   },
   {
     "id": "ppg_npcf_incendiary_grenade_napalm",
@@ -1758,7 +1766,7 @@
     "locked": false,
     "type": "Trait",
     "tags": [],
-    "effect": "<p>When a controlled <b><span style='font-variant: small-caps;'>Drone</span></b> or allied <b><span style='font-variant: small-caps;'>Grunt</span></b> in <b><span style='font-variant: small-caps;'>Sensors</span></b> is destroyed, hostile characters within <b>Burst 1</b> of the destroyed character must pass an <b><span style='font-variant: small-caps;'>Engineering</span></b> save or take {1/2/3} <b>Heat</b> and {2/4/6} <b>Burn</b>.</p>"
+    "effect": "<p>When a controlled <b><span style='font-variant: small-caps;'>Drone</span></b> or allied <b><span style='font-variant: small-caps;'>Grunt</span></b> in <b><span style='font-variant: small-caps;'>Sensors</span></b> is destroyed, hostile characters within <b>Burst 1</b> of the destroyed character must pass an <b><span style='font-variant: small-caps;'>Engineering</span></b> save or take <b>2 Heat</b> and {3/4/5} <b>Burn</b>.</p>"
   },
   {
     "id": "ppg_npcf_call_from_below_occultist",
@@ -1804,7 +1812,7 @@
         "id": "tg_quick_tech"
       }
     ],
-    "effect": "<p>Place an untargetable holographic <b>projector</b> in a free space within <b><span style='font-variant: small-caps;'>Sensors</span></b>. The Prism is treated as occupying a projector’s space for all purposes, including <b><span style='font-variant: small-caps;'>Range</span></b>, <b><span style='font-variant: small-caps;'>Threat</span></b>, <b><span style='font-variant: small-caps;'>Sensors</span></b>, line of sight, adjacency, engagement, contesting objectives, and being affected by abilities. The Prism gains <b><span style='font-variant: small-caps;'>Resistance</span> to all damage, Heat, and Burn</b> inflicted through a projector.</p><p>If the Prism would have more than <b>1 projector</b>, it must destroy any beyond that limit. Projectors last until the end of the scene, or until the Prism is <b><span style='font-variant: small-caps;'>Stunned</span></b>, <b><span style='font-variant: small-caps;'>Jammed</span></b>, overheated, or destroyed.</p>"
+    "effect": "<p>Place an untargetable holographic <b>projector</b> in a free space within <b><span style='font-variant: small-caps;'>Sensors</span></b>. The Prism is treated as occupying a projector’s space for all purposes. The Prism gains <b><span style='font-variant: small-caps;'>Resistance</span> to all damage, Heat, and Burn</b> inflicted through a projector.</p><p>If the Prism would have more than <b>1 projector</b>, it must destroy any beyond that limit. Projectors last until the end of the scene, or until the Prism is <b><span style='font-variant: small-caps;'>Stunned</span></b>, <b><span style='font-variant: small-caps;'>Jammed</span></b>, overheated, or destroyed.</p>"
   },
   {
     "id": "ppg_npcf_diffraction_beam_prism",
@@ -1848,8 +1856,8 @@
         ]
       }
     ],
-    "on_hit": "<p>The target can only draw line of sight to the Prism’s spaces until the end of their next turn.</p>",
-    "effect": "<p>This weapon only targets hostile characters. Attacks made through a <b>projector</b> gain <b>AP</b>.</p>"
+    "on_hit": "<p>If the Prism consumed <b><span style='font-variant: small-caps;'>Lock On</span></b> against the target, they can only draw line of sight to the Prism’s spaces until the end of their next turn.</p>",
+    "effect": "<p>This weapon does not affect allies. Attacks made through a <b>projector</b> gain <b>AP</b>.</p>"
   },
   {
     "id": "ppg_npcf_refracting_armor_prism",
@@ -1862,7 +1870,7 @@
     "locked": false,
     "type": "Trait",
     "tags": [],
-    "effect": "<p>Attacks targeting characters, objects, or spaces within <b>Burst 3</b> of the Prism lose the benefit of <b><span style='font-variant: small-caps;'>Seeking</span></b>.</p>"
+    "effect": "<p>Attacks targeting characters, objects, or spaces within <b>Burst 3</b> of the Prism lose the benefit of <b><span style='font-variant: small-caps;'>Seeking</span></b>. Hostile characters in the same area that attack one of the Prism’s allies gain <b><span style='font-variant: small-caps;'>Lock On</span></b>.</p>"
   },
   {
     "id": "ppg_npcf_mobile_projectors_prism",
@@ -1988,7 +1996,7 @@
         "val": 1
       }
     ],
-    "trigger": "<p>The Prism or an allied character in <b>Range 5</b> is attacked while a <b>projector</b> exists.</p>",
+    "trigger": "<p>The Prism or an allied character in <b>Range 3</b> is attacked while a <b>projector</b> exists.</p>",
     "effect": "<p>The Prism first destroys a <b>projector</b> and <b>teleports</b> the triggering character to a space it occupied. Regardless of <b><span style='font-variant: small-caps;'>Range</span></b> or line of sight, the Prism becomes the new target of the attack as if it were targeted through a projector. Afterwards, the attacker is <b><span style='font-variant: small-caps;'>Impaired</span></b> until the end of their next turn.</p>"
   },
   {
@@ -2208,7 +2216,7 @@
         "id": "tg_full_action"
       }
     ],
-    "effect": "<p>An adjacent character must make an <b><span style='font-variant: small-caps;'>Agility</span></b> save; larger targets always succeed. On a success, they are <b><span style='font-variant: small-caps;'>Slowed</span></b> and <b><span style='font-variant: small-caps;'>Impaired</span></b> until the end of their next turn. On a failure, the target occupies the Torrent’s space and is <b>engulfed</b> and until they pass a <b><span style='font-variant: small-caps;'>Hull</span></b> save as a <b>full action</b>, they stop occupying the Torrent’s space, the Torrent is <b><span style='font-variant: small-caps;'>Jammed</span></b>, <b><span style='font-variant: small-caps;'>Stunned</span></b>, overheated, or destroyed, or the Torrent uses this action again. While <b>engulfed</b>, the target is <b><span style='font-variant: small-caps;'>Jammed</span></b> and <b><span style='font-variant: small-caps;'>Immobilized</span></b> and moves with the Torrent.</p>"
+    "effect": "<p>An adjacent character must make an <b><span style='font-variant: small-caps;'>Agility</span></b> save; larger targets always succeed. On a success, the target is <b><span style='font-variant: small-caps;'>Slowed</span></b> and <b><span style='font-variant: small-caps;'>Impaired</span></b> until the end of their next turn. On a failure, the Torrent <b>pushes</b> itself to occupy the target’s space, and the target is <b>engulfed</b> until they pass a <b><span style='font-variant: small-caps;'>Hull</span></b> save as a <b>full action</b>, they stop occupying the Torrent’s space, the Torrent is <b><span style='font-variant: small-caps;'>Jammed</span></b>, <b><span style='font-variant: small-caps;'>Stunned</span></b>, overheated, or destroyed, or the Torrent uses this action again. While <b>engulfed</b>, the target is <b><span style='font-variant: small-caps;'>Jammed</span></b> and <b><span style='font-variant: small-caps;'>Immobilized</span></b> and moves with the Torrent.</p>"
   },
   {
     "id": "ppg_npcf_magpie_subroutines_vulture",
@@ -2229,7 +2237,7 @@
         "id": "tg_quick_action"
       }
     ],
-    "effect": "<p><b>Destroy</b> one of the following:</p><p><ul><li>An adjacent <b>wreckage</b>.</li><li>A weapon or system equipped by the Vulture.</li><li>A weapon or system equipped by a willing adjacent character.</li></ul></p><p>The Vulture or a character in <b>Range 3</b> then gains one of the following benefits:</p><p><ul><li><b><span style='font-variant: small-caps;'>Recharge</span></b> one weapon or system.</li><li>Repair one destroyed weapon or system.</li><li>All <b><span style='font-variant: small-caps;'>Limited</span></b> weapons and systems regain <b>1 use</b>.</li><li>Gain <b><span style='font-variant: small-caps;'>Overshield</span></b> {3/5/7} and clear <b>1 condition</b>.</li></ul></p>"
+    "effect": "<p><b>Destroy</b> one of the following:</p><p><ul><li>An adjacent <b>wreckage</b>.</li><li>A weapon or system equipped by the Vulture.</li><li>A weapon or system equipped by a willing adjacent character.</li></ul></p><p>The Vulture or a character in <b>Range 3</b> then gains one of the following benefits:</p><p><ul><li><b><span style='font-variant: small-caps;'>Recharge</span></b> one weapon or system.</li><li>Repair one destroyed weapon or system.</li><li>Reload one <b><span style='font-variant: small-caps;'>Loading</span></b> weapon.</li><li>All <b><span style='font-variant: small-caps;'>Limited</span></b> weapons and systems regain <b>1 use</b>.</li><li>Gain <b><span style='font-variant: small-caps;'>Overshield</span></b> {3/5/7} and clear <b>1 condition</b>.</li></ul></p>"
   },
   {
     "id": "ppg_npcf_condor_jet_propulsion_wings_vulture",
@@ -2257,8 +2265,7 @@
     "weapon_type": "Main Cannon",
     "tags": [
       {
-        "id": "tg_limited",
-        "val": 2
+        "id": "tg_loading"
       }
     ],
     "attack_bonus": [
@@ -3400,7 +3407,7 @@
         "id": "tg_quick_tech"
       }
     ],
-    "effect": "<p>The Brigand targets one hostile <b><span style='font-variant: small-caps;'>Deployable</span></b> or <b><span style='font-variant: small-caps;'>Drone</span></b>. Until the end of the scene, the Brigand is treated as the controller of the target <b><span style='font-variant: small-caps;'>Deployable</span></b> or <b><span style='font-variant: small-caps;'>Drone</span></b>. Attacks, checks, and saves made or forced by the <b><span style='font-variant: small-caps;'>Drone</span></b> use the original controller’s statistics. DRONES cannot be recalled while affected by this system.</p><p>The original controller can regain control and end this effect with a successful <b><span style='font-variant: small-caps;'>Systems</span></b> check as a <b>quick action</b> while the affected <b><span style='font-variant: small-caps;'>Deployable</span></b> or <b><span style='font-variant: small-caps;'>Drone</span></b> is within their <b><span style='font-variant: small-caps;'>Sensors</span></b> and line of sight.</p>"
+    "effect": "<p>The Brigand targets one hostile <b><span style='font-variant: small-caps;'>Deployable</span></b> or <b><span style='font-variant: small-caps;'>Drone</span></b>. Until the end of the scene, the Brigand is treated as the controller of the target <b><span style='font-variant: small-caps;'>Deployable</span></b> or <b><span style='font-variant: small-caps;'>Drone</span></b>. Attacks, checks, and saves made or forced by the <b><span style='font-variant: small-caps;'>Drone</span></b> use the original controller’s statistics. <b><span style='font-variant: small-caps;'>Drones</span></b> cannot be recalled while affected by this system.</p><p>The original controller can regain control and end this effect with a successful <b><span style='font-variant: small-caps;'>Systems</span></b> check as a <b>quick action</b> while the affected <b><span style='font-variant: small-caps;'>Deployable</span></b> or <b><span style='font-variant: small-caps;'>Drone</span></b> is within their <b><span style='font-variant: small-caps;'>Sensors</span></b> and line of sight.</p>"
   },
   {
     "id": "ppg_npcf_enforce_limiters_brigand",
@@ -3515,7 +3522,7 @@
         "id": "tg_full_tech"
       }
     ],
-    "effect": "<p>The Brigand rescinds <b>1 license rank</b> of a hostile character in <b><span style='font-variant: small-caps;'>Sensors</span></b>. While the target carries equipment tied to that license rank, they count as piloting an <b>unlicensed mech</b> (<i>Lancer</i>, p.74). An affected mech can jettison any piece of equipment as a <b>quick action</b>, rendering it unusable until it is retrieved and reattached during a <b>rest</b>.</p><p>Otherwise, this effect lasts until the target finishes a <b>rest</b> or succeeds on a <b><span style='font-variant: small-caps;'>Systems</span></b> check as a <b>full action</b> to re-validate their licenses.</p>"
+    "effect": "<p>The Brigand rescinds <b>1 license rank</b> of a hostile mech in <b><span style='font-variant: small-caps;'>Sensors</span></b>. While the target carries equipment tied to that license rank (not including the mech's <b><span style='font-variant: small-caps;'>Frame</span></b>), they count as piloting an <b>unlicensed mech</b> (<i>Lancer</i>, p.74). An affected mech can jettison any piece of equipment as a <b>quick action</b>, rendering it unusable until it is retrieved and reattached during a <b>rest</b>.</p><p>Otherwise, this effect lasts until the target finishes a <b>rest</b> or succeeds on a <b><span style='font-variant: small-caps;'>Systems</span></b> check as a <b>full action</b> to re-validate their licenses.</p>"
   },
   {
     "id": "ppg_npcf_youre_too_slow_brisk",
@@ -3633,7 +3640,7 @@
         "val": 6
       }
     ],
-    "effect": "<p>If the Kensei takes the final NPC turn of the round, for that turn the <b><span style='font-variant: small-caps;'>Charged</span></b> profile of its <b><span style='font-variant: small-caps;'>“Minuano” Kinetic Saber</span></b> may attack characters in <b>Burst 3</b>. All characters hit by the attack are <b><span style='font-variant: small-caps;'>Shredded</span></b> until the end of the scene.</p>"
+    "effect": "<p>If the Kensei takes the final NPC turn of the round, for that turn the <b><span style='font-variant: small-caps;'>Charged</span></b> profile of its <b><span style='font-variant: small-caps;'>“Minuano” Kinetic Saber</span></b> may attack characters in <b>Burst 2</b>. All characters hit by the attack are <b><span style='font-variant: small-caps;'>Shredded</span></b> until the end of the scene.</p>"
   },
   {
     "id": "ppg_npcf_evergaol_knight",
