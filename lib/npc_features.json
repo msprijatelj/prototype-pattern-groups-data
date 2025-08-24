@@ -1766,7 +1766,7 @@
     "locked": false,
     "type": "Trait",
     "tags": [],
-    "effect": "<p>When a controlled <b><span style='font-variant: small-caps;'>Drone</span></b> or allied <b><span style='font-variant: small-caps;'>Grunt</span></b> in <b><span style='font-variant: small-caps;'>Sensors</span></b> is destroyed, hostile characters within <b>Burst 1</b> of the destroyed character must pass an <b><span style='font-variant: small-caps;'>Engineering</span></b> save or take {1/2/3} <b>Heat</b> and {2/4/6} <b>Burn</b>.</p>"
+    "effect": "<p>When a controlled <b><span style='font-variant: small-caps;'>Drone</span></b> or allied <b><span style='font-variant: small-caps;'>Grunt</span></b> in <b><span style='font-variant: small-caps;'>Sensors</span></b> is destroyed, hostile characters within <b>Burst 1</b> of the destroyed character must pass an <b><span style='font-variant: small-caps;'>Engineering</span></b> save or take <b>2 Heat</b> and {3/4/5} <b>Burn</b>.</p>"
   },
   {
     "id": "ppg_npcf_call_from_below_occultist",
