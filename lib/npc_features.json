@@ -879,7 +879,7 @@
         "id": "tg_quick_action"
       }
     ],
-    "effect": "<p>The Kensei <b>sheathes</b> its <b><span style='font-variant: small-caps;'>“Minuano” Kinetic Saber</span></b>, assuming a defensive stance. While its weapon remains <b>sheathed</b>, the Kensei is <b><span style='font-variant: small-caps;'>Slowed</span></b>, its voluntary movement counts as moving in <b>difficult terrain</b>, and it reduces any push, pull, or knockback from hostile sources by <b>1 space</b>. The Kensei may <b>unsheathe</b> its weapon as a <b>protocol</b>.</p>"
+    "effect": "<p>The Kensei <b>sheathes</b> its <b><span style='font-variant: small-caps;'>“Minuano” Kinetic Saber</span></b>, assuming a defensive stance. While its weapon remains <b>sheathed</b>, the Kensei is <b><span style='font-variant: small-caps;'>Slowed</span></b>, its voluntary movement counts as moving in <b>difficult terrain</b>, and it reduces push, pull, or knockback from hostile sources by <b>half</b>. The Kensei may <b>unsheathe</b> its weapon as a <b>protocol</b>.</p>"
   },
   {
     "id": "ppg_npcf_mach_parry_kensei",
@@ -1857,7 +1857,7 @@
       }
     ],
     "on_hit": "<p>If the Prism consumed <b><span style='font-variant: small-caps;'>Lock On</span></b> against the target, they can only draw line of sight to the Prism’s spaces until the end of their next turn.</p>",
-    "effect": "<p>This weapon only targets hostile characters. Attacks made through a <b>projector</b> gain <b>AP</b>.</p>"
+    "effect": "<p>This weapon does not affect allies. Attacks made through a <b>projector</b> gain <b>AP</b>.</p>"
   },
   {
     "id": "ppg_npcf_refracting_armor_prism",
