@@ -1334,8 +1334,13 @@
       "base": false
     },
     "locked": false,
-    "type": "Trait",
-    "tags": [],
+    "type": "System",
+    "tags": [
+      {
+        "id": "tg_recharge",
+        "val": 5
+      }
+    ],
     "effect": "<p>When the Mesmerist hits with a <b>tech attack</b>, it may escape all grapples and <b>teleport</b> to a free space adjacent to its target.</p>"
   },
   {
