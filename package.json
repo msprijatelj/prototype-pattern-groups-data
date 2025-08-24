@@ -1,6 +1,6 @@
 {
   "name": "@valkyrion/prototype-pattern-groups-data",
-  "version": "1.8.3",
+  "version": "1.9.0",
   "description": "COMP/CON data for Prototype Pattern Groups, a third-party experimental NPC mechs for the Lancer RPG.",
   "main": "index.js",
   "scripts": {
