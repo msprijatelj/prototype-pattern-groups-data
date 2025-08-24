@@ -1870,7 +1870,7 @@
     "locked": false,
     "type": "Trait",
     "tags": [],
-    "effect": "<p>Attacks targeting characters, objects, or spaces within <b>Burst 3</b> of the Prism lose the benefit of <b><span style='font-variant: small-caps;'>Seeking</span></b>. Hostile characters that end their turn in the same area gain <b><span style='font-variant: small-caps;'>Lock On</span></b>.</p>"
+    "effect": "<p>Attacks targeting characters, objects, or spaces within <b>Burst 3</b> of the Prism lose the benefit of <b><span style='font-variant: small-caps;'>Seeking</span></b>. Hostile characters in the same area that attack one of the Prism’s allies gain <b><span style='font-variant: small-caps;'>Lock On</span></b>.</p>"
   },
   {
     "id": "ppg_npcf_mobile_projectors_prism",
