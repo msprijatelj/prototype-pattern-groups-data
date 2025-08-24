@@ -413,7 +413,7 @@
     "name": "Kensei",
     "role": "striker",
     "info": {
-      "flavor": "<p>Some believe that a mech is simply a tool: An implement holding no implication over the nature of the pilot. To this, Kensei mechs are the strongest counterargument; only pilots with poise, discipline, and tremendous patience can hope to perfect its fluid, precise deathblows.</p>",
+      "flavor": "<p>Some believe that a mech is simply a tool: An implement holding no implication over the nature of the pilot. To this, the Kensei PG is the strongest counterargument; only pilots with poise, discipline, and tremendous patience can hope to wield its magnetically-accelerated saber.</p>",
       "tactics": "<p>The Kensei aggressively projects threat over objectives with its <b><span style='font-variant: small-caps;'>“Minuano” Kinetic Saber</span></b>. <b><span style='font-variant: small-caps;'>Mass Driver Sheathe</span></b> serves a versatile role by preparing a defensive <b><span style='font-variant: small-caps;'>Mach Parry</span></b> or a punishing <b><span style='font-variant: small-caps;'>Charged</span></b> saber attack. Despite this flexibility, Kensei mechs boast below-average <b><span style='font-variant: small-caps;'>E-Defense</span></b>, leaving their strategies vulnerable to disruption.</p>"
     },
     "stats": {
