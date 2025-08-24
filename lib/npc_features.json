@@ -177,7 +177,7 @@
         "id": "tg_quick_tech"
       }
     ],
-    "effect": "<p>The Anchor creates three <b>Blast 1</b> areas in <b><span style='font-variant: small-caps;'>Sensors</span></b> extending <b>6 spaces high</b>. These areas become <b>zero-g</b> areas that last until the Anchor uses this system again. Characters within the areas upon their creation must pass an <b><span style='font-variant: small-caps;'>Agility</span></b> save or be <b><span style='font-variant: small-caps;'>Impaired</span></b> until the end of their next turn.</p>"
+    "effect": "<p>The Anchor creates a <b>Blast 3</b> area in <b><span style='font-variant: small-caps;'>Sensors</span></b> extending <b>6 spaces high</b>. This area becomes a <b>zero-g</b> area that lasts until the Anchor uses this system again. Characters within the area upon its creation must pass an <b><span style='font-variant: small-caps;'>Agility</span></b> save or be <b><span style='font-variant: small-caps;'>Impaired</span></b> until the end of their next turn.</p>"
   },
   {
     "id": "ppg_npcf_marathon_arquebus_capacitor",
