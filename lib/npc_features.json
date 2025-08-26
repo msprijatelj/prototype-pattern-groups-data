@@ -413,7 +413,7 @@
         "id": "tg_quick_action"
       }
     ],
-    "effect": "<p>The Ghost <b>bonds</b> with one tangible adjacent allied character, becoming <b><span style='font-variant: small-caps;'>Intangible</span></b> and sharing <b>one</b> of the target’s spaces. The bonded target may take <b>1 Heat</b> as a <b>protocol</b> to gain the Ghost’s <b><span style='font-variant: small-caps;'>Phase Shift</span></b> feature until the end of the turn. However, if either bonded character takes <b>Heat</b> or a <b>condition</b>, the other character takes the same amount of <b>Heat</b> and receives that condition for the same duration.</p><p>While <b>bonded</b>, the Ghost moves with the bonded target’s <b>voluntary movement</b>. The bond ends if the Ghost uses this system again, no longer shares a space with the bonded target, or is <b><span style='font-variant: small-caps;'>Stunned</span></b>, <b><span style='font-variant: small-caps;'>Jammed</span></b>, overheated, or destroyed.</p>"
+    "effect": "<p>The Ghost <b>bonds</b> with one tangible adjacent allied character, becoming <b><span style='font-variant: small-caps;'>Intangible</span></b> and sharing <b>one</b> of the target’s spaces. As a <b>protocol</b>, the bonded target may inflict <b>1 Heat</b> upon both themselves and the Ghost to gain the Ghost’s <b><span style='font-variant: small-caps;'>Phase Shift</span></b> feature until the end of their turn. However, if a hostile <b>tech action</b> affects either bonded character, the other character also suffers the action’s effects.</p><p>While <b>bonded</b>, the Ghost moves with the bonded target’s <b>voluntary movement</b>. The bond ends if the Ghost uses this system again, no longer shares a space with the bonded target, or is <b><span style='font-variant: small-caps;'>Stunned</span></b>, <b><span style='font-variant: small-caps;'>Jammed</span></b>, overheated, or destroyed.</p>"
   },
   {
     "id": "ppg_npcf_paradox_state_ghost",
@@ -435,7 +435,7 @@
         "id": "tg_quick_tech"
       }
     ],
-    "effect": "<p>The next time a hostile action is taken against a character <b>bonded</b> with the Ghost, roll <b>1d6</b>: On a <b>4+</b>, the target is <b><span style='font-variant: small-caps;'>Intangible</span></b> during the action. This effect does not stack with <b><span style='font-variant: small-caps;'>Invisible</span></b>.</p>"
+    "effect": "<p>The next time a hostile action is taken against a character <b>bonded</b> with the Ghost, roll <b>1d6</b>: On a <b>4+</b>, the target takes <b>1 Heat</b> and is <b><span style='font-variant: small-caps;'>Intangible</span></b> during the action. This effect does not stack with <b><span style='font-variant: small-caps;'>Invisible</span></b>.</p>"
   },
   {
     "id": "ppg_npcf_ghastly_vigor_ghost",
