@@ -3622,7 +3622,7 @@
         "id": "tg_full_action"
       }
     ],
-    "effect": "<p>The Hatchet may make one <b><span style='font-variant: small-caps;'>Thrown</span></b> weapon attack against each hostile character in <b><span style='font-variant: small-caps;'>Range</span></b> of its <b><span style='font-variant: small-caps;'>Thrown</span></b> weapons, without needing to retrieve each weapon. Each attack creates a copy of the weapon that lands adjacent to the target’s space.</p><p>Until the end of the Hatchet’s next turn, it may take a second <b>full action</b> to <b>teleport</b> adjacent to one of its <b><span style='font-variant: small-caps;'>Thrown</span></b> weapons, then retrieve all its <b><span style='font-variant: small-caps;'>Thrown</span></b> weapons. All hostile characters adjacent to a retrieved weapon must make an <b><span style='font-variant: small-caps;'>Agility</span></b> save or be pushed <b>2 spaces</b> in any direction and take {6/8/10} Kinetic damage. On a success, the target takes half damage and isn’t pushed.</p>"
+    "effect": "<p>The Hatchet may make one <b><span style='font-variant: small-caps;'>Thrown</span></b> weapon attack against each hostile character in <b><span style='font-variant: small-caps;'>Range</span></b> of its <b><span style='font-variant: small-caps;'>Thrown</span></b> weapons, without needing to retrieve each weapon. Each attack creates a copy of the weapon that lands adjacent to the target’s space.</p><p>Until the end of the Hatchet’s next turn, it may take a second <b>full action</b> to <b>teleport</b> adjacent to one of its <b><span style='font-variant: small-caps;'>Thrown</span></b> weapons, then retrieve all its <b><span style='font-variant: small-caps;'>Thrown</span></b> weapons. All hostile characters adjacent to a retrieved weapon must pass an <b><span style='font-variant: small-caps;'>Agility</span></b> save or be pushed <b>2 spaces</b> in any direction and take {6/8/10} Kinetic damage. On a success, the target takes half damage and isn’t pushed.</p>"
   },
   {
     "id": "ppg_npcf_mortal_draw_kensei",
@@ -3895,7 +3895,7 @@
         ]
       }
     ],
-    "effect": "<p>Add this profile to the <b><span style='font-variant: small-caps;'>“Minuano” Kinetic Saber</span></b>. This profile can only be used while the weapon is <b>sheathed</b>. After throwing this weapon, <b><span style='font-variant: small-caps;'>Mass Driver Sheathe</span></b> cannot be used until it is retrieved.</p><p>This weapon becomes <b>unsheathed</b> after attacking.</p>"
+    "effect": "<p>Add this profile to the <b><span style='font-variant: small-caps;'>“Minuano” Kinetic Saber</span></b>. This profile can only be used while this weapon is <b>sheathed</b>. After throwing this weapon, <b><span style='font-variant: small-caps;'>Mass Driver Sheathe</span></b> cannot be used until it is retrieved.</p><p>This weapon becomes <b>unsheathed</b> after attacking.</p>"
   },
   {
     "id": "ppg_npcf_valor_knight",
