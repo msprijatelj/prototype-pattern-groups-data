@@ -3755,7 +3755,7 @@
         "val": 3
       }
     ],
-    "effect": "<p>This trait replaces <b><span style='font-variant: small-caps;'>Shock And Awe</span></b>. After the Torrent takes <b><span style='font-variant: small-caps;'>Structure</span></b> damage, it reduces any excess damage to <b>HP</b> to <b>0</b>, and it may create a copy of itself that may act this round. Each copy takes its own turn, but the original and all copies share the same pool of <b><span style='font-variant: small-caps;'>Structure</span></b>, <b><span style='font-variant: small-caps;'>Stress</span></b>, <b>HP</b>, <b><span style='font-variant: small-caps;'>Heat</span></b>, and expendable abilities (such as those with <b><span style='font-variant: small-caps;'>Recharge</span></b>, <b><span style='font-variant: small-caps;'>Limited</span></b>, <b><span style='font-variant: small-caps;'>1/round</span></b>, or <b><span style='font-variant: small-caps;'>1/scene</span></b> tags).</p>"
+    "effect": "<p>This trait replaces <b><span style='font-variant: small-caps;'>Reinforced</span></b> and <b><span style='font-variant: small-caps;'>Resilient</span></b>. If the Torrent would be destroyed, it instead regains all <b>HP</b> and splits apart, creating a copy of itself within <b><span style='font-variant: small-caps;'>Sensors</span></b>. All copies are an extension of the Torrent: Any effects against a copy are treated as against the Torrent itself, and the Torrent occupies and may act through its copies’ spaces. The Torrent can only be affected by an area of effect once, but involuntary movement affects each copy individually.</p>"
   },
   {
     "id": "ppg_npcf_rapid_refabrication_vulture",
