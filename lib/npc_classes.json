@@ -619,7 +619,7 @@
     "role": "defender",
     "info": {
       "flavor": "<p>The Mesmerist pattern group inverts the Gorgon PG’s BASILISK to become a target from which opponents cannot look away. Entrancing targeting systems and sapient minds alike, a Mesmerist chassis enshrouds itself with digital glamours to protect itself from more vulgar mechs. Those who attempt to flee the show risk jabs from a paracode-laced rapier.</p>",
-      "tactics": "<p>Mesmerists wrest their foes’ attention away from their allies with <b><span style='font-variant: small-caps;'>Memetic Magnetism</span></b>, relying upon illusory <b><span style='font-variant: small-caps;'>Mirror Images</span></b> to avoid harm. They punish retreat via <b><span style='font-variant: small-caps;'>Overwatch</span></b> with their <b><span style='font-variant: small-caps;'>Codespike Rapier</span></b> and hamper offense with <b><span style='font-variant: small-caps;'>Invade</span></b>. Despite their evasiveness, Mesmerists are delicate in comparison to other defenders should a blow land upon them.</p>"
+      "tactics": "<p>Mesmerists wrest their foes’ attention away from their allies with <b><span style='font-variant: small-caps;'>Memetic Magnetism</span></b>, relying upon illusory <b><span style='font-variant: small-caps;'>Mirror Images</span></b> to avoid harm. They punish retreat via <b><span style='font-variant: small-caps;'>Overwatch</span></b> with their <b><span style='font-variant: small-caps;'>Codespike Rapier</span></b> and hamper offense with <b><span style='font-variant: small-caps;'>Invade</span></b>. Despite their evasiveness, Mesmerists are delicate in comparison to other defenders.</p>"
     },
     "stats": {
       "armor": [

@@ -1263,7 +1263,7 @@
       2,
       3
     ],
-    "effect": "<p>The Mesmerist makes a <b>tech attack</b> against each hostile character within <b>Burst 2</b>. On a hit, until the end of the target’s next turn, they take {2/3/4} <b>Heat</b> after performing a hostile action that doesn’t include the Mesmerist as a target.</p>"
+    "effect": "<p>The Mesmerist makes a <b>tech attack</b> against each hostile character within <b>Burst 2</b>. On a hit, until the end of the target’s next turn, they take {2/3/4} <b>Heat</b> after performing a hostile action that doesn’t include the Mesmerist as a target. This system automatically <b>recharges</b> if used against a single target.</p>"
   },
   {
     "id": "ppg_npcf_codespike_rapier_mesmerist",
@@ -1304,13 +1304,13 @@
       {
         "type": "Heat",
         "damage": [
-          1,
-          1,
-          1
+          2,
+          2,
+          2
         ]
       }
     ],
-    "on_hit": "<p>If the attack was made with <b><span style='font-variant: small-caps;'>Overwatch</span></b>, the target becomes <b><span style='font-variant: small-caps;'>Jammed</span></b> until the end of their next turn.</p>"
+    "on_hit": "<p>If the attack was made with <b><span style='font-variant: small-caps;'>Overwatch</span></b>, <b>tech attacks</b> against the target gain <b>+1 Accuracy</b> until the end of their next turn.</p>"
   },
   {
     "id": "ppg_npcf_death_by_glamour_mesmerist",
