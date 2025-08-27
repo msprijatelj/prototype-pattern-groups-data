@@ -1263,7 +1263,7 @@
       2,
       3
     ],
-    "effect": "<p>The Mesmerist makes a <b>tech attack</b> against each hostile character within <b>Burst 2</b>. On a hit, until the end of the target’s next turn, they take {2/3/4} <b>Heat</b> after performing a hostile action that doesn’t include the Mesmerist as a target. This system automatically <b>recharges</b> if used against a single target.</p>"
+    "effect": "<p>The Mesmerist makes a <b>tech attack</b> against each hostile character within <b>Burst 2</b>. On a hit, until the end of the target’s next turn, they take {2/3/4} <b>Heat</b> after performing a hostile action that doesn’t include the Mesmerist as a target. This system automatically <b>recharges</b> if only one target is within the area.</p>"
   },
   {
     "id": "ppg_npcf_codespike_rapier_mesmerist",
@@ -1564,7 +1564,7 @@
         "id": "tg_quick_action"
       }
     ],
-    "effect": "<p><b>Firefly Drone (Size </b>1/2<b>, HP </b>{5/8/10}<b>, Evasion </b>10<b>, E-Defense </b>10<b>, Tags: </b><i>Drone</i><b>)</b></p><p>This drone can be deployed to a space within <b><span style='font-variant: small-caps;'>Sensors</span></b> and line of sight. While deployed, hostile characters in <b>Burst 2</b> of the drone cannot draw line of sight outside of the area. If the drone is targeted by an effect that deals any <b>Burn</b>, it explodes and is destroyed; all characters in <b>Burst 2</b> must pass an <b><span style='font-variant: small-caps;'>Agility</span></b> save or take <b>3 Heat</b> and {5/7/9} <b>Burn</b>.</p>"
+    "effect": "<p><b>Firefly Drone (Size </b>1/2<b>, HP </b>{5/8/10}<b>, Evasion </b>10<b>, E-Defense </b>10<b>, Tags: </b><i>Drone</i><b>)</b></p><p>This drone can be deployed to a space within <b><span style='font-variant: small-caps;'>Sensors</span></b> and line of sight, creating a <b>Burst 1</b> area. Hostile characters at least partially within the area cannot draw line of sight outside of the area. At the end of each round, the <b>Burst</b> increases by <b>1</b> (to a maximum of <b>Burst 3</b>). The drone explodes and is destroyed if it is targeted by an effect that deals any <b>Burn</b>; characters in its area must pass an <b><span style='font-variant: small-caps;'>Agility</span></b> save or take <b>3 Heat</b> and {5/7/9} <b>Burn</b>.</p>"
   },
   {
     "id": "ppg_npcf_incendiary_grenade_napalm",
