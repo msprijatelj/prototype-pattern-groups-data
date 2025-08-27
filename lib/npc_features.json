@@ -991,7 +991,7 @@
     "locked": false,
     "type": "Trait",
     "tags": [],
-    "effect": "<p>As part of <b><span style='font-variant: small-caps;'>Mach Parry</span></b>, after the triggering attack resolves, the Kensei may move its <b><span style='font-variant: small-caps;'>Speed</span></b> towards the attacker and <b><span style='font-variant: small-caps;'>Skirmish</span></b> against them with its <b><span style='font-variant: small-caps;'>“Minuano” Kinetic Saber</span></b>. On a hit, the attack deals no damage; instead, the Kensei <b>disarms</b> one of the target’s equipped weapons, flinging it to a space in <b>Range 5</b>. The target cannot use the weapon until they retrieve it (as if the weapon had the <b><span style='font-variant: small-caps;'>Thrown</span></b> tag).</p>"
+    "effect": "<p>As part of <b><span style='font-variant: small-caps;'>Mach Parry</span></b>, after the triggering attack resolves, the Kensei may move its <b><span style='font-variant: small-caps;'>Speed</span></b> towards the attacker and <b><span style='font-variant: small-caps;'>Skirmish</span></b> against them with its <b><span style='font-variant: small-caps;'>“Minuano” Kinetic Saber</span></b>. On a hit, the attack deals no damage; instead, the Kensei <b>disarms</b> one of the target’s equipped weapons (excluding <b>integrated</b> weapons), flinging it to a space in <b>Range 5</b>. The target cannot use the weapon until they retrieve it (as if the weapon had the <b><span style='font-variant: small-caps;'>Thrown</span></b> tag).</p>"
   },
   {
     "id": "ppg_npcf_daunting_grudge_kensei",
@@ -3755,7 +3755,7 @@
         "val": 3
       }
     ],
-    "effect": "<p>This trait replaces <b><span style='font-variant: small-caps;'>Reinforced</span></b> and <b><span style='font-variant: small-caps;'>Resilient</span></b>. If the Torrent would be destroyed, it instead regains all <b>HP</b> and splits apart, creating a copy of itself within <b><span style='font-variant: small-caps;'>Sensors</span></b>. All copies are an extension of the Torrent: Any effects against a copy are treated as against the Torrent itself, and the Torrent occupies and may act through its copies’ spaces. The Torrent can only be affected by an area of effect once, but involuntary movement affects each copy individually.</p>"
+    "effect": "<p>The Torrent occupies two independent spaces of its <b><span style='font-variant: small-caps;'>Size</span></b>, dividing its actions and movement between the two as it desires. Either set of spaces is valid for targeting the Torrent, though the Torrent is still only a single character and may only be affected once by a single area of effect. <b>Involuntary movement</b> against one set of spaces only affects the targeted spaces, but other effects are otherwise shared between the two.</p>"
   },
   {
     "id": "ppg_npcf_rapid_refabrication_vulture",
