@@ -1480,20 +1480,7 @@
         ]
       }
     ],
-    "effect": "<p>This weapon attacks by drawing its <b><span style='font-variant: small-caps;'>Line</span></b> in any direction from a point within its <b><span style='font-variant: small-caps;'>Range</span></b>. It calculates cover and line of sight from the chosen point.</p>"
-  },
-  {
-    "id": "ppg_npcf_adhesive_gel_napalm",
-    "name": "Adhesive Gel",
-    "origin": {
-      "type": "Class",
-      "name": "Napalm",
-      "base": true
-    },
-    "locked": false,
-    "type": "Trait",
-    "tags": [],
-    "effect": "<p>Characters who take any <b>Burn</b> from the Napalm’s abilities must pass an <b><span style='font-variant: small-caps;'>Agility</span></b> save or be <b><span style='font-variant: small-caps;'>Slowed</span></b> until they clear all <b>Burn</b>.</p>"
+    "effect": "<p>This weapon attacks by drawing its <b><span style='font-variant: small-caps;'>Line</span></b> in any direction from a point within its <b><span style='font-variant: small-caps;'>Range</span></b>. It calculates cover and line of sight from the chosen point.</p><p>Targets who take <b>Burn</b> from this weapon must pass an <b><span style='font-variant: small-caps;'>Agility</span></b> save or be <b><span style='font-variant: small-caps;'>Slowed</span></b> until they clear <b>Burn</b>.</p>"
   },
   {
     "id": "ppg_npcf_heat_haze_napalm",
@@ -1506,7 +1493,20 @@
     "locked": false,
     "type": "Trait",
     "tags": [],
-    "effect": "<p>While in the <b><span style='font-variant: small-caps;'>Danger Zone</span></b>, the Napalm benefits from <b>soft cover</b>.</p>"
+    "effect": "<p>The Napalm has <b>soft cover</b> against characters in the <b><span style='font-variant: small-caps;'>Danger Zone</span></b>.</p>"
+  },
+  {
+    "id": "ppg_npcf_insulated_napalm",
+    "name": "Insulated",
+    "origin": {
+      "type": "Class",
+      "name": "Napalm",
+      "base": true
+    },
+    "locked": false,
+    "type": "Trait",
+    "tags": [],
+    "effect": "<p>The Napalm has <b><span style='font-variant: small-caps;'>Immunity</span></b> to <b>Burn</b>.</p>"
   },
   {
     "id": "ppg_npcf_smolder_charges_napalm",
@@ -1540,7 +1540,7 @@
     "locked": false,
     "type": "Trait",
     "tags": [],
-    "effect": "<p>Characters affected by <b><span style='font-variant: small-caps;'>Adhesive Gel</span></b> are also <b><span style='font-variant: small-caps;'>Shredded</span></b> until they clear all <b>Burn</b>.</p>"
+    "effect": "<p>Characters <b><span style='font-variant: small-caps;'>Slowed</span></b> by <b><span style='font-variant: small-caps;'>Salamander Thermobaric Catapult</span></b> are also <b><span style='font-variant: small-caps;'>Shredded</span></b> until they clear <b>Burn</b>.</p>"
   },
   {
     "id": "ppg_npcf_firefly_drone_napalm",
@@ -1591,7 +1591,7 @@
         "id": "tg_full_action"
       }
     ],
-    "effect": "<p>Two <b>Blast 1</b> areas in <b>Range 10</b> are set <b>on fire</b> and become <b>difficult terrain</b> until extinguished or until the end of the scene. Characters that start their turn within either area or move into one for the first time in a round must pass an <b><span style='font-variant: small-caps;'>Engineering</span></b> save or take <b>2 Heat</b> and {2/4/6} <b>Burn</b>.</p>"
+    "effect": "<p>Two <b>Blast 1</b> areas in <b>Range 10</b> are set <b>on fire</b> and become <b>difficult terrain</b> until extinguished or until the end of the scene. Characters that end their turn within either area or move into one for the first time in a round take <b>2 Heat</b> and {2/3/4} <b>Burn</b>.</p>"
   },
   {
     "id": "ppg_npcf_long_burn_catalyst_napalm",
@@ -1604,7 +1604,7 @@
     "locked": false,
     "type": "Trait",
     "tags": [],
-    "effect": "<p>While the Napalm is in the <b><span style='font-variant: small-caps;'>Danger Zone</span></b>, characters hit by the <b><span style='font-variant: small-caps;'>Salamander Thermobaric Catapult</span></b> gain <b>+1 Difficulty</b> on <b><span style='font-variant: small-caps;'>Engineering</span></b> checks and saves and cannot clear <b><span style='font-variant: small-caps;'>Heat</span></b> except by overheating. These effects last until the end of the target’s next turn.</p>"
+    "effect": "<p>Characters hit by the <b><span style='font-variant: small-caps;'>Salamander Thermobaric Catapult</span></b> gain <b>+1 Difficulty</b> on <b><span style='font-variant: small-caps;'>Engineering</span></b> checks and saves and cannot clear <b><span style='font-variant: small-caps;'>Heat</span></b> except by overheating. These effects last until the end of the target’s next turn.</p>"
   },
   {
     "id": "ppg_npcf_flock_drones_occultist",
@@ -3690,7 +3690,7 @@
     "locked": false,
     "type": "Trait",
     "tags": [],
-    "effect": "<p>When attacking with the <b><span style='font-variant: small-caps;'>Salamander Thermobaric Catapult</span></b>, the Napalm may instead draw two <b>Line 5</b> areas anywhere in its <b><span style='font-variant: small-caps;'>Range</span></b>. The attack targets all characters in the areas and up to <b>10 spaces</b> above them. Targets within both areas are only attacked once.</p>"
+    "effect": "<p>When attacking with the <b><span style='font-variant: small-caps;'>Salamander Thermobaric Catapult</span></b> while in the <b><span style='font-variant: small-caps;'>Danger Zone</span></b>, the Napalm may instead draw two <b>Line 5</b> areas anywhere in <b><span style='font-variant: small-caps;'>Range</span></b>. The attack targets characters in the areas and up to <b>10 spaces</b> above them. Targets within both areas are only attacked once.</p>"
   },
   {
     "id": "ppg_npcf_greater_good_occultist",

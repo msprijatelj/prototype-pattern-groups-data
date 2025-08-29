@@ -804,8 +804,8 @@
     },
     "base_features": [
       "ppg_npcf_salamander_thermobaric_catapult_napalm",
-      "ppg_npcf_adhesive_gel_napalm",
-      "ppg_npcf_heat_haze_napalm"
+      "ppg_npcf_heat_haze_napalm",
+      "ppg_npcf_insulated_napalm"
     ],
     "optional_features": [
       "ppg_npcf_smolder_charges_napalm",
