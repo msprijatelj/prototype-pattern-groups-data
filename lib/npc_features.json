@@ -3751,7 +3751,7 @@
         "val": 3
       }
     ],
-    "effect": "<p>The Torrent occupies two independent spaces of its <b><span style='font-variant: small-caps;'>Size</span></b>, dividing its actions and movement between the two as it desires. Either set of spaces is valid for targeting the Torrent, though the Torrent is still only a single character and may only be affected once by a single area of effect. <b>Involuntary movement</b> against one set of spaces only affects the targeted spaces, but other effects are otherwise shared between the two.</p>"
+    "effect": "<p>The Torrent occupies two independent spaces of its <b><span style='font-variant: small-caps;'>Size</span></b>, dividing its actions and movement between the two as it desires. Either set of spaces is valid for targeting the Torrent, though the Torrent is still only a single character and may only be affected once by a single area of effect. <b>Involuntary movement</b> against one set of spaces only affects the targeted spaces, but other effects are otherwise shared between the two. The Torrent is unaffected by its own weapons and effects.</p>"
   },
   {
     "id": "ppg_npcf_rapid_refabrication_vulture",
