@@ -413,7 +413,7 @@
         "id": "tg_quick_action"
       }
     ],
-    "effect": "<p>The Ghost <b>bonds</b> with one tangible adjacent allied character, becoming <b><span style='font-variant: small-caps;'>Intangible</span></b> and sharing <b>one</b> of the target’s spaces. The bonded target may take <b>1 Heat</b> as a <b>protocol</b> to gain the Ghost’s <b><span style='font-variant: small-caps;'>Phase Shift</span></b> feature until the end of the turn. However, if either bonded character takes <b>Heat</b> or a <b>condition</b>, the other character takes the same amount of <b>Heat</b> and receives that condition for the same duration.</p><p>While <b>bonded</b>, the Ghost moves with the bonded target’s <b>voluntary movement</b>. The bond ends if the Ghost uses this system again, no longer shares a space with the bonded target, or is <b><span style='font-variant: small-caps;'>Stunned</span></b>, <b><span style='font-variant: small-caps;'>Jammed</span></b>, overheated, or destroyed.</p>"
+    "effect": "<p>The Ghost <b>bonds</b> with one tangible adjacent allied character, becoming <b><span style='font-variant: small-caps;'>Intangible</span></b> and sharing <b>one</b> of the target’s spaces. As a <b>protocol</b>, the bonded target may inflict <b>1 Heat</b> upon both themselves and the Ghost to gain the Ghost’s <b><span style='font-variant: small-caps;'>Phase Shift</span></b> feature until the end of their turn. However, if a hostile <b>tech action</b> affects either bonded character, the other character also suffers the action’s effects.</p><p>While <b>bonded</b>, the Ghost moves with the bonded target’s <b>voluntary movement</b>. The bond ends if the Ghost uses this system again, no longer shares a space with the bonded target, or is <b><span style='font-variant: small-caps;'>Stunned</span></b>, <b><span style='font-variant: small-caps;'>Jammed</span></b>, overheated, or destroyed.</p>"
   },
   {
     "id": "ppg_npcf_paradox_state_ghost",
@@ -435,7 +435,7 @@
         "id": "tg_quick_tech"
       }
     ],
-    "effect": "<p>The next time a hostile action is taken against a character <b>bonded</b> with the Ghost, roll <b>1d6</b>: On a <b>4+</b>, the target is <b><span style='font-variant: small-caps;'>Intangible</span></b> during the action. This effect does not stack with <b><span style='font-variant: small-caps;'>Invisible</span></b>.</p>"
+    "effect": "<p>The next time a hostile action is taken against a character <b>bonded</b> with the Ghost, roll <b>1d6</b>: On a <b>4+</b>, the target takes <b>1 Heat</b> and is <b><span style='font-variant: small-caps;'>Intangible</span></b> during the action. This effect does not stack with <b><span style='font-variant: small-caps;'>Invisible</span></b>.</p>"
   },
   {
     "id": "ppg_npcf_ghastly_vigor_ghost",
@@ -991,7 +991,7 @@
     "locked": false,
     "type": "Trait",
     "tags": [],
-    "effect": "<p>As part of <b><span style='font-variant: small-caps;'>Mach Parry</span></b>, after the triggering attack resolves, the Kensei may move its <b><span style='font-variant: small-caps;'>Speed</span></b> towards the attacker and <b><span style='font-variant: small-caps;'>Skirmish</span></b> against them with its <b><span style='font-variant: small-caps;'>“Minuano” Kinetic Saber</span></b>. On a hit, the attack deals no damage; instead, the Kensei <b>disarms</b> one of the target’s equipped weapons, flinging it to a space in <b>Range 5</b>. The target cannot use the weapon until they retrieve it (as if the weapon had the <b><span style='font-variant: small-caps;'>Thrown</span></b> tag).</p>"
+    "effect": "<p>As part of <b><span style='font-variant: small-caps;'>Mach Parry</span></b>, after the triggering attack resolves, the Kensei may move its <b><span style='font-variant: small-caps;'>Speed</span></b> towards the attacker and <b><span style='font-variant: small-caps;'>Skirmish</span></b> against them with its <b><span style='font-variant: small-caps;'>“Minuano” Kinetic Saber</span></b>. On a hit, the attack deals no damage; instead, the Kensei <b>disarms</b> one of the target’s equipped weapons (excluding <b>integrated</b> weapons), flinging it to a space in <b>Range 5</b>. The target cannot use the weapon until they retrieve it (as if the weapon had the <b><span style='font-variant: small-caps;'>Thrown</span></b> tag).</p>"
   },
   {
     "id": "ppg_npcf_daunting_grudge_kensei",
@@ -1304,13 +1304,13 @@
       {
         "type": "Heat",
         "damage": [
-          1,
-          1,
-          1
+          2,
+          2,
+          2
         ]
       }
     ],
-    "on_hit": "<p>If the attack was made with <b><span style='font-variant: small-caps;'>Overwatch</span></b>, the target becomes <b><span style='font-variant: small-caps;'>Jammed</span></b> until the end of their next turn.</p>"
+    "on_hit": "<p>If the attack was made with <b><span style='font-variant: small-caps;'>Overwatch</span></b>, the Mesmerist may immediately <b>recharge</b> one Mesmerist system or trait.</p>"
   },
   {
     "id": "ppg_npcf_death_by_glamour_mesmerist",
@@ -1466,9 +1466,9 @@
       {
         "type": "Heat",
         "damage": [
-          3,
-          3,
-          3
+          2,
+          2,
+          2
         ]
       },
       {
@@ -1480,20 +1480,7 @@
         ]
       }
     ],
-    "effect": "<p>This weapon attacks by drawing its <b><span style='font-variant: small-caps;'>Line</span></b> in any direction from a point within its <b><span style='font-variant: small-caps;'>Range</span></b>. It calculates cover and line of sight from the chosen point.</p>"
-  },
-  {
-    "id": "ppg_npcf_adhesive_gel_napalm",
-    "name": "Adhesive Gel",
-    "origin": {
-      "type": "Class",
-      "name": "Napalm",
-      "base": true
-    },
-    "locked": false,
-    "type": "Trait",
-    "tags": [],
-    "effect": "<p>Characters who take any <b>Burn</b> from the Napalm’s abilities must pass an <b><span style='font-variant: small-caps;'>Agility</span></b> save or be <b><span style='font-variant: small-caps;'>Slowed</span></b> until they clear all <b>Burn</b>.</p>"
+    "effect": "<p>This weapon attacks by drawing its <b><span style='font-variant: small-caps;'>Line</span></b> in any direction from a point within its <b><span style='font-variant: small-caps;'>Range</span></b>. It calculates cover and line of sight from the chosen point.</p><p>Targets who take <b>Burn</b> from this weapon must pass an <b><span style='font-variant: small-caps;'>Agility</span></b> save or be <b><span style='font-variant: small-caps;'>Slowed</span></b> until they clear <b>Burn</b>.</p>"
   },
   {
     "id": "ppg_npcf_heat_haze_napalm",
@@ -1506,7 +1493,20 @@
     "locked": false,
     "type": "Trait",
     "tags": [],
-    "effect": "<p>While in the <b><span style='font-variant: small-caps;'>Danger Zone</span></b>, the Napalm benefits from <b>soft cover</b>.</p>"
+    "effect": "<p>The Napalm has <b>soft cover</b> against characters in the <b><span style='font-variant: small-caps;'>Danger Zone</span></b>.</p>"
+  },
+  {
+    "id": "ppg_npcf_insulated_napalm",
+    "name": "Insulated",
+    "origin": {
+      "type": "Class",
+      "name": "Napalm",
+      "base": true
+    },
+    "locked": false,
+    "type": "Trait",
+    "tags": [],
+    "effect": "<p>The Napalm has <b><span style='font-variant: small-caps;'>Immunity</span></b> to <b>Burn</b>.</p>"
   },
   {
     "id": "ppg_npcf_smolder_charges_napalm",
@@ -1540,7 +1540,7 @@
     "locked": false,
     "type": "Trait",
     "tags": [],
-    "effect": "<p>Characters affected by <b><span style='font-variant: small-caps;'>Adhesive Gel</span></b> are also <b><span style='font-variant: small-caps;'>Shredded</span></b> until they clear all <b>Burn</b>.</p>"
+    "effect": "<p>Characters <b><span style='font-variant: small-caps;'>Slowed</span></b> by <b><span style='font-variant: small-caps;'>Salamander Thermobaric Catapult</span></b> are also <b><span style='font-variant: small-caps;'>Shredded</span></b> until they clear <b>Burn</b>.</p>"
   },
   {
     "id": "ppg_npcf_firefly_drone_napalm",
@@ -1564,7 +1564,7 @@
         "id": "tg_quick_action"
       }
     ],
-    "effect": "<p><b>Firefly Drone (Size </b>1/2<b>, HP </b>{5/8/10}<b>, Evasion </b>10<b>, E-Defense </b>10<b>, Tags: </b><i>Drone</i><b>)</b></p><p>This drone can be deployed to a space within <b><span style='font-variant: small-caps;'>Sensors</span></b> and line of sight. While deployed, hostile characters in <b>Burst 2</b> of the drone cannot draw line of sight outside of the area. If the drone is targeted by an effect that deals any <b>Burn</b>, it explodes and is destroyed; all characters in <b>Burst 2</b> must pass an <b><span style='font-variant: small-caps;'>Agility</span></b> save or take <b>3 Heat</b> and {5/7/9} <b>Burn</b>.</p>"
+    "effect": "<p><b>Firefly Drone (Size </b>1/2<b>, HP </b>{5/8/10}<b>, Evasion </b>10<b>, E-Defense </b>10<b>, Tags: </b><i>Drone</i><b>)</b></p><p>This drone can be deployed to a space within <b><span style='font-variant: small-caps;'>Sensors</span></b> and line of sight, where it constantly hovers <b>5 spaces</b> above the ground. As a <b>protocol</b> or upon deployment, the Napalm may move the drone up to <b>5 spaces</b> in straight line; the spaces below this path are set <b>on fire</b> and become <b>difficult terrain</b> until extinguished or until the start of the Napalm’s turn. Characters that end their turn within the area or move into one for the first time in a round take <b>2 Heat</b> and {2/3/4} <b>Burn</b>. Only one drone may be deployed at a time; deploying a new drone destroys the old one.</p>"
   },
   {
     "id": "ppg_npcf_incendiary_grenade_napalm",
@@ -1591,7 +1591,7 @@
         "id": "tg_full_action"
       }
     ],
-    "effect": "<p>Two <b>Blast 1</b> areas in <b>Range 10</b> are set <b>on fire</b> and become <b>difficult terrain</b> until extinguished or until the end of the scene. Characters that start their turn within either area or move into one for the first time in a round must pass an <b><span style='font-variant: small-caps;'>Engineering</span></b> save or take <b>2 Heat</b> and {2/4/6} <b>Burn</b>.</p>"
+    "effect": "<p>Two <b>Blast 1</b> areas in <b>Range 10</b> are set <b>on fire</b> and become <b>difficult terrain</b> until extinguished or until the end of the scene. Characters that end their turn within either area or move into one for the first time in a round take <b>2 Heat</b> and {2/3/4} <b>Burn</b>.</p>"
   },
   {
     "id": "ppg_npcf_long_burn_catalyst_napalm",
@@ -1604,7 +1604,7 @@
     "locked": false,
     "type": "Trait",
     "tags": [],
-    "effect": "<p>While the Napalm is in the <b><span style='font-variant: small-caps;'>Danger Zone</span></b>, characters hit by the <b><span style='font-variant: small-caps;'>Salamander Thermobaric Catapult</span></b> gain <b>+1 Difficulty</b> on <b><span style='font-variant: small-caps;'>Engineering</span></b> checks and saves and cannot clear <b><span style='font-variant: small-caps;'>Heat</span></b> except by overheating. These effects last until the end of the target’s next turn.</p>"
+    "effect": "<p>Characters hit by the <b><span style='font-variant: small-caps;'>Salamander Thermobaric Catapult</span></b> gain <b>+1 Difficulty</b> on <b><span style='font-variant: small-caps;'>Engineering</span></b> checks and saves and cannot clear <b><span style='font-variant: small-caps;'>Heat</span></b> except by overheating. These effects last until the end of the target’s next turn.</p>"
   },
   {
     "id": "ppg_npcf_flock_drones_occultist",
@@ -1704,7 +1704,7 @@
     "locked": false,
     "type": "Trait",
     "tags": [],
-    "effect": "<p>While within the area created by a <b><span style='font-variant: small-caps;'>FLOCK Drone</span></b>, allied characters gain <b><span style='font-variant: small-caps;'>Resistance</span> to all damage, Heat, and Burn</b>, and hostile characters are <b><span style='font-variant: small-caps;'>Shredded</span></b>.</p>"
+    "effect": "<p>While adjacent to a <b><span style='font-variant: small-caps;'>FLOCK Drone</span></b>, allied characters gain <b><span style='font-variant: small-caps;'>Resistance</span> to all damage, Heat, and Burn</b>, and hostile characters are <b><span style='font-variant: small-caps;'>Shredded</span></b>.</p>"
   },
   {
     "id": "ppg_npcf_lead_astray_occultist",
@@ -2418,7 +2418,7 @@
         "id": "tg_protocol"
       }
     ],
-    "effect": "<p>The Zealot emanates an area of fervent energy within its <b><span style='font-variant: small-caps;'>Sensors</span></b>, gaining <b><span style='font-variant: small-caps;'>Overshield</span></b> equal to the number of its allies in the area.</p><p>In addition, allied weapon attacks made within the area gain <b><span style='font-variant: small-caps;'>Knockback 1</span></b> and <b>AP</b> against targets within the same area. This effect lasts until the start of the Zealot’s first turn each round or until the Zealot is <b><span style='font-variant: small-caps;'>Stunned</span></b>, <b><span style='font-variant: small-caps;'>Jammed</span></b>, overheated, or destroyed.</p>"
+    "effect": "<p>The Zealot emanates an area of fervent energy within its <b><span style='font-variant: small-caps;'>Sensors</span></b> and line of sight. Allied weapon attacks made within the area gain <b><span style='font-variant: small-caps;'>Knockback 1</span></b> and <b>AP</b> against targets within the same area.</p><p>This effect lasts until the start of the Zealot’s first turn each round or until the Zealot is <b><span style='font-variant: small-caps;'>Stunned</span></b>, <b><span style='font-variant: small-caps;'>Jammed</span></b>, overheated, or destroyed.</p>"
   },
   {
     "id": "ppg_npcf_emberlight_nexus_zealot",
@@ -2478,14 +2478,10 @@
         "id": "tg_shield"
       },
       {
-        "id": "tg_recharge",
-        "val": 5
-      },
-      {
         "id": "tg_quick_tech"
       }
     ],
-    "effect": "<p>The Zealot and allies within <b><span style='font-variant: small-caps;'>Zeal</span></b>’s area may move up to their <b><span style='font-variant: small-caps;'>Speed +2</span></b>, ignoring <b>difficult terrain</b>, engagement, and reactions. Allies that end this movement in <b><span style='font-variant: small-caps;'>Zeal</span></b>’s area gain <b><span style='font-variant: small-caps;'>Overshield</span></b> {2/3/4}.</p>"
+    "effect": "<p>The Zealot and up to one ally within <b><span style='font-variant: small-caps;'>Zeal</span></b>’s area gain <b><span style='font-variant: small-caps;'>Overshield</span></b> {2/3/4} and may move up to <b>5 spaces</b> as a <b>reaction</b>, ignoring <b>difficult terrain</b>, engagement, and reactions.</p>"
   },
   {
     "id": "ppg_npcf_blazing_fervor_zealot",
@@ -2536,13 +2532,13 @@
     "tags": [
       {
         "id": "tg_recharge",
-        "val": 5
+        "val": 6
       },
       {
         "id": "tg_quick_tech"
       }
     ],
-    "effect": "<p>Until the start of the Zealot’s next turn, allies affected by <b><span style='font-variant: small-caps;'>Zeal</span></b> are treated as one <b><span style='font-variant: small-caps;'>Size</span></b> larger for <b><span style='font-variant: small-caps;'>Grapple</span></b>, <b><span style='font-variant: small-caps;'>Ram</span></b>, and engagement. They may clear <b><span style='font-variant: small-caps;'>Slowed</span></b> and stand up from <b><span style='font-variant: small-caps;'>Prone</span></b>.</p>"
+    "effect": "<p>Until the start of the Zealot’s next turn, allies affected by <b><span style='font-variant: small-caps;'>Zeal</span></b> are treated as one <b><span style='font-variant: small-caps;'>Size</span></b> larger for <b><span style='font-variant: small-caps;'>Grapple</span></b>, <b><span style='font-variant: small-caps;'>Ram</span></b>, and engagement. They may clear <b><span style='font-variant: small-caps;'>Slowed</span></b> and stand up from <b><span style='font-variant: small-caps;'>Prone</span></b>, then move up to <b>5 spaces</b> as a <b>reaction</b>. This movement ignores <b>difficult terrain</b>, engagement, and reactions.</p>"
   },
   {
     "id": "ppg_npcf_brand_the_heretic_zealot",
@@ -2645,9 +2641,9 @@
       }
     ],
     "attack_bonus": [
-      9999,
-      9999,
-      9999
+      -9999,
+      -9999,
+      -9999
     ],
     "range": [
       {
@@ -3622,7 +3618,7 @@
         "id": "tg_full_action"
       }
     ],
-    "effect": "<p>The Hatchet may make one <b><span style='font-variant: small-caps;'>Thrown</span></b> weapon attack against each hostile character in <b><span style='font-variant: small-caps;'>Range</span></b> of its <b><span style='font-variant: small-caps;'>Thrown</span></b> weapons, without needing to retrieve each weapon. Each attack creates a copy of the weapon that lands adjacent to the target’s space.</p><p>Until the end of the Hatchet’s next turn, it may take a second <b>full action</b> to <b>teleport</b> adjacent to one of its <b><span style='font-variant: small-caps;'>Thrown</span></b> weapons, then retrieve all its <b><span style='font-variant: small-caps;'>Thrown</span></b> weapons. All hostile characters adjacent to a retrieved weapon must make an <b><span style='font-variant: small-caps;'>Agility</span></b> save or be pushed <b>2 spaces</b> in any direction and take {6/8/10} Kinetic damage. On a success, the target takes half damage and isn’t pushed.</p>"
+    "effect": "<p>The Hatchet may make one <b><span style='font-variant: small-caps;'>Thrown</span></b> weapon attack against each hostile character in <b><span style='font-variant: small-caps;'>Range</span></b> of its <b><span style='font-variant: small-caps;'>Thrown</span></b> weapons, without needing to retrieve each weapon. Each attack creates a copy of the weapon that lands adjacent to the target’s space.</p><p>Until the end of the Hatchet’s next turn, it may take a second <b>full action</b> to <b>teleport</b> adjacent to one of its <b><span style='font-variant: small-caps;'>Thrown</span></b> weapons, then retrieve all its <b><span style='font-variant: small-caps;'>Thrown</span></b> weapons. All hostile characters adjacent to a retrieved weapon must pass an <b><span style='font-variant: small-caps;'>Agility</span></b> save or be pushed <b>2 spaces</b> in any direction and take {6/8/10} Kinetic damage. On a success, the target takes half damage and isn’t pushed.</p>"
   },
   {
     "id": "ppg_npcf_mortal_draw_kensei",
@@ -3690,7 +3686,7 @@
     "locked": false,
     "type": "Trait",
     "tags": [],
-    "effect": "<p>When attacking with the <b><span style='font-variant: small-caps;'>Salamander Thermobaric Catapult</span></b>, the Napalm may instead draw two <b>Line 5</b> areas anywhere in its <b><span style='font-variant: small-caps;'>Range</span></b>. The attack targets all characters in the areas and up to <b>10 spaces</b> above them. Targets within both areas are only attacked once.</p>"
+    "effect": "<p>When attacking with the <b><span style='font-variant: small-caps;'>Salamander Thermobaric Catapult</span></b> while in the <b><span style='font-variant: small-caps;'>Danger Zone</span></b>, the Napalm may instead draw two <b>Line 5</b> areas anywhere in <b><span style='font-variant: small-caps;'>Range</span></b>. The attack targets characters in the areas and up to <b>10 spaces</b> above them. Targets within both areas are only attacked once.</p>"
   },
   {
     "id": "ppg_npcf_greater_good_occultist",
@@ -3755,7 +3751,7 @@
         "val": 3
       }
     ],
-    "effect": "<p>This trait replaces <b><span style='font-variant: small-caps;'>Shock And Awe</span></b>. After the Torrent takes <b><span style='font-variant: small-caps;'>Structure</span></b> damage, it reduces any excess damage to <b>HP</b> to <b>0</b>, and it may create a copy of itself that may act this round. Each copy takes its own turn, but the original and all copies share the same pool of <b><span style='font-variant: small-caps;'>Structure</span></b>, <b><span style='font-variant: small-caps;'>Stress</span></b>, <b>HP</b>, <b><span style='font-variant: small-caps;'>Heat</span></b>, and expendable abilities (such as those with <b><span style='font-variant: small-caps;'>Recharge</span></b>, <b><span style='font-variant: small-caps;'>Limited</span></b>, <b><span style='font-variant: small-caps;'>1/round</span></b>, or <b><span style='font-variant: small-caps;'>1/scene</span></b> tags).</p>"
+    "effect": "<p>The Torrent occupies two independent spaces of its <b><span style='font-variant: small-caps;'>Size</span></b>, dividing its actions and movement between the two as it desires. Either set of spaces is valid for targeting the Torrent, though the Torrent is still only a single character and may only be affected once by a single area of effect. <b>Involuntary movement</b> against one set of spaces only affects the targeted spaces, but other effects are otherwise shared between the two. The Torrent is unaffected by its own weapons and effects.</p>"
   },
   {
     "id": "ppg_npcf_rapid_refabrication_vulture",
@@ -3895,7 +3891,7 @@
         ]
       }
     ],
-    "effect": "<p>Add this profile to the <b><span style='font-variant: small-caps;'>“Minuano” Kinetic Saber</span></b>. This profile can only be used while the weapon is <b>sheathed</b>. After throwing this weapon, <b><span style='font-variant: small-caps;'>Mass Driver Sheathe</span></b> cannot be used until it is retrieved.</p><p>This weapon becomes <b>unsheathed</b> after attacking.</p>"
+    "effect": "<p>Add this profile to the <b><span style='font-variant: small-caps;'>“Minuano” Kinetic Saber</span></b>. This profile can only be used while this weapon is <b>sheathed</b>. After throwing this weapon, <b><span style='font-variant: small-caps;'>Mass Driver Sheathe</span></b> cannot be used until it is retrieved.</p><p>This weapon becomes <b>unsheathed</b> after attacking.</p>"
   },
   {
     "id": "ppg_npcf_valor_knight",
