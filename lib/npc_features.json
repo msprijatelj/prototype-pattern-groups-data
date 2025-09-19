@@ -1466,9 +1466,9 @@
       {
         "type": "Heat",
         "damage": [
-          3,
-          3,
-          3
+          2,
+          2,
+          2
         ]
       },
       {
@@ -1564,7 +1564,7 @@
         "id": "tg_quick_action"
       }
     ],
-    "effect": "<p><b>Firefly Drone (Size </b>1/2<b>, HP </b>{5/8/10}<b>, Evasion </b>10<b>, E-Defense </b>10<b>, Tags: </b><i>Drone</i><b>)</b></p><p>This drone can be deployed to a space within <b><span style='font-variant: small-caps;'>Sensors</span></b> and line of sight, creating a <b>Burst 1</b> area. Hostile characters at least partially within the area cannot draw line of sight outside of the area. At the end of each round, the <b>Burst</b> increases by <b>1</b> (to a maximum of <b>Burst 3</b>). The drone explodes and is destroyed if it is targeted by an effect that deals any <b>Burn</b>; characters in its area must pass an <b><span style='font-variant: small-caps;'>Agility</span></b> save or take <b>3 Heat</b> and {5/7/9} <b>Burn</b>.</p>"
+    "effect": "<p><b>Firefly Drone (Size </b>1/2<b>, HP </b>{5/8/10}<b>, Evasion </b>10<b>, E-Defense </b>10<b>, Tags: </b><i>Drone</i><b>)</b></p><p>This drone can be deployed to a space within <b><span style='font-variant: small-caps;'>Sensors</span></b> and line of sight, where it constantly hovers <b>5 spaces</b> above the ground. As a <b>protocol</b> or upon deployment, the Napalm may move the drone up to <b>5 spaces</b> in straight line; the spaces below this path are set <b>on fire</b> and become <b>difficult terrain</b> until extinguished or until the start of the Napalm’s turn. Characters that end their turn within the area or move into one for the first time in a round take <b>2 Heat</b> and {2/3/4} <b>Burn</b>. Only one drone may be deployed at a time; deploying a new drone destroys the old one.</p>"
   },
   {
     "id": "ppg_npcf_incendiary_grenade_napalm",
