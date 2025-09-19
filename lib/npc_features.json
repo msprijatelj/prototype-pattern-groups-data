@@ -2532,13 +2532,13 @@
     "tags": [
       {
         "id": "tg_recharge",
-        "val": 5
+        "val": 6
       },
       {
         "id": "tg_quick_tech"
       }
     ],
-    "effect": "<p>Until the start of the Zealot’s next turn, allies affected by <b><span style='font-variant: small-caps;'>Zeal</span></b> are treated as one <b><span style='font-variant: small-caps;'>Size</span></b> larger for <b><span style='font-variant: small-caps;'>Grapple</span></b>, <b><span style='font-variant: small-caps;'>Ram</span></b>, and engagement. They may clear <b><span style='font-variant: small-caps;'>Slowed</span></b> and stand up from <b><span style='font-variant: small-caps;'>Prone</span></b>.</p>"
+    "effect": "<p>Until the start of the Zealot’s next turn, allies affected by <b><span style='font-variant: small-caps;'>Zeal</span></b> are treated as one <b><span style='font-variant: small-caps;'>Size</span></b> larger for <b><span style='font-variant: small-caps;'>Grapple</span></b>, <b><span style='font-variant: small-caps;'>Ram</span></b>, and engagement. They may clear <b><span style='font-variant: small-caps;'>Slowed</span></b> and stand up from <b><span style='font-variant: small-caps;'>Prone</span></b>, then move up to <b>5 spaces</b> as a <b>reaction</b>. This movement ignores <b>difficult terrain</b>, engagement, and reactions.</p>"
   },
   {
     "id": "ppg_npcf_brand_the_heretic_zealot",
