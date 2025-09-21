@@ -1237,7 +1237,7 @@
     "locked": false,
     "type": "Trait",
     "tags": [],
-    "effect": "<p>The Mesmerist deploys with <b>2 mirror images</b> occupying its space. In addition, when the Mesmerist hits with a <b>tech attack</b>, it creates <b>1 mirror image</b> (to a maximum of <b>5</b>). The Mesmerist is <b><span style='font-variant: small-caps;'>Invisible</span></b> while it has any <b>mirror images</b>, but each attack that misses the Mesmerist destroys <b>1 mirror image</b>.</p>"
+    "effect": "<p>The Mesmerist deploys with <b>1 mirror image</b> occupying its space. In addition, when the Mesmerist hits with a <b>tech attack</b>, it creates <b>1 mirror image</b> (to a maximum of <b>5</b>). The Mesmerist is <b><span style='font-variant: small-caps;'>Invisible</span></b> while it has any <b>mirror images</b>, but each attack that misses the Mesmerist destroys <b>1 mirror image</b>.</p>"
   },
   {
     "id": "ppg_npcf_memetic_magnetism_mesmerist",
@@ -1354,14 +1354,14 @@
     },
     "locked": false,
     "type": "Tech",
-    "tech_type": "Full",
+    "tech_type": "Quick",
     "tags": [
       {
         "id": "tg_recharge",
         "val": 5
       },
       {
-        "id": "tg_full_tech"
+        "id": "tg_quick_tech"
       }
     ],
     "attack_bonus": [
@@ -1369,7 +1369,7 @@
       2,
       3
     ],
-    "effect": "<p>The Mesmerist makes a <b>tech attack</b> against a character within <b><span style='font-variant: small-caps;'>Sensors</span></b>. On a hit, the target may only draw line of sight to the Mesmerist’s spaces until they end their turn adjacent to the Mesmerist. On a miss, the effect instead lasts until the end of the target’s next turn.</p>"
+    "effect": "<p>The Mesmerist makes a <b>tech attack</b> against a character within <b><span style='font-variant: small-caps;'>Sensors</span></b>. On a hit, the target may only draw line of sight to the Mesmerist’s spaces until the end of the target’s next turn.</p>"
   },
   {
     "id": "ppg_npcf_metafold_riposte_mesmerist",
