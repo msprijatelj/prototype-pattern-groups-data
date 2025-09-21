@@ -2482,7 +2482,7 @@
         "id": "tg_quick_tech"
       }
     ],
-    "effect": "<p>The Zealot and up to one ally within <b><span style='font-variant: small-caps;'>Zeal</span></b>’s area gain <b><span style='font-variant: small-caps;'>Overshield</span></b> {2/3/4} and may move up to <b>5 spaces</b> as a <b>reaction</b>, ignoring <b>difficult terrain</b>, engagement, and reactions.</p>"
+    "effect": "<p>The Zealot and up to one ally within <b><span style='font-variant: small-caps;'>Zeal</span></b>’s area gain <b><span style='font-variant: small-caps;'>Overshield</span></b> {1/2/3} and may move up to <b>5 spaces</b> as a <b>reaction</b>, ignoring <b>difficult terrain</b>, engagement, and reactions.</p>"
   },
   {
     "id": "ppg_npcf_blazing_fervor_zealot",
@@ -2569,7 +2569,7 @@
       2,
       3
     ],
-    "effect": "<p>The Zealot makes a <b>tech attack</b> against a character within <b><span style='font-variant: small-caps;'>Sensors</span></b>. On a hit, the target gains <b><span style='font-variant: small-caps;'>Lock On</span></b>. When an ally consumes this <b><span style='font-variant: small-caps;'>Lock On</span></b>, they gain <b><span style='font-variant: small-caps;'>Overshield</span></b> {4/6/8}, and any damage they deal to the target for the rest of the turn cannot be reduced in any way.</p>"
+    "effect": "<p>The Zealot makes a <b>tech attack</b> against a character within <b><span style='font-variant: small-caps;'>Sensors</span></b>. On a hit, the target gains <b><span style='font-variant: small-caps;'>Lock On</span></b>. When an ally consumes this <b><span style='font-variant: small-caps;'>Lock On</span></b>, they gain <b><span style='font-variant: small-caps;'>Overshield</span></b> {3/5/7}, and any damage they deal to the target for the rest of the turn cannot be reduced in any way.</p>"
   },
   {
     "id": "ppg_npcf_martyrdom_zealot",
@@ -2586,7 +2586,7 @@
         "id": "tg_overshield"
       }
     ],
-    "effect": "<p>When the Zealot would take <b>structure damage</b> or be destroyed, it first grants <b><span style='font-variant: small-caps;'>Overshield</span></b> {2/3/4} to each ally affected by <b><span style='font-variant: small-caps;'>Zeal</span></b> and inflicts {2/3/4} <b>Burn</b> on each hostile character within the area of <b><span style='font-variant: small-caps;'>Zeal</span></b>.</p>"
+    "effect": "<p>When the Zealot would take <b>structure damage</b> or be destroyed, it first grants <b><span style='font-variant: small-caps;'>Overshield</span></b> {1/2/3} to each ally affected by <b><span style='font-variant: small-caps;'>Zeal</span></b> and inflicts {1/2/3} <b>Burn</b> on each hostile character within the area of <b><span style='font-variant: small-caps;'>Zeal</span></b>.</p>"
   },
   {
     "id": "ppg_npcf_err_data_not_found_anomaly",
