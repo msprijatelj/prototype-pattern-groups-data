@@ -826,7 +826,8 @@
     "weapon_type": "Heavy Melee",
     "tags": [
       {
-        "id": "tg_accurate"
+        "id": "tg_reliable",
+        "val": "{4/5/6}"
       },
       {
         "id": "tg_ap"
@@ -852,13 +853,13 @@
       {
         "type": "Kinetic",
         "damage": [
+          8,
           10,
-          14,
-          18
+          12
         ]
       }
     ],
-    "effect": "<p>During the Kensei’s turn, it may attack using the <b><span style='font-variant: small-caps;'>Charged</span></b> profile if this weapon has been <b>sheathed</b> since the start of the Kensei’s turn.</p><p>This weapon becomes <b>unsheathed</b> after attacking.</p>"
+    "effect": "<p>During the Kensei’s turn, it may attack using the <b><span style='font-variant: small-caps;'>Charged</span></b> profile if this weapon has been <b>sheathed</b> since the start of the Kensei’s turn. If it does, targets hit are <b><span style='font-variant: small-caps;'>Shredded</span></b> until the end of the scene.</p><p>This weapon becomes <b>unsheathed</b> after attacking.</p>"
   },
   {
     "id": "ppg_npcf_mass_driver_sheath_kensei",
@@ -879,7 +880,7 @@
         "id": "tg_quick_action"
       }
     ],
-    "effect": "<p>The Kensei <b>sheathes</b> its <b><span style='font-variant: small-caps;'>“Minuano” Kinetic Saber</span></b>, assuming a defensive stance. While its weapon remains <b>sheathed</b>, the Kensei is <b><span style='font-variant: small-caps;'>Slowed</span></b>, its voluntary movement counts as moving in <b>difficult terrain</b>, and it reduces push, pull, or knockback from hostile sources by <b>half</b>. The Kensei may <b>unsheathe</b> its weapon as a <b>protocol</b>.</p>"
+    "effect": "<p>The Kensei <b>sheathes</b> its <b><span style='font-variant: small-caps;'>“Minuano” Kinetic Saber</span></b>, assuming a defensive stance. While its weapon remains <b>sheathed</b>, the Kensei is <b><span style='font-variant: small-caps;'>Slowed</span></b>, its voluntary movement counts as moving in <b>difficult terrain</b>, and it reduces push, pull, or knockback from hostile sources by <b>half</b>. The Kensei may <b>unsheathe</b> its weapon as a <b>quick action</b>.</p>"
   },
   {
     "id": "ppg_npcf_mach_parry_kensei",
@@ -3636,7 +3637,7 @@
         "val": 6
       }
     ],
-    "effect": "<p>If the Kensei takes the final NPC turn of the round, for that turn the <b><span style='font-variant: small-caps;'>Charged</span></b> profile of its <b><span style='font-variant: small-caps;'>“Minuano” Kinetic Saber</span></b> may attack characters in <b>Burst 2</b>. All characters hit by the attack are <b><span style='font-variant: small-caps;'>Shredded</span></b> until the end of the scene.</p>"
+    "effect": "<p>If the Kensei takes the final NPC turn of the round, for that turn the <b><span style='font-variant: small-caps;'>Charged</span></b> profile of its <b><span style='font-variant: small-caps;'>“Minuano” Kinetic Saber</span></b> may attack characters in <b>Burst 2</b>.</p>"
   },
   {
     "id": "ppg_npcf_evergaol_knight",
