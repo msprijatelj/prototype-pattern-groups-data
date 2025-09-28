@@ -1216,8 +1216,13 @@
     },
     "locked": false,
     "type": "Trait",
-    "tags": [],
-    "effect": "<p>The Mesmerist deploys with <b>1 mirror image</b> occupying its space. In addition, when the Mesmerist hits with a <b>tech attack</b>, it creates <b>1 mirror image</b> (to a maximum of <b>5</b>). The Mesmerist is <b><span style='font-variant: small-caps;'>Invisible</span></b> while it has any <b>mirror images</b>, but each attack that misses the Mesmerist destroys <b>1 mirror image</b>.</p>"
+    "tags": [
+      {
+        "id": "tg_round",
+        "val": 1
+      }
+    ],
+    "effect": "<p>The Mesmerist deploys with <b>1 mirror image</b> occupying its space. In addition, <b>1/round</b> when the Mesmerist hits with a <b>tech attack</b>, it creates <b>1 mirror image</b> (to a maximum of <b>3</b>). The Mesmerist is <b><span style='font-variant: small-caps;'>Invisible</span></b> while it has any <b>mirror images</b>, but each attack that misses the Mesmerist destroys <b>1 mirror image</b>.</p>"
   },
   {
     "id": "ppg_npcf_memetic_magnetism_mesmerist",
