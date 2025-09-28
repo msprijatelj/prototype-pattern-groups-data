@@ -230,8 +230,8 @@
     "effect": "<p>Allied characters in the affected area are not attacked, but instead gain <b><span style='font-variant: small-caps;'>Overshield</span></b> {2/3/4}.</p>"
   },
   {
-    "id": "ppg_npcf_arc_feedback_capacitor",
-    "name": "Arc Feedback",
+    "id": "ppg_npcf_power_surge_capacitor",
+    "name": "Power Surge",
     "origin": {
       "type": "Class",
       "name": "Capacitor",
@@ -242,20 +242,10 @@
     "tech_type": "Quick",
     "tags": [
       {
-        "id": "tg_overshield"
-      },
-      {
-        "id": "tg_shield"
-      },
-      {
-        "id": "tg_recharge",
-        "val": 4
-      },
-      {
         "id": "tg_quick_tech"
       }
     ],
-    "effect": "<p>An allied character within <b><span style='font-variant: small-caps;'>Sensors</span></b> gains <b><span style='font-variant: small-caps;'>Overshield</span></b> {4/6/8}. A hostile character that causes the target to lose this <b><span style='font-variant: small-caps;'>Overshield</span></b> must pass an <b><span style='font-variant: small-caps;'>Engineering</span></b> save or become <b><span style='font-variant: small-caps;'>Shredded</span></b> until the end of their next turn and take {2/4/6} <b>Energy damage</b>.</p>"
+    "effect": "<p>An allied character with <b><span style='font-variant: small-caps;'>Overshield</span></b> within <b><span style='font-variant: small-caps;'>Sensors</span></b> becomes supercharged. Their weapon attacks gain <b>AP</b> until they lose all <b><span style='font-variant: small-caps;'>Overshield</span></b> or until the Capacitor uses this action again.</p>"
   },
   {
     "id": "ppg_npcf_reciprocity_capacitor",
@@ -273,47 +263,6 @@
       }
     ],
     "effect": "<p>The Capacitor deploys with <b><span style='font-variant: small-caps;'>Overshield</span></b> {2/3/4}. Whenever it grants <b><span style='font-variant: small-caps;'>Overshield</span></b> to another character, it gains the same amount of <b><span style='font-variant: small-caps;'>Overshield</span></b>.</p>"
-  },
-  {
-    "id": "ppg_npcf_quickening_bolt_capacitor",
-    "name": "Quickening Bolt",
-    "origin": {
-      "type": "Class",
-      "name": "Capacitor",
-      "base": false
-    },
-    "locked": false,
-    "type": "Tech",
-    "tech_type": "Quick",
-    "tags": [
-      {
-        "id": "tg_overshield"
-      },
-      {
-        "id": "tg_shield"
-      },
-      {
-        "id": "tg_recharge",
-        "val": 5
-      },
-      {
-        "id": "tg_quick_tech"
-      }
-    ],
-    "effect": "<p>Choose one character within <b><span style='font-variant: small-caps;'>Sensors</span></b>. The target gains <b><span style='font-variant: small-caps;'>Overshield</span></b> {4/6/8}. Until the target loses all <b><span style='font-variant: small-caps;'>Overshield</span></b>, they may <b><span style='font-variant: small-caps;'>Boost</span></b> <b>1/round</b> as a <b>free action</b>.</p>"
-  },
-  {
-    "id": "ppg_npcf_purifying_lightning_capacitor",
-    "name": "Purifying Lightning",
-    "origin": {
-      "type": "Class",
-      "name": "Capacitor",
-      "base": false
-    },
-    "locked": false,
-    "type": "Trait",
-    "tags": [],
-    "effect": "<p>Allies affected by the <b><span style='font-variant: small-caps;'>Marathon Arquebus</span></b> may clear up to <b>one condition</b>.</p>"
   },
   {
     "id": "ppg_npcf_deflecting_shot_capacitor",
@@ -336,6 +285,41 @@
     ],
     "trigger": "<p>An allied character that can be targeted by the <b><span style='font-variant: small-caps;'>Marathon Arquebus</span></b> is hit by an attack.</p>",
     "effect": "<p>The Capacitor first <b><span style='font-variant: small-caps;'>Skirmishes</span></b> with the <b><span style='font-variant: small-caps;'>Marathon Arquebus</span></b>, dealing <b>half damage, Heat, or Burn</b> to all targets. The triggering allied character must be included in the attack’s area.</p>"
+  },
+  {
+    "id": "ppg_npcf_quickening_bolt_capacitor",
+    "name": "Quickening Bolt",
+    "origin": {
+      "type": "Class",
+      "name": "Capacitor",
+      "base": false
+    },
+    "locked": false,
+    "type": "Tech",
+    "tech_type": "Quick",
+    "tags": [
+      {
+        "id": "tg_recharge",
+        "val": 5
+      },
+      {
+        "id": "tg_quick_tech"
+      }
+    ],
+    "effect": "<p>An ally with <b><span style='font-variant: small-caps;'>Overshield</span></b> within <b><span style='font-variant: small-caps;'>Sensors</span></b> becomes quickened. The target may <b><span style='font-variant: small-caps;'>Boost</span></b> <b>1/round</b> as a <b>free action</b> until they lose all <b><span style='font-variant: small-caps;'>Overshield</span></b> or until the Capacitor uses this action again.</p>"
+  },
+  {
+    "id": "ppg_npcf_purifying_lightning_capacitor",
+    "name": "Purifying Lightning",
+    "origin": {
+      "type": "Class",
+      "name": "Capacitor",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "tags": [],
+    "effect": "<p>Allies affected by the <b><span style='font-variant: small-caps;'>Marathon Arquebus</span></b> may clear up to <b>one condition</b>.</p>"
   },
   {
     "id": "ppg_npcf_cyclic_discharge_capacitor",
@@ -376,14 +360,10 @@
         "id": "tg_overshield"
       },
       {
-        "id": "tg_limited",
-        "val": 2
-      },
-      {
         "id": "tg_quick_action"
       }
     ],
-    "effect": "<p><b>Amplifier Drone (Size </b>1/2<b>, HP </b>{5/8/10}<b>, Evasion </b>10<b>, E-Defense </b>10<b>, Tags: </b><i>Drone, Overshield</i><b>)</b></p><p>This drone can be deployed to a space within <b><span style='font-variant: small-caps;'>Sensors</span></b> and line of sight. While deployed, it projects a <b>Burst 2</b> electrified area. Allied characters in the area that gain any <b><span style='font-variant: small-caps;'>Overshield</span></b> increase the amount gained by <b>+2</b>. Hostile characters that enter the area or end their turn there receive <b><span style='font-variant: small-caps;'>Lock On</span></b> and cease to be <b><span style='font-variant: small-caps;'>Invisible</span></b> or <b><span style='font-variant: small-caps;'>Hidden</span></b>.</p>"
+    "effect": "<p><b>Amplifier Drone (Size </b>1/2<b>, HP </b>{5/8/10}<b>, Evasion </b>10<b>, E-Defense </b>10<b>, Tags: </b><i>Drone, Overshield</i><b>)</b></p><p>This drone can be deployed to a space within <b><span style='font-variant: small-caps;'>Sensors</span></b> and line of sight. While deployed, it projects a <b>Burst 2</b> electrified area. The Capacitor’s allies in the area that gain any <b><span style='font-variant: small-caps;'>Overshield</span></b> increase the amount gained by <b>+1</b>. Hostile characters that enter the area or end their turn there receive <b><span style='font-variant: small-caps;'>Lock On</span></b> and cease to be <b><span style='font-variant: small-caps;'>Invisible</span></b> or <b><span style='font-variant: small-caps;'>Hidden</span></b>. Only one drone may be deployed at a time; deploying a new drone destroys the old one.</p>"
   },
   {
     "id": "ppg_npcf_phase_shift_ghost",
@@ -826,7 +806,8 @@
     "weapon_type": "Heavy Melee",
     "tags": [
       {
-        "id": "tg_accurate"
+        "id": "tg_reliable",
+        "val": "{4/5/6}"
       },
       {
         "id": "tg_ap"
@@ -852,13 +833,13 @@
       {
         "type": "Kinetic",
         "damage": [
+          8,
           10,
-          14,
-          18
+          12
         ]
       }
     ],
-    "effect": "<p>During the Kensei’s turn, it may attack using the <b><span style='font-variant: small-caps;'>Charged</span></b> profile if this weapon has been <b>sheathed</b> since the start of the Kensei’s turn.</p><p>This weapon becomes <b>unsheathed</b> after attacking.</p>"
+    "effect": "<p>During the Kensei’s turn, it may attack using the <b><span style='font-variant: small-caps;'>Charged</span></b> profile if this weapon has been <b>sheathed</b> since the start of the Kensei’s turn. If it does, targets hit are <b><span style='font-variant: small-caps;'>Shredded</span></b> until the end of the scene.</p><p>This weapon becomes <b>unsheathed</b> after attacking.</p>"
   },
   {
     "id": "ppg_npcf_mass_driver_sheath_kensei",
@@ -879,7 +860,7 @@
         "id": "tg_quick_action"
       }
     ],
-    "effect": "<p>The Kensei <b>sheathes</b> its <b><span style='font-variant: small-caps;'>“Minuano” Kinetic Saber</span></b>, assuming a defensive stance. While its weapon remains <b>sheathed</b>, the Kensei is <b><span style='font-variant: small-caps;'>Slowed</span></b>, its voluntary movement counts as moving in <b>difficult terrain</b>, and it reduces push, pull, or knockback from hostile sources by <b>half</b>. The Kensei may <b>unsheathe</b> its weapon as a <b>protocol</b>.</p>"
+    "effect": "<p>The Kensei <b>sheathes</b> its <b><span style='font-variant: small-caps;'>“Minuano” Kinetic Saber</span></b>, assuming a defensive stance. While its weapon remains <b>sheathed</b>, the Kensei is <b><span style='font-variant: small-caps;'>Slowed</span></b>, its voluntary movement counts as moving in <b>difficult terrain</b>, and it reduces push, pull, or knockback from hostile sources by <b>half</b>. The Kensei may <b>unsheathe</b> its weapon as a <b>quick action</b>.</p>"
   },
   {
     "id": "ppg_npcf_mach_parry_kensei",
@@ -1235,8 +1216,13 @@
     },
     "locked": false,
     "type": "Trait",
-    "tags": [],
-    "effect": "<p>The Mesmerist deploys with <b>2 mirror images</b> occupying its space. In addition, when the Mesmerist hits with a <b>tech attack</b>, it creates <b>1 mirror image</b> (to a maximum of <b>5</b>). The Mesmerist is <b><span style='font-variant: small-caps;'>Invisible</span></b> while it has any <b>mirror images</b>, but each attack that misses the Mesmerist destroys <b>1 mirror image</b>.</p>"
+    "tags": [
+      {
+        "id": "tg_round",
+        "val": 1
+      }
+    ],
+    "effect": "<p>The Mesmerist deploys with <b>1 mirror image</b> occupying its space. In addition, <b>1/round</b> when the Mesmerist hits with a <b>tech attack</b>, it creates <b>1 mirror image</b> (to a maximum of <b>3</b>). The Mesmerist is <b><span style='font-variant: small-caps;'>Invisible</span></b> while it has any <b>mirror images</b>, but each attack that misses the Mesmerist destroys <b>1 mirror image</b>.</p>"
   },
   {
     "id": "ppg_npcf_memetic_magnetism_mesmerist",
@@ -1353,14 +1339,14 @@
     },
     "locked": false,
     "type": "Tech",
-    "tech_type": "Full",
+    "tech_type": "Quick",
     "tags": [
       {
         "id": "tg_recharge",
         "val": 5
       },
       {
-        "id": "tg_full_tech"
+        "id": "tg_quick_tech"
       }
     ],
     "attack_bonus": [
@@ -1368,7 +1354,7 @@
       2,
       3
     ],
-    "effect": "<p>The Mesmerist makes a <b>tech attack</b> against a character within <b><span style='font-variant: small-caps;'>Sensors</span></b>. On a hit, the target may only draw line of sight to the Mesmerist’s spaces until they end their turn adjacent to the Mesmerist. On a miss, the effect instead lasts until the end of the target’s next turn.</p>"
+    "effect": "<p>The Mesmerist makes a <b>tech attack</b> against a character within <b><span style='font-variant: small-caps;'>Sensors</span></b>. On a hit, the target may only draw line of sight to the Mesmerist’s spaces until the end of the target’s next turn.</p>"
   },
   {
     "id": "ppg_npcf_metafold_riposte_mesmerist",
@@ -1812,7 +1798,7 @@
         "id": "tg_quick_tech"
       }
     ],
-    "effect": "<p>Place an untargetable holographic <b>projector</b> in a free space within <b><span style='font-variant: small-caps;'>Sensors</span></b>. The Prism is treated as occupying a projector’s space for all purposes. The Prism gains <b><span style='font-variant: small-caps;'>Resistance</span> to all damage, Heat, and Burn</b> inflicted through a projector.</p><p>If the Prism would have more than <b>1 projector</b>, it must destroy any beyond that limit. Projectors last until the end of the scene, or until the Prism is <b><span style='font-variant: small-caps;'>Stunned</span></b>, <b><span style='font-variant: small-caps;'>Jammed</span></b>, overheated, or destroyed.</p>"
+    "effect": "<p>Place an untargetable holographic <b>projector</b> in a free space within <b><span style='font-variant: small-caps;'>Sensors</span></b>. The Prism is treated as occupying a projector’s space for all purposes. The Prism gains <b><span style='font-variant: small-caps;'>Resistance</span> to all damage, Heat, and Burn</b> inflicted through a projector.</p><p>Only <b>1 projector</b> may exist at a time; placing a new projector first destroys an old one. Projectors last until the end of the scene, or until the Prism is <b><span style='font-variant: small-caps;'>Stunned</span></b>, <b><span style='font-variant: small-caps;'>Jammed</span></b>, overheated, or destroyed.</p>"
   },
   {
     "id": "ppg_npcf_diffraction_beam_prism",
@@ -2481,7 +2467,7 @@
         "id": "tg_quick_tech"
       }
     ],
-    "effect": "<p>The Zealot and up to one ally within <b><span style='font-variant: small-caps;'>Zeal</span></b>’s area gain <b><span style='font-variant: small-caps;'>Overshield</span></b> {2/3/4} and may move up to <b>5 spaces</b> as a <b>reaction</b>, ignoring <b>difficult terrain</b>, engagement, and reactions.</p>"
+    "effect": "<p>The Zealot and up to one ally within <b><span style='font-variant: small-caps;'>Zeal</span></b>’s area gain <b><span style='font-variant: small-caps;'>Overshield</span></b> {1/2/3} and may move up to <b>5 spaces</b> as a <b>reaction</b>, ignoring <b>difficult terrain</b>, engagement, and reactions.</p>"
   },
   {
     "id": "ppg_npcf_blazing_fervor_zealot",
@@ -2568,7 +2554,7 @@
       2,
       3
     ],
-    "effect": "<p>The Zealot makes a <b>tech attack</b> against a character within <b><span style='font-variant: small-caps;'>Sensors</span></b>. On a hit, the target gains <b><span style='font-variant: small-caps;'>Lock On</span></b>. When an ally consumes this <b><span style='font-variant: small-caps;'>Lock On</span></b>, they gain <b><span style='font-variant: small-caps;'>Overshield</span></b> {4/6/8}, and any damage they deal to the target for the rest of the turn cannot be reduced in any way.</p>"
+    "effect": "<p>The Zealot makes a <b>tech attack</b> against a character within <b><span style='font-variant: small-caps;'>Sensors</span></b>. On a hit, the target gains <b><span style='font-variant: small-caps;'>Lock On</span></b>. When an ally consumes this <b><span style='font-variant: small-caps;'>Lock On</span></b>, they gain <b><span style='font-variant: small-caps;'>Overshield</span></b> {3/5/7}, and any damage they deal to the target for the rest of the turn cannot be reduced in any way.</p>"
   },
   {
     "id": "ppg_npcf_martyrdom_zealot",
@@ -2585,7 +2571,7 @@
         "id": "tg_overshield"
       }
     ],
-    "effect": "<p>When the Zealot would take <b>structure damage</b> or be destroyed, it first grants <b><span style='font-variant: small-caps;'>Overshield</span></b> {2/3/4} to each ally affected by <b><span style='font-variant: small-caps;'>Zeal</span></b> and inflicts {2/3/4} <b>Burn</b> on each hostile character within the area of <b><span style='font-variant: small-caps;'>Zeal</span></b>.</p>"
+    "effect": "<p>When the Zealot would take <b>structure damage</b> or be destroyed, it first grants <b><span style='font-variant: small-caps;'>Overshield</span></b> {1/2/3} to each ally affected by <b><span style='font-variant: small-caps;'>Zeal</span></b> and inflicts {1/2/3} <b>Burn</b> on each hostile character within the area of <b><span style='font-variant: small-caps;'>Zeal</span></b>.</p>"
   },
   {
     "id": "ppg_npcf_err_data_not_found_anomaly",
@@ -3636,7 +3622,7 @@
         "val": 6
       }
     ],
-    "effect": "<p>If the Kensei takes the final NPC turn of the round, for that turn the <b><span style='font-variant: small-caps;'>Charged</span></b> profile of its <b><span style='font-variant: small-caps;'>“Minuano” Kinetic Saber</span></b> may attack characters in <b>Burst 2</b>. All characters hit by the attack are <b><span style='font-variant: small-caps;'>Shredded</span></b> until the end of the scene.</p>"
+    "effect": "<p>If the Kensei takes the final NPC turn of the round, for that turn the <b><span style='font-variant: small-caps;'>Charged</span></b> profile of its <b><span style='font-variant: small-caps;'>“Minuano” Kinetic Saber</span></b> may attack characters in <b>Burst 2</b>.</p>"
   },
   {
     "id": "ppg_npcf_evergaol_knight",
@@ -3802,12 +3788,8 @@
     },
     "locked": false,
     "type": "Trait",
-    "tags": [
-      {
-        "id": "tg_overshield"
-      }
-    ],
-    "effect": "<p>The Capacitor may use <b><span style='font-variant: small-caps;'>Arc Feedback</span></b> as a <b>full action</b>. If it does, the <b><span style='font-variant: small-caps;'>Overshield</span></b> granted and damage dealt both double.</p>"
+    "tags": [],
+    "effect": "<p>Allies benefitting from <b><span style='font-variant: small-caps;'>Power Surge</span></b> emit a <b>Burst 2</b> area of electricity. Hostile characters that start their turn in the area or enter it for the first time in the round take <b>2 Energy AP damage</b>.</p>"
   },
   {
     "id": "ppg_npcf_maxwells_daemon_ghost",
