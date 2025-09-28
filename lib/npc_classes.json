@@ -189,13 +189,13 @@
     },
     "base_features": [
       "ppg_npcf_marathon_arquebus_capacitor",
-      "ppg_npcf_arc_feedback_capacitor",
+      "ppg_npcf_power_surge_capacitor",
       "ppg_npcf_reciprocity_capacitor"
     ],
     "optional_features": [
+      "ppg_npcf_deflecting_shot_capacitor",
       "ppg_npcf_quickening_bolt_capacitor",
       "ppg_npcf_purifying_lightning_capacitor",
-      "ppg_npcf_deflecting_shot_capacitor",
       "ppg_npcf_cyclic_discharge_capacitor",
       "ppg_npcf_amplifier_drone_capacitor",
       "ppg_npcf_thunderfall_capacitor",

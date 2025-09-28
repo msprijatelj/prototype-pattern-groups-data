@@ -230,8 +230,8 @@
     "effect": "<p>Allied characters in the affected area are not attacked, but instead gain <b><span style='font-variant: small-caps;'>Overshield</span></b> {2/3/4}.</p>"
   },
   {
-    "id": "ppg_npcf_arc_feedback_capacitor",
-    "name": "Arc Feedback",
+    "id": "ppg_npcf_power_surge_capacitor",
+    "name": "Power Surge",
     "origin": {
       "type": "Class",
       "name": "Capacitor",
@@ -242,20 +242,10 @@
     "tech_type": "Quick",
     "tags": [
       {
-        "id": "tg_overshield"
-      },
-      {
-        "id": "tg_shield"
-      },
-      {
-        "id": "tg_recharge",
-        "val": 4
-      },
-      {
         "id": "tg_quick_tech"
       }
     ],
-    "effect": "<p>An allied character within <b><span style='font-variant: small-caps;'>Sensors</span></b> gains <b><span style='font-variant: small-caps;'>Overshield</span></b> {4/6/8}. A hostile character that causes the target to lose this <b><span style='font-variant: small-caps;'>Overshield</span></b> must pass an <b><span style='font-variant: small-caps;'>Engineering</span></b> save or become <b><span style='font-variant: small-caps;'>Shredded</span></b> until the end of their next turn and take {2/4/6} <b>Energy damage</b>.</p>"
+    "effect": "<p>An allied character with <b><span style='font-variant: small-caps;'>Overshield</span></b> within <b><span style='font-variant: small-caps;'>Sensors</span></b> becomes supercharged. Their weapon attacks gain <b>AP</b> until they lose all <b><span style='font-variant: small-caps;'>Overshield</span></b> or until the Capacitor uses this action again.</p>"
   },
   {
     "id": "ppg_npcf_reciprocity_capacitor",
@@ -273,47 +263,6 @@
       }
     ],
     "effect": "<p>The Capacitor deploys with <b><span style='font-variant: small-caps;'>Overshield</span></b> {2/3/4}. Whenever it grants <b><span style='font-variant: small-caps;'>Overshield</span></b> to another character, it gains the same amount of <b><span style='font-variant: small-caps;'>Overshield</span></b>.</p>"
-  },
-  {
-    "id": "ppg_npcf_quickening_bolt_capacitor",
-    "name": "Quickening Bolt",
-    "origin": {
-      "type": "Class",
-      "name": "Capacitor",
-      "base": false
-    },
-    "locked": false,
-    "type": "Tech",
-    "tech_type": "Quick",
-    "tags": [
-      {
-        "id": "tg_overshield"
-      },
-      {
-        "id": "tg_shield"
-      },
-      {
-        "id": "tg_recharge",
-        "val": 5
-      },
-      {
-        "id": "tg_quick_tech"
-      }
-    ],
-    "effect": "<p>Choose one character within <b><span style='font-variant: small-caps;'>Sensors</span></b>. The target gains <b><span style='font-variant: small-caps;'>Overshield</span></b> {4/6/8}. Until the target loses all <b><span style='font-variant: small-caps;'>Overshield</span></b>, they may <b><span style='font-variant: small-caps;'>Boost</span></b> <b>1/round</b> as a <b>free action</b>.</p>"
-  },
-  {
-    "id": "ppg_npcf_purifying_lightning_capacitor",
-    "name": "Purifying Lightning",
-    "origin": {
-      "type": "Class",
-      "name": "Capacitor",
-      "base": false
-    },
-    "locked": false,
-    "type": "Trait",
-    "tags": [],
-    "effect": "<p>Allies affected by the <b><span style='font-variant: small-caps;'>Marathon Arquebus</span></b> may clear up to <b>one condition</b>.</p>"
   },
   {
     "id": "ppg_npcf_deflecting_shot_capacitor",
@@ -336,6 +285,41 @@
     ],
     "trigger": "<p>An allied character that can be targeted by the <b><span style='font-variant: small-caps;'>Marathon Arquebus</span></b> is hit by an attack.</p>",
     "effect": "<p>The Capacitor first <b><span style='font-variant: small-caps;'>Skirmishes</span></b> with the <b><span style='font-variant: small-caps;'>Marathon Arquebus</span></b>, dealing <b>half damage, Heat, or Burn</b> to all targets. The triggering allied character must be included in the attack’s area.</p>"
+  },
+  {
+    "id": "ppg_npcf_quickening_bolt_capacitor",
+    "name": "Quickening Bolt",
+    "origin": {
+      "type": "Class",
+      "name": "Capacitor",
+      "base": false
+    },
+    "locked": false,
+    "type": "Tech",
+    "tech_type": "Quick",
+    "tags": [
+      {
+        "id": "tg_recharge",
+        "val": 5
+      },
+      {
+        "id": "tg_quick_tech"
+      }
+    ],
+    "effect": "<p>An ally with <b><span style='font-variant: small-caps;'>Overshield</span></b> within <b><span style='font-variant: small-caps;'>Sensors</span></b> becomes quickened. The target may <b><span style='font-variant: small-caps;'>Boost</span></b> <b>1/round</b> as a <b>free action</b> until they lose all <b><span style='font-variant: small-caps;'>Overshield</span></b> or until the Capacitor uses this action again.</p>"
+  },
+  {
+    "id": "ppg_npcf_purifying_lightning_capacitor",
+    "name": "Purifying Lightning",
+    "origin": {
+      "type": "Class",
+      "name": "Capacitor",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "tags": [],
+    "effect": "<p>Allies affected by the <b><span style='font-variant: small-caps;'>Marathon Arquebus</span></b> may clear up to <b>one condition</b>.</p>"
   },
   {
     "id": "ppg_npcf_cyclic_discharge_capacitor",
@@ -376,14 +360,10 @@
         "id": "tg_overshield"
       },
       {
-        "id": "tg_limited",
-        "val": 2
-      },
-      {
         "id": "tg_quick_action"
       }
     ],
-    "effect": "<p><b>Amplifier Drone (Size </b>1/2<b>, HP </b>{5/8/10}<b>, Evasion </b>10<b>, E-Defense </b>10<b>, Tags: </b><i>Drone, Overshield</i><b>)</b></p><p>This drone can be deployed to a space within <b><span style='font-variant: small-caps;'>Sensors</span></b> and line of sight. While deployed, it projects a <b>Burst 2</b> electrified area. Allied characters in the area that gain any <b><span style='font-variant: small-caps;'>Overshield</span></b> increase the amount gained by <b>+2</b>. Hostile characters that enter the area or end their turn there receive <b><span style='font-variant: small-caps;'>Lock On</span></b> and cease to be <b><span style='font-variant: small-caps;'>Invisible</span></b> or <b><span style='font-variant: small-caps;'>Hidden</span></b>.</p>"
+    "effect": "<p><b>Amplifier Drone (Size </b>1/2<b>, HP </b>{5/8/10}<b>, Evasion </b>10<b>, E-Defense </b>10<b>, Tags: </b><i>Drone, Overshield</i><b>)</b></p><p>This drone can be deployed to a space within <b><span style='font-variant: small-caps;'>Sensors</span></b> and line of sight. While deployed, it projects a <b>Burst 2</b> electrified area. The Capacitor’s allies in the area that gain any <b><span style='font-variant: small-caps;'>Overshield</span></b> increase the amount gained by <b>+1</b>. Hostile characters that enter the area or end their turn there receive <b><span style='font-variant: small-caps;'>Lock On</span></b> and cease to be <b><span style='font-variant: small-caps;'>Invisible</span></b> or <b><span style='font-variant: small-caps;'>Hidden</span></b>. Only one drone may be deployed at a time; deploying a new drone destroys the old one.</p>"
   },
   {
     "id": "ppg_npcf_phase_shift_ghost",
@@ -3803,12 +3783,8 @@
     },
     "locked": false,
     "type": "Trait",
-    "tags": [
-      {
-        "id": "tg_overshield"
-      }
-    ],
-    "effect": "<p>The Capacitor may use <b><span style='font-variant: small-caps;'>Arc Feedback</span></b> as a <b>full action</b>. If it does, the <b><span style='font-variant: small-caps;'>Overshield</span></b> granted and damage dealt both double.</p>"
+    "tags": [],
+    "effect": "<p>Allies benefitting from <b><span style='font-variant: small-caps;'>Power Surge</span></b> emit a <b>Burst 2</b> area of electricity. Hostile characters that start their turn in the area or enter it for the first time in the round take <b>2 Energy AP damage</b>.</p>"
   },
   {
     "id": "ppg_npcf_maxwells_daemon_ghost",
