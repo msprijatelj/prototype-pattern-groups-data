@@ -3366,8 +3366,16 @@
     },
     "locked": false,
     "type": "Trait",
-    "tags": [],
-    "effect": "<p>If the Brigand inflicts <b>structure damage</b>, it may choose for its target to suffer <b>System Trauma</b> instead of the result of its <b>structure damage check</b>. If so, the Brigand chooses if a system or weapon mount is destroyed, as well as which one.</p>"
+    "tags": [
+      {
+        "id": "tg_recharge",
+        "val": 6
+      },
+      {
+        "id": "tg_full_action"
+      }
+    ],
+    "effect": "<p>The Brigand makes a contested <b><span style='font-variant: small-caps;'>Hull</span></b> check against a character it has <b>grappled</b> and is larger than for the sake of grappling. The winner chooses one of the target’s intact weapon mounts; all weapons on that mount are destroyed. The grapple then immediately ends.</p>"
   },
   {
     "id": "ppg_npcf_commandeer_brigand",
