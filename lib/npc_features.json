@@ -3646,7 +3646,7 @@
         "id": "tg_quick_action"
       }
     ],
-    "effect": "<p><b>Gaol Seal (Size </b>1/2<b>, HP </b>{15/20/25}<b>, Evasion </b>5<b>, E-Defense </b>8<b>, Tags: </b><i>Deployable</i><b>)</b></p><p>The Knight deploys a gaol seal to a free space in <b>Range 3</b>. The seal creates a <b>Burst 4</b> area that must completely contain both the Knight and its <b>duel</b> opponent. The Knight and its duel opponent cannot leave the area and are <b><span style='font-variant: small-caps;'>Intangible</span></b> while inside it.</p><p>The area lasts until the seal is destroyed, the duel ends, or until the Knight is overheated. The Knight takes <b>1 Heat</b> when it ends its turn in the area.</p>"
+    "effect": "<p><b>Gaol Seal (Size </b>1/2<b>, HP </b>{15/20/25}<b>, Evasion </b>5<b>, E-Defense </b>8<b>, Tags: </b><i>Deployable</i><b>)</b></p><p>Deploy an immovable gaol seal to a free space in <b>Range 3</b>. The seal creates a <b>Burst 4</b> area that must completely contain the Knight and at least one <b>duel</b> opponent. The Knight and its duel opponents cannot leave the area and are <b><span style='font-variant: small-caps;'>Intangible</span></b> within it.</p><p>The area lasts until the seal is destroyed, the duel ends, or until the Knight is overheated. The Knight takes <b>1 Heat</b> when it ends its turn in the area.</p>"
   },
   {
     "id": "ppg_npcf_dimensional_raid_mesmerist",
