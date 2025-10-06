@@ -3771,7 +3771,7 @@
     "locked": false,
     "type": "Trait",
     "tags": [],
-    "effect": "<p>Allies affected by <b><span style='font-variant: small-caps;'>Zeal</span></b> that would be destroyed are instead reduced to <b><span style='font-variant: small-caps;'>1 Structure</span></b> and <b>1 HP</b>.</p>"
+    "effect": "<p>Allies affected by <b><span style='font-variant: small-caps;'>Zeal</span></b> that would be destroyed are instead reduced to <b><span style='font-variant: small-caps;'>1 Structure</span></b> and <b>1 HP</b>. Allies with <b><span style='font-variant: small-caps;'>Zeal</span></b> are unaffected by this trait.</p>"
   },
   {
     "id": "ppg_npcf_slingshot_anchor",
