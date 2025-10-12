@@ -21,7 +21,7 @@
         "id": "tg_quick_action"
       }
     ],
-    "effect": "<p>The Anchor creates a <b>Burst 3</b> area of gravitomagnetic interference. While active, the Anchor and hostile characters in the area are <b><span style='font-variant: small-caps;'>Slowed</span></b> and cannot <b>teleport</b> into or out of the area. Allies in the area are not valid targets for <b>ranged attacks</b> made from outside the area. Other characters with <b><span style='font-variant: small-caps;'>Lodestone</span></b> are unaffected by this system.</p><p>These effects last the end of the Anchor’s next turn, until it uses this system again, or until it’s <b><span style='font-variant: small-caps;'>Stunned</span></b>, overheated, or destroyed.</p>"
+    "effect": "<p>The Anchor creates a <b>Burst 2</b> area of gravitomagnetic interference. While active, the Anchor and hostile characters in the area are <b><span style='font-variant: small-caps;'>Slowed</span></b> and cannot <b>teleport</b> into or out of the area. Allies in the area are not valid targets for <b>ranged attacks</b> made from outside the area. Other characters with <b><span style='font-variant: small-caps;'>Lodestone</span></b> are unaffected by this system.</p><p>These effects last the end of the Anchor’s next turn, until it uses this system again, or until it’s <b><span style='font-variant: small-caps;'>Stunned</span></b>, overheated, or destroyed.</p>"
   },
   {
     "id": "ppg_npcf_gravity_cannon_anchor",
@@ -73,8 +73,8 @@
     "on_hit": "<p>The target is pulled <b>3 spaces</b> directly towards the Anchor (<b>Attract</b>) or pushed <b>3 spaces</b> directly away from the Anchor (<b>Repulse</b>) until they hit an obstruction. If the target collides with an obstruction or mech, they stop moving and must pass a <b><span style='font-variant: small-caps;'>Hull</span></b> save or be knocked <b><span style='font-variant: small-caps;'>Prone</span></b>.</p>"
   },
   {
-    "id": "ppg_npcf_siege_armor_anchor",
-    "name": "Siege Armor",
+    "id": "ppg_npcf_ponderous_anchor",
+    "name": "Ponderous",
     "origin": {
       "type": "Class",
       "name": "Anchor",
@@ -83,7 +83,7 @@
     "locked": false,
     "type": "Trait",
     "tags": [],
-    "effect": "<p>The Anchor has <b><span style='font-variant: small-caps;'>Resistance</span> to all damage</b> from attacks that originate beyond <b>Range 3</b>.</p>"
+    "effect": "<p>The Anchor receives only <b>half</b> of any hostile non-<b>teleport</b> involuntary movement.</p>"
   },
   {
     "id": "ppg_npcf_reality_anchor_anchor",
@@ -850,7 +850,7 @@
         "id": "tg_quick_action"
       }
     ],
-    "effect": "<p>The Kensei <b>sheathes</b> its <b><span style='font-variant: small-caps;'>“Minuano” Kinetic Saber</span></b>, assuming a defensive stance. While its weapon remains <b>sheathed</b>, the Kensei is <b><span style='font-variant: small-caps;'>Slowed</span></b>, its voluntary movement counts as moving in <b>difficult terrain</b>, and it reduces push, pull, or knockback from hostile sources by <b>half</b>. The Kensei may <b>unsheathe</b> its weapon as a <b>quick action</b>.</p>"
+    "effect": "<p>The Kensei <b>sheathes</b> its <b><span style='font-variant: small-caps;'>“Minuano” Kinetic Saber</span></b>, assuming a defensive stance. While its weapon remains <b>sheathed</b>, the Kensei is <b><span style='font-variant: small-caps;'>Slowed</span></b>, its voluntary movement counts as moving in <b>difficult terrain</b>, and it receives only <b>half</b> the push, pull, or knockback from hostile sources. The Kensei may <b>unsheathe</b> its weapon as a <b>quick action</b>.</p>"
   },
   {
     "id": "ppg_npcf_mach_parry_kensei",
