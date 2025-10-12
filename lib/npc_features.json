@@ -1607,10 +1607,14 @@
         "id": "tg_drone"
       },
       {
+        "id": "tg_heat_self",
+        "val": 2
+      },
+      {
         "id": "tg_quick_action"
       }
     ],
-    "effect": "<p><b>FLOCK Drone (Size </b>1/2<b>, HP </b>1<b>, Evasion </b>10<b>, E-Defense </b>10<b>, Tags: </b><i>Drone</i><b>)</b></p><p>Upon activating this system or entering the scene, the Occultist deploys <b>2</b> of these drones adjacent to it. While adjacent to at least one drone, allied characters gain <b>soft cover</b> and hostile characters take <b>1 Heat</b> each time they take an action. Only <b>5</b> drones may be deployed at a time.</p>"
+    "effect": "<p><b>FLOCK Drone (Size </b>1/2<b>, HP </b>1<b>, Evasion </b>10<b>, E-Defense </b>10<b>, Tags: </b><i>Drone</i><b>)</b></p><p>Upon activating this system or entering the scene, the Occultist deploys <b>2</b> of these drones adjacent to it. While adjacent to at least one drone, allied characters gain <b>soft cover</b> and hostile characters take <b>1 Heat</b> after each action they take. Only <b>5</b> drones may be deployed at a time.</p>"
   },
   {
     "id": "ppg_npcf_diviners_darts_occultist",
@@ -1677,7 +1681,7 @@
         "id": "tg_quick_tech"
       }
     ],
-    "effect": "<p>Target a controlled <b><span style='font-variant: small-caps;'>Drone</span></b> or allied <b><span style='font-variant: small-caps;'>Grunt</span></b> in <b><span style='font-variant: small-caps;'>Sensors</span></b>. <b>Destroy</b> them and apply these effects:</p><p><ul><li>Allied characters adjacent to the target gain <b><span style='font-variant: small-caps;'>Overshield</span></b> {3/5/7} and clear <b>one condition</b>.</li><li>Hostile characters adjacent to the target gain <b><span style='font-variant: small-caps;'>Lock On</span></b> and must pass an <b><span style='font-variant: small-caps;'>Agility</span></b> save or become <b><span style='font-variant: small-caps;'>Jammed</span></b> until the end of their next turn.</li></ul></p>"
+    "effect": "<p><b>Destroy</b> a controlled <b><span style='font-variant: small-caps;'>Drone</span></b> or allied <b><span style='font-variant: small-caps;'>Grunt</span></b> in <b><span style='font-variant: small-caps;'>Sensors</span></b> not deployed this round for these effects:</p><p><ul><li>Allied characters adjacent to the target gain <b><span style='font-variant: small-caps;'>Overshield</span></b> {3/5/7} and clear <b>one condition</b>.</li><li>Hostile characters adjacent to the target gain <b><span style='font-variant: small-caps;'>Lock On</span></b> and must pass an <b><span style='font-variant: small-caps;'>Agility</span></b> save or become <b><span style='font-variant: small-caps;'>Jammed</span></b> until the end of their next turn.</li></ul></p>"
   },
   {
     "id": "ppg_npcf_jealous_flock_occultist",
@@ -1776,7 +1780,7 @@
         "id": "tg_full_action"
       }
     ],
-    "effect": "<p><b>MOLOCH Drone (Size </b>3<b>, HP </b>{15/20/25}<b>, Evasion </b>6<b>, E-Defense </b>10<b>, Tags: </b><i>Drone</i><b>)</b></p><p>As a <b>full action</b>, <b>destroy</b> a controlled <b><span style='font-variant: small-caps;'>Drone</span></b> or allied <b><span style='font-variant: small-caps;'>Grunt</span></b> in <b><span style='font-variant: small-caps;'>Sensors</span></b> and deploy this drone in one of that character’s spaces. Hostile characters that start their turn adjacent this drone or move adjacent to it for the first time in a round must pass a <b><span style='font-variant: small-caps;'>Hull</span></b> save or be <b>grappled</b> by the drone.</p>"
+    "effect": "<p><b>MOLOCH Drone (Size </b>3<b>, HP </b>{15/20/25}<b>, Evasion </b>6<b>, E-Defense </b>10<b>, Tags: </b><i>Drone</i><b>)</b></p><p>As a <b>full action</b>, <b>destroy</b> a controlled <b><span style='font-variant: small-caps;'>Drone</span></b> or allied <b><span style='font-variant: small-caps;'>Grunt</span></b> in <b><span style='font-variant: small-caps;'>Sensors</span></b> and deploy this drone in one of that character’s spaces. Hostile characters that start their turn adjacent this drone or move adjacent to it for the first time in a round must pass a <b><span style='font-variant: small-caps;'>Hull</span></b> save against the Occultist’s <b><span style='font-variant: small-caps;'>Save Target</span></b> or be <b>grappled</b> by the drone.</p>"
   },
   {
     "id": "ppg_npcf_prismatic_projection_prism",
@@ -2404,7 +2408,7 @@
         "id": "tg_protocol"
       }
     ],
-    "effect": "<p>The Zealot emanates an area of fervent energy within its <b><span style='font-variant: small-caps;'>Sensors</span></b> and line of sight. Allied weapon attacks made within the area gain <b><span style='font-variant: small-caps;'>Knockback 1</span></b> and <b>AP</b> against targets within the same area.</p><p>This effect lasts until the start of the Zealot’s first turn each round or until the Zealot is <b><span style='font-variant: small-caps;'>Stunned</span></b>, <b><span style='font-variant: small-caps;'>Jammed</span></b>, overheated, or destroyed.</p>"
+    "effect": "<p>The Zealot emanates an area of fervent energy, affecting non-<b><span style='font-variant: small-caps;'>Drone</span></b> allies within its <b><span style='font-variant: small-caps;'>Sensors</span></b> and line of sight; their weapon attacks made within the area gain <b><span style='font-variant: small-caps;'>Knockback 1</span></b> and <b>AP</b> against targets within the same area.</p><p>This effect lasts until the start of the Zealot’s first turn each round or until the Zealot is <b><span style='font-variant: small-caps;'>Stunned</span></b>, <b><span style='font-variant: small-caps;'>Jammed</span></b>, overheated, or destroyed.</p>"
   },
   {
     "id": "ppg_npcf_emberlight_nexus_zealot",
@@ -2467,7 +2471,7 @@
         "id": "tg_quick_tech"
       }
     ],
-    "effect": "<p>The Zealot and up to one ally within <b><span style='font-variant: small-caps;'>Zeal</span></b>’s area gain <b><span style='font-variant: small-caps;'>Overshield</span></b> {1/2/3} and may move up to <b>5 spaces</b> as a <b>reaction</b>, ignoring <b>difficult terrain</b>, engagement, and reactions.</p>"
+    "effect": "<p>The Zealot and up to one ally affected by <b><span style='font-variant: small-caps;'>Zeal</span></b> gain <b><span style='font-variant: small-caps;'>Overshield</span></b> {1/2/3} and may move up to <b>5 spaces</b> as a <b>reaction</b>, ignoring <b>difficult terrain</b>, engagement, and reactions.</p>"
   },
   {
     "id": "ppg_npcf_blazing_fervor_zealot",
@@ -2571,7 +2575,7 @@
         "id": "tg_overshield"
       }
     ],
-    "effect": "<p>When the Zealot would take <b>structure damage</b> or be destroyed, it first grants <b><span style='font-variant: small-caps;'>Overshield</span></b> {1/2/3} to each ally affected by <b><span style='font-variant: small-caps;'>Zeal</span></b> and inflicts {1/2/3} <b>Burn</b> on each hostile character within the area of <b><span style='font-variant: small-caps;'>Zeal</span></b>.</p>"
+    "effect": "<p>When the Zealot would take <b>structure damage</b> or be destroyed, it first grants <b><span style='font-variant: small-caps;'>Overshield</span></b> {1/2/3} to each ally affected by <b><span style='font-variant: small-caps;'>Zeal</span></b> and inflicts {1/2/3} <b>Burn</b> to each hostile character within the area of <b><span style='font-variant: small-caps;'>Zeal</span></b>.</p>"
   },
   {
     "id": "ppg_npcf_err_data_not_found_anomaly",
