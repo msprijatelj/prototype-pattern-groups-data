@@ -21,7 +21,7 @@
         "id": "tg_quick_action"
       }
     ],
-    "effect": "<p>The Anchor creates a <b>Burst 3</b> area of gravitomagnetic interference. While active, the Anchor and hostile characters in the area are <b><span style='font-variant: small-caps;'>Slowed</span></b> and cannot <b>teleport</b> into or out of the area. Allies in the area are not valid targets for <b>ranged attacks</b> made from outside the area. Other characters with <b><span style='font-variant: small-caps;'>Lodestone</span></b> are unaffected by this system.</p><p>These effects last the end of the Anchor’s next turn, until it uses this system again, or until it’s <b><span style='font-variant: small-caps;'>Stunned</span></b>, overheated, or destroyed.</p>"
+    "effect": "<p>The Anchor creates a <b>Burst 2</b> area of gravitomagnetic interference. While active, the Anchor and hostile characters in the area are <b><span style='font-variant: small-caps;'>Slowed</span></b> and cannot <b>teleport</b> into or out of the area. Allies in the area are not valid targets for <b>ranged attacks</b> made from outside the area. Other characters with <b><span style='font-variant: small-caps;'>Lodestone</span></b> are unaffected by this system.</p><p>These effects last the end of the Anchor’s next turn, until it uses this system again, or until it’s <b><span style='font-variant: small-caps;'>Stunned</span></b>, overheated, or destroyed.</p>"
   },
   {
     "id": "ppg_npcf_gravity_cannon_anchor",
@@ -73,8 +73,8 @@
     "on_hit": "<p>The target is pulled <b>3 spaces</b> directly towards the Anchor (<b>Attract</b>) or pushed <b>3 spaces</b> directly away from the Anchor (<b>Repulse</b>) until they hit an obstruction. If the target collides with an obstruction or mech, they stop moving and must pass a <b><span style='font-variant: small-caps;'>Hull</span></b> save or be knocked <b><span style='font-variant: small-caps;'>Prone</span></b>.</p>"
   },
   {
-    "id": "ppg_npcf_siege_armor_anchor",
-    "name": "Siege Armor",
+    "id": "ppg_npcf_ponderous_anchor",
+    "name": "Ponderous",
     "origin": {
       "type": "Class",
       "name": "Anchor",
@@ -83,7 +83,7 @@
     "locked": false,
     "type": "Trait",
     "tags": [],
-    "effect": "<p>The Anchor has <b><span style='font-variant: small-caps;'>Resistance</span> to all damage</b> from attacks that originate beyond <b>Range 3</b>.</p>"
+    "effect": "<p>The Anchor receives only <b>half</b> of any hostile non-<b>teleport</b> involuntary movement.</p>"
   },
   {
     "id": "ppg_npcf_reality_anchor_anchor",
@@ -595,7 +595,7 @@
     "type": "Trait",
     "tags": [
       {
-        "id": "tg_round",
+        "id": "tg_turn",
         "val": 1
       }
     ],
@@ -728,8 +728,8 @@
         "id": "tg_reaction"
       }
     ],
-    "trigger": "<p>A ranged or <b><span style='font-variant: small-caps;'>Thrown</span></b> melee attack hits the Hatchet.</p>",
-    "effect": "<p>The Hatchet interrupts the attack, moves up to its <b><span style='font-variant: small-caps;'>Speed</span></b> directly towards the attacker, and makes an attack against them. If this attack hits, the Hatchet gains <b><span style='font-variant: small-caps;'>Resistance</span> to all damage</b> from the triggering attack.</p>"
+    "trigger": "<p>A hostile character adjacent to one of the Hatchet’s <b><span style='font-variant: small-caps;'>Thrown</span></b> weapons damages the Hatchet.</p>",
+    "effect": "<p>The Hatchet moves up to its <b><span style='font-variant: small-caps;'>Speed</span></b> directly towards the attacker and then activates <b><span style='font-variant: small-caps;'>Cleaving Retrieval</span></b>. If this forces the triggering character to make a save, the Hatchet gains <b><span style='font-variant: small-caps;'>Resistance</span></b> to all damage from the triggering attack.</p>"
   },
   {
     "id": "ppg_npcf_return_to_sender_hatchet",
@@ -746,12 +746,12 @@
         "id": "tg_reaction"
       },
       {
-        "id": "tg_round",
+        "id": "tg_scene",
         "val": 1
       }
     ],
     "trigger": "<p>A character targets the Hatchet with an action with the <b><span style='font-variant: small-caps;'>Thrown</span></b>, <b><span style='font-variant: small-caps;'>Arcing</span></b>, <b><span style='font-variant: small-caps;'>Seeking</span></b>, or <b><span style='font-variant: small-caps;'>Grenade</span></b> tag.</p>",
-    "effect": "<p>Roll <b>1d6</b>. On a <b>4+</b>, the action is negated. The Hatchet then copies the negated action, targeting the triggering character and with an attack bonus of {+2/+4/+6} and its own <b><span style='font-variant: small-caps;'>Save Target</span></b>.</p><p>If the action would have affected an area, the area of the copied action must include the triggering character. The copied action ignores any range restrictions upon the original action.</p>"
+    "effect": "<p>The Hatchet negates the triggering action and copies it, targeting the triggering character and with an attack bonus of {+2/+4/+6} and its own <b><span style='font-variant: small-caps;'>Save Target</span></b>.</p><p>If the action would have affected an area, the area of the copied action must include the triggering character. The copied action ignores any range restrictions upon the original action.</p>"
   },
   {
     "id": "ppg_npcf_minuano_kinetic_saber_kensei",
@@ -769,11 +769,6 @@
       2,
       4,
       6
-    ],
-    "accuracy": [
-      0,
-      0,
-      0
     ],
     "range": [
       {
@@ -818,11 +813,6 @@
       4,
       6
     ],
-    "accuracy": [
-      0,
-      0,
-      0
-    ],
     "range": [
       {
         "type": "Threat",
@@ -860,7 +850,7 @@
         "id": "tg_quick_action"
       }
     ],
-    "effect": "<p>The Kensei <b>sheathes</b> its <b><span style='font-variant: small-caps;'>“Minuano” Kinetic Saber</span></b>, assuming a defensive stance. While its weapon remains <b>sheathed</b>, the Kensei is <b><span style='font-variant: small-caps;'>Slowed</span></b>, its voluntary movement counts as moving in <b>difficult terrain</b>, and it reduces push, pull, or knockback from hostile sources by <b>half</b>. The Kensei may <b>unsheathe</b> its weapon as a <b>quick action</b>.</p>"
+    "effect": "<p>The Kensei <b>sheathes</b> its <b><span style='font-variant: small-caps;'>“Minuano” Kinetic Saber</span></b>, assuming a defensive stance. While its weapon remains <b>sheathed</b>, the Kensei is <b><span style='font-variant: small-caps;'>Slowed</span></b>, its voluntary movement counts as moving in <b>difficult terrain</b>, and it receives only <b>half</b> the push, pull, or knockback from hostile sources. The Kensei may <b>unsheathe</b> its weapon as a <b>quick action</b>.</p>"
   },
   {
     "id": "ppg_npcf_mach_parry_kensei",
@@ -1354,7 +1344,7 @@
       2,
       3
     ],
-    "effect": "<p>The Mesmerist makes a <b>tech attack</b> against a character within <b><span style='font-variant: small-caps;'>Sensors</span></b>. On a hit, the target may only draw line of sight to the Mesmerist’s spaces until the end of the target’s next turn.</p>"
+    "effect": "<p>The Mesmerist makes a <b>tech attack</b> against a character within <b><span style='font-variant: small-caps;'>Sensors</span></b>. On a hit, while the Mesmerist is within the target’s line of sight, they may only draw line of sight to the Mesmerist’s spaces until the end of their next turn.</p>"
   },
   {
     "id": "ppg_npcf_metafold_riposte_mesmerist",
@@ -1607,10 +1597,14 @@
         "id": "tg_drone"
       },
       {
+        "id": "tg_heat_self",
+        "val": 2
+      },
+      {
         "id": "tg_quick_action"
       }
     ],
-    "effect": "<p><b>FLOCK Drone (Size </b>1/2<b>, HP </b>1<b>, Evasion </b>10<b>, E-Defense </b>10<b>, Tags: </b><i>Drone</i><b>)</b></p><p>Upon activating this system or entering the scene, the Occultist deploys <b>2</b> of these drones adjacent to it. While adjacent to at least one drone, allied characters gain <b>soft cover</b> and hostile characters take <b>1 Heat</b> each time they take an action. Only <b>5</b> drones may be deployed at a time.</p>"
+    "effect": "<p><b>FLOCK Drone (Size </b>1/2<b>, HP </b>1<b>, Evasion </b>10<b>, E-Defense </b>10<b>, Tags: </b><i>Drone</i><b>)</b></p><p>Upon activating this system or entering the scene, the Occultist deploys <b>2</b> of these drones adjacent to it. While adjacent to at least one drone, allied characters gain <b>soft cover</b> and hostile characters take <b>1 Heat</b> after each action they take. Only <b>5</b> drones may be deployed at a time.</p>"
   },
   {
     "id": "ppg_npcf_diviners_darts_occultist",
@@ -1628,11 +1622,6 @@
       2,
       4,
       6
-    ],
-    "accuracy": [
-      0,
-      0,
-      0
     ],
     "range": [
       {
@@ -1677,7 +1666,7 @@
         "id": "tg_quick_tech"
       }
     ],
-    "effect": "<p>Target a controlled <b><span style='font-variant: small-caps;'>Drone</span></b> or allied <b><span style='font-variant: small-caps;'>Grunt</span></b> in <b><span style='font-variant: small-caps;'>Sensors</span></b>. <b>Destroy</b> them and apply these effects:</p><p><ul><li>Allied characters adjacent to the target gain <b><span style='font-variant: small-caps;'>Overshield</span></b> {3/5/7} and clear <b>one condition</b>.</li><li>Hostile characters adjacent to the target gain <b><span style='font-variant: small-caps;'>Lock On</span></b> and must pass an <b><span style='font-variant: small-caps;'>Agility</span></b> save or become <b><span style='font-variant: small-caps;'>Jammed</span></b> until the end of their next turn.</li></ul></p>"
+    "effect": "<p><b>Destroy</b> a controlled <b><span style='font-variant: small-caps;'>Drone</span></b> or allied <b><span style='font-variant: small-caps;'>Grunt</span></b> in <b><span style='font-variant: small-caps;'>Sensors</span></b> not deployed this round for these effects:</p><p><ul><li>Allied characters adjacent to the target gain <b><span style='font-variant: small-caps;'>Overshield</span></b> {3/5/7} and clear <b>one condition</b>.</li><li>Hostile characters adjacent to the target gain <b><span style='font-variant: small-caps;'>Lock On</span></b> and must pass an <b><span style='font-variant: small-caps;'>Agility</span></b> save or become <b><span style='font-variant: small-caps;'>Jammed</span></b> until the end of their next turn.</li></ul></p>"
   },
   {
     "id": "ppg_npcf_jealous_flock_occultist",
@@ -1751,8 +1740,13 @@
     },
     "locked": false,
     "type": "Trait",
-    "tags": [],
-    "effect": "<p>When a controlled <b><span style='font-variant: small-caps;'>Drone</span></b> or allied <b><span style='font-variant: small-caps;'>Grunt</span></b> in <b><span style='font-variant: small-caps;'>Sensors</span></b> is destroyed, hostile characters within <b>Burst 1</b> of the destroyed character must pass an <b><span style='font-variant: small-caps;'>Engineering</span></b> save or take <b>2 Heat</b> and {3/4/5} <b>Burn</b>.</p>"
+    "tags": [
+      {
+        "id": "tg_round",
+        "val": 1
+      }
+    ],
+    "effect": "<p>When a controlled <b><span style='font-variant: small-caps;'>Drone</span></b> or allied <b><span style='font-variant: small-caps;'>Grunt</span></b> in <b><span style='font-variant: small-caps;'>Sensors</span></b> is destroyed, hostile characters adjacent to the destroyed character must pass an <b><span style='font-variant: small-caps;'>Engineering</span></b> save or take <b>2 Heat</b> and {2/3/4} <b>Burn</b>.</p>"
   },
   {
     "id": "ppg_npcf_call_from_below_occultist",
@@ -1776,7 +1770,7 @@
         "id": "tg_full_action"
       }
     ],
-    "effect": "<p><b>MOLOCH Drone (Size </b>3<b>, HP </b>{15/20/25}<b>, Evasion </b>6<b>, E-Defense </b>10<b>, Tags: </b><i>Drone</i><b>)</b></p><p>As a <b>full action</b>, <b>destroy</b> a controlled <b><span style='font-variant: small-caps;'>Drone</span></b> or allied <b><span style='font-variant: small-caps;'>Grunt</span></b> in <b><span style='font-variant: small-caps;'>Sensors</span></b> and deploy this drone in one of that character’s spaces. Hostile characters that start their turn adjacent this drone or move adjacent to it for the first time in a round must pass a <b><span style='font-variant: small-caps;'>Hull</span></b> save or be <b>grappled</b> by the drone.</p>"
+    "effect": "<p><b>MOLOCH Drone (Size </b>3<b>, HP </b>{15/20/25}<b>, Evasion </b>6<b>, E-Defense </b>10<b>, Tags: </b><i>Drone</i><b>)</b></p><p>As a <b>full action</b>, <b>destroy</b> a controlled <b><span style='font-variant: small-caps;'>Drone</span></b> or allied <b><span style='font-variant: small-caps;'>Grunt</span></b> in <b><span style='font-variant: small-caps;'>Sensors</span></b> and deploy this drone in one of that character’s spaces. Hostile characters that start their turn adjacent this drone or move adjacent to it for the first time in a round must pass a <b><span style='font-variant: small-caps;'>Hull</span></b> save against the Occultist’s <b><span style='font-variant: small-caps;'>Save Target</span></b> or be <b>grappled</b> by the drone.</p>"
   },
   {
     "id": "ppg_npcf_prismatic_projection_prism",
@@ -1817,11 +1811,6 @@
       2,
       3
     ],
-    "accuracy": [
-      1,
-      1,
-      1
-    ],
     "range": [
       {
         "type": "Range",
@@ -1829,21 +1818,21 @@
       },
       {
         "type": "Burst",
-        "val": 2
+        "val": 1
       }
     ],
     "damage": [
       {
         "type": "Energy",
         "damage": [
-          5,
-          7,
-          9
+          6,
+          8,
+          10
         ]
       }
     ],
-    "on_hit": "<p>If the Prism consumed <b><span style='font-variant: small-caps;'>Lock On</span></b> against the target, they can only draw line of sight to the Prism’s spaces until the end of their next turn.</p>",
-    "effect": "<p>This weapon does not affect allies. Attacks made through a <b>projector</b> gain <b>AP</b>.</p>"
+    "on_hit": "<p>If the Prism consumed <b><span style='font-variant: small-caps;'>Lock On</span></b> against the target, while the Prism is within the target’s line of sight, they may only draw line of sight to the Prism’s spaces until the end of their next turn.</p>",
+    "effect": "<p>This weapon does not affect allies.</p>"
   },
   {
     "id": "ppg_npcf_refracting_armor_prism",
@@ -1918,6 +1907,11 @@
       1,
       2,
       3
+    ],
+    "accuracy": [
+      1,
+      1,
+      1
     ],
     "range": [
       {
@@ -2035,11 +2029,6 @@
       1,
       2,
       3
-    ],
-    "accuracy": [
-      0,
-      0,
-      0
     ],
     "range": [
       {
@@ -2164,11 +2153,6 @@
       2,
       3
     ],
-    "accuracy": [
-      0,
-      0,
-      0
-    ],
     "range": [
       {
         "type": "Cone",
@@ -2258,11 +2242,6 @@
       1,
       2,
       3
-    ],
-    "accuracy": [
-      0,
-      0,
-      0
     ],
     "range": [
       {
@@ -2404,7 +2383,7 @@
         "id": "tg_protocol"
       }
     ],
-    "effect": "<p>The Zealot emanates an area of fervent energy within its <b><span style='font-variant: small-caps;'>Sensors</span></b> and line of sight. Allied weapon attacks made within the area gain <b><span style='font-variant: small-caps;'>Knockback 1</span></b> and <b>AP</b> against targets within the same area.</p><p>This effect lasts until the start of the Zealot’s first turn each round or until the Zealot is <b><span style='font-variant: small-caps;'>Stunned</span></b>, <b><span style='font-variant: small-caps;'>Jammed</span></b>, overheated, or destroyed.</p>"
+    "effect": "<p>The Zealot emanates an area of fervent energy, affecting non-<b><span style='font-variant: small-caps;'>Drone</span></b> allies within its <b><span style='font-variant: small-caps;'>Sensors</span></b> and line of sight; their weapon attacks made within the area gain <b><span style='font-variant: small-caps;'>Knockback 1</span></b> and <b>AP</b> against targets within the same area.</p><p>This effect lasts until the start of the Zealot’s first turn each round or until the Zealot is <b><span style='font-variant: small-caps;'>Stunned</span></b>, <b><span style='font-variant: small-caps;'>Jammed</span></b>, overheated, or destroyed.</p>"
   },
   {
     "id": "ppg_npcf_emberlight_nexus_zealot",
@@ -2467,7 +2446,7 @@
         "id": "tg_quick_tech"
       }
     ],
-    "effect": "<p>The Zealot and up to one ally within <b><span style='font-variant: small-caps;'>Zeal</span></b>’s area gain <b><span style='font-variant: small-caps;'>Overshield</span></b> {1/2/3} and may move up to <b>5 spaces</b> as a <b>reaction</b>, ignoring <b>difficult terrain</b>, engagement, and reactions.</p>"
+    "effect": "<p>The Zealot and up to one ally affected by <b><span style='font-variant: small-caps;'>Zeal</span></b> gain <b><span style='font-variant: small-caps;'>Overshield</span></b> {1/2/3} and may move up to <b>5 spaces</b> as a <b>reaction</b>, ignoring <b>difficult terrain</b>, engagement, and reactions.</p>"
   },
   {
     "id": "ppg_npcf_blazing_fervor_zealot",
@@ -2571,7 +2550,7 @@
         "id": "tg_overshield"
       }
     ],
-    "effect": "<p>When the Zealot would take <b>structure damage</b> or be destroyed, it first grants <b><span style='font-variant: small-caps;'>Overshield</span></b> {1/2/3} to each ally affected by <b><span style='font-variant: small-caps;'>Zeal</span></b> and inflicts {1/2/3} <b>Burn</b> on each hostile character within the area of <b><span style='font-variant: small-caps;'>Zeal</span></b>.</p>"
+    "effect": "<p>When the Zealot would take <b>structure damage</b> or be destroyed, it first grants <b><span style='font-variant: small-caps;'>Overshield</span></b> {1/2/3} to each ally affected by <b><span style='font-variant: small-caps;'>Zeal</span></b> and inflicts {1/2/3} <b>Burn</b> to each hostile character within the area of <b><span style='font-variant: small-caps;'>Zeal</span></b>.</p>"
   },
   {
     "id": "ppg_npcf_err_data_not_found_anomaly",
@@ -3366,8 +3345,16 @@
     },
     "locked": false,
     "type": "Trait",
-    "tags": [],
-    "effect": "<p>If the Brigand inflicts <b>structure damage</b>, it may choose for its target to suffer <b>System Trauma</b> instead of the result of its <b>structure damage check</b>. If so, the Brigand chooses if a system or weapon mount is destroyed, as well as which one.</p>"
+    "tags": [
+      {
+        "id": "tg_recharge",
+        "val": 6
+      },
+      {
+        "id": "tg_full_action"
+      }
+    ],
+    "effect": "<p>The Brigand makes a contested <b><span style='font-variant: small-caps;'>Hull</span></b> check against a character it has <b>grappled</b> and is larger than for the sake of grappling. The winner chooses one of the target’s intact weapon mounts; all weapons on that mount are destroyed. The grapple then immediately ends.</p>"
   },
   {
     "id": "ppg_npcf_commandeer_brigand",
@@ -3646,7 +3633,7 @@
         "id": "tg_quick_action"
       }
     ],
-    "effect": "<p><b>Gaol Seal (Size </b>1/2<b>, HP </b>{15/20/25}<b>, Evasion </b>5<b>, E-Defense </b>8<b>, Tags: </b><i>Deployable</i><b>)</b></p><p>The Knight deploys a gaol seal to a free space in <b>Range 3</b>. The seal creates a <b>Burst 4</b> area that must completely contain both the Knight and its <b>duel</b> opponent. The Knight and its duel opponent cannot leave the area and are <b><span style='font-variant: small-caps;'>Intangible</span></b> while inside it.</p><p>The area lasts until the seal is destroyed, the duel ends, or until the Knight is overheated. The Knight takes <b>1 Heat</b> when it ends its turn in the area.</p>"
+    "effect": "<p><b>Gaol Seal (Size </b>1/2<b>, HP </b>{15/20/25}<b>, Evasion </b>5<b>, E-Defense </b>8<b>, Tags: </b><i>Deployable</i><b>)</b></p><p>Deploy an immovable gaol seal to a free space in <b>Range 3</b>. The seal creates a <b>Burst 4</b> area that must completely contain the Knight and at least one <b>duel</b> opponent. The Knight and its duel opponents cannot leave the area and are <b><span style='font-variant: small-caps;'>Intangible</span></b> within it.</p><p>The area lasts until the seal is destroyed, the duel ends, or until the Knight is overheated. The Knight takes <b>1 Heat</b> when it ends its turn in the area.</p>"
   },
   {
     "id": "ppg_npcf_dimensional_raid_mesmerist",
@@ -3763,7 +3750,7 @@
     "locked": false,
     "type": "Trait",
     "tags": [],
-    "effect": "<p>Allies affected by <b><span style='font-variant: small-caps;'>Zeal</span></b> that would be destroyed are instead reduced to <b><span style='font-variant: small-caps;'>1 Structure</span></b> and <b>1 HP</b>.</p>"
+    "effect": "<p>Allies affected by <b><span style='font-variant: small-caps;'>Zeal</span></b> that would be destroyed are instead reduced to <b><span style='font-variant: small-caps;'>1 Structure</span></b> and <b>1 HP</b>. Allies with <b><span style='font-variant: small-caps;'>Zeal</span></b> are unaffected by this trait.</p>"
   },
   {
     "id": "ppg_npcf_slingshot_anchor",
@@ -3852,11 +3839,6 @@
       4,
       6
     ],
-    "accuracy": [
-      0,
-      0,
-      0
-    ],
     "range": [
       {
         "type": "Threat",
@@ -3924,8 +3906,13 @@
     },
     "locked": false,
     "type": "Trait",
-    "tags": [],
-    "effect": "<p><b><span style='font-variant: small-caps;'>Reap the Chaff</span></b> may destroy two targets at a time. If it does, the Occultist may deploy <b><span style='font-variant: small-caps;'>1 FLOCK Drone</span></b> adjacent to itself as a <b>free action</b>.</p>"
+    "tags": [
+      {
+        "id": "tg_heat_self",
+        "val": 1
+      }
+    ],
+    "effect": "<p><b><span style='font-variant: small-caps;'>Reap the Chaff</span></b> may destroy two targets at a time. If it does, the Occultist may deploy <b><span style='font-variant: small-caps;'>1 FLOCK Drone</span></b> adjacent to itself as a <b>free action</b> for <b>1 Heat</b>.</p>"
   },
   {
     "id": "ppg_npcf_double_vision_prism",
