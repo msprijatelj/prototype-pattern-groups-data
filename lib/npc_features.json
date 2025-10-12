@@ -3906,8 +3906,13 @@
     },
     "locked": false,
     "type": "Trait",
-    "tags": [],
-    "effect": "<p><b><span style='font-variant: small-caps;'>Reap the Chaff</span></b> may destroy two targets at a time. If it does, the Occultist may deploy <b><span style='font-variant: small-caps;'>1 FLOCK Drone</span></b> adjacent to itself as a <b>free action</b>.</p>"
+    "tags": [
+      {
+        "id": "tg_heat_self",
+        "val": 1
+      }
+    ],
+    "effect": "<p><b><span style='font-variant: small-caps;'>Reap the Chaff</span></b> may destroy two targets at a time. If it does, the Occultist may deploy <b><span style='font-variant: small-caps;'>1 FLOCK Drone</span></b> adjacent to itself as a <b>free action</b> for <b>1 Heat</b>.</p>"
   },
   {
     "id": "ppg_npcf_double_vision_prism",
