@@ -1679,7 +1679,7 @@
     "locked": false,
     "type": "Trait",
     "tags": [],
-    "effect": "<p>While adjacent to a <b><span style='font-variant: small-caps;'>FLOCK Drone</span></b>, allied characters gain <b><span style='font-variant: small-caps;'>Resistance</span> to all damage, Heat, and Burn</b>, and hostile characters are <b><span style='font-variant: small-caps;'>Shredded</span></b>.</p>"
+    "effect": "<p>While adjacent to a <b><span style='font-variant: small-caps;'>FLOCK Drone</span></b>, the drone’s allies gain <b><span style='font-variant: small-caps;'>Resistance</span> to all damage</b> from hostile sources, and hostile characters are <b><span style='font-variant: small-caps;'>Shredded</span></b>.</p>"
   },
   {
     "id": "ppg_npcf_lead_astray_occultist",
