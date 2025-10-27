@@ -3,7 +3,7 @@
   "author": "Michael Prijatelj",
   "description": "Third-party experimental NPC mechs for the Lancer RPG.",
   "item_prefix": "ppg_",
-  "version": "1.12.0",
+  "version": "1.13.0",
   "image_url": "https://img.itch.zone/aW1nLzE2NjQxMTg0LnBuZw==/original/dqFh0w.png",
   "website": "https://valkyrion.itch.io/prototype-pattern-groups",
   "dependencies": [
