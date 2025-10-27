@@ -10,4 +10,4 @@ This repository contains the JSON data for Lancer third-party supplement [Protot
 
 *Lancer* is copyright Massif Press.
 
-The GNU GPL v3.0 license applies to the code for packaging and deploying releases. The JSON data itself is copyright Michael Prijatelj 2024.
+The GNU GPL v3.0 license applies to the code for packaging and deploying releases. The JSON data itself is copyright Michael Prijatelj 2024, all rights reserved.

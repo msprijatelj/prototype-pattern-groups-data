@@ -227,7 +227,7 @@
         ]
       }
     ],
-    "effect": "<p>Allied characters in the affected area are not attacked, but instead gain <b><span style='font-variant: small-caps;'>Overshield</span></b> {2/3/4}.</p>"
+    "effect": "<p>This weapon does not attack allies. Non-<b><span style='font-variant: small-caps;'>Drone</span></b> allies in the affected area gain <b><span style='font-variant: small-caps;'>Overshield</span></b> {2/3/4}.</p>"
   },
   {
     "id": "ppg_npcf_power_surge_capacitor",
@@ -245,7 +245,7 @@
         "id": "tg_quick_tech"
       }
     ],
-    "effect": "<p>An allied character with <b><span style='font-variant: small-caps;'>Overshield</span></b> within <b><span style='font-variant: small-caps;'>Sensors</span></b> becomes supercharged. Their weapon attacks gain <b>AP</b> until they lose all <b><span style='font-variant: small-caps;'>Overshield</span></b> or until the Capacitor uses this action again.</p>"
+    "effect": "<p>An ally with <b><span style='font-variant: small-caps;'>Overshield</span></b> within <b><span style='font-variant: small-caps;'>Sensors</span></b> becomes supercharged. Their weapon attacks gain <b>AP</b> and <b><span style='font-variant: small-caps;'>Reliable</span></b> {1/1/2} until they lose all <b><span style='font-variant: small-caps;'>Overshield</span></b> or until the Capacitor uses this action again.</p>"
   },
   {
     "id": "ppg_npcf_reciprocity_capacitor",
@@ -319,7 +319,7 @@
     "locked": false,
     "type": "Trait",
     "tags": [],
-    "effect": "<p>Allies affected by the <b><span style='font-variant: small-caps;'>Marathon Arquebus</span></b> may clear up to <b>one condition</b>.</p>"
+    "effect": "<p>Allies that already have <b><span style='font-variant: small-caps;'>Overshield</span></b> may clear up to <b>one condition</b> when affected by the <b><span style='font-variant: small-caps;'>Marathon Arquebus</span></b>.</p>"
   },
   {
     "id": "ppg_npcf_cyclic_discharge_capacitor",
@@ -1208,7 +1208,7 @@
     "type": "Trait",
     "tags": [
       {
-        "id": "tg_round",
+        "id": "tg_turn",
         "val": 1
       }
     ],
@@ -1450,9 +1450,9 @@
       {
         "type": "Burn",
         "damage": [
-          5,
-          7,
-          9
+          4,
+          6,
+          8
         ]
       }
     ],
@@ -2207,7 +2207,7 @@
         "id": "tg_quick_action"
       }
     ],
-    "effect": "<p><b>Destroy</b> one of the following:</p><p><ul><li>An adjacent <b>wreckage</b>.</li><li>A weapon or system equipped by the Vulture.</li><li>A weapon or system equipped by a willing adjacent character.</li></ul></p><p>The Vulture or a character in <b>Range 3</b> then gains one of the following benefits:</p><p><ul><li><b><span style='font-variant: small-caps;'>Recharge</span></b> one weapon or system.</li><li>Repair one destroyed weapon or system.</li><li>Reload one <b><span style='font-variant: small-caps;'>Loading</span></b> weapon.</li><li>All <b><span style='font-variant: small-caps;'>Limited</span></b> weapons and systems regain <b>1 use</b>.</li><li>Gain <b><span style='font-variant: small-caps;'>Overshield</span></b> {3/5/7} and clear <b>1 condition</b>.</li></ul></p>"
+    "effect": "<p><b>Destroy</b> one of the following:</p><p><ul><li>An adjacent <b>wreckage</b>.</li><li>A weapon or system equipped by the Vulture.</li><li>A weapon or system equipped by a willing adjacent character.</li></ul></p><p>The Vulture or a character in <b>Range 3</b> then gains one of the following benefits:</p><p><ul><li><b><span style='font-variant: small-caps;'>Recharge</span></b> one weapon or system.</li><li>Repair one destroyed weapon or system.</li><li>Reload one <b><span style='font-variant: small-caps;'>Loading</span></b> weapon or system.</li><li>All <b><span style='font-variant: small-caps;'>Limited</span></b> weapons and systems regain <b>1 use</b>.</li><li>Gain <b><span style='font-variant: small-caps;'>Overshield</span></b> {3/5/7} and clear <b>1 condition</b>.</li></ul></p>"
   },
   {
     "id": "ppg_npcf_condor_jet_propulsion_wings_vulture",
@@ -3570,7 +3570,7 @@
     "locked": false,
     "type": "Trait",
     "tags": [],
-    "effect": "<p><b><span style='font-variant: small-caps;'>Paradox State</span></b> instead lasts until the start of the Ghost’s next turn and affects every hostile action is taken against a character <b>bonded</b> with the Ghost.</p>"
+    "effect": "<p><b><span style='font-variant: small-caps;'>Paradox State</span></b> instead lasts until the start of the Ghost’s next turn and affects every hostile action taken against a character <b>bonded</b> with the Ghost.</p>"
   },
   {
     "id": "ppg_npcf_hurricane_of_steel_hatchet",
@@ -3732,7 +3732,7 @@
     "locked": false,
     "type": "Trait",
     "tags": [],
-    "effect": "<p>The Vulture may use <b><span style='font-variant: small-caps;'>“Magpie” Subroutines</span></b> as a <b>full action</b> and choose a second option to <b>destroy</b>. If it does, it may choose a second benefit, targeting the same character or a different one.</p>"
+    "effect": "<p>The Vulture may use <b><span style='font-variant: small-caps;'>“Magpie” Subroutines</span></b> as a <b>full action</b> for an additional <b>2 Heat</b>. If it does, it chooses a second option to <b>destroy</b>, then chooses a second benefit. The second benefit may target the same character or a different one.</p>"
   },
   {
     "id": "ppg_npcf_undying_faith_zealot",
@@ -3745,7 +3745,7 @@
     "locked": false,
     "type": "Trait",
     "tags": [],
-    "effect": "<p>Allies affected by <b><span style='font-variant: small-caps;'>Zeal</span></b> that would be destroyed are instead reduced to <b><span style='font-variant: small-caps;'>1 Structure</span></b> and <b>1 HP</b>. Allies with <b><span style='font-variant: small-caps;'>Zeal</span></b> are unaffected by this trait.</p>"
+    "effect": "<p>Non-<b><span style='font-variant: small-caps;'>Grunt</span></b> allies affected by <b><span style='font-variant: small-caps;'>Zeal</span></b> that would be destroyed are instead reduced to <b><span style='font-variant: small-caps;'>1 Structure</span></b> and <b>1 HP</b>. Allies with <b><span style='font-variant: small-caps;'>Zeal</span></b> are unaffected by this trait.</p>"
   },
   {
     "id": "ppg_npcf_slingshot_anchor",
@@ -3771,7 +3771,7 @@
     "locked": false,
     "type": "Trait",
     "tags": [],
-    "effect": "<p>Allies benefitting from <b><span style='font-variant: small-caps;'>Power Surge</span></b> emit a <b>Burst 2</b> area of electricity. Hostile characters that start their turn in the area or enter it for the first time in the round take <b>2 Energy AP damage</b>.</p>"
+    "effect": "<p>Allies benefitting from <b><span style='font-variant: small-caps;'>Power Surge</span></b> emit a <b>Burst 2</b> area of electricity. Hostile characters that start their turn in the area or enter it for the first time in the round take {2/3/4} <b>Energy AP damage</b>.</p>"
   },
   {
     "id": "ppg_npcf_maxwells_daemon_ghost",
@@ -3874,9 +3874,18 @@
       "base": false
     },
     "locked": false,
-    "type": "Trait",
-    "tags": [],
-    "effect": "<p>While the Mesmerist has any <b>mirror images</b>, allied characters in <b>Burst 2</b> are <b><span style='font-variant: small-caps;'>Invisible</span></b>. Each attack that misses an affected ally destroys <b>1 mirror image</b>.</p>"
+    "type": "Reaction",
+    "tags": [
+      {
+        "id": "tg_reaction"
+      },
+      {
+        "id": "tg_round",
+        "val": 1
+      }
+    ],
+    "trigger": "<p>An ally in <b><span style='font-variant: small-caps;'>Sensors</span></b> is attacked while the Mesmerist has at least <b>1 mirror image</b>.</p>",
+    "effect": "<p>The Mesmerist grants the triggering ally <b><span style='font-variant: small-caps;'>Invisible</span></b> against the attack. If the attack misses, destroy <b>1 mirror image</b>.</p>"
   },
   {
     "id": "ppg_npcf_reactor_accelerant_napalm",
