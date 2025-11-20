@@ -751,7 +751,7 @@
       }
     ],
     "trigger": "<p>A character targets the Hatchet with an action with the <b><span style='font-variant: small-caps;'>Thrown</span></b>, <b><span style='font-variant: small-caps;'>Arcing</span></b>, <b><span style='font-variant: small-caps;'>Seeking</span></b>, or <b><span style='font-variant: small-caps;'>Grenade</span></b> tag.</p>",
-    "effect": "<p>The Hatchet negates the triggering action and copies it, targeting the triggering character and with an attack bonus of {+2/+4/+6} and its own <b><span style='font-variant: small-caps;'>Save Target</span></b>.</p><p>If the action would have affected an area, the area of the copied action must include the triggering character. The copied action ignores any range restrictions upon the original action.</p>"
+    "effect": "<p>The Hatchet interrupts the triggering action, changing the action’s target from itself to the triggering character, regardless of targeting restrictions or <b><span style='font-variant: small-caps;'>Range</span></b>. If the action would have affected an area, the Hatchet moves the area of the action to include the triggering character and exclude itself (if possible).</p>"
   },
   {
     "id": "ppg_npcf_minuano_kinetic_saber_kensei",
