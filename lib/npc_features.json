@@ -1666,7 +1666,7 @@
         "id": "tg_quick_tech"
       }
     ],
-    "effect": "<p><b>Destroy</b> a controlled <b><span style='font-variant: small-caps;'>Drone</span></b> or allied <b><span style='font-variant: small-caps;'>Grunt</span></b> in <b><span style='font-variant: small-caps;'>Sensors</span></b> not deployed this round for these effects:</p><p><ul><li>Allied characters adjacent to the target gain <b><span style='font-variant: small-caps;'>Overshield</span></b> {3/5/7} and clear <b>one condition</b>.</li><li>Hostile characters adjacent to the target gain <b><span style='font-variant: small-caps;'>Lock On</span></b> and must pass an <b><span style='font-variant: small-caps;'>Agility</span></b> save or become <b><span style='font-variant: small-caps;'>Jammed</span></b> until the end of their next turn.</li></ul></p>"
+    "effect": "<p><b>Destroy</b> a controlled <b><span style='font-variant: small-caps;'>Drone</span></b> or allied <b><span style='font-variant: small-caps;'>Grunt</span></b> in <b><span style='font-variant: small-caps;'>Sensors</span></b> not deployed this round for these effects:</p><p><ul><li>Allies adjacent to the target gain <b><span style='font-variant: small-caps;'>Overshield</span></b> {3/5/7} and clear <b><span style='font-variant: small-caps;'>Impaired</span></b> and <b><span style='font-variant: small-caps;'>Lock On</span></b>.</li><li>Hostile characters adjacent to the target gain <b><span style='font-variant: small-caps;'>Lock On</span></b> and must pass an <b><span style='font-variant: small-caps;'>Agility</span></b> save or become <b><span style='font-variant: small-caps;'>Jammed</span></b> until the end of their next turn.</li></ul></p>"
   },
   {
     "id": "ppg_npcf_jealous_flock_occultist",
