@@ -3942,7 +3942,10 @@
     "locked": false,
     "type": "Trait",
     "tags": [],
-    "effect": "<p>The Torrent becomes <b><span style='font-variant: small-caps;'>Size 3</span></b>, and its weapons gain <b><span style='font-variant: small-caps;'>Knockback 1</span></b>.</p>"
+    "effect": "<p>The Torrent becomes <b><span style='font-variant: small-caps;'>Size 3</span></b>, and its weapons gain <b><span style='font-variant: small-caps;'>Knockback 1</span></b>.</p>",
+    "override": {
+      "size": 3
+    }
   },
   {
     "id": "ppg_npcf_grapplescrapper_vulture",
