@@ -1344,7 +1344,7 @@
       2,
       3
     ],
-    "effect": "<p>The Mesmerist makes a <b>tech attack</b> against a character within <b><span style='font-variant: small-caps;'>Sensors</span></b>. On a hit, while the Mesmerist is within the target’s line of sight, they may only draw line of sight to the Mesmerist’s spaces until the end of their next turn.</p>"
+    "effect": "<p>The Mesmerist makes a <b>tech attack</b> against a character within <b><span style='font-variant: small-caps;'>Sensors</span></b>. On a hit, while the Mesmerist is within the target’s line of sight, their hostile actions must include the Mesmerist as a target until the end of their next turn.</p>"
   },
   {
     "id": "ppg_npcf_metafold_riposte_mesmerist",
@@ -1831,7 +1831,7 @@
         ]
       }
     ],
-    "on_hit": "<p>If the Prism consumed <b><span style='font-variant: small-caps;'>Lock On</span></b> against the target, while the Prism is within the target’s line of sight, they may only draw line of sight to the Prism’s spaces until the end of their next turn.</p>",
+    "on_hit": "<p>If the Prism consumed <b><span style='font-variant: small-caps;'>Lock On</span></b> against the target, while the Prism is within the target’s line of sight, their hostile actions must include the Prism as a target until the end of their next turn.</p>",
     "effect": "<p>This weapon does not affect allies.</p>"
   },
   {
