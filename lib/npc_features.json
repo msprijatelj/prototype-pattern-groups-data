@@ -581,7 +581,7 @@
         "id": "tg_quick_action"
       }
     ],
-    "effect": "<p>Retrieve a <b><span style='font-variant: small-caps;'>Thrown</span></b> weapon not used to attack this turn, regardless of <b><span style='font-variant: small-caps;'>Range</span></b>. If the weapon was adjacent to the Hatchet, it may immediately force one adjacent character to pass an <b><span style='font-variant: small-caps;'>Agility</span></b> save or be pushed <b>2 spaces</b> away from the Hatchet and take <b>4 Kinetic damage</b>. On a success, the target takes half damage and isn’t pushed.</p>"
+    "effect": "<p>The Hatchet retrieves one of its <b><span style='font-variant: small-caps;'>Thrown</span></b> weapons not used to attack this turn, regardless of <b><span style='font-variant: small-caps;'>Range</span></b>. If the weapon was adjacent to the Hatchet, it may immediately force one adjacent character to pass an <b><span style='font-variant: small-caps;'>Agility</span></b> save or be pushed <b>2 spaces</b> away from the Hatchet and take <b>4 Kinetic damage</b>. On a success, the target takes half damage and isn’t pushed.</p>"
   },
   {
     "id": "ppg_npcf_flip_kick_hatchet",
@@ -874,7 +874,7 @@
         "val": 1
       }
     ],
-    "trigger": "<p>A hostile character hits and deals damage to the Kensei while its weapon is <b>sheathed</b>.</p>",
+    "trigger": "<p>A weapon attack hits and deals damage to the Kensei while its weapon is <b>sheathed</b>.</p>",
     "effect": "<p>The Kensei first <b>unsheathes</b> its weapon and gains <b><span style='font-variant: small-caps;'>Overshield</span></b> {3/5/7}.</p>"
   },
   {
@@ -1885,7 +1885,7 @@
         "id": "tg_quick_action"
       }
     ],
-    "effect": "<p>As a <b>quick action</b>, deploy two sections of <b>hard cover</b> (<b>Line 3</b>, <b>Size 2</b>, {10/15/20} <b>HP</b>), within <b>Range 3</b>. <b>Tech attacks</b> and <b><span style='font-variant: small-caps;'>Seeking</span></b> do not ignore this cover.</p>"
+    "effect": "<p>As a <b>quick action</b>, deploy one section of <b>hard cover</b> (<b>Line 3</b>, <b>Size 2</b>, {10/15/20} <b>HP</b>), within <b>Range 3</b>. <b>Tech attacks</b> and <b><span style='font-variant: small-caps;'>Seeking</span></b> do not ignore this cover.</p>"
   },
   {
     "id": "ppg_npcf_shardsplitter_shotgun_prism",
@@ -2071,7 +2071,7 @@
         "id": "tg_quick_action"
       }
     ],
-    "effect": "<p>The Torrent <b>pushes</b> itself <b>5 spaces</b> in a straight line, ignoring obstructions. Hostile characters that the Torrent passes through must make a <b><span style='font-variant: small-caps;'>Hull</span></b> save or be <b>pushed</b> to a space adjacent to the Torrent at the end of its movement.</p>"
+    "effect": "<p>The Torrent <b>pushes</b> itself <b>5 spaces</b> in a straight line, ignoring smaller obstructions. Hostile characters that the Torrent passes through must make a <b><span style='font-variant: small-caps;'>Hull</span></b> save or be <b>pushed</b> to a space adjacent to the Torrent at the end of its movement.</p>"
   },
   {
     "id": "ppg_npcf_scalding_greywash_torrent",
@@ -2339,7 +2339,7 @@
   },
   {
     "id": "ppg_npcf_carcass_bunker_vulture",
-    "name": "“Carcass” Bunker",
+    "name": "“Carcass” Reclamation Bunker",
     "origin": {
       "type": "Class",
       "name": "Vulture",
@@ -2359,7 +2359,7 @@
         "id": "tg_quick_action"
       }
     ],
-    "effect": "<p><b>“Carcass” Bunker (Size </b>4<b>, HP </b>{15/20/25}<b>, Evasion </b>5<b>, E-Defense </b>5<b>, Tags: </b><i>Deployable</i><b>)</b></p><p>Destroy an adjacent <b>wreckage</b> to deploy this bunker in a <b>Burst 2</b> area centered upon it. Characters completely within the affected area gain <b>hard cover</b> against all attacks made from outside the bunker.</p>"
+    "effect": "<p><b>“Carcass” Reclamation Bunker (HP </b>{15/20/25}<b>, Evasion </b>5<b>, E-Defense </b>5<b>, Tags: </b><i>Deployable</i><b>)</b></p><p>Destroy an adjacent <b>wreckage</b> to deploy a <b>Burst 2</b> bunker <b>4 spaces high</b> centered upon it. Characters completely within the affected area gain <b>hard cover</b> against all attacks made from outside the bunker.</p>"
   },
   {
     "id": "ppg_npcf_zeal_zealot",
@@ -3591,7 +3591,7 @@
         "id": "tg_full_action"
       }
     ],
-    "effect": "<p>The Hatchet may make one <b><span style='font-variant: small-caps;'>Thrown</span></b> weapon attack against each hostile character in <b><span style='font-variant: small-caps;'>Range</span></b> of its <b><span style='font-variant: small-caps;'>Thrown</span></b> weapons, without needing to retrieve each weapon. Each attack creates a copy of the weapon that lands adjacent to the target’s space.</p><p>Until the end of the Hatchet’s next turn, it may take a second <b>full action</b> to <b>teleport</b> adjacent to one of its <b><span style='font-variant: small-caps;'>Thrown</span></b> weapons, then retrieve all its <b><span style='font-variant: small-caps;'>Thrown</span></b> weapons. All hostile characters adjacent to a retrieved weapon must pass an <b><span style='font-variant: small-caps;'>Agility</span></b> save or be pushed <b>2 spaces</b> in any direction and take {6/8/10} Kinetic damage. On a success, the target takes half damage and isn’t pushed.</p>"
+    "effect": "<p>The Hatchet may make one <b><span style='font-variant: small-caps;'>Thrown</span></b> weapon attack against each hostile character in <b><span style='font-variant: small-caps;'>Range</span></b> of its <b><span style='font-variant: small-caps;'>Thrown</span></b> weapons, without needing to retrieve each weapon. Each attack creates a copy of the weapon that lands adjacent to the target’s space.</p><p>Until the end of the Hatchet’s next turn, it may take a second <b>full action</b> to <b>teleport</b> adjacent to one of its <b><span style='font-variant: small-caps;'>Thrown</span></b> weapons, then retrieve all its <b><span style='font-variant: small-caps;'>Thrown</span></b> weapons. All hostile characters adjacent to a retrieved weapon must pass an <b><span style='font-variant: small-caps;'>Agility</span></b> save or be pushed <b>2 spaces</b> in any direction and take {6/8/10} Kinetic damage. On a success, the target takes half damage and isn’t pushed. This counts as damage from <b><span style='font-variant: small-caps;'>Cleaving Retrieval</span></b>.</p>"
   },
   {
     "id": "ppg_npcf_mortal_draw_kensei",
