@@ -2567,7 +2567,7 @@
   },
   {
     "id": "ppg_npcf_anomaly_systems_and_traits_anomaly",
-    "name": "Anomaly Systems and Traits",
+    "name": "Anomaly Features",
     "origin": {
       "type": "Template",
       "name": "Anomaly",
@@ -2576,7 +2576,7 @@
     "locked": false,
     "type": "Trait",
     "tags": [],
-    "effect": "<p>The Anomaly chooses one optional feature from the <b>Anomaly Systems and Traits</b> or <b>Exotic Systems and Traits</b> (<i>Lancer</i>, p. 327).</p>"
+    "effect": "<p>The Anomaly chooses one optional feature from this template's <b>Optional Features</b> or the <b>Exotic Systems and Traits</b> (<i>Lancer</i>, p. 327).</p>"
   },
   {
     "id": "ppg_npcf_extrude_knife_anomaly",
@@ -3298,7 +3298,7 @@
   },
   {
     "id": "ppg_npcf_brigand_systems_and_traits_brigand",
-    "name": "Brigand Systems and Traits",
+    "name": "Brigand Features",
     "origin": {
       "type": "Template",
       "name": "Brigand",
@@ -3307,7 +3307,7 @@
     "locked": false,
     "type": "Trait",
     "tags": [],
-    "effect": "<p>When choosing optional systems, the Brigand can also choose from the <b>Brigand Systems and Traits</b> and <b>Pirate Systems and Traits</b> (<i>Lancer</i>, p. 328).</p>"
+    "effect": "<p>When choosing optional systems, the Brigand may choose from this template's <b>Optional Features</b> and the <b>Pirate Systems and Traits</b> (<i>Lancer</i>, p. 328).</p>"
   },
   {
     "id": "ppg_npcf_finishing_blow_brigand",
