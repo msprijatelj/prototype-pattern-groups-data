@@ -3049,7 +3049,7 @@
     "locked": false,
     "type": "Trait",
     "tags": [],
-    "effect": "<p>While the Anomaly is on the battlefield, when a hostile character <b>teleports</b>, that character takes <b>Energy AP damage</b> equal to the distance teleported and <b>Heat</b> equal to half that amount.</p><p>When the Anomaly inflicts <b>involuntary movement</b>, it may treat that movement as <b>teleportation</b>.</p>"
+    "effect": "<p>While the Anomaly is on the battlefield, when a hostile character <b>teleports</b>, that character must pass an <b><span style='font-variant: small-caps;'>Engineering</span></b> save or become <b><span style='font-variant: small-caps;'>Shredded</span></b> and <b><span style='font-variant: small-caps;'>Impaired</span></b> until the end of their next turn.</p><p>When the Anomaly inflicts <b>involuntary movement</b>, it may treat that movement as <b>teleportation</b>.</p>"
   },
   {
     "id": "ppg_npcf_sympathetic_resonance_anomaly",
