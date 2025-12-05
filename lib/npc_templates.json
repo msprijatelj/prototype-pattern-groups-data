@@ -97,5 +97,39 @@
     ],
     "optional_features": [],
     "power": 0
+  },
+    {
+    "id": "ppg_npct_prototype",
+    "name": "Prototype",
+    "description": "<i><p>Flavor goes here.</p></i><p>Anomalies are esoteric and strange. Brigands are scrappy and unscrupulous. <b>Prototypes</b> are novel and untested. They are the blood on the bleeding edge, fielding technology refined enough to be mass-produced but nascent enough to not have a pattern group assigned to it. This nebulous designation arms <b>Prototypes</b> with the element of surprise — at least until their <b><span style='font-variant: small-caps;'>Scans</span></b> can be added to a database.</p>",
+    "base_features": [
+      "ppg_npcf_novel_technology_prototype",
+      "ppg_npcf_prototype_features_prototype"
+    ],
+    "optional_features": [
+      "ppg_npcf_auntie_augmented_minigun_prototype",
+      "ppg_npcf_bleeding_edge_prototype",
+      "ppg_npcf_multi_harpoon_shotgun_prototype",
+      "ppg_npcf_thunder_lance_prototype",
+      "ppg_npcf_antigravity_uppercut_prototype",
+      "ppg_npcf_chain_surge_prototype",
+      "ppg_npcf_doomscroll_prototype",
+      "ppg_npcf_xnopyt_potato_prototype",
+      "ppg_npcf_emp_shielding_prototype",
+      "ppg_npcf_high_friction_treads_prototype",
+      "ppg_npcf_ice_cracker_prototype",
+      "ppg_npcf_infoscramble_cloak_prototype",
+      "ppg_npcf_lightning_rod_prototype",
+      "ppg_npcf_overclocked_prototype",
+      "ppg_npcf_specialized_prototype",
+      "ppg_npcf_rebaked_bioplating_prototype",
+      "ppg_npcf_roko_class_nhp_prototype",
+      "ppg_npcf_directional_hardlight_prototype",
+      "ppg_npcf_locomotion_mode_shift_prototype",
+      "ppg_npcf_raptor_point_defense_drone_prototype",
+      "ppg_npcf_slip_drive_prototype",
+      "ppg_npcf_faraday_countermeasures_prototype"
+    ],
+    "power": 20
   }
 ]

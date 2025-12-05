@@ -3550,6 +3550,208 @@
     }
   },
   {
+    "id": "ppg_npcf_novel_technology_prototype",
+    "name": "Novel Technology",
+    "origin": {
+      "type": "Template",
+      "name": "Prototype",
+      "base": true
+    },
+    "locked": false,
+    "type": "Trait",
+    "tags": [],
+    "effect": "<p>Attacks against the Prototype have <b>+1 Difficulty</b> until a character <b><span style='font-variant: small-caps;'>Scans</span></b> them or an identical character (i.e., an NPC with the same class, templates, and features belonging to the same faction).</p>"
+  },
+  {
+    "id": "ppg_npcf_prototype_features_prototype",
+    "name": "Prototype Features",
+    "origin": {
+      "type": "Template",
+      "name": "Prototype",
+      "base": true
+    },
+    "locked": false,
+    "type": "Trait",
+    "tags": [],
+    "effect": "<p>When choosing optional features, the Prototype can choose from this template’s Optional Features as well as features from any other NPC class.</p>"
+  },
+  {
+    "id": "ppg_npcf_auntie_augmented_minigun_prototype",
+    "name": "AUNTIE-Augmented Minigun",
+    "origin": {
+      "type": "Template",
+      "name": "Prototype",
+      "base": false
+    },
+    "locked": false,
+    "type": "Weapon",
+    "weapon_type": "Superheavy Cannon",
+    "tags": [
+      {
+        "id": "tg_ai"
+      },
+      {
+        "id": "tg_reliable",
+        "val": "{2/3/4}"
+      },
+      {
+        "id": "tg_seeking"
+      },
+      {
+        "id": "tg_smart"
+      }
+    ],
+    "attack_bonus": [
+      1,
+      2,
+      3
+    ],
+    "range": [
+      {
+        "type": "Range",
+        "val": 8
+      }
+    ],
+    "damage": [
+      {
+        "type": "Kinetic",
+        "damage": [
+          8,
+          12,
+          16
+        ]
+      }
+    ],
+    "effect": "<p>The Prototype gains the <b>AI</b> tag, but cannot <b>cascade</b>. On the same turn as attacking with this weapon, the Prototype may take one of the following actions as a <b>free action</b> once before the end of the turn: <b><span style='font-variant: small-caps;'>Boost</span></b>, <b><span style='font-variant: small-caps;'>Grapple</span></b>, <b><span style='font-variant: small-caps;'>Hide</span></b>, or <b><span style='font-variant: small-caps;'>Ram</span></b>.</p>"
+  },
+  {
+    "id": "ppg_npcf_bleeding_edge_prototype",
+    "name": "Bleeding Edge",
+    "origin": {
+      "type": "Template",
+      "name": "Prototype",
+      "base": false
+    },
+    "locked": false,
+    "type": "Weapon",
+    "weapon_type": "Main Melee",
+    "tags": [],
+    "attack_bonus": [
+      1,
+      2,
+      3
+    ],
+    "accuracy": [
+      1,
+      1,
+      1
+    ],
+    "range": [
+      {
+        "type": "Threat",
+        "val": 2
+      }
+    ],
+    "damage": [
+      {
+        "type": "Kinetic",
+        "damage": [
+          6,
+          8,
+          10
+        ]
+      }
+    ],
+    "effect": "<p><b>On Critical Hit:</b> The target begins to “bleed” (whether that be blood, fuel, or another fluid). At the end of each of their turns, they must pass an <b><span style='font-variant: small-caps;'>Engineering</span></b> save or take {3/4/5} Kinetic AP damage. This effect lasts until the target succeeds on the save or <b><span style='font-variant: small-caps;'>Stabilizes</span></b> to clear <b>Burn</b>.</p>"
+  },
+  {
+    "id": "ppg_npcf_multi_harpoon_shotgun_prototype",
+    "name": "Multi-Harpoon Shotgun",
+    "origin": {
+      "type": "Template",
+      "name": "Prototype",
+      "base": false
+    },
+    "locked": false,
+    "type": "Weapon",
+    "weapon_type": "Heavy CQB",
+    "tags": [
+      {
+        "id": "tg_loading"
+      }
+    ],
+    "attack_bonus": [
+      1,
+      2,
+      3
+    ],
+    "range": [
+      {
+        "type": "Cone",
+        "val": 5
+      }
+    ],
+    "damage": [
+      {
+        "type": "Kinetic",
+        "damage": [
+          4,
+          5,
+          6
+        ]
+      }
+    ],
+    "on_hit": "<p>The target must make a <b><span style='font-variant: small-caps;'>Hull</span></b> save or be pulled directly adjacent to the attacker (or as close as possible) and <b><span style='font-variant: small-caps;'>Grappled</span></b> by the attacker.</p>"
+  },
+  {
+    "id": "ppg_npcf_thunder_lance_prototype",
+    "name": "Thunder Lance",
+    "origin": {
+      "type": "Template",
+      "name": "Prototype",
+      "base": false
+    },
+    "locked": false,
+    "type": "Weapon",
+    "weapon_type": "Heavy Melee",
+    "tags": [
+      {
+        "id": "tg_heat_self",
+        "val": 2
+      }
+    ],
+    "attack_bonus": [
+      1,
+      2,
+      3
+    ],
+    "range": [
+      {
+        "type": "Threat",
+        "val": 1
+      }
+    ],
+    "damage": [
+      {
+        "type": "Energy",
+        "damage": [
+          6,
+          8,
+          10
+        ]
+      },
+      {
+        "type": "Heat",
+        "damage": [
+          2,
+          2,
+          2
+        ]
+      }
+    ],
+    "on_hit": "<p>As a <b>full action</b>, the Prototype may <b><span style='font-variant: small-caps;'>Boost</span></b> in a straight line towards a hostile character and <b><span style='font-variant: small-caps;'>Skirmish</span></b> against them with this weapon, ignoring engagement. On a hit, the Prototype and the target continue moving in the same direction together for a number of spaces equal to the Prototype’s remaining <b><span style='font-variant: small-caps;'>Boost</span></b> movement.</p>"
+  },
+  {
     "id": "ppg_npcf_tectonic_wave_anchor",
     "name": "Tectonic Wave (Ultra)",
     "origin": {
