@@ -3339,6 +3339,27 @@
     "effect": "<p>The Brigand’s <b>critical hits</b> deal <b>2 Heat</b> against targets with at least <b>1 CP</b>.</p>"
   },
   {
+    "id": "ppg_npcf_shredding_claws_brigand",
+    "name": "Shredding Claws",
+    "origin": {
+      "type": "Template",
+      "name": "Brigand",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "tags": [
+      {
+        "id": "tg_recharge",
+        "val": 6
+      },
+      {
+        "id": "tg_full_action"
+      }
+    ],
+    "effect": "<p>The Brigand forces an adjacent character to make a <b><span style='font-variant: small-caps;'>Hull</span></b> save. On a success, the target is <b><span style='font-variant: small-caps;'>Shredded</span></b> until the end of their next turn. On failure, the target suffers an effect depending on its character tag:<ul><li>If the target is a <b>mech</b>, <b>vehicle</b>, or <b>ship</b>, on a failed save the target’s cockpit is ripped open, allowing its pilot or crew to be targeted and affected by outside sources. The target can reseal the cockpit as a <b>full action</b>.</li><li>If the target is a <b>pilot</b> or <b>biological</b>, they are <b><span style='font-variant: small-caps;'>Grappled</span></b> by the Brigand. A mounted character is forced to immediately exit their mech, vehicle, or ship as though <b><span style='font-variant: small-caps;'>Dismounting</span></b>.</li></ul></p>"
+  },
+  {
     "id": "ppg_npcf_vandalize_brigand",
     "name": "Vandalize",
     "origin": {
