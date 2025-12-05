@@ -37,6 +37,10 @@
     "tags": [
       {
         "id": "tg_arcing"
+      },
+      {
+        "id": "tg_knockback",
+        "val": 3
       }
     ],
     "attack_bonus": [
@@ -69,8 +73,7 @@
         ]
       }
     ],
-    "effect": "<p><b>On Attack:</b> Choose to either <b>Attract</b> or <b>Repulse</b>.</p>",
-    "on_hit": "<p>The target is pulled <b>3 spaces</b> directly towards the Anchor (<b>Attract</b>) or pushed <b>3 spaces</b> directly away from the Anchor (<b>Repulse</b>) until they hit an obstruction. If the target collides with an obstruction or mech, they stop moving and must pass a <b><span style='font-variant: small-caps;'>Hull</span></b> save or be knocked <b><span style='font-variant: small-caps;'>Prone</span></b>.</p>"
+    "effect": "<p>If this weapon’s <b><span style='font-variant: small-caps;'>Knockback</span></b> causes a target to collide with an obstruction or mech, they stop moving and become <b><span style='font-variant: small-caps;'>Impaired</span></b> until the end of their next turn.</p>"
   },
   {
     "id": "ppg_npcf_ponderous_anchor",
@@ -127,10 +130,10 @@
         "val": 6
       },
       {
-        "id": "tg_full_action"
+        "id": "tg_quick_action"
       }
     ],
-    "effect": "<p>The Anchor creates a <b>Line 8</b> path of gravitic energy. All characters within the path or above it must pass a <b><span style='font-variant: small-caps;'>Hull</span></b> save or first be <b><span style='font-variant: small-caps;'>Immobilized</span></b> until the end of their next turn and then knocked <b><span style='font-variant: small-caps;'>Prone</span></b>.</p>"
+    "effect": "<p>The Anchor creates a <b>Burst 2</b> area of gravitic energy. Hostile characters in the area or directly above it must pass a <b><span style='font-variant: small-caps;'>Hull</span></b> save or first be <b><span style='font-variant: small-caps;'>Immobilized</span></b> until the end of their next turn and then knocked <b><span style='font-variant: small-caps;'>Prone</span></b>.</p>"
   },
   {
     "id": "ppg_npcf_magnetic_reversal_anchor",
@@ -154,7 +157,7 @@
         "id": "tg_reaction"
       }
     ],
-    "trigger": "<p>An allied character in the Anchor’s <b><span style='font-variant: small-caps;'>Sensors</span></b> takes damage from a <b>ranged attack</b>.</p>",
+    "trigger": "<p>An allied character in the Anchor’s <b><span style='font-variant: small-caps;'>Sensors</span></b> takes damage from a <b>melee attack</b>.</p>",
     "effect": "<p>The allied character gains <b><span style='font-variant: small-caps;'>Resistance</span> to all damage from the attack</b>, and the attacker must pass a <b><span style='font-variant: small-caps;'>Hull</span></b> save or be pushed <b>3 spaces</b> away from their target and knocked <b><span style='font-variant: small-caps;'>Prone</span></b>.</p>"
   },
   {
