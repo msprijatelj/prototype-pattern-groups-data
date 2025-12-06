@@ -128,7 +128,8 @@
       "ppg_npcf_locomotion_mode_shift_prototype",
       "ppg_npcf_raptor_point_defense_drone_prototype",
       "ppg_npcf_slip_drive_prototype",
-      "ppg_npcf_faraday_countermeasures_prototype"
+      "ppg_npcf_faraday_countermeasures_prototype",
+      "ppg_npcf_firewall_molt_prototype"
     ],
     "power": 20
   }
