@@ -5,7 +5,7 @@
     "role": "defender",
     "info": {
       "flavor": "<p>Fielding highly experimental gravitomagnetic LODESTONE technology, Anchor-class mechs bend the trajectories of conventional arms away from allies and towards themselves. Their tremendous bulk and sweeping gravitic weaponry warp the battlefield around their dominating presence.</p>",
-      "tactics": "<p>The Anchor positions its <b><span style='font-variant: small-caps;'>Ponderous</span></b> frame in a location where <b><span style='font-variant: small-caps;'>Lodestone</span></b> interferes with enemy artillery. Its <b><span style='font-variant: small-caps;'>Gravity Cannon</span></b> disrupts advancing opponents. The Anchor may be durable, but it’s slow and easy to hit, and it strains its <b><span style='font-variant: small-caps;'>Heat Cap</span></b> to maintain its defenses.</p>"
+      "tactics": "<p>The Anchor positions its <b><span style='font-variant: small-caps;'>Ponderous</span></b> frame in a location where <b><span style='font-variant: small-caps;'>Lodestone</span></b> interferes with enemy artillery. Its <b><span style='font-variant: small-caps;'>Gravity Cannon</span></b> disrupts and <b><span style='font-variant: small-caps;'>Impairs</span></b> advancing opponents. The Anchor may be durable, but it is slow and easy to hit, and it strains its <b><span style='font-variant: small-caps;'>Heat Cap</span></b> to maintain its defenses.</p>"
     },
     "stats": {
       "armor": [
@@ -443,9 +443,9 @@
         8
       ],
       "speed": [
-        4,
-        4,
-        4
+        5,
+        5,
+        5
       ],
       "sensor": [
         10,

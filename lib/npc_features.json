@@ -37,6 +37,10 @@
     "tags": [
       {
         "id": "tg_arcing"
+      },
+      {
+        "id": "tg_knockback",
+        "val": 3
       }
     ],
     "attack_bonus": [
@@ -69,8 +73,7 @@
         ]
       }
     ],
-    "effect": "<p><b>On Attack:</b> Choose to either <b>Attract</b> or <b>Repulse</b>.</p>",
-    "on_hit": "<p>The target is pulled <b>3 spaces</b> directly towards the Anchor (<b>Attract</b>) or pushed <b>3 spaces</b> directly away from the Anchor (<b>Repulse</b>) until they hit an obstruction. If the target collides with an obstruction or mech, they stop moving and must pass a <b><span style='font-variant: small-caps;'>Hull</span></b> save or be knocked <b><span style='font-variant: small-caps;'>Prone</span></b>.</p>"
+    "effect": "<p>If this weapon’s <b><span style='font-variant: small-caps;'>Knockback</span></b> causes a target to collide with an obstruction or mech, they stop moving and become <b><span style='font-variant: small-caps;'>Impaired</span></b> until the end of their next turn.</p>"
   },
   {
     "id": "ppg_npcf_ponderous_anchor",
@@ -127,10 +130,10 @@
         "val": 6
       },
       {
-        "id": "tg_full_action"
+        "id": "tg_quick_action"
       }
     ],
-    "effect": "<p>The Anchor creates a <b>Line 8</b> path of gravitic energy. All characters within the path or above it must pass a <b><span style='font-variant: small-caps;'>Hull</span></b> save or first be <b><span style='font-variant: small-caps;'>Immobilized</span></b> until the end of their next turn and then knocked <b><span style='font-variant: small-caps;'>Prone</span></b>.</p>"
+    "effect": "<p>The Anchor creates a <b>Burst 2</b> area of gravitic energy. Hostile characters in the area or directly above it must pass a <b><span style='font-variant: small-caps;'>Hull</span></b> save or first be <b><span style='font-variant: small-caps;'>Immobilized</span></b> until the end of their next turn and then knocked <b><span style='font-variant: small-caps;'>Prone</span></b>.</p>"
   },
   {
     "id": "ppg_npcf_magnetic_reversal_anchor",
@@ -154,7 +157,7 @@
         "id": "tg_reaction"
       }
     ],
-    "trigger": "<p>An allied character in the Anchor’s <b><span style='font-variant: small-caps;'>Sensors</span></b> takes damage from a <b>ranged attack</b>.</p>",
+    "trigger": "<p>An allied character in the Anchor’s <b><span style='font-variant: small-caps;'>Sensors</span></b> takes damage from a <b>melee attack</b>.</p>",
     "effect": "<p>The allied character gains <b><span style='font-variant: small-caps;'>Resistance</span> to all damage from the attack</b>, and the attacker must pass a <b><span style='font-variant: small-caps;'>Hull</span></b> save or be pushed <b>3 spaces</b> away from their target and knocked <b><span style='font-variant: small-caps;'>Prone</span></b>.</p>"
   },
   {
@@ -581,7 +584,7 @@
         "id": "tg_quick_action"
       }
     ],
-    "effect": "<p>Retrieve a <b><span style='font-variant: small-caps;'>Thrown</span></b> weapon not used to attack this turn, regardless of <b><span style='font-variant: small-caps;'>Range</span></b>. If the weapon was adjacent to the Hatchet, it may immediately force one adjacent character to pass an <b><span style='font-variant: small-caps;'>Agility</span></b> save or be pushed <b>2 spaces</b> away from the Hatchet and take <b>4 Kinetic damage</b>. On a success, the target takes half damage and isn’t pushed.</p>"
+    "effect": "<p>The Hatchet retrieves one of its <b><span style='font-variant: small-caps;'>Thrown</span></b> weapons not used to attack this turn, regardless of <b><span style='font-variant: small-caps;'>Range</span></b>. If the weapon was adjacent to the Hatchet, it may immediately force one adjacent character to pass an <b><span style='font-variant: small-caps;'>Agility</span></b> save or be pushed <b>2 spaces</b> away from the Hatchet and take <b>4 Kinetic damage</b>. On a success, the target takes half damage and isn’t pushed.</p>"
   },
   {
     "id": "ppg_npcf_flip_kick_hatchet",
@@ -751,7 +754,7 @@
       }
     ],
     "trigger": "<p>A character targets the Hatchet with an action with the <b><span style='font-variant: small-caps;'>Thrown</span></b>, <b><span style='font-variant: small-caps;'>Arcing</span></b>, <b><span style='font-variant: small-caps;'>Seeking</span></b>, or <b><span style='font-variant: small-caps;'>Grenade</span></b> tag.</p>",
-    "effect": "<p>The Hatchet negates the triggering action and copies it, targeting the triggering character and with an attack bonus of {+2/+4/+6} and its own <b><span style='font-variant: small-caps;'>Save Target</span></b>.</p><p>If the action would have affected an area, the area of the copied action must include the triggering character. The copied action ignores any range restrictions upon the original action.</p>"
+    "effect": "<p>The Hatchet interrupts the triggering action, changing the action’s target from itself to the triggering character, regardless of targeting restrictions or <b><span style='font-variant: small-caps;'>Range</span></b>. If the action would have affected an area, the Hatchet moves the area of the action to include the triggering character and exclude itself (if possible).</p>"
   },
   {
     "id": "ppg_npcf_minuano_kinetic_saber_kensei",
@@ -874,7 +877,7 @@
         "val": 1
       }
     ],
-    "trigger": "<p>A hostile character hits and deals damage to the Kensei while its weapon is <b>sheathed</b>.</p>",
+    "trigger": "<p>A weapon attack hits and deals damage to the Kensei while its weapon is <b>sheathed</b>.</p>",
     "effect": "<p>The Kensei first <b>unsheathes</b> its weapon and gains <b><span style='font-variant: small-caps;'>Overshield</span></b> {3/5/7}.</p>"
   },
   {
@@ -1020,16 +1023,11 @@
     "locked": false,
     "type": "Weapon",
     "weapon_type": "Heavy Melee",
-    "tags": [
-      {
-        "id": "tg_knockback",
-        "val": 2
-      }
-    ],
+    "tags": [],
     "attack_bonus": [
+      1,
       2,
-      4,
-      6
+      3
     ],
     "accuracy": [
       1,
@@ -1052,7 +1050,6 @@
         ]
       }
     ],
-    "effect": "",
     "on_hit": "<p>The target gains <b><span style='font-variant: small-caps;'>Lock On</span></b>. If they are affected by <b><span style='font-variant: small-caps;'>Compelled Duel</span></b>, they are also <b><span style='font-variant: small-caps;'>Shredded</span></b> until the end of their next turn.</p>"
   },
   {
@@ -1104,7 +1101,7 @@
         "id": "tg_quick_action"
       }
     ],
-    "effect": "<p><b>Hero’s Banner (Size </b>1/2<b>, HP </b>{15/20/25}<b>, Evasion </b>10<b>, E-Defense </b>10<b>, Tags: </b><i>Deployable, Shield</i><b>)</b></p><p>The Knight deploys a banner that projects a <b>Burst 3</b> area in an adjacent space. Allied characters within the area gain <b><span style='font-variant: small-caps;'>Resistance</span> to all damage</b>. If this banner is destroyed, allied characters in the area are <b><span style='font-variant: small-caps;'>Shredded</span></b> until the end of their next turn.</p>"
+    "effect": "<p><b>Hero’s Banner (Size </b>1/2<b>, HP </b>{12/15/18}<b>, Evasion </b>10<b>, E-Defense </b>10<b>, Tags: </b><i>Deployable, Shield</i><b>)</b></p><p>The Knight deploys a banner that projects a <b>Burst 3</b> area in an adjacent space. Allied characters within the area gain <b><span style='font-variant: small-caps;'>Resistance</span> to all damage</b>. If this banner is destroyed, allied characters in the area are <b><span style='font-variant: small-caps;'>Shredded</span></b> until the end of their next turn.</p>"
   },
   {
     "id": "ppg_npcf_sweeping_blows_knight",
@@ -1117,7 +1114,7 @@
     "locked": false,
     "type": "Trait",
     "tags": [],
-    "effect": "<p>When attacking with the <b><span style='font-variant: small-caps;'>Champion’s Greatsword</span></b>, the Knight may choose to attack in a <b>Cone 3</b> area.</p>"
+    "effect": "<p>The <b><span style='font-variant: small-caps;'>Champion’s Greatsword</span></b> may attack in a <b>Cone 3</b> area and gains <b><span style='font-variant: small-caps;'>Knockback</span> 2</b>.</p>"
   },
   {
     "id": "ppg_npcf_punishing_blow_knight",
@@ -1344,7 +1341,7 @@
       2,
       3
     ],
-    "effect": "<p>The Mesmerist makes a <b>tech attack</b> against a character within <b><span style='font-variant: small-caps;'>Sensors</span></b>. On a hit, while the Mesmerist is within the target’s line of sight, they may only draw line of sight to the Mesmerist’s spaces until the end of their next turn.</p>"
+    "effect": "<p>The Mesmerist makes a <b>tech attack</b> against a character within <b><span style='font-variant: small-caps;'>Sensors</span></b>. On a hit, while the Mesmerist is within the target’s line of sight, their hostile actions must include the Mesmerist as a target until the end of their next turn.</p>"
   },
   {
     "id": "ppg_npcf_metafold_riposte_mesmerist",
@@ -1666,7 +1663,7 @@
         "id": "tg_quick_tech"
       }
     ],
-    "effect": "<p><b>Destroy</b> a controlled <b><span style='font-variant: small-caps;'>Drone</span></b> or allied <b><span style='font-variant: small-caps;'>Grunt</span></b> in <b><span style='font-variant: small-caps;'>Sensors</span></b> not deployed this round for these effects:</p><p><ul><li>Allied characters adjacent to the target gain <b><span style='font-variant: small-caps;'>Overshield</span></b> {3/5/7} and clear <b>one condition</b>.</li><li>Hostile characters adjacent to the target gain <b><span style='font-variant: small-caps;'>Lock On</span></b> and must pass an <b><span style='font-variant: small-caps;'>Agility</span></b> save or become <b><span style='font-variant: small-caps;'>Jammed</span></b> until the end of their next turn.</li></ul></p>"
+    "effect": "<p><b>Destroy</b> a controlled <b><span style='font-variant: small-caps;'>Drone</span></b> or allied <b><span style='font-variant: small-caps;'>Grunt</span></b> in <b><span style='font-variant: small-caps;'>Sensors</span></b> not deployed this round for these effects:</p><p><ul><li>Allies adjacent to the target gain <b><span style='font-variant: small-caps;'>Overshield</span></b> {3/5/7} and clear <b><span style='font-variant: small-caps;'>Impaired</span></b> and <b><span style='font-variant: small-caps;'>Lock On</span></b>.</li><li>Hostile characters adjacent to the target gain <b><span style='font-variant: small-caps;'>Lock On</span></b> and must pass an <b><span style='font-variant: small-caps;'>Agility</span></b> save or become <b><span style='font-variant: small-caps;'>Jammed</span></b> until the end of their next turn.</li></ul></p>"
   },
   {
     "id": "ppg_npcf_jealous_flock_occultist",
@@ -1831,7 +1828,7 @@
         ]
       }
     ],
-    "on_hit": "<p>If the Prism consumed <b><span style='font-variant: small-caps;'>Lock On</span></b> against the target, while the Prism is within the target’s line of sight, they may only draw line of sight to the Prism’s spaces until the end of their next turn.</p>",
+    "on_hit": "<p>If the Prism consumed <b><span style='font-variant: small-caps;'>Lock On</span></b> against the target, while the Prism is within the target’s line of sight, their hostile actions must include the Prism as a target until the end of their next turn.</p>",
     "effect": "<p>This weapon does not affect allies.</p>"
   },
   {
@@ -1885,7 +1882,7 @@
         "id": "tg_quick_action"
       }
     ],
-    "effect": "<p>As a <b>quick action</b>, deploy two sections of <b>hard cover</b> (<b>Line 3</b>, <b>Size 2</b>, {10/15/20} <b>HP</b>), within <b>Range 3</b>. <b>Tech attacks</b> and <b><span style='font-variant: small-caps;'>Seeking</span></b> do not ignore this cover.</p>"
+    "effect": "<p>As a <b>quick action</b>, deploy one section of <b>hard cover</b> (<b>Line 3</b>, <b>Size 2</b>, <b>15 HP</b>), within <b>Range 3</b>. <b>Tech attacks</b> and <b><span style='font-variant: small-caps;'>Seeking</span></b> do not ignore this cover.</p>"
   },
   {
     "id": "ppg_npcf_shardsplitter_shotgun_prism",
@@ -2071,7 +2068,7 @@
         "id": "tg_quick_action"
       }
     ],
-    "effect": "<p>The Torrent <b>pushes</b> itself <b>5 spaces</b> in a straight line, ignoring obstructions. Hostile characters that the Torrent passes through must make a <b><span style='font-variant: small-caps;'>Hull</span></b> save or be <b>pushed</b> to a space adjacent to the Torrent at the end of its movement.</p>"
+    "effect": "<p>The Torrent <b>pushes</b> itself <b>5 spaces</b> in a straight line, ignoring smaller obstructions. Hostile characters that the Torrent passes through must make a <b><span style='font-variant: small-caps;'>Hull</span></b> save or be <b>pushed</b> to a space adjacent to the Torrent at the end of its movement.</p>"
   },
   {
     "id": "ppg_npcf_scalding_greywash_torrent",
@@ -2339,7 +2336,7 @@
   },
   {
     "id": "ppg_npcf_carcass_bunker_vulture",
-    "name": "“Carcass” Bunker",
+    "name": "“Carcass” Reclamation Bunker",
     "origin": {
       "type": "Class",
       "name": "Vulture",
@@ -2359,7 +2356,7 @@
         "id": "tg_quick_action"
       }
     ],
-    "effect": "<p><b>“Carcass” Bunker (Size </b>4<b>, HP </b>{15/20/25}<b>, Evasion </b>5<b>, E-Defense </b>5<b>, Tags: </b><i>Deployable</i><b>)</b></p><p>Destroy an adjacent <b>wreckage</b> to deploy this bunker in a <b>Burst 2</b> area centered upon it. Characters completely within the affected area gain <b>hard cover</b> against all attacks made from outside the bunker.</p>"
+    "effect": "<p><b>“Carcass” Reclamation Bunker (HP </b>{15/20/25}<b>, Evasion </b>5<b>, E-Defense </b>5<b>, Tags: </b><i>Deployable</i><b>)</b></p><p>Destroy an adjacent <b>wreckage</b> to deploy a <b>Burst 2</b> bunker <b>4 spaces high</b> centered upon it. Characters completely within the affected area gain <b>hard cover</b> against all attacks made from outside the bunker.</p>"
   },
   {
     "id": "ppg_npcf_zeal_zealot",
@@ -2567,7 +2564,7 @@
   },
   {
     "id": "ppg_npcf_anomaly_systems_and_traits_anomaly",
-    "name": "Anomaly Systems and Traits",
+    "name": "Anomaly Features",
     "origin": {
       "type": "Template",
       "name": "Anomaly",
@@ -2576,7 +2573,7 @@
     "locked": false,
     "type": "Trait",
     "tags": [],
-    "effect": "<p>The Anomaly chooses one optional feature from the <b>Anomaly Systems and Traits</b> or <b>Exotic Systems and Traits</b> (<i>Lancer</i>, p. 327).</p>"
+    "effect": "<p>The Anomaly chooses one optional feature from this template's <b>Optional Features</b> or the <b>Exotic Systems and Traits</b> (<i>Lancer</i>, p. 327).</p>"
   },
   {
     "id": "ppg_npcf_extrude_knife_anomaly",
@@ -3046,7 +3043,7 @@
     "locked": false,
     "type": "Trait",
     "tags": [],
-    "effect": "<p>While the Anomaly is on the battlefield, when a hostile character <b>teleports</b>, that character takes <b>Energy AP damage</b> equal to the distance teleported and <b>Heat</b> equal to half that amount.</p><p>When the Anomaly inflicts <b>involuntary movement</b>, it may treat that movement as <b>teleportation</b>.</p>"
+    "effect": "<p>While the Anomaly is on the battlefield, when a hostile character <b>teleports</b>, that character must pass an <b><span style='font-variant: small-caps;'>Engineering</span></b> save or become <b><span style='font-variant: small-caps;'>Shredded</span></b> and <b><span style='font-variant: small-caps;'>Impaired</span></b> until the end of their next turn.</p><p>When the Anomaly inflicts <b>involuntary movement</b>, it may treat that movement as <b>teleportation</b>.</p>"
   },
   {
     "id": "ppg_npcf_sympathetic_resonance_anomaly",
@@ -3298,7 +3295,7 @@
   },
   {
     "id": "ppg_npcf_brigand_systems_and_traits_brigand",
-    "name": "Brigand Systems and Traits",
+    "name": "Brigand Features",
     "origin": {
       "type": "Template",
       "name": "Brigand",
@@ -3307,7 +3304,7 @@
     "locked": false,
     "type": "Trait",
     "tags": [],
-    "effect": "<p>When choosing optional systems, the Brigand can also choose from the <b>Brigand Systems and Traits</b> and <b>Pirate Systems and Traits</b> (<i>Lancer</i>, p. 328).</p>"
+    "effect": "<p>When choosing optional systems, the Brigand may choose from this template's <b>Optional Features</b> and the <b>Pirate Systems and Traits</b> (<i>Lancer</i>, p. 328).</p>"
   },
   {
     "id": "ppg_npcf_finishing_blow_brigand",
@@ -3334,6 +3331,27 @@
     "type": "Trait",
     "tags": [],
     "effect": "<p>The Brigand’s <b>critical hits</b> deal <b>2 Heat</b> against targets with at least <b>1 CP</b>.</p>"
+  },
+  {
+    "id": "ppg_npcf_shredding_claws_brigand",
+    "name": "Shredding Claws",
+    "origin": {
+      "type": "Template",
+      "name": "Brigand",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "tags": [
+      {
+        "id": "tg_recharge",
+        "val": 6
+      },
+      {
+        "id": "tg_full_action"
+      }
+    ],
+    "effect": "<p>The Brigand forces an adjacent character to make a <b><span style='font-variant: small-caps;'>Hull</span></b> save. On a success, the target is <b><span style='font-variant: small-caps;'>Shredded</span></b> until the end of their next turn. On failure, the target suffers an effect depending on its character tag:<ul><li>If the target is a <b>mech</b>, <b>vehicle</b>, or <b>ship</b>, on a failed save the target’s cockpit is ripped open, allowing its pilot or crew to be targeted and affected by outside sources. The target can reseal the cockpit as a <b>full action</b>.</li><li>If the target is a <b>pilot</b> or <b>biological</b>, they are <b><span style='font-variant: small-caps;'>Grappled</span></b> by the Brigand. A mounted character is forced to immediately exit their mech, vehicle, or ship as though <b><span style='font-variant: small-caps;'>Dismounting</span></b>.</li></ul></p>"
   },
   {
     "id": "ppg_npcf_vandalize_brigand",
@@ -3526,6 +3544,559 @@
     }
   },
   {
+    "id": "ppg_npcf_novel_technology_prototype",
+    "name": "Novel Technology",
+    "origin": {
+      "type": "Template",
+      "name": "Prototype",
+      "base": true
+    },
+    "locked": false,
+    "type": "Trait",
+    "tags": [],
+    "effect": "<p>Attacks against the Prototype have <b>+1 Difficulty</b> until a character <b><span style='font-variant: small-caps;'>Scans</span></b> them or an identical character (i.e., an NPC with the same class, templates, and features belonging to the same faction).</p>"
+  },
+  {
+    "id": "ppg_npcf_prototype_features_prototype",
+    "name": "Prototype Features",
+    "origin": {
+      "type": "Template",
+      "name": "Prototype",
+      "base": true
+    },
+    "locked": false,
+    "type": "Trait",
+    "tags": [],
+    "effect": "<p>When choosing optional features, the Prototype can choose from this template’s Optional Features as well as features from any other NPC class.</p>"
+  },
+  {
+    "id": "ppg_npcf_auntie_augmented_minigun_prototype",
+    "name": "AUNTIE-Augmented Minigun",
+    "origin": {
+      "type": "Template",
+      "name": "Prototype",
+      "base": false
+    },
+    "locked": false,
+    "type": "Weapon",
+    "weapon_type": "Superheavy Cannon",
+    "tags": [
+      {
+        "id": "tg_ai"
+      },
+      {
+        "id": "tg_reliable",
+        "val": "{2/3/4}"
+      },
+      {
+        "id": "tg_seeking"
+      },
+      {
+        "id": "tg_smart"
+      }
+    ],
+    "attack_bonus": [
+      1,
+      2,
+      3
+    ],
+    "range": [
+      {
+        "type": "Range",
+        "val": 8
+      }
+    ],
+    "damage": [
+      {
+        "type": "Kinetic",
+        "damage": [
+          8,
+          12,
+          16
+        ]
+      }
+    ],
+    "effect": "<p>The Prototype gains the <b>AI</b> tag, but cannot <b>cascade</b>. On the same turn as attacking with this weapon, the Prototype may take one of the following actions as a <b>free action</b> once before the end of the turn: <b><span style='font-variant: small-caps;'>Boost</span></b>, <b><span style='font-variant: small-caps;'>Grapple</span></b>, <b><span style='font-variant: small-caps;'>Hide</span></b>, or <b><span style='font-variant: small-caps;'>Ram</span></b>.</p>"
+  },
+  {
+    "id": "ppg_npcf_bleeding_edge_prototype",
+    "name": "Bleeding Edge",
+    "origin": {
+      "type": "Template",
+      "name": "Prototype",
+      "base": false
+    },
+    "locked": false,
+    "type": "Weapon",
+    "weapon_type": "Main Melee",
+    "tags": [],
+    "attack_bonus": [
+      1,
+      2,
+      3
+    ],
+    "accuracy": [
+      1,
+      1,
+      1
+    ],
+    "range": [
+      {
+        "type": "Threat",
+        "val": 2
+      }
+    ],
+    "damage": [
+      {
+        "type": "Kinetic",
+        "damage": [
+          6,
+          8,
+          10
+        ]
+      }
+    ],
+    "effect": "<p><b>On Critical Hit:</b> The target begins to “bleed” (whether that be blood, fuel, or another fluid). At the end of each of their turns, they must pass an <b><span style='font-variant: small-caps;'>Engineering</span></b> save or take {3/4/5} <b>Kinetic AP damage</b>. This effect lasts until the target succeeds on the save or <b><span style='font-variant: small-caps;'>Stabilizes</span></b> to clear <b>Burn</b>.</p>"
+  },
+  {
+    "id": "ppg_npcf_multi_harpoon_shotgun_prototype",
+    "name": "Multi-Harpoon Shotgun",
+    "origin": {
+      "type": "Template",
+      "name": "Prototype",
+      "base": false
+    },
+    "locked": false,
+    "type": "Weapon",
+    "weapon_type": "Heavy CQB",
+    "tags": [
+      {
+        "id": "tg_loading"
+      }
+    ],
+    "attack_bonus": [
+      1,
+      2,
+      3
+    ],
+    "range": [
+      {
+        "type": "Cone",
+        "val": 5
+      }
+    ],
+    "damage": [
+      {
+        "type": "Kinetic",
+        "damage": [
+          4,
+          5,
+          6
+        ]
+      }
+    ],
+    "on_hit": "<p>The target must make a <b><span style='font-variant: small-caps;'>Hull</span></b> save or be pulled directly adjacent to the attacker (or as close as possible) and <b><span style='font-variant: small-caps;'>Grappled</span></b> by the attacker.</p>"
+  },
+  {
+    "id": "ppg_npcf_thunder_lance_prototype",
+    "name": "Thunder Lance",
+    "origin": {
+      "type": "Template",
+      "name": "Prototype",
+      "base": false
+    },
+    "locked": false,
+    "type": "Weapon",
+    "weapon_type": "Heavy Melee",
+    "tags": [
+      {
+        "id": "tg_heat_self",
+        "val": 2
+      }
+    ],
+    "attack_bonus": [
+      1,
+      2,
+      3
+    ],
+    "range": [
+      {
+        "type": "Threat",
+        "val": 1
+      }
+    ],
+    "damage": [
+      {
+        "type": "Energy",
+        "damage": [
+          6,
+          8,
+          10
+        ]
+      },
+      {
+        "type": "Heat",
+        "damage": [
+          2,
+          2,
+          2
+        ]
+      }
+    ],
+    "on_hit": "<p>As a <b>full action</b>, the Prototype may <b><span style='font-variant: small-caps;'>Boost</span></b> in a straight line towards a hostile character and <b><span style='font-variant: small-caps;'>Skirmish</span></b> against them with this weapon, ignoring engagement. On a hit, the Prototype and the target continue moving in the same direction together for a number of spaces equal to the Prototype’s remaining <b><span style='font-variant: small-caps;'>Boost</span></b> movement.</p>"
+  },
+  {
+    "id": "ppg_npcf_antigravity_uppercut_prototype",
+    "name": "Antigravity Uppercut",
+    "origin": {
+      "type": "Template",
+      "name": "Prototype",
+      "base": false
+    },
+    "locked": false,
+    "type": "Tech",
+    "tech_type": "Quick",
+    "tags": [
+      {
+        "id": "tg_recharge",
+        "val": 5
+      },
+      {
+        "id": "tg_quick_tech"
+      }
+    ],
+    "effect": "<p>One character adjacent to the Prototype must make an <b><span style='font-variant: small-caps;'>Engineering</span></b> save or take {4/5/6} <b>Kinetic damage</b> and be launched upwards <b>5 spaces</b> into the air. Once aloft, the target is <b><span style='font-variant: small-caps;'>Immobilized</span></b> and treated as if it were in <b>zero-g</b>; it may be freely pushed, pulled, and knocked back through the air.</p><p>This effect lasts until the end of the target’s next turn, at which point it floats gently to the ground without taking damage from falling. A character can only be targeted with this system <b>1/scene</b>.</p>"
+  },
+  {
+    "id": "ppg_npcf_chain_surge_prototype",
+    "name": "Chain Surge",
+    "origin": {
+      "type": "Template",
+      "name": "Prototype",
+      "base": false
+    },
+    "locked": false,
+    "type": "Tech",
+    "tech_type": "Quick",
+    "tags": [
+      {
+        "id": "tg_recharge",
+        "val": 5
+      },
+      {
+        "id": "tg_quick_tech"
+      }
+    ],
+    "effect": "<p>Choose another character in <b><span style='font-variant: small-caps;'>Sensors</span></b> and line of sight. If the character is hostile, they take {2/3/4} Energy damage; if allied, they gain <b><span style='font-variant: small-caps;'>Overshield</span></b> {2/3/4}. The Prototype may repeat this effect against a different character not yet affected by this system within the target’s <b><span style='font-variant: small-caps;'>Sensors</span></b> and line of sight. This system may only affect {3/4/5} characters in a single use.</p>"
+  },
+  {
+    "id": "ppg_npcf_doomscroll_prototype",
+    "name": "Doomscroll",
+    "origin": {
+      "type": "Template",
+      "name": "Prototype",
+      "base": false
+    },
+    "locked": false,
+    "type": "Tech",
+    "tech_type": "Quick",
+    "tags": [
+      {
+        "id": "tg_recharge",
+        "val": 4
+      },
+      {
+        "id": "tg_quick_tech"
+      }
+    ],
+    "attack_bonus": [
+      1,
+      2,
+      3
+    ],
+    "effect": "<p>Make a <b>tech attack</b> against a character in <b><span style='font-variant: small-caps;'>Sensors</span></b>. On a hit, they are inundated with ads, spam, and fake outrage posts, gaining <b>2 Heat</b> and becoming <b><span style='font-variant: small-caps;'>Impaired</span></b>. They remain <b><span style='font-variant: small-caps;'>Impaired</span></b> until they succeed on a <b><span style='font-variant: small-caps;'>Systems</span></b> save at the end of their turn; on each failed save, they receive an additional <b>2 Heat</b>. Each character may only be affected by this system <b>1/scene</b>.</p>"
+  },
+  {
+    "id": "ppg_npcf_xnopyt_potato_prototype",
+    "name": "Xnopyt Potato",
+    "origin": {
+      "type": "Template",
+      "name": "Prototype",
+      "base": false
+    },
+    "locked": false,
+    "type": "Tech",
+    "tech_type": "Quick",
+    "tags": [
+      {
+        "id": "tg_recharge",
+        "val": 5
+      },
+      {
+        "id": "tg_quick_tech"
+      }
+    ],
+    "attack_bonus": [
+      1,
+      2,
+      3
+    ],
+    "effect": "<p>Make a <b>tech attack</b> against a non-<b><span style='font-variant: small-caps;'>Drone</span></b> character in <b><span style='font-variant: small-caps;'>Sensors</span></b>. On a hit, they must choose one the following:<ul><li>Become <b><span style='font-variant: small-caps;'>Shredded</span></b> and <b><span style='font-variant: small-caps;'>Slowed</span></b> until the end of their next turn.</li><li>They and all targets previously affected by this action gain <b>1 Heat</b>, and they choose a different non-<b><span style='font-variant: small-caps;'>Drone</span></b> character in <b><span style='font-variant: small-caps;'>Sensors</span></b> previously unaffected by this action to receive its effect.</li></ul></p>"
+  },
+  {
+    "id": "ppg_npcf_emp_shielding_prototype",
+    "name": "EMP Shielding",
+    "origin": {
+      "type": "Template",
+      "name": "Prototype",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "tags": [],
+    "effect": "<p>The Prototype can still attack with its weapons while <b><span style='font-variant: small-caps;'>Jammed</span></b>.</p>"
+  },
+  {
+    "id": "ppg_npcf_high_friction_treads_prototype",
+    "name": "High-Friction Treads",
+    "origin": {
+      "type": "Template",
+      "name": "Prototype",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "tags": [],
+    "effect": "<p>The Prototype receives only <b>half</b> of any inflicted push, pull, or knockback.</p>"
+  },
+  {
+    "id": "ppg_npcf_ice_cracker_prototype",
+    "name": "ICE Cracker",
+    "origin": {
+      "type": "Template",
+      "name": "Prototype",
+      "base": false
+    },
+    "locked": false,
+    "type": "System",
+    "tags": [],
+    "effect": "<p>Each time the Prototype misses with a <b>tech attack</b> or a <b><span style='font-variant: small-caps;'>Smart</span></b> weapon, it gains <b>+1 Accuracy</b> on tech attacks and <b><span style='font-variant: small-caps;'>Smart</span></b> weapon attacks. This stacks up to <b>+3 Accuracy</b>, but the effect ends once the Prototype hits with a tech attack or <b><span style='font-variant: small-caps;'>Smart</span></b> weapon.</p>"
+  },
+  {
+    "id": "ppg_npcf_infoscramble_cloak_prototype",
+    "name": "Infoscramble Cloak",
+    "origin": {
+      "type": "Template",
+      "name": "Prototype",
+      "base": false
+    },
+    "locked": false,
+    "type": "System",
+    "tags": [],
+    "effect": "<p>This feature replaces <b><span style='font-variant: small-caps;'>Novel Technology</span></b>. The Prototype is <b><span style='font-variant: small-caps;'>Invisible</span></b> until a character <b><span style='font-variant: small-caps;'>Scans</span></b> them or an identical character (i.e., an NPC with the same class, templates, and features belonging to the same faction).</p>"
+  },
+  {
+    "id": "ppg_npcf_lightning_rod_prototype",
+    "name": "Lightning Rod",
+    "origin": {
+      "type": "Template",
+      "name": "Prototype",
+      "base": false
+    },
+    "locked": false,
+    "type": "System",
+    "tags": [],
+    "effect": "<p>The Prototype has <b><span style='font-variant: small-caps;'>Resistance</span></b> to <b>Energy damage</b>. In addition, if a character targets an ally in <b>Range 3</b> of the Prototype with an attack that deals any <b>Energy damage</b>, the attacker must first pass an <b><span style='font-variant: small-caps;'>Engineering</span></b> save. On a failure, the Prototype becomes the sole target of the attack; all other targets are unaffected.</p>"
+  },
+  {
+    "id": "ppg_npcf_overclocked_prototype",
+    "name": "Overclocked",
+    "origin": {
+      "type": "Template",
+      "name": "Prototype",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "tags": [],
+    "effect": "<p>The Prototype may deploy with <b>Heat</b> equal to half its <b><span style='font-variant: small-caps;'>Heat Cap</span></b>. While in the <b><span style='font-variant: small-caps;'>Danger Zone</span></b> but not <b><span style='font-variant: small-caps;'>Exposed</span></b>, the Prototype may <b><span style='font-variant: small-caps;'>Boost</span></b> 1/round as a <b>free action</b>, and its attacks deal an extra <b>1 Heat</b> on hit.</p>"
+  },
+  {
+    "id": "ppg_npcf_specialized_prototype",
+    "name": "Specialized",
+    "origin": {
+      "type": "Template",
+      "name": "Prototype",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "tags": [],
+    "effect": "<p>The Prototype chooses two different mech skills from <b><span style='font-variant: small-caps;'>Hull</span></b>, <b><span style='font-variant: small-caps;'>Agility</span></b>, <b><span style='font-variant: small-caps;'>Systems</span></b>, and <b><span style='font-variant: small-caps;'>Engineering</span></b>. It gains <b>+1 Accuracy</b> on checks and saves on the first mech skill and <b>+1 Difficulty</b> on checks and saves on the second.</p>"
+  },
+  {
+    "id": "ppg_npcf_rebaked_bioplating_prototype",
+    "name": "Rebaked Bioplating",
+    "origin": {
+      "type": "Template",
+      "name": "Prototype",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "tags": [],
+    "effect": "<p>The Prototype gains <b>+1 Accuracy</b> on <b><span style='font-variant: small-caps;'>Agility</span></b> checks and saves, climbs and swims at normal speed, ignores <b>difficult terrain</b>, can jump its full <b><span style='font-variant: small-caps;'>Speed</span></b> in any combination of horizontal and vertical movement, and can remain <b><span style='font-variant: small-caps;'>Hidden</span></b> while <b><span style='font-variant: small-caps;'>Boosting</span></b>. Additionally, the Prototype can <b><span style='font-variant: small-caps;'>Hide</span></b> as a <b>free action</b> at any point in its <b><span style='font-variant: small-caps;'>Boost</span></b>.</p>"
+  },
+  {
+    "id": "ppg_npcf_roko_class_nhp_prototype",
+    "name": "ROKO-Class NHP",
+    "origin": {
+      "type": "Template",
+      "name": "Prototype",
+      "base": false
+    },
+    "locked": false,
+    "type": "System",
+    "tags": [
+      {
+        "id": "tg_ai"
+      }
+    ],
+    "effect": "<p>The Prototype has the <b>AI</b> tag. If a character in <b>Range 3</b> takes a hostile action against a target other than the Prototype, they gain a <b>Gaze</b> mark. The Prototype can expend the <b>Gaze</b> mark to gain <b>+1 Accuracy</b> on an attack roll against the marked character or force the marked character to take <b>+1 Difficulty</b> on a save inflicted by the Prototype. This increases to <b>+3 Accuracy</b> and <b>+3 Difficulty</b> while the Prototype is in <b>cascade</b>.</p>"
+  },
+  {
+    "id": "ppg_npcf_directional_hardlight_prototype",
+    "name": "Directional Hardlight",
+    "origin": {
+      "type": "Template",
+      "name": "Prototype",
+      "base": false
+    },
+    "locked": false,
+    "type": "System",
+    "tags": [
+      {
+        "id": "tg_shield"
+      },
+      {
+        "id": "tg_heat_self",
+        "val": 2
+      },
+      {
+        "id": "tg_quick_action"
+      }
+    ],
+    "effect": "<p>The Prototype creates a <b>Line 4</b> hardlight barrier <b>4 spaces high</b> with at least one space adjacent to themselves. The barrier can overlap with characters and obstructions; characters that end their turn in the barrier or enter it for the first time in a round take {2/3/4} <b>Burn</b>. The barrier provides <b>hard cover</b> and blocks line of sight. It moves with the Prototype, remaining in the same relative position and direction. The barrier lasts until the Prototype uses this system again, or until it is <b><span style='font-variant: small-caps;'>Stunned</span></b>, overheated, or destroyed.</p>"
+  },
+  {
+    "id": "ppg_npcf_locomotion_mode_shift_prototype",
+    "name": "Locomotion Mode Shift",
+    "origin": {
+      "type": "Template",
+      "name": "Prototype",
+      "base": false
+    },
+    "locked": false,
+    "type": "System",
+    "tags": [
+      {
+        "id": "tg_quick_action"
+      }
+    ],
+    "effect": "<p>The Prototype shifts form; in this form, it gains <b>+1 <span style='font-variant: small-caps;'>Armor</span></b> and <b>+2 <span style='font-variant: small-caps;'>Speed</span></b> and ignores difficult terrain. However, it can only move in a straight line, and cannot stand up from <b><span style='font-variant: small-caps;'>Prone</span></b>. This effect lasts until the Prototype ends it with <b>quick action</b>.</p>"
+  },
+  {
+    "id": "ppg_npcf_raptor_point_defense_drone_prototype",
+    "name": "“Raptor” Point Defense Drone",
+    "origin": {
+      "type": "Template",
+      "name": "Prototype",
+      "base": false
+    },
+    "locked": false,
+    "type": "System",
+    "tags": [
+      {
+        "id": "tg_drone"
+      },
+      {
+        "id": "tg_limited",
+        "val": 1
+      },
+      {
+        "id": "tg_quick_action"
+      }
+    ],
+    "effect": "<p><b>“Raptor” Point Defense Drone (Size </b>1/2<b>, HP </b>5/8/10<b>, Evasion </b>10<b>, E-Defense </b>10<b>, Tags: </b><i>Drone</i><b>)</b></p><p>This drone can be deployed to a space within <b><span style='font-variant: small-caps;'>Sensors</span></b> and line of sight. Allied weapon attacks gain <b>+1 Kinetic bonus damage</b> against hostile characters within <b>Burst 2</b> of this drone.</p>"
+  },
+  {
+    "id": "ppg_npcf_slip_drive_prototype",
+    "name": "Slip Drive",
+    "origin": {
+      "type": "Template",
+      "name": "Prototype",
+      "base": false
+    },
+    "locked": false,
+    "type": "System",
+    "tags": [
+      {
+        "id": "tg_quick_action"
+      }
+    ],
+    "effect": "<p><b>Teleport 2 spaces</b>. This system can be activated even while <b><span style='font-variant: small-caps;'>Slowed</span></b> or <b><span style='font-variant: small-caps;'>Immobilized</span></b>.</p>"
+  },
+  {
+    "id": "ppg_npcf_faraday_countermeasures_prototype",
+    "name": "Faraday Countermeasures",
+    "origin": {
+      "type": "Template",
+      "name": "Prototype",
+      "base": false
+    },
+    "locked": false,
+    "type": "Reaction",
+    "tags": [
+      {
+        "id": "tg_shield"
+      },
+      {
+        "id": "tg_recharge",
+        "val": 5
+      },
+      {
+        "id": "tg_reaction"
+      }
+    ],
+    "trigger": "<p>The Prototype or an ally in <b>Range 3</b> would be <b><span style='font-variant: small-caps;'>Jammed</span></b>, but is not currently <b><span style='font-variant: small-caps;'>Exposed</span></b>.</p>",
+    "effect": "<p>Instead of becoming <b><span style='font-variant: small-caps;'>Jammed</span></b>, the triggering character may take <b>2 Heat</b> and become <b><span style='font-variant: small-caps;'>Impaired</span></b> until the end of their next turn.</p>"
+  },
+  {
+    "id": "ppg_npcf_firewall_molt_prototype",
+    "name": "Firewall Molt",
+    "origin": {
+      "type": "Template",
+      "name": "Prototype",
+      "base": false
+    },
+    "locked": false,
+    "type": "Reaction",
+    "tags": [
+      {
+        "id": "tg_deployable"
+      },
+      {
+        "id": "tg_recharge",
+        "val": 5
+      },
+      {
+        "id": "tg_reaction"
+      }
+    ],
+    "trigger": "<p>A <b>tech action</b> affects the Prototype.</p>",
+    "effect": "<p>The Prototype first deploys a holographic afterimage in its space with the same <b><span style='font-variant: small-caps;'>Evasion</span></b> and <b><span style='font-variant: small-caps;'>E-Defense</span></b> as itself, but only <b>1 HP</b>. While the afterimage exists, when a <b>tech action</b> affects the Prototype, the afterimage halts the effect, leaving the Prototype unaffected. Track each effect halted in this way; once the afterimage is destroyed, the Prototype immediately receives all halted effects as normal.</p>"
+  },
+  {
     "id": "ppg_npcf_tectonic_wave_anchor",
     "name": "Tectonic Wave (Ultra)",
     "origin": {
@@ -3550,14 +4121,17 @@
     "type": "System",
     "tags": [
       {
-        "id": "tg_recharge",
-        "val": 6
+        "id": "tg_arcing"
       },
       {
-        "id": "tg_free_action"
+        "id": "tg_limited",
+        "val": 1
+      },
+      {
+        "id": "tg_full_action"
       }
     ],
-    "effect": "<p>The area targeted by the <b><span style='font-variant: small-caps;'>Marathon Arquebus</span></b> and all adjacent spaces are marked for thunderfall; at the end of the next round, the marked area detonates. Hostile characters in the detonation gain <b><span style='font-variant: small-caps;'>Lock On</span></b> and must pass an <b><span style='font-variant: small-caps;'>Agility</span></b> save or take {8/12/16} Energy damage, half on success. Allied characters in the detonation gain <b><span style='font-variant: small-caps;'>Overshield</span></b> {4/6/8}.</p>"
+    "effect": "<p>Mark a <b>Line 15</b> path along the ground and all spaces adjacent to it for thunderfall, which is visible to all characters. At the end of the next round, the marked area detonates with the following effects:<ul><li>Hostile characters in the detonation gain <b><span style='font-variant: small-caps;'>Lock On</span></b> and must pass an <b><span style='font-variant: small-caps;'>Agility</span></b> save or take {8/12/16} <b>Energy damage</b>, half on success.</li><li>Non-<b><span style='font-variant: small-caps;'>Drone</span></b> allies in the detonation gain <b><span style='font-variant: small-caps;'>Overshield</span></b> {4/6/8}.</li></ul></p>"
   },
   {
     "id": "ppg_npcf_coherent_entanglement_ghost",
@@ -3591,7 +4165,7 @@
         "id": "tg_full_action"
       }
     ],
-    "effect": "<p>The Hatchet may make one <b><span style='font-variant: small-caps;'>Thrown</span></b> weapon attack against each hostile character in <b><span style='font-variant: small-caps;'>Range</span></b> of its <b><span style='font-variant: small-caps;'>Thrown</span></b> weapons, without needing to retrieve each weapon. Each attack creates a copy of the weapon that lands adjacent to the target’s space.</p><p>Until the end of the Hatchet’s next turn, it may take a second <b>full action</b> to <b>teleport</b> adjacent to one of its <b><span style='font-variant: small-caps;'>Thrown</span></b> weapons, then retrieve all its <b><span style='font-variant: small-caps;'>Thrown</span></b> weapons. All hostile characters adjacent to a retrieved weapon must pass an <b><span style='font-variant: small-caps;'>Agility</span></b> save or be pushed <b>2 spaces</b> in any direction and take {6/8/10} Kinetic damage. On a success, the target takes half damage and isn’t pushed.</p>"
+    "effect": "<p>The Hatchet may make one <b><span style='font-variant: small-caps;'>Thrown</span></b> weapon attack against each hostile character in <b><span style='font-variant: small-caps;'>Range</span></b> of its <b><span style='font-variant: small-caps;'>Thrown</span></b> weapons, without needing to retrieve each weapon. Each attack creates a copy of the weapon that lands adjacent to the target’s space.</p><p>Until the end of the Hatchet’s next turn, it may take a second <b>full action</b> to <b>teleport</b> adjacent to one of its <b><span style='font-variant: small-caps;'>Thrown</span></b> weapons, then retrieve all its <b><span style='font-variant: small-caps;'>Thrown</span></b> weapons. All hostile characters adjacent to a retrieved weapon must pass an <b><span style='font-variant: small-caps;'>Agility</span></b> save or be pushed <b>2 spaces</b> in any direction and take {6/8/10} Kinetic damage. On a success, the target takes half damage and isn’t pushed. This counts as damage from <b><span style='font-variant: small-caps;'>Cleaving Retrieval</span></b>.</p>"
   },
   {
     "id": "ppg_npcf_mortal_draw_kensei",
@@ -3942,7 +4516,10 @@
     "locked": false,
     "type": "Trait",
     "tags": [],
-    "effect": "<p>The Torrent becomes <b><span style='font-variant: small-caps;'>Size 3</span></b>, and its weapons gain <b><span style='font-variant: small-caps;'>Knockback 1</span></b>.</p>"
+    "effect": "<p>The Torrent becomes <b><span style='font-variant: small-caps;'>Size 3</span></b>, and its weapons gain <b><span style='font-variant: small-caps;'>Knockback 1</span></b>.</p>",
+    "override": {
+      "size": 3
+    }
   },
   {
     "id": "ppg_npcf_grapplescrapper_vulture",
