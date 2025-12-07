@@ -1023,16 +1023,11 @@
     "locked": false,
     "type": "Weapon",
     "weapon_type": "Heavy Melee",
-    "tags": [
-      {
-        "id": "tg_knockback",
-        "val": 2
-      }
-    ],
+    "tags": [],
     "attack_bonus": [
+      1,
       2,
-      4,
-      6
+      3
     ],
     "accuracy": [
       1,
@@ -1055,7 +1050,6 @@
         ]
       }
     ],
-    "effect": "",
     "on_hit": "<p>The target gains <b><span style='font-variant: small-caps;'>Lock On</span></b>. If they are affected by <b><span style='font-variant: small-caps;'>Compelled Duel</span></b>, they are also <b><span style='font-variant: small-caps;'>Shredded</span></b> until the end of their next turn.</p>"
   },
   {
@@ -1107,7 +1101,7 @@
         "id": "tg_quick_action"
       }
     ],
-    "effect": "<p><b>Hero’s Banner (Size </b>1/2<b>, HP </b>{15/20/25}<b>, Evasion </b>10<b>, E-Defense </b>10<b>, Tags: </b><i>Deployable, Shield</i><b>)</b></p><p>The Knight deploys a banner that projects a <b>Burst 3</b> area in an adjacent space. Allied characters within the area gain <b><span style='font-variant: small-caps;'>Resistance</span> to all damage</b>. If this banner is destroyed, allied characters in the area are <b><span style='font-variant: small-caps;'>Shredded</span></b> until the end of their next turn.</p>"
+    "effect": "<p><b>Hero’s Banner (Size </b>1/2<b>, HP </b>{12/15/18}<b>, Evasion </b>10<b>, E-Defense </b>10<b>, Tags: </b><i>Deployable, Shield</i><b>)</b></p><p>The Knight deploys a banner that projects a <b>Burst 3</b> area in an adjacent space. Allied characters within the area gain <b><span style='font-variant: small-caps;'>Resistance</span> to all damage</b>. If this banner is destroyed, allied characters in the area are <b><span style='font-variant: small-caps;'>Shredded</span></b> until the end of their next turn.</p>"
   },
   {
     "id": "ppg_npcf_sweeping_blows_knight",
@@ -1120,7 +1114,7 @@
     "locked": false,
     "type": "Trait",
     "tags": [],
-    "effect": "<p>When attacking with the <b><span style='font-variant: small-caps;'>Champion’s Greatsword</span></b>, the Knight may choose to attack in a <b>Cone 3</b> area.</p>"
+    "effect": "<p>The <b><span style='font-variant: small-caps;'>Champion’s Greatsword</span></b> may attack in a <b>Cone 3</b> area and gains <b><span style='font-variant: small-caps;'>Knockback</span> 2</b>.</p>"
   },
   {
     "id": "ppg_npcf_punishing_blow_knight",
@@ -1888,7 +1882,7 @@
         "id": "tg_quick_action"
       }
     ],
-    "effect": "<p>As a <b>quick action</b>, deploy one section of <b>hard cover</b> (<b>Line 3</b>, <b>Size 2</b>, {10/15/20} <b>HP</b>), within <b>Range 3</b>. <b>Tech attacks</b> and <b><span style='font-variant: small-caps;'>Seeking</span></b> do not ignore this cover.</p>"
+    "effect": "<p>As a <b>quick action</b>, deploy one section of <b>hard cover</b> (<b>Line 3</b>, <b>Size 2</b>, <b>15 HP</b>), within <b>Range 3</b>. <b>Tech attacks</b> and <b><span style='font-variant: small-caps;'>Seeking</span></b> do not ignore this cover.</p>"
   },
   {
     "id": "ppg_npcf_shardsplitter_shotgun_prism",
@@ -4127,14 +4121,17 @@
     "type": "System",
     "tags": [
       {
-        "id": "tg_recharge",
-        "val": 6
+        "id": "tg_arcing"
       },
       {
-        "id": "tg_free_action"
+        "id": "tg_limited",
+        "val": 1
+      },
+      {
+        "id": "tg_full_action"
       }
     ],
-    "effect": "<p>The area targeted by the <b><span style='font-variant: small-caps;'>Marathon Arquebus</span></b> and all adjacent spaces are marked for thunderfall; at the end of the next round, the marked area detonates. Hostile characters in the detonation gain <b><span style='font-variant: small-caps;'>Lock On</span></b> and must pass an <b><span style='font-variant: small-caps;'>Agility</span></b> save or take {8/12/16} Energy damage, half on success. Allied characters in the detonation gain <b><span style='font-variant: small-caps;'>Overshield</span></b> {4/6/8}.</p>"
+    "effect": "<p>Mark a <b>Line 15</b> path along the ground and all spaces adjacent to it for thunderfall, which is visible to all characters. At the end of the next round, the marked area detonates with the following effects:<ul><li>Hostile characters in the detonation gain <b><span style='font-variant: small-caps;'>Lock On</span></b> and must pass an <b><span style='font-variant: small-caps;'>Agility</span></b> save or take {8/12/16} <b>Energy damage</b>, half on success.</li><li>Non-<b><span style='font-variant: small-caps;'>Drone</span></b> allies in the detonation gain <b><span style='font-variant: small-caps;'>Overshield</span></b> {4/6/8}.</li></ul></p>"
   },
   {
     "id": "ppg_npcf_coherent_entanglement_ghost",
