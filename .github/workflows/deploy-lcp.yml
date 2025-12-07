@@ -24,6 +24,6 @@ jobs:
         run: gh release upload --clobber ${{ env.VERSION }} dist/${{ github.event.repository.name }}-${{ env.VERSION }}.lcp
   
   call-butler-publish:
-    uses: massif-press/.github/.github/workflows/butler-publish.yml@master
+    uses: massif-press/.github/.github/workflows/butler-publish.yml@msprijatelj-patch-1
     secrets:
       BUTLER_CREDENTIALS: ${{ secrets.BUTLER_CREDENTIALS }}
