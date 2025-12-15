@@ -416,6 +416,10 @@
       },
       {
         "id": "tg_quick_tech"
+      },
+      {
+        "id": "tg_round",
+        "val": 1
       }
     ],
     "effect": "<p>The next time a hostile action is taken against a character <b>bonded</b> with the Ghost, they immediately become <b><span style='font-variant: small-caps;'>Intangible</span></b> during that action. The action is still taken and affects other targets as normal.</p>"
@@ -492,7 +496,7 @@
       }
     ],
     "trigger": "<p>A hostile action is taken against a character <b>bonded</b> with the Ghost.</p>",
-    "effect": "<p>The Ghost interrupts with <b><span style='font-variant: small-caps;'>Paradox State</span></b>.</p>"
+    "effect": "<p>Immediately use <b><span style='font-variant: small-caps;'>Paradox State</span></b>, if able.</p>"
   },
   {
     "id": "ppg_npcf_spectral_flight_ghost",
