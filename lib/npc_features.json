@@ -287,7 +287,7 @@
       }
     ],
     "trigger": "<p>An allied character that can be targeted by the <b><span style='font-variant: small-caps;'>Marathon Arquebus</span></b> is hit by an attack.</p>",
-    "effect": "<p>The Capacitor first <b><span style='font-variant: small-caps;'>Skirmishes</span></b> with the <b><span style='font-variant: small-caps;'>Marathon Arquebus</span></b>, dealing <b>half damage, Heat, or Burn</b> to all targets. The triggering allied character must be included in the attack’s area.</p>"
+    "effect": "<p>The Capacitor interrupts the attack with a <b><span style='font-variant: small-caps;'>Skirmish</span></b> using the <b><span style='font-variant: small-caps;'>Marathon Arquebus</span></b>, dealing <b>half damage, Heat, or Burn</b> to all targets. The triggering allied character must be included in the attack’s area.</p>"
   },
   {
     "id": "ppg_npcf_quickening_bolt_capacitor",
@@ -418,7 +418,7 @@
         "id": "tg_quick_tech"
       }
     ],
-    "effect": "<p>The next time a hostile action is taken against a character <b>bonded</b> with the Ghost, roll <b>1d6</b>: On a <b>4+</b>, the target takes <b>1 Heat</b> and is <b><span style='font-variant: small-caps;'>Intangible</span></b> during the action. This effect does not stack with <b><span style='font-variant: small-caps;'>Invisible</span></b>.</p>"
+    "effect": "<p>The next time a hostile action is taken against a character <b>bonded</b> with the Ghost, they immediately become <b><span style='font-variant: small-caps;'>Intangible</span></b> during that action. The action is still taken and affects other targets as normal.</p>"
   },
   {
     "id": "ppg_npcf_ghastly_vigor_ghost",
@@ -449,10 +449,10 @@
         "val": 6
       },
       {
-        "id": "tg_full_action"
+        "id": "tg_quick_action"
       }
     ],
-    "effect": "<p>The Ghost projects a <b>Burst 2</b> area of Firmament energy. All tangible characters, objects, terrain, and <b>sitrep</b> objectives are <b><span style='font-variant: small-caps;'>Intangible</span></b> while within the area (so <b><span style='font-variant: small-caps;'>Intangible</span></b> characters can interact with <b>sitrep</b> objectives within and tangible ones cannot). The area lasts until the end of the Ghost’s next turn.</p>"
+    "effect": "<p>The Ghost imposes the Firmament upon a <b>Burst 2</b> area. Characters, objects, terrain, zones, and <b>sitrep</b> objectives are <b><span style='font-variant: small-caps;'>Intangible</span></b> while within the area (so only <b><span style='font-variant: small-caps;'>Intangible</span></b> characters can interact with zones and <b>sitrep</b> objectives within). The area lasts until the end of the Ghost’s next turn.</p>"
   },
   {
     "id": "ppg_npcf_string_theory_marionette_ghost",
@@ -492,7 +492,7 @@
       }
     ],
     "trigger": "<p>A hostile action is taken against a character <b>bonded</b> with the Ghost.</p>",
-    "effect": "<p>The Ghost may first use <b><span style='font-variant: small-caps;'>Paradox State</span></b>.</p>"
+    "effect": "<p>The Ghost interrupts with <b><span style='font-variant: small-caps;'>Paradox State</span></b>.</p>"
   },
   {
     "id": "ppg_npcf_spectral_flight_ghost",
@@ -754,7 +754,7 @@
       }
     ],
     "trigger": "<p>A character targets the Hatchet with an action with the <b><span style='font-variant: small-caps;'>Thrown</span></b>, <b><span style='font-variant: small-caps;'>Arcing</span></b>, <b><span style='font-variant: small-caps;'>Seeking</span></b>, or <b><span style='font-variant: small-caps;'>Grenade</span></b> tag.</p>",
-    "effect": "<p>The Hatchet interrupts the triggering action, changing the action’s target from itself to the triggering character, regardless of targeting restrictions or <b><span style='font-variant: small-caps;'>Range</span></b>. If the action would have affected an area, the Hatchet moves the area of the action to include the triggering character and exclude itself (if possible).</p>"
+    "effect": "<p>The Hatchet interrupts the triggering action, changing the action’s target from itself to the triggering character as if the action originated from the Hatchet. If the action affects one or more areas, the Hatchet moves any areas that include itself to instead include the triggering character and exclude itself (if possible). The triggering character still counts as taking the action.</p>"
   },
   {
     "id": "ppg_npcf_minuano_kinetic_saber_kensei",
@@ -878,7 +878,7 @@
       }
     ],
     "trigger": "<p>A weapon attack hits and deals damage to the Kensei while its weapon is <b>sheathed</b>.</p>",
-    "effect": "<p>The Kensei first <b>unsheathes</b> its weapon and gains <b><span style='font-variant: small-caps;'>Overshield</span></b> {3/5/7}.</p>"
+    "effect": "<p>The Kensei <b>unsheathes</b> its weapon and gains <b><span style='font-variant: small-caps;'>Overshield</span></b> {3/5/7} before taking damage.</p>"
   },
   {
     "id": "ppg_npcf_40mm_hand_cannon_kensei",
@@ -932,14 +932,17 @@
       "base": false
     },
     "locked": false,
-    "type": "Trait",
+    "type": "System",
     "tags": [
       {
         "id": "tg_recharge",
         "val": 5
+      },
+      {
+        "id": "tg_free_action"
       }
     ],
-    "effect": "<p>When activating <b><span style='font-variant: small-caps;'>Mass Driver Sheathe</span></b>, the Kensei may first move its <b><span style='font-variant: small-caps;'>Speed</span></b> in a straight line, ignoring obstructing characters, engagement, and reactions. It deals {3/4/5} <b>Kinetic AP damage</b> to characters it passes through.</p>"
+    "effect": "<p>Before activating <b><span style='font-variant: small-caps;'>Mass Driver Sheathe</span></b>, the Kensei may immediately move its <b><span style='font-variant: small-caps;'>Speed</span></b> in a straight line, ignoring obstructing characters, engagement, and reactions. It deals {3/4/5} <b>Kinetic AP damage</b> to characters it passes through.</p>"
   },
   {
     "id": "ppg_npcf_posture_break_kensei",
@@ -1312,9 +1315,12 @@
       {
         "id": "tg_recharge",
         "val": 5
+      },
+      {
+        "id": "tg_free_action"
       }
     ],
-    "effect": "<p>When the Mesmerist hits with a <b>tech attack</b>, it may escape all grapples and <b>teleport</b> to a free space adjacent to its target.</p>"
+    "effect": "<p>When the Mesmerist hits with a <b>tech attack</b>, it may immediately escape all grapples and <b>teleport</b> to a free space adjacent to its target.</p>"
   },
   {
     "id": "ppg_npcf_narcissus_override",
@@ -3585,7 +3591,7 @@
     "locked": false,
     "type": "Trait",
     "tags": [],
-    "effect": "<p>When choosing optional features, the Prototype can choose from this template’s Optional Features as well as features from any other NPC class.</p>"
+    "effect": "<p>When choosing optional features, the Prototype may choose from this template’s Optional Features or features from any other NPC class.</p>"
   },
   {
     "id": "ppg_npcf_auntie_augmented_minigun_prototype",
@@ -3911,7 +3917,7 @@
     "locked": false,
     "type": "System",
     "tags": [],
-    "effect": "<p>This feature replaces <b><span style='font-variant: small-caps;'>Novel Technology</span></b>. The Prototype is <b><span style='font-variant: small-caps;'>Invisible</span></b> until a character <b><span style='font-variant: small-caps;'>Scans</span></b> them or an identical character (i.e., an NPC with the same class, templates, and features belonging to the same faction).</p>"
+    "effect": "<p>The Prototype is <b><span style='font-variant: small-caps;'>Invisible</span></b> until a character <b><span style='font-variant: small-caps;'>Scans</span></b> them or an identical character (i.e., an NPC with the same class, templates, and features belonging to the same faction).</p>"
   },
   {
     "id": "ppg_npcf_lightning_rod_prototype",
@@ -4104,15 +4110,15 @@
         "id": "tg_deployable"
       },
       {
-        "id": "tg_recharge",
-        "val": 5
+        "id": "tg_limited",
+        "val": 1
       },
       {
         "id": "tg_reaction"
       }
     ],
     "trigger": "<p>A <b>tech action</b> affects the Prototype.</p>",
-    "effect": "<p>The Prototype first deploys a holographic afterimage in its space with the same <b><span style='font-variant: small-caps;'>Evasion</span></b> and <b><span style='font-variant: small-caps;'>E-Defense</span></b> as itself, but only <b>1 HP</b>. While the afterimage exists, when a <b>tech action</b> affects the Prototype, the afterimage halts the effect, leaving the Prototype unaffected. Track each effect halted in this way; once the afterimage is destroyed, the Prototype immediately receives all halted effects as normal.</p>"
+    "effect": "<p>The Prototype interrupts the effect by deploying a holographic afterimage in an adjacent space. The afterimage has the same <b><span style='font-variant: small-caps;'>Evasion</span></b> and <b><span style='font-variant: small-caps;'>E-Defense</span></b> as the Prototype, but only <b>1 HP</b>. While the afterimage persists, when a <b>tech action</b> affects the Prototype, the afterimage halts the effect, leaving the Prototype unaffected. Track each effect halted in this way; once the afterimage is destroyed, the Prototype immediately receives all halted effects as normal.</p>"
   },
   {
     "id": "ppg_npcf_tectonic_wave_anchor",
@@ -4162,7 +4168,7 @@
     "locked": false,
     "type": "Trait",
     "tags": [],
-    "effect": "<p><b><span style='font-variant: small-caps;'>Paradox State</span></b> instead lasts until the start of the Ghost’s next turn and affects every hostile action taken against a character <b>bonded</b> with the Ghost.</p>"
+    "effect": "<p>When a character becomes <b><span style='font-variant: small-caps;'>Intangible</span></b> due to <b><span style='font-variant: small-caps;'>Paradox State</span></b>, they remain <b><span style='font-variant: small-caps;'>Intangible</span></b> until the end of the turn. While <b><span style='font-variant: small-caps;'>Intangible</span></b> in this way, they can target and affect tangible characters and objects, dealing <b>half damage, Heat, or Burn</b>.</p>"
   },
   {
     "id": "ppg_npcf_hurricane_of_steel_hatchet",
