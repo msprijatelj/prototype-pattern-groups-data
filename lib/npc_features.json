@@ -1373,7 +1373,7 @@
       }
     ],
     "trigger": "<p>An ally within <b><span style='font-variant: small-caps;'>Sensors</span></b> is attacked.</p>",
-    "effect": "<p>The Mesmerist first swaps places with the ally, each character <b>teleporting</b> to the other’s position. The Mesmerist may then use <b><span style='font-variant: small-caps;'>Overwatch</span></b> against the attacker. Afterwards, the Mesmerist becomes the target of the attack, instead.</p>"
+    "effect": "<p>The Mesmerist interrupts the attack by swapping places with the ally, each character <b>teleporting</b> to the other’s position. The Mesmerist then becomes the target of the attack, instead. After the triggering attack resolves, the Mesmerist may target the attacker with <b><span style='font-variant: small-caps;'>Overwatch</span></b>.</p>"
   },
   {
     "id": "ppg_npcf_hypnotic_attraction_mesmerist",
@@ -1962,7 +1962,7 @@
         "id": "tg_quick_tech"
       }
     ],
-    "effect": "<p>The Prism creates a <b>Burst 3</b> area of glittering light until the end of its next turn. Hostile characters cannot draw line of sight to spaces in the area besides the Prism’s.</p>"
+    "effect": "<p>Create a <b>Burst 3</b> area of glittering light until the end of its next turn. Hostile characters cannot draw line of sight to spaces in the area besides the Prism’s.</p>"
   },
   {
     "id": "ppg_npcf_shattered_glass_prism",
@@ -1984,7 +1984,7 @@
       }
     ],
     "trigger": "<p>The Prism or an allied character in <b>Range 3</b> is attacked while a <b>projector</b> exists.</p>",
-    "effect": "<p>The Prism first destroys a <b>projector</b> and <b>teleports</b> the triggering character to a space it occupied. Regardless of <b><span style='font-variant: small-caps;'>Range</span></b> or line of sight, the Prism becomes the new target of the attack as if it were targeted through a projector. Afterwards, the attacker is <b><span style='font-variant: small-caps;'>Impaired</span></b> until the end of their next turn.</p>"
+    "effect": "<p>The Prism interrupts the attack by destroying a <b>projector</b> and <b>teleporting</b> the triggering character to a space it occupied. Regardless of <b><span style='font-variant: small-caps;'>Range</span></b> or line of sight, the Prism becomes the new target of the attack as if it were targeted through a projector. Afterwards, the attacker is <b><span style='font-variant: small-caps;'>Impaired</span></b> until the end of their next turn.</p>"
   },
   {
     "id": "ppg_npcf_amorphous_torrent",
