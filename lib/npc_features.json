@@ -416,10 +416,6 @@
       },
       {
         "id": "tg_quick_tech"
-      },
-      {
-        "id": "tg_round",
-        "val": 1
       }
     ],
     "effect": "<p>The next time a hostile action is taken against a character <b>bonded</b> with the Ghost, they immediately become <b><span style='font-variant: small-caps;'>Intangible</span></b> during that action. The action is still taken and affects other targets as normal.</p>"
@@ -491,8 +487,8 @@
         "id": "tg_reaction"
       },
       {
-        "id": "tg_round",
-        "val": 1
+        "id": "tg_recharge",
+        "val": 5
       }
     ],
     "trigger": "<p>A hostile action is taken against a character <b>bonded</b> with the Ghost.</p>",
@@ -4172,7 +4168,7 @@
     "locked": false,
     "type": "Trait",
     "tags": [],
-    "effect": "<p>When a character becomes <b><span style='font-variant: small-caps;'>Intangible</span></b> due to <b><span style='font-variant: small-caps;'>Paradox State</span></b>, they remain <b><span style='font-variant: small-caps;'>Intangible</span></b> until the end of the turn. While <b><span style='font-variant: small-caps;'>Intangible</span></b> in this way, they can target and affect tangible characters and objects, dealing <b>half damage, Heat, or Burn</b>.</p>"
+    "effect": "<p>When a character becomes <b><span style='font-variant: small-caps;'>Intangible</span></b> due to <b><span style='font-variant: small-caps;'>Paradox State</span></b>, they remain <b><span style='font-variant: small-caps;'>Intangible</span></b> until the end of the current turn. While <b><span style='font-variant: small-caps;'>Intangible</span></b> in this way, they can target and affect tangible characters and objects, dealing <b>half damage, Heat, or Burn</b>.</p>"
   },
   {
     "id": "ppg_npcf_hurricane_of_steel_hatchet",
