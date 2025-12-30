@@ -66,6 +66,15 @@
     "pilot": true
   },
   {
+    "id": "ppg_act_drop_prone",
+    "name": "Drop Prone",
+    "activation": "Free",
+    "terse": "Drop <b><span style='font-variant: small-caps;'>Prone</span></b>, landing if flying.",
+    "detail": "1/turn, a character may <b><span style='font-variant: small-caps;'>Drop Prone</span></b> as a <b>free action</b>, gaining the <b><span style='font-variant: small-caps;'>Prone</span></b> status. If the character is flying and is not underwater, in zero-g, or in a similar environment, they immediately land (this counts as falling without damage) before falling <b><span style='font-variant: small-caps;'>Prone</span></b>.",
+    "mech": true,
+    "pilot": true
+  },
+  {
     "id": "ppg_act_squeeze",
     "name": "Squeeze",
     "activation": "Free",
