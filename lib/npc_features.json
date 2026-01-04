@@ -737,8 +737,8 @@
         "id": "tg_reaction"
       }
     ],
-    "trigger": "<p>A hostile character adjacent to one of the Hatchet’s <b><span style='font-variant: small-caps;'>Thrown</span></b> weapons damages the Hatchet.</p>",
-    "effect": "<p>The Hatchet moves up to its <b><span style='font-variant: small-caps;'>Speed</span></b> directly towards the attacker and then activates <b><span style='font-variant: small-caps;'>Cleaving Retrieval</span></b>. If this forces the triggering character to make a save, the Hatchet gains <b><span style='font-variant: small-caps;'>Resistance</span></b> to all damage from the triggering attack.</p>"
+    "trigger": "<p>A hostile character damages the Hatchet while one of its <b><span style='font-variant: small-caps;'>Thrown</span></b> weapons is unretrieved.</p>",
+    "effect": "<p>The Hatchet moves up to its <b><span style='font-variant: small-caps;'>Speed</span></b> directly towards one of its <b><span style='font-variant: small-caps;'>Thrown</span></b> weapons. If the Hatchet ends its movement adjacent to its weapon, it gains <b><span style='font-variant: small-caps;'>Resistance</span> to the triggering damage</b>, retrieves the weapon, and may <b><span style='font-variant: small-caps;'>Skirmish</span></b> against the triggering character with that weapon.</p>"
   },
   {
     "id": "ppg_npcf_return_to_sender_hatchet",
