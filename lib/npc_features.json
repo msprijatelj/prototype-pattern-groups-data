@@ -129,14 +129,17 @@
         "id": "tg_arcing"
       },
       {
-        "id": "tg_recharge",
-        "val": 6
+        "id": "tg_grenade"
+      },
+      {
+        "id": "tg_limited",
+        "val": 1
       },
       {
         "id": "tg_quick_action"
       }
     ],
-    "effect": "<p>Hostile characters in or directly above a <b>Line 8</b> area of gravitic energy must pass a <b><span style='font-variant: small-caps;'>Hull</span></b> save or be <b><span style='font-variant: small-caps;'>Immobilized</span></b> until the end of their next turn (falling as normal) and be knocked <b><span style='font-variant: small-caps;'>Prone</span></b>.</p>"
+    "effect": "<p>Hostile characters directly above a <b>Blast 2</b> area in <b>Range 8</b> of must pass a <b><span style='font-variant: small-caps;'>Hull</span></b> save or be <b><span style='font-variant: small-caps;'>Immobilized</span></b> until the end of their next turn and be knocked <b><span style='font-variant: small-caps;'>Prone</span></b>.</p>"
   },
   {
     "id": "ppg_npcf_magnetic_reversal_anchor",
@@ -3808,7 +3811,7 @@
     "tags": [
       {
         "id": "tg_recharge",
-        "val": 5
+        "val": 6
       },
       {
         "id": "tg_quick_tech"
