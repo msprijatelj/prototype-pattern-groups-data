@@ -4491,7 +4491,7 @@
     "locked": false,
     "type": "Trait",
     "tags": [],
-    "effect": "<p>Targets affected by <b><span style='font-variant: small-caps;'>Adhesive Gel</span></b> take <b>1 Heat</b> each time they fail an <b><span style='font-variant: small-caps;'>Engineering</span></b> check to clear <b>Burn</b>.</p>"
+    "effect": "<p>Targets <b><span style='font-variant: small-caps;'>Slowed</span></b> by <b><span style='font-variant: small-caps;'>Salamander Thermobaric Catapult</span></b> take <b>1 Heat</b> each time they fail an <b><span style='font-variant: small-caps;'>Engineering</span></b> check to clear <b>Burn</b>.</p>"
   },
   {
     "id": "ppg_npcf_doubling_season_occultist",
