@@ -1181,7 +1181,7 @@
         "id": "tg_quick_action"
       }
     ],
-    "effect": "<p>The Knight throws an adjacent character, <b>pushing</b> them away from the Knight and ignoring terrain and obstructions. Allied characters are thrown up to <b>5 spaces</b>. Hostile characters must pass a <b><span style='font-variant: small-caps;'>Hull</span></b> save or be thrown up to <b>3 spaces</b> and knocked <b><span style='font-variant: small-caps;'>Prone</span></b>.</p>"
+    "effect": "<p>The Knight throws an adjacent character, <b>pushing</b> them in any direction while ignoring terrain and obstructions. Allied characters are thrown up to <b>5 spaces</b>. Hostile characters must pass a <b><span style='font-variant: small-caps;'>Hull</span></b> save or be thrown up to <b>3 spaces</b> and knocked <b><span style='font-variant: small-caps;'>Prone</span></b>.</p>"
   },
   {
     "id": "ppg_npcf_center_stage_mesmerist",
