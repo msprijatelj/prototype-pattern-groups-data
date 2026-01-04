@@ -3811,7 +3811,7 @@
         "id": "tg_quick_tech"
       }
     ],
-    "effect": "<p>Choose another character in <b><span style='font-variant: small-caps;'>Sensors</span></b> and line of sight. If the character is hostile, they take {2/3/4} Energy damage; if allied, they gain <b><span style='font-variant: small-caps;'>Overshield</span></b> {2/3/4}. The Prototype may repeat this effect against a different character not yet affected by this system within the target’s <b><span style='font-variant: small-caps;'>Sensors</span></b> and line of sight. This system may only affect {3/4/5} characters in a single use.</p>"
+    "effect": "<p>Choose another character in <b><span style='font-variant: small-caps;'>Sensors</span></b> and line of sight. If the character is hostile, they take {2/3/4} Energy damage; if allied, they gain <b><span style='font-variant: small-caps;'>Overshield</span></b> {2/3/4}. The Prototype may repeat this effect against a different character within <b>Range 5</b> of the target. This system may only affect {3/4/5} characters in a single use, and characters may only be targeted once per use.</p>"
   },
   {
     "id": "ppg_npcf_doomscroll_prototype",
@@ -3838,7 +3838,7 @@
       2,
       3
     ],
-    "effect": "<p>Make a <b>tech attack</b> against a character in <b><span style='font-variant: small-caps;'>Sensors</span></b>. On a hit, they are inundated with ads, spam, and fake outrage posts, gaining <b>2 Heat</b> and becoming <b><span style='font-variant: small-caps;'>Impaired</span></b>. They remain <b><span style='font-variant: small-caps;'>Impaired</span></b> until they succeed on a <b><span style='font-variant: small-caps;'>Systems</span></b> save at the end of their turn; on each failed save, they receive an additional <b>2 Heat</b>. Each character may only be affected by this system <b>1/scene</b>.</p>"
+    "effect": "<p>Make a <b>tech attack</b> against a character in <b><span style='font-variant: small-caps;'>Sensors</span></b>. On a hit, they are inundated with ads, spam, and fake outrage posts, gaining <b>2 Heat</b> and becoming <b><span style='font-variant: small-caps;'>Impaired</span></b>. They remain <b><span style='font-variant: small-caps;'>Impaired</span></b> until they succeed on a <b><span style='font-variant: small-caps;'>Systems</span></b> check at the end of their turn; on each failed save, they receive an additional <b>1 Heat</b>. Each character may only be affected by this system <b>1/scene</b>.</p>"
   },
   {
     "id": "ppg_npcf_xnopyt_potato_prototype",
@@ -3850,22 +3850,17 @@
     },
     "locked": false,
     "type": "Tech",
-    "tech_type": "Quick",
+    "tech_type": "Full",
     "tags": [
       {
-        "id": "tg_recharge",
-        "val": 5
+        "id": "tg_full_tech"
       },
       {
-        "id": "tg_quick_tech"
+        "id": "tg_scene",
+        "val": 1
       }
     ],
-    "attack_bonus": [
-      1,
-      2,
-      3
-    ],
-    "effect": "<p>Make a <b>tech attack</b> against a non-<b><span style='font-variant: small-caps;'>Drone</span></b> character in <b><span style='font-variant: small-caps;'>Sensors</span></b>. On a hit, they must choose one the following:<ul><li>Become <b><span style='font-variant: small-caps;'>Shredded</span></b> and <b><span style='font-variant: small-caps;'>Slowed</span></b> until the end of their next turn.</li><li>They and all targets previously affected by this action gain <b>1 Heat</b>, and they choose a different non-<b><span style='font-variant: small-caps;'>Drone</span></b> character in <b><span style='font-variant: small-caps;'>Sensors</span></b> previously unaffected by this action to receive its effect.</li></ul></p>"
+    "effect": "<p>Choose a non-<b><span style='font-variant: small-caps;'>Drone</span></b> character in <b><span style='font-variant: small-caps;'>Sensors</span></b>. They must choose one the following:<ul><li>Become <b><span style='font-variant: small-caps;'>Shredded</span></b> and <b><span style='font-variant: small-caps;'>Slowed</span></b> until the end of their next turn.</li><li>They and all targets previously affected by this action gain <b>1 Heat</b>, and they choose a different non-<b><span style='font-variant: small-caps;'>Drone</span></b> character in <b><span style='font-variant: small-caps;'>Sensors</span></b> previously unaffected by this action to receive its effect.</li></ul></p>"
   },
   {
     "id": "ppg_npcf_emp_shielding_prototype",
