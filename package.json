@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "node ./scripts/build.js",
+    "build-heat": "node ./scripts/build-heat.js",
     "cleanup": "node ./scripts/cleanup.js",
     "test": "node ./scripts/test.js"
   },

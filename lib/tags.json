@@ -3,5 +3,25 @@
     "id": "tg_scene",
     "name": "{VAL}/Scene",
     "description": "This system, trait or reaction can be used {VAL} number of times per scene."
+  },
+  {
+    "id": "tg_arcing_ppg",
+    "name": "Arcing (PPG)",
+    "description": "This weapon can be fired over obstacles, usually by lobbing a projectile in an arc. You can draw line of sight with this weapon from allies to whom you have line of sight. However, this does not affect the origin of the attack for other purposes, including cover."
+  },
+  {
+    "id": "tg_overkill_ppg",
+    "name": "Overkill (PPG)",
+    "description": "When rolling damage with this weapon, you may choose to roll with <b><span style='font-variant: small-caps;'>Overkill</span></b>. If you do, you must reroll any damage dice that land on 1. Additional 1s continue to be rerolled. After damage is applied, the attacker takes Heat equal to the number of dice rerolled."
+  },
+  {
+    "id": "tg_seeking_ppg",
+    "name": "Seeking (PPG)",
+    "description": "This weapon has a limited form of self-guidance and internal propulsion, allowing it to follow complicated paths to targets with prominent heat signatures. As a result, this weapon ignores cover and doesn’t require line of sight as long as its target is in the <b><span style='font-variant: small-caps;'>Danger Zone</span></b> and it’s possible to draw a path to the target."
+  },
+  {
+    "id": "tg_drone_ppg",
+    "name": "Drone (PPG)",
+    "description": "This is a self-propelled, semi-autonomous unit with rudimentary intelligence. Unless otherwise specified, Drones are Size 1/2 characters that are allied to the user and have 10 Evasion, 5 HP, and 0 Armor. To be used they must be deployed to a free, valid space within Sensors and line of sight, typically as a quick action. Once deployed, they can be recalled with the same action used to deploy them (quick action or full action, etc.), rejoining with your mech. By default, Drones can’t take actions or move on their own; if they do have actions or movement, they act on their user’s turn. If a Drone you control in Sensors cannot move independently, you may choose to forgo your standard move on your turn to move that Drone up to 4 spaces. They benefit from cover and other defenses as usual, and make all mech skill checks and saves at +0. If a Drone reaches 0 HP, it is destroyed and must be repaired before it can be used again – like any system. As long as a Drone hasn’t been destroyed, it is restored to full HP when the user rests or performs a Full Repair. Deployed Drones persist for the rest of the scene, until destroyed, or until otherwise specified."
   }
 ]

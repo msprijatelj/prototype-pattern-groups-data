@@ -126,14 +126,20 @@
     "type": "System",
     "tags": [
       {
-        "id": "tg_recharge",
-        "val": 6
+        "id": "tg_arcing"
+      },
+      {
+        "id": "tg_grenade"
+      },
+      {
+        "id": "tg_limited",
+        "val": 1
       },
       {
         "id": "tg_quick_action"
       }
     ],
-    "effect": "<p>The Anchor creates a <b>Burst 2</b> area of gravitic energy. Hostile characters in the area or directly above it must pass a <b><span style='font-variant: small-caps;'>Hull</span></b> save or first be <b><span style='font-variant: small-caps;'>Immobilized</span></b> until the end of their next turn and then knocked <b><span style='font-variant: small-caps;'>Prone</span></b>.</p>"
+    "effect": "<p>Hostile characters directly above a <b>Blast 2</b> area in <b>Range 8</b> of must pass a <b><span style='font-variant: small-caps;'>Hull</span></b> save or be <b><span style='font-variant: small-caps;'>Immobilized</span></b> until the end of their next turn and be knocked <b><span style='font-variant: small-caps;'>Prone</span></b>.</p>"
   },
   {
     "id": "ppg_npcf_magnetic_reversal_anchor",
@@ -151,14 +157,14 @@
       },
       {
         "id": "tg_recharge",
-        "val": 4
+        "val": 5
       },
       {
         "id": "tg_reaction"
       }
     ],
-    "trigger": "<p>An allied character in the Anchor’s <b><span style='font-variant: small-caps;'>Sensors</span></b> takes damage from a <b>melee attack</b>.</p>",
-    "effect": "<p>The allied character gains <b><span style='font-variant: small-caps;'>Resistance</span> to all damage from the attack</b>, and the attacker must pass a <b><span style='font-variant: small-caps;'>Hull</span></b> save or be pushed <b>3 spaces</b> away from their target and knocked <b><span style='font-variant: small-caps;'>Prone</span></b>.</p>"
+    "trigger": "<p>The Anchor takes damage from a <b>melee</b> or <b>ranged attack</b>.</p>",
+    "effect": "<p>The Anchor gains <b><span style='font-variant: small-caps;'>Resistance</span> to all damage from the attack</b>, and the triggering attacker must pass a <b><span style='font-variant: small-caps;'>Hull</span></b> save or be pushed <b>3 spaces</b> away from the Anchor and knocked <b><span style='font-variant: small-caps;'>Prone</span></b>.</p>"
   },
   {
     "id": "ppg_npcf_null_grav_motivator_anchor",
@@ -265,7 +271,7 @@
         "id": "tg_overshield"
       }
     ],
-    "effect": "<p>The Capacitor deploys with <b><span style='font-variant: small-caps;'>Overshield</span></b> {2/3/4}. Whenever it grants <b><span style='font-variant: small-caps;'>Overshield</span></b> to another character, it gains the same amount of <b><span style='font-variant: small-caps;'>Overshield</span></b>.</p>"
+    "effect": "<p>When the Capacitor deploys or takes <b>structure damage</b>, it immediately gains <b><span style='font-variant: small-caps;'>Overshield</span></b> {2/3/4}. Whenever it grants <b><span style='font-variant: small-caps;'>Overshield</span></b> to another character, it gains the same amount of <b><span style='font-variant: small-caps;'>Overshield</span></b>.</p>"
   },
   {
     "id": "ppg_npcf_deflecting_shot_capacitor",
@@ -287,7 +293,7 @@
       }
     ],
     "trigger": "<p>An allied character that can be targeted by the <b><span style='font-variant: small-caps;'>Marathon Arquebus</span></b> is hit by an attack.</p>",
-    "effect": "<p>The Capacitor first <b><span style='font-variant: small-caps;'>Skirmishes</span></b> with the <b><span style='font-variant: small-caps;'>Marathon Arquebus</span></b>, dealing <b>half damage, Heat, or Burn</b> to all targets. The triggering allied character must be included in the attack’s area.</p>"
+    "effect": "<p>The Capacitor interrupts the attack with a <b><span style='font-variant: small-caps;'>Skirmish</span></b> using the <b><span style='font-variant: small-caps;'>Marathon Arquebus</span></b>, dealing <b>half damage, Heat, or Burn</b> to all targets. The triggering allied character must be included in the attack’s area.</p>"
   },
   {
     "id": "ppg_npcf_quickening_bolt_capacitor",
@@ -418,7 +424,7 @@
         "id": "tg_quick_tech"
       }
     ],
-    "effect": "<p>The next time a hostile action is taken against a character <b>bonded</b> with the Ghost, roll <b>1d6</b>: On a <b>4+</b>, the target takes <b>1 Heat</b> and is <b><span style='font-variant: small-caps;'>Intangible</span></b> during the action. This effect does not stack with <b><span style='font-variant: small-caps;'>Invisible</span></b>.</p>"
+    "effect": "<p>The next time a hostile action is taken against a character <b>bonded</b> with the Ghost, they immediately become <b><span style='font-variant: small-caps;'>Intangible</span></b> during that action. The action is still taken and affects other targets as normal.</p>"
   },
   {
     "id": "ppg_npcf_ghastly_vigor_ghost",
@@ -449,10 +455,10 @@
         "val": 6
       },
       {
-        "id": "tg_full_action"
+        "id": "tg_quick_action"
       }
     ],
-    "effect": "<p>The Ghost projects a <b>Burst 2</b> area of Firmament energy. All tangible characters, objects, terrain, and <b>sitrep</b> objectives are <b><span style='font-variant: small-caps;'>Intangible</span></b> while within the area (so <b><span style='font-variant: small-caps;'>Intangible</span></b> characters can interact with <b>sitrep</b> objectives within and tangible ones cannot). The area lasts until the end of the Ghost’s next turn.</p>"
+    "effect": "<p>The Ghost imposes the Firmament upon a <b>Burst 2</b> area. Characters, objects, terrain, zones, and <b>sitrep</b> objectives are <b><span style='font-variant: small-caps;'>Intangible</span></b> while within the area (so only <b><span style='font-variant: small-caps;'>Intangible</span></b> characters can interact with zones and <b>sitrep</b> objectives within). The area lasts until the end of the Ghost’s next turn.</p>"
   },
   {
     "id": "ppg_npcf_string_theory_marionette_ghost",
@@ -487,12 +493,12 @@
         "id": "tg_reaction"
       },
       {
-        "id": "tg_round",
-        "val": 1
+        "id": "tg_recharge",
+        "val": 5
       }
     ],
     "trigger": "<p>A hostile action is taken against a character <b>bonded</b> with the Ghost.</p>",
-    "effect": "<p>The Ghost may first use <b><span style='font-variant: small-caps;'>Paradox State</span></b>.</p>"
+    "effect": "<p>Immediately use <b><span style='font-variant: small-caps;'>Paradox State</span></b>, if able.</p>"
   },
   {
     "id": "ppg_npcf_spectral_flight_ghost",
@@ -731,8 +737,8 @@
         "id": "tg_reaction"
       }
     ],
-    "trigger": "<p>A hostile character adjacent to one of the Hatchet’s <b><span style='font-variant: small-caps;'>Thrown</span></b> weapons damages the Hatchet.</p>",
-    "effect": "<p>The Hatchet moves up to its <b><span style='font-variant: small-caps;'>Speed</span></b> directly towards the attacker and then activates <b><span style='font-variant: small-caps;'>Cleaving Retrieval</span></b>. If this forces the triggering character to make a save, the Hatchet gains <b><span style='font-variant: small-caps;'>Resistance</span></b> to all damage from the triggering attack.</p>"
+    "trigger": "<p>A hostile character damages the Hatchet while one of its <b><span style='font-variant: small-caps;'>Thrown</span></b> weapons is unretrieved.</p>",
+    "effect": "<p>The Hatchet moves up to its <b><span style='font-variant: small-caps;'>Speed</span></b> directly towards one of its <b><span style='font-variant: small-caps;'>Thrown</span></b> weapons. If the Hatchet ends its movement adjacent to its weapon, it gains <b><span style='font-variant: small-caps;'>Resistance</span> to the triggering damage</b>, retrieves the weapon, and may <b><span style='font-variant: small-caps;'>Skirmish</span></b> against the triggering character with that weapon.</p>"
   },
   {
     "id": "ppg_npcf_return_to_sender_hatchet",
@@ -754,7 +760,7 @@
       }
     ],
     "trigger": "<p>A character targets the Hatchet with an action with the <b><span style='font-variant: small-caps;'>Thrown</span></b>, <b><span style='font-variant: small-caps;'>Arcing</span></b>, <b><span style='font-variant: small-caps;'>Seeking</span></b>, or <b><span style='font-variant: small-caps;'>Grenade</span></b> tag.</p>",
-    "effect": "<p>The Hatchet interrupts the triggering action, changing the action’s target from itself to the triggering character, regardless of targeting restrictions or <b><span style='font-variant: small-caps;'>Range</span></b>. If the action would have affected an area, the Hatchet moves the area of the action to include the triggering character and exclude itself (if possible).</p>"
+    "effect": "<p>The Hatchet interrupts the triggering action, changing the action’s target from itself to the triggering character as if the action originated from the Hatchet. If the action affects one or more areas, the Hatchet moves any areas that include itself to instead include the triggering character and exclude itself (if possible). The triggering character still counts as taking the action.</p>"
   },
   {
     "id": "ppg_npcf_minuano_kinetic_saber_kensei",
@@ -878,7 +884,7 @@
       }
     ],
     "trigger": "<p>A weapon attack hits and deals damage to the Kensei while its weapon is <b>sheathed</b>.</p>",
-    "effect": "<p>The Kensei first <b>unsheathes</b> its weapon and gains <b><span style='font-variant: small-caps;'>Overshield</span></b> {3/5/7}.</p>"
+    "effect": "<p>The Kensei <b>unsheathes</b> its weapon and gains <b><span style='font-variant: small-caps;'>Overshield</span></b> {3/5/7} before taking damage.</p>"
   },
   {
     "id": "ppg_npcf_40mm_hand_cannon_kensei",
@@ -932,14 +938,17 @@
       "base": false
     },
     "locked": false,
-    "type": "Trait",
+    "type": "System",
     "tags": [
       {
         "id": "tg_recharge",
         "val": 5
+      },
+      {
+        "id": "tg_free_action"
       }
     ],
-    "effect": "<p>When activating <b><span style='font-variant: small-caps;'>Mass Driver Sheathe</span></b>, the Kensei may first move its <b><span style='font-variant: small-caps;'>Speed</span></b> in a straight line, ignoring obstructing characters, engagement, and reactions. It deals {3/4/5} <b>Kinetic AP damage</b> to characters it passes through.</p>"
+    "effect": "<p>Before activating <b><span style='font-variant: small-caps;'>Mass Driver Sheathe</span></b>, the Kensei may immediately move its <b><span style='font-variant: small-caps;'>Speed</span></b> in a straight line, ignoring obstructing characters, engagement, and reactions. It deals {3/4/5} <b>Kinetic AP damage</b> to characters it passes through.</p>"
   },
   {
     "id": "ppg_npcf_posture_break_kensei",
@@ -1178,7 +1187,7 @@
         "id": "tg_quick_action"
       }
     ],
-    "effect": "<p>The Knight throws an adjacent character, <b>pushing</b> them away from the Knight and ignoring terrain and obstructions. Allied characters are thrown up to <b>5 spaces</b>. Hostile characters must pass a <b><span style='font-variant: small-caps;'>Hull</span></b> save or be thrown up to <b>3 spaces</b> and knocked <b><span style='font-variant: small-caps;'>Prone</span></b>.</p>"
+    "effect": "<p>The Knight throws an adjacent character, <b>pushing</b> them in any direction while ignoring terrain and obstructions. Allied characters are thrown up to <b>5 spaces</b>. Hostile characters must pass a <b><span style='font-variant: small-caps;'>Hull</span></b> save or be thrown up to <b>3 spaces</b> and knocked <b><span style='font-variant: small-caps;'>Prone</span></b>.</p>"
   },
   {
     "id": "ppg_npcf_center_stage_mesmerist",
@@ -1312,9 +1321,12 @@
       {
         "id": "tg_recharge",
         "val": 5
+      },
+      {
+        "id": "tg_free_action"
       }
     ],
-    "effect": "<p>When the Mesmerist hits with a <b>tech attack</b>, it may escape all grapples and <b>teleport</b> to a free space adjacent to its target.</p>"
+    "effect": "<p>When the Mesmerist hits with a <b>tech attack</b>, it may immediately escape all grapples and <b>teleport</b> to a free space adjacent to its target.</p>"
   },
   {
     "id": "ppg_npcf_narcissus_override",
@@ -1363,7 +1375,7 @@
       }
     ],
     "trigger": "<p>An ally within <b><span style='font-variant: small-caps;'>Sensors</span></b> is attacked.</p>",
-    "effect": "<p>The Mesmerist first swaps places with the ally, each character <b>teleporting</b> to the other’s position. The Mesmerist may then use <b><span style='font-variant: small-caps;'>Overwatch</span></b> against the attacker. Afterwards, the Mesmerist becomes the target of the attack, instead.</p>"
+    "effect": "<p>The Mesmerist interrupts the attack by swapping places with the ally, each character <b>teleporting</b> to the other’s position. The Mesmerist then becomes the target of the attack, instead. After the triggering attack resolves, the Mesmerist may target the attacker with <b><span style='font-variant: small-caps;'>Overwatch</span></b>.</p>"
   },
   {
     "id": "ppg_npcf_hypnotic_attraction_mesmerist",
@@ -1952,7 +1964,7 @@
         "id": "tg_quick_tech"
       }
     ],
-    "effect": "<p>The Prism creates a <b>Burst 3</b> area of glittering light until the end of its next turn. Hostile characters cannot draw line of sight to spaces in the area besides the Prism’s.</p>"
+    "effect": "<p>Create a <b>Burst 3</b> area of glittering light until the end of its next turn. Hostile characters cannot draw line of sight to spaces in the area besides the Prism’s.</p>"
   },
   {
     "id": "ppg_npcf_shattered_glass_prism",
@@ -1974,7 +1986,7 @@
       }
     ],
     "trigger": "<p>The Prism or an allied character in <b>Range 3</b> is attacked while a <b>projector</b> exists.</p>",
-    "effect": "<p>The Prism first destroys a <b>projector</b> and <b>teleports</b> the triggering character to a space it occupied. Regardless of <b><span style='font-variant: small-caps;'>Range</span></b> or line of sight, the Prism becomes the new target of the attack as if it were targeted through a projector. Afterwards, the attacker is <b><span style='font-variant: small-caps;'>Impaired</span></b> until the end of their next turn.</p>"
+    "effect": "<p>The Prism interrupts the attack by destroying a <b>projector</b> and <b>teleporting</b> the triggering character to a space it occupied. Regardless of <b><span style='font-variant: small-caps;'>Range</span></b> or line of sight, the Prism becomes the new target of the attack as if it were targeted through a projector. Afterwards, the attacker is <b><span style='font-variant: small-caps;'>Impaired</span></b> until the end of their next turn.</p>"
   },
   {
     "id": "ppg_npcf_amorphous_torrent",
@@ -3554,7 +3566,7 @@
     "locked": false,
     "type": "Trait",
     "tags": [],
-    "effect": "<p>The Formation is composed of <b>four independent, identical characters</b>, each with their own spaces and statistics. Each member gains the following characteristics:<ul><li>It has <b>1 HP</b> and cannot gain any more. It takes no damage on successful saves.</li><li>It can never have more than <b>1 <span style='font-variant: small-caps;'>Structure</span></b> and <b>1 <span style='font-variant: small-caps;'>Stress</span></b>, and it is immediately destroyed if it takes any <b>Heat</b> from hostile sources.</li></ul></p><p>All members of a Formation act on the same turn, subject to the following limitations:<ul><li>Each member has its own standard movement.</li><li>Members share the same pool of actions per turn, obeying the rules for duplicate actions. For example, on one turn, one member may <b><span style='font-variant: small-caps;'>Skirmish</span></b> while another <b><span style='font-variant: small-caps;'>Boosts</span></b>.</li><li>Abilities with expendable uses (such as those with <b><span style='font-variant: small-caps;'>Recharge</span></b>, <b><span style='font-variant: small-caps;'>Limited</span></b>, or <b><span style='font-variant: small-caps;'>1/Scene</span></b> tags) share their uses across all members (so if one member uses a <b><span style='font-variant: small-caps;'>Recharge</span> 4+</b> ability, none of the others may do so until it <b><span style='font-variant: small-caps;'>Recharges</span></b>).</li><li>The Formation’s abilities with lasting effects are shared across all members. For example, all members of an <b><span style='font-variant: small-caps;'>Assassin</span></b> Formation may benefit from <b><span style='font-variant: small-caps;'>Assassin’s Mark</span></b> (<i>Lancer</i>, p. 289), but none of them can choose a new target until the current one is destroyed.</li></ul></p><p>This template counts as the <b><span style='font-variant: small-caps;'>Grunt</span></b> template (<i>Lancer</i>, p. 327) for the purposes of objectives and additional templates. A Formation cannot take any other template that grants it <b><span style='font-variant: small-caps;'>Structure</span></b>, <b><span style='font-variant: small-caps;'>Stress</span></b>, or more than <b>one turn per round</b>.</p>",
+    "effect": "<p>The Formation is composed of <b>four independent, identical characters</b>, each with their own spaces and statistics. Each member gains the following characteristics:<ul><li>It has <b>1 HP</b> and cannot gain any more. It takes no damage on successful saves.</li><li>It can never have more than <b>1 <span style='font-variant: small-caps;'>Structure</span></b> and <b>1 <span style='font-variant: small-caps;'>Stress</span></b>, and it is immediately destroyed if it takes any <b>Heat</b> from hostile sources.</li></ul></p><p>All members of a Formation act on the same turn, subject to the following limitations:<ul><li>Each member has its own standard movement.</li><li>Members share the same pool of actions per turn, obeying the rules for duplicate actions. For example, on one turn, one member may <b><span style='font-variant: small-caps;'>Skirmish</span></b> while another <b><span style='font-variant: small-caps;'>Boosts</span></b>.</li><li>Abilities with expendable uses (such as those with <b><span style='font-variant: small-caps;'>Recharge</span></b>, <b><span style='font-variant: small-caps;'>Limited</span></b>, or <b><span style='font-variant: small-caps;'>1/Scene</span></b> tags) share their uses across all members (so if one member uses a <b><span style='font-variant: small-caps;'>Recharge</span> 4+</b> ability, none of the others may do so until it <b><span style='font-variant: small-caps;'>Recharges</span></b>).</li><li>The Formation’s abilities with lasting effects are shared across all members. For example, all members of an <b><span style='font-variant: small-caps;'>Assassin</span></b> Formation may benefit from <b><span style='font-variant: small-caps;'>Assassin’s Mark</span></b> (<i>Lancer</i>, p. 289), but none of them can choose a new target until the current one is destroyed.</li></ul></p><p>This template counts as the <b><span style='font-variant: small-caps;'>Grunt</span></b> template (<i>Lancer</i>, p. 327), with each member treated as an individual <b><span style='font-variant: small-caps;'>Grunt</span></b>. A Formation cannot take any other template that grants it <b><span style='font-variant: small-caps;'>Structure</span></b>, <b><span style='font-variant: small-caps;'>Stress</span></b>, or more than <b>one turn per round</b>.</p>",
     "override": {
       "hp": 1,
       "structure": 1,
@@ -3585,7 +3597,7 @@
     "locked": false,
     "type": "Trait",
     "tags": [],
-    "effect": "<p>When choosing optional features, the Prototype can choose from this template’s Optional Features as well as features from any other NPC class.</p>"
+    "effect": "<p>When choosing optional features, the Prototype may choose from this template’s Optional Features or features from any other NPC class.</p>"
   },
   {
     "id": "ppg_npcf_auntie_augmented_minigun_prototype",
@@ -3799,13 +3811,13 @@
     "tags": [
       {
         "id": "tg_recharge",
-        "val": 5
+        "val": 6
       },
       {
         "id": "tg_quick_tech"
       }
     ],
-    "effect": "<p>Choose another character in <b><span style='font-variant: small-caps;'>Sensors</span></b> and line of sight. If the character is hostile, they take {2/3/4} Energy damage; if allied, they gain <b><span style='font-variant: small-caps;'>Overshield</span></b> {2/3/4}. The Prototype may repeat this effect against a different character not yet affected by this system within the target’s <b><span style='font-variant: small-caps;'>Sensors</span></b> and line of sight. This system may only affect {3/4/5} characters in a single use.</p>"
+    "effect": "<p>Choose another character in <b><span style='font-variant: small-caps;'>Sensors</span></b> and line of sight. If the character is hostile, they take {2/3/4} Energy damage; if allied, they gain <b><span style='font-variant: small-caps;'>Overshield</span></b> {2/3/4}. The Prototype may repeat this effect against a different character within <b>Range 5</b> of the target. This system may only affect {3/4/5} characters in a single use, and characters may only be targeted once per use.</p>"
   },
   {
     "id": "ppg_npcf_doomscroll_prototype",
@@ -3832,7 +3844,7 @@
       2,
       3
     ],
-    "effect": "<p>Make a <b>tech attack</b> against a character in <b><span style='font-variant: small-caps;'>Sensors</span></b>. On a hit, they are inundated with ads, spam, and fake outrage posts, gaining <b>2 Heat</b> and becoming <b><span style='font-variant: small-caps;'>Impaired</span></b>. They remain <b><span style='font-variant: small-caps;'>Impaired</span></b> until they succeed on a <b><span style='font-variant: small-caps;'>Systems</span></b> save at the end of their turn; on each failed save, they receive an additional <b>2 Heat</b>. Each character may only be affected by this system <b>1/scene</b>.</p>"
+    "effect": "<p>Make a <b>tech attack</b> against a character in <b><span style='font-variant: small-caps;'>Sensors</span></b>. On a hit, they are inundated with ads, spam, and fake outrage posts, gaining <b>2 Heat</b> and becoming <b><span style='font-variant: small-caps;'>Impaired</span></b>. They remain <b><span style='font-variant: small-caps;'>Impaired</span></b> until they succeed on a <b><span style='font-variant: small-caps;'>Systems</span></b> check at the end of their turn; on each failed save, they receive an additional <b>1 Heat</b>. Each character may only be affected by this system <b>1/scene</b>.</p>"
   },
   {
     "id": "ppg_npcf_xnopyt_potato_prototype",
@@ -3844,22 +3856,17 @@
     },
     "locked": false,
     "type": "Tech",
-    "tech_type": "Quick",
+    "tech_type": "Full",
     "tags": [
       {
-        "id": "tg_recharge",
-        "val": 5
+        "id": "tg_full_tech"
       },
       {
-        "id": "tg_quick_tech"
+        "id": "tg_scene",
+        "val": 1
       }
     ],
-    "attack_bonus": [
-      1,
-      2,
-      3
-    ],
-    "effect": "<p>Make a <b>tech attack</b> against a non-<b><span style='font-variant: small-caps;'>Drone</span></b> character in <b><span style='font-variant: small-caps;'>Sensors</span></b>. On a hit, they must choose one the following:<ul><li>Become <b><span style='font-variant: small-caps;'>Shredded</span></b> and <b><span style='font-variant: small-caps;'>Slowed</span></b> until the end of their next turn.</li><li>They and all targets previously affected by this action gain <b>1 Heat</b>, and they choose a different non-<b><span style='font-variant: small-caps;'>Drone</span></b> character in <b><span style='font-variant: small-caps;'>Sensors</span></b> previously unaffected by this action to receive its effect.</li></ul></p>"
+    "effect": "<p>Choose a non-<b><span style='font-variant: small-caps;'>Drone</span></b> character in <b><span style='font-variant: small-caps;'>Sensors</span></b>. They must choose one the following:<ul><li>Become <b><span style='font-variant: small-caps;'>Shredded</span></b> and <b><span style='font-variant: small-caps;'>Slowed</span></b> until the end of their next turn.</li><li>They and all targets previously affected by this action gain <b>1 Heat</b>, and they choose a different non-<b><span style='font-variant: small-caps;'>Drone</span></b> character in <b><span style='font-variant: small-caps;'>Sensors</span></b> previously unaffected by this action to receive its effect.</li></ul></p>"
   },
   {
     "id": "ppg_npcf_emp_shielding_prototype",
@@ -3911,7 +3918,7 @@
     "locked": false,
     "type": "System",
     "tags": [],
-    "effect": "<p>This feature replaces <b><span style='font-variant: small-caps;'>Novel Technology</span></b>. The Prototype is <b><span style='font-variant: small-caps;'>Invisible</span></b> until a character <b><span style='font-variant: small-caps;'>Scans</span></b> them or an identical character (i.e., an NPC with the same class, templates, and features belonging to the same faction).</p>"
+    "effect": "<p>The Prototype is <b><span style='font-variant: small-caps;'>Invisible</span></b> until a character <b><span style='font-variant: small-caps;'>Scans</span></b> them or an identical character (i.e., an NPC with the same class, templates, and features belonging to the same faction).</p>"
   },
   {
     "id": "ppg_npcf_lightning_rod_prototype",
@@ -4104,15 +4111,15 @@
         "id": "tg_deployable"
       },
       {
-        "id": "tg_recharge",
-        "val": 5
+        "id": "tg_limited",
+        "val": 1
       },
       {
         "id": "tg_reaction"
       }
     ],
     "trigger": "<p>A <b>tech action</b> affects the Prototype.</p>",
-    "effect": "<p>The Prototype first deploys a holographic afterimage in its space with the same <b><span style='font-variant: small-caps;'>Evasion</span></b> and <b><span style='font-variant: small-caps;'>E-Defense</span></b> as itself, but only <b>1 HP</b>. While the afterimage exists, when a <b>tech action</b> affects the Prototype, the afterimage halts the effect, leaving the Prototype unaffected. Track each effect halted in this way; once the afterimage is destroyed, the Prototype immediately receives all halted effects as normal.</p>"
+    "effect": "<p>The Prototype interrupts the effect by deploying a holographic afterimage in an adjacent space. The afterimage has the same <b><span style='font-variant: small-caps;'>Evasion</span></b> and <b><span style='font-variant: small-caps;'>E-Defense</span></b> as the Prototype, but only <b>1 HP</b>. While the afterimage persists, when a <b>tech action</b> affects the Prototype, the afterimage halts the effect, leaving the Prototype unaffected. Track each effect halted in this way; once the afterimage is destroyed, the Prototype immediately receives all halted effects as normal.</p>"
   },
   {
     "id": "ppg_npcf_tectonic_wave_anchor",
@@ -4162,7 +4169,7 @@
     "locked": false,
     "type": "Trait",
     "tags": [],
-    "effect": "<p><b><span style='font-variant: small-caps;'>Paradox State</span></b> instead lasts until the start of the Ghost’s next turn and affects every hostile action taken against a character <b>bonded</b> with the Ghost.</p>"
+    "effect": "<p>When a character becomes <b><span style='font-variant: small-caps;'>Intangible</span></b> due to <b><span style='font-variant: small-caps;'>Paradox State</span></b>, they remain <b><span style='font-variant: small-caps;'>Intangible</span></b> until the end of the current turn. While <b><span style='font-variant: small-caps;'>Intangible</span></b> in this way, they can target and affect tangible characters and objects, dealing <b>half damage, Heat, or Burn</b>.</p>"
   },
   {
     "id": "ppg_npcf_hurricane_of_steel_hatchet",
@@ -4315,7 +4322,7 @@
   },
   {
     "id": "ppg_npcf_rapid_refabrication_vulture",
-    "name": "Rapid Refabrication (Ultra)",
+    "name": "Aggressive Refabrication (Ultra)",
     "origin": {
       "type": "Class",
       "name": "Vulture",
@@ -4324,7 +4331,7 @@
     "locked": false,
     "type": "Trait",
     "tags": [],
-    "effect": "<p>The Vulture may use <b><span style='font-variant: small-caps;'>“Magpie” Subroutines</span></b> as a <b>full action</b> for an additional <b>2 Heat</b>. If it does, it chooses a second option to <b>destroy</b>, then chooses a second benefit. The second benefit may target the same character or a different one.</p>"
+    "effect": "<p>The Vulture may use <b><span style='font-variant: small-caps;'>“Magpie” Subroutines</span></b> as a <b>full action</b> for an additional <b>2 Heat</b>. If it does, it may choose the following option to <b>destroy</b>:<ul><li>A weapon or system equipped by an unwilling adjacent character, chosen by that character. The affected character may avoid this with a successful <b><span style='font-variant: small-caps;'>Hull</span></b> save; if it does, the Vulture must instead choose one of the other options to <b>destroy</b> or lose this action.</li></ul></p>"
   },
   {
     "id": "ppg_npcf_undying_faith_zealot",
@@ -4490,7 +4497,7 @@
     "locked": false,
     "type": "Trait",
     "tags": [],
-    "effect": "<p>Targets affected by <b><span style='font-variant: small-caps;'>Adhesive Gel</span></b> take <b>1 Heat</b> each time they fail an <b><span style='font-variant: small-caps;'>Engineering</span></b> check to clear <b>Burn</b>.</p>"
+    "effect": "<p>Characters <b><span style='font-variant: small-caps;'>Slowed</span></b> by <b><span style='font-variant: small-caps;'>Salamander Thermobaric Catapult</span></b> take <b>1 Heat</b> each time they fail an <b><span style='font-variant: small-caps;'>Engineering</span></b> check to clear <b>Burn</b>.</p>"
   },
   {
     "id": "ppg_npcf_doubling_season_occultist",
@@ -4508,7 +4515,7 @@
         "val": 1
       }
     ],
-    "effect": "<p><b><span style='font-variant: small-caps;'>Reap the Chaff</span></b> may destroy two targets at a time. If it does, the Occultist may deploy <b><span style='font-variant: small-caps;'>1 FLOCK Drone</span></b> adjacent to itself as a <b>free action</b> for <b>1 Heat</b>.</p>"
+    "effect": "<p>When the Occultist uses <b><span style='font-variant: small-caps;'>Reap The Chaff</span></b>, it may destroy up to two targets at a time and may deploy <b>1 <span style='font-variant: small-caps;'>FLOCK Drone</span></b> adjacent to itself as a <b>free action</b> for <b>1 Heat</b>.</p>"
   },
   {
     "id": "ppg_npcf_double_vision_prism",
