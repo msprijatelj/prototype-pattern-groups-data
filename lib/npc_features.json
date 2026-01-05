@@ -4322,7 +4322,7 @@
   },
   {
     "id": "ppg_npcf_rapid_refabrication_vulture",
-    "name": "Rapid Refabrication (Ultra)",
+    "name": "Aggressive Refabrication (Ultra)",
     "origin": {
       "type": "Class",
       "name": "Vulture",
@@ -4331,7 +4331,7 @@
     "locked": false,
     "type": "Trait",
     "tags": [],
-    "effect": "<p>The Vulture may use <b><span style='font-variant: small-caps;'>“Magpie” Subroutines</span></b> as a <b>full action</b> for an additional <b>2 Heat</b>. If it does, it chooses a second option to <b>destroy</b>, then chooses a second benefit. The second benefit may target the same character or a different one.</p>"
+    "effect": "<p>The Vulture may use <b><span style='font-variant: small-caps;'>“Magpie” Subroutines</span></b> as a <b>full action</b> for an additional <b>2 Heat</b>. If it does, it may choose the following option to <b>destroy</b>:<ul><li>A weapon or system equipped by an unwilling adjacent character, chosen by that character. The affected character may avoid this with a successful <b><span style='font-variant: small-caps;'>Hull</span></b> save; if it does, the Vulture must instead choose one of the other options to <b>destroy</b> or lose this action.</li></ul></p>"
   },
   {
     "id": "ppg_npcf_undying_faith_zealot",
