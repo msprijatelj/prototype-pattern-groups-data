@@ -139,7 +139,7 @@
         "id": "tg_quick_action"
       }
     ],
-    "effect": "<p>Hostile characters directly above a <b>Blast 2</b> area in <b>Range 8</b> of must pass a <b><span style='font-variant: small-caps;'>Hull</span></b> save or be <b><span style='font-variant: small-caps;'>Immobilized</span></b> until the end of their next turn and be knocked <b><span style='font-variant: small-caps;'>Prone</span></b>.</p>"
+    "effect": "<p>Characters in or directly above a <b>Blast 2</b> area in <b>Range 8</b> of must pass a <b><span style='font-variant: small-caps;'>Hull</span></b> save or be <b><span style='font-variant: small-caps;'>Immobilized</span></b> until the end of their next turn and be knocked <b><span style='font-variant: small-caps;'>Prone</span></b>.</p>"
   },
   {
     "id": "ppg_npcf_magnetic_reversal_anchor",
@@ -402,7 +402,7 @@
         "id": "tg_quick_action"
       }
     ],
-    "effect": "<p>The Ghost <b>bonds</b> with one tangible adjacent allied character, becoming <b><span style='font-variant: small-caps;'>Intangible</span></b> and sharing <b>one</b> of the target’s spaces. As a <b>protocol</b>, the bonded target may inflict <b>1 Heat</b> upon both themselves and the Ghost to gain the Ghost’s <b><span style='font-variant: small-caps;'>Phase Shift</span></b> feature until the end of their turn. However, if a hostile <b>tech action</b> affects either bonded character, the other character also suffers the action’s effects.</p><p>While <b>bonded</b>, the Ghost moves with the bonded target’s <b>voluntary movement</b>. The bond ends if the Ghost uses this system again, no longer shares a space with the bonded target, or is <b><span style='font-variant: small-caps;'>Stunned</span></b>, <b><span style='font-variant: small-caps;'>Jammed</span></b>, overheated, or destroyed.</p>"
+    "effect": "<p>The Ghost <b>bonds</b> with one tangible adjacent allied character, becoming <b><span style='font-variant: small-caps;'>Intangible</span></b> and sharing <b>one</b> of the target’s spaces. As a <b>protocol</b>, the bonded target may inflict <b>1 Heat</b> upon both themselves and the Ghost to gain the Ghost’s <b><span style='font-variant: small-caps;'>Phase Shift</span></b> feature until the end of their turn. However, if a hostile <b>tech action</b> affects either bonded character, the other character also suffers the action’s effects.</p><p>While <b>bonded</b>, the Ghost moves with the bonded target’s <b>voluntary movement</b>. The bond ends if the Ghost uses this system again, no longer shares a space with the bonded target, or is <b><span style='font-variant: small-caps;'>Stunned</span></b>, <b><span style='font-variant: small-caps;'>Jammed</span></b>, overheated, or destroyed. The Ghost becomes tangible in the nearest free space.</p>"
   },
   {
     "id": "ppg_npcf_paradox_state_ghost",
@@ -437,7 +437,7 @@
     "locked": false,
     "type": "Trait",
     "tags": [],
-    "effect": "<p>Gain <b><span style='font-variant: small-caps;'>Bolster</span></b> (<i>Lancer</i>, p. 69) as an option for <b><span style='font-variant: small-caps;'>Quick Tech</span></b>. Tech attacks against targets <b><span style='font-variant: small-caps;'>Bolstered</span></b> by this character receive <b>+1 Difficulty</b>.</p>"
+    "effect": "<p>Gain <b><span style='font-variant: small-caps;'>Bolster</span></b> (<i>Lancer</i>, p. 69) as an option for <b><span style='font-variant: small-caps;'>Quick Tech</span></b>. While a character is <b><span style='font-variant: small-caps;'>Bolstered</span></b> by the Ghost, tech attacks against them receive <b>+1 Difficulty</b>.</p>"
   },
   {
     "id": "ppg_npcf_superimpose_firmament_ghost",
@@ -462,7 +462,7 @@
   },
   {
     "id": "ppg_npcf_string_theory_marionette_ghost",
-    "name": "String Theory Marionette",
+    "name": "Action at a Distance",
     "origin": {
       "type": "Class",
       "name": "Ghost",
@@ -473,10 +473,14 @@
     "tech_type": "Quick",
     "tags": [
       {
+        "id": "tg_heat_self",
+        "val": 1
+      },
+      {
         "id": "tg_quick_tech"
       }
     ],
-    "effect": "<p>A character <b>bonded</b> with the Ghost may <b><span style='font-variant: small-caps;'>Skirmish</span></b> or use the <b><span style='font-variant: small-caps;'>Quick Tech</span></b> action as a <b>reaction</b>, dealing <b>half damage, Heat, or Burn</b> to all targets.</p>"
+    "effect": "<p>As a <b>reaction</b>, a character <b>bonded</b> with the Ghost may <b><span style='font-variant: small-caps;'>Boost</span></b>, <b><span style='font-variant: small-caps;'>Hide</span></b>, <b><span style='font-variant: small-caps;'>Skirmish</span></b>, or use the <b><span style='font-variant: small-caps;'>Quick Tech</span></b> action, dealing <b>half damage, Heat, or Burn</b>.</p>"
   },
   {
     "id": "ppg_npcf_wavefunction_collapse_ghost",
@@ -948,7 +952,7 @@
         "id": "tg_free_action"
       }
     ],
-    "effect": "<p>Before activating <b><span style='font-variant: small-caps;'>Mass Driver Sheathe</span></b>, the Kensei may immediately move its <b><span style='font-variant: small-caps;'>Speed</span></b> in a straight line, ignoring obstructing characters, engagement, and reactions. It deals {3/4/5} <b>Kinetic AP damage</b> to characters it passes through.</p>"
+    "effect": "<p>Before activating <b><span style='font-variant: small-caps;'>Mass Driver Sheathe</span></b>, the Kensei may immediately move up to its <b><span style='font-variant: small-caps;'>Speed</span></b> in a straight line, ignoring obstructing characters, engagement, and reactions. It deals {3/4/5} <b>Kinetic AP damage</b> to characters it passes through.</p>"
   },
   {
     "id": "ppg_npcf_posture_break_kensei",
@@ -1549,7 +1553,7 @@
         "id": "tg_quick_action"
       }
     ],
-    "effect": "<p><b>Firefly Drone (Size </b>1/2<b>, HP </b>{5/8/10}<b>, Evasion </b>10<b>, E-Defense </b>10<b>, Tags: </b><i>Drone</i><b>)</b></p><p>This drone can be deployed to a space within <b><span style='font-variant: small-caps;'>Sensors</span></b> and line of sight, where it constantly hovers <b>5 spaces</b> above the ground. As a <b>protocol</b> or upon deployment, the Napalm may move the drone up to <b>5 spaces</b> in straight line; the spaces below this path are set <b>on fire</b> and become <b>difficult terrain</b> until extinguished or until the start of the Napalm’s turn. Characters that end their turn within the area or move into one for the first time in a round take <b>2 Heat</b> and {2/3/4} <b>Burn</b>. Only one drone may be deployed at a time; deploying a new drone destroys the old one.</p>"
+    "effect": "<p><b>Firefly Drone (Size </b>1/2<b>, HP </b>{5/8/10}<b>, Evasion </b>10<b>, E-Defense </b>10<b>, Tags: </b><i>Drone</i><b>)</b></p><p>This drone can be deployed to a space within <b><span style='font-variant: small-caps;'>Sensors</span></b> and line of sight, where it constantly hovers <b>5 spaces</b> above the ground. As a <b>protocol</b> or upon deployment, the Napalm may move the drone up to <b>5 spaces</b> in straight line; the spaces below this path are set <b>on fire</b> and become <b>difficult terrain</b> until extinguished, until the drone is destroyed, or until the start of the Napalm’s turn. Characters that end their turn within the area or move into one for the first time in a round take <b>2 Heat</b> and {2/3/4} <b>Burn</b>. Only one drone may be deployed at a time; deploying a new drone destroys the old one.</p>"
   },
   {
     "id": "ppg_npcf_incendiary_grenade_napalm",
@@ -3615,20 +3619,28 @@
         "id": "tg_ai"
       },
       {
-        "id": "tg_reliable",
-        "val": "{2/3/4}"
+        "id": "tg_ordnance"
       },
       {
         "id": "tg_seeking"
       },
       {
         "id": "tg_smart"
+      },
+      {
+        "id": "tg_reliable",
+        "val": "{2/3/4}"
       }
     ],
     "attack_bonus": [
       1,
       2,
       3
+    ],
+    "accuracy": [
+      -1,
+      -1,
+      -1
     ],
     "range": [
       {
@@ -3646,7 +3658,7 @@
         ]
       }
     ],
-    "effect": "<p>The Prototype gains the <b>AI</b> tag, but cannot <b>cascade</b>. On the same turn as attacking with this weapon, the Prototype may take one of the following actions as a <b>free action</b> once before the end of the turn: <b><span style='font-variant: small-caps;'>Boost</span></b>, <b><span style='font-variant: small-caps;'>Grapple</span></b>, <b><span style='font-variant: small-caps;'>Hide</span></b>, or <b><span style='font-variant: small-caps;'>Ram</span></b>.</p>"
+    "effect": "<p>The Prototype gains the <b>AI</b> tag, but cannot <b>cascade</b>. After attacking with this weapon, the Prototype may take one of the following actions as a <b>free action</b> before the end of the turn: <b><span style='font-variant: small-caps;'>Boost</span></b>, <b><span style='font-variant: small-caps;'>Grapple</span></b>, <b><span style='font-variant: small-caps;'>Hide</span></b>, or <b><span style='font-variant: small-caps;'>Ram</span></b>.</p>"
   },
   {
     "id": "ppg_npcf_bleeding_edge_prototype",
@@ -3789,13 +3801,13 @@
     "tags": [
       {
         "id": "tg_recharge",
-        "val": 5
+        "val": 6
       },
       {
         "id": "tg_quick_tech"
       }
     ],
-    "effect": "<p>One character adjacent to the Prototype must make an <b><span style='font-variant: small-caps;'>Engineering</span></b> save or take {4/5/6} <b>Kinetic damage</b> and be launched upwards <b>5 spaces</b> into the air. Once aloft, the target is <b><span style='font-variant: small-caps;'>Immobilized</span></b> and treated as if it were in <b>zero-g</b>; it may be freely pushed, pulled, and knocked back through the air.</p><p>This effect lasts until the end of the target’s next turn, at which point it floats gently to the ground without taking damage from falling. A character can only be targeted with this system <b>1/scene</b>.</p>"
+    "effect": "<p>One character adjacent to the Prototype must make an <b><span style='font-variant: small-caps;'>Engineering</span></b> save or take {4/5/6} <b>Kinetic damage</b> and be launched upwards <b>5 spaces</b> into the air. Once aloft, the target is <b><span style='font-variant: small-caps;'>Immobilized</span></b> and treated as if they were in <b>zero-g</b>; they may be freely pushed, pulled, and knocked back through the air.</p><p>This effect lasts until the end of the target’s next turn, at which point they float gently to the ground without taking damage from falling. A character can only be targeted with this system <b>1/scene</b>.</p>"
   },
   {
     "id": "ppg_npcf_chain_surge_prototype",
@@ -3817,7 +3829,7 @@
         "id": "tg_quick_tech"
       }
     ],
-    "effect": "<p>Choose another character in <b><span style='font-variant: small-caps;'>Sensors</span></b> and line of sight. If the character is hostile, they take {2/3/4} Energy damage; if allied, they gain <b><span style='font-variant: small-caps;'>Overshield</span></b> {2/3/4}. The Prototype may repeat this effect against a different character within <b>Range 5</b> of the target. This system may only affect {3/4/5} characters in a single use, and characters may only be targeted once per use.</p>"
+    "effect": "<p>Choose another character in <b><span style='font-variant: small-caps;'>Sensors</span></b> and line of sight. If the character is hostile, they take {2/3/4} <b>Energy AP damage</b>; if allied, they gain <b><span style='font-variant: small-caps;'>Overshield</span></b> {2/3/4}. The Prototype may repeat this effect against a different character within <b>Range 5</b> of the target. This system may only affect {3/4/5} characters in a single use, and characters may only be targeted once per use.</p>"
   },
   {
     "id": "ppg_npcf_doomscroll_prototype",
@@ -3844,7 +3856,7 @@
       2,
       3
     ],
-    "effect": "<p>Make a <b>tech attack</b> against a character in <b><span style='font-variant: small-caps;'>Sensors</span></b>. On a hit, they are inundated with ads, spam, and fake outrage posts, gaining <b>2 Heat</b> and becoming <b><span style='font-variant: small-caps;'>Impaired</span></b>. They remain <b><span style='font-variant: small-caps;'>Impaired</span></b> until they succeed on a <b><span style='font-variant: small-caps;'>Systems</span></b> check at the end of their turn; on each failed save, they receive an additional <b>1 Heat</b>. Each character may only be affected by this system <b>1/scene</b>.</p>"
+    "effect": "<p>Make a <b>tech attack</b> against a character in <b><span style='font-variant: small-caps;'>Sensors</span></b>. On a hit, they are inundated with ads, spam, and fake outrage posts, gaining <b>2 Heat</b> and becoming <b><span style='font-variant: small-caps;'>Impaired</span></b>. They remain <b><span style='font-variant: small-caps;'>Impaired</span></b> until they succeed on a <b><span style='font-variant: small-caps;'>Systems</span></b> check at the end of their turn; on each failed check, they receive an additional <b>1 Heat</b>. Each character may only be affected by this system <b>1/scene</b>.</p>"
   },
   {
     "id": "ppg_npcf_xnopyt_potato_prototype",
@@ -4331,7 +4343,7 @@
     "locked": false,
     "type": "Trait",
     "tags": [],
-    "effect": "<p>The Vulture may use <b><span style='font-variant: small-caps;'>“Magpie” Subroutines</span></b> as a <b>full action</b> for an additional <b>2 Heat</b>. If it does, it may choose the following option to <b>destroy</b>:<ul><li>A weapon or system equipped by an unwilling adjacent character, chosen by that character. The affected character may avoid this with a successful <b><span style='font-variant: small-caps;'>Hull</span></b> save; if it does, the Vulture must instead choose one of the other options to <b>destroy</b> or lose this action.</li></ul></p>"
+    "effect": "<p>The Vulture may use <b><span style='font-variant: small-caps;'>“Magpie” Subroutines</span></b> as a <b>full action</b>. If it does, it may choose the following option to <b>destroy</b>:<ul><li>A weapon or system equipped by an unwilling adjacent character, chosen by that character. The affected character may avoid this with a successful <b><span style='font-variant: small-caps;'>Hull</span></b> save; if it does, the Vulture must instead choose one of the other options to <b>destroy</b> or lose this action.</li></ul></p>"
   },
   {
     "id": "ppg_npcf_undying_faith_zealot",
