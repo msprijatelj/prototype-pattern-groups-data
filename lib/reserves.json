@@ -1,0 +1,30 @@
+[
+  {
+    "id": "ppg_reserve_brisk_frames",
+    "name": "Brisk Frames (PPG)",
+    "type": "Bonus",
+    "label": "Bonus",
+    "description": "For use on frames with less than 3 Speed. Equip to replace Speed value with 3.",
+    "bonuses": [
+      {
+        "id": "speed",
+        "val": 3,
+        "replace": true
+      }
+    ]
+  },
+  {
+    "id": "ppg_reserve_sensible_sensors",
+    "name": "Sensible Sensors (PPG)",
+    "type": "Bonus",
+    "label": "Bonus",
+    "description": "For use on frames with less than 5 Sensors. Equip to replace Sensors value with 5.",
+    "bonuses": [
+      {
+        "id": "sensor",
+        "val": 5,
+        "replace": true
+      }
+    ]
+  }
+]
