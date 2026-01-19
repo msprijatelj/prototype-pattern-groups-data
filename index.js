@@ -14,7 +14,7 @@ const data = {
   npc_templates: require('./lib/npc_templates.json'),
   // pilot_gear: require('./lib/pilot_gear.json'),
   reserves: require('./lib/reserves.json'),
-  // sitreps: require('./lib/sitreps.json'),
+  sitreps: require('./lib/sitreps.json'),
   // skills: require('./lib/skills.json'),
   statuses: require('./lib/statuses.json'),
   // systems: require('./lib/systems.json'),

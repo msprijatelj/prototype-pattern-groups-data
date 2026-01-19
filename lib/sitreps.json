@@ -1,0 +1,23 @@
+[
+  {
+    "id": "ppg_sitrep_blitz",
+    "name": "Blitz",
+    "description": "",
+    "pcVictory": "",
+    "enemyVictory": "",
+    "noVictory": "",
+    "controlZone": "",
+    "deployment": ""
+  },
+  {
+    "id": "ppg_sitrep_transport",
+    "name": "Transport",
+    "description": "",
+    "pcVictory": "",
+    "enemyVictory": "",
+    "noVictory": "",
+    "deployment": "",
+    "objective": "",
+    "extraction": ""
+  }
+]
