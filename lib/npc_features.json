@@ -1652,7 +1652,7 @@
         ]
       }
     ],
-    "effect": "<p>This weapon can attack <b>1–2</b> targets at a time.</p><p><b>On Attack:</b> A controlled <b><span style='font-variant: small-caps;'>Drone</span></b> within <b><span style='font-variant: small-caps;'>Sensors</span></b> may move adjacent to the target.</p>"
+    "effect": "<p>This weapon can attack <b>1–2</b> targets at a time. For each attack, a controlled <b><span style='font-variant: small-caps;'>Drone</span></b> within <b><span style='font-variant: small-caps;'>Sensors</span></b> may move adjacent to the target as long as the <b><span style='font-variant: small-caps;'>Drone</span></b> otherwise cannot move on its own.</p>"
   },
   {
     "id": "ppg_npcf_reap_the_chaff_occultist",
@@ -1715,11 +1715,11 @@
       }
     ],
     "attack_bonus": [
+      1,
       2,
-      4,
-      6
+      3
     ],
-    "effect": "<p>Make a <b>tech attack</b> against a <b><span style='font-variant: small-caps;'>Drone</span></b> within <b><span style='font-variant: small-caps;'>Sensors</span></b>. On a hit, the Occultist controls the target <b><span style='font-variant: small-caps;'>Drone</span></b> until the end of its next turn.</p>"
+    "effect": "<p>Make a <b>tech attack</b> against a <b><span style='font-variant: small-caps;'>Drone</span></b> within <b><span style='font-variant: small-caps;'>Sensors</span></b>. On a hit, the Occultist controls the target <b><span style='font-variant: small-caps;'>Drone</span></b> until the end of its next turn. This effect ends if the original owner recalls the affected <b><span style='font-variant: small-caps;'>Drone</span></b>.</p>"
   },
   {
     "id": "ppg_npcf_scapegoat_occultist",
@@ -3410,7 +3410,7 @@
         "id": "tg_quick_tech"
       }
     ],
-    "effect": "<p>The Brigand targets one hostile <b><span style='font-variant: small-caps;'>Deployable</span></b> or <b><span style='font-variant: small-caps;'>Drone</span></b>. Until the end of the scene, the Brigand is treated as the controller of the target <b><span style='font-variant: small-caps;'>Deployable</span></b> or <b><span style='font-variant: small-caps;'>Drone</span></b>. Attacks, checks, and saves made or forced by the <b><span style='font-variant: small-caps;'>Drone</span></b> use the original controller’s statistics. <b><span style='font-variant: small-caps;'>Drones</span></b> cannot be recalled while affected by this system.</p><p>The original controller can regain control and end this effect with a successful <b><span style='font-variant: small-caps;'>Systems</span></b> check as a <b>quick action</b> while the affected <b><span style='font-variant: small-caps;'>Deployable</span></b> or <b><span style='font-variant: small-caps;'>Drone</span></b> is within their <b><span style='font-variant: small-caps;'>Sensors</span></b> and line of sight.</p>"
+    "effect": "<p>The Brigand targets one hostile <b><span style='font-variant: small-caps;'>Deployable</span></b> or <b><span style='font-variant: small-caps;'>Drone</span></b>. Until the end of the scene, the Brigand is treated as the controller of the target <b><span style='font-variant: small-caps;'>Deployable</span></b> or <b><span style='font-variant: small-caps;'>Drone</span></b>. Attacks, checks, and saves made or forced by the <b><span style='font-variant: small-caps;'>Drone</span></b> use the original controller’s statistics. A <b><span style='font-variant: small-caps;'>Drone</span></b> cannot be recalled while affected by this system.</p><p>The original controller can regain control and end this effect with a successful <b><span style='font-variant: small-caps;'>Systems</span></b> check as a <b>quick action</b> while the affected <b><span style='font-variant: small-caps;'>Deployable</span></b> or <b><span style='font-variant: small-caps;'>Drone</span></b> is within their <b><span style='font-variant: small-caps;'>Sensors</span></b> and line of sight.</p>"
   },
   {
     "id": "ppg_npcf_enforce_limiters_brigand",
