@@ -3346,7 +3346,7 @@
     "locked": false,
     "type": "Trait",
     "tags": [],
-    "effect": "<p>The Brigand’s <b>critical hits</b> deal <b>2 Heat</b> against targets with at least <b>1 CP</b>.</p>"
+    "effect": "<p>The Brigand’s weapon attacks deal <b>1 Heat</b> on hit against targets with at least <b>1 CP</b>.</p>"
   },
   {
     "id": "ppg_npcf_shredding_claws_brigand",
