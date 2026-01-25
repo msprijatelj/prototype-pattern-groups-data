@@ -3560,6 +3560,22 @@
     }
   },
   {
+    "id": "ppg_npcf_faster_faster",
+    "name": "Faster",
+    "origin": {
+      "type": "Template",
+      "name": "Faster",
+      "base": true
+    },
+    "locked": false,
+    "type": "Trait",
+    "tags": [],
+    "effect": "<p>This Increase this NPC’s <b><span style='font-variant: small-caps;'>Speed</span></b> by <b>1</b>.</p>",
+    "bonus": {
+      "speed": 1
+    }
+  },
+  {
     "id": "ppg_npcf_mass_produced_formation",
     "name": "Mass-Produced",
     "origin": {

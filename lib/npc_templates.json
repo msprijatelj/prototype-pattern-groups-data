@@ -99,6 +99,16 @@
     "power": 0
   },
   {
+    "id": "ppg_npct_faster",
+    "name": "Faster",
+    "description": "<p>Use with the <b><span style='font-variant: small-caps;'>No Split Moves</span></b> with optional rule.</p>",
+    "base_features": [
+      "ppg_npcf_faster_faster"
+    ],
+    "optional_features": [],
+    "power": 0
+  },
+  {
     "id": "ppg_npct_formation",
     "name": "Formation",
     "description": "<p><b>Formations</b> are an alternative take on the <b>Grunt</b> template (<i>Lancer</i>, p. 327). This template transforms a single standard NPC into a group that acts on a shared turn, allowing the NPC to threaten a larger territory without increasing its total action output.</p>",

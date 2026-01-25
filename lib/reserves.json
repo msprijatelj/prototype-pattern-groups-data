@@ -4,7 +4,7 @@
     "name": "Brisk Frames (PPG)",
     "type": "Bonus",
     "label": "Bonus",
-    "description": "For use on frames with less than 3 Speed. Equip to replace Speed value with 3.",
+    "description": "For use on frames with less than <b><span style='font-variant: small-caps;'>3 Speed</span></b>. Equip to replace <b><span style='font-variant: small-caps;'>Speed</span></b> value with <b>3</b>.",
     "bonuses": [
       {
         "id": "speed",
@@ -18,12 +18,25 @@
     "name": "Sensible Sensors (PPG)",
     "type": "Bonus",
     "label": "Bonus",
-    "description": "For use on frames with less than 5 Sensors. Equip to replace Sensors value with 5.",
+    "description": "For use on frames with less than <b><span style='font-variant: small-caps;'>5 Sensors</span></b>. Equip to replace <b><span style='font-variant: small-caps;'>Sensors</span></b> value with <b>5</b>.",
     "bonuses": [
       {
         "id": "sensor",
         "val": 5,
         "replace": true
+      }
+    ]
+  },
+  {
+    "id": "ppg_reserve_faster",
+    "name": "Faster (PPG)",
+    "type": "Bonus",
+    "label": "Bonus",
+    "description": "When forbidding actions from splitting up movement, increase the base <b><span style='font-variant: small-caps;'>Speed</span></b> of all characters by <b>1</b>.",
+    "bonuses": [
+      {
+        "id": "speed",
+        "val": 1
       }
     ]
   }
