@@ -4359,7 +4359,7 @@
     "locked": false,
     "type": "Trait",
     "tags": [],
-    "effect": "<p>The Vulture may use <b><span style='font-variant: small-caps;'>“Magpie” Subroutines</span></b> as a <b>full action</b>. If it does, it may choose the following option to <b>destroy</b>:<ul><li>A weapon or system equipped by an unwilling adjacent character, chosen by that character. The affected character may avoid this with a successful <b><span style='font-variant: small-caps;'>Hull</span></b> save; if it does, the Vulture must instead choose one of the other options to <b>destroy</b> or lose this action.</li></ul></p>"
+    "effect": "<p>The Vulture may use <b><span style='font-variant: small-caps;'>“Magpie” Subroutines</span></b> as a <b>full action</b>. If it does, it may choose the following option to <b>destroy</b>:<ul><li>A weapon or system equipped by an unwilling adjacent character, as if they were affected by the <b>System Trauma</b> effect from the <b><span style='font-variant: small-caps;'>Structure Damage Table</span></b> (<i>Lancer</i>, p. 80). The affected character may avoid this with a successful <b><span style='font-variant: small-caps;'>Hull</span></b> save; if it does, the Vulture must instead choose one of the other options to <b>destroy</b> or lose this action.</li></ul></p>"
   },
   {
     "id": "ppg_npcf_undying_faith_zealot",
