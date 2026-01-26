@@ -4,7 +4,7 @@
     "name": "Overcharge (PPG)",
     "activation": "Free",
     "terse": "Overcharging lets you reroll any attack, check, or save once.",
-    "detail": "When you OVERCHARGE, you briefly push your mech beyond factory specifications for a tactical advantage. Moments of intense action won’t tax your mech’s systems too much, but sustained action beyond prescribed limits takes a toll.<br>After you make an attack roll, skill check, or save and know the result you can OVERCHARGE your mech, allowing you to reroll the attack roll, skill check, or save once and use the new result. This free action can be taken even when it is not your turn.<br>The first time you OVERCHARGE, take 1 heat.<br>The second time you OVERCHARGE, take 1d3 heat.<br>The third time, take 1d6 heat, and each time thereafter take 1d6+4 heat.<br>You take this heat after the action resolves. A rest reduces this counter by one step; spending 1 repair during a rest completely resets this counter. In addition, a FULL REPAIR resets this counter.",
+    "detail": "<p>When you <b><span style='font-variant: small-caps;'>Overcharge</span></b>, you briefly push your mech beyond factory specifications for a tactical advantage. Moments of intense action won’t tax your mech’s systems too much, but sustained action beyond prescribed limits takes a toll.</p><p>After you make an attack roll, skill check, or save and know the result, as a <b>free action</b> you can <b><span style='font-variant: small-caps;'>Overcharge</span></b> your mech, allowing you to reroll the attack roll, skill check, or save <b>once</b> and use the new result. This free action can be taken even when it is not your turn.</p><p>The first time you <b><span style='font-variant: small-caps;'>Overcharge</span></b>, take <b>1 heat</b>.</p><p>The second time you <b><span style='font-variant: small-caps;'>Overcharge</span></b>, take <b>1d3 heat</b>.</p><p>The third time, take <b>1d6 heat</b>, and each time thereafter take <b>1d6+4 heat</b>.</p><p>You take this <b>heat</b> after the action resolves. A <b>rest</b> reduces this counter by one step; spending <b>1 repair</b> during a rest completely resets this counter. In addition, a <b><span style='font-variant: small-caps;'>Full Repair</span></b> resets this counter.<p>",
     "mech": true,
     "pilot": false,
     "synergy_locations": [
@@ -19,7 +19,7 @@
     "name": "Search (PPG)",
     "activation": "Quick",
     "terse": "Look for a hidden target.",
-    "detail": "When you SEARCH, you attempt to identify hidden characters. To SEARCH in a mech, make a SYSTEMS contested by the AGILITY checks of all HIDDEN characters within SENSORS.<br>To SEARCH as a pilot on foot, make a contested skill check, adding bonuses from triggers as normal. This can be used to reveal characters within RANGE 5.<br>Any HIDDEN character who loses the contested check immediately loses HIDDEN and can be located again by any character.",
+    "detail": "<p>When you <b><span style='font-variant: small-caps;'>Search</span></b>, you attempt to identify hidden characters. To <b><span style='font-variant: small-caps;'>Search</span></b> in a mech, make a <b><span style='font-variant: small-caps;'>Systems</span></b> contested by the <b><span style='font-variant: small-caps;'>Agility</span></b> checks of all <b><span style='font-variant: small-caps;'>Hidden</span></b> characters within <b><span style='font-variant: small-caps;'>Sensors</span></b>, ignoring line of sight.</p><p>To <b><span style='font-variant: small-caps;'>Search</span></b> as a pilot on foot, instead make a contested skill check, adding bonuses from triggers as normal. Pilots are treated as having <b><span style='font-variant: small-caps;'>Sensors</span> 5</b>.</p><p>Any <b><span style='font-variant: small-caps;'>Hidden</span></b> character who loses the contested check immediately loses <b><span style='font-variant: small-caps;'>Hidden</span></b> and can be located again by any character.</p>",
     "mech": true,
     "pilot": true,
     "synergy_locations": [
@@ -43,7 +43,7 @@
     "name": "Aid (PPG)",
     "activation": "Quick",
     "terse": "Aid a mech so it can Stabilize more easily.",
-    "detail": "When you <b><span style='font-variant: small-caps;'>Aid</span></b>, you assist a mech so it can <b><span style='font-variant: small-caps;'>Stabilize</span></b> more easily. Choose an adjacent character. On their next turn, they may <b><span style='font-variant: small-caps;'>Stabilize</span></b> as a <b>quick action</b>. They can choose to take this action even if they normally would not be able to take actions (for example, by being affected by the <b><span style='font-variant: small-caps;'>Stunned</span></b> condition).",
+    "detail": "<p>When you <b><span style='font-variant: small-caps;'>Aid</span></b>, you assist a mech so it can <b><span style='font-variant: small-caps;'>Stabilize</span></b> more easily. Choose an adjacent character. On their next turn, they may <b><span style='font-variant: small-caps;'>Stabilize</span></b> as a <b>quick action</b>. They can choose to take this action even if they normally would not be able to take actions (for example, by being affected by the <b><span style='font-variant: small-caps;'>Stunned</span></b> condition).</p>",
     "mech": true,
     "pilot": false
   },
@@ -52,7 +52,7 @@
     "name": "Handle",
     "activation": "Quick",
     "terse": "Lift or drag an object.",
-    "detail": "As a <b>protocol</b> or <b>quick action</b>, a character may start to handle an adjacent object or willing character by lifting or dragging them. A character may choose to stop handling an object as a free action.<br/><br/>Mechs can drag characters or objects up to twice their SIZE but are SLOWED while doing so. They can also lift characters or objects of equal or lesser SIZE overhead but are IMMOBILIZED while doing so. While dragging or lifting, characters can’t take reactions. The same rules apply to pilots and other characters on foot, but they can’t drag or lift anything above SIZE 1/2.<br/><br/>If a character starts to handle an object handled by a hostile character, the object does not move until it is only handled by characters allied with each other. If a character handling an object is involuntarily moved such that they are no longer adjacent to the object, they cease to handle the object. As a quick action, a handler may roll a single HULL check. All hostile handlers must succeed on a contested HULL check or cease to handle the object.",
+    "detail": "<p>As a <b>protocol</b> or <b>quick action</b>, a character may start to handle an adjacent object or willing character by lifting or dragging them. A character may choose to stop handling an object as a free action.</p><p>Mechs can drag characters or objects up to twice their <b><span style='font-variant: small-caps;'>Size</span></b> but are <b><span style='font-variant: small-caps;'>Slowed</span></b> while doing so. They can also lift characters or objects of equal or lesser <b><span style='font-variant: small-caps;'>Size</span></b> overhead but are <b><span style='font-variant: small-caps;'>Immobilized</span></b> while doing so. While dragging or lifting, characters can’t take reactions. The same rules apply to pilots and other characters on foot, but they can’t drag or lift anything above <b><span style='font-variant: small-caps;'>Size</span> 1/2</b>.</p><p>If a character starts to handle an object handled by a hostile character, the object does not move until it is only handled by characters allied with each other. If a character handling an object is involuntarily moved such that they are no longer adjacent to the object, they cease to handle the object. As a <b>protocol</b> or <b>quick action</b>, a handler may roll a single <b><span style='font-variant: small-caps;'>Hull</span></b> check. All hostile handlers must succeed on a contested <b><span style='font-variant: small-caps;'>Hull</span></b> check or cease to handle the object.</p>",
     "mech": true,
     "pilot": true
   },
@@ -70,7 +70,7 @@
     "name": "Drop Prone",
     "activation": "Free",
     "terse": "Drop <b><span style='font-variant: small-caps;'>Prone</span></b>, landing if flying.",
-    "detail": "1/turn, a character may <b><span style='font-variant: small-caps;'>Drop Prone</span></b> as a <b>free action</b>, gaining the <b><span style='font-variant: small-caps;'>Prone</span></b> status. If the character is flying and is not underwater, in zero-g, or in a similar environment, they immediately land (this counts as falling without damage) before falling <b><span style='font-variant: small-caps;'>Prone</span></b>.",
+    "detail": "<p>1/turn, a character may <b><span style='font-variant: small-caps;'>Drop Prone</span></b> as a <b>free action</b>, gaining the <b><span style='font-variant: small-caps;'>Prone</span></b> status. If the character is flying and is not underwater, in zero-g, or in a similar environment, they immediately land (this counts as falling without damage) before falling <b><span style='font-variant: small-caps;'>Prone</span></b>.</p>",
     "mech": true,
     "pilot": true
   },
@@ -79,7 +79,7 @@
     "name": "Squeeze",
     "activation": "Free",
     "terse": "Fit into a smaller space than usual.",
-    "detail": "A character may <b>squeeze</b> as a <b>free action</b>, treating themselves as one <b><span style='font-variant: small-caps;'>Size</span></b> smaller for the purposes of movement. While <b>squeezing</b>, the character is additionally treated as <b><span style='font-variant: small-caps;'>Prone</span></b>. The character may stop squeezing as a <b>free action</b> while in a space able to accommodate their normal <b><span style='font-variant: small-caps;'>Size</span></b>.",
+    "detail": "<p>A character may <b>squeeze</b> as a <b>free action</b>, treating themselves as one <b><span style='font-variant: small-caps;'>Size</span></b> smaller for the purposes of movement. While <b>squeezing</b>, the character is additionally treated as <b><span style='font-variant: small-caps;'>Prone</span></b>. The character may stop squeezing as a <b>free action</b> while in a space able to accommodate their normal <b><span style='font-variant: small-caps;'>Size</span></b>.</p>",
     "mech": true,
     "pilot": true
   }
