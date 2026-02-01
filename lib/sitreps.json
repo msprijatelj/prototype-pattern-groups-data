@@ -1,0 +1,43 @@
+[
+  {
+    "id": "ppg_sitrep_blitz",
+    "name": "Blitz",
+    "description": "Blitz models situations when the PCs attempt to quickly secure or destroy multiple targets. It is a flexible, low-complexity sitrep that doubles as an introduction to the Interact action.",
+    "deployment": "PCs deploy in a PDZ and initial Enemy Forces deploy in an EDZ; the side in a defensive position deploys last. If neither force is in a defensive position, randomly determine who deploys last.",
+    "objective": "The objectives are Size 1 objects deployed in any location on the map, in any configuration (e.g., close together, far apart, or a combination). A PC may score an objective with a successful Interact action (Actions, Appendix A). Each objective may only be scored once.The number of objectives varies depending on the desired duration: Short: 1–2 objects per PC; Medium: 2–3 objects per PC; Long: 3–4 objects per PC.",
+    "pcVictory": "Total Victory: Score all objectives; Partial Victory: Retreat after scoring at least 1 objective per PC; Defeat: Retreat after scoring less than 1 objective per PC."
+  },
+  {
+    "id": "ppg_sitrep_fortify",
+    "name": "Fortify",
+    "description": "Fortify models situations when the PCs attempt to retain control of strategic objects or locations despite mounting hostile pressure. It can be used in place of Holdout (Lancer, p. 272).",
+    "deployment": "PCs deploy in a PDZ and initial Enemy Forces deploy in an EDZ; the side in a defensive position deploys last. If neither force is in a defensive position, randomly determine who deploys last.",
+    "objective": "The objectives are 3–4 Size 1 objects deployed in any location on the map, in any configuration (e.g., close together, far apart, or a combination). The objectives begin under the PCs’ control; at the end of each round, the PCs score 1 point for each objective under their control. However, if an NPC successfully Interacts (Actions, Appendix A) with an objective, the PCs lose control of that objective until they successfully Interact with it.The PCs must collectively score a total number of points depending on the desired duration: Short: 1 point per PC; Medium: 2 points per PC; Long: 3 points per PC.",
+    "pcVictory": "Total Victory: Reach the point threshold; Partial Victory: Retreat after scoring at least 1 point per PC; Defeat: Retreat after scoring less than 1 point per PC."
+  },
+  {
+    "id": "ppg_sitrep_seize",
+    "name": "Seize",
+    "description": "Seize models situations when the PCs attempt to wrest control of strategic objects or locations through sustained application of force. It may be substituted in place of Control (Lancer, p. 268) or Gauntlet (Lancer, p. 271).",
+    "deployment": "PCs deploy in a PDZ and initial Enemy Forces deploy in an EDZ; the side in a defensive position deploys last. If neither force is in a defensive position, randomly determine who deploys last.",
+    "objective": "The objectives are 3–4 Size 1 objects deployed in any location on the map, in any configuration (e.g., close together, far apart, or a combination). Each time a PC successfully Interacts (Actions, Appendix A) with an objective, they score 1 point. Each objective may only be scored 1/round.The PCs must collectively score a total number of points depending on the desired duration: Short: 1 point per PC; Medium: 2 points per PC; Long: 3 points per PC.",
+    "pcVictory": "Total Victory: Reach the point threshold; Partial Victory: Retreat after scoring at least 1 point per PC; Defeat: Retreat after scoring less than 1 point per PC."
+  },
+  {
+    "id": "ppg_sitrep_transport",
+    "name": "Transport",
+    "description": "Transport models a situation when the PCs attempt to move an object valuable to their enemies across a dangerous location. It can be used in place of Escort (Lancer, p. 269) or Extraction (Lancer, p. 270).",
+    "deployment": "PCs deploy in a PDZ and initial Enemy Forces deploy in an EDZ; the side in a defensive position deploys last. If neither force is in a defensive position, randomly determine who deploys last.",
+    "objective": "The objective is an object no larger than the maximum Size the PCs can drag, either with their mechs or with appropriate equipment (such as a transport Vehicle). For rules on moving objects, see Object Handling under Actions, Appendix A. Enemy forces want the objective and avoid damaging it if possible.Deploy the objective in an appropriate location: The ADZ if PCs control it, or elsewhere if they do not. The PCs must drag the object a distance from its deployment depending on the desired duration: Short: 12 or fewer spaces; Medium: 13–24 spaces; Long: 25–36 spaces.",
+    "extraction": "While in the EZ, PCs may extract as a free action at the end of their turn. Extracted PCs are permanently removed from the battlefield. If an objective is adjacent to a PC when they extract and isn’t handled by an opposing character, it is safely extracted.",
+    "pcVictory": "Total Victory: Extract the objective and all PCs; Partial Victory: Extract the objective and at least one PC while the rest surrender or Retreat; Defeat: The objective is destroyed. Surviving PCs may still extract or Retreat."
+  },
+  {
+    "id": "ppg_sitrep_triangulate",
+    "name": "Triangulate",
+    "description": "Triangulate models situations where the PCs Search for an objective purposefully hidden from them. It is a Short or Medium duration sitrep often combined with another sitrep of similar length that reflects the sought-after objective (such as Fortify, Seize, or Transport). It can be used in place of Recon (Lancer, p. 273).It is recommended to use this sitrep with the Sensible Sensors optional rule (Mech Statistics, Appendix A).",
+    "deployment": "PCs deploy in a PDZ and initial Enemy Forces deploy in an EDZ; the side in a defensive position deploys last. If neither force is in a defensive position, randomly determine who deploys last.",
+    "objective": "The objective is an object hidden from the PCs in a randomly determined location or one chosen by the GM, typically away from the ADZ and the map’s edges. The GM may decide if the enemy forces know the location of the objective. To find the objective, the PCs must use the Search action (see Area Search under Actions, Appendix A), learning how distant the objective is if it is within their Sensors: Near: 2 or fewer spaces; Close: 3–5 spaces; Medium: 6–10 spaces; Long: 11–15 spaces; Far: 16+ spaces; If the objective is Near after Searching, the PCs immediately find it.",
+    "pcVictory": "Victory: Find the objective. If appropriate, transition to a new sitrep; Defeat: Fail to find the objective before Retreat."
+  }
+]
