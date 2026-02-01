@@ -2,22 +2,42 @@
   {
     "id": "ppg_sitrep_blitz",
     "name": "Blitz",
-    "description": "",
-    "pcVictory": "",
-    "enemyVictory": "",
-    "noVictory": "",
-    "controlZone": "",
-    "deployment": ""
+    "description": "<p><i>Sending you the target coordinates; hit them fast and hard, and we’ll be home in time for dinner.</i></p><p><b><span style='font-variant: small-caps;'>Blitz</span></b> models situations when the PCs attempt to quickly secure or destroy multiple targets. It is a flexible, low-complexity sitrep that doubles as an introduction to the <b><span style='font-variant: small-caps;'>Interact</span></b> action.</p>",
+    "deployment": "<p>PCs deploy in a PDZ and initial Enemy Forces deploy in an EDZ; the side in a defensive position deploys last. If neither force is in a defensive position, randomly determine who deploys last.</p>",
+    "objective": "<p>The <b>objectives</b> are <b><span style='font-variant: small-caps;'>Size 1</span></b> objects deployed in any location on the map, in any configuration (e.g., close together, far apart, or a combination). A PC may score an objective with a successful <b><span style='font-variant: small-caps;'>Interact</span></b> action (<b><span style='font-variant: small-caps;'>Actions, Appendix A</span></b>). Each objective may only be scored <b>once</b>.</p><p>The number of <b>objectives</b> varies depending on the desired duration:<ul><li><b>Short</b>: 1–2 objects per PC.</li><li><b>Medium</b>: 2–3 objects per PC.</li><li><b>Long</b>: 3–4 objects per PC.</li></ul></p>",
+    "pcVictory": "<p><ul><li><b>Total Victory</b>: Score all objectives.</li><li><b>Partial Victory</b>: <b>Retreat</b> after scoring at least 1 objective per PC.</li><li><b>Defeat</b>: <b>Retreat</b> after scoring less than 1 objective per PC.</li></ul></p>"
+  },
+  {
+    "id": "ppg_sitrep_fortify",
+    "name": "Fortify",
+    "description": "<p><i>The surface-to-orbit cannon is charging, but only if its batteries remain intact. Keep the enemy away!</i></p><p><b><span style='font-variant: small-caps;'>Fortify</span></b> models situations when the PCs attempt to retain control of strategic objects or locations despite mounting hostile pressure. It can be used in place of <b><span style='font-variant: small-caps;'>Holdout</span></b> (<i>Lancer</i>, p. 272).</p>",
+    "deployment": "<p>PCs deploy in a PDZ and initial Enemy Forces deploy in an EDZ; the side in a defensive position deploys last. If neither force is in a defensive position, randomly determine who deploys last.</p>",
+    "objective": "<p>The <b>objectives</b> are 3–4 <b><span style='font-variant: small-caps;'>Size 1</span></b> objects deployed in any location on the map, in any configuration (e.g., close together, far apart, or a combination). The objectives begin under the PCs’ control; at the end of each round, the PCs score <b>1 point</b> for each objective under their control. However, if an NPC successfully <b><span style='font-variant: small-caps;'>Interacts</span></b> (<b><span style='font-variant: small-caps;'>Actions, Appendix A</span></b>) with an objective, the PCs lose control of that objective until they successfully <b><span style='font-variant: small-caps;'>Interact</span></b> with it.</p><p>The PCs must collectively score a total number of points depending on the desired duration:<ul><li><b>Short</b>: 1 point per PC.</li><li><b>Medium</b>: 2 points per PC.</li><li><b>Long</b>: 3 points per PC.</li></ul></p>",
+    "pcVictory": "<p><ul><li><b>Total Victory</b>: Reach the point threshold.</li><li><b>Partial Victory</b>: <b>Retreat</b> after scoring at least 1 point per PC.</li><li><b>Defeat</b>: <b>Retreat</b> after scoring less than 1 point per PC.</li></ul></p>"
+  },
+  {
+    "id": "ppg_sitrep_seize",
+    "name": "Seize",
+    "description": "<p><i>The opposing force possesses materiel we don’t want them to have. Seize the assets by force.</i></p><p><b><span style='font-variant: small-caps;'>Seize</span></b> models situations when the PCs attempt to wrest control of strategic objects or locations through sustained application of force. It may be substituted in place of <b><span style='font-variant: small-caps;'>Control</span></b> (<i>Lancer</i>, p. 268) or <b><span style='font-variant: small-caps;'>Gauntlet</span></b> (<i>Lancer</i>, p. 271).</p>",
+    "deployment": "<p>PCs deploy in a PDZ and initial Enemy Forces deploy in an EDZ; the side in a defensive position deploys last. If neither force is in a defensive position, randomly determine who deploys last.</p>",
+    "objective": "<p>The <b>objectives</b> are 3–4 <b><span style='font-variant: small-caps;'>Size 1</span></b> objects deployed in any location on the map, in any configuration (e.g., close together, far apart, or a combination). Each time a PC successfully <b><span style='font-variant: small-caps;'>Interacts</span></b> (<b><span style='font-variant: small-caps;'>Actions, Appendix A</span></b>) with an objective, they score <b>1 point</b>. Each objective may only be scored <b>1/round</b>.</p><p>The PCs must collectively score a total number of points depending on the desired duration:<ul><li><b>Short</b>: 1 point per PC.</li><li><b>Medium</b>: 2 points per PC.</li><li><b>Long</b>: 3 points per PC.</li></ul></p>",
+    "pcVictory": "<p><ul><li><b>Total Victory</b>: Reach the point threshold.</li><li><b>Partial Victory</b>: <b>Retreat</b> after scoring at least 1 point per PC.</li><li><b>Defeat</b>: <b>Retreat</b> after scoring less than 1 point per PC.</li></ul></p>"
   },
   {
     "id": "ppg_sitrep_transport",
     "name": "Transport",
-    "description": "",
-    "pcVictory": "",
-    "enemyVictory": "",
-    "noVictory": "",
-    "deployment": "",
-    "objective": "",
-    "extraction": ""
+    "description": "<p><i>Folks are depending on this medicine shipment. The corpo who owns it won’t give it up without a fight.</i></p><p><b><span style='font-variant: small-caps;'>Transport</span></b> models a situation when the PCs attempt to move an object valuable to their enemies across a dangerous location. It can be used in place of <b><span style='font-variant: small-caps;'>Escort</span></b> (<i>Lancer</i>, p. 269) or <b><span style='font-variant: small-caps;'>Extraction</span></b> (<i>Lancer</i>, p. 270).</p>",
+    "deployment": "<p>PCs deploy in a PDZ and initial Enemy Forces deploy in an EDZ; the side in a defensive position deploys last. If neither force is in a defensive position, randomly determine who deploys last.</p>",
+    "objective": "<p>The <b>objective</b> is an object no larger than the maximum <b><span style='font-variant: small-caps;'>Size</span></b> the PCs can drag, either with their mechs or with appropriate equipment (such as a transport <b><span style='font-variant: small-caps;'>Vehicle</span></b>). For rules on moving objects, see <b><span style='font-variant: small-caps;'>Object Handling</span></b> under <b><span style='font-variant: small-caps;'>Actions, Appendix A</span></b>. Enemy forces want the <b>objective</b> and avoid damaging it if possible.</p><p>Deploy the <b>objective</b> in an appropriate location: The <b>ADZ</b> if PCs control it, or elsewhere if they do not. The PCs must drag the object a distance from its deployment depending on the desired duration:<ul><li><b>Short</b>: 12 or fewer spaces.</li><li><b>Medium</b>: 13–24 spaces.</li><li><b>Long</b>: 25–36 spaces.</li></ul></p>",
+    "extraction": "<p>While in the EZ, PCs may extract as a <b>free action</b> at the end of their turn. Extracted PCs are permanently removed from the battlefield. If an <b>objective</b> is adjacent to a PC when they extract and isn’t handled by an opposing character, it is safely extracted.</p>",
+    "pcVictory": "<p><ul><li><b>Total Victory</b>: Extract the <b>objective</b> and all PCs.</li><li><b>Partial Victory</b>: Extract the <b>objective</b> and at least one PC while the rest surrender or <b>Retreat</b>.</li><li><b>Defeat</b>: The <b>objective</b> is destroyed. Surviving PCs may still extract or <b>Retreat</b>.</li></ul></p>"
+  },
+  {
+    "id": "ppg_sitrep_triangulate",
+    "name": "Triangulate",
+    "description": "<p><i>Command can’t get a visual on the objective — you’re going in blind. You know what to do once you find it.</i></p><p><b><span style='font-variant: small-caps;'>Triangulate</span></b> models situations where the PCs <b><span style='font-variant: small-caps;'>Search</span></b> for an objective actively hidden from them. It is a <b>Short</b> or <b>Medium</b> duration sitrep often combined with another sitrep of similar length that reflects the sought-after objective (such as <b><span style='font-variant: small-caps;'>Fortify</span></b>, <b><span style='font-variant: small-caps;'>Seize</span></b>, or <b><span style='font-variant: small-caps;'>Transport</span></b>). It can be used in place of <b><span style='font-variant: small-caps;'>Recon</span></b> (<i>Lancer</i>, p. 273).</p><p>It is recommended to use this sitrep with the <b><span style='font-variant: small-caps;'>Sensible Sensors</span></b> optional rule (<b><span style='font-variant: small-caps;'>Mech Statistics, Appendix A</span></b>).</p>",
+    "deployment": "<p>PCs deploy in a PDZ and initial Enemy Forces deploy in an EDZ; the side in a defensive position deploys last. If neither force is in a defensive position, randomly determine who deploys last.</p>",
+    "objective": "<p>The <b>objective</b> is an object hidden from the PCs in a randomly determined location or one chosen by the GM, typically away from the <b>ADZ</b> and the map’s edges. The GM may decide if the enemy forces know the location of the objective. To find the objective, the PCs must use the <b><span style='font-variant: small-caps;'>Search</span></b> action (see <b><span style='font-variant: small-caps;'>Area Search</span></b> under <b><span style='font-variant: small-caps;'>Actions, Appendix A</span></b>), learning how distant the objective is if it is within their <b><span style='font-variant: small-caps;'>Sensors</span></b>:<ul><li><b>Near</b>: 2 or fewer spaces.</li><li><b>Close</b>: 3–5 spaces.</li><li><b>Medium</b>: 6–10 spaces.</li><li><b>Long</b>: 11–15 spaces.</li><li><b>Far</b>: 16+ spaces.</li></ul>If the objective is <b>Near</b> after <b><span style='font-variant: small-caps;'>Searching</span></b>, the PCs immediately find it.</p>",
+    "pcVictory": "<p><ul><li><b>Victory</b>: Find the <b>objective</b>. If appropriate, transition to a new sitrep.</li><li><b>Defeat</b>: Fail to find the objective before <b>Retreat</b>.</li></ul></p>"
   }
 ]
