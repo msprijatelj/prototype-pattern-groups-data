@@ -4097,7 +4097,7 @@
         "id": "tg_quick_action"
       }
     ],
-    "effect": "<p><b>Teleport 2 spaces</b>. This system can be activated even while <b><span style='font-variant: small-caps;'>Slowed</span></b> or <b><span style='font-variant: small-caps;'>Immobilized</span></b>.</p>"
+    "effect": "<p><b>Teleport up to 2 spaces</b>. This system can be activated even while <b><span style='font-variant: small-caps;'>Slowed</span></b> or <b><span style='font-variant: small-caps;'>Immobilized</span></b>.</p>"
   },
   {
     "id": "ppg_npcf_faraday_countermeasures_prototype",
