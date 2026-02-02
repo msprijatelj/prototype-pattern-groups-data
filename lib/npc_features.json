@@ -4236,7 +4236,7 @@
         "val": 6
       }
     ],
-    "effect": "<p>If the Kensei takes the final NPC turn of the round, for that turn the <b><span style='font-variant: small-caps;'>Charged</span></b> profile of its <b><span style='font-variant: small-caps;'>“Minuano” Kinetic Saber</span></b> may attack characters in <b>Burst 2</b>.</p>"
+    "effect": "<p>If the Kensei takes the final NPC turn of the round, for that turn the <b><span style='font-variant: small-caps;'>Charged</span></b> profile of its <b><span style='font-variant: small-caps;'>“Minuano” Kinetic Saber</span></b> may attack characters in <b>Burst 10</b> and line of sight but not in <b>hard cover</b> or <b><span style='font-variant: small-caps;'>Prone</span></b>. After the attack resolves, all terrain <b><span style='font-variant: small-caps;'>Size 5</span></b> and smaller is reduced in height by <b>1</b> as it is cut down.</p>"
   },
   {
     "id": "ppg_npcf_evergaol_knight",
@@ -4490,7 +4490,7 @@
     "locked": false,
     "type": "Trait",
     "tags": [],
-    "effect": "<p>When the Knight uses <b><span style='font-variant: small-caps;'>Compelled Duel</span></b>, it may choose an additional target to <b>duel</b>. It may use <b><span style='font-variant: small-caps;'>Compelled Duel</span></b> again so long as it has no more than two <b>duel</b> opponents.</p>"
+    "effect": "<p>The Knight may have up to two <b>duel</b> opponents. It may choose two targets when it uses <b><span style='font-variant: small-caps;'>Compelled Duel</span></b>, and may use <b><span style='font-variant: small-caps;'>Compelled Duel</span></b> again while it has fewer than two <b>duel</b> opponents.</p>"
   },
   {
     "id": "ppg_npcf_hall_of_mirrors_mesmerist",
