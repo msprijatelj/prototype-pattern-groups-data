@@ -2981,7 +2981,7 @@
     "locked": false,
     "type": "Trait",
     "tags": [],
-    "effect": "<p>On a <b>critical hit</b>, the Anomaly may force the target to pass an <b><span style='font-variant: small-caps;'>Engineering</span></b> save or lose <b>2d3 <span style='font-variant: small-caps;'>Armor</span></b>, half on success. This can cause the target to have negative <b><span style='font-variant: small-caps;'>Armor</span></b>. Therefore, incoming damage increases by the negative <b><span style='font-variant: small-caps;'>Armor</span></b> value instead. The <b>AP</b> tag does not affect targets with negative <b><span style='font-variant: small-caps;'>Armor</span></b>. The target can end this effect by <b><span style='font-variant: small-caps;'>Stabilizing</span></b> and choosing to restore <b>HP</b>.</p>"
+    "effect": "<p>Upon hitting with a weapon attack, the Anomaly may force the target to pass an <b><span style='font-variant: small-caps;'>Engineering</span></b> save or lose <b><span style='font-variant: small-caps;'>1 Armor</span></b>, with repeated failures causing additional loss of <b><span style='font-variant: small-caps;'>Armor</span></b>. This can cause the target to have negative <b><span style='font-variant: small-caps;'>Armor</span></b>. Therefore, incoming damage increases by the negative <b><span style='font-variant: small-caps;'>Armor</span></b> value instead. The <b>AP</b> tag does not affect targets with negative <b><span style='font-variant: small-caps;'>Armor</span></b>. The target can regain all lost <b><span style='font-variant: small-caps;'>Armor</span></b> by <b><span style='font-variant: small-caps;'>Stabilizing</span></b> and choosing to restore <b>HP</b>.</p>"
   },
   {
     "id": "ppg_npcf_harbinger_anomaly",
@@ -3114,7 +3114,7 @@
         "val": 1
       }
     ],
-    "effect": "<p>The Anomaly targets a mech in <b><span style='font-variant: small-caps;'>Sensors</span></b>. Up to {1/2/3} random systems without the <b>AI</b> tag installed on the target become NHP systems, gaining the <b>AI</b> tag and the ability to <b>cascade</b>. These may exceed the maximum number of AIs that can be installed on the mech, but while the mech exceeds its maximum AIs, it has <b>+1 Difficulty</b> on cascade rolls (to a minimum result of <b>1</b>). These NHPs may be safely removed during a <b><span style='font-variant: small-caps;'>Full Repair</span></b>.</p>"
+    "effect": "<p>The Anomaly targets a mech in <b><span style='font-variant: small-caps;'>Sensors</span></b>. Up to <b>1</b> random system without the <b>AI</b> tag installed on the target becomes an NHP system, gaining the <b>AI</b> tag and the ability to <b>cascade</b>. This may exceed the maximum number of AIs that can be installed on the mech, but while the mech exceeds its maximum AIs, it has <b>+1 Difficulty</b> on cascade rolls (to a minimum result of <b>1</b>). This NHP may be safely removed during a <b><span style='font-variant: small-caps;'>Full Repair</span></b>.</p>"
   },
   {
     "id": "ppg_npcf_memory_leak_anomaly",
