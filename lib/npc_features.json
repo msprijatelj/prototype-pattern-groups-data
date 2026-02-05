@@ -3560,6 +3560,22 @@
     }
   },
   {
+    "id": "ppg_npcf_dense_dense",
+    "name": "Dense",
+    "origin": {
+      "type": "Template",
+      "name": "Dense",
+      "base": true
+    },
+    "locked": false,
+    "type": "Trait",
+    "tags": [],
+    "effect": "<p>This template may only be taken by an NPC larger than <b><span style='font-variant: small-caps;'>Size 2</span></b>. The NPC occupies a space one <b><span style='font-variant: small-caps;'>Size</span></b> smaller, but is otherwise treated as its original <b><span style='font-variant: small-caps;'>Size</span></b>.</p>",
+    "bonus": {
+      "size": -1
+    }
+  },
+  {
     "id": "ppg_npcf_faster_faster",
     "name": "Faster",
     "origin": {

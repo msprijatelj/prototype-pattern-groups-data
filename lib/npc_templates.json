@@ -99,6 +99,16 @@
     "power": 0
   },
   {
+    "id": "ppg_npct_dense",
+    "name": "Dense",
+    "description": "<p>NPCs larger than <b><span style='font-variant: small-caps;'>Size 2</span></b> often struggle to squeeze into a map. Apply this template to such NPCs to fit them more easily on a battle map.</p>",
+    "base_features": [
+      "ppg_npcf_dense_dense"
+    ],
+    "optional_features": [],
+    "power": 0
+  },
+  {
     "id": "ppg_npct_faster",
     "name": "Faster",
     "description": "<p>Use with the <b><span style='font-variant: small-caps;'>No Split Moves</span></b> with optional rule.</p>",
