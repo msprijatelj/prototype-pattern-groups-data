@@ -189,6 +189,211 @@
     "effect": "<p>The Anchor creates a <b>Blast 3</b> area in <b><span style='font-variant: small-caps;'>Sensors</span></b> extending <b>6 spaces high</b>. This area becomes a <b>zero-g</b> area that lasts until the Anchor uses this system again. Characters within the area upon its creation must pass an <b><span style='font-variant: small-caps;'>Agility</span></b> save or be <b><span style='font-variant: small-caps;'>Impaired</span></b> until the end of their next turn.</p>"
   },
   {
+    "id": "ppg_npcf_waveform_nexus_boombox",
+    "name": "Waveform Nexus",
+    "origin": {
+      "type": "Class",
+      "name": "Boombox",
+      "base": true
+    },
+    "locked": false,
+    "type": "Weapon",
+    "weapon_type": "Main Nexus",
+    "tags": [
+      {
+        "id": "tg_smart"
+      }
+    ],
+    "attack_bonus": [
+      1,
+      2,
+      3
+    ],
+    "range": [
+      {
+        "type": "Burst",
+        "val": 2
+      }
+    ],
+    "damage": [
+      {
+        "type": "Explosive",
+        "damage": [
+          3,
+          4,
+          5
+        ]
+      }
+    ],
+    "effect": "<p>This weapon ignores engagement and does not affect allies.</p>",
+    "on_hit": "<p>The target gains <b><span style='font-variant: small-caps;'>Lock On</span></b>.</p>"
+  },
+  {
+    "id": "ppg_npcf_soundboard_boombox",
+    "name": "Soundboard",
+    "origin": {
+      "type": "Class",
+      "name": "Boombox",
+      "base": true
+    },
+    "locked": false,
+    "type": "Tech",
+    "tech_type": "Quick",
+    "tags": [
+      {
+        "id": "tg_quick_tech"
+      }
+    ],
+    "effect": "<p>The Boombox plays music in a <b>Burst 2</b> area until the start of its next turn. Upon activating this system, the Boombox chooses one of the following effects, which affects hostile characters that start their turn in the area or enter it for the first time in a round:<ul><li><b><span style='font-variant: small-caps;'>Bass Drop</span></b>: Make a <b><span style='font-variant: small-caps;'>Hull</span></b> save or be knocked <b><span style='font-variant: small-caps;'>Prone</span></b>.</li><li><b><span style='font-variant: small-caps;'>Jam Session</span></b>: Make a <b><span style='font-variant: small-caps;'>Systems</span></b> save or become <b><span style='font-variant: small-caps;'>Jammed</span></b> while in the area.</li></ul>Each save caused by this effect inflicts <b>1 Heat</b> to the Boombox.</p>"
+  },
+  {
+    "id": "ppg_npcf_soundproof_boombox",
+    "name": "Soundproof",
+    "origin": {
+      "type": "Class",
+      "name": "Boombox",
+      "base": true
+    },
+    "locked": false,
+    "type": "Trait",
+    "tags": [
+      {
+        "id": "tg_shield"
+      }
+    ],
+    "effect": "<p>The Boombox and all allies within <b>Burst 2</b> have <b><span style="font-variant: small-caps;">Resistance</span></b> to <b>Explosive damage</b>.</p>"
+  },
+  {
+    "id": "ppg_npcf_bust_a_move_boombox",
+    "name": "Bust a Move",
+    "origin": {
+      "type": "Class",
+      "name": "Boombox",
+      "base": false
+    },
+    "locked": false,
+    "type": "Tech",
+    "tech_type": "Quick",
+    "tags": [
+      {
+        "id": "tg_recharge",
+        "val": 4
+      },
+      {
+        "id": "tg_quick_tech"
+      }
+    ],
+    "attack_bonus": [
+      1,
+      2,
+      3
+    ],
+    "effect": "<p>Make a tech attack against a character within <b><span style="font-variant: small-caps;">Sensors</span></b>. On a hit, the target is <b><span style="font-variant: small-caps;">Impaired</span></b> until the end of their next turn and knocked <b><span style="font-variant: small-caps;">Prone</span></b>.</p>"
+  },
+  {
+    "id": "ppg_npcf_power_chord_boombox",
+    "name": "Power Chord",
+    "origin": {
+      "type": "Class",
+      "name": "Boombox",
+      "base": false
+    },
+    "locked": false,
+    "type": "Weapon",
+    "weapon_type": "Heavy Melee",
+    "tags": [
+      {
+        "id": "tg_loading"
+      }
+    ],
+    "attack_bonus": [
+      1,
+      2,
+      3
+    ],
+    "range": [
+      {
+        "type": "Cone",
+        "val": 7
+      }
+    ],
+    "damage": [
+      {
+        "type": "Explosive",
+        "damage": [
+          4,
+          6,
+          8
+        ]
+      }
+    ],
+    "effect": "<p>Allies within the area of this attack clear <b><span style="font-variant: small-caps;">Jammed</span></b> and <b><span style="font-variant: small-caps;">Impaired</span></b>. They are otherwise unaffected by this weapon.</p>",
+    "on_hit": "<p>The target is <b><span style="font-variant: small-caps;">Shredded</span></b> until the end of their next turn.</p>"
+  },
+  {
+    "id": "ppg_npcf_reverb_feedback_boombox",
+    "name": "Reverb Feedback",
+    "origin": {
+      "type": "Class",
+      "name": "Boombox",
+      "base": false
+    },
+    "locked": false,
+    "type": "System",
+    "tags": [
+      {
+        "id": "tg_recharge",
+        "val": 6
+      },
+      {
+        "id": "tg_free_action"
+      }
+    ],
+    "effect": "<p>When the Boombox uses <b><span style="font-variant: small-caps;">Soundboard</span></b>, allies in the area immediately gain the following benefits depending on which option the Boombox chooses:<ul><li><b><span style="font-variant: small-caps;">Bass Drop</span></b>: Clear <b><span style="font-variant: small-caps;">Immobilized</span></b> and <b><span style="font-variant: small-caps;">Slowed</span></b>, and stand up from <b><span style="font-variant: small-caps;">Prone</span></b>.</li><li><b><span style="font-variant: small-caps;">Jam Session</span></b>: End one <b>tech action</b> effect.</li></ul></p>"
+  },
+  {
+    "id": "ppg_npcf_sound_barrier_boombox",
+    "name": "Sound Barrier",
+    "origin": {
+      "type": "Class",
+      "name": "Boombox",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "tags": [
+      {
+        "id": "tg_shield"
+      }
+    ],
+    "effect": "<p><b><span style="font-variant: small-caps;">Soundboard</span></b>’s area grants <b>soft cover</b> to allies.</p>"
+  },
+  {
+    "id": "ppg_npcf_spotlight_boombox",
+    "name": "Spotlight",
+    "origin": {
+      "type": "Class",
+      "name": "Boombox",
+      "base": false
+    },
+    "locked": false,
+    "type": "Tech",
+    "tech_type": "Quick",
+    "tags": [
+      {
+        "id": "tg_arcing"
+      },
+      {
+        "id": "tg_recharge",
+        "val": 4
+      },
+      {
+        "id": "tg_quick_tech"
+      }
+    ],
+    "effect": "<p>The Boombox creates a <b>Blast 1</b> area in <b><span style="font-variant: small-caps;">Sensors</span></b> extending <b>10 spaces high</b>. Hostile characters that start their turn in the area or enter it for the first time in a round must make an <b><span style="font-variant: small-caps;">Agility</span></b> save or gain <b><span style="font-variant: small-caps;">Lock On</span></b> and lose <b><span style="font-variant: small-caps;">Invisible</span></b> and <b><span style="font-variant: small-caps;">Hidden</span></b>. Creating a new area destroys any old ones.</p>"
+  },
+  {
     "id": "ppg_npcf_marathon_arquebus_capacitor",
     "name": "Marathon Arquebus",
     "origin": {
