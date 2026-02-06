@@ -261,7 +261,7 @@
         "id": "tg_shield"
       }
     ],
-    "effect": "<p>The Boombox and all allies within <b>Burst 2</b> have <b><span style="font-variant: small-caps;">Resistance</span></b> to <b>Explosive damage</b>.</p>"
+    "effect": "<p>The Boombox and all allies within <b>Burst 2</b> have <b><span style='font-variant: small-caps;'>Resistance</span></b> to <b>Explosive damage</b>.</p>"
   },
   {
     "id": "ppg_npcf_bust_a_move_boombox",
@@ -288,7 +288,7 @@
       2,
       3
     ],
-    "effect": "<p>Make a tech attack against a character within <b><span style="font-variant: small-caps;">Sensors</span></b>. On a hit, the target is <b><span style="font-variant: small-caps;">Impaired</span></b> until the end of their next turn and knocked <b><span style="font-variant: small-caps;">Prone</span></b>.</p>"
+    "effect": "<p>Make a tech attack against a character within <b><span style='font-variant: small-caps;'>Sensors</span></b>. On a hit, the target is <b><span style='font-variant: small-caps;'>Impaired</span></b> until the end of their next turn and knocked <b><span style='font-variant: small-caps;'>Prone</span></b>.</p>"
   },
   {
     "id": "ppg_npcf_power_chord_boombox",
@@ -327,8 +327,8 @@
         ]
       }
     ],
-    "effect": "<p>Allies within the area of this attack clear <b><span style="font-variant: small-caps;">Jammed</span></b> and <b><span style="font-variant: small-caps;">Impaired</span></b>. They are otherwise unaffected by this weapon.</p>",
-    "on_hit": "<p>The target is <b><span style="font-variant: small-caps;">Shredded</span></b> until the end of their next turn.</p>"
+    "effect": "<p>Allies within the area of this attack clear <b><span style='font-variant: small-caps;'>Jammed</span></b> and <b><span style='font-variant: small-caps;'>Impaired</span></b>. They are otherwise unaffected by this weapon.</p>",
+    "on_hit": "<p>The target is <b><span style='font-variant: small-caps;'>Shredded</span></b> until the end of their next turn.</p>"
   },
   {
     "id": "ppg_npcf_reverb_feedback_boombox",
@@ -349,7 +349,7 @@
         "id": "tg_free_action"
       }
     ],
-    "effect": "<p>When the Boombox uses <b><span style="font-variant: small-caps;">Soundboard</span></b>, allies in the area immediately gain the following benefits depending on which option the Boombox chooses:<ul><li><b><span style="font-variant: small-caps;">Bass Drop</span></b>: Clear <b><span style="font-variant: small-caps;">Immobilized</span></b> and <b><span style="font-variant: small-caps;">Slowed</span></b>, and stand up from <b><span style="font-variant: small-caps;">Prone</span></b>.</li><li><b><span style="font-variant: small-caps;">Jam Session</span></b>: End one <b>tech action</b> effect.</li></ul></p>"
+    "effect": "<p>When the Boombox uses <b><span style='font-variant: small-caps;'>Soundboard</span></b>, allies in the area immediately gain the following benefits depending on which option the Boombox chooses:<ul><li><b><span style='font-variant: small-caps;'>Bass Drop</span></b>: Clear <b><span style='font-variant: small-caps;'>Immobilized</span></b> and <b><span style='font-variant: small-caps;'>Slowed</span></b>, and stand up from <b><span style='font-variant: small-caps;'>Prone</span></b>.</li><li><b><span style='font-variant: small-caps;'>Jam Session</span></b>: End one <b>tech action</b> effect.</li></ul></p>"
   },
   {
     "id": "ppg_npcf_sound_barrier_boombox",
@@ -366,7 +366,7 @@
         "id": "tg_shield"
       }
     ],
-    "effect": "<p><b><span style="font-variant: small-caps;">Soundboard</span></b>’s area grants <b>soft cover</b> to allies.</p>"
+    "effect": "<p><b><span style='font-variant: small-caps;'>Soundboard</span></b>’s area grants <b>soft cover</b> to allies.</p>"
   },
   {
     "id": "ppg_npcf_spotlight_boombox",
@@ -391,7 +391,7 @@
         "id": "tg_quick_tech"
       }
     ],
-    "effect": "<p>The Boombox creates a <b>Blast 1</b> area in <b><span style="font-variant: small-caps;">Sensors</span></b> extending <b>10 spaces high</b>. Hostile characters that start their turn in the area or enter it for the first time in a round must make an <b><span style="font-variant: small-caps;">Agility</span></b> save or gain <b><span style="font-variant: small-caps;">Lock On</span></b> and lose <b><span style="font-variant: small-caps;">Invisible</span></b> and <b><span style="font-variant: small-caps;">Hidden</span></b>. Creating a new area destroys any old ones.</p>"
+    "effect": "<p>The Boombox creates a <b>Blast 1</b> area in <b><span style='font-variant: small-caps;'>Sensors</span></b> extending <b>10 spaces high</b>. Hostile characters that start their turn in the area or enter it for the first time in a round must make an <b><span style='font-variant: small-caps;'>Agility</span></b> save or gain <b><span style='font-variant: small-caps;'>Lock On</span></b> and lose <b><span style='font-variant: small-caps;'>Invisible</span></b> and <b><span style='font-variant: small-caps;'>Hidden</span></b>. Creating a new area destroys any old ones.</p>"
   },
   {
     "id": "ppg_npcf_marathon_arquebus_capacitor",
@@ -4384,6 +4384,28 @@
     "effect": "<p>The <b><span style='font-variant: small-caps;'>Gravity Cannon</span></b> may attack in a <b>Cone 7</b> or <b>Line 10</b> area. Upon attacking with the <b><span style='font-variant: small-caps;'>Gravity Cannon</span></b>, the Anchor may create up to <b>3 pieces</b> of <b><span style='font-variant: small-caps;'>Size 1</span></b> terrain or <b>1 piece</b> of <b><span style='font-variant: small-caps;'>Size 2</span></b> terrain in the attack’s area.</p>"
   },
   {
+    "id": "ppg_npcf_featured_artist_boombox",
+    "name": "Featured Artist (Ultra)",
+    "origin": {
+      "type": "Class",
+      "name": "Boombox",
+      "base": false
+    },
+    "locked": false,
+    "type": "Tech",
+    "tech_type": "Full",
+    "tags": [
+      {
+        "id": "tg_limited",
+        "val": 1
+      },
+      {
+        "id": "tg_full_tech"
+      }
+    ],
+    "effect": "<p>The Boombox chooses one ally in <b><span style='font-variant: small-caps;'>Sensors</span></b>. They gain the <b><span style='font-variant: small-caps;'>Veteran</span></b> template if they did not have it already, in addition to one <b><span style='font-variant: small-caps;'>Veteran</span></b> feature (by default, <b><span style='font-variant: small-caps;'>Legendary</span></b> or <b><span style='font-variant: small-caps;'>Limitless</span></b>). The target then regains all <b>HP</b>, <b><span style='font-variant: small-caps;'>Stabilizes</span></b> (without requiring a reaction), and clears all conditions, <b>Burn</b>, and hostile <b>tech action</b> effects.</p>"
+  },
+  {
     "id": "ppg_npcf_thunderfall_capacitor",
     "name": "Thunderfall (Ultra)",
     "origin": {
@@ -4607,6 +4629,30 @@
     "type": "Trait",
     "tags": [],
     "effect": "<p>While <b><span style='font-variant: small-caps;'>Lodestone</span></b> is active, allied characters may target the Anchor with ranged weapons as if attacking it (excluding <b>Blast</b>, <b>Burst</b>, <b>Cone</b>, or <b>Line</b> weapons). The Anchor automatically redirects the attack against a new target of the attacker’s choice within <b>Range 10</b>, resolving the attack as if it originated from the Anchor.</p>"
+  },
+  {
+    "id": "ppg_npcf_subwoofer_boombox",
+    "name": "Subwoofer (Veteran)",
+    "origin": {
+      "type": "Class",
+      "name": "Boombox",
+      "base": false
+    },
+    "locked": false,
+    "type": "System",
+    "tags": [
+      {
+        "id": "tg_deployable"
+      },
+      {
+        "id": "tg_limited",
+        "val": 1
+      },
+      {
+        "id": "tg_quick_action"
+      }
+    ],
+    "effect": "<p><b>Subwoofer (Size </b>1/2<b>, HP </b>{12/15/18}<b>, Evasion </b>5<b>, E-Defense </b>8<b>, Tags: </b><i>Deployable</i><b>)</b></p><p>Deploy a subwoofer to a free space in <b><span style='font-variant: small-caps;'>Sensors</span></b>. While <b><span style='font-variant: small-caps;'>Soundboard</span></b> is active, it also creates a <b>Burst 2</b> area around the subwoofer with the same effect.</p>"
   },
   {
     "id": "ppg_npcf_high_voltage_capacitor",
