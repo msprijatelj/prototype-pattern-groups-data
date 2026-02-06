@@ -972,6 +972,198 @@
     "effect": "<p>The Hatchet interrupts the triggering action, changing the action’s target from itself to the triggering character as if the action originated from the Hatchet. If the action affects one or more areas, the Hatchet moves any areas that include itself to instead include the triggering character and exclude itself (if possible). The triggering character still counts as taking the action.</p>"
   },
   {
+    "id": "ppg_npcf_ripper_claws_howler",
+    "name": "Ripper Claws",
+    "origin": {
+      "type": "Class",
+      "name": "Howler",
+      "base": true
+    },
+    "locked": false,
+    "type": "Weapon",
+    "weapon_type": "Auxiliary Melee",
+    "tags": [
+      {
+        "id": "tg_ap"
+      }
+    ],
+    "attack_bonus": [
+      1,
+      2,
+      3
+    ],
+    "range": [
+      {
+        "type": "Threat",
+        "val": 2
+      }
+    ],
+    "damage": [
+      {
+        "type": "Energy",
+        "damage": [
+          4,
+          5,
+          6
+        ]
+      }
+    ],
+    "effect": "<p>Attacks with this weapon ignore the 1/round limit of <b><span style='font-variant: small-caps;'>Overwatch</span></b>.</p><p>This weapon is not a valid target for weapon destruction.</p>"
+  },
+  {
+    "id": "ppg_npcf_feral_howl_howler",
+    "name": "Feral Howl",
+    "origin": {
+      "type": "Class",
+      "name": "Howler",
+      "base": true
+    },
+    "locked": false,
+    "type": "Tech",
+    "tech_type": "Quick",
+    "tags": [
+      {
+        "id": "tg_overshield"
+      },
+      {
+        "id": "tg_heat_self",
+        "val": 2
+      },
+      {
+        "id": "tg_quick_tech"
+      }
+    ],
+    "effect": "<p>The Howler issues a blood-curdling howl in a <b>Burst 2</b> area, gaining <b><span style='font-variant: small-caps;'>Overshield</span></b> equal to <b>3</b> plus twice the number of hostile characters in the area. Hostile characters within the area enter a fight-or-flight state; at the end of their next turn, if they did not make a melee or ranged attack against the Howler that turn, they trigger the Howler’s <b><span style='font-variant: small-caps;'>Overwatch</span></b>.</p>"
+  },
+  {
+    "id": "ppg_npcf_rabid_lunge_howler",
+    "name": "Rabid Lunge",
+    "origin": {
+      "type": "Class",
+      "name": "Howler",
+      "base": true
+    },
+    "locked": false,
+    "type": "System",
+    "tags": [
+      {
+        "id": "tg_recharge",
+        "val": 5
+      },
+      {
+        "id": "tg_quick_action"
+      }
+    ],
+    "effect": "<p>The Howler flies its <b><span style='font-variant: small-caps;'>Speed</span></b> in a straight line. It must end this movement on a solid surface; after landing, as a <b>free action</b> it may <b><span style='font-variant: small-caps;'>Ram</span></b> or <b><span style='font-variant: small-caps;'>Skirmish</span></b> with its <b><span style='font-variant: small-caps;'>Ripper Claws</span></b>.</p>"
+  },
+  {
+    "id": "ppg_npcf_no_escape_howler",
+    "name": "No Escape",
+    "origin": {
+      "type": "Class",
+      "name": "Howler",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "tags": [],
+    "effect": "<p>When the Howler hits with <b><span style='font-variant: small-caps;'>Overwatch</span></b>, it may move directly to any space adjacent to its target, ignoring engagement and reactions.</p>"
+  },
+  {
+    "id": "ppg_npcf_longclaw_howler",
+    "name": "Longclaw",
+    "origin": {
+      "type": "Class",
+      "name": "Howler",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "tags": [],
+    "effect": "<p>The Howler can <b><span style='font-variant: small-caps;'>Boost</span></b> and take <b>reactions</b> while grappling. It can initiate and maintain <b><span style='font-variant: small-caps;'>Grapples</span></b> against targets within <b>Range 2</b>. Characters grappled by the Howler may always make melee attacks against it as if it were adjacent to them.</p>"
+  },
+  {
+    "id": "ppg_npcf_bloodhunt_howler",
+    "name": "Bloodhunt",
+    "origin": {
+      "type": "Class",
+      "name": "Howler",
+      "base": false
+    },
+    "locked": false,
+    "type": "System",
+    "tags": [
+      {
+        "id": "tg_heat_self",
+        "val": 1
+      },
+      {
+        "id": "tg_protocol"
+      }
+    ],
+    "effect": "<p>Until the start of the Howler’s next turn, it ignores <b><span style='font-variant: small-caps;'>Invisible</span></b> and <b><span style='font-variant: small-caps;'>Hidden</span></b> on characters in its <b><span style='font-variant: small-caps;'>Sensors</span></b> (ignoring line of sight) that are in the <b><span style='font-variant: small-caps;'>Danger Zone</span></b> or under half their maximum <b>HP</b>.</p>"
+  },
+  {
+    "id": "ppg_npcf_viral_bite_howler",
+    "name": "Viral Bite",
+    "origin": {
+      "type": "Class",
+      "name": "Howler",
+      "base": false
+    },
+    "locked": false,
+    "type": "Weapon",
+    "weapon_type": "Auxiliary Melee",
+    "tags": [
+      {
+        "id": "tg_danger_zone"
+      }
+    ],
+    "attack_bonus": [
+      1,
+      2,
+      3
+    ],
+    "range": [
+      {
+        "type": "Threat",
+        "val": 1
+      }
+    ],
+    "damage": [
+      {
+        "type": "Kinetic",
+        "damage": [
+          4,
+          5,
+          6
+        ]
+      },
+      {
+        "type": "Heat",
+        "damage": [
+          1,
+          1,
+          1
+        ]
+      }
+    ],
+    "on_hit": "<p>All characters treat the target as hostile, and the target treats all characters as hostile. This lasts until the target causes the Howler to lose any <b>HP</b> (not including <b><span style='font-variant: small-caps;'>Overshield</span></b>).</p>"
+  },
+  {
+    "id": "ppg_npcf_lunar_splendor_howler",
+    "name": "Lunar Splendor",
+    "origin": {
+      "type": "Class",
+      "name": "Howler",
+      "base": false
+    },
+    "locked": false,
+    "type": "System",
+    "tags": [],
+    "effect": "<p>While the Howler has any <b><span style='font-variant: small-caps;'>Overshield</span></b>, hostile characters within <b><span style='font-variant: small-caps;'>Threat</span></b> of its <b><span style='font-variant: small-caps;'>Ripper Claws</span></b> gain <b>+1 Difficulty</b> on attacks that do not target the Howler.</p>"
+  },
+  {
     "id": "ppg_npcf_minuano_kinetic_saber_kensei",
     "name": "“Minuano” Kinetic Saber",
     "origin": {
@@ -4464,6 +4656,19 @@
     "effect": "<p>The Hatchet may make one <b><span style='font-variant: small-caps;'>Thrown</span></b> weapon attack against each hostile character in <b><span style='font-variant: small-caps;'>Range</span></b> of its <b><span style='font-variant: small-caps;'>Thrown</span></b> weapons, without needing to retrieve each weapon. Each attack creates a copy of the weapon that lands adjacent to the target’s space.</p><p>Until the end of the Hatchet’s next turn, it may take a second <b>full action</b> to <b>teleport</b> adjacent to one of its <b><span style='font-variant: small-caps;'>Thrown</span></b> weapons, then retrieve all its <b><span style='font-variant: small-caps;'>Thrown</span></b> weapons. All hostile characters adjacent to a retrieved weapon must pass an <b><span style='font-variant: small-caps;'>Agility</span></b> save or be pushed <b>2 spaces</b> in any direction and take {6/8/10} Kinetic damage. On a success, the target takes half damage and isn’t pushed. This counts as damage from <b><span style='font-variant: small-caps;'>Cleaving Retrieval</span></b>.</p>"
   },
   {
+    "id": "ppg_npcf_a_beast_uncaged_howler",
+    "name": "A Beast Uncaged (Ultra)",
+    "origin": {
+      "type": "Class",
+      "name": "Howler",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "tags": [],
+    "effect": "<p>After taking <b>structure damage</b>, the Howler clears all effects caused by hostile sources, clears <b><span style='font-variant: small-caps;'>Exposed</span></b>, and stands up from <b><span style='font-variant: small-caps;'>Prone</span></b>.</p>"
+  },
+  {
     "id": "ppg_npcf_mortal_draw_kensei",
     "name": "Mortal Draw (Ultra)",
     "origin": {
@@ -4701,6 +4906,19 @@
     "type": "Trait",
     "tags": [],
     "effect": "<p>When using <b><span style='font-variant: small-caps;'>Cleaving Retrieval</span></b>, all characters in a <b>Line</b> between the Hatchet and its retrieved weapon must make an <b><span style='font-variant: small-caps;'>Agility</span></b> save or be knocked <b><span style='font-variant: small-caps;'>Prone</span></b>.</p>"
+  },
+  {
+    "id": "ppg_npcf_rip_and_tear_howler",
+    "name": "Rip and Tear (Veteran)",
+    "origin": {
+      "type": "Class",
+      "name": "Howler",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "tags": [],
+    "effect": "<p>The <b><span style='font-variant: small-caps;'>Ripper Claws</span></b> gain <b><span style='font-variant: small-caps;'>Reliable</span></b> {1/1/2} and “<b>On Attack</b>: All other hostile characters within <b><span style='font-variant: small-caps;'>Threat</span></b> take {1/1/2} <b>Energy AP damage</b>.”</p>"
   },
   {
     "id": "ppg_npcf_pommel_launcher_kensei",
