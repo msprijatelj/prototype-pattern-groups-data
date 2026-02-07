@@ -1460,7 +1460,7 @@
         ]
       }
     ],
-    "on_hit": "<p>The target gains <b><span style='font-variant: small-caps;'>Lock On</span></b>. If they are affected by <b><span style='font-variant: small-caps;'>Compelled Duel</span></b>, they are also <b><span style='font-variant: small-caps;'>Shredded</span></b> until the end of their next turn.</p>"
+    "on_hit": "<p>If the target is the Knight’s duel opponent, they are <b><span style='font-variant: small-caps;'>Stunned</span></b> until the start of their next turn.</p>"
   },
   {
     "id": "ppg_npcf_templars_shield_knight",
