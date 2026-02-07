@@ -515,8 +515,8 @@
     "name": "Howler",
     "role": "defender",
     "info": {
-      "flavor": "<p></p>",
-      "tactics": "<p></p>"
+      "flavor": "<p>Offspring of leaked Enkidu blueprints and the emergent Lycan PG, the Howler pattern group melds its forebears’ aggressive tendencies with a viral strain of liturgicode that induces a “fight-or-flight” response in its prey. A ferocious temperament and chemical stimulants are not required to control a Howler, but pilots who use either are not uncommon.</p>",
+      "tactics": "<p>Howlers open combat with a <b><span style='font-variant: small-caps;'>Rabid Lunge</span></b> towards the enemy frontline before taunting everyone in reach with a <b><span style='font-variant: small-caps;'>Feral Howl</span></b>. They then liberally <b><span style='font-variant: small-caps;'>Overwatch</span></b> with <b><span style='font-variant: small-caps;'>Ripper Claws</span></b> to punish victims who refuse to stand and fight them. Though fearsome at close range, Howlers are dependent on <b><span style='font-variant: small-caps;'>Rabid Lunge</span></b> for reaching opponents and are declawed when <b><span style='font-variant: small-caps;'>Immobilized</span></b> or <b><span style='font-variant: small-caps;'>Slowed</span></b>.</p>"
     },
     "stats": {
       "armor": [
