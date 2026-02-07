@@ -328,7 +328,7 @@
       }
     ],
     "effect": "<p>Allies within the area of this attack clear <b><span style='font-variant: small-caps;'>Jammed</span></b> and <b><span style='font-variant: small-caps;'>Impaired</span></b>. They are otherwise unaffected by this weapon.</p>",
-    "on_hit": "<p>The target is <b><span style='font-variant: small-caps;'>Shredded</span></b> until the end of their next turn.</p>"
+    "on_hit": "<p>The target is <b><span style='font-variant: small-caps;'>Stunned</span></b> until the start of their next turn.</p>"
   },
   {
     "id": "ppg_npcf_reverb_feedback_boombox",

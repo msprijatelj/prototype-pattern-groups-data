@@ -106,8 +106,8 @@
     "name": "Boombox",
     "role": "support",
     "info": {
-      "flavor": "<p></p>",
-      "tactics": "<p></p>"
+      "flavor": "<p>Boombox-pattern mechs emerged in the wake of the music ban on Jörmungandr-3. By curtailing free expression, every performance became an act of war. There is a certain humor in the fact that the mechs that overthrew that government were once turntables.</p>",
+      "tactics": "<p>Boombox mechs thrive in the fray: They trip up foes with their <b><span style='font-variant: small-caps;'>Soundboards</span></b> and leave them reeling with <b><span style='font-variant: small-caps;'>Lock On</span></b> from <b><span style='font-variant: small-caps;'>Waveform Nexus</span></b>. Outside of their limited range, Boombox mechs have only <b><span style='font-variant: small-caps;'>Soundproof</span></b> to protect them. Judicial use of <b><span style='font-variant: small-caps;'>Knockback</span></b> and involuntary movement effectively silences a Boombox.</p>"
     },
     "stats": {
       "armor": [
